@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Deutsch";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -54,7 +54,7 @@ $aLang = [
 'BARGAIN'                                                     => 'Schnäppchen',
 'BARGAIN_PRODUCTS'                                            => 'Die besten Schnäppchen des Shops',
 'BASKET_EMPTY'                                                => 'Der Warenkorb ist leer.',
-'BIC'                                                         => 'BIC:',
+'BIC'                                                         => 'BIC',
 'BILLING_ADDRESS'                                             => 'Rechnungsadresse',
 'BILLING_SHIPPING_SETTINGS'                                   => 'Rechnungs- und Lieferadressen',
 'BIRTHDATE'                                                   => 'Geburtsdatum',
@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Beenden',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Prüfziffer',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Diese befindet sich auf der Rückseite Ihrer Kreditkarte. Die Prüfziffer sind die letzten drei Ziffern im Unterschriftsfeld.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Karte an',
 /** end deprecated */
 'CART'                                                        => 'Warenkorb',
 'CATEGORIES'                                                  => 'Kategorien',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Passwort ändern',
 'CHARGES'                                                     => 'Kosten',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Siehe',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Zur Kasse',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Ihre Bestellhistorie aufrufen',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Der Gutschein "%s" kann nicht akzeptiert werden.',
 'CREATE_PASSWORD'                                             => 'Passwort erstellen',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Karte',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktueller Artikel',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kunden, die diesen Artikel gekauft haben, kauften auch',
@@ -125,7 +125,7 @@ $aLang = [
 'DELIVERY_STATUS_NLB'                                         => 'Nicht lieferbar',
 'DELIVERY_STATUS_STO'                                         => 'Storniert',
 'DESCRIPTION'                                                 => 'Beschreibung',
-'DETAILS'                                                     => 'Beschriftung',
+'DETAILS'                                                     => 'Details',
 'DISCOUNT'                                                    => 'Rabatt',
 'DISPLAY_BASKET'                                              => 'Warenkorb zeigen',
 'DO_NOT_WANT_CREATE_ACCOUNT'                                  => '(Ich möchte kein Kundenkonto eröffnen)',
@@ -210,7 +210,7 @@ $aLang = [
 'GIFT_REGISTRY_SEARCH_RESULTS'                                => 'Wunschzettelsuchergebnis',
 'GIFT_WRAPPING'                                               => 'Geschenkverpackung',
 'GIFT_WRAPPING_GREETING_CARD'                                 => 'Geschenkverpackung/Grußkarte',
-'GO'                                                          => 'GO!',
+'GO'                                                          => 'Los!',
 'GRAND_TOTAL'                                                 => 'Gesamtbetrag',
 'GREETING'                                                    => 'Hallo,',
 'GREETING_CARD'                                               => 'Grußkarte',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Nachname',
 'LAST_SEEN_PRODUCTS'                                          => 'Zuletzt angesehene Artikel',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Neuigkeiten bei',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Es gibt momentan keine neuen Nachrichten',
 // END deprecated
 'LINKS'                                                       => 'Links',
 'LISTMANIA'                                                   => 'Lieblingslisten',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Verweigert aufgrund von Shopregeln',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-Mail-Adresse ist bereits vorhanden!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Geben Sie die Adressdaten und Ihre persönliche Nachricht ein!',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Nachricht von',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Holen Sie sich jetzt für Ihren Einkauf Bonuspunkte!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Bewerten Sie diesen Artikel!',
 'MESSAGE_READ_DETAILS'                                        => 'Lesen Sie Details zum',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klicken Sie auf "Empfehlung abschicken", um die E-Mail zu senden!',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Bitte wählen Sie mindestens einen Artikel aus!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Bitte wählen Sie Artikel zum Vergleichen aus!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Vielen Dank für das Abonnement unseres Newsletters.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Die von Ihnen gewählte Versandart ist nicht mehr verfügbar. Bitte wählen Sie eine andere Versandart aus!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Bitte kontrollieren Sie Ihre E-Mail-Adresse!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Herzlich willkommen als registriertes Mitglied!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Sollte etwas nicht lieferbar sein, werden wir Sie sofort informieren.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Der Prüfcode, den Sie eingegeben haben, ist nicht korrekt. Bitte versuchen Sie es erneut!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Sie haben bereits eine Bestellbestätigung per E-Mail erhalten.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Neue Artikel im Shop',
 'NEWLIST'                                                     => 'Neue Lieblingsliste',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'News',
 // END deprecated
 'NEWSLETTER'                                                  => 'Newsletter',
 'NEWSLETTER_SETTINGS'                                         => 'Newslettereinstellungen',
@@ -387,7 +387,7 @@ $aLang = [
 'BRAND'                                                       => 'Marke',
 'OUR_BRANDS'                                                  => 'Unsere Marken',
 'OUR_REGULAR_PRICE'                                           => '(Unser regulärer Preis)',
-'OXID_ESALES_URL'                                             => 'http://www.oxid-esales.com/de/startseite',
+'OXID_ESALES_URL'                                             => 'https://www.oxid-esales.com',
 'OXID_ESALES_URL_TITLE'                                       => 'Shopsoftware von OXID eSales',
 'PAGE'                                                        => 'Seite',
 'PASSWORD'                                                    => 'Passwort',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Artikelbilder',
 'PRODUCT_NO'                                                  => 'Art. Nr.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Artikelpostkarte von',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Artikel bewerten',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Öffentlicher Wunschzettel',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Name des Empfängers',
 'RECOMMEND'                                                   => 'Empfehlen',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Meine Artikelempfehlung',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Artikel weiterempfehlen',
 'REDEEM_COUPON'                                               => 'Gutschein einlösen',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Suche',
 'PAGE_TITLE_CLEARCOOKIES'                                     => 'Information über Cookies',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'News',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Artikel weiterempfehlen',
 'PAGE_TITLE_INVITE'                                           => 'Freunde einladen',
@@ -743,7 +743,7 @@ $aLang = [
 
 
 'BETA_NOTE'                                                   => 'Willkommen ',
-'BETA_NOTE_RELEASE_BETA'                                      => 'Beta',
+'BETA_NOTE_RELEASE_BETA'                                      => 'zur Beta',
 'BETA_NOTE_RELEASE_RC'                                        => 'zum Release-Kandidaten',
 'BETA_NOTE_MIDDLE'                                            => ' des OXID eShop ',
 'BETA_NOTE_FAQ'                                               => '. Häufig gestellte Fragen und Antworten sind in der %s gelistet.',
