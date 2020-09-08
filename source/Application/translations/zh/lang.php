@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "";
+$sLangName  = "English";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -21,23 +21,23 @@ $aLang = [
 
 'COLON'                                                       => '',
 'ELLIPSIS'                                                    => '',
-'ACCESSORIES'                                                 => '',
-'ACCOUNT'                                                     => '',
-'ACCOUNT_INFORMATION'                                         => '',
-'ADD'                                                         => '',
-'ADDITIONAL_INFO'                                             => '',
-'ADDRESS'                                                     => '',
-'ADDRESSES'                                                   => '',
-'ADD_THIS_PAGE_TO'                                            => '',
-'ADD_TO_CART'                                                 => '',
-'ADD_TO_GIFT_REGISTRY'                                        => '',
-'ADD_TO_LISTMANIA_LIST'                                       => '',
-'ADD_TO_WISH_LIST'                                            => '',
-'ADD_WRAPPING'                                                => '',
-'ADD_YOUR_COMMENTS'                                           => '',
-'ALL'                                                         => '',
-'ALL_LISTMANIA'                                               => '',
-'ALREADY_CUSTOMER'                                            => '',
+'ACCESSORIES'                                                 => '配件',
+'ACCOUNT'                                                     => '账号',
+'ACCOUNT_INFORMATION'                                         => '账号信息',
+'ADD'                                                         => '添加',
+'ADDITIONAL_INFO'                                             => '附加信息',
+'ADDRESS'                                                     => '地址',
+'ADDRESSES'                                                   => '地址',
+'ADD_THIS_PAGE_TO'                                            => '将该页添加到',
+'ADD_TO_CART'                                                 => '添加到购物车',
+'ADD_TO_GIFT_REGISTRY'                                        => '添加到礼品登记',
+'ADD_TO_LISTMANIA_LIST'                                       => '加入列表',
+'ADD_TO_WISH_LIST'                                            => '加入我喜欢的列表',
+'ADD_WRAPPING'                                                => '添加礼品包装',
+'ADD_YOUR_COMMENTS'                                           => '您的宝贵意见',
+'ALL'                                                         => '全部',
+'ALL_LISTMANIA'                                               => '所有列表',
+'ALREADY_CUSTOMER'                                            => '已注册用户',
 'APPLY'                                                       => '',
 'ARTNUM'                                                      => '',
 'ATENTION_GREETING_CARD'                                      => '',
@@ -772,7 +772,7 @@ $aLang = [
 'THANK_YOU_MESSAGE'                                           => '',
 
 
-'ALL_BRANDS'                                                  => '',
+'ALL_BRANDS'                                                  => '所有品牌',
 'BY_BRAND'                                                    => '',
 'BY_MANUFACTURER'                                             => '',
 'BY_VENDOR'                                                   => '',
