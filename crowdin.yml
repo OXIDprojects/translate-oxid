@@ -48,3 +48,5 @@ files:
   - source: /source/modules/tc/tcklarna/views/admin/en/tcklarna_lang.php
     translation: >-
       /source/modules/tc/tcklarna/views/admin/%two_letters_code%/tcklarna_lang.php
+  - source: /source/Application/views/wave/en/theme_options.php
+    translation: /source/Application/views/wave/%two_letters_code%/theme_options.php
