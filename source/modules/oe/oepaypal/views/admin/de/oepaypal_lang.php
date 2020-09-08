@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Deutsch';
+$sLangName = 'English';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -42,7 +42,7 @@ $aLang = array(
     'OEPAYPAL_MONEY_REFUND'                => '',
     'OEPAYPAL_CAPTURE'                     => '',
     'OEPAYPAL_REFUND'                      => '',
-    'OEPAYPAL_DETAILS'                     => 'Detaillierte Informationen',
+    'OEPAYPAL_DETAILS'                     => 'Beschriftung',
     'OEPAYPAL_AUTHORIZATION'               => '',
     'OEPAYPAL_CANCEL_AUTHORIZATION'        => '',
     'OEPAYPAL_PAYMENT_HISTORY'             => '',
