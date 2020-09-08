@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
                                                  '' .
@@ -167,7 +167,7 @@ $aLang =  [
                                                  ''.
                                                  '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'After this timeout the reserved products are returned to stock and customer\'s cart is cleared.',
+'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'After this timeout the reserved products are returned to stock and customer\'s basket is cleared.',
 
 'HELP_SHOP_CONFIG_INVITATION'                 => '' .
                                                  '',
@@ -235,9 +235,9 @@ $aLang =  [
 
 'HELP_SHOP_PERF_USESELECTLISTPRICE'           => 'In selection lists surcharges/discounts can be set up. If this setting is checked, the surcharges/discounts are loaded and applied. If unchecked, the surcharges/discounts aren\'t applied.',
 
-'HELP_SHOP_PERF_DISBASKETSAVING'              => 'The shopping cart of registered users is saved. When they visit your eShop again, the shopping cart contents are loaded. If you activate this setting, the shopping carts aren\'t saved any more.',
+'HELP_SHOP_PERF_DISBASKETSAVING'              => 'The basket of registered users is saved. When they visit your eShop again, the basket contents are loaded. If you activate this setting, the baskets aren\'t saved any more.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no shipping costs are calculated: The shipping costs are always 0.00 EUR.',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no delivery costs are calculated: The delivery costs are always at 0.00 EUR.',
 
 'HELP_SHOP_PERF_LOADPRICE'                    => 'If you deactivate this setting, no product prices are calculated: No prices are shown.',
 
@@ -289,7 +289,7 @@ $aLang =  [
 
 'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'With <span class="navipath_or_inputname">Alt. Prices</span> you can set up special prices for certain users. More information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/set-alternative-prices-special-users" target="_blank">eShop Manual</a> on the OXID eSales website.',
 
-'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special VAT for this product. This VAT is used for this product in all later calculations (cart, order, invoice)',
+'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special VAT for this product. This VAT is used for this product in all later calculations (basket, order, invoice)',
 
 'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'With <span class="navipath_or_inputname">Quantity</span> and <span class="navipath_or_inputname">Unit</span> you can set the price per quantity unit. The price per quantity unit is calculated and displayed with the product (e.g. 1.43 EUR per liter). In <span class="navipath_or_inputname">Quantity</span>, enter the amount of the product (e.g. <span class="userinput_or_code">1.5</span>), in <span class="navipath_or_inputname">Unit</span> define the according quantity unit (e.g. <span class="userinput_or_code">liter</span>). You can choose unit type from given values or, by selecting blank unit type "-", enter unit type manually. If you wish to append existing type list, please follow this <a href="http://oxidforge.org/en/adding-new-unit-types.html" target="_blank">link</a> for instructions.',
 
@@ -303,7 +303,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Setting is inherited from Parent product to Variants and applies to the entire product.',
 
-'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Price Alert can be turned off for this product.',
+'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Price alert can be turned off for this product.',
 
 'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => 'If <span class="navipath_or_inputname">Skip all negative discounts</span> is active, negative allowances will not be calculated for this product. These include discounts and vouchers.',
 
@@ -371,7 +371,7 @@ $aLang =  [
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
                                                  '',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Color</span> or <span class="userinput_or_code">Size</span>.<br> Further Information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">variants article in the manual</a>.',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Colour</span> or <span class="userinput_or_code">Size</span>.<br> Further Information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">variants article in the manual</a>.',
 
 'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'If checked, this attribute\'s value will be shown in cart and order overview below the product title.',
 
@@ -435,13 +435,13 @@ $aLang =  [
                                                  '' .
                                                  '',
 
-'HELP_DELIVERY_MAIN_ORDER'                    => 'You can use <span class="navipath_or_inputname">Order of rule processing</span> to specify the order in which the shipping cost rules will be run. The shipping cost rule with the lowest number is run first. The order is important if the setting <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> is used.',
+'HELP_DELIVERY_MAIN_ORDER'                    => 'You can use <span class="navipath_or_inputname">Order of rule processing</span> to specify the order in which the delivery cost rules will be run. The delivery cost rule with the lowest number is run first. The order is important if the setting <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> is used.',
 
-'HELP_DELIVERY_MAIN_FINALIZE'                 => 'You can use <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> to specify that no further rules are to be run if this shipping cost rule is valid and is being run. For this option, the order in which the shipping cost rules are run is important. It is specified through the <span class="navipath_or_inputname">Order of Rule processing</span>.',
+'HELP_DELIVERY_MAIN_FINALIZE'                 => 'You can use <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> to specify that no further rules are to be run if this delivery cost rule is valid and is being run. For this option, the order in which the delivery cost rules are run is important. It is specified through the <span class="navipath_or_inputname">Order of Rule processing</span>.',
 
 
 
-'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Sorting</span> specifies the order in which the shipping methods are displayed to users: The shipping method with the lowest number is displayed at the top.',
+'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Sorting</span> specifies the order in which the delivery methods are displayed to users: The delivery method with the lowest number is displayed at the top.',
 
 
 
@@ -493,7 +493,7 @@ $aLang =  [
                                                  '' .
                                                  '',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'When calculating price surcharge or reduction, cart value is being used as base. Define what costs will be included when calculating cart value.',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'When calculating price surcharge or reduction, basket value is being used as base. Define what costs will be included when calculating basket value.',
 
 'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'In <span class="navipath_or_inputname">Working Title</span>, you can enter an additional name that is not displayed to users of your eShop. You can use the working title to differentiate between similar selection lists (e.g., Sizes for trousers and Sizes for shirts).',
 
@@ -545,7 +545,7 @@ $aLang =  [
 
 'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => 'Here you can enter a coupon number. This number is used when creating new coupons if <span class="navipath_or_inputname">Random Numbers</span> is deactivated. All Coupons get the same coupon numberon.',
 
-'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'If you assign products or categories to your coupon, deactivate this option to calculate this coupon to each product per cart position. Activate if the coupon shall be valid only once per cart position.',
+'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'If you assign products or categories to your coupon, deactivate this option to calculate this coupon to each product per basket position. Activate if the coupon shall be valid only once per basket position.',
 
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'With <span class="navipath_or_inputname">Picture</span> and <span class="navipath_or_inputname">Upload Picture</span> you can upload a picture for the gift wrapping. In <span class="navipath_or_inputname">Upload Picture</span>, select the picture to upload. When clicking on <span class="navipath_or_inputname">Save</span>, the picture is uploaded. After uploading, the filename is shown in <span class="navipath_or_inputname">Picture</span>.',
 
@@ -556,9 +556,9 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Select here, in which content page eShop main information is displayed, e.g. "About Us".',
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Select here, in which content page not to RDFa assigned payment information is displayed, e.g. "Terms and Conditions". To assign your payment methods to RDFa payment methods in general go to: Shop Settings -> Payment Methods -> RDFa.',
-'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Select here, in which content page not to RDFa assigned shipping information is displayed, e.g. "Shipping and charges". To assign your shipping methods to RDFa payment methods in general go to: Shop Settings -> Shipping Methods -> RDFa.',
-'HELP_SHOP_RDFA_VAT'                          => 'This option specifies whether the tax (VAT) is included in the price and delivery/payment costs or not.',
-'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Specify here the time of the validity of the costs of products, payment and shipping (e.g. 1 day, 1 week).',
+'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Select here, in which content page not to RDFa assigned delivery information is displayed, e.g. "Delivery and charges". To assign your delivery methods to RDFa payment methods in general go to: Shop Settings -> Delivery Methods -> RDFa.',
+'HELP_SHOP_RDFA_VAT'                          => 'This option specifies whether the VAT is included in the price and delivery/payment costs or not.',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Specify here the time of the validity of the costs of products, payment and delivery (e.g. 1 day, 1 week).',
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'The Web address (URL) of a logo or image.',
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'The longitude of the store as part of geo position. Please enter numbers only.',
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'The latitude of the store as part of geo position. Please enter numbers only.',
@@ -574,13 +574,13 @@ $aLang =  [
 'HELP_SHOP_RDFA_COSTUMER'                     => 'The types of customers for which shop products are valid (End user, Reseller, Business and/or Public).',
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'This property specifies the time of the validity of the products, e.g. 1 day, 1 week or 1 month.',
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The VAT rate of the products, which have the biggest net value in shopping cart, is used for calculating.',
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in cart with the same VAT rate is used for calculating.',
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In frontend product prices are shown as net prices.',
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In admin area product prices must be entered as net prices.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The VAT rate of the products with the biggest net value in shopping basket. Used for calculating.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in the basket with the same VAT rate will be used for calculations.',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In the store front, product prices will be shown as prices w/o VAT.',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In the admin panel, product prices must be entered as prices w/o VAT.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Checks if Reverse Proxy is available for the frontend. Header of the shop\'s start page is verified.<br>The test could fail if different domains or protocols (http/https) are used for the admin panel and the store front.',
-'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Admin area is displayed without Reverse Proxy. Varnish header could not be received.',
+'HELP_REVERSE_PROXY_GET_BACKEND'              => 'The admin panel will be displayed without using reverse proxy caching. The varnish header could not be received.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Only IBAN and BIC can be entered during the checkout. Bank account number and the bank code can only be entered if this check box is not activated.',
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'If this option is activated, users have to confirm terms and conditions for intangible or downloadable products in the fourth step of the check-out process. Please make sure this option is enabled for the specific item as well!',
