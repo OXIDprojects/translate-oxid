@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Deutsch";
+$sLangName = "English";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
     'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => 'Wunschpreis',
+    'DD_PRICEALARM_HEADING'                                 => 'Kundenpreis',
     'DD_REGISTER_HEADING'                                   => '',
     'DD_DOWNLOADLINKS_HEADING'                              => '',
     'DD_WISHLIST_HEADING'                                   => '',
