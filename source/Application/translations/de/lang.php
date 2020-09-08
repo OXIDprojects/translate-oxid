@@ -46,8 +46,8 @@ $aLang = [
 'BACK_TO_OVERVIEW'                                            => 'Zurück zur Übersicht',
 'BACK_TO_SHOP'                                                => 'Zurück zum Shop',
 'BACK_TO_START_PAGE'                                          => 'weiter zur Startseite',
-'BANK_DETAILS'                                                => 'Bankdetails',
 'BANK'                                                        => 'Bankname',
+'BANK_DETAILS'                                                => 'Bankdetails',
 'BANK_ACCOUNT_HOLDER'                                         => 'Kontoinhaber',
 'BANK_ACCOUNT_NUMBER'                                         => 'Kontonummer oder IBAN',
 'BANK_CODE'                                                   => 'BLZ oder BIC',
@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Beenden',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => 'Mastercard',
-'CARD_SECURITY_CODE'                                          => 'Prüfziffer',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Diese befindet sich auf der Rückseite Ihrer Kreditkarte. Die Prüfziffer sind die letzten drei Ziffern im Unterschriftsfeld.',
-'CARD_VISA'                                                   => 'Visa',
+'CARD_MASTERCARD'                                             => '',
+'CARD_SECURITY_CODE'                                          => '',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
+'CARD_VISA'                                                   => '',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => 'Karte an',
+'CARD_TO'                                                     => '',
 /** end deprecated */
 'CART'                                                        => 'Warenkorb',
 'CATEGORIES'                                                  => 'Kategorien',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Passwort ändern',
 'CHARGES'                                                     => 'Kosten',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => 'Siehe',
+'CHECK'                                                       => '',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Zur Kasse',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Ihre Bestellhistorie aufrufen',
@@ -103,15 +103,15 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Der Gutschein "%s" kann nicht akzeptiert werden.',
 'CREATE_PASSWORD'                                             => 'Passwort erstellen',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => 'Karte',
+'CREDITCARD'                                                  => '',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktueller Artikel',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kunden, die diesen Artikel gekauft haben, kauften auch',
 'DATE'                                                        => 'Datum',
-'DELIVERYTIME_DAY'                                            => '%s Tag',
-'DELIVERYTIME_DAYS'                                           => '%s Tage',
 'DAY'                                                         => 'Tag',
+'DELIVERYTIME_DAY'                                            => '%s Tag',
 'DAYS'                                                        => 'Tage',
+'DELIVERYTIME_DAYS'                                           => '%s Tage',
 'YEAR'                                                        => 'Jahr',
 'DEDUCTION'                                                   => 'Abschlag',
 'DELIVERABLE'                                                 => 'Lieferbar',
@@ -125,7 +125,7 @@ $aLang = [
 'DELIVERY_STATUS_NLB'                                         => 'Nicht lieferbar',
 'DELIVERY_STATUS_STO'                                         => 'Storniert',
 'DESCRIPTION'                                                 => 'Beschreibung',
-'DETAILS'                                                     => 'Details',
+'DETAILS'                                                     => 'Detaillierte Informationen',
 'DISCOUNT'                                                    => 'Rabatt',
 'DISPLAY_BASKET'                                              => 'Warenkorb zeigen',
 'DO_NOT_WANT_CREATE_ACCOUNT'                                  => '(Ich möchte kein Kundenkonto eröffnen)',
@@ -212,7 +212,7 @@ $aLang = [
 'GIFT_WRAPPING_GREETING_CARD'                                 => 'Geschenkverpackung/Grußkarte',
 'GO'                                                          => 'Los!',
 'GRAND_TOTAL'                                                 => 'Gesamtbetrag',
-'GREETING'                                                    => 'Hallo, ',
+'GREETING'                                                    => 'Hallo,',
 'GREETING_CARD'                                               => 'Grußkarte',
 'GREETING_MESSAGE'                                            => 'Grußnachricht',
 'GROSS'                                                       => '(brutto)',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Nachname',
 'LAST_SEEN_PRODUCTS'                                          => 'Zuletzt angesehene Artikel',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => 'Neuigkeiten bei',  // try to generalize
-'LATEST_NEWS_NOACTIVENEWS'   => 'Es gibt momentan keine neuen Nachrichten',
+'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Links',
 'LISTMANIA'                                                   => 'Lieblingslisten',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Verweigert aufgrund von Shopregeln',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-Mail-Adresse ist bereits vorhanden!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Geben Sie die Adressdaten und Ihre persönliche Nachricht ein!',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Nachricht von',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Holen Sie sich jetzt für Ihren Einkauf Bonuspunkte!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Bewerten Sie diesen Artikel!',
 'MESSAGE_READ_DETAILS'                                        => 'Lesen Sie Details zum',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klicken Sie auf "Empfehlung abschicken", um die E-Mail zu senden!',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Bitte wählen Sie mindestens einen Artikel aus!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Bitte wählen Sie Artikel zum Vergleichen aus!',
@@ -322,15 +322,15 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Vielen Dank für das Abonnement unseres Newsletters.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Die von Ihnen gewählte Versandart ist nicht mehr verfügbar. Bitte wählen Sie eine andere Versandart aus!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Bitte kontrollieren Sie Ihre E-Mail-Adresse!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Herzlich willkommen als registriertes Mitglied!',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Sollte etwas nicht lieferbar sein, werden wir Sie sofort informieren.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Der Prüfcode, den Sie eingegeben haben, ist nicht korrekt. Bitte versuchen Sie es erneut!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Sie haben bereits eine Bestellbestätigung per E-Mail erhalten.',
 'MESSAGE_DOWNLOADABLE_PRODUCT'                                => 'Hinweis: Sie haben Download-Artikel im Warenkorb. Wenn Sie ohne Registrierung einkaufen, finden Sie Downloadlinks ausschließlich in Ihrer E-Mail zur Bestellbestätigung. Sind Sie registriert, werden die Downloadlinks unter KONTO -> MEINE DOWNLOADS angezeigt.',
 'MIN_ORDER_PRICE'                                             => 'Mindestbestellwert',
 'MONTH'                                                       => 'Monat',
-'MONTHS'                                                      => 'Monate',
 'DELIVERYTIME_MONTH'                                          => '%s Monat',
+'MONTHS'                                                      => 'Monate',
 'DELIVERYTIME_MONTHS'                                         => '%s Monate',
 'MORE'                                                        => 'Mehr',
 'MORE_INFO'                                                   => 'Mehr Informationen',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Neue Artikel im Shop',
 'NEWLIST'                                                     => 'Neue Lieblingsliste',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => 'News',
+'NEWS' => '',
 // END deprecated
 'NEWSLETTER'                                                  => 'Newsletter',
 'NEWSLETTER_SETTINGS'                                         => 'Newslettereinstellungen',
@@ -357,7 +357,7 @@ $aLang = [
 'NEW_BASKET_ITEM_MSG'                                         => 'Neuer Artikel wurde in den Warenkorb gelegt',
 'NEW_PASSWORD'                                                => 'Neues Passwort',
 'NEXT'                                                        => 'Weiter',
-'NEXT_PRODUCT'                                                => 'nächster Artikel ',
+'NEXT_PRODUCT'                                                => 'nächster Artikel',
 'NO'                                                          => 'Nein',
 'NONE'                                                        => 'Keine',
 'NOTE'                                                        => 'Hinweis',
@@ -373,7 +373,7 @@ $aLang = [
 'NUMBER_2'                                                    => 'Nr.',
 'OF'                                                          => 'VON',
 'OLD_PASSWORD'                                                => 'Altes Passwort',
-'ONLY_IN_PACKING_UNITS_OF'                                    => 'Nur in Verpackungseinheiten zu je ',
+'ONLY_IN_PACKING_UNITS_OF'                                    => 'Nur in Verpackungseinheiten zu je',
 'OPEN_ACCOUNT'                                                => 'Konto eröffnen',
 'OR'                                                          => 'oder',
 'ORDERS'                                                      => 'Bestellungen',
@@ -387,7 +387,7 @@ $aLang = [
 'BRAND'                                                       => 'Marke',
 'OUR_BRANDS'                                                  => 'Unsere Marken',
 'OUR_REGULAR_PRICE'                                           => '(Unser regulärer Preis)',
-'OXID_ESALES_URL'                                             => 'https://www.oxid-esales.com',
+'OXID_ESALES_URL'                                             => 'http://www.oxid-esales.com/de/startseite',
 'OXID_ESALES_URL_TITLE'                                       => 'Shopsoftware von OXID eSales',
 'PAGE'                                                        => 'Seite',
 'PASSWORD'                                                    => 'Passwort',
@@ -402,8 +402,8 @@ $aLang = [
 'PHONE'                                                       => 'Telefon',
 'PLEASE_CHOOSE'                                               => 'Bitte wählen',
 'PLEASE_SELECT_STATE'                                         => 'Bitte wählen Sie ein Bundesland aus',
-'PLUS'                                                        => 'zzgl. ',
-'PLUS_SHIPPING'                                               => 'inkl. MwSt., zzgl. ',
+'PLUS'                                                        => 'zzgl.',
+'PLUS_SHIPPING'                                               => 'inkl. MwSt., zzgl.',
 'PLUS_SHIPPING2'                                              => 'Versandkosten',
 'PLUS_SHIPPING3'                                              => '* zzgl. Versandkosten',
 'POSTAL_CODE_AND_CITY'                                        => 'PLZ, Ort',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Artikelbilder',
 'PRODUCT_NO'                                                  => 'Art. Nr.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => 'Artikelpostkarte von',
+'PRODUCT_POST_CARD_FROM'                                      => '',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Artikel bewerten',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Öffentlicher Wunschzettel',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Name des Empfängers',
 'RECOMMEND'                                                   => 'Empfehlen',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => 'Meine Artikelempfehlung',
+'RECOMMENDED_PRODUCTS'                                        => '',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Artikel weiterempfehlen',
 'REDEEM_COUPON'                                               => 'Gutschein einlösen',
@@ -504,7 +504,7 @@ $aLang = [
 'STEPS_BASKET'                                                => '1. Warenkorbübersicht',
 'STEPS_ORDER'                                                 => '4. überprüfen & absenden',
 'STEPS_PAY'                                                   => '3. Versand & Zahlungsart',
-'STEPS_SEND'                                                  => '2. Adressen wählen ',
+'STEPS_SEND'                                                  => '2. Adressen wählen',
 'STOCK'                                                       => 'Lagerbestand',
 'STOCK_LOW'                                                   => 'Lagerbestand niedrig',
 'STREET_AND_STREETNO'                                         => 'Straße, Hausnummer',
@@ -551,9 +551,9 @@ $aLang = [
 'VERIFICATION_CODE'                                           => 'Prüfcode',
 'VIEW_ALL_PRODUCTS'                                           => 'Alle Artikel ansehen',
 'WEEK'                                                        => 'Woche',
-'WEEKS'                                                       => 'Wochen',
 'DELIVERYTIME_WEEKS'                                          => '%s Wochen',
 'DELIVERYTIME_WEEK'                                           => '%s Woche',
+'WEEKS'                                                       => 'Wochen',
 'WEEK_SPECIAL'                                                => 'Angebot der Woche',
 'WEIGHT'                                                      => 'Gewicht',
 'WHAT_I_WANTED_TO_SAY'                                        => 'Ihre Mitteilung an uns',
@@ -572,14 +572,13 @@ $aLang = [
 'YOUR_EMAIL_ADDRESS'                                          => 'Ihre E-Mail-Adresse',
 'YOUR_GREETING_CARD'                                          => 'Ihre Grußkarte',
 'YOUR_PREVIOUS_ORDER'                                         => 'Ihre bisherigen Bestellungen',
-'YOUR_REVIEW'                                                 => 'Ihre Bewertung',
 'YOUR_PRICE'                                                  => 'Ihr Preis',
+'YOUR_REVIEW'                                                 => 'Ihre Bewertung',
 'YOU_ARE_HERE'                                                => 'Sie sind hier',
 'YOU_CAN_GO'                                                  => 'Sie können nun',
 'YOUR_MESSAGE'                                                => 'Ihr Text',
 'YOUR_TEAM'                                                   => 'Ihr %s-Team',
 'ZOOM'                                                        => 'Zoom',
-//used as field translations
 'OXACTIVEFROM'                                                => 'Aktiv von',
 'OXACTIVETO'                                                  => 'Aktiv bis',
 'OXARTNUM'                                                    => 'Artikelnummer',
@@ -667,7 +666,6 @@ $aLang = [
 'OXVPE'                                                       => 'Verpackungseinheit',
 'OXBUNDLEID'                                                  => 'Bundle Identnr.',
 'OXVARSTOCK'                                                  => 'Varianten Lagerbestand',
-//used as field translations ^
 'ERROR_DELIVERY_ADDRESS_WAS_CHANGED_DURING_CHECKOUT'          => 'Rechnungs- oder Lieferadresse wurde während der Bestellung geändert. Bitte noch einmal prüfen.',
 '_UNIT_KG'                                                    => 'kg',
 '_UNIT_G'                                                     => 'g',
@@ -703,7 +701,6 @@ $aLang = [
 'MONTH_NAME_12'                                               => 'Dezember',
 'COOKIE_NOTE'                                                 => 'Dieser Online-Shop verwendet Cookies für ein optimales Einkaufserlebnis. Dabei werden beispielsweise die Session-Informationen oder die Spracheinstellung auf Ihrem Rechner gespeichert. Ohne Cookies ist der Funktionsumfang des Online-Shops eingeschränkt.',
 'COOKIE_NOTE_DISAGREE'                                        => 'Sind Sie damit nicht einverstanden, klicken Sie bitte hier.',
-
 'BASKET_TOTAL_WRAPPING_COSTS_NET'                             => 'Geschenkverpackung (netto)',
 'BASKET_TOTAL_GIFTCARD_COSTS_NET'                             => 'Grußkarte (netto)',
 'BASKET_TOTAL_PLUS_PROPORTIONAL_VAT'                          => 'plus MwSt. (anteilig berechnet)',
@@ -716,7 +713,7 @@ $aLang = [
 'PAGE_TITLE_START'                                            => 'Startseite',
 'PAGE_TITLE_BASKET'                                           => 'Warenkorb',
 'PAGE_TITLE_USER'                                             => 'Lieferadresse',
-'PAGE_TITLE_PAYMENT'                                          => 'Versand & Zahlungsart ',
+'PAGE_TITLE_PAYMENT'                                          => 'Versand & Zahlungsart',
 'PAGE_TITLE_ORDER'                                            => 'Bestellung',
 'PAGE_TITLE_THANKYOU'                                         => 'Vielen Dank',
 'PAGE_TITLE_REGISTER'                                         => 'Registrieren',
@@ -736,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Suche',
 'PAGE_TITLE_CLEARCOOKIES'                                     => 'Information über Cookies',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => 'News',
+'PAGE_TITLE_NEWS' => '',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Artikel weiterempfehlen',
 'PAGE_TITLE_INVITE'                                           => 'Freunde einladen',
@@ -744,13 +741,15 @@ $aLang = [
 
 'WISHLIST_PRODUCTS'                                           => 'Diese Artikel hat sich %s gewünscht. Wenn Sie ihr/ihm eine Freude machen wollen, dann kaufen Sie einen oder mehrere von diesen Artikeln.',
 
+
 'BETA_NOTE'                                                   => 'Willkommen ',
 'BETA_NOTE_RELEASE_BETA'                                      => 'zur Beta',
 'BETA_NOTE_RELEASE_RC'                                        => 'zum Release-Kandidaten',
 'BETA_NOTE_MIDDLE'                                            => ' des OXID eShop ',
 'BETA_NOTE_FAQ'                                               => '. Häufig gestellte Fragen und Antworten sind in der %s gelistet.',
 
-'NO_LISTMANIA_LIST'                                           => 'Es liegen zur Zeit keine Lieblingslisten vor. Um eine neue Lieblingsliste anzulegen, bitte ',
+
+'NO_LISTMANIA_LIST'                                           => 'Es liegen zur Zeit keine Lieblingslisten vor. Um eine neue Lieblingsliste anzulegen, bitte',
 'DETAILS_VPE_MESSAGE'                                         => 'Dieser Artikel kann nur in Verpackungseinheiten zu je %s erworben werden.',
 'DETAILS_CHOOSEVARIANT'                                       => 'Bitte wählen Sie eine Variante',
 'INVITE_TO_SHOP'                                              => 'Eine Einladung von %s %s zu besuchen.',
@@ -771,6 +770,7 @@ $aLang = [
 'THANK_YOU_FOR_ORDER'                                         => 'Vielen Dank für Ihre Bestellung im',
 'PRICE_ALERT_THANK_YOU_MESSAGE'                               => 'Vielen Dank für die Übermittlung Ihres Wunschpreises von %s %s. Sie erhalten eine E-Mail, sobald dieser erreicht ist.',
 'THANK_YOU_MESSAGE'                                           => 'Vielen Dank für Ihre Nachricht an %s.',
+
 
 'ALL_BRANDS'                                                  => 'Alle Marken',
 'BY_BRAND'                                                    => 'Nach Marke',
