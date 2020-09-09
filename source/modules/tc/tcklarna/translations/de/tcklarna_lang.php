@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "English";
+$sLangName = "Deutsch";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -23,7 +23,7 @@ $aLang = array(
     'charset' => 'UTF-8',
 
     'TCKLARNA_EXCEPTION_OUT_OF_STOCK' => 'Fehler bei Überprüfung der Bestellung',
-    'TCKLARNA_CHECKOUT'               => 'Zur Kasse',
+    'TCKLARNA_CHECKOUT'               => 'Kasse',
 
     'TCKLARNA_DISCOUNT_TITLE'                     => 'Rabatt',
     'TCKLARNA_VOUCHER_DISCOUNT'                   => 'Gutschein Rabatt',
@@ -34,7 +34,7 @@ $aLang = array(
 
     'TCKLARNA_PASSWORD'                          => 'Passwort',
     'TCKLARNA_TRUSTED_SHOP_BUYER_PROTECTION'     => 'Trusted Shops Käuferschutz',
-    'TCKLARNA_ALREADY_A_CUSTOMER'                => 'Ich bin bereits Kunde',
+    'TCKLARNA_ALREADY_A_CUSTOMER'                => 'Bereits Kunde?',
     'TCKLARNA_LAW_NOTICE'                        => 'Es gelten die <a href="%s" class="klarna-notification" target="_blank">Nutzungsbedingungen</a> zur Datenübertragung',
     'TCKLARNA_OUTSIDE_VOUCHER'                   => 'Sie haben einen Gutschein?',
     'TCKLARNA_GO_TO_CHECKOUT'                    => 'Zur Kasse',
