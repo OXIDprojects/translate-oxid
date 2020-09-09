@@ -758,8 +758,6 @@ Va rugam introduceti o cheie de licenta valida sau contact',
 'DISTRIBUTORS'                                                => 'Distributori',
 'MANUFACTURERS'                                               => '',
 'SERVICES'                                                    => '',
-'FORM_FIELDSET_USER_SHIPPING_ADDITIONALINFO2_TOOLTIP'         => '', // this is specifically for DHL
-'FORM_FIELDSET_USER_BILLING_ADDITIONALINFO_TOOLTIP'           => '', // this is specifically for DHL
 'FORM_SUGGEST_MESSAGE1'                                       => '',
 'FORM_SUGGEST_MESSAGE2'                                       => '',
 'SHOP_SUGGEST_MESSAGE'                                        => '',
