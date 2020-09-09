@@ -36,7 +36,7 @@ $aLang = array(
     'SHOP_THEME_GROUP_googlets'                     => '',
     'SHOP_THEME_GROUP_background'                   => '',
     'SHOP_THEME_GROUP_econda'                       => '',
-    'SHOP_THEME_GROUP_emails'                       => '',
+    'SHOP_THEME_GROUP_emails'                       => 'E-Mails',
 
     'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => '' .
@@ -88,13 +88,13 @@ $aLang = array(
     'SHOP_THEME_blShowListDisplayType'              => '',
     'HELP_SHOP_THEME_blShowListDisplayType'         => '',
     'SHOP_THEME_sDefaultListDisplayType'            => '',
-    'SHOP_THEME_sDefaultListDisplayType_grid'       => 'Galeria',
+    'SHOP_THEME_sDefaultListDisplayType_grid'       => '',
     'SHOP_THEME_sDefaultListDisplayType_line'       => '',
-    'SHOP_THEME_sDefaultListDisplayType_infogrid'   => 'Galeria de 2 colunas',
+    'SHOP_THEME_sDefaultListDisplayType_infogrid'   => '',
     'SHOP_THEME_sStartPageListDisplayType'          => '',
-    'SHOP_THEME_sStartPageListDisplayType_grid'     => 'Galeria',
+    'SHOP_THEME_sStartPageListDisplayType_grid'     => '',
     'SHOP_THEME_sStartPageListDisplayType_line'     => '',
-    'SHOP_THEME_sStartPageListDisplayType_infogrid' => 'Galeria de 2 colunas',
+    'SHOP_THEME_sStartPageListDisplayType_infogrid' => '',
 
     'SHOP_THEME_aNrofCatArticlesInGrid'             => '',
     'SHOP_THEME_aNrofCatArticles'                   => '',
