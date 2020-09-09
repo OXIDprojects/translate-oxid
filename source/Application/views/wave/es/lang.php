@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Enlace',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
     'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => 'Precio fijado por el cliente',
+    'DD_PRICEALARM_HEADING'                                 => 'Cust. Precio',
     'DD_REGISTER_HEADING'                                   => '',
     'DD_DOWNLOADLINKS_HEADING'                              => '',
     'DD_WISHLIST_HEADING'                                   => '',
@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Por favor escoge',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => 'Resetear',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Reset',
 );
 
 /*
