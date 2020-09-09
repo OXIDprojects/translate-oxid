@@ -30,7 +30,7 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English";
+$sLangName = "Deutsch";
 
 $aLang = array(
     "charset"                                        => "UTF-8",
@@ -52,9 +52,9 @@ $aLang = array(
 
     // Email
     'EMAIL_ORDER_CUST_HTML_PAYMENTMETHOD'            => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_IBAN'           => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BIC'            => '',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => 'Bankname:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_IBAN'           => 'IBAN:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BIC'            => 'BIC:',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_REFERENCE_LINE' => '',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_ORDER_ID'       => '',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_CUSTOMER_NR'    => '',
