@@ -30,7 +30,7 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English";
+$sLangName = "Deutsch";
 
 $aLang = array(
     "charset"                                      => "UTF-8",
@@ -39,7 +39,7 @@ $aLang = array(
     'NAVIGATION_PAYMORROW'                         => '',
     'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => 'API-Konfiguration',
     'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => 'Bestelldaten-Aktualisierung',
-    'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => 'Rechnung',
+    'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => 'Rechnungskauf',
     'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => 'Lastschriftverfahren',
     'oxpspaymorrow_form_error_log'                 => 'Protokoll',
     'oxpspaymorrow_paymorrow_info'                 => 'Paymorrow-Info',
