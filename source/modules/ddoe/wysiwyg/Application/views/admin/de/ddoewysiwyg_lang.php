@@ -20,7 +20,7 @@
  * @version   OXID eSales WYSIWYG
  */
 
-$sLangName = 'Deutsch';
+$sLangName = 'English';
 
 $aLang = array(
     // Charsets
@@ -31,9 +31,9 @@ $aLang = array(
 
     // Base Module
 
-    'DD_CLOSE'          => 'Schlie&szlig;en',
-    'DD_CANCEL'         => 'Abbrechen',
-    'DD_APPLY'          => '&Uuml;bernehmen',
+    'DD_CLOSE'          => 'Schließen',
+    'DD_CANCEL'         => 'Beenden',
+    'DD_APPLY'          => 'Übernehmen',
     'DD_OK'             => 'OK',
     'DD_CONFIRM_DIALOG' => 'Best&auml;tigung erforderlich!',
     'DD_CONFIRM'        => 'Best&auml;tigen',
