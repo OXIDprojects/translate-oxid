@@ -22,7 +22,7 @@
 $sLangName  = 'English';
 
 $aLang = array(
-    'charset'                                       => 'UTF-8',
+    'charset'                                       => '',
 
     'SHOP_THEME_GROUP_images'                       => '',
     'SHOP_THEME_GROUP_features'                     => '',
