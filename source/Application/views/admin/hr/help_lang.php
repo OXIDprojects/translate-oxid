@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => '',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => '',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => '',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => '',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => '',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => '',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => '',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => '',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => '',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => '',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => '',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => '',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => '',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => '',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => '',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => '',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => '',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => '',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => '',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => '',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => '',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => '',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => '',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => '',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => '',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => '',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => '',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => '',
 
@@ -395,8 +279,6 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => '',
 
 'HELP_CATEGORY_SEO_KEYWORDS'                  => '',
@@ -404,6 +286,7 @@ $aLang =  [
 'HELP_CATEGORY_SEO_DESCRIPTION'               => '',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => '',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => '',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => '',
@@ -411,39 +294,24 @@ $aLang =  [
 'HELP_CONTENT_MAIN_CATEGORY'                  => '',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => '',
+
 'HELP_CONTENT_SEO_FIXED'                      => '',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => '',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => '',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => '',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => '',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => '',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -451,14 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => '',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => '',
 
@@ -470,15 +331,13 @@ $aLang =  [
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => '',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => '',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => '',
 
 'HELP_LANGUAGE_DEFAULT'                       => '',
 
-'HELP_LANGUAGE_ACTIVE'                        => "",
+'HELP_LANGUAGE_ACTIVE'                        => '',
 
 'HELP_PAYMENT_MAIN_SORT'                      => '',
 
@@ -486,12 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => '',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => '',
 
@@ -499,13 +355,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => '',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => '',
 
@@ -513,11 +365,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => '',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => '',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => '',
 
@@ -527,13 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => '',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => '',
 
@@ -550,39 +392,65 @@ $aLang =  [
 'HELP_WRAPPING_MAIN_PICTURE'                  => '',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => '',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => '',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => '',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => '',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => '',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => '',
+
 'HELP_SHOP_RDFA_VAT'                          => '',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => '',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => '',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => '',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => '',
+
 'HELP_SHOP_RDFA_GLN'                          => '',
+
 'HELP_SHOP_RDFA_NAICS'                        => '',
+
 'HELP_SHOP_RDFA_ISIC'                         => '',
+
 'HELP_SHOP_RDFA_DUNS'                         => '',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => '',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => '',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => '',
+
 'HELP_SHOP_RDFA_COND'                         => '',
+
 'HELP_SHOP_RDFA_FNC'                          => '',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => '',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => '',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => '',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => '',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => '',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => '',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => '',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => '',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
