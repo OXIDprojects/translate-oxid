@@ -22,7 +22,7 @@
 $sLangName = 'English';
 
 $aLang = [
-    'charset' => 'UTF-8',
+    'charset' => '',
     'oegdproptin' => '',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
