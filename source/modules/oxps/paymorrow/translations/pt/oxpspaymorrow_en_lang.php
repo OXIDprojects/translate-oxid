@@ -35,7 +35,7 @@ $sLangName = "English";
 $aLang = array(
     "charset"                                        => "",
 
-    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Fatura',
+    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => '',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
 
     'PAYMORROW_PAYMENT_NO_JAVASCRIPT'                => '',
