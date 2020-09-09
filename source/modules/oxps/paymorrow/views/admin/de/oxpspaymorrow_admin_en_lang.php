@@ -30,49 +30,49 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "Deutsch";
+$sLangName = "English";
 
 $aLang = array(
     "charset"                                      => "UTF-8",
     "oxpspaymorrow"                                => "",
 
     'NAVIGATION_PAYMORROW'                         => '',
-    'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => '',
-    'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => '',
+    'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => 'API-Konfiguration',
+    'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => 'Bestelldaten-Aktualisierung',
     'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => 'Rechnung',
-    'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => '',
-    'oxpspaymorrow_form_error_log'                 => '',
-    'oxpspaymorrow_paymorrow_info'                 => '',
+    'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => 'Lastschriftverfahren',
+    'oxpspaymorrow_form_error_log'                 => 'Protokoll',
+    'oxpspaymorrow_paymorrow_info'                 => 'Paymorrow-Info',
     'oxpspaymorrow_payment_map'                    => '',
 
     // Main Menu Settings
-    'OXPSPAYMORROW_MAIN_MENU_SETTINGS_TITLE'       => '',
-    'SHOP_MODULE_paymorrowSandboxMode'             => '',
-    'SHOP_MODULE_paymorrowMerchantId'              => '',
-    'SHOP_MODULE_paymorrowMerchantIdTest'          => '',
-    'SHOP_MODULE_paymorrowEndpointUrlTest'         => '',
-    'SHOP_MODULE_paymorrowEndpointUrlProd'         => '',
-    'SHOP_MODULE_paymorrowLoggingEnabled'          => '',
-    'SHOP_MODULE_paymorrowResourcePath'            => '',
-    'SHOP_MODULE_paymorrowResourcePathTest'        => '',
-    'SHOP_MODULE_paymorrowOperationMode'           => '',
-    'SHOP_MODULE_paymorrowOperationModeTest'       => '',
+    'OXPSPAYMORROW_MAIN_MENU_SETTINGS_TITLE'       => 'Fehlerprotokoll',
+    'SHOP_MODULE_paymorrowSandboxMode'             => 'Sandbox-Modus',
+    'SHOP_MODULE_paymorrowMerchantId'              => 'Live-Webservice-Benutzer',
+    'SHOP_MODULE_paymorrowMerchantIdTest'          => 'Test-Webservice-Benutzer',
+    'SHOP_MODULE_paymorrowEndpointUrlTest'         => 'Test-Endpoint-URL',
+    'SHOP_MODULE_paymorrowEndpointUrlProd'         => 'Live-Endpoint-URL',
+    'SHOP_MODULE_paymorrowLoggingEnabled'          => 'Protokollierung aktivieren',
+    'SHOP_MODULE_paymorrowResourcePath'            => 'Live-Resource-Pfad (JavaScript/CSS)',
+    'SHOP_MODULE_paymorrowResourcePathTest'        => 'Test-Resource-Pfad (JavaScript/CSS)',
+    'SHOP_MODULE_paymorrowOperationMode'           => 'Live-Operation-Mode',
+    'SHOP_MODULE_paymorrowOperationModeTest'       => 'Test-Operation-Mode',
 
     // RSA Keys fields
-    'SHOP_MODULE_paymorrowKeysJson'                => '',
-    'SHOP_MODULE_paymorrowPrivateKey'              => '',
-    'SHOP_MODULE_paymorrowPrivateKeyTest'          => '',
-    'SHOP_MODULE_paymorrowPublicKey'               => '',
-    'SHOP_MODULE_paymorrowPublicKeyTest'           => '',
-    'SHOP_MODULE_paymorrowPaymorrowKey'            => '',
-    'SHOP_MODULE_paymorrowPaymorrowKeyTest'        => '',
+    'SHOP_MODULE_paymorrowKeysJson'                => 'Feld aller Daten',
+    'SHOP_MODULE_paymorrowPrivateKey'              => 'Live - aktiver privater Schlüssel',
+    'SHOP_MODULE_paymorrowPrivateKeyTest'          => 'Test - aktiver privater Schlüssel',
+    'SHOP_MODULE_paymorrowPublicKey'               => 'Live - aktiver öffenticher Schlüssel',
+    'SHOP_MODULE_paymorrowPublicKeyTest'           => 'Test - aktiver öffenticher Schlüssel',
+    'SHOP_MODULE_paymorrowPaymorrowKey'            => 'Live - öffenticher Schlüssel Paymorrow',
+    'SHOP_MODULE_paymorrowPaymorrowKeyTest'        => 'Test - öffenticher Schlüssel Paymorrow',
 
     // Profile data normalization settings
-    'SHOP_MODULE_paymorrowUpdateAddresses'         => '',
-    'SHOP_MODULE_paymorrowUpdatePhones'            => '',
+    'SHOP_MODULE_paymorrowUpdateAddresses'         => 'Zurückspielen der Anschriften bei Veränderung im Checkout',
+    'SHOP_MODULE_paymorrowUpdatePhones'            => 'Zurückspielen der Telefonnummer bei Veränderung im Checkout',
 
     // Help Idents
-    'PM_HELP_ADMIN_PAYMENT_METHODS_ACTIVATE'       => '',
-    'PM_HELP_ADMIN_PAYMENT_METHODS_INVOICE'        => '',
-    'PM_HELP_ADMIN_PAYMENT_METHODS_SDD'            => '',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_ACTIVATE'       => 'Aktivierung bewirkt die Zuordnung dieser Zahlungsart zu Paymorrow.',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_INVOICE'        => 'Aktivierung bewirkt, dass diese Paymorrow zugeordnete Zahlungsart für den Paymorrow-Rechnungskauf freigeschaltet wird.',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_SDD'            => 'Aktivierung bewirkt, dass diese Paymorrow zugeordnete Zahlungsart für das Paymorrow-Lastschriftverfahren freigeschaltet wird.',
 );
