@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Если опция активна, большая часть элементов навигации магазина будет выключена при оформлении пользователями заказов для того, чтобы они не отвлекались от целевого действия.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Пожалуйста, измените файл core/oxldap.php.',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'В панели администрирования есть много списков, в которые можно добавлять товары, например, при назначении скидок. Если опция активна, то варианты товаров будут также отображаться в этих списках.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'В этой опции вы можете настроить будут ли оптовые цены на товары унаследованы их вариантами. Если опция активна, то оптовые цены основного товара будут применяться и к его вариантам.',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Если опция активна, то изображения отправляются вместе с содержанием писем. Если опция неактивна, то изображения подгружаются с сервера во время открытия письма почтовой программой/сервисом.',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Укажите имя собственного PHP-файла, который будет перезаписывать функции магазина при его открытии.',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Если динамическое кэширование контента активно, дополнительный контент кэшируется для увеличение производительности. Деактивируйте эту опцию во время разработки (написания модулей, изменения шаблонов и так далее).',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Устанавливает срок жизни макета страницы. Передаётся через HTTP-заголовки, определяя значение "Возраст".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'На главной странице вашего магазина новые поступления товаров отображаются в блоке <span class="filename_filepath_or_italic">Новинки</span>. Эта опция определяет способ их отображения: по дате создания товара или по дате внесения изменений в панели администратора.',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Пользователь сможет оценить товар только один раз за визит на ваш сайт. В этом поле вы можете указать через сколько дней он сможет оставить оценку ещё раз. Не ставьте галочку, чтобы оценить товар пользователь мог только один раз.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Укажите альтернативный URL для проверки системы налогооблажения покупателя.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'После этого времени зарезервированные товары виртуально возвращаются на склад, а корзина клиента очищается.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Путь, где хранятся файлы загружаемых продуктов.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'В этом поле вы можете определить тип наценки на все товары: укажите величину наценки и выберите её тип (<span class="userinput_or_code">%</span> — процентная) или абсолютная (<span class="userinput_or_code">абсолют</span>).',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Если опция активна, то дерево категорий будет отображаться в развёрнутом виде. Работает только в случае, если категории не отображаются в верхнем меню.',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Как правило, папка с кэш-файлами очищается каждый раз, когда вы сохраняете изменения в панели администратора. Это может вызвать снижение производительности панели администратора. Если опция активна, то кэш-файлы будут удаляться только при выходе из панели администратора.',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Если несколько товаров имеют одинаковое название и находятся в одной категории, то им будет присвоен один SEO URL. Для того, чтобы избежать этого, используется SEO-суффикс. Если значение суффикса не указано, то будет присваиваться значение по умолчанию — <span class="filename_filepath_or_italic">oxid</span>.',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Некоторые URL предустановлены в магазине, например, www.youreshop.com/admin для входа в панель администратора. Если категория будет названа <span class="filename_filepath_or_italic">admin</span>, то SEO URL получится www.youreshop.com/admin и категория будет недоступна. Таким образом SEO-суффикс присваивается таким URL-ам. В этом поле вы можете указать, к каким URL-ам суффикс будет присваиваться автоматически.',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Если для категорий и товаров не указаны META-тэги, то они создаются автоматически. Таким образом, наиболее частотные слова могут быть пропущены. Все указанные в этом поле слова будут пропущены при создании META-тэгов.',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Для специальных страниц, например, "Правила и условия" можно присвоить фиксированные SEO URLы. При выборе статического URL будет отображаться URL шаблона в поле <span class="navipath_or_inputname">Стандартный URL</span>. В поле ниже вы можете присвоить SEO URL для каждого языка магазина.',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'С опцией <span class="navipath_or_inputname">Магазин активен</span> вы можете отключить показ магазина пользователям. Если магазин выключен, то будет выводиться сообщение из файла offline.html. Это может быть удобно во время проведения технических работ в магазине.',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Вы можете отобразить детальный вид товара в другом шаблоне. Введите для этого путь и имя шаблона, который должен быть использован.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Цены можно изменить в заданное время. Введенные цены обновят цены, заданные по умолчанию. Если установлена цена "0", то она не будет обновлена.',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Укажите в часах время действия ссылки для скачивания после первой загрузки. Для этого файла Вы можете переписать настройки по умолчанию, установленные  для всех элементов в Основные данные -> Первоначальная настройка -> Настройки. -> Загрузки.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Установка наследуется от родительского артикула к вариантам и относится ко всему артиклу.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Файлы этого продукта могут быть загружены.',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'Посредством <span class="navipath_or_inputname">Количество от/до</span> Вы устанавливаете, для какого количественного диапазона действует дифференцированная цена.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Название выборки</span> определяет маркировку вариантов товара, например, <span class="userinput_or_code">Цвет</span> или <span class="userinput_or_code">Размер</span>.',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'В поле <span class="navipath_or_inputname">Скрыть</span> вы можете менять видимость категории для посетителей магазина вне зависимости активна категория или нет.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'В поле <span class="navipath_or_inputname">Внешняя ссылка</span> вы можете указать адрес страницы, которая будет открываться, когда пользователь кликнет по категории. <span class="warning_or_important_hint">Используйте только в случае, если вы хотите чтобы эта страница открывалась из меню магазина. Категория утратит свои типовые функции отображения списка товаров!</span>',
 
@@ -395,8 +279,6 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => 'Если <span class="navipath_or_inputname">Игнорировать все скидки</span> активировано, то для всех товаров данной категории скидки цен учитываться не будут.',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => 'Вы можете позволить системе магазина генерировать SEO URL-ы категорий. Для категории будет сгенерирован новый SEO URL в случае, например, изменения её названия. Параметр <span class="navipath_or_inputname">Фиксировать URL</span> предотвращает это: если поле активно будет использоваться ранее сохранённый SEO URL категории.',
 
 'HELP_CATEGORY_SEO_KEYWORDS'                  => 'Указанные ключевые слова прописываются в HTML-коде страницы категории (META-keywords). Эту информацию собирают роботы поисковых систем. Укажите релевантные категории ключевые слова в этом поле. Если не заполнено, то ключевые слова генерируются системой автоматически.',
@@ -404,6 +286,7 @@ $aLang =  [
 'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Это описание интегрировано в исходный HTML код страницы категории. Этот текст часто отображается в результатах выдачи поисковых машин. Вы можете ввести подходяшее описание или оставить поле пустым - тогда описание будет сгенерировано автоматически.',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'В этом поле вы можете указать будет ли суффикс названия категории выводиться в заголовке страницы в браузере. Суффикс и заголовок страниц можно указать в <span class="navipath_or_inputname">Настройки -> Основные настройки -> SEO -> Суффикс заголовка</span>.',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => 'Если выбрать <span class="navipath_or_inputname">Сниппет</span>, то можно встраивать эту страницу в другую посредством её идентификатора: <span class="userinput_or_code">[{ oxcontent ident=ident_of_the_cms_page }]</span>',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => 'Если вы выберете <span class="navipath_or_inputname">Верхнее меню</span>, ссылка на эту страницу появится в шапке сайта рядом с О нас.',
@@ -411,39 +294,24 @@ $aLang =  [
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'Если вы выберете <span class="navipath_or_inputname">Категория</span>, ссылка на эту пользовательскую (CMS) страницу отображается в меню навигации под другими категорями.',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => 'Если выбрать <span class="navipath_or_inputname">Вручгую</span>, то ссылка на эту страницу будет доступна для встройки её в другую страницу. Она будет создана и видима после нажатия <span class="navipath_or_inputname">Сохранить</span>',
+
 'HELP_CONTENT_SEO_FIXED'                      => 'Система магазина может генерировать SEO URL-ы. У страницы обновляется SEO URL каждый раз, когда, например, вы меняете название/имя страницы. <span class="navipath_or_inputname">Фиксировать URL</span> предотвращает это: если активно, то будет использоваться ранее созранённый SEO URL и обновления происходить не будет.',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => 'Эти ключевые слова интегрируются в HTML-код страницы (META keywords). Они полезны для поисковой оптимизации. Укажите через запятую релевантные странице ключевые слова поиска. Если не указано, будет заполняться автоматически.',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Это описание встраивается в HTML-код страницы (META-description). Этот текст часто выводится в результатах поисковой выдачи. Укажите релевантное описание страницы в этом поле. Если оставить незаполненым, то описание будет заполнено автоматически.',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Вы можете использовать <span class="navipath_or_inputname">Сортировку вариантов расчёта доставки</span>, чтобы указать в какой последовательности они будут применяться. Правило с наименьшим значением применяется первым. Сортировка важна, если стоит галочка <span class="navipath_or_inputname">Не производить дальнейший расчёт, если правило выполняется</span>.',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Вы можете использовать <span class="navipath_or_inputname">Не применять другие правила, если это правило выполняется</span>, чтобы определить только одно правило применения к корзине. Для этой опции важно, чтобы варианты расчёта стоимости доставки имели корректную сортировку. Это можно сделать в меню <span class="navipath_or_inputname">Сортировка правил расчёта</span>.',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Сортировка</span> позволяет управлять порядком отображения доступных вариантов для пользователей. Наименьшее значение отображает вариант верхним в списке.',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -451,14 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Используйте поле <span class="navipath_or_inputname">Количество</span>, чтобы указать стоимость для определённого количества товаров в корзине. Если вы хотите, чтобы значение применялось к любому количеству, укажите <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Вы можете указать несколько SEO URL для страницы товара: для определённых категорий и страницы производителя. Переменная <span class="navipath_or_inputname">Активная категория/производитель</span> позволяет выбрать SEO URL для редактирования.',
 
@@ -470,15 +331,13 @@ $aLang =  [
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'Это описание интегрируется в HTML-код страницы (META-описание). Оно часто выводится в результатах поиска поисковых систем. Укажите в этом поле соответствующее описание. Если не заполнено, то описание генерируется автоматически.',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Отметьте это поле, если первая строка CSV-файла содержит название столбцов, соотносящихся с названиями полей базы данных.',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => 'Если активно, то после успешного импорта, вы будете перенаправлены на первый шаг, чтобы сразу перейти к импорту следующих данных.',
 
 'HELP_LANGUAGE_DEFAULT'                       => 'Язык по умолчанию используется в случаях, когда не удаётся определить язык следующими способами: ID языка не привязан по URL, не определён по языку браузера, сессии пользователя и т.д. Язык по умолчанию можно только выключить, но удалить его <u>невозможно</u>.',
 
-'HELP_LANGUAGE_ACTIVE'                        => "Это поле позволяет активировать необходимые языки магазина. Для панели администратора этот язык будет всегда активен, даже если деактивирован для посетителей магазина.",
+'HELP_LANGUAGE_ACTIVE'                        => 'Это поле позволяет активировать необходимые языки магазина. Для панели администратора этот язык будет всегда активен, даже если деактивирован для посетителей магазина.',
 
 'HELP_PAYMENT_MAIN_SORT'                      => 'В поле <span class="navipath_or_inputname">Сортировка</span> вы можете указать порядок отображения способов оплаты для пользователей. Наименьшее значение отображает способ оплаты первым.',
 
@@ -486,12 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Используйте <span class="navipath_or_inputname">Выбрано</span> для определения способа оплаты по умолчанию, когда пользователю доступны несколько вариантов.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'При расчёте наценки или скидки за основу берутся значения корзины. Укажите какие расходы будут учитываться в расчётах.',
 
@@ -499,13 +355,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Все доступные опции отображаются в списке <span class="navipath_or_inputname">Поля</span>. Вы можете использовать значения справа для определения новых опций.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Эти настройки показывают, подписан ли пользователь на рассылку.',
 
@@ -513,11 +365,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => 'В этом поле вы можете указать числовое значение кредитного рейтинга для пользователя. Посредством кредитного рейтинга вы сможете определять, какие способы оплаты будут доступны различными пользователям.',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => 'Поля <span class="navipath_or_inputname">Иконка</span> и <span class="navipath_or_inputname">Загрузка иконки</span> позволят загрузить иконку производителя (например, логотип). В поле <span class="navipath_or_inputname">Загрузка иконки</span> выберите на компьютере изображение для загрузки. После нажатия <span class="navipath_or_inputname">Сохранить</span> изображение будет загружено. После загрузки имя файла отобразится в поле <span class="navipath_or_inputname">Иконка</span>.',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => 'Система магазина может генерировать новые SEO URL-ы, например, в случае, если название производителя было изменено. Параметр <span class="navipath_or_inputname">Фиксированный URL</span> предотвращает это: если активно, то сохраняется прежний SEO URL.',
 
@@ -527,13 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'C этой опцией вы можете указать будет ли суффикс страницы производителя отображаться при её открытии. Суффикс можно указать в разделе <span class="navipath_or_inputname">Основные настройки -> Настройки магазина -> SEO -> Суффикс заголовка</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Вы этом поле вы можете разрешить пользователям использовать несколько купонов одной серии в одном заказе.',
 
@@ -550,39 +392,65 @@ $aLang =  [
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'С <span class="navipath_or_inputname">Картинка</span> по <span class="navipath_or_inputname">Загрузить фото</span> вы можете загрузить изображение на подарочной упаковке. В <span class="navipath_or_inputname">Загрузить фото</span>, выберите изображение для загрузки. При нажатии на <span class="navipath_or_inputname">Сохранить</span>, как фотография загружена. После загрузки, имя файла показано в  <span class="navipath_or_inputname">Picture</span>.',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Загрузите изображение баннера и укажите URL, который будет использоваться при нажатии на баннер. Если баннеру присвоен товар и URL не указан, то будет открываться страница соответствующего товара.',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => 'Активация SEO-кэширования увеличивает производительность магазина, но требует большего места на диске для папки tmp.',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'Альтернативный URL на удаленный сервер изображений может быть задан в файле конфигурации config.inc.php изменив <i>sAltImageUrl</i> и <i>sSSLAltImageUrl</i>.<br> Таким образом, все изображения продукта будут загружены с этого альтернативного сервера вместо локального. Тем не менее, загруженные файлы будут сохранены локально. В этом случае синхронизация с внешним сервером должна быть сделана вручную или с помощью пользовательских скриптов.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Выберите на какой странице будут показываться данные о магазине, например "О нас".',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Выберите для какой страницы не будут передаваться RDFa-данные о способах оплаты, например, "Правила и условия". Настроить RDFa-данные можно в разделе Настройки магазина -> Способы оплаты -> RDFa.',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Выберите для какой страницы не будут передаваться RDFa-данные о доставке. Чтобы присвоить способы доставки к RDFa-способам доставки, перейдите в раздел Настройки магазина -> Способы доставки -> RDFa.',
+
 'HELP_SHOP_RDFA_VAT'                          => 'Эта опция определяет включен ли НДС в стоимость товара и затрат на доставку.',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Укажите в этом поле срок действия цен, способов оплаты и доставки, например, 1 день, 1 неделя.',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'Веб-адрес (URL) вашего логотипа или изображения.',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'Цифровое значение долготы гео-локации магазина.',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'Цифровое значение широты гео-локации магазина.',
+
 'HELP_SHOP_RDFA_GLN'                          => 'Глобальный адресный номер (GLN) компании. Глобальный адресный номер — это тринадцатизначный номер, используемый для идентификации физических точек.',
+
 'HELP_SHOP_RDFA_NAICS'                        => 'Североамериканская система промышленной классификации (НАИКС). Укажите код вашей компании. См. подробнее: http://www.census.gov/eos/www/naics/.',
+
 'HELP_SHOP_RDFA_ISIC'                         => 'Международный стандарт промышленной классификации всех видов экономической деятельности (МСОК). Укажите код вашей компании. См. подробнее: http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
+
 'HELP_SHOP_RDFA_DUNS'                         => 'Девятизначное значение номера The Dun & Bradstreet D-U-N-S служит для определения различных типов реквизитов.',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Если эта опция активирована, отображается действительное количество товара на складе.',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => 'Минимальное значение для оценки товаров в вашем магазине.',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => 'Максимально значение для оценки товаров в вашем магазине.',
+
 'HELP_SHOP_RDFA_COND'                         => 'Выберите состояние товара (новый, бывший в употреблении, отреставрированный/обработанный)',
+
 'HELP_SHOP_RDFA_FNC'                          => 'Выберите назначение продукта: например, для продажи, для лизинга/аренды, для восстановления/ремонта.',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => 'Типы клиентов для которых товары магазина доступны (конечные пользователи, перекупщики, бизнес-партнёры и/или потребители).',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Это свойство определяет срок годности продукта, например 1 день, 1 неделя или 1 месяц.',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'Величина НДС для товаров, которая имеет наибольшее значение используется при расчётах в корзине.',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'При расчетах учитывается доля продуктов в корзине, имеющих одинаковый НДС',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Цены отображаются в нетто.',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'В области администрирования должны быть указать цены нетто.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Данная опция проверяет является ли обратный прокси-сервер доступным для фронтэнда. Проверяется заголовок стартовой страницы магазина.<br>Проверка может не пройти успешно, если разные протоколы домена (http/https) используются для панели администратора и интерфейса пользователей.',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Панель администратора отображается без обратного прокси-сервера. Заголовок не может быть получен.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Только IBAN и БИК могут быть указаны при оформлении заказа. Номера расчётного и корреспондентского счетов могут быть указаны только если эта опция не активна.',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Если поле активно, то пользователи будут должны соглашаться с условиями приобретения и возврата нематериальных или скачиваемых товаров в корзине при оформлении заказа. Проверьте, что данное поле также активно у соответствующего товара.',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
