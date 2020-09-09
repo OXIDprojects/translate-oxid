@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Pokiaľ je voľba zapnutá, počas záveru objednávky nie je zobrazená väčšina navigačných možností. Užívateľ vďaka tomu nie je zbytočne rozptylovaný.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Prosím upravte súbor core/oxldap.php',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'V eShope existuje množstvo zoznamov pre zaraďovanie výrobkov, napr. zaraďovanie zlacnených výrobkov. Pokiaľ je táto voľba aktívna, sú v týchto zoznamoch uvádzané aj varianty.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Tu môžete nastaviť, či majú byť ceny variánt rovnaké ako ceny hlavných výrobkov. Pokud je volba aktivní, cena hlavního výrobku jsou použita i pro varianty.',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Pokiaľ je voľba aktívna, obrázky v emaile sa odosielajú zároveň s textom. Pokiaľ je voľba vypnutá, obrázky sa sťahujú až po otvorení emailu.',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Zadajte tu svoj vlastný súbor PHP, ktorý prepíše funkcie eShopu na začiatku predaja.',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Ak je aktivované ukladanie dynamického obsahu do vyrovnávacej pamäte (cache), pre zvýšenie výkonu je obsah je cachování. Deaktivujte toto nastavenie, ak upravujete eshop (píšete moduly, upravujete šablóny vzhľadu atd).',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Nastaví životnosť rozvrhnutia stránky v sekundách. Bude zasielaný ako hodnota headeru "Age" cez HTTP-header',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'Na titulnej strane Vášho eShopu sa v kategórii <i>Nové v ponuke!</i> zobrazujú najnovjšie výrobky. Výrobky môžete radiť podľa dátumu pridania alebo dátumu poslednej zmeny.',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Užívateľ nemôže jeden výrobok hodnotiť viackrát. Tu môžete určiť, po akej dobe môže užívateľ výrobok znova ohodnotit. Pokiaľ nezadáte žiadnu hodnotu, výrobok môže byť hodnotený len jedenkrát.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Tu môžete zadať alternatívnu URL adresu pre online kontrolu DPH ID.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Po vypršaní doby sa rezvervované produkty opäť uvoľnia na sklad a zákazníkovi sa košík vyprázdní.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Cesta k miestu pre uloženie sťahovateľných produktov.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Môžete zadať maržu pre všetky ceny produktov v eshopu: Zadajte maržu a zvlolte jestli je percentuálna (<span class="userinput_or_code">% </span>) alebo absolútna (<span class="userinput_or_code"> abs </span>).',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Pokým je voľba aktívna, v navigácii sa zobrazuje úplný zoznam kategórií. Zobraziť úplný zoznam je možné len v navigačnej ponuke, ktorá nie je umiestnená hore.',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Zvyčajne je kompletný chache vyprázdnená akonáhle dôjde k uloženiu zmeny v administrácii. To môže spôsobiť výkonnostné problémy. Ak je táto voľba aktívna, cache sa zmaže až po odhlásení z administrácie eshopu.',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Pokiaľ je v kategórii viac výrobkov s rovnakým názvom, majú rovnaké SEO URL. Preto majú aj SEO príponu. Pokým žiadnu príponu nedefinujete, bude použité slovo <i>oxid</i>.',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Niektoré URL sú potrebné na prevádzku eShopu, napr. www.youreshop.com/admin pre prístup do administrácie. Pokiaľ pomenujete kategóriu <i>admin</i>, SEO URL bude taktiež www.youreshop.com/admin, do kategórie se teda nebudete vedieť dostať. Preto bude použitá SEO URL prípona. Tu môžete nadefinovať, ku ktorým URL má byť prípona pridaná automaticky.',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Pokiaľ pre kategóriu nevytvoríte META tagy, budú vytvorené automaticky. Preto by mali byť vynechané niektoré, príliš často sa vyskytujúce slová. Slová v tomto zozname budú vynechané META tagmi.',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Pre niektoré stránky (napr. Podmienky používania) môžete zadefinovať URL. Môžete tiež zadať URL pre každý jazyk zvlášť.',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => '<var>Aktivovaním</var> môžete zapnúť / vypnúť celý eShop. Pokým je eShop vypnutý, užívateľom se zobrazuje správa o jeho dočasnej nedostupnosti.',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Deatil produktu môže byť zobrazený inou šablónou. Názov súboru šablóny zadajte do tohto políčka. Ďalšie informácie sú k dispozícii v <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template" target="_blank"> príslušnej časti návodu </a>.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Ceny se môžu meniť v definovanom čase. Zadané ceny aktualizujú štandartné ceny. Ak má cena hodnotu "0", nebudú se ceny aktualizovať.',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Zadajte čas v hodinách, odkaz k stiahnutiu je platný až po prvom stiahnutiu. V tomto súbore môžete prepísať východzie nastavenie, ktoré bolo definované v Hlavnom nastavení-> Nastavenie -> Nastavenie -> Súbory k stiahnutiu pre všetky produkty.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Pomocou <var>Odslať upozornenie pri dosiahnutí určitého stavu skladových zásob</var> môžete zadať stav zásob, pri ktorých má byť odoslané upozornenie. Aktivujte ponuku a zadajte stav, pokiaľ chcete byť upozornení.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Súbory tohoto produktu je možné stiahuť.',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'V <span class="navipath_or_inputname"> Množstvo od/do </span> nastavte pre aký rozsah je platná cena.<br />Ďalšie informácie o množstvových zľavách sú k dispozícii v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank"> časti manuálu o množstvových zľavách </a>.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname"> Meno výberu </span> určuje, ako bude výber variantov pomenovaný, napríklad <span class="userinput_or_code"> Farba </span> alebo <span class="userinput_or_code"> Veľkosť </span>.<br /> Ďalšie informácie sú k dispozícii v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank"> časti manuálu o variantoch výrobkov </a>.',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Pomocou <var>Skryť</var> môžete pred užívateľmi skryť alebo im zobraziť kategórii. Užívateľom nebudú zobrazené skryté kategórie.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => '<var>Externý odkaz</var> sa užívateľovi otvorí po kliknutí na danú kategóriu. <strong>Túto funkciu používajte len pokiaľ chcete odkaz zobraziť v zozname kategórií!</strong>',
 
@@ -395,8 +279,6 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '<li>If <span class="navipath_or_inputname">Skip all negative discounts</span> is active, negative allowances will not be calculated for any products in this category.',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => 'eShop môžete nechať vygenerovať nové SEO URL. Stránky výrobku budú mať nové SEO URL v prípade, že sa napríklad zmení titulok výrobku. Nastavenie <var>fixné URL</var> sa nezmení.',
 
 'HELP_CATEGORY_SEO_KEYWORDS'                  => 'Tieto kľúčové slová budú priamo v zdrojovom HTML kóde stránky výrobku (META keywords). Kľúčové slová sú dôležité pre vyhľadávače. Kľúčové slová môžete zadat tu. Keď ich nezadáte, budú automaticky vygenerované.',
@@ -404,6 +286,7 @@ $aLang =  [
 'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Tento popis bude priamo v zdrojovom HTML kóde stránky výrobku (META description). Popis je dôležitý pre vyhľadávače. Popis môžete zadať tu. Keď ho nezadáte, bude automaticky vygenerovaný.',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Pomocou tohto nastavenia môžete konkretizovať príponu titulku, ktorý sa zobrazí na lište prehliadača. Prípona môže byť nastavená v <em>Hlavné nastavenia -> Nastavenie -> SEO -> Prípona názvu obchodu</em>.',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => 'Pomocou funkcie ident: [{ oxcontent ident="ident_of_the_cms_page" }] môete túto CMS stránku vložiť bez ďalších stránok',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => 'Pokiaľ si vyberiete <var>Ponuka vyššie</var>, odkaz na túto CMS sa zobrazí v ponuke vyššie (v Podmienkachh použitia a O nás).',
@@ -411,39 +294,24 @@ $aLang =  [
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'Pokiaľ si vyberiete <var>Kategória</var>, odkaz na túto CMS stránku je zobrazený v navigácii nad kategóriami.',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => 'Pokiaľ si vyberiete <var>Manuálne</var>, vytvorí sa odkaz, čo sa zíde na pridanie jednej CMS stránky do ďalšej. Odkaz sa objaví po kliknutí na <var>Uložiť</var>',
+
 'HELP_CONTENT_SEO_FIXED'                      => 'eShop môžete nechať vygenerovat nové SEO URL. Stránky výrobku budú mať nové SEO URL, pokiaľ sa napríklad zmení titulok výrobku. Nastavenie <var>fixnéch URL</var> se nezmení.',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => 'Tieto kľúčové slová budú priamo v zdrojovom HTML kóde CMS stránky výrobku (META keywords). Kľúčové slová sú dôležité pre vyhľadávače. Kľúčové slová môžete zadať tu. Keď ich nezadáte, budú automaticky vygenerované.',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Tento popis bude priamo v HTML zdrojovom kóde CMS stránky výrobku (META description). Popis je dôležitý pre vyhľadávače. Popis môžete zadať priamo tu. Keď ho nezadáte, bude automaticky vygenerovaný.',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Môžete použiť <var>Poradie výpočtov poštovného</var> na určenie poradia, v kterom budú použité metódy výpočtu poštovného. Metóda s najnižším číslom bude použitá ako prvá. Poradie je dôležité, pokiaľ je aktívna voľba <var>Nepočítať ďalej, pokiaľ metóda funguje</var>.',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Pokým je aktívna voľba <var>Nepočítať ďalej, pokiaľ metóda funguje</var> na ukončenie výpočtov po prvnom úspešnom.',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => '<var>Triedenie</var> definuje poradie, v akom sú metódy výpočtu poštovného zobrazované užívateľovi. Metóda s najnižším číslom je hore.',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -451,14 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Môžete použiť <var>Množstvo</var> na určenie množstva, pre ktoré platí zľava. Pokiaľ zľava platí pre ľubovoľné množstvo, zadajte <kbd>0</kbd> do <var>Od</var> a <kbd>0</kbd> do <var>Do</var>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Môžete vytvoriť niekoľko SEO odkazov pre výrobky: Pre niektoré kategórie a stránky výrobcu. S <span class="navipath_or_inputname"> Aktivovať kategórii / výrobca </span> vyberiete SEO URL, ktorú chcete upraviť.',
 
@@ -470,15 +331,13 @@ $aLang =  [
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'EO opis je integrovaný do HTML kódu stránky (META description). Tento text je často zobrazovaný vo výsledkoch vyhľadávania. Sem zadajte vhodný opis produktu. Ak zostane prázdny, bude generovaný automaticky.',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Aktivujte tuto volbu, pokud první řádek CSV souboru obsahuje názvy sloupečků.',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => 'Pokud je tato volba aktivní, zobrazí se první krok po úspěšném importu, takže můžete zahajit hned další import dat.',
 
 'HELP_LANGUAGE_DEFAULT'                       => 'Default language is used when shop is unable to detect language in other ways: language id is not defined by URL, can\'t be detected by browser, is not defined in session etc. Default language can only be disabled, deleting it is <u>not possible</u>.',
 
-'HELP_LANGUAGE_ACTIVE'                        => "This option defines language availability in eShop's frontend: if it is activated - language is available in frontend. For working in admin area this language is always available; even if it is disabled for frontend.",
+'HELP_LANGUAGE_ACTIVE'                        => 'This option defines language availability in eShop\'s frontend: if it is activated - language is available in frontend. For working in admin area this language is always available; even if it is disabled for frontend.',
 
 'HELP_PAYMENT_MAIN_SORT'                      => 'V <var>Triedenie</var> si môžete zvoliť poradie platobných metód zobrazených užívateľmi; metóda s najnižším číslom je prvá.',
 
@@ -486,12 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Voľba <var>Vybraná</var> slúži na určenie základnej platobnej metódy, pokiaľ majú užívatelia na výber z vacerých metód.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'When calculating price surcharge or reduction, basket value is being used as base. Define what costs will be included when calculating basket value.',
 
@@ -499,13 +355,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Všetky dostupné možnosti sú zobrazené v zozname <var>Polí</var>. Môžete pridat nové pole, aby boli pridané nové možnosti. Více informací v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists">návodu</a> na webu OXID eSales.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Táto voľba zobrazí, či užívateľ odoberá Novinky.',
 
@@ -513,11 +365,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => 'Tu môžete upraviť kredit zákazníka. Od výšky kreditu sa odvíjajú povolené platobné metódy.',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => 'Pomocou <var>Ikona</var> a <var>Nahrať Ikonu</var> môžete nahrať ikonu výrobcu (napr. logo). V <var>Nahrať ikonu</var> vyberte ikonu, ktorú chcete nahrať. Nahráte ju kliknutím na <var>Uložiť</var>.',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => 'eShop môžete nechať automaticky vygenerovať nové SEO URL. Stránky výrobcu budú mať nové SEO URL, pokiaľ sa napríklad zmení titulok výrobku. Nastavenie <var>fixních URL</var> sa nezmení.',
 
@@ -527,13 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Pomocou tejto voľby môžete nastaviť zobrazenú príponu titulku stránky výrobcu v hornej lište prehliadača. Príponu môžete nastaviť v <em>Hlavné nastavenia -> Nastavení -> SEO -> Prípona názvu obchodu</em>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Tu môžete rozhodnút, či môžu užívatelia používať kupóny jednej série jednotlivo',
 
@@ -550,39 +392,65 @@ $aLang =  [
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'Pomocou <var>Obrázok</var> a <var>Nahrať obrázok</var> môžete nahrať obrázok darčekového balenia. V <var>Nahrát obrázek</var> vyberte obrázek a kliknutím na <var>Uložit</var> ho nahrajte.',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Upload banner image and enter banner URL which will be used when clicking on banner. If article is assigned to banner and URL is not entered, link to assigned article will be used when clicking on banner.',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => 'Povolené SEO medzipamäti zvyšuje výkon, ale vyžaduje veľa miesta na disku v adresári / tmp.',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'Alternatívna URL na vzdialený server s obrázkami sa dá nastaviť v konfiguračnom súbore config.inc.php nastavením <i> sAltImageUrl </ i> a <i> sSSLAltImageUrl </ i>. <br> Preto všetky fotografie produktov budú načítané z tejto alternatívy namiesto lokálneho. Nahrané súbory avšak budú uložené lokálne. V tomto prípade synchronizácia k externému serveru musí byť prevedená ručne alebo pomocou vlastných skriptov.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Vyberte tu Content-stránku, v ktorej sú zobrazené Hlavné informácie k eShopu, napr. "O nás".',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Vyberte tu Content-stránku (napr."Vop/AGB"), na ktorej majú byť zobazené platobné informácie nepriradené RDFa. Ak chcete priradiť platobné metódy k RDFa , prejdite na: Nastavenie obchodu -> Spôsob platby -> RDFa.',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Vyberte tu Contet-stránku (napr."Doprava a poplatky"), pre ktoré majú byť zobrazené prepravné informácie nepriradené k RDFa. Ak chcete priradiť spôsoby dopravy k RDFa metódam ,  prejdite na: Nastavenie obchodu -> Doprava -> RDFa.',
+
 'HELP_SHOP_RDFA_VAT'                          => 'Tato voľba určuje, či má byť daň (DPH) zahrnutá v cene a platobných a dodacích poplatkoch alebo nie.',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Tu uveďte dobu platnosti nákladov pre produkty, platby a prepravy (napr. 1 deň, 1 týždeň).',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'Web adresa loga alebo obrázku',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'Zemepisná dĺžka predajne v rámci geo polohy. Prosím zadajte iba čísla.',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'Zemepisná šírka obchodu v rámci geo polohy. Prosím zadajte iba čísla.',
+
 'HELP_SHOP_RDFA_GLN'                          => 'Global Location Number (GLN)  spoločnosti. Global Location Number je 13-miestne číslo používané k identifikácii firmy a jej sídla.',
+
 'HELP_SHOP_RDFA_NAICS'                        => 'North American Industry Classification System (NAICS) kód pre Vašu firmu. Viď http://www.census.gov/eos/www/naics/.',
+
 'HELP_SHOP_RDFA_ISIC'                         => 'Medzinárodná štandardná priemyslová klasifikácia všetkých ekonomických činností (ISIC) kód pre Vašu firmu. Viď http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
+
 'HELP_SHOP_RDFA_DUNS'                         => 'Dun & Bradstreet DUNS je deväťmiestne číslo k identifikácii právnickej osoby.',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Ak je táto možnosť aktívna, znamená to, že sa zobrazuje skutočný produkt.',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => 'Možná minimálna hodnota sa vzťahuje na stupnicu používanú pri hodnotení v obchode. Táto hodnota nie je najnižšia aktuálna hodnota výrobku!',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => 'Možná maximálna hodnota sa vzťahuje na stupnicu použitú pri hodnotení v obchode. Táto hodnota nie je najvyššou aktuálnou hodnotou produktu!',
+
 'HELP_SHOP_RDFA_COND'                         => 'Vyberte, čo popisuje stav produktu (nový, použitý alebo renovovaný).',
+
 'HELP_SHOP_RDFA_FNC'                          => 'Vyberte tu obchodné funkcie produktu. Napr., či sú ponúkané k predaju, k prenájmu alebo oprave?',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => 'Typy zákazníkov, pre ktoré sú produkty eShopu platné (pre koncového užívateľa, predajcu, obchodné a/alebo verejné).',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Táto vlastnosť určuje dobu platnosti produktu, napr. 1 deň, 1 týždeň alebo 1 mesiac.',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'Pre výpočet bude použitá sazba DPH produktov, ktoré majú v nákupnom košíku nejväčšiu netto hodnotu.',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Pre výpočet bude použitá percentuálna čásť produktov v nákupnom košíku s rovnakou sazbou DPH.',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'V obchode budú ceny produktu uvedené ako netto-ceny.',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'V administračnej oblasti musia býť ceny produktu zadané ako netto-ceny.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Kontroluje, či je reverzná proxy k dispozícii pre frontend. <br />Test môže zlyhať, pokiaľ používate odlišné protokoly (http/https) pre administráciu a frontend.',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Administratívna oblasť je zobrazená bez reverznej proxy. Varnish header nemôže byť prijatý.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Iba IBAN a BIC môžu byť prístupné behom výstupnej kontroly. Číslo bankovného účtu a kód banky sú prístupné iba pokiaľ nieje aktívne zaškrtávacie pole.',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Ak je táto voľba aktívna, uživatelia musia potvrdiť podmienky pre nehmotný produkt a stiahnutie produktu vo štvrtom kroku výstupnej kontroly. Uistite sa, že je táto voľba povolená tiež pre konkrétnu položku!',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
