@@ -33,7 +33,7 @@
 $sLangName = "English";
 
 $aLang = array(
-    "charset"                                        => "UTF-8",
+    "charset"                                        => "",
 
     'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Invoice',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
