@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = '';
+$sLangName = 'English';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -56,7 +56,7 @@ $aLang = array(
     'OEPAYPAL_HISTORY_NOTICE_TEXT'         => '',
     'OEPAYPAL_MONEY_ACTION_FULL'           => '',
     'OEPAYPAL_MONEY_ACTION_PARTIAL'        => '',
-    'OEPAYPAL_LIST_STATUS_ALL'             => '',
+    'OEPAYPAL_LIST_STATUS_ALL'             => '全部',
     'OEPAYPAL_STATUS_pending'              => '',
     'OEPAYPAL_STATUS_completed'            => '',
     'OEPAYPAL_STATUS_failed'               => '',
