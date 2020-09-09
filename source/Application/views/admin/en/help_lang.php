@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
@@ -87,7 +87,7 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
-'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Here you can enter an alternative URL for the online GST ID check.',
+'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Here you can enter an alternative URL for the online VAT ID check.',
 
 'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
@@ -145,7 +145,7 @@ $aLang =  [
 
 'HELP_SHOP_PERF_DISBASKETSAVING'              => 'The basket of registered users is saved. When they visit your eShop again, the basket contents are loaded. If you activate this setting, the baskets aren\'t saved any more.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no delivery costs are calculated: The delivery costs are always at $0.00',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no delivery costs are calculated: The delivery costs are always at 0.00 EUR.',
 
 'HELP_SHOP_PERF_LOADPRICE'                    => 'If you deactivate this setting, no product prices are calculated: No prices are shown.',
 
@@ -187,7 +187,7 @@ $aLang =  [
 
 'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'With <span class="navipath_or_inputname">Alt. Prices</span> you can set up special prices for certain users. More information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/set-alternative-prices-special-users" target="_blank">eShop Manual</a> on the OXID eSales website.',
 
-'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special GST for this product. This GST is used for this product in all later calculations (basket, order, invoice)',
+'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special VAT for this product. This VAT is used for this product in all later calculations (basket, order, invoice)',
 
 'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'With <span class="navipath_or_inputname">Quantity</span> and <span class="navipath_or_inputname">Unit</span> you can set the price per quantity unit. The price per quantity unit is calculated and displayed with the product (e.g. 1.43 EUR per liter). In <span class="navipath_or_inputname">Quantity</span>, enter the amount of the product (e.g. <span class="userinput_or_code">1.5</span>), in <span class="navipath_or_inputname">Unit</span> define the according quantity unit (e.g. <span class="userinput_or_code">liter</span>). You can choose unit type from given values or, by selecting blank unit type "-", enter unit type manually. If you wish to append existing type list, please follow this <a href="http://oxidforge.org/en/adding-new-unit-types.html" target="_blank">link</a> for instructions.',
 
@@ -437,13 +437,13 @@ $aLang =  [
 
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The GST rate of the products with the biggest net value in shopping basket. Used for calculating.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The VAT rate of the products with the biggest net value in shopping basket. Used for calculating.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in the basket with the same GST rate will be used for calculations.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in the basket with the same VAT rate will be used for calculations.',
 
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In the store front, product prices will be shown as prices w/o GST.',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In the store front, product prices will be shown as prices w/o VAT.',
 
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In the admin panel, product prices must be entered as prices w/o GST.',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In the admin panel, product prices must be entered as prices w/o VAT.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Checks if Reverse Proxy is available for the frontend. Header of the shop\'s start page is verified.<br>The test could fail if different domains or protocols (http/https) are used for the admin panel and the store front.',
 
