@@ -30,12 +30,12 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "Deutsch";
+$sLangName = "English";
 
 $aLang = array(
     "charset"                                        => "UTF-8",
 
-    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Rechnungskauf',
+    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Rechnung',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => 'Lastschriftverfahren',
 
     'PAYMORROW_PAYMENT_NO_JAVASCRIPT'                => 'Um diese Zahlungsart zu nutzen, muss JavaScript im Browser aktiviert sein.',
