@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Ha ezt a beállítást aktíválja, a navigációs elemek nagy része nem lesz látható a megrendelés folyamata során. Ezáltal a felhasználók figyelme nem lesz szükségtelenül elterelve.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Kérem, állítsa be a core/oxldap.php fájlt megfelelően..',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'A programban vannak olyan listák, amelyekhez terméket lehet rendelni, pl.: a terméket a leértekelendő árukhoz rendeljük. Ha ez a beállítás aktív, akkor ezek a listák a variánsoknál is megjelennek.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Ez a beállítás meghatározza a program működését, ha a törzstermékeknél aktíváltuk a lépcsős árakat: Ha ez a beállítás aktív, akkor a lépcsős árak érvényesek a variánsokra is.',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Ha ez a beállítás aktív, akkor a képek, amelyeket az e-mail-ben használunk, az e-mail-lel együtt lesznek elküldve. Ha ez a beállítás nem aktív, akkor a képek akkor kerülnek letöltésre, a felhasználó az e-mail-jét kinyitja.',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Kérem, adja meg a php-fájl nevét, amely az eshop funkcióit a következő startnál felülírja.',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Ha a Dynamic content puffer aktív, akkor a további tartalmak is a pufferolva lesznek, amely a shop működését meggyorsítja. Deaktiválja ezt a beállítást, addig amíg az áruház a beállítások fázisában található.',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Az oldalszerkezet a pufferben történő megtartásának az időtartama másodpercben. Ez "Age" Header-értékként jelenik meg a HTTP-Header-ben.',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'A Shop kezdőlapján a<span class="filename_filepath_or_italic"> Most érkezett!</span> alatt jelennek meg a legújabb termékek. Itt állíthatja be, hogy ezek a termékek automatikusan, vagy kézi beállítással generálódjanak. Itt állíthatja be továbbá, hogy a termék felvétele szerinti dátum, vagy pedig az utolsó változtatás dátuma az adminisztrációs felületen lesz a mérvadó.',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Itt határozhatja meg, hogy egy termékre leadott értékelés hány napig lesz a shopban látható.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Itt állíthat be az adószámellenőrzéshez egy alternatiív URL-t, ha az ellenőrzés nem működik a rendes URL-en, a program megkísérli az ellenőrzést az alternatív URL-en keresztül lebonyolítani.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Ha a beállított másodpercek eltelte után a kosár tartalma nem változik, akkor a a kosár tartalma automatikusan kiürül,és az abban lévő termékek visszaíródnak a raktárkészlethez.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'A letölthető termékek fáljainak az elérési útja.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Önnek lehetősége van arra, hogy az összes termékhez felárat határozzon meg: Adja meg a megfelelő felárat és adja meg a választási listát ahhoz, hogy %-os vagy abszolút (<span class="userinput_or_code">%</span>)(<span class="userinput_or_code">abs</span>) érték legyen kiszámítva.',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Ha ez a beállítás aktív, akkor a kategória navigációnál a teljes kategóriafa jelenik meg (Mineden kategória és alkategória kibontva \'látható\'). Ez a beállítás csak akkor működik, ha kategórianavigáció<span class="warning_or_important_hint">nem</span> fent jelenik meg.',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Rendes esetben a puffertároló időről-időre ürítésre kerül, amíg ön a shop adminisztrációban változásokat eszközöl. Ez lelassíthatja a rendszer működését az áruház adminisztrációs felületén. Ha azonban ezt a beállítás aktív, akkor a puffertároló tartalma csak akkor törlődik, ha ön az adminisztrációból kijelentkezik.',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Ha több teméknek azonos neve van egy kategóriában, akkor ezek a termékek azonos SEO URL-alatt lennének elérhetők. Ezt elkerülendő, egy ún. SEO utótagot határozhatunk meg, amely a termék neve mögött szerepel. Így elkerülhetjük az azonos SEO URL-ket. Ha nem ad meg SEO utótagot, akkor <span class="filename_filepath_or_italic">oxid</span> szó jelenik meg alapértelmezett SEO utótagként.',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Bizonyos URL-ek már meg vannak határozva az áruházban, pl.: www.onlineshop.com/admin, az adminisztrátor felület megynyitásához. Ha egy kategória megnevezése <span class="filename_filepath_or_italic">admin</span> lenne, akkor a SEO URL ehhez a kategóriához szintén www.onlineshop.com/admin lenne, és nem lehetne megnyitni. Emiatt kell ezekhez a SEO URL-ekhez automatikusan SEO utótagot hozzáfűzni. Az itt látható mezőben állítható be, hogy melyik SEO URL-hez legyen a SEO utótag automatikusan hozzáfűzve.',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Ha a termékeknél és kategóriáknál nem írunk be META-kulcsszavakat, akkor ezek az információk a leírásokból generálódnak automatikusan. Bizonyos (gyakran előforduló) szavakat kihagyhatunk ezekből. Azok a kifejezések, amelyeket ebbe a beviteli mezőbe beírunk, az automatikus META-generálás számára figyelmen kívül maradnak.',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Bizonyos oldalak számára (pl.: ÁSZF) állandó keresőbarát URL-t határozhatunk meg. Ha Ön kiválaszt egy statikus URL-t akkor a mezőben a <span class="navipath_or_inputname">Standard URL</span> az alapértelmezett URL jelenik meg. Az alábbi beviteli mezőkben minden használatban lévő nyelvre vonatkozóan meghatározhat egy keresőbarát URL-t.',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Ezzel a beállítással: <span class="navipath_or_inputname">Aktiv</span> lehetséges az áruház ki- és bekapcsolása. Ha az áruház offline van, az ügyfelei jelzést kapnak arról, hogy az online áruház ideiglenesen nem elérhető. Ez hasznos lehet a program karbantartása esetén.',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Az adott termék részleteinek megjelenítéséhez megadhat egy másik sablont. Ehhez írja be a megjelenítendő sablon nevét, és annak elérési útját.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Az árak megváltoztathatók egy meghatározott időpontban. Az itt megadott árak aktualizálják az alapértelmezett árat. Ha az érték "0", akkor az alapár nem változik.',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Adja meg a letöltési link érvényességi idejét órákban, amely az első letöltés után érvényes. Ezzel felülírhatja az alapértemezett beállítást, amelyet a Törzsadatok  -> Alapbeállítások -> Beállítások. -> A letöltési link érvényességi ideje az első letöltés után - határozott meg.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'A beállítás öröklődik az alapterméktől, és a teljes termékre érvényes.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'A termék fájljai letölthetők.',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'A <span class="navipath_or_inputname">Mennyiségtől/-ig</span> állíthatja be, hogy a lépcsős árak milyen mennyiségi tartományra érvényesek.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => 'A <span class="navipath_or_inputname">variáns neve</span>-nél beállíthatja, hogy mi legyen a kiválasztott variáns neve. Pl.: <span class="userinput_or_code">Szín</span>, vagy <span class="userinput_or_code">Méret</span>.',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'A <span class="navipath_or_inputname">rejtett</span> négyzet bekattintásával a felhasználók számára rejtve marad az adott kategória akkor is, ha a kategória aktív.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'A <span class="navipath_or_inputname">Külső Link</span> mezőben megadhat egy linket, amely az adott kategóriára kattintva megnyílik. <span class="warning_or_important_hint">Figyelem! A kategória elveszti ezáltal a normális fukcióját!</span>',
 
@@ -395,8 +279,6 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => 'Ha az<span class="navipath_or_inputname"> Összes negatív kedvezmény ignorálása</span> aktív, akkor a negatív kedvezmények nem lesznek beszámítva. Ilyenek pl.: rabatt, ajándékutalványok stb.',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => 'Itt utasíthatja a rendszert a SEO URL-ek új kiszámítására. Egy kategória pl. egy új SEO URL-t kap, amennyiben a kategórinév megváltozik. Az <span class="navipath_or_inputname">URL állandó</span> 
 beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és nem lesz új kiszámítva.',
 
@@ -405,6 +287,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Ez a leírás jelenik meg a HTML-forráskódban (Meta Description). Ez a szöveg jelenik meg a keresőrobotok keresési eredményeiben. Itt adhatja meg a kategóriának megfelelő leírást. Amennyiben nem ad meg semmit, a leírás automatikusan generálódik.',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Ez a beállítás meghatározza, hogy megjelenjen-e az utótag az ablakcímben, a shop kategórianézeténél. Az oldalcím utótagját (Suffix) a <span class="navipath_or_inputname">Törzsadatok -> Alapbeállítások -> SEO -> Oldalcím utótag</span>-nál állíthatja be.',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => 'Ha ön a <span class="navipath_or_inputname">Snippet</span>-et választja, akkor az adott CMS-tartalmat egy másik oldalon jeleníti meg az Ident segítségével: <span class="userinput_or_code">[{ oxcontent ident=Ident_der_CMS_Seite }]</span>',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => 'Ha ön a <span class="navipath_or_inputname">Főmenü</span>-t  választja, akkor a felső, navigációs menüben egy, az adott CMS-tartalomra utaló link jelenik meg. (Az ÁSZF-nél és az Impresszumnál).',
@@ -412,39 +295,24 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'Ha ön a <span class="navipath_or_inputname">Kategóriát</span> választja, akkor a rendes kategória alatt a kategória navigációnál egy link jelenik meg, amely amely a CMS-tartalomra mutat.',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => 'Ha ön a <span class="navipath_or_inputname">Kézi</span>-t választja, akkor egy link lesz létrehozva, amely az adott CMS-tartalmat egy másik CMS-tartalomba ágyazza. A link egészen lent jelenik meg, ha a mentésre kattint.',
+
 'HELP_CONTENT_SEO_FIXED'                      => 'A shoprendszer utasítható a SEO URL-ek új kiszámítására. Egy CMS-tartalom pl. egy új SEO-URL-t kap, amennyiben ön megváltoztatja a CMS-tartalom nevét megváltoztatja. Ha ön az <span class="navipath_or_inputname">URL állandó</span> opciót aktiválja, akkor a CMS-tartalom nevének megváltoztatása ellenére is megmarad a régi SEO URL, és nem lesz új SEO URL kiszámítva.',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => 'Ezek a kulcsszavak a HTML-forráskódba (Meta Keywords) lesznek beágyazva. Ezeket az információkat olvassák ki a keresrobotok. Itt adhatja meg a CMS-tartalomra vontakozó kulcsszavakat. Ha nem ad meg semmit, a kulcsszavak automatikusan lesznek generálva.',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Ez a leírás jelenik meg a HTML-forráskódban (Meta Description). Ez a szöveg jelenik meg a keresőrobotok keresési eredményeiben. Itt adhatja meg a CMS-oldalnak megfelelő leírást. Amennyiben nem ad meg semmit, a leírás automatikusan generálódik.',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'A <span class="navipath_or_inputname">Kiszámítások sorrendje</span>-nél határozhatja meg, hogy milyen sorrendben legyen a szállítási szabályok kiszámolva: A szállítási szabályoknál a legkisebb érték lesz először kiszámolva. A sorrend fontos, különösen akkor, ha a beállításnál a  <span class="navipath_or_inputname">További kiszámítási szabályok mellőzése</span> van beállítva.',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'A <span class="navipath_or_inputname">További kiszámítási szabályok mellőzése</span> esetén állíthatja be, hogy további szállítási szabályok nem lesznek kiszámolva. Ehhez a beállításhoz fontos a sorrend helyes beállítása. Ez a fenti beállításnál határozható meg: a <span class="navipath_or_inputname">Kiszámítások sorrendje</span>.',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => 'A <span class="navipath_or_inputname">Rendezés</span>-nél állíthatja be, hogy a szállítási módok, milyen sorrendben, jelennek meg a vásárló számára:<br /><ul><li>A szállítási módnál a legkisebb szám jelenik meg legfelül.</li><li>A szállítási módnál a nagyobb szám jelenik meg legalul.</li></ul>',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -452,14 +320,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'A <span class="navipath_or_inputname">Vásárolt mennyiség</span>-nél állíthatja be, hogy az árcsökkentés a vásárolt mennyiségre vonatkozóan érvényes. Ha azonban az engedmény minden vásárlási mennyiségre érvényes, akkor adja meg <span class="navipath_or_inputname">tól</span> és <span class="navipath_or_inputname">ig</span> a <span class="userinput_or_code">0</span> értéket.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Egy termék számára különböző SEO URL-t határozhatunk meg: Egyet a meghatározott kategóriához, valamint egy a termék gyártójához. <span class="navipath_or_inputname">Aktív kategória/Gyártó</span> meg tudja határozni, hogy melyik SEO-URL-t szeretné testreszabni.',
 
@@ -471,15 +332,13 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'Ez a leírás jelenik meg az oldal HTML-forráskódjában (Meta Description). Ez a szöveg jelenik meg a keresési találatok megjelenítésénél. Ha ön nem ad meg semmit, akkor a szöveg automatikusan generálódik',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Aktiválja ezt a beállítást, ha a CSV-fájl első sora a az adatbázis oszlop megnevezéseinek feleljen meg.',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => 'Ha ezt a beállítást aktiválja, akkor a sikeres importálás után újra az első Lépés jelenik meg, amivel a következő importálást elvégezheti.',
 
 'HELP_LANGUAGE_DEFAULT'                       => 'Az alapértelmezett nyelv lesz felhasználva, ha az OXID eShop a felhasznált nyelvet nem tudja meghatározni: pl. ha a kívánt nyelv URL-je nincs megadva, és nem határozható meg a böngésző segítségével sem, valamint nincs az aktuális folyamatban (session) mentve. Az alapértelmezett nyelv deaktiválható, de nem törölhető..',
 
-'HELP_LANGUAGE_ACTIVE'                        => "Aktiválja ezt a beállítást, a nyelv a shop vásárlói oldalán történő megjelenítéséhez. A nyelv továbbra is rendelkezésre áll az adminban, akkor is, ha a vásárlói oldalon nem jelenik meg.",
+'HELP_LANGUAGE_ACTIVE'                        => 'Aktiválja ezt a beállítást, a nyelv a shop vásárlói oldalán történő megjelenítéséhez. A nyelv továbbra is rendelkezésre áll az adminban, akkor is, ha a vásárlói oldalon nem jelenik meg.',
 
 'HELP_PAYMENT_MAIN_SORT'                      => 'A <span class="navipath_or_inputname">Rendezés</span>-nél állíthatja be, hogy a fizetési módok milyen sorrendben jelenjenek meg a vásárló számára:<br /><ul><li>A legalacsonyabb számmal rendelkező fizetési mód jelenik meg az első helyen.</li><li>A legmagasabb számmal rendelkező fizetési mód jelenik meg az utolsó helyen.</li></ul>',
 
@@ -487,12 +346,9 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Az <span class="navipath_or_inputname">Alapértelmezett</span> aktiválásával tudja meghatározni az alapértelmezett fizetési módot, ha a vásárló a megrendelés 3. lépésében különböző fizetési mód között választhat.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'A felár/engedmény kiszámításához mindig a kosárérték szolgál alapösszegként. Határozza meg, hogy milyen költségek járulnak a Vásárlókosár értékéhez.',
 
@@ -500,13 +356,9 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'A <span class="navipath_or_inputname">Mezők</span>-nél az összes meghatározott kiszerelés jelenik meg a kiválasztási listában. A <span class="navipath_or_inputname">Mezők</span> mellett jobbra hozhatja létre az új variánsokat.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Itt jelenik meg az, hogy a felhasználó megrendelte-e a hírlevél szolgáltatást, vagy sem.',
 
@@ -514,11 +366,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_USER_EXTEND_BONI'                       => 'Itt adhatja meg a felhasználó hitelképességi indexét. A hitelképességgel tudja befolyásolni azt, hogy a felhasználó számára milyen fizetési módok állnak a rendelkezésre.',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => 'Az <span class="navipath_or_inputname">Ikon</span>-nál és a <span class="navipath_or_inputname">Gyártó ikon feltöltése</span>-nél tölthet fel egy képet a gyártóhoz.(Pl. a gyártó logóját). Válassza ki a <span class="navipath_or_inputname">Gyártó ikon feltöltése</span> a képet, amelyet fel szeretne tölteni. Ha a mentésre kattint, a kép fel lesz töltve, majd megjelenik a feltöltött kép neve az<span class="navipath_or_inputname">Ikon</span> mezőben.',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => 'Kívánságra a program kiszámítja a SEO URL-t. Egy gyártó oldal mindig új SEO URL-t kap, ha a gyártó megnevezése megváltozik. A beállítás <span class="navipath_or_inputname">URL állandó</span> megakadályozza ezt. Ha a beállítás aktív, akkor megmarad a régi SEO URL, és nem lesz az új meghatározás szerint kiszámítva.',
 
@@ -528,13 +376,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Ez a beállítás meghatározza, hogy megjelenjen-e az utótag az ablakcímben, ha a gyártó oldalt nézi a felhasználó. Az oldalcím utótagját (Suffix) a <span class="navipath_or_inputname">Törzsadatok -> Alapbeállítások -> SEO -> Oldalcím utótag</span>-nál állíthatja be.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Itt állíthatja be azt, hogy a felhasználó több utalványt használhat fel egy sorozatból, vagy sem.',
 
@@ -551,39 +393,65 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'A <span class="navipath_or_inputname">Kép</span> és a <span class="navipath_or_inputname">Kép feltöltése</span>-nél feltölthet egy képet a díszcsomagoláshoz. Válassza ki a <span class="navipath_or_inputname">Kép feltöltése</span> segítségével a megfelelő képet. Ha a mentésre gombra kattint, a kép fel lesz töltve, majd a feltöltött fájl neve megjelenik a <span class="navipath_or_inputname">Kép</span> melletti mezőben.',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Töltsön fel egy képet a <span class="navipath_or_inputname">Fájl kiválasztása</span> segítségével a kezdőoldal bannerjéhez. Adja meg azt az URL-t, aminek a bannerra történő kattintás esetén meg kell jelennie. Ha egy terméket szeretne a bannerhez hozzárendelni, akkor az<span class="navipath_or_inputname">Árucikk hozzárendelése</span>-re kattintva válassza ki a megfelelő terméket, és akkor ennek az URL-je jelenik meg a <span class="navipath_or_inputname">Banner mögötti link</span>-nél.',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => 'Az aktívált SEO Cache megnöveli az áruház működésének a sebességét, ugyanakkor nagy helyet igényel a /tmp-könyvtárban.',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'A config.inc.php konfigurációs fájlban a következő paraméterekkel <i>sAltImageUrl</i> és <i>sSSLAltImageUrl</i> egy külső képtároló szerverre mutató linket lehet beállítani. Erről az alternatív szerverről töltődne az összes termékkép. Ugyanakkor a feltöltött képek a shop helyi szerverén tárolódik. Így kézzel, vagy egy skript segítségével lehetségessé válik a szinkronizáció.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Válassza ki, hogy melyik CMS-oldal tartalmazza a webáruházának főbb információit. Pl. "Impresszum".',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Válassza ki, hogy melyik CMS-oldal (pl. "ÁSZF") tartalmazza a fizetési információkat, amelyek nem lettek az RDFa-nak hozzárendelve. A fizetési módok hozzárendelése az RDFa-hoz a  Shopbeállítások -> Fizetési módok -> RDFa-nál történik.',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Válassza ki, hogy melyik CMS-oldal tartalmazza a szállítási információkat (pl. Szállítási és fizetési információk), amelyek nem lettek az RDFa-hoz hozzárendelve. A szállítási módok hozzárendelése az RDFa-hoz a Shopbeállítások -> Szállítási módok -> RDFa-nál történik.',
+
 'HELP_SHOP_RDFA_VAT'                          => 'Ez az opció adja meg, hogy a shop árai, valamint szállítási- és fizetési mód költségei tartalmazzák-e az ÁFA-t, vagy sem.',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Adja meg a termékek árai, fizetési- és szállítási költségek érvényességi idejét. (pl. 1 nap, 2 hét...).',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'A shop logójának vagy képének az URL-jét kell megadni.',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'A shop földrajzi hosszúsága (Longitude) Csak számot adjon meg.',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'A shop földrajzi szélessége (Latitude).',
+
 'HELP_SHOP_RDFA_GLN'                          => 'A cég Globális lokációs száma (GLN). Ez egy 13 jegyű szám, amely az ön cége, valamint annak székhelyének azonosítására szolgál.',
+
 'HELP_SHOP_RDFA_NAICS'                        => 'Az ön vállalkozásának az azonosító kulcsa a North American Industry Classification System-nél (NAICS). http://www.census.gov/eos/www/naics/.',
+
 'HELP_SHOP_RDFA_ISIC'                         => 'Az ön vállalkozásának az azonosító kulcsa a International Standard of Industrial Classification of All Economic Activities-nél (ISIC). http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
+
 'HELP_SHOP_RDFA_DUNS'                         => 'A Dun & Bradstreet D-U-N-S egy kilencjegyű számkód egy vállalkozás azonosításához.',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Ha ez az opció aktív, akkor megjelenik a valós raktárkészlet.',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => 'Az értékelés lehetséges minimális értéke a shopban. Figyelem, ez nem azonos a termékértékelés legkisebb értékével!',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => 'Az értékelés lehetséges maximális értéke a shopban. Figyelem, ez nem azonos a termékértékelés legmagasabb értékével!',
+
 'HELP_SHOP_RDFA_COND'                         => 'Válassza ki a termékek állapotát. (új, használt vagy felújított ).',
+
 'HELP_SHOP_RDFA_FNC'                          => 'Válassza ki a termék üzleti funkcióját. Pl. eladva, bérbeadva, vagy javítva?',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => 'Milyen ügyfélcsoportnak értékesíti a termékeit? (végfelhasználó, viszonteladó, vállalkozások, közszolgálati intézmények).',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Ez a tulajdonság jelzi a termékei érvényességének időtartamát, pl. 1 nap, 1 hét vagy 1 hónap.',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'A kiszámításhoz az az ÁFA-érték lesz felhasználva, amelyik a legnagyobb nettó értékkel rendelkezik a kosárban.',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Azoknak termékek százalékos értéke, amelyek azonos ÁFA értékkel rendelkeznek a kosárban.',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Az áruházban a termékek nettóára jelenik meg.',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'Az adminban a termékek nettó értékét kell megadnia.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Ellenőrzi, hogy a Reverse Proxy a vásárlói oldalon rendelkezésre áll-e. A shop kezdőoldalának Header-része kerül ellenőrzésre.',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Az adminisztrációs oldal Reverse Proxy nélkül jelenik meg. A Varnish Header fogadása nem lehetséges.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'A megrendelésnél csak IBAN és BIC adható meg. A számlaszám és a bank kódja csak akkor adható meg, ha ez az opció nem aktív.',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Amennyiben ez az opció aktív, akkor a megrendelés negyedik lépésénél el kell fogadnia az ÁSZF-t az ügyfélnek akkor is, ha szellemi és letölthető termékről van szó! Aktiválja az opciót, ha különleges termékeket értékesít.',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
