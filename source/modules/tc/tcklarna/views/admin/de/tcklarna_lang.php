@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "Deutsch";
+$sLangName = "English";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -74,10 +74,10 @@ $aLang = array(
     'TCKLARNA_EASY_AND_SECURE_SHOPPING' => '',
     'TCKLARNA_WELCOME_TO_CONFIGURATION' => '',
 
-    'TCKLARNA_CREATE_USER_ACCOUNT'               => '',
-    'TCKLARNA_SUBSCRIBE_TO_NEWSLETTER'           => '',
-    'TCKLARNA_CREATE_USER_ACCOUNT_AND_SUBSCRIBE' => '',
-    'TCKLARNA_NO_CHECKBOX'                       => '',
+    'TCKLARNA_CREATE_USER_ACCOUNT'               => 'Kundenkonto anlegen',
+    'TCKLARNA_SUBSCRIBE_TO_NEWSLETTER'           => 'Newsletter abonnieren',
+    'TCKLARNA_CREATE_USER_ACCOUNT_AND_SUBSCRIBE' => 'Kundenkonto anlegen UND Newsletter-Anmeldung',
+    'TCKLARNA_NO_CHECKBOX'                       => 'Keine Checkbox anzeigen',
 
     'TCKLARNA_DISPLAY_ON_HOME'        => '',
     'TCKLARNA_BANNER_SRC'             => '',
@@ -112,9 +112,9 @@ $aLang = array(
     'TCKLARNA_RADIUS_SETTINGS'        => '',
     'TCKLARNA_BORDER_RADIUS'          => '',
 
-    'TCKLARNA_ALLOW_SEPARATE_SHIPPING_ADDRESS'   => '',
-    'TCKLARNA_PHONE_NUMBER_MANDATORY'            => '',
-    'TCKLARNA_DATE_OF_BIRTH_MANDATORY'           => '',
+    'TCKLARNA_ALLOW_SEPARATE_SHIPPING_ADDRESS'   => 'Lieferanschrift darf von Rechnungsanschrift abweichen',
+    'TCKLARNA_PHONE_NUMBER_MANDATORY'            => 'Telefonnummer ist Pflichtfeld im Klarna Checkout',
+    'TCKLARNA_DATE_OF_BIRTH_MANDATORY'           => 'Geburtsdatum als Pflichtfeld',
     'TCKLARNA_ENABLE_AUTOFOCUS'                  => '',
     'TCKLARNA_ADD_A_CUSTOM_CHECKBOX'             => '',
     'TCKLARNA_ENABLE_DHL_PACKSTATION'            => '',
@@ -243,9 +243,9 @@ $aLang = array(
     'KLARNA_CAPTURES'                              => '',
     'KLARNA_REFUNDS'                               => '',
     'KLARNA_CANCEL_ORDER'                          => '',
-    'KLARNA_ORDER_IS_CANCELLED'                    => '',
+    'KLARNA_ORDER_IS_CANCELLED'                    => 'Die Bestellung wurde storniert. ',
     'KLARNA_SEE_ORDER_IN_PORTAL'                   => '',
-    'KLARNA_ORDER_NOT_IN_SYNC'                     => '',
+    'KLARNA_ORDER_NOT_IN_SYNC'                     => '<strong>Achtung!</strong> Die Daten dieser Bestellung weichen von den Daten ab, die bei Klarna gespeichert sind. ',
     'KLARNA_MID_CHANGED_FOR_COUNTRY'               => '',
     'TCKLARNA_KP_INVOICE_MSG'                      => '',
     'TCKLARNA_KCO_INVOICE_MSG'                     => '',
@@ -254,7 +254,7 @@ $aLang = array(
     'KLARNA_UNAUTHORIZED_REQUEST'                  => '',
     'KLARNA_ORDER_NOT_FOUND'                       => '',
     'TCKLARNA_PRODUCT_NAME'                        => '',
-    'TCKLARNA_ANONYMIZED_PRODUCT'                  => '',
+    'TCKLARNA_ANONYMIZED_PRODUCT'                  => 'Anonymisierter Produkttitel:',
     'TCKLARNA_VOUCHER_DISCOUNT'                    => 'Gutschein Rabatt',
 
     'TCKLARNA_KCO_BUTTON_TOOLTIP'                    => '',
@@ -266,7 +266,7 @@ $aLang = array(
     'TCKLARNA_KCO_BORDER_RADIUS_TOOLTIP'             => '',
 
     'TCKLARNA_GIFT_WRAPPING_TITLE' => 'Geschenkverpackung',
-    'TCKLARNA_GIFT_CARD_TITLE'     => '',
+    'TCKLARNA_GIFT_CARD_TITLE'     => 'Grußkarte',
 
     'TCKLARNA_ERROR_SHOP_SSL_NOT_CONFIGURED' => '',
     'TCKLARNA_ERROR_WRONG_CREDS'             => '',
@@ -325,16 +325,16 @@ $aLang = array(
     'TCKLARNA_IS_BUTTON_PLACEMENT_BASKET' => '',
     'TCKLARNA_IS_BUTTON_PLACEMENT_BASKET_TOOLTIP' => '',
     'TCKLARNA_IS_BUTTON_SETTINGS_HEADLINE' => '',
-    'TCKLARNA_IS_SETTING_ALLOW_SEPARATE_SHIPPING_ADDRESS' => '',
+    'TCKLARNA_IS_SETTING_ALLOW_SEPARATE_SHIPPING_ADDRESS' => 'Lieferanschrift darf von Rechnungsanschrift abweichen',
     'TCKLARNA_IS_SETTING_ALLOW_SEPARATE_SHIPPING_ADDRESS_TOOLTIP' => '',
-    'TCKLARNA_IS_SETTING_DATE_OF_BIRTH_MANDATORY' => '',
+    'TCKLARNA_IS_SETTING_DATE_OF_BIRTH_MANDATORY' => 'Geburtsdatum als Pflichtfeld',
     'TCKLARNA_IS_SETTING_DATE_OF_BIRTH_MANDATORY_TOOLTIP' => '',
     'TCKLARNA_IS_SETTING_NATIONAL_IDENTIFICATION_NUMBER_MANDATORY' => '',
     'TCKLARNA_IS_SETTING_NATIONAL_IDENTIFICATION_NUMBER_MANDATORY_TOOLTIP' => '',
     'TCKLARNA_IS_BUTTON_SETTINGS_VARIATION' => '',
     'TCKLARNA_IS_BUTTON_SETTINGS_TAGLINE' => '',
     'TCKLARNA_IS_BUTTON_SETTINGS_TYPE' => 'Typ',
-    'TCKLARNA_IS_SETTING_PHONE_MANDATORY' => '',
+    'TCKLARNA_IS_SETTING_PHONE_MANDATORY' => 'Telefonnummer ist Pflichtfeld im Klarna Checkout',
     'TCKLARNA_IS_SETTING_PHONE_MANDATORY_TOOLTIP' => '',
     'TCKLARNA_IS_DEFAULT_COUNTRY_TIP'            => '',
     'TCKLARNA_IS_TERMS_URI_TIP' => '',
