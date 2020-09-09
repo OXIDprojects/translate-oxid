@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => 'UTF-8',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => '',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => '',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => '',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => '',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => '',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => '',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'إذا كان التخزين المؤقت المحتوى الديناميكي النشط، يتم التخزين المؤقت محتويات إضافية لزيادة الأداء. إلغاء تنشيط هذا الإعداد طالما أنك تكيف المحل (كتابة وحدات، تكييف قوالب وهلم جرا).',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'تعيين عمر تخطيط الصفحة في ثانية. وسيكون هذا الإرسال عن طريق رؤوس HTTP، تحدد قيمة رأس "العمر".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => '',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'إذا كان معدل مستخدمي منتج، وأشاروا إلى معدل المنتج مرة أخرى. هنا يمكنك تعيين بعد كم من الأيام المستخدمين المسموح لهم بمعدل منتج مرة أخرى. اتركه فارغاً لتعطيل--يمكن تصنيف المنتجات مرة واحدة فقط لكل مستخدم.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'هنا يمكنك إدخال URL بديل للتحقق من معرف ضريبة القيمة المضافة على الإنترنت.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'بعد هذه المهلة يتم إرجاع المنتجات المحجوزة للأوراق المالية، ويتم مسح سلة العميل.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'المسار حيث يتم تخزين ملفات للمنتجات القابلة للتحميل.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => '',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => '',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => '',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => '',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => '',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => '',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => '',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'يمكن عرض عرض تفاصيل المنتج مع قالب مختلف. للقيام بذلك، قم بإدخال المسار واسم القالب الذي تريد استخدامه.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'يمكن أن تتغير الأسعار في وقت محدد. ونظرا للمجالات تحديث الأسعار القياسية. إذا قمت بترك الأسعار القيم "0"، لن يتم تحديث الأسعار',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'حدد الوقت بالساعات، ووصلة التحميل صالحة بعد التحميل الأولى. لهذا الملف يمكنك الكتابة فوق الإعداد الافتراضي، الذي تم تعريفه في "الإعدادات الرئيسية"-> "الإعداد الأساسية"-> إعدادات-> الأسبوعية لجميع المنتجات.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'إعداد موروثة من الأصل المنتج للمتغيرات وينطبق على المنتج الكامل.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'يمكن تحميل الملفات من هذا المنتج.',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'في كمية من/إلى/مكررا يمكنك تعيين الكمية التي يتراوح الحجم الأسعار صالحة ل.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => 'ويعرف اسم التحديد كيف يسمى اختيار القياسية، مثل اللون أو الحجم.',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'مع مخفي < ou يمكن تحديد إذا كان يتم إظهار هذه الفئة للمستخدمين. إذا كان مخفياً فئة فإنه لا يظهر للمستخدمين، حتى لو كان نشطة.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'مع ارتباط خارجي، يمكنك إدخال ارتباط يفتح عندما ينقر المستخدمون على الفئة. استخدام هذه الدالة فقط إذا كنت تريد لعرض ارتباط في فئة الملاحة. فإنه يتسبب بهذه الفئة أن تفقد وظيفتها العادية!',
 
@@ -396,8 +280,6 @@ $aLang =  [
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => 'لن يتم حساب
 إذا تخطي جميع التخفيضات السلبية هو البدلات السلبية والنشطة لأي من المنتجات في هذه الفئة.',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => 'يمكنك أن تدع eShop حساب "عناوين كبار المسئولين الاقتصاديين". صفحة فئة يحصل كبار المسئولين الاقتصاديين عنوان URL الجديد إذا تم تغيير عنوان الفئة هاء زاي. تحديد عنوان URL محدد يمنع هذا: إذا كان نشطاً والقديم هو إبقاء "كبار المسئولين الاقتصاديين عنوان" ويحسب لا URL جديد في جنوب شرقي أوروبا',
 
 'HELP_CATEGORY_SEO_KEYWORDS'                  => 'تتكامل هذه الكلمات الأساسية في sourcecode HTML لصفحة الفئة (ميتا الكلمات الرئيسية). يتم استخدام هذه المعلومات عن طريق محركات البحث. الكلمات الرئيسية المناسبة للفئة التي يمكن إدخالها هنا. إذا كان فارغاً، يتم إنشاء الكلمات الأساسية تلقائياً.',
@@ -405,6 +287,7 @@ $aLang =  [
 'HELP_CATEGORY_SEO_DESCRIPTION'               => 'تم دمج هذا الوصف في sourcecode HTML لصفحة الفئة (وصف ميتا). غالباً ما يتم عرض هذا النص في صفحات نتائج محركات البحث. يمكن إدخال وصف مناسب هنا. إذا كان فارغاً، يتم إنشاء الوصف تلقائياً.',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'باستخدام هذا الإعداد يمكنك تحديد إذا كانت لاحقة العنوان يرد في عنوان نافذة المتصفح عند فتح صفحة الفئة. يمكن تعيين لاحقة العنوان في "إعدادات الرئيسية"-> "الإعدادات الأساسية"-> كبار المسئولين الاقتصاديين-> "لاحقة العنوان".',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => 'إذا قمت بتحديد أجزاء التعليمات البرمجية المتكررة يمكنك تضمين هذه الصفحة اتفاقية الأنواع المهاجرة داخل الصفحات الأخرى اتفاقية الأنواع المهاجرة بالتعريف به: [{التعريف أوكسكونتينت = ident_of_the_cms_page}]',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => 'إذا قمت بتحديد القائمة العلوية، يظهر ارتباط إلى هذه الصفحة اتفاقية الأنواع المهاجرة في القائمة العليا (في المصطلحات وبنا).',
@@ -412,39 +295,24 @@ $aLang =  [
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'إذا قمت بتحديد الفئة، يظهر ارتباط إلى هذه الصفحة اتفاقية الأنواع المهاجرة في الملاحة فئة دون الفئات الأخرى.',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => 'إذا قمت بتحديد يدوياً، يتم إنشاء ارتباط الذي يمكنك استخدامه لتضمين هذه الصفحة اتفاقية الأنواع المهاجرة في صفحات اتفاقية الأنواع المهاجرة الأخرى. يظهر الارتباط أدناه عند النقر فوق حفظ',
+
 'HELP_CONTENT_SEO_FIXED'                      => 'يمكنك أن تدع eShop حساب "عناوين كبار المسئولين الاقتصاديين". صفحة اتفاقية الأنواع المهاجرة يحصل كبار المسئولين الاقتصاديين عنوان URL الجديد إذا تم تغيير عنوان الصفحة CMS زاي هاء. تحديد عنوان URL محدد يمنع هذا: إذا كان نشطاً والقديم هو إبقاء "كبار المسئولين الاقتصاديين عنوان" ويحسب لا URL جديد في جنوب شرقي أوروبا.',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => 'تتكامل هذه الكلمات الأساسية في sourcecode HTML لصفحة اتفاقية الأنواع المهاجرة (ميتا الكلمات الرئيسية). يتم استخدام هذه المعلومات عن طريق محركات البحث. الكلمات الرئيسية المناسبة لصفحة اتفاقية الأنواع المهاجرة التي يمكن إدخالها هنا. إذا كان فارغاً، يتم إنشاء الكلمات الأساسية تلقائياً.',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'تم دمج هذا الوصف في sourcecode HTML لصفحة اتفاقية الأنواع المهاجرة (وصف ميتا). غالباً ما يتم عرض هذا النص في صفحات نتائج محركات البحث. يمكن إدخال وصف مناسب هنا. إذا كان فارغاً، يتم إنشاء الوصف تلقائياً.',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'يمكنك استخدام معالجة أمر القاعدة لتحديد الترتيب الذي سيتم تشغيل النقل البحري تكلفة النظام. يتم تشغيل القاعدة تكلفة الشحن مع عدد أدنى الأولى. الأمر مهم إذا كان يتم استخدام الإعداد لا يحسب كذلك القواعد إذا تطابق هذه القاعدة.',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'يمكنك استخدام لا يحسب كذلك القواعد إذا تطابق هذه القاعدة لتحديد أن يتم تشغيلها إذا كانت هذه القاعدة تكلفة الشحن صالحاً، ويتم تشغيل أية قواعد أخرى. لاستخدام هذا الخيار، المهم بالترتيب الذي يتم تشغيل القواعد تكلفة الشحن. يتم تحديده من خلال معالجة "أمر القاعدة".',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => 'فرز يحدد الترتيب الذي يتم عرض طرق الشحن للمستخدمين: أسلوب الشحن مع عدد أدنى يتم عرضها في الجزء العلوي.',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -452,14 +320,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'يمكنك استخدام الكمية لتحديد أن الخصم صالحة فقط لشراء كميات معينة. إذا كنت تريد للخصم لتكون صالحة لكل شراء كميات، أدخل 0 في من و إلى 0.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'يمكنك تحديد عدة "عناوين كبار المسئولين الاقتصاديين" للمنتجات: لبعض الفئات وصفحات الشركة المصنعة. مع الفئة النشطة/المورد يمكنك تحديد عنوان URL الذي تريد تحريره كبار المسئولين الاقتصاديين.',
 
@@ -471,15 +332,13 @@ $aLang =  [
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'هذا الوصف هو sourcecode (وصف ميتا) المتكاملة في HTML. غالباً ما يتم عرض هذا النص في صفحات نتائج محركات البحث. يمكن إدخال وصف مناسب هنا. إذا كان فارغاً، يتم إنشاء الوصف تلقائياً.',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'تنشيط هذا الإعداد إذا كان السطر الأول من ملف CSV يحتوي على أسماء أعمدة قاعدة البيانات قيم CSV يجب تعيينه إلى. يتم تعيين القيم تلقائياً إلى أعمدة قاعدة البيانات.',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => 'إذا كان هذا الإعداد النشط، ويرد خطوة واحدة بعد نجاح عملية الاستيراد حتى تتمكن من بدء الاستيراد التالي فورا.',
 
 'HELP_LANGUAGE_DEFAULT'                       => 'يتم استخدام اللغة الافتراضية عند المحل غير قادر على الكشف عن اللغة بطرق أخرى: لم يتم تعريف محدد موقع معلومات url معرف اللغة، ولا يمكن الكشف عنها بواسطة المستعرض، لم يتم تعريفه في الدورة إلخ. يمكن فقط تعطيل اللغة الافتراضية، وحذف غير ممكن.',
 
-'HELP_LANGUAGE_ACTIVE'                        => "يعرف هذا الخيار توافر اللغة في الواجهة ل eShop: إذا تنشيطه-اللغة يتوفر في الواجهة. للعمل في مجال الإدارة هذه اللغة دائماً متاحة؛ هو إذا حتى تعطيله للواجهة.",
+'HELP_LANGUAGE_ACTIVE'                        => 'يعرف هذا الخيار توافر اللغة في الواجهة ل eShop: إذا تنشيطه-اللغة يتوفر في الواجهة. للعمل في مجال الإدارة هذه اللغة دائماً متاحة؛ هو إذا حتى تعطيله للواجهة.',
 
 'HELP_PAYMENT_MAIN_SORT'                      => 'في الفرز يمكنك تحديد الترتيب الذي يتم طرق الدفع ليتم عرضها للمستخدمين: يتم عرض طريقة الدفع مع أقل عدد الفرز في الأعلى.',
 
@@ -487,12 +346,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'يمكنك استخدام المحدد لتحديد طريقة الدفع التي يتم تحديدها كالأسلوب الافتراضي إذا كان يمكن للمستخدم الاختيار بين عدة طرق الدفع.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'عند حساب السعر لقاء تكلفة إضافية أو تخفيض، يستخدم قيمة السلة كقاعدة. تحديد ما سوف تكون التكاليف المدرجة عند حساب قيمة السلة.',
 
@@ -500,13 +356,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'يتم عرض كافة الخيارات المتاحة القائمة في الحقول. يمكنك استخدام حقول الإدخال إلى اليمين لإعداد خيارات جديدة.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => '',
 
@@ -514,11 +366,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => '',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => 'مع الرمز و تحميل رمز يمكنك تحميل صورة لهذه الشركة المصنعة (مثل الشعار). في تحميل الرمز، حدد الصورة التي تريد تحميلها. عند النقر فوق حفظ يتم تحميل الصورة. بعد تحميل، يظهر اسم الملف في الرمز.',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => 'يمكنك أن تدع eShop حساب "عناوين كبار المسئولين الاقتصاديين". الشركة المصنعة ليحصل على هذه صفحة URL كبار المسئولين الاقتصاديين الجديد إذا تم تغيير عنوان الشركة المصنعة زاي هاء. يمنع هذا الإعداد الثابتة URL: إذا كان نشطاً والقديم هو إبقاء "كبار المسئولين الاقتصاديين عنوان" ويحسب لا URL جديد في جنوب شرقي أوروبا.',
 
@@ -528,13 +376,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'باستخدام هذا الإعداد، يمكنك تحديد إذا كان العنوان لاحقة يظهر في نافذة المتصفح الشركة المصنعة عنوان الصفحة عند فتحها. يمكن تعيين لاحقة العنوان في الإعدادات الرئيسية-> الإعدادات الأساسية-> كبار المسئولين الاقتصاديين-> العنوان لاحقة.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => '',
 
@@ -551,39 +393,65 @@ $aLang =  [
 'HELP_WRAPPING_MAIN_PICTURE'                  => '',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'قم بتحميل صورة الشعار وأدخل عنوان URL للشعار والذي  سيتم استخدامه عند النقر على البانر. إذا تم تعيين المنتج على البانر ولم يتم إدخال عنوان URL ، فسيتم استخدام رابط المنتج المعين عند النقر على البانر.',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => '',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'يمكن تحديد URL بديل إلى الملقم البعيد الصورة في تكوين ملف config.inc.php بإعداد سالتيماجيورل و سسلالتيماجيورل. سيتم تحميل الصور < Br > وهكذا جميع المنتجات من هذا الخادم البديل بدلاً من واحد محلي. ومع ذلك، يتم تخزين الملفات التي يتم تحميلها محلياً. وفي هذه الحالة قد مزامنة إلى ملقم خارجي القيام بذلك يدوياً أو مع البرامج النصية المخصصة.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => '',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => '',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => '',
+
 'HELP_SHOP_RDFA_VAT'                          => '',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => '',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => '',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => '',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => '',
+
 'HELP_SHOP_RDFA_GLN'                          => '',
+
 'HELP_SHOP_RDFA_NAICS'                        => '',
+
 'HELP_SHOP_RDFA_ISIC'                         => '',
+
 'HELP_SHOP_RDFA_DUNS'                         => '',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => '',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => '',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => '',
+
 'HELP_SHOP_RDFA_COND'                         => '',
+
 'HELP_SHOP_RDFA_FNC'                          => '',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => '',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => '',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'ويستخدم لحساب معدل ضريبة القيمة المضافة المنتجات التي يكون صافي القيمة الأكبر في سلة التسوق،.',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'يستخدم لحساب النسبة المئوية للمنتجات في سلة التسوق بنفس معدل ضريبة القيمة المضافة.',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => '',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'يتحقق مما إذا كان الوكيل العكسي متوفرة للواجهة. يتم التحقق من رأس صفحة البدء للمحل. يمكن أن تفشل الاختبار < br > إذا استخدمت نطاقات مختلفة أو البروتوكولات (http/https) للوحة المشرف وواجهة المتجر.',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'يتم عرض المجال المشرف دون وكيل عكسي. عدم تلقي could\'t رأس الورنيش.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'يمكن إدخال الايبان وبيك فقط أثناء السحب. يمكن فقط إدخال رقم الحساب البنكي وكود البنك إذا لم يتم تنشيط خانة الاختيار هذه.',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'إذا تم تنشيط هذا الخيار، يكون لدى المستخدمين للتأكد من أحكام وشروط للمنتجات غير الملموسة أو يمكن تحميلها في الخطوة الرابعة من عملية السحب. الرجاء التأكد من تمكين هذا الخيار لعنصر محدد كذلك!',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
