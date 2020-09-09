@@ -23,16 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Si cette fonction est activée, la plupart des éléments de navigation ne seront pas affichés pendant le passage de commande. Le but est ici de ne pas distraire inutilement l\'utilisateur.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '' .
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'S.V.P. éditer le fichier core/oxldap.php.',
 
@@ -40,9 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'Dans OXID eShop vous pouvez assigner des produits à de nombreuses listes, ex: promotions. Lorsque ce paramètre est activé, les variantes sont affichées dans ces listes également.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Ici, vous pouvez définir si les échelles de prix sont héritées du produit parent: Si activé, les échelles de prix sont disponibles pour les variantes du produit.',
 
@@ -51,7 +44,6 @@ $aLang =  [
 'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Lorsque ce paramètre est activé, les images sont envoyées dans l\'email. Lorsque désactivé, les images sont téléchargées par le client de messagerie à l\'ouverture du message.',
 
 'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Veuillez renseigner votre fichier PHP ici. Il remplacera les fonctions eShop lancées au démarrage.',
-
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Lorsque la gestion de cache dynamique est activée, des contenus additionnels sont mis en cache pour augmenter les performances. Désactivez ce paramètre pendant le paramétrage de la solution (Création de modules/ templates...).',
 
@@ -63,72 +55,25 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Fixe la durée de vie de la page en secondes. Cette valeur sera transmise dans les entêtes http qui spécifieront la valeur "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'Sur la page d\'accueil de la boutique, les derniers produits proposés à la vente sont affichés dans <span class="filename_filepath_or_italic">Derniers arrivages</span>.  Ce paramètre permet de choisir comment les nouveaux produits sont définis : par date de rcéation our par date de dernière modification.',
 
@@ -136,49 +81,27 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => ''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .''
-                                                        .'',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Si un utilisateur note un  produit, il ne peut plus le noter une seconde fois. Vous pouvez définir ici un délai entre deux notations produit pour un utilisateur. Laisser vide pour désactiver - Une seule notation produit par utilisateur sera alors possible.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Vous pouvez renseigner ici une URL alternative pour la validation des numéros de TVA.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Après ce délai, les produits réservés retournent dans le stock et le panier du client est vidé.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '' .
-                                                 '',
+'HELP_SHOP_CONFIG_INVITATION'                 => '',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'HELP_SHOP_CONFIG_ATTENTION'                  => '',
@@ -192,42 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Chemin vers le répertoire de stockage des fichiers des produits téléchargeables',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => ''.
-                                                 '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '' .
-                                                   '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MALL_MALLMODE'                     => '',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Vous pouvez définir une surcharge des prix sur l\'ensemble des produits de cette boutique: Saisissez la valeur de cette surcharge et sélectionnez son type (<span class="userinput_or_code">%</span>) ou bien (<span class="userinput_or_code">abs</span>).',
 
+'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
-
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_SHOP_PERF_TOPSELLER'                    => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_PERF_TOPSELLER'                    => '',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Lorsque ce paramètre est coché, l\'arbre complet des catégories est affiché dans la navigation par catégorie (Toutes les catégories sont déployées). Cela ne fonctionne que si la navigation par catégories n\'est pas affichée en haut.',
 
@@ -249,33 +157,23 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'En temps normal, le cache est vidé à chaque sauvegarde de modifications dans le back-office. Ceci peut générer des problèmes de performance dans le back-office. Si ce paramètre est activé, le cache ne sera vidé que lorsque vous vous déconnecterez du back-office.',
 
+'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
 
+'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
 
-
-
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '' .
-                                                 '',
-
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '' .
-                                                 '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Si plusieurs produits ont le même nom et se trouvent dans une même catégorie, ils devraient avoir la même URL SEO. Afin d\'éviter cela, le Suffixe SEO est rajouté. Si aucun suffixe SEO n\'est défini, <span class="filename_filepath_or_italic">oxid</span> sera utilisé.',
 
 'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Quelques URLs sont réservées dans OXID eShop, comme www.youreshop.com/admin pour accéder au back-office. Si une catégorie est nommée <span class="filename_filepath_or_italic">admin</span> son URL SEO devrait logiquement être www.youreshop.com/admin également - dans ce cas, la catégorie ne pourraît être accessible. Voici donc la raison d\'être du suffixe SEO, qui est rajouté à ces URLs. Vous pouvez définir ici quelles URLs seront automatiquement suffixées.',
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Si aucun META tags n\'est défini pour un produit ou une catégorie, les META tags sont créés automatiquement. De cette façon, certains termes non souhaités pourraient être définis. Tous les mots saisi ici  seront automatiquement exclus de la génération des META Tags.',
+
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Pour les pages spéciales (ex: conditions générales) vous pouvez définir des URLs SEO fixes. Lorsque vous séléctionnez une URL statique, son URL normale est affichée dans <span class="navipath_or_inputname">URL Standard</span>. Dans le champ de saisie situé en dessous, vous pouvez défiir une URL SEO pour chaque langue.',
 
-
-
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '' .
-                                                 '' .
-                                                 '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Avec <span class="navipath_or_inputname">Actif</span> vous pouvez activer/désactiver complètement la boutique. Si la boutique est désactivée, un message informant que la boutique est en maintenance est affiché à vos visiteurs.',
 
@@ -309,8 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'La fiche produit peut être affichée avec différents templates. Pour se faire, saisissez le nom du template à utiliser.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => ''.
-                                                 '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Les prix peuvent être modifiés sur une période définie. ces prix modifiés se substitueront aux prix standard. Si vous laissez les valeurs à "0", les prix ne seront pas modifiés.',
 
@@ -326,27 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Spécifiez la durée en heures, pendant laquelle le lien de téléchargement sera valide après le premier téléchargement. Les paramètres par défaut (Configuration générale -> Paramètres système -> Paramètres -> Téléchargement pour tous les produits) peuvent être modifiés pour un fichier particulier.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => ''.
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => '',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => '',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '' .
-                                                 '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Avec <span class="navipath_or_inputname">Envoyer un E-mail si le stock tombe sous un seuil de</span> vous pouvez demander qu\'un e-mail soit envoyé lorsque le stock atteint un seuil fixé. Pour activer cette fonction, cochez la case et définissez le niveau d\'alerte.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Les fichiers de ce produit peuvent être téléchargés',
 
@@ -368,8 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'Dans <span class="navipath_or_inputname">Quantité de/ à</span> vous pourrez définir pour quelles quantités le prix gradué est valide.<br>',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '' .
-                                                 '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Nom de la sélection</span> permet de nommer une sélection de variantes. Ex: <span class="userinput_or_code">Couleur</span> ou <span class="userinput_or_code">Taille</span>.<br>',
 
@@ -377,9 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Avec <span class="navipath_or_inputname">Masquée</span> Définissez si cette catégorie est affichée ou non aux utilisateurs de la boutique.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '' .
-                                                 '' .
-                                                 '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Avec <span class="navipath_or_inputname">Lien externe</span>, vous pouvez renseigner un lien qui s\'ouvrira lorsque l\'utilisateur cliquera sur la catégorie. <span class="warning_or_important_hint">Utilisez cette fonction seulement si vous souhaitez afficher un lien dans le menu catégories!</span>',
 
@@ -395,8 +279,6 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '<li>Si <span class="navipath_or_inputname">Ne pas appliquer les remises</span> est actif, aucune remise/ promotion ne sera calculée/appliquée sur les produits de la catégorie.',
 
-
-
 'HELP_CATEGORY_SEO_FIXED'                     => 'Vous pouvez laissez OXID eShop recalculer les URLs SEO. Une page catégorie recevra une nouvelle URL SEO si par exemple le titre de la catégorie à changé. Le paramètre <span class="navipath_or_inputname">URL Fixe</span> vous permet d\'éviter ce cas de figure : Si activé, l\'ancienne URL SEO est conservée et aucune nouvelle URL n\'est calculée.',
 
 'HELP_CATEGORY_SEO_KEYWORDS'                  => 'Ces mots clé sont intégrés dans le code source HTML des pages catégorie (META keywords). Si aucun mot clé n\'est renseigné, ils seront automatiquement générés.',
@@ -404,6 +286,7 @@ $aLang =  [
 'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Cette description est intégrée dans le code source HTML des pages catégorie (META description). Ce texte est souvent affiché dans les pages de résultats des moteurs de recherche. Une description adaptée pour la catégorie peut être saisi ici. Si aucun texte n\'est renseigné, une description sera automatiquement générée.',
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Ce paramètre vous permet de définir si le suffixe du titre est affiché dans le titre de la fenêtre quand la page catégorie est affichée. Le suffixe Titre est défini dans <span class="navipath_or_inputname">Configuration générale -> Système -> SEO -> Suffixe titre</span>.',
+
 'HELP_CONTENT_MAIN_SNIPPET'                   => 'Si vous sélectionnez <span class="navipath_or_inputname">Snippet</span> Vous pouvez inclure cette page CMS dans une autre page CMS ou un template en utilisant don identifiant : <span class="userinput_or_code">[{ oxcontent ident=id_de_la_page_CMS }]</span>',
 
 'HELP_CONTENT_MAIN_MAINMENU'                  => 'Si vous sélectionnez <span class="navipath_or_inputname">Menu</span>, un lien vers cette page CMS apparaîtra dans le menu Information (Conditions générales, Qui sommes-nous...).',
@@ -411,39 +294,24 @@ $aLang =  [
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'Si vous sélectionnez <span class="navipath_or_inputname">Categorie</span>, un lien vers cette page CMS est afficher dans la navigation par catégories, après "autres catégories".',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => 'Si vous sélectionnez <span class="navipath_or_inputname">Manuellement</span>, un lien est généré qui vous pourrez utiliser dans d\'autres pages CMS. Le lien s\'affichera après avoir cliqué sur <span class="navipath_or_inputname">Enregistrer</span>',
+
 'HELP_CONTENT_SEO_FIXED'                      => 'Vous pouvez laissez OXID eShop recalculer les URLs SEO. Une page CMS recevra une nouvelle URL SEO si par exemple le titre de la page à changé. Le paramètre <span class="navipath_or_inputname">URL Fixe</span> vous permet d\'éviter ce cas de figure : Si activé, l\'ancienne URL SEO est conservée et aucune nouvelle URL n\'est calculée.',
 
 'HELP_CONTENT_SEO_KEYWORDS'                   => 'Ces mots clé sont intégrés dans le code source HTML des pages CMS (META keywords). Si aucun mot clé n\'est renseigné, ils seront automatiquement générés.',
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Cette description est intégrée dans le code source HTML des pages CMS (META description). Ce texte est souvent affiché dans les pages de résultats des moteurs de recherche. Une description adaptée pour le contenu de la page peut être saisi ici. Si aucun texte n\'est renseigné, une description sera automatiquement générée.',
 
+'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
 
+'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_CONDITION'                => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-'HELP_DELIVERY_MAIN_PRICE'                    => '' .
-                                                 '' .
-                                                 '',
+'HELP_DELIVERY_MAIN_PRICE'                    => '',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Vous pouvez utiliser <span class="navipath_or_inputname">Ordre de traitement des règles</span> pour spécifer l\'ordre dans lequel les règle de coûts de transport seront traitées. La règle avec le plus petit nombre sera traitée en premier.',
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Vous pouvez utiliser <span class="navipath_or_inputname">Ne pas chercher d\'autres règles si celle-ci est applicable</span>. Si vous utilisez cette option, attention de bien définir l\'ordre de traitement des règles de coûts de transport. L\'ordre de traitement des règles se définit dans <span class="navipath_or_inputname">Ordre de traitement des règles</span>.',
 
-
-
 'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Ordre</span> défini l\'ordre dans lequel les moyens de livraison sont affichés à l\'utilisateur: Affichage par ordre croissant.',
-
-
 
 'HELP_DISCOUNT_MAIN_SORT'                     => '',
 
@@ -451,14 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Le paramètre <span class="navipath_or_inputname">Quantité</span>  vous permet de définir la quantité de produits minimale pour que la réduction s\'applique. Si vous ne souhaitez pas fixer de quantité minimale, saisissez la valeur <span class="userinput_or_code">0</span> dans <span class="navipath_or_inputname">De</span> et <span class="userinput_or_code">0</span> dans <span class="navipath_or_inputname">à</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 ''.
-                                                 '',
-
-
+'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Vous pouvez définir plusieurs URL SEO pour vos produits: Pour certaines pages catégories ou marques/fabricants. Avec <span class="navipath_or_inputname">Categorie/Distributeur Active</span> vous pouvez sélectionner l\'URL SEO que vous souhaitez modifier.',
 
@@ -470,15 +331,13 @@ $aLang =  [
 
 'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'La description est intégrée dans le code source de la page (META description). Ce texte est souvent affiché dans les pages de résultats des moteurs de recherche. Une description adaptée peut être saisie ici. Si ce paramètre n\'est pas renseigné, une description sera générée automatiquement.',
 
-
-
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Activez ce paramètre si la première ligne de votre fichier CSV contient les noms des champs de BDD dans lesquels les valeurs de la colonne doivent être enregistrés.',
 
 'HELP_GENIMPORT_REPEATIMPORT'                 => 'Lorsque ce paramètre eest activé, l\'étape 1 est affiché lorsque l\'import a été réalisé avec succès. Ainsi, vous pouvez lancer un nouvel import immédiatement.',
 
 'HELP_LANGUAGE_DEFAULT'                       => 'La langue par défaut est utilisée lorsque le système n\'est pas capable de détecter la langue d\'un utilisateur: ID de langue non présent dans l\'URL, Langue non présente dans le navigateur, non définie dans la session etc. La langue par défaut ne peut être que désativée, aucunement supprimée.',
 
-'HELP_LANGUAGE_ACTIVE'                        => "Cette option permet de définir les langues accessibles à vos utilisateurs sur la boutique: si activé - la langue est affichée sur la boutique.",
+'HELP_LANGUAGE_ACTIVE'                        => 'Cette option permet de définir les langues accessibles à vos utilisateurs sur la boutique: si activé - la langue est affichée sur la boutique.',
 
 'HELP_PAYMENT_MAIN_SORT'                      => 'Le paramètre <span class="navipath_or_inputname">Position</span> vous permet de spécifier l\'ordre d\'affichage des moyens de paiement à vos utilisateurs.',
 
@@ -486,12 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Utilisez le paramètre <span class="navipath_or_inputname">Selectionné</span> pour définir un moyen de paiement par défaut.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Lors du calcul de frais ou remises, la valeur du panier est utilisée comme base. Définissez quels coûts  doivent être inclus dans le calcul de la valeur du panier.',
 
@@ -499,13 +355,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Toutes les options/variantes disponibles sont affichées dans la liste des <span class="navipath_or_inputname">Champs</span>. Vous pouvez définir de nouvelles options dans la partie droite. Pour plus d\' informations :<a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists" target="_blank">Manuel OXID eShop</a>.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '' .
-                                                 '' .
-                                                 '',
+'HELP_USER_MAIN_HASPASSWORD'                  => '',
 
-'HELP_USER_PAYMENT_METHODS'                   => ''.
-                                                 ''.
-                                                 '',
+'HELP_USER_PAYMENT_METHODS'                   => '',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Ce paramètre indique si l\'utilisateur est abonné à la newsletter.',
 
@@ -513,11 +365,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => 'Definissez ici un niveau de confiance à votre client. Le niveau de confiance est utilisé pour les moyens de paiements autorisés pour les clients.',
 
-
-
 'HELP_MANUFACTURER_MAIN_ICON'                 => 'Avec <span class="navipath_or_inputname">Icône</span> et <span class="navipath_or_inputname">Envi Icône</span> vous pouvez définir une image pour ce fabricant/ cette marque(ex: Son logo). Cliquez sur <span class="navipath_or_inputname">Envoi Icône</span>, selectionnez l\'image que vous souhaitez envoyer. En cliquant sur <span class="navipath_or_inputname">Enregister</span> L\'image est envoyée sur le serveur. Après l\'envoi, le nom du fichier est affiché dans <span class="navipath_or_inputname">Icône</span>..',
-
-
 
 'HELP_MANUFACTURER_SEO_FIXED'                 => 'Vous pouvez laisser le système recalculer les URL SEO. Un fabricant / une marque reçoit une nouvelle URL par exemple dans le cas d\'un changement de nom. Le paramètre <span class="navipath_or_inputname">URL Fixe</span> permet d\'empêcher cela: Si ce paramêtre est activé, les URL ne seront pas recalculées.',
 
@@ -527,13 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Ici, vous pouvez spécifier le suffixe du titre qui sera afficher dans le titre de votre navigateur lorsque la page Marques/fabricants est ouverte. Ce suffixe de titre peut être défini dans <span class="navipath_or_inputname">Configuration générale -> Paramètres système -> SEO -> Title Suffix</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '' .
-                                                 '' .
-                                                 '' .
-                                                 '' .
-                                                 '',
-
-
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Vous pouvez définir ici si les clients peuvent utiliser plusieurs bons de réduction d\'une même série dans une même commande.',
 
@@ -550,39 +392,65 @@ $aLang =  [
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'Avec <span class="navipath_or_inputname">Image</span> et <span class="navipath_or_inputname">Envoyer image</span> Vous pouvez envoyer une image pour les emaballages cadeau. Dans <span class="navipath_or_inputname">Envoyer image</span>, Choisissez l\'image à envoyer. En cliquent sur <span class="navipath_or_inputname">Enregistrer</span>, L\'image est envoyée sur le serveur. Après l\'envoi, le nom du fichier est affiché dans <span class="navipath_or_inputname">Image</span>.',
 
 'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Envoyer une image bannière et saisissez une adresse URL qui sera affecté à l\'image lors d\'un clic. Si la bannière est associée à un article et qu\'aucune URL n\'est définie, l\'adresse de l\'article sera utilisée.',
+
 'HELP_SHOP_PERF_SEO_CACHE'                    => 'Activer le cache SEO augmente les performances, mais nécessite beaucoup d\'espace disque dans le répertoire /tmp.',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'Il est possible de spécifier une url alternative d\'un serveur d\'images distant dans le fichier de configuration config.inc.php avec les paramètres <i>sAltImageUrl</i> et <i>sSSLAltImageUrl</i>.<br>Ainsi, toutes les photos de produits seront chargés depuis ce serveur alternatif plutôt que depuis le serveur local. Cependant, les fichiers uploadés sont stockés en local. Dans ce cas, une synchronisation avec le serveur externe doit être mis en place manuellement ou avec un script personnalisé.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Sélectionnez ici, dans quelle page de contenu est affichée l\'information principale de l\'eShop, par exemple "A propos de nous".',
+
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Sélectionnez ici, dans quelle page de contenu les informations de livraison non assignées au RDFa sont affichées, par exemple "Coûts de livraison". Pour assigner les méthodes de livraison aux méthodes de paiement RDFa en général, rendez-vous sur la page : Paramètres de la boutique -> Méthodes de livraison -> RDFa',
+
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Sélectionnez ici, dans quelle page de contenu les informations de livraison non assignées au RDFa sont affichées, par exemple "Coûts de livraison". Pour assigner les méthodes de livraison aux méthodes de paiement RDFa en général, rendez-vous sur la page : Paramètres de la boutique -> Méthodes de livraison -> RDFa',
+
 'HELP_SHOP_RDFA_VAT'                          => 'Cette option spécifie si la taxe (TVA) est incluse dans le prix et les coûts de paiement/livraison ou non.',
+
 'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Renseignez ici la durée de validité des coûts des produits, paiements et livraison (par exemple 1 jour, 1 semaine).',
+
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'L\'adresse web (url) d\'un logo ou une image.',
+
 'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'La longitude du magasin pour la position géographique. Merci de ne saisir que des nombres.',
+
 'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'La latitude du magasin pour la position géographique. Merci de ne saisir que des nombres.',
+
 'HELP_SHOP_RDFA_GLN'                          => 'Le code lieu-fonction (ou GLN) de l\'entreprise. Le code lieu-fonction est un nombre à 13 chiffres utilisé pour identifier des emplacements physiques.',
+
 'HELP_SHOP_RDFA_NAICS'                        => 'Le système de classification des industries d\'Amérique du nord (NAICS) attribue un code à votre société. Voir: http://www.census.gov/eos/www/naics/.',
+
 'HELP_SHOP_RDFA_ISIC'                         => 'La standard international de classification des industries de toutes les branches d\'activités économiques (ISIC) attribut un code à votre entreprise. Voir http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
+
 'HELP_SHOP_RDFA_DUNS'                         => 'Le D-U-N-S de Dun & Bradstreet est un nombre de neuf chiffres utilisé pour identifier des entités légales.',
+
 'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Si cette option est activée cela signifie que le stock réel du produit est affiché.',
+
 'HELP_SHOP_RDFA_RATING_MIN'                   => 'Valeur minimum possible par rapport à l\'échelle utilisée pour les notations dans votre boutique. Cette valeur n\'est pas la plus haute note actuelle d\'un produit.',
+
 'HELP_SHOP_RDFA_RATING_MAX'                   => 'Valeur maximum possible par rapport à l\'échelle utilisée pour les notations dans votre boutique. Cette valeur n\'est pas la plus haute note actuelle d\'un produit.',
+
 'HELP_SHOP_RDFA_COND'                         => 'Sélectionnez ici, quel terme décrit l\'état du produit (neuf, usagé ou reconditionné).',
+
 'HELP_SHOP_RDFA_FNC'                          => 'Sélectionnez ici la nature commerciale des produits. Par exemple, sont-ils proposés à la vente, à la location ou à la réparation?',
+
 'HELP_SHOP_RDFA_COSTUMER'                     => 'Les types de client pour lesquels les produits de la boutique sont valides (utilisateur final, revendeur, professionnel et/ou public)',
+
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Cette propriété spécifie la durée de validité des produits, par exemple 1 jour, 1 semaine ou 1 mois.',
+
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'Le taux de TVA des produits représentant le montant le plus élevé du panier, est utilisé pour le calcul.',
+
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Le pourcentage de produits du panier avec le même taux de TVA est utilisé pour le calcul.',
+
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Dans le frontend le prix des produits est affiché en prix nets.',
+
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'Dans la partie administrative, les prix des produits doivent être saisis en prix nets.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Vérifie la disponibilité du Proxy inversé pour le frontend. L\'entête de la page de démarrage de la boutique est vérifiée.',
+
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'La zone d\'administration s\'affiche sans Proxy inversé. Les entêtes de fichiers ne pourraient être reçu.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Seuls IBAN et BIC peuvent être entrés pendant la vérification. Le numéro de compte bancaire et le code banque ne peuvent être saisis si cette case à cocher n\'est pas activée.',
+
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Si cette option est activé, les usagers doivent confirmer qu\'ils acceptent les termes et conditions pour tous les produits intangibles et/ou téléchargeables dans la quatrieme étape du processus d\'achat. Veuillez vous assurer s\'il vous plait que l\'option est bien coché pour cette article spécifique.',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
