@@ -19,20 +19,20 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English';
+$sLangName = 'Deutsch';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'OE GDPR Opt-in Modul',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'DSGVO-Einstellungen',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Opt-in für Rechnungsadresse anzeigen',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Opt-in für Lieferadresse anzeigen',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Opt-in für die Benutzerregistrierung anzeigen',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Opt-in für Artikelbewertungen anzeigen',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Einstellungen für das Kontaktformular',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Hinweis auf Löschen der Daten nach Verarbeitung anzeigen',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Opt-in für Verarbeitung und statistische Verwendung der Daten anzeigen',
 ];
