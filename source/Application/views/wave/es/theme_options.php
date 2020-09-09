@@ -36,7 +36,7 @@ $aLang = array(
     'SHOP_THEME_GROUP_googlets'                     => '',
     'SHOP_THEME_GROUP_background'                   => '',
     'SHOP_THEME_GROUP_econda'                       => '',
-    'SHOP_THEME_GROUP_emails'                       => 'Email',
+    'SHOP_THEME_GROUP_emails'                       => 'E-mail',
 
     'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => '' .
