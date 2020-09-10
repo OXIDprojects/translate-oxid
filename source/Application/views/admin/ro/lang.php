@@ -762,7 +762,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'MAIN_INFO'                                      => 'Informatii',
     'MR'                                             => '',
     'MRS'                                            => 'Doamna',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Bun Venit in Zona de Administrare Q4Shop. Acesta este o previzualizare a principalelor sectiuni si functii .',
     'NAVIGATION_TITLE'                               => 'Navigare',
     'NAVIGATION_ESHOPADMIN'                          => 'Admin eshop',
     'NAVIGATION_LOGOUT'                              => 'Iesire',
@@ -770,13 +770,13 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'NAVIGATION_PAGE'                                => 'Pagina',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versionea %s este disponibila.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => '',
-    'NEWS_LIST_MENUITEM'                             => 'Informații clienți',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
-    'NEWS_MAIN_SHORTDESC'                            => '',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_LIST_TITLE'                                => '[Q4Shop News Administration]',
+    'NEWS_LIST_SHORTTEXT'                            => 'Titlu',
+    'NEWS_LIST_MENUITEM'                             => 'Informatii Client',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Mesaje',
+    'NEWS_MAIN_SHORTDESC'                            => 'Titlu',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Vizibil pentru Grup Utilizatori',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Invizibil pentru Grup Utilizatori',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favorite',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ editeaza ]',
@@ -850,7 +850,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'ORDER_REMARK_ORDER'                                 => '[Comanda]',
     'ORDER_REMARK_USER'                                  => '[Nr. Inreg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Noutati]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => '',
     'ORDER_OVERVIEW_VATID'                               => 'Cod Fiscal:',
@@ -1085,7 +1085,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => '',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Fisier Pagini CMS',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Numar de Noutati afisate in News Box',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Format Data in Q4Shop Admin',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Calculeaza Costul de Livrare daca Utilizatorul nu este inca logat',
@@ -1122,7 +1122,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Utilizati default mesajul "in-stoc"',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Salveaza informatii Carte de Credit',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => '',
@@ -1343,7 +1343,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'TOOLTIPS_NEWDELIVERY'                    => 'Creaza Regula Noua pt. Costuri de Livrare',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Creaza Metoda de Livrare Noua',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Creaza Mesaj Nou',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Creaza Serie Noua de Cupoane',
     'TOOLTIPS_NEWCATTREE'                     => 'Re-Indexeaza Arborele de Categorii',
@@ -1400,7 +1400,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'USER_REMARK_ORDER'                       => '[Comanda]',
     'USER_REMARK_USER'                        => '[Inreg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Noutati]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Administrare Utilizatori',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Grupuri Utilizatori',
@@ -1479,8 +1479,8 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'SHOP_PERF_LOADCURRENCY'                  => 'Afiseaza Monede',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Afiseaza Limbi',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Incarca Noutati',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Inacarca Noutati doar in Pagina de Start',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Incarca Variantele in Liste (Rezultate Cautare, Categorii). Aceasta varianta utilizeaza multa memorie si poate cauza Probleme de Performata Serverelor mici',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Incarca si Afiseaza Lista de Producatori',
@@ -1545,7 +1545,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'mxmanageprod'             => 'Administrare Produse',
     'mxmainmenu'               => 'Setari de Baza',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Noutati',
     // END deprecated
     'mxorders'                 => 'Administrare Comenzi',
     'mxpaymeth'                => 'Modalitati Plata',
@@ -1654,7 +1654,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     //languages
     'tbcllanguage_main'        => 'Principal',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_main'            => '',
+    'tbclnews_main'            => 'Principal',
     'tbclnews_text'            => '',
     // END deprecated
     //  order_list',
@@ -1868,10 +1868,10 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'PAYMENT_RDFA_CREDITCARD'              => '',
     'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
     'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
+    'PAYMENT_RDFA_DISCOVER'                => 'Descopera',
     'PAYMENT_RDFA_JCB'                     => '',
     'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Alocare metoda de livrare',
@@ -1934,14 +1934,14 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'OXDIAG_DOWNLOAD_FILE'                => '',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => '',
     'OXDIAG_VERSION'                      => 'Versiune',
-    'OXDIAG_EDITION'                      => '',
+    'OXDIAG_EDITION'                      => 'Editie',
     'OXDIAG_REVISION'                     => '',
     'OXDIAG_SUMMARY'                      => '',
     'OXDIAG_HINTS'                        => '',
     'OXDIAG_OK'                           => 'OK',
     'OXDIAG_MODIFIED'                     => '',
     'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
+    'OXDIAG_UNKNOWN'                      => 'Necunoscută',
     'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
     'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
     'OXDIAG_SHOP_ORIGINAL'                => '',
