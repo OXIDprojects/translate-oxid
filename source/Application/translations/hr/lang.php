@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Poništi',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Sigurnosni kod CVV2 ili CVC2:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 je trojznamenkasti broj otisnut obrnutom kurzivom na rubu kreditne kartice pod potpisom vlasnika.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Karta za:',
 /** end deprecated */
 'CART'                                                        => 'Košarica',
 'CATEGORIES'                                                  => 'Kategorije',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Promijeniti lozinku',
 'CHARGES'                                                     => 'Troškovi:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Kontrola',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Do blagajne',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Kontrola historije Vaših narudžbi',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => '',
 'CREATE_PASSWORD'                                             => 'Kreiraj lozinku',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditna kartica:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktualan artikl',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kupci koji su kupili ovaj artikl su kupili i ove artikle:',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => '',
 'NEWLIST'                                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Novosti',
 // END deprecated
 'NEWSLETTER'                                                  => 'Newsletter',
 'NEWSLETTER_SETTINGS'                                         => '',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Traži',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Novosti',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => '',
 'PAGE_TITLE_INVITE'                                           => '',
