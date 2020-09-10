@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Titel',
     'NEWS_LIST_MENUITEM'                             => 'Kundeoplysninger',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Nyheder',
     'NEWS_MAIN_SHORTDESC'                            => 'Titel',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => '',
     'mxmainmenu'               => 'Generelle indstillinger',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Nyheder',
     // END deprecated
     'mxorders'                 => '',
     'mxpaymeth'                => '',
