@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Définissez ici si des commandes peuvent être passées dans des pays pour lesquels aucun mode de livraison n\'a été défini:<ul><li>Si cette fonction est activée, les utilisateurs peuvent commander: Les utilisateurs seront notifiés manuellement des coûts de transport pour leur commande.</li><li>Si cette fonction est désactivée, les utilisateurs de pays pour lesquels aucun mode de livraison n\'a été défini ne pourront pas commander.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Si cette fonction est activée, la plupart des éléments de navigation ne seront pas affichés pendant le passage de commande. Le but est ici de ne pas distraire inutilement l\'utilisateur.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Valeurs recommandées entre 40 et 80:<br><ul><li>En deçà de 40, la compression de vient visible et les images sont troubles.</li><li>Au-delà de 80 les améliorations visuelles sont imperceptibles, en revanche la taille des images augmente de manière significative.</li></ul><br>La valeur par défaut est 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'S.V.P. éditer le fichier core/oxldap.php.',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'Dans OXID eShop vous pouvez assigner des produits à de nombreuses listes, ex: promotions. Lorsque ce paramètre est activé, les variantes sont affichées dans ces listes également.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Ce paramètre permet de définir si les produits parents peuvent être achetés:<ul><li>Lorsque ce paramètre est activé, les produits parents peuvent être achetés également.</li><li>Lorsque ce paramètre est désactivé, seules les variantes du produit peuvent être achetées.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Ici, vous pouvez définir si les échelles de prix sont héritées du produit parent: Si activé, les échelles de prix sont disponibles pour les variantes du produit.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Fixe la durée de vie de la page en secondes. Cette valeur sera transmise dans les entêtes http qui spécifieront la valeur "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Lorsque le double-opt-dans est actif, les utilisateurs recoivent un eMail avec un lien de confirmation lorsqu\'ils s\'abonnent à la Newsletter. L\'inscription n\'est valide que lorsque la confirmation à été effectuée.<br>Le Double-opt-dans protège les utilisateurs d\'abonnements non sollicités. Sans double-opt-dans, n\'importe quelle adresse eMail peut être utilisée pour la Newsletter. Avec le double-opt-dans, le propriétaire de l\'adresse doit confirmer sont inscription.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Avec le Cross-selling vous pouvez proposer des produits complémentaires à un produit: Si par exemple des pneus sont définis comme produits complémentaires à une voiture, les pneus sont affichés avec la voiture.<br>Si le Cross-selling bidirectionnel est activé, il fonctionnera dans les deux sens.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Pour chaque produit, vous pouvez définir un message si le produit est en stock.<br>Lorsque ce paramètre est activé, un message générique est affiché si aucun message spécifique n\'a été défini. Le message générique <span class="filename_filepath_or_italic">Produit en stock</span> est affiché.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Pour chaque produit, vous pouvez définir un message si le produit n\'est pas en stock.<br>Lorsque ce paramètre est activé, un message générique est affiché si aucun message spécifique n\'a été défini. Le message générique <span class="filename_filepath_or_italic">Produit en rupture de stock. En cours de réapprovisionnement</span> est affiché.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Vous pouvez définir des prix spéciaux pour des utilisateurs spécifiques: Pour cela, dans chaque produit vous pouvez définir des prix A, B et C. Si les utilisateurs appartiennent au groupe <span class="filename_filepath_or_italic">Price A</span>, Le prix A sera affiché à la place du prix normal.<br>Lorsque ce paramètre est actif, le prix normal est utilisé si aucun prix A, B ou C n\'a été défini.<br>A n\'activer que si vous utilisez des prix A, B et C prices.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Ici, vous pouvez définir les champs dans lesquels la recherche sera effective. Saisissez un champ par ligne.<br>Les champs fréquemment définis sont:<ul><li>oxtitle = Titre</li><li>oxshortdesc = Description courte</li><li>oxsearchkeys = Mots clés de recherche</li><li>oxartnum = Réf produit</li><li>oxtags = Tags</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Ici, vous pouvez définir les champs utilisés pour les tris dans les listes produits. Saisissez un champ par ligne.<br>Les champs fréquemment définis sont:<ul><li>oxtitle = Titre</li><li>oxprice = Prix</li><li>oxvarminprice = Prix minimum si utilisation prix par variante.</li><li>oxartnum = Réf produit</li><li>oxrating = Notation</li><li>oxstock = Stock</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Ici, vous pouvez définir les champs obligatoires pour la création d\'un utilisateur. Saisissez un champ par ligne.<br>Les champs fréquemment définis sont:<ul><li>oxuser__oxfname = Prénom</li><li>oxuser__oxlname = Nom</li><li>oxuser__oxstreet = Adresse</li><li>oxuser__oxstreetnr = N° de voie</li><li>oxuser__oxzip = Code postal</li><li>oxuser__oxcity = Ville</li><li>oxuser__oxcountryid = Pays</li><li>oxuser__oxfon = Téléphone</li></ul><br>Vous pouvez également définir des champs obligatoires lors de l\'utilisation d\'une adresse de livraison différente. Les champs fréquemment définis sont:<ul><li>oxaddress__oxfname = Prénom</li><li>oxaddress__oxlname = Nom</li><li>oxaddress__oxstreet = Adresse</li><li>oxaddress__oxstreetnr = N° de voie</li><li>oxaddress__oxzip = Code postal</li><li>oxaddress__oxcity = Ville</li><li>oxaddress__oxcountryid = Pays</li><li>oxaddress__oxfon = Téléphone</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Le paramètre <span class="navipath_or_inputname">Autoriser les valeurs de stock négatives</span> vous permet de définir comment gérer vos stocks:<br><ul><li>Lorsque ce paramètre est activé, des niveaux de stocks négatifs sont calculés.</li><li>Lorsque ce paramètre est désactivé, la valeur du stock ne descend jamais en dessous de 0.</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Si un utilisateur note un  produit, il ne peut plus le noter une seconde fois. Vous pouvez définir ici un délai entre deux notations produit pour un utilisateur. Laisser vide pour désactiver - Une seule notation produit par utilisateur sera alors possible.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'La validation en ligne du numéro de TVA est effectuée si un client de la zone EURO renseigne un numéro de TVA lors d\'une commande. Si le numéro de TVA renseigné est valide, la TVA ne sera pas calculée sur la commande.<br>Si cette fonction n\'est pas activée, le taux de TVA applicable est utilisé.',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Vous pouvez renseigner ici une URL alternative pour la validation des numéros de TVA.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'La Connexion Ventes Privées transforme votre shop en site de ventes privées réservé aux seuls membres.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Autorise la mise au panier de produits d\'une seule catégorie (Principale). Si un changement de catégorie est détecté, l\'utilisateur se vera demandé de finaliser sa commande ou bien de continuer son shopping (dans le seuxième cas, le panier sera vidé). Cette fonctionnalité est à utiliser conjointement avec  une structure de catégories proprement organisée.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Lorsque cette fonctionnalité est désactivée, eShop diminue la quantité en stock du produit immédiatement lorsque la commande est confirmée et le processus de commande terminé.<br><br> Lorsque activée, cette fonctionnalité permet : la réduction du stock de produit temporairement <b>réservé</b> lors de la mise au panier. La réservation est annulée lorsque la commande est passée ou à l\'expiration du panier.',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Après ce délai, les produits réservés retournent dans le stock et le panier du client est vidé.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Les invitations sont utiliser pour inviter ses amis à se connecter sur la boutique et gagner des points.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Le montant de points gagnés par un utilisateur invité par un utilisateur existant.L\'invité doit s\'enregistrer pour collecter ces points.Les points collectés sont enregistrés dans la fiche client et peuvent être utilisés par le gestionnaire de la boutique comme il l\'entend.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Le montant de points gagnés par un utilisateur ayant invité une personne. L\'utilisateur reçoit des points uniquement si son invité s\'inscrit effectivement dans la boutique.Les points collectés sont enregistrés dans la fiche client et peuvent être utilisés par le gestionnaire de la boutique comme il l\'entend.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Attention: Même si du cryptage est utilisé, cette pratique est dangereuse et non recommandée!',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'Au cours de la 4ème étape du processus de validation la page "oxtsinternationalfees" est en outre affichée.',
@@ -115,27 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Chemin vers le répertoire de stockage des fichiers des produits téléchargeables',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Vous pouvez définir ici combien de fois un utilisateur peut télécharger par le biais d\'un même lien après sa commande. Cette valeur peut être modifiée unitairement au niveau produit dans Gestion des produits -> Produits -> Téléchargement',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Vous pouvez définir ici combien de fois un client peut utiliser un lien de téléchargement, lors d\'une commande sans compte client. Des paramètres spécifique à un produit particulier peuvent être définis et se substitueront à la configuration par défaut : Gestion des produits -> Produits -> Paramètres -> Téléchargements.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Définissez une durée en heures, pendant laquelle le lien de téléchargement sera valide après une commande. Ce paramètre par défaut s\'appliquera à tous les produits. Si vous souhaitez modifier cette valeur pour un produit particulier, rendez-vous dans : Gestion des produits -> Produits -> Téléchargement',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Définissez une durée en heures, pendant laquelle le lien de téléchargement sera valide après un premier téléchargement. Ce paramètre par défaut s\'appliquera à tous les produits. Si vous souhaitez modifier cette valeur pour un produit particulier, rendez-vous dans : Gestion des produits -> Produits -> Téléchargement',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Définissez ici ce qui est affiché en page d\'accueil de votre boutique:<ul><li><span class="navipath_or_inputname">Afficher la liste des boutiques</span>: Une page listant les boutiques disponibles est affichée.</li><li><span class="navipath_or_inputname">Afficher la page d\'accueil de la boutique principale</span>: La page d\'accueil du site principal est affichée normalement.</li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Vous pouvez définir une surcharge des prix sur l\'ensemble des produits de cette boutique: Saisissez la valeur de cette surcharge et sélectionnez son type (<span class="userinput_or_code">%</span>) ou bien (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Un listes des produits récents est affichée dans <span class="filename_filepath_or_italic">Derniers arrivages!</span>. Vous pouvez spécifier ici comment est gérée cette liste:<ul><li><span class="userinput_or_code">inactive</span>: La liste n\'est pas affichée.</li><li><span class="userinput_or_code">manuel</span>: Vous définissez le contenu dans <span class="navipath_or_inputname">Information clients -> Promotions -></span> dans la promotion <span class="filename_filepath_or_italic">Derniers arrivages!</span>.</li><li><span class="userinput_or_code">automatique</span>: Les produits sont calculés automatiquement.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Une liste des produits les plus commandés est affichée dans <span class="filename_filepath_or_italic">Best sellers</span>. Vous pouvez spécifier ici comment est gérée cette liste:<ul><li><span class="userinput_or_code">inactive</span>: La liste n\'est pas affichée.</li><li><span class="userinput_or_code">manual</span>: Vous définissez le contenu dans <span class="navipath_or_inputname">Information clients -> Promotions -></span> dans la promotion <span class="filename_filepath_or_italic">Best sellers</span>.</li><li><span class="userinput_or_code">automatic</span>: Les produits sont calculés automatiquement.</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Lorsque ce paramètre est coché, l\'arbre complet des catégories est affiché dans la navigation par catégorie (Toutes les catégories sont déployées). Cela ne fonctionne que si la navigation par catégories n\'est pas affichée en haut.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'En temps normal, le cache est vidé à chaque sauvegarde de modifications dans le back-office. Ceci peut générer des problèmes de performance dans le back-office. Si ce paramètre est activé, le cache ne sera vidé que lorsque vous vous déconnecterez du back-office.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Chaque page dispose d\'un titre. ce titre est affiché en haut de la fenêtre du navigateur. Avec <span class="navipath_or_inputname">Prefixe Titre</span> et <span class="navipath_or_inputname">Suffixe Titre</span> vous pouvez ajouter du texte avant et après le titre:<br><ul><li>Dans <span class="navipath_or_inputname">Préfixe Titre</span>, saisissez le texte à afficher avant le titre de la page.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Chaque page dispose d\'un titre. ce titre est affiché en haut de la fenêtre du navigateur. Avec <span class="navipath_or_inputname">Prefixe Titre</span> et <span class="navipath_or_inputname">Suffixe Titre</span> vous pouvez ajouter du texte avant et après le titre:<br><ul><li>Dans <span class="navipath_or_inputname">Suffixe Titre</span>, saisissez le texte à afficher après le titre de la page.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Le séparateur est utilisé lorsque le nom des catégories et des produits est composé de plusieurs mots Le séparateur sera utilisé à la place des espaces. ex: www.youreshop.com/category-name-of-several-words<br>Si aucun séparateur n\'est défini, - sera utilisé.',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Si plusieurs produits ont le même nom et se trouvent dans une même catégorie, ils devraient avoir la même URL SEO. Afin d\'éviter cela, le Suffixe SEO est rajouté. Si aucun suffixe SEO n\'est défini, <span class="filename_filepath_or_italic">oxid</span> sera utilisé.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Pour les pages spéciales (ex: conditions générales) vous pouvez définir des URLs SEO fixes. Lorsque vous séléctionnez une URL statique, son URL normale est affichée dans <span class="navipath_or_inputname">URL Standard</span>. Dans le champ de saisie situé en dessous, vous pouvez défiir une URL SEO pour chaque langue.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Tant que ce paramètre n\'est <span class="warning_or_important_hint">pas</span> actif, les informations relatives aux temps d\'execution et au debuggage sont affichées en pied de page. Ces informations sont très utilies lors de la customization de la boutique.<br><span class="warning_or_important_hint">Activez ce paramètres lorsque vous passez en production. Dans ce cas, seul le contenu de la boutique sera affiché à vos utilisateurs.</span>',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Avec <span class="navipath_or_inputname">Actif</span> vous pouvez activer/désactiver complètement la boutique. Si la boutique est désactivée, un message informant que la boutique est en maintenance est affiché à vos visiteurs.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'La fiche produit peut être affichée avec différents templates. Pour se faire, saisissez le nom du template à utiliser.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Si le produit est customizable, un champ de saisie additionel est affiché sur la fiche produit et dans le panier d\'achats. Les clients pourront alors saisir un texte pour customiser le produit.<br><br>Un exemple typique de l\'utilité de cette fonction pour la vente de tee-shirts qui peuvent être imprimés avec un message personnalisé.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Les prix peuvent être modifiés sur une période définie. ces prix modifiés se substitueront aux prix standard. Si vous laissez les valeurs à "0", les prix ne seront pas modifiés.',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Spécifiez la durée en heures, pendant laquelle le lien de téléchargement sera valide après le premier téléchargement. Les paramètres par défaut (Configuration générale -> Paramètres système -> Paramètres -> Téléchargement pour tous les produits) peuvent être modifiés pour un fichier particulier.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Les icônes sont les plus petits visuels produits. Ils sont utilisés entre autres dans le panier.<br>Transférer une image icône remplacera l\'image actuelle générée depuis la première image produit.<br>Après transfert, le nom de l\'image est affiché dans icône. Si aucune icône n\'a été transférée, --- est affiché.<br>',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Les vignettes sont de petites images produit. Elles sont principalement utilisées dans les listes produits (catégories, résultats de recherche).<br>Transférer une image vignette remplacera l\'image actuelle générée depuis la première image produit.<br>Après transfert, le nom de l\'image est affiché dans vignette. Si aucune vignette n\'a été transférée, --- est affiché.<br>',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Les visuels produits sont utilisés dans la fiche produit. Vous pouvez transférer jusqu\'à 7 images par produit. Après transfert, le nom de l\'image est affiché dans le champ correspondant. Si aucune image n\'a été transférée, --- est affiché.<br>Transférez des visuels de grande résolution.  Après le transfert, l\'image principale, l\'image Zoom, la vignette et l\'icône seront générées automatiquement.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Les images Zomm sont des visuels de grande taille qui sont accessibles depuis la fiche produit. </br>Vous pouvez transférer des images Zoom dans <span class="navipath_or_inputname">Zoom X upload</span>. Après transfert, le nom de l\'image est affiché dans <span class="navipath_or_inputname">Zoom X</span> . Si aucune image Zoom n\'a été transférée, <span class="userinput_or_code">nopic.jpg</span> est affiché.<br>',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Avec <span class="navipath_or_inputname">Envoyer un E-mail si le stock tombe sous un seuil de</span> vous pouvez demander qu\'un e-mail soit envoyé lorsque le stock atteint un seuil fixé. Pour activer cette fonction, cochez la case et définissez le niveau d\'alerte.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'Dans <span class="navipath_or_inputname">Type de stock</span> vous pouvez choisir parmi 4 possibilités:<ul><li><span class="userinput_or_code">Standard</span>: Le produit peut être commandé même si pas de stock disponible.</li><li><span class="userinput_or_code">Entrepôt Externe</span>: Le produit peut toujours être commandé et sera toujours affiché <span class="filename_filepath_or_italic">En stock</span>.</li><li><span class="userinput_or_code">Si hors stock, ne pas afficher</span>: Le produit n\'est pas affiché aux clients lorsque pas de stock disponible.</li><li><span class="userinput_or_code">Si hors stock, pas de commande possible</span>: Le produit est affiché aux clients mais la commande n\'est pas possible.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Les fichiers de ce produit peuvent être téléchargés',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'Dans <span class="navipath_or_inputname">Quantité de/ à</span> vous pourrez définir pour quelles quantités le prix gradué est valide.<br>',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Ici, vous renseignerez le prix correspondant aux quantités saisies plus haut. Votre prix peut être exprimé en valeur abolue ou bien en pourcentage de remise.<br>',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Nom de la sélection</span> permet de nommer une sélection de variantes. Ex: <span class="userinput_or_code">Couleur</span> ou <span class="userinput_or_code">Taille</span>.<br>',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Avec <span class="navipath_or_inputname">Masquée</span> Définissez si cette catégorie est affichée ou non aux utilisateurs de la boutique.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'Dans <span class="navipath_or_inputname">Sous-catégorie de</span> définissez la hiérarchie de votre catégorie, à quel endroit sera affichée cette catégorie :<br><ul><li>Si la categorie est une catégorie principale (niveau 1), alors sélectionnez <span class="userinput_or_code">--</span>.</li><li>Si la categorie est une sous-catégorie d\'une autre catégorie, alors sélectionnez cette catégorie "parente" dans la liste.</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Avec <span class="navipath_or_inputname">Lien externe</span>, vous pouvez renseigner un lien qui s\'ouvrira lorsque l\'utilisateur cliquera sur la catégorie. <span class="warning_or_important_hint">Utilisez cette fonction seulement si vous souhaitez afficher un lien dans le menu catégories!</span>',
 
@@ -301,11 +301,11 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Cette description est intégrée dans le code source HTML des pages CMS (META description). Ce texte est souvent affiché dans les pages de résultats des moteurs de recherche. Une description adaptée pour le contenu de la page peut être saisi ici. Si aucun texte n\'est renseigné, une description sera automatiquement générée.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Dans <span class="navipath_or_inputname">Règles de calcul</span> vous sélectionnerez comemnt le prix est calculé:<ul><li><span class="userinput_or_code">Une fois par panier</span>: Le prix est calculé une fois pour toute la commande.</li><li><span class="userinput_or_code">Une fois pour chaque type de produit différent</span>: Le prix est calculé pour chaque produit différent dans le panier, Quelle que soit la quantité commandée.</li><li><span class="userinput_or_code">Pour chaque produit</span>: Le prix est calculé pour chaque unité de produit dans le panier.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'Dans <span class="navipath_or_inputname">Condition</span> vous pouvez spécifier que les règles de calcul des coûts de transport s\'appliquent seulement sous certaines conditions. 4 conditions sont possibles:<ul><li><span class="userinput_or_code">Nombre de produits</span>: Nombre de produits dans le panier.</li><li><span class="userinput_or_code">Dimensions</span>: Dimensions totales des produits. Pour que ce paramètre soit valable, vous devrez renseigner les dimensions de vos produits.</li><li><span class="userinput_or_code">Poids</span>: Poids total de la commande en Kgs. Pour que ce paramètre soit valable, vous devrez renseigner le poids de vos produits.</li><li><span class="userinput_or_code">Prix</span>: Monatant de la commande.</li></ul>Vous pouvez utiliser les champs de saisie <span class="navipath_or_inputname">>=</span> (supérieur ou égal) et <span class="navipath_or_inputname"><=</span> (inférieur ou égal) pour définir une plage sur laquelle la condition s\'appliquera. Un nombre plus grand doit être saisi pour <span class="navipath_or_inputname"><=</span> que pour <span class="navipath_or_inputname">=></span>.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Vous pouvez utiliser <span class="navipath_or_inputname">Prix : frais/rabais</span> pour définir le coût de transport. Le prix peut être calculé de 2 manières différentes:<ul><li>Avec <span class="userinput_or_code">abs</span>, le prix est exprimé en valeur absolue (ex: avec <span class="userinput_or_code">6,90</span>, un prix de 6.90 € est appliqué).</li><li>Avec <span class="userinput_or_code">%</span>,  prix est exprimé en valeur relative par rapport au prix de vente (ex: avec <span class="userinput_or_code">10</span>, un prix de 10% du montant de commande est appliqué).</li></ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Vous pouvez utiliser <span class="navipath_or_inputname">Ordre de traitement des règles</span> pour spécifer l\'ordre dans lequel les règle de coûts de transport seront traitées. La règle avec le plus petit nombre sera traitée en premier.',
 
@@ -319,7 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Le paramètre <span class="navipath_or_inputname">Quantité</span>  vous permet de définir la quantité de produits minimale pour que la réduction s\'applique. Si vous ne souhaitez pas fixer de quantité minimale, saisissez la valeur <span class="userinput_or_code">0</span> dans <span class="navipath_or_inputname">De</span> et <span class="userinput_or_code">0</span> dans <span class="navipath_or_inputname">à</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'Dans <span class="navipath_or_inputname">Promotions</span>, vous pouvez définir le niveau de vos réductions. La liste de choix sous le champ remise vous permet de choisir entre une réduction en valeur absolue ou relative:<ul><li><span class="userinput_or_code">abs</span>: Réduction absolue, ex: 5€.</li><li><span class="userinput_or_code">%</span>: Pourcentage de réduction, ex: 10% du prix de vente.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Vous pouvez définir plusieurs URL SEO pour vos produits: Pour certaines pages catégories ou marques/fabricants. Avec <span class="navipath_or_inputname">Categorie/Distributeur Active</span> vous pouvez sélectionner l\'URL SEO que vous souhaitez modifier.',
 
@@ -345,9 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Utilisez le paramètre <span class="navipath_or_inputname">Selectionné</span> pour définir un moyen de paiement par défaut.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Vous pouvez utiliser le <span class="navipath_or_inputname">Montant de commande</span> pour définir l\'accès aux moyens de paiement. Les champs <span class="navipath_or_inputname">de</span> et <span class="navipath_or_inputname">à</span> vous permettent de renseigner une fourchette de montants.<br>Si vous soiuhaitez qu\'un moyen de paiement soit toujours disponible, vous devez définir une condition qui sera toujours remplie: Saisissez <span class="userinput_or_code">0</span> dans le champ <span class="navipath_or_inputname">de</span>  et <span class="userinput_or_code">99999999</span> dans le champ <span class="navipath_or_inputname">à</span>.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'Le paramètre <span class="navipath_or_inputname">Frais supplémentaires/Réduction</span>, permet de différencier les prix en fonction des moyens de paiement. Le prix peut être défini de deux manières différentes:<ul><li>Avec <span class="userinput_or_code">abs</span> le prix est saisi en valeur absolue pour le moyen de paiement (ex: Si vous saisissez <span class="userinput_or_code">7.50</span> un surcoût de 7.50 € est appliqué.)</li><li>Avec <span class="userinput_or_code">%</span>, le prix est calculé sur la base du prix de vente (ex: Si vous saisissez <span class="userinput_or_code">2</span>, un surcoût de 2% est appliqué au prix de vente)</li></ul>',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Lors du calcul de frais ou remises, la valeur du panier est utilisée comme base. Définissez quels coûts  doivent être inclus dans le calcul de la valeur du panier.',
 
@@ -355,9 +355,13 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Toutes les options/variantes disponibles sont affichées dans la liste des <span class="navipath_or_inputname">Champs</span>. Vous pouvez définir de nouvelles options dans la partie droite. Pour plus d\' informations :<a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists" target="_blank">Manuel OXID eShop</a>.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Vous pouvez ici identifier si les utilisateurs se sont enregistrés pour passer commande:<ul><li>Si un mot de passe a été défini, l\'utilisateur s\'est enregistré.</li><li>Sinon, il a passé commande sans créer de compte client.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'A partir de cet onglet, vous pouvez:
+<ul>
+    <li> Parcourir et gérer les moyens de paiement existants pour les utilisateurs. </ li>
+    <li>Créer de nouvelles méthodes de paiement et définir les valeurs par défaut, par exemple débit direct. </ li>
+</ ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Ce paramètre indique si l\'utilisateur est abonné à la newsletter.',
 
@@ -375,7 +379,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Ici, vous pouvez spécifier le suffixe du titre qui sera afficher dans le titre de votre navigateur lorsque la page Marques/fabricants est ouverte. Ce suffixe de titre peut être défini dans <span class="navipath_or_inputname">Configuration générale -> Paramètres système -> SEO -> Title Suffix</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'Dans <span class="navipath_or_inputname">Promotions</span>, vous définissez la valeur de vos promotions. Vous pouvez utiliser la liste de sélection ci-après pour définir le type de réduction souhaitée (Absolue/Relative):<ul><li><span class="userinput_or_code">abs</span>: Réduction en valeur absolue, ex: 5 €.</li><li><span class="userinput_or_code">%</span>: Réduction en pourcentage, ex: 10% du prix de vente.</li></ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Vous pouvez définir ici si les clients peuvent utiliser plusieurs bons de réduction d\'une même série dans une même commande.',
 
