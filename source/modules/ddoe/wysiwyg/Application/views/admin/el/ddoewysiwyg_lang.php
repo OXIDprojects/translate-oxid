@@ -20,7 +20,7 @@
  * @version   OXID eSales WYSIWYG
  */
 
-$sLangName = 'English';
+$sLangName = 'Ελληνικά';
 
 $aLang = array(
     // Charsets
