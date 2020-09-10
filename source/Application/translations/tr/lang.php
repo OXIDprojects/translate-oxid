@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'İptal',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercart',
+'CARD_SECURITY_CODE'                                          => 'Güvenlik Kodu',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Bu, kredi kartınızın arkasında yer alır. Kontrol rakamı <br> imza alanındaki son üç rakam dır.',
+'CARD_VISA'                                                   => 'Visa Kartı',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kime',
 /** end deprecated */
 'CART'                                                        => 'Sepet',
 'CATEGORIES'                                                  => 'Kategori',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Şifre Degiştir',
 'CHARGES'                                                     => 'Ücret',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'bakınız',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Ödeme',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Sipariş geçmişini görüntüle',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Kuponunuz "%s" kabul edilmedi.',
 'CREATE_PASSWORD'                                             => 'Şifre oluştur',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kredi Karti',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Şimdiki ürün',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Bu ürünü satın alan müşterilerin diğer aldıkları:',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Soyadı',
 'LAST_SEEN_PRODUCTS'                                          => 'Son görülen ürünler',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Son Haberler ve Güncellemeler',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Yeni gelişme yok',
 // END deprecated
 'LINKS'                                                       => 'Linkler',
 'LISTMANIA'                                                   => 'Favori Listeleri',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Mağaza kuralları nedeniyle reddedildi.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'e-posta adresi zaten kullanılıyor.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Lütfen adres bilgilerinizi ve mesajınızı girin.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Mesajı',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Alışverişinizden hemen bonus puan kazanın',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Bu ürünü değerlendir!',
 'MESSAGE_READ_DETAILS'                                        => 'Ayrıntıları okuyun',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'E-postayı göndermek için "Tavsiye Gönder" üzerine tıklayın.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Lütfen en az bir ürün seçin!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Lütfen karşılaştıracağınız ürünleri seçin!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Haber bültenine abone olduğunuz için teşekkür ederiz.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Seçtiğiniz sevkiyat yöntemi artık geçerli değil. Lütfen başka bir seçenek tercih ediniz.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'E-posta adresinizi doğrulayın.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Kayıtlı kullanıcı olarak aramıza hoş geldiniz!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Siparişiniz teslimata uygun değilse sizi anında bilgilendireceğiz.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Girdiğiniz doğrulama kodu hatalı. Lütfen tekrar deneyin.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Zaten e-posta yoluyla bir sipariş onayı aldınız.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Yeni mağaza makaleleri',
 'NEWLIST'                                                     => 'Yeni Listmania listesi',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Haberler',
 // END deprecated
 'NEWSLETTER'                                                  => 'Haber Bülteni',
 'NEWSLETTER_SETTINGS'                                         => 'Haber Bülteni Ayarları',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Ürün resimleri',
 'PRODUCT_NO'                                                  => 'Ürün No',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Ürün Kartı',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Ürün İnceleme',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Favoriler',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Alıcı adı',
 'RECOMMEND'                                                   => 'ARKADAŞINA ÖNER',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Önerilen Ürün',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Ürünü tavsiye et',
 'REDEEM_COUPON'                                               => 'Ödeme Kuponu',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Ara',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Haberler',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Ürünü tavsiye et',
 'PAGE_TITLE_INVITE'                                           => 'Arkadaşlarınızı davet edin',
