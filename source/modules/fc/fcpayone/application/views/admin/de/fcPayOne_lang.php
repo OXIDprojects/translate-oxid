@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "Deutsch";
+$sLangName  = "Deutsch informell";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -36,14 +36,14 @@ $aLang = array(
 'FCPO_SUBACCOUNT_ID'                        => 'PAYONE Sub-Account ID',
 'FCPO_BANKACCOUNTCHECK'                     => 'Prüfung Bankverbindung',
 'FCPO_DEACTIVATED'                          => 'Deaktiviert',
-'FCPO_ACTIVATED'                            => 'Aktiviert',
+'FCPO_ACTIVATED'                            => 'Aktiv',
 'FCPO_ACTIVATEDWITHPOS'                     => 'Aktiviert, mit Prüfung gegen POS-Sperrliste<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Nur Zahlmethode Lastschrift Deutschland)',
 'FCPO_LIVE_MODE'                            => 'Livemodus',
 'FCPO_TEST_MODE'                            => 'Testmodus',
 'fcpo_order_title'                          => 'PAYONE',
 'FCPO_REFNR'                                => 'Referenz-Nummer',
 'FCPO_TXID'                                 => 'PAYONE-Vorgangsnummer (txid)',
-'fcpo_action_appointed'                     => 'Bestellung',
+'fcpo_action_appointed'                     => 'Bestellen',
 'fcpo_action_capture'                       => 'Abbuchung',
 'fcpo_action_paid'                          => 'Bezahlung',
 'fcpo_action_underpaid'                     => 'Unterzahlung',
@@ -73,10 +73,10 @@ $aLang = array(
 'FCPO_LIST_HEADER_TXTIME'                   => 'Zeitpunkt',
 'FCPO_LIST_HEADER_ORDERNR'                  => 'Bestellnummer',
 'FCPO_LIST_HEADER_TXID'                     => 'Transaktionsnummer',
-'FCPO_LIST_HEADER_CLEARINGTYPE'             => 'Zahlmethode',
+'FCPO_LIST_HEADER_CLEARINGTYPE'             => 'Zahlungsart',
 'FCPO_LIST_HEADER_EMAIL'                    => 'Kunden-E-Mail',
 'FCPO_LIST_HEADER_PRICE'                    => 'Betrag',
-'FCPO_LIST_HEADER_TXACTION'                 => 'Status',
+'FCPO_LIST_HEADER_TXACTION'                 => 'Bundesland',
 'FCPO_EXECUTE'                              => 'Auslösen',
 'FCPO_CAPTURE'                              => 'Capture ( Abbuchen )',
 'FCPO_DEBIT'                                => 'Debit ( Gutschrift )',
@@ -96,7 +96,7 @@ $aLang = array(
 'FCPO_CARDTYPE'                             => 'Kartentyp',
 'FCPO_CARDPAN'                              => 'Maskierte Kartenummer',
 'FCPO_BALANCE'                              => 'Saldo',
-'FCPO_RECEIVABLE'                           => 'Zahlung',
+'FCPO_RECEIVABLE'                           => 'Zahlungsarten',
 'FC_IS_PAYONE'                                => 'Dies ist eine PAYONE Zahlungsmethode',
 'FCPO_HELP_MERCHANTID'                      => 'Ihre PAYONE Merchant-ID (PAYONE Kundennummer) finden Sie auf allen Abrechnungen von PAYONE sowie rechts oben im PAYONE Merchant Interface (PMI).',
 'FCPO_HELP_PORTALID'                        => 'Bitte tragen Sie hier die ID des PAYONE Zahlungsportals ein, über welches die Zahlungen abgewickelt werden sollen.<br>Die Portal-ID finden Sie unter <a href="http://www.payone.de" target="_blank">http://www.payone.de</a> > Händler-Login unter dem Menüpunkt Konfiguration > Zahlungsportale<br><br>Alle relevanten Parameter zur Konfiguration erhalten Sie nach Auswahl von [editieren] unter dem Reiter [API-Parameter]',
@@ -113,7 +113,7 @@ $aLang = array(
 'fcpo_admin_common'                         => 'Allgemein',
 'fcpo_admin_support'                        => 'Support',
 'fcpo_admin_api_logs'                       => 'API Logs',
-'FCPO_LIST_HEADER_TIMESTAMP'                => 'Zeit',
+'FCPO_LIST_HEADER_TIMESTAMP'                => 'Uhrzeit',
 'FCPO_LIST_HEADER_REQUEST'                  => 'Request',
 'FCPO_LIST_HEADER_RESPONSE'                 => 'Response',
 'FCPO_NO_APILOG'                            => 'Kein Log-Eintrag ausgewählt',
@@ -188,7 +188,7 @@ $aLang = array(
 'fcpo_payment_debit1'                       => 'Einzug',
 'fcpo_payment_debit2'                       => 'Auszahlung',
 'fcpo_payment_transfer'                     => 'Umbuchung',
-'fcpo_payment'                              => 'Zahlung',
+'fcpo_payment'                              => 'Zahlungsarten',
 'FCPO_MAIN_CONFIG_INFOTEXT'                 => 'Sie können für jede Zahlart einzeln konfigurieren, ob diese im Test- oder Livemodus abgewickelt werden soll. Die Einstellung finden Sie unter PAYONE -> Konfiguration -> Zahlungsarten. Wir empfehlen Ihnen nach der initialen Konfiguration sowie bei Konfigurationsänderungen zunächst alle Zahlungsprozesse im Testmodus durchzuführen.',
 'FCPO_BONICHECK_CONFIG_INFOTEXT'            => 'Bitte beachten Sie, dass Sie die nachfolgenden Optionen nur dann nutzen können, wenn Sie das Modul Protect von PAYONE beauftragt haben. Die Nutzung der Bonitätsprüfung und der Adressprüfung zieht variable Kosten pro Vorgang nach sich, die Sie Ihrem Vertrag entnehmen können.',
 'FCPO_BONICHECK_CONFIG_INFOTEXT_SMALL'      => 'Bitte nehmen Sie die Einstellungen für die Bonitätsprüfung mit Bedacht vor. Die Bonitätsprüfung wird nach Eingabe der Personendaten durchgeführt und beeinflusst die Zahlungsarten, die Ihren Kunden im Checkout-Prozess angeboten werden. Die Bonitätsprüfung sollte lediglich bei Zahlungsarten eingesetzt werden, die ein Zahlungsausfallrisiko für Sie nach sich ziehen (z.B. offene Rechnung oder Lastschrift). Sie konfigurieren dies über die Einstellung "Bonitätsindex" in der Konfiguration der jeweiligen Zahlart. Sie sollten in Ihrem Shop außerdem in geeigneter Weise darauf hinweisen, dass Sie Bonitätsprüfungen über die InfoScore Consumer Data GmbH durchführen.',
@@ -214,7 +214,7 @@ $aLang = array(
 'FCPO_PRODUCT_CAPTURE'                      => "Abbuchen",
 'FCPO_PRODUCT_AMOUNT'                       => "Menge",
 'FCPO_PRODUCT_PRICE'                        => "Einzelpreis",
-'FCPO_PRODUCT_TITLE'                        => "Produkt",
+'FCPO_PRODUCT_TITLE'                        => "Artikel",
 'FCPO_COMPLETE_ORDER'                       => "Bestellung abschließen",
 'FCPO_CONSUMERSCORE_MOMENT'                 => "Moment der Bonitätsprüfung",
 'FCPO_CONSUMERSCORE_BEFORE'                 => "Vor Zahlartauswahl",
@@ -228,9 +228,9 @@ $aLang = array(
 'fcpo_admin_config_status_forwarding'       => "Transaktionsstatus - Weiterleitung",
 'fcpo_admin_config_status_mapping'          => "Transaktionsstatus - Mapping",
 'fcpo_admin_config_error_mapping'           => "Fehlermeldungs - Mapping",
-'fcpo_admin_config_add'                     => "Hinzufügen",
+'fcpo_admin_config_add'                     => "hinzufügen",
 'fcpo_admin_config_delete'                  => "löschen",
-'fcpo_admin_config_delete_confirm'          => "Möchten Sie diesen Eintrag wirklich l&ouml;schen?",
+'fcpo_admin_config_delete_confirm'          => "Willst Du diesen Eintrag wirklich löschen?",
 'fcpo_admin_config_paymenttype'             => "Zahlart",
 'fcpo_admin_config_status_payone'           => "PAYONE Status",
 'fcpo_admin_config_status_shop'             => "Shop - Status",
@@ -365,8 +365,8 @@ $aLang = array(
 'FCPO_EXPORT_CONFIG'                        => "Konfiguration exportieren",
     
 'FCPO_ASSIGN_COUNTRIES'                     => "L&auml;nder zuordnen",
-'FCPO_COUNTRIES'                            => "L&auml;nder",
-'FCPO_LANGUAGE'                             => "Sprache",
+'FCPO_COUNTRIES'                            => "Länder",
+'FCPO_LANGUAGE'                             => "Sprachen",
 'FCPO_CURRENCY'                             => "W&auml;hrung",
     
 'FCPO_HELP_KLARNA_CAMPAIGNS'                => "Die Bestellungen werden bei Klarna nur akzeptiert, wenn die Kombination aus Land, Sprache und W&auml;hrung zusammen passt.<br>Sie m&uuml;ssen diese Kombinationen hier auch hinterlegen und der Kunde bekommt dann nur die passenden Kampagnen angezeigt.",
@@ -384,7 +384,7 @@ $aLang = array(
 'ORDER_OVERVIEW_FCPO_ELV_BLZ'               => "BLZ",
 'ORDER_OVERVIEW_FCPO_ELV_KTONR'             => "Kontonummer",
 'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "IBAN",
-'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC",
+'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC:",
 
 'FCPO_CC_CONFIG'                            => 'Feldkonfiguration',
 'FCPO_CC_STANDARD_STYLE'                    => 'Standardstil',
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => 'Auswahl',
     
 'FCPO_CC_ERRORLANG_DE'                      => 'Deutsch',
-'FCPO_CC_ERRORLANG_EN'                      => 'Englisch',
+'FCPO_CC_ERRORLANG_EN'                      => 'Deutsch informell',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => 'Benutzerdefinierte Anpassung hosted-Iframe',
 'FCPO_CC_PREVIEW'                           => 'Vorschau',
     
@@ -421,7 +421,7 @@ $aLang = array(
 'FCPO_CC_HEADER_DIGIT_MAX'                  => 'Zeichen<br>Max',
 'FCPO_CC_HEADER_IFRAME'                     => 'Iframe',
 'FCPO_CC_HEADER_WIDTH'                      => 'Breite',
-'FCPO_CC_HEADER_HEIGHT'                     => 'H&ouml;he',
+'FCPO_CC_HEADER_HEIGHT'                     => 'Höhe',
 'FCPO_CC_HEADER_STYLE'                      => 'Stil',
 'FCPO_CC_HEADER_CSS'                        => 'CSS',
     
@@ -432,7 +432,7 @@ $aLang = array(
     
 'FCPO_CC_TYPE_NUMERIC'                      => 'Numerisch',
 'FCPO_CC_TYPE_PASSWORD'                     => 'Passwort',
-'FCPO_CC_TYPE_TEXT'                         => 'Text',
+'FCPO_CC_TYPE_TEXT'                         => 'Langtext',
     
 'FCPO_CC_IFRAME_STANDARD'                   => 'Standard',
 'FCPO_CC_IFRAME_CUSTOM'                     => 'Benutzerdefiniert',
@@ -440,7 +440,7 @@ $aLang = array(
 'FCPO_CONFIG_DEBIT_BIC_MANDATORY'           => 'BIC abfragen',
 'FCPO_MALUSHANDLING'                        => 'Personstatus Abzug Handling',
 'FCPO_PERSONSTATUS'                            => 'Personstatus',
-'FCPO_MALUS'                                => 'Abzug',
+'FCPO_MALUS'                                => 'Abschlag',
 'FCPO_MALUS_PPB'                            => 'Person kann f&uuml;r diese Adresse best&auml;tigt werden',
 'FCPO_MALUS_PHB'                            => 'Nachname bekannt',
 'FCPO_MALUS_PAB'                            => 'Vor- und Nachname unbekannt',
@@ -459,7 +459,7 @@ $aLang = array(
 'FCPO_CONFIG_GROUP_PAYDIREKT'               => 'Paydirekt',
 'FCPO_PAYDIREKT_BUTTONTYPE'                 => 'Design des Paydirekt-Express Buttons',
 'FCPO_HELP_PAYDIREKT_BUTTONTYPE'            => 'Wählen Sie das passende Design des Paydirekt-Express Buttons.',
-'FCPO_PAYDIREKT_EXPRESS_BUTTON_NONE'        => 'Keins',
+'FCPO_PAYDIREKT_EXPRESS_BUTTON_NONE'        => 'Keine',
 'FCPO_PAYDIREKT_EXPRESS_BUTTON_GREEN'       => 'Grün',
 'FCPO_PAYDIREKT_EXPRESS_BUTTON_GREEN2'      => 'Grün 2',
 'FCPO_PAYDIREKT_EXPRESS_BUTTON_WHITE'       => 'Weiß',
