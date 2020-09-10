@@ -83,6 +83,6 @@ $aLang = array(
 
     'TCKLARNA_ANONYMIZED_PRODUCT'                  => 'Anonymisierter Produkttitel:',
 
-    'TCKLARNA_IS_ERROR_DEFAULT' => '',
+    'TCKLARNA_IS_ERROR_DEFAULT' => 'Something went wrong. Reload the page and try again.',
 );
 
