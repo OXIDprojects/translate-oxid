@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Информация',
     'MR'                                             => 'Г-н',
     'MRS'                                            => 'Г-жа',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Добро пожаловать в область администрирования OXID eShop. Здесь находится обзор главных рабочих областей и функций.',
     'NAVIGATION_TITLE'                               => 'Навигация',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop Admin',
     'NAVIGATION_LOGOUT'                              => 'Выйти',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Страница',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Доступна %s версия.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => 'Название',
-    'NEWS_LIST_MENUITEM'                             => 'Информация для покупателей',
+    'NEWS_LIST_TITLE'                                => '[Администрирование новостей]',
+    'NEWS_LIST_SHORTTEXT'                            => 'Заглавие',
+    'NEWS_LIST_MENUITEM'                             => 'Информация для клиентов',
     'NEWS_LIST_MENUSUBITEM'                          => 'Новости',
-    'NEWS_MAIN_SHORTDESC'                            => 'Название',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHORTDESC'                            => 'Заглавие',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Видимый для группы пользователей',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Невидимый для группы пользователей',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Избранное',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ редактировать ]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Order]',
     'ORDER_REMARK_USER'                                  => '[Рег.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[News]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => 'Проверка ИНН удалось',
     'ORDER_OVERVIEW_VATID'                               => 'Идентификатор НДС',
@@ -1012,7 +1012,7 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Заимствовать все <b>ссылки</b> у основного магазина',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Заимствовать все <b>купоны</b> у основного магазина',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => '',
+    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Заимствовать все <b>новости</b> у основного магазина',
     // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Заимствовать все <b>списки вариантов</b> у основного магазина',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Заимствовать всех <b>поставщиков</b> у основного магазина',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Рассчитывать НДС для комиссии платёжной системы',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Папка контент-страниц',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Количество новостей в блоке Новости магазина',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Формат даты в панели администратора',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Применять стандартную стоимость доставки, если пользователь не авторизован',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Использовать типовое "в наличии" сообщение',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Сохранять данные банковских карт',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => 'Показывать информацию о возможных ограничениях на международные отправления заказов.',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen bkb fsockopen для порта 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend совместимость должна быть выключена',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Версия PHP от 5.3.25',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI установлено',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL module for MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL версии 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib вер. 2 [v1] вкл. JPEG поддержку',
@@ -1343,7 +1343,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Новое правило доставки',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Новый способ доставки',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Новое сообщение',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Новая серия купонов',
     'TOOLTIPS_NEWCATTREE'                     => 'Переиндексировать дерево категорий',
@@ -1400,7 +1400,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Заказ]',
     'USER_REMARK_USER'                        => '[Пользователь]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Новости]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Пользователи',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Группы пользователей',
@@ -1479,8 +1479,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Показывать Валюты',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Показывать Языки',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Показывать Новости',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Показывать Новости только на главной странице',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Загружать варианты в каталогах (результаты поиска, категории). Использует много памяти, может вызвать проблемы с производительностью магазина на слабых серверах.',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Загрузить и показать список производителей',
@@ -1654,7 +1654,7 @@ $aLang = [
     //languages
     'tbcllanguage_main'        => 'Главная',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_main'            => 'Основное',
+    'tbclnews_main'            => 'Главная',
     'tbclnews_text'            => 'Текст',
     // END deprecated
     //  order_list',
@@ -1865,13 +1865,13 @@ $aLang = [
     'PAYMENT_RDFA_BYBANKTRANSFERINADVANCE' => 'Предоплата',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_CREDITCARD'              => 'Оплата кредитной картой',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Назначите варианты доставки',
@@ -1923,7 +1923,7 @@ $aLang = [
     'OXDIAG_LIST_MENUSUBITEM' => 'Инструменты диагностики',
 
     'OXDIAG_MAIN_TITLE'                              => 'Диагностика вашего OXID eShop магазина',
-    'OXDIAG_VERSIONCHECKER'                          => '',
+    'OXDIAG_VERSIONCHECKER'                          => 'Проверка версии',
     'OXDIAG_INTROINFORMATION_CONTACT_US'             => 'Вы можете связаться с нами с помощью',
     'OXDIAG_INTROINFORMATION_ONLINE_CONTACT_FORM'    => 'Контактная форма',
 
@@ -1933,35 +1933,35 @@ $aLang = [
     'OXDIAG_RESULT'                       => 'Результаты диагностики',
     'OXDIAG_DOWNLOAD_FILE'                => 'Нажмите здесь, чтобы скачать файл результата',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => 'Эти ошибки произошли',
-    'OXDIAG_VERSION'                      => 'версия',
-    'OXDIAG_EDITION'                      => '',
-    'OXDIAG_REVISION'                     => '',
-    'OXDIAG_SUMMARY'                      => '',
-    'OXDIAG_HINTS'                        => '',
-    'OXDIAG_OK'                           => 'ОК',
-    'OXDIAG_MODIFIED'                     => '',
-    'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
-    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
-    'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
-    'OXDIAG_SHOP_ORIGINAL'                => '',
+    'OXDIAG_VERSION'                      => 'Версия',
+    'OXDIAG_EDITION'                      => 'Издание',
+    'OXDIAG_REVISION'                     => 'Версия',
+    'OXDIAG_SUMMARY'                      => 'Итог',
+    'OXDIAG_HINTS'                        => 'Советы',
+    'OXDIAG_OK'                           => 'Хорошо',
+    'OXDIAG_MODIFIED'                     => 'Изменено',
+    'OXDIAG_VERSION_MISMATCH'             => 'Несовпадение версий',
+    'OXDIAG_UNKNOWN'                      => 'Неизвестно',
+    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => 'Общее число проверенных файлов',
+    'OXDIAG_SHOP_DOES_NOT_FIT'            => 'Система не соответствует требованиям на 100%',
+    'OXDIAG_SHOP_ORIGINAL'                => 'Этот OXID eShop не был изменен и является оригинальным',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => '',
-    'OXDIAG_MODIFIEDHINTS2'                       => '',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => '',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'Функции системы OXID eShop могут быть расширены дополнительными модулями без необходимости внесения изменений в исходные системные файлы. Мы не рекомендуем вносить изменения в код ядра системы. Смотрите подробные инструкции <a href="http://www.oxidforge.org/wiki/Tutorials#How_to_Extend_OXID_eShop_With_Modules_.28Part_1.29" target=_blank>на английском языке</a>.',
+    'OXDIAG_MODIFIEDHINTS2'                       => 'Начиная с версии OXID eShop 4.2.0 появилась возможность использовать <a href="http://www.oxidforge.org/wiki/Downloads/4.2.0#New_Features" target=_blank>собственные шаблоны без внесения изменений в исходные файлы системы (англ.)</a>.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Несколько обновлений не было установлено. Перейдите по ссылке для просмотра деталей для каждого файла. Файл, который более не содержится в обновлениях OXID eShop мог стать <u>возможной</u> причиной расхождения в версиях. Подробная информация <a href="http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation" target=_blank>по обновлению системы (англ.)</a>.',
 
 
     'OXDIAG_HOME'                     => 'Диагностика OXID',
     'OXDIAG_ABOUT'                    => 'Этот инструмент Диагностика собирает техническую информацию о вашем магазине и сервере. Эта информация может быть полезна перед обновлением, установкой модулей или диагностики.',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_DOWNLOADLOG'              => 'Скачать отчет',
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => 'Извлечение модулей',
     'OXDIAG_COLLECT_HEALTH'           => 'Опрос о состоянии системы',
     'OXDIAG_COLLECT_PHP'              => 'Опрос Конфигурации PHP (выбранные параметры)',
     'OXDIAG_COLLECT_SERVER'           => 'Опрос Информационная система (если это возможно)',
-    'OXDIAG_STORE_ANALYSIS'           => '',
-    'OXDIAG_COLLECT_START'            => '',
+    'OXDIAG_STORE_ANALYSIS'           => 'Результаты',
+    'OXDIAG_COLLECT_START'            => 'Начать анализ',
 
     //index
     'OXDIAG_GOTO'                     => 'к',
@@ -1970,9 +1970,9 @@ $aLang = [
     'OXDIAG_HEALTH'                   => 'Системный статус',
     'OXDIAG_PHPINFO'                  => 'PHP информация',
     'OXDIAG_SERVERINFO'               => 'Информация о сервере',
-    'OXDIAG_RESTART'                  => '',
+    'OXDIAG_RESTART'                  => 'Новая проверка',
 
-    'OXDIAG_DISCL'                    => '',
+    'OXDIAG_DISCL'                    => 'Анализ ниже строки был сохранен в файле отчета.',
     'OXDIAG_HEALTH_OK'                => 'ОК',
     'OXDIAG_HEALTH_MIN'               => 'Мин.',
     'OXDIAG_HEALTH_FAIL'              => 'НЕУДАЧА',
@@ -1999,7 +1999,7 @@ $aLang = [
     'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => 'Информация не может быть отправлена в OXID через CURL',
 
     //final note
-    'OXDIAG_FINALNOTE'                => '',
+    'OXDIAG_FINALNOTE'                => 'Конец анализа.',
 
     'OLC_ERROR_SERIAL_NOT_VALID'    => 'Недействительный лицензионный ключ. Попробуйте еще раз или свяжитесь с техподдержкой если все равно ничего не получается.',
     'OLC_ERROR_RESPONSE_NOT_VALID'  => 'Сервис недоступен, попробуйте позже ... Если это не удается, проверьте, что ваш магазин может совершать исходящие соединения.',
