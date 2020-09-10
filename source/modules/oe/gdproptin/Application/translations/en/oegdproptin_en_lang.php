@@ -22,7 +22,7 @@
 $sLangName = 'English';
 
 $aLang = [
-    'charset' => 'UTF-8',
+    'charset' => '',
     'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "",
     'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => '',
     'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "",
