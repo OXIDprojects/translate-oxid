@@ -62,10 +62,10 @@ $aLang = [
 'CANCEL'                                                      => 'Άκυρο',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 ή CVC2 κωδικός ασφαλείας',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Αυτό το ψηφίο ελέγχου είναι τυπωμένο σε αντίστροφα πλάγια γράμματα στο πίσω μέρος της πιστωτικής σας κάρτας ακριβώς πάνω από το πάνελ της υπογραφής.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
 'CARD_TO'                                                     => '',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Αλλαγή κωδικού',
 'CHARGES'                                                     => 'Χρεώσεις',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Επιταγή',
 /** end deprecated */
 'CHECKOUT'                                                    => '',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'ελέγξτε το ιστορικό των παραγγελιών σας',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Το κουπόνι σας "%s" δεν μπορούσε να γίνει αποδεκτό.',
 'CREATE_PASSWORD'                                             => 'Δημιουργία κωδικού πρόσβασης',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Πιστωτική κάρτα',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Τρέχων προϊόν',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Οι πελάτες που αγόρασαν αυτό το προϊόν αγόρασαν επίσης',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Επώνυμο',
 'LAST_SEEN_PRODUCTS'                                          => 'Τελευταία προϊόντα που έχετε δεί',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Τελευταία νέα και ενημερώσεις σε',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Συνδέσμοι',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => '',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Αυτή η διεύθυνση e-mail υπάρχει ήδη!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Εισάγετε τα δεδομένα διευθύνσεων και το προσωπικό σας μήνυμα!',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Μήνυμα από',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Κερδίστε πόντους για την αγορά σας τώρα!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Βαθμολογήστε αυτό το προϊόν!',
 'MESSAGE_READ_DETAILS'                                        => 'Διαβάστε την',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Κάντε κλικ στο "Αποστολή πρότασης" για να στείλετε το e-mail σας!',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Παρακαλούμε επιλέξτε τουλάχιστον ένα προϊόν!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Επιλέξτε τα προϊόντα για σύγκριση!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => '',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Ο τρόπος αποστολής που επιλέξατε δεν είναι πια διαθέσιμος. Παρακαλώ επιλέξτε έναν άλλο!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Παρακαλώ επιβεβαιώστε τη διεύθυνση e-mail σας!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Καλωσορίσατε ως εγγεγραμμένος χρήστης!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Θα σας ενημερώσουμε αμέσως, εάν ένα προϊόν δεν είναι παραδοτέο.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Ο κωδικός επαλήθευσης που δώσατε δεν είναι σωστός. Παρακαλώ δοκιμάστε ξανά!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Έχετε ήδη λάβει ένα e-mail με την επιβεβαίωση της παραγγελίας',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Πρόσφατα προϊόντα στο κατάστημα',
 'NEWLIST'                                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Ειδήσεις',
 // END deprecated
 'NEWSLETTER'                                                  => 'Ενημερωτικό Δελτίο',
 'NEWSLETTER_SETTINGS'                                         => 'Ρυθμίσεις Ενημερωτικού Δελτίου',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Το όνομα του παραλήπτη',
 'RECOMMEND'                                                   => 'Προτεινόμενο',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Προτεινόμενο Προϊόν',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Προτεινόμενο Προϊόν',
 'REDEEM_COUPON'                                               => 'Εξαργύρωση Κουπονιού',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Αναζήτηση',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Ειδήσεις',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Προτεινόμενο Προϊόν',
 'PAGE_TITLE_INVITE'                                           => 'Προσκαλέστε τους φίλους σας',
