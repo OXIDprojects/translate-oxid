@@ -24,7 +24,7 @@ $sLangName = 'English';
 
 $aLang = array(
     // Charsets
-    'charset' => '',
+    'charset' => 'UTF-8',
     // 'charset' => 'ISO-8859-15',
 
     // Lang-Strings
@@ -33,8 +33,8 @@ $aLang = array(
 
     'DD_CLOSE'          => 'Close',
     'DD_CANCEL'         => 'Cancel',
-    'DD_APPLY'          => '',
-    'DD_OK'             => 'OK',
+    'DD_APPLY'          => 'Apply',
+    'DD_OK'             => 'okay',
     'DD_CONFIRM_DIALOG' => '',
     'DD_CONFIRM'        => '',
 
