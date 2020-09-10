@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Bilgi',
     'MR'                                             => 'Bay',
     'MRS'                                            => 'Bayan',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'E-Mağaza Admin Paneline Hoşgeldiniz. Burada Sistemin Temel alanları ve fonksiyonları hakkında kısa bir özet bulabilirsiniz',
     'NAVIGATION_TITLE'                               => 'Navigasyon',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop Admin',
     'NAVIGATION_LOGOUT'                              => 'Çıkış',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Sayfa',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s mevcut!',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
+    'NEWS_LIST_TITLE'                                => '[OXID Haber Yönetimi]',
     'NEWS_LIST_SHORTTEXT'                            => 'Başlık',
     'NEWS_LIST_MENUITEM'                             => 'Müşteri Bilgisi',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Haberler',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Mesajlar',
     'NEWS_MAIN_SHORTDESC'                            => 'Başlık',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Kullanıcı Grubuna görünür',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Kullanıcı Grubuna görünmez',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favoriler',
     'NAVIGATION_FAVORITES_EDIT'                      => '[değiştir]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Sipariş.]',
     'ORDER_REMARK_USER'                                  => '[Üye.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Haberler]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => '',
     'ORDER_OVERVIEW_VATID'                               => 'Vergi Dairesi Numarası:',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => '',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'CMS-Sayfalarını için Klasör',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Sol tarafta Mesaj kutusunda gösterilecek olan Mesaj Adeti',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Admin Panelindeki Tarih Şekli',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Müşteri giriş yapmamış olsada Kargo ücretini hesapla',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Standard "Stoklarımızda" yazısını kullan',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Kredi Kartı Bilgilerini kaydet',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => '',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen oder fsockopen auf Port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Uyumluluk Modu kapalı olması lazım',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHP min. Sürümü 5.2.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI mevcut',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL 5 için MySQL Modul',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Sürümü 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] incl. JPEG desteği',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Yeni Kargo kuralı oluştur',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Yeni Kargo Şekli oluştur',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Yeni Mesaj oluştur',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Yeni Hediye Çeki Serisi oluştur',
     'TOOLTIPS_NEWCATTREE'                     => 'Kategori Ağacını yeniden indexle',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Sipariş]',
     'USER_REMARK_USER'                        => '[Kul.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Yenilik]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Kullanıcı yönet',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Kullanıcı Grupları',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Para Birimlerini göster',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Dilleri göster',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Mesajları göster',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Mesajları sadece Ana Sayfada göster',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Ürün Listelerinde Varyasyonları yükle (örn.: Arama Sonuçları, Kategorie görünümü). Bu ayar çok bellek kullanımına yol açıp güçsüz Serverlerda sorun yaratabilir.',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Üretici Listesini yükle ve göster',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Ürün yönetimi',
     'mxmainmenu'               => 'Ana Bilgiler',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => 'Haberler',
+    'mxnews'                   => 'Mesajlar',
     // END deprecated
     'mxorders'                 => 'Sipariş Yönetimi',
     'mxpaymeth'                => 'Ödeme seçenekleri',
@@ -1653,8 +1653,8 @@ $aLang = [
     //languages
     'tbcllanguage_main'        => 'Ana',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_main'            => '',
-    'tbclnews_text'            => 'Uzun Açıklama',
+    'tbclnews_main'            => 'Ana',
+    'tbclnews_text'            => 'Metin',
     // END deprecated
     //  order_list',
     'tbclorder_overview'       => 'Özet',
@@ -1870,7 +1870,7 @@ $aLang = [
     'PAYMENT_RDFA_DISCOVER'                => '',
     'PAYMENT_RDFA_JCB'                     => '',
     'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Teslim yöntemi atayın',
@@ -1952,7 +1952,7 @@ $aLang = [
 
     'OXDIAG_HOME'                     => 'OXID Diagnostics',
     'OXDIAG_ABOUT'                    => '',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_DOWNLOADLOG'              => 'Download raporu',
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => '',
