@@ -20,7 +20,7 @@ $sLangName = "English";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => 'UTF-8',
+    'charset' => '',
 
     'TCKLARNA_KLARNAMAINMENU'      => '',
     'TCKLARNA_START'               => '',
