@@ -95,7 +95,7 @@ $aLang = array(
     'BESTIT_AMAZON_REFUND_STATUS'                             => '',
 
     'BESTIT_AMAZON_REFRESH_REFUND_STATUS'                     => '',
-    'BESTITAMAZONPAY_ORDER_NO'                           => '',
+    'BESTITAMAZONPAY_ORDER_NO'                           => 'Numero d‘ordine',
     'BESTIT_AMAZON_SANDBOX_SIMULATION_ACTIONS'                => '',
 
     'BESTITAMAZONPAY_PLEASE_CHECK_REFUND_CHECKBOX'       => '',
