@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Zrušiť',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Bezpečnostný kód CVV2 alebo CVC2:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 je trojmiestny kód vytlačený obrátenou kurzívou na rube kreditnej karty pod podpisom majiteľa.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Správa pre:',
 /** end deprecated */
 'CART'                                                        => 'Košík',
 'CATEGORIES'                                                  => 'Kategórie',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Zmeniť heslo',
 'CHARGES'                                                     => 'Poplatky:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Kontrola',
 /** end deprecated */
 'CHECKOUT'                                                    => 'K pokladni',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'skontrolujte vašu históriu objednávok',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Váš kupón "%s" nemôže byť prijatý.',
 'CREATE_PASSWORD'                                             => 'Vytvoriť heslo',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditná karta:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktuálny tovar',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Zákazníci, ktorí kúpili tento produkt, tiež kúpili:',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Priezvisko',
 'LAST_SEEN_PRODUCTS'                                          => 'Naposledy zobrazený tovar',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Posledné novinky a aktuality na',
+'LATEST_NEWS_NOACTIVENEWS'   => 'V súčasnej dobe nie sú žiadne novinky',
 // END deprecated
 'LINKS'                                                       => 'Odkazy',
 'LISTMANIA'                                                   => 'Listmania',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Nezodpovedá pravidlám e-shopu.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Vami zadaný e-mail už bol použitý.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Zadajte vašu adresu a správu.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Správa od',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Získajte bonusové body za váš nákup.',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Ohodnoťte tento tovar.',
 'MESSAGE_READ_DETAILS'                                        => 'Prečítajte si',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Kliknite "Odoslať odporúčanie" pre odoslanie odporúčania na vami zvolený e-mail.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Prosím vyberte aspoň jeden výrobok!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Prosím, vyberte produkty na porovnanie!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'ďakujeme za prihlásenie na odber našich noviniek.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Spôsob dopravy, ktorý ste zvolili, už nie je dostupný. Vyberte prosím iný spôsob dopravy.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Prosím overte správnosť vašej e-mailovej adresy.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Vítame vás a ďakujeme za vašu registráciu!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'V prípade akýchkoľvek problémov s dostupnosťou vás budeme okamžite kontaktovať.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Overovací kód, ktorý ste zadali, nie je správny. Skúste to prosím znova.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Potvrdenie vašej objednávky vám bolo odoslané na vašu e-mailovú adresu.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Najnovší tovar',
 'NEWLIST'                                                     => 'Nový Listmania zoznam',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Novinky',
 // END deprecated
 'NEWSLETTER'                                                  => 'Novinky e-mailom',
 'NEWSLETTER_SETTINGS'                                         => 'Nastavenie noviniek e-mailom',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Obrázky tovaru',
 'PRODUCT_NO'                                                  => 'Kód',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Pohľadnica od',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Recenzia tovaru',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Verejné zoznamy darčekov',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Meno príjemcu:',
 'RECOMMEND'                                                   => 'odporučiť',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Doporučený tovar:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Odporučiť tovar',
 'REDEEM_COUPON'                                               => 'Použiť poukážku',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Hľadať',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Novinky',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Odporučiť tovar',
 'PAGE_TITLE_INVITE'                                           => 'Pozvite Vašich priateľov',
