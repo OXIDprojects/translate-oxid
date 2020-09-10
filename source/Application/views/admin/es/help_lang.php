@@ -23,7 +23,7 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Aquí se puede establecer si los pedidos se pueden hacer en los países para los que no se definen los costos de envío:<ul><li>Si la opción está marcada, los usuarios pueden hacer pedidos: Los usuarios son notificados de que serán.</li><li>Si la opción no está marcada, los usuarios de los paises para los que no se definen costos de envío no podrán hacer pedidos.</li></ul>',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Aquí se puede establecer si los pedidos se pueden hacer en los países para los que no se definen los costes de envío:<ul><li>Si la opción está marcada, los usuarios pueden hacer pedidos: Los usuarios son notificados de que serán.</li><li>Si la opción no está marcada, los usuarios de los paises para los que no se definen costes de envío no podrán hacer pedidos.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Si la opción está marcada, la mayoría de los elementos de navegación no se mostrarán durante el proceso de pago. De esta forma el usuario no se distraerá innecesariamente.',
 
@@ -39,29 +39,29 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Aquí se puede establecer si los precios de las escalas se heredan de los padres del producto: Si la configuración está activada, la escala de precios del producto primario se utilizan también para sus variantes.',
 
-'HELP_SHOP_SYSTEM_ISERVERTIMESHIFT'           => 'El servidor de la tienda electrónica puede estar en una zona horaria diferente. Con este ajuste, el cambio de hora se puede ajustar: Anota la cantidad de horas que se van a sumar o restar a partir de la hora del servidor, ejemplo: <kdb>+2</kdb> o <kdb>-2</kdb>',
+'HELP_SHOP_SYSTEM_ISERVERTIMESHIFT'           => 'El servidor de la tienda electrónica puede estar en una zona horaria diferente. Con este ajuste, el cambio de hora se puede ajustar: Anote la cantidad de horas que se van a sumar o restar a partir de la hora del servidor, ejemplo: <kdb>+2</kdb> o <kdb>-2</kdb>',
 
-'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Si la configuración está activada, las imágenes en los correos electrónicos se envían junto con el correo electrónico. Si el ajuste no está seleccionada, las imágenes se descargan por el programa de email cuando el correo electrónico se abre',
+'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Si la configuración está activada, las imágenes en los correos electrónicos se envían junto con el correo electrónico. Si el ajuste no está seleccionada, las imágenes se descargan por el programa de e-mail cuando el correo electrónico se abre',
 
-'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Por favor, introduzca su archivo PHP personalizado aquí, que sobrescribirá las funciones eShop al inicio de la tienda.',
+'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Por favor, introduzca su fichero PHP personalizado aquí, que sobrescribirá las funciones eShop al inicio de la tienda.',
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Si el almacenamiento en caché de contenido dinámico está activo, los contenidos adicionales se almacenan en caché para aumentar el rendimiento. Desactive esta opción siempre que modifique la tienda (añadiendo/modificando módulos, adaptando plantillas y otros casos similares)',
 
 'HELP_SHOP_CACHE_LIFETIME'                    => 'Aquí puede ajustar los segundos que se guarda el contenido almacenado en caché. El valor predeterminado es 36.000 segundos.',
 
-'HELP_SHOP_CACHE_CLASSES'                     => 'Aquí se ajusta la vista de las clases que se almacenan en caché. <br> Sólo cambia esta opción si estás familiarizado con los mecanismos de almacenamiento en caché!',
+'HELP_SHOP_CACHE_CLASSES'                     => 'Aquí se ajusta la vista de las clases que se almacenan en caché. <br> Sólo cambie esta opción si usted está familiarizado con los mecanismos de almacenamiento en caché!',
 
 'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => 'Activa un cacheo HTTP con proxy inverso. Nota: No use "Cacheo de Contenido Dinámico" al mismo tiempo, podría reducir el rendimiento.',
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Defina tiempo de vida de la disposición de la página en segundos. Esto será enviado en las cabeceras HTTP, especificando el valor de cabecera "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'En caso de doble opt-in es de usuarios activos recibirá un email con un enlace de confirmación cuando se inscriban en el boletín. Sólo si este enlace de confirmación que se utiliza el usuario está registrado en el boletín. <br>.Haga doble opt-in "protege a los usuarios de los registros no deseados. Sin doble opt-en cualquier dirección de correo electrónico se pueden registrar en el boletín. Con doble opt-in "el propietario de la dirección de correo electrónico tiene que confirmar el registro.',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'En caso de doble opt-in es de usuarios activos recibirá un e-mail con un enlace de confirmación cuando se inscriban en el boletín. Sólo si este enlace de confirmación que se utiliza el usuario está registrado en el boletín. <br>.Haga doble opt-in "protege a los usuarios de los registros no deseados. Sin doble opt-en cualquier dirección de correo electrónico se pueden registrar en el boletín. Con doble opt-in "el propietario de la dirección de correo electrónico tiene que confirmar el registro.',
 
 'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Con crossselling puede ofrecer productos de adaptación de un producto: Si, por ejemplo a un coche de los neumáticos se asignan como crossselling producto de los neumáticos se muestran con el coche. <br>.Si crossselling bidireccional se activa funciona en ambas direcciones: El coche se muestra con los neumáticos también.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Para cada producto, puedes configurar un mensaje de si el producto está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic">  Listo para el envío </span> se muestra.',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Para cada producto, usted puede configurar un mensaje de si el producto está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic">  Listo para el envío </span> se muestra.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Para cada producto, puedes configurar un mensaje de si el producto no está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic"> Este artículo no está en stock y debe ser pedido </ span> se muestra.',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Para cada producto, usted puede configurar un mensaje de si el producto no está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic"> Este artículo no está en stock y debe ser pedido </ span> se muestra.',
 
 'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Usted puede establecer precios especiales para usuarios específicos: Para cada producto que puede entrar en los precios, B y C. Si los usuarios están en el grupo de usuarios <span Precio class=filename_filepath_or_italic> A </ span> el precio de A se muestra a ellos en vez del precio normal. <br>.Si esta opción está activada el precio normal del producto se utiliza si hay precio AB o C está disponible. <br>.Usted debe activar esta opción si está utilizando AB y C los precios: De lo contrario 000 muestran a los usuarios de acuerdo si no hay precio AB o C se establece.',
 
@@ -113,17 +113,17 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS'                  => 'Tienda con productos descargables. Activa aquí, los productos pueden ser pedidos y descargados.',
 
-'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Ruta donde los archivos descargables están guardados.',
+'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Ruta donde los ficheros descargables están guardados.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada archivo de producto en Administrar Productos -> Productos -> Descargas.',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link, si el usuario solicitó el producto sin registro. Puedes cambiar este valor para cada archivo de producto en Administrar Productos -> Productos -> Descargas.',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link, si el usuario solicitó el producto sin registro. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Especifica el tiempo en horas, el link de descarga es válido después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada archivo de producto en Administrar Productos -> Productos -> Descargas.',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Especifica el tiempo en horas, el link de descarga es válido después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Especifica el tiempo en horas, el link de descarga es válido después de la primera descarga. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada archivo de producto en Administrar Productos -> Productos -> Descargas.',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Especifica el tiempo en horas, el link de descarga es válido después de la primera descarga. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
@@ -145,7 +145,7 @@ $aLang =  [
 
 'HELP_SHOP_PERF_DISBASKETSAVING'              => 'La cesta de la compra de los usuarios registrados se guardan. Cuando visite su tienda electrónica de nuevo el contenido del carrito de compras se cargan. Si se activa esta opción los carritos de la compra aren  t guardado ninguna más.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => 'Si desactiva este ajuste sin costos de envío se calculan: Los gastos de envío siempre son 0,00 euros.',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'Si desactiva este ajuste sin costes de envío se calculan: Los gastos de envío siempre son 0,00 euros.',
 
 'HELP_SHOP_PERF_LOADPRICE'                    => 'Si desactiva este ajuste no se calculan los precios de los productos: No se muestran los precios.',
 
@@ -183,7 +183,7 @@ $aLang =  [
 
 'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'Cuando los usuarios para que reciba un correo electrónico con un resumen de la orden. Estos correos electrónicos se envían a <span class=navipath_or_inputname> Orden E-mail a </ span>.',
 
-'HELP_SHOP_MAIN_SMTPSERVER'                   => 'los datos de SMTP se necesita para enviar mensajes de correo electrónico (por ejemplo, enviar a los clientes una confirmación del pedido por email) se puede encontrar más información en la <a href = http://www.oxid-esales.com/de/resources/help-faq / target = _blank eshop-manual/entering-smtp-data> comforme <entrada manual / a>.',
+'HELP_SHOP_MAIN_SMTPSERVER'                   => 'los datos de SMTP se necesita para enviar mensajes de correo electrónico (por ejemplo, enviar a los clientes una confirmación del pedido por e-mail) se puede encontrar más información en la <a href = http://www.oxid-esales.com/de/resources/help-faq / target = _blank eshop-manual/entering-smtp-data> comforme <entrada manual / a>.',
 
 'HELP_ARTICLE_MAIN_ALDPRICE'                  => '<span class=navipath_or_inputname> Alt. Precios </ span> puede configurar precios especiales para determinados usuarios. Más información está disponible en la href=http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/set-alternative-prices-special-users <a target=_blank> eShop Manual < / a> en la página web OXID eSales.',
 
@@ -199,7 +199,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_NONMATERIAL'             => 'Configuración es heredada desde el producto padre a variantes y aplica al producto entero.',
 
-'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'La configuración es heredada del producto padre a variantes y aplica a todo el producto.',
+'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Configuración es heredada del producto padre a variantes y aplica a todo el producto.',
 
 'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Alerta de precio puede deshabilitarse para este producto.',
 
@@ -211,17 +211,17 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Precios pueden cambiar en un tiempo definido. Campos proporcionados actualizan precios standard. Si dejas el precio con valor "0", precios no se actualizarán.',
 
-'HELP_ARTICLE_EXTEND_SHOWCUSTOMAGREEMENT'     => 'If this option is activated, users have to confirm terms and conditions in the fourth step of the check-out process for this specific item. Please make sure the general option is activated as well and the product item is intangible or downloadable.',
+'HELP_ARTICLE_EXTEND_SHOWCUSTOMAGREEMENT'     => 'Si esta opción está activada, los usuarios tienen que confirmar términos y condiciones en el cuarto paso del proceso de compra para este objeto específico. Por favor, asegúrese que la opción general está activada y el producto es intangible o descargable.',
 
 'HELP_ARTICLE_FILES_MAX_DOWNLOADS_COUNT'      => 'Aquí puede definir cuántas veces el usuario puede descargar desde el mismo enlace, si el usuario pide sin registro. Por este archivo puede sobrescribir la configuración predeterminada, que se definió en la configuración Maestro -> Core Configuración -> Configuración -> Descargas de todos los productos.',
 
 'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Aquí puede definir cuántas veces el usuario puede descargar desde el mismo enlace, si el usuario pide sin registro. Por este archivo puede sobrescribir la configuración predeterminada, que se definió en la configuración Maestro -> Core Configuración -> Configuración -> Descargas de todos los productos.',
 
-'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME'     => 'Especifica el tiempo en horas, el enlace de descarga es válido después de la primera descarga. Para este archivo puedes sobreescribir la configuración por defecto, que se encuentra definida en Configuración Maestra -> Configuración del núcleo -> Configuración -> Descargas para todos los productos.',
+'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME'     => 'Especifica el tiempo en horas, el enlace de descarga es válido después de la primera descarga. Para este fichero puedes sobreescribir la configuración por defecto, que se encuentra definida en Configuración Maestra -> Configuración del núcleo -> Configuración -> Descargas para todos los productos.',
 
 'HELP_ARTICLE_FILES_NEW'                      => 'Escriba el nombre de un archivo transferido vía FTP o cargar un nuevo archivo aquí. Tenga en cuenta que los archivos grandes deben ser cargados a través de FTP. Limitación de tamaño de archivo es válida sólo cuando el archivo se carga a través del administrador. Esta limitación depende de la configuración de PHP del servidor y puede ser editado sólo allí.',
 
-'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Especifica el tiempo en horas, el enlace de descarga es válido después de la primera descarga. Para este archivo puedes sobreescribir la configuración por defecto, que se encuentra definida en Configuración Maestra -> Configuración del núcleo -> Configuración -> Descargas para todos los productos.',
+'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Especifica el tiempo en horas, el enlace de descarga es válido después de la primera descarga. Para este fichero puedes sobreescribir la configuración por defecto, que se encuentra definida en Configuración Maestra -> Configuración del núcleo -> Configuración -> Descargas para todos los productos.',
 
 'HELP_ARTICLE_PICTURES_ICON'                  => 'Los iconos son las imágenes más pequeñas de un producto. Por ejemplo que se utilizan en la cesta de la compra. <br>.icono de Carga personalizado anulará icono generados a partir de la imagen del producto en primer lugar. <br>.Después de cargar el nombre de archivo se muestra en el icono. Si no aparece el icono se han subido aún --- se muestra. <br>.Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics <a target=_blank> producto imágenes <introducción manual de / a >.',
 
@@ -237,7 +237,7 @@ $aLang =  [
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Los archivos de este producto se pueden descargar.',
 
-'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => 'Con <span class="navipath_or_inputname"> Enviar email si el stock cae por debajo del valor de </span> puede especificar que un email será enviado tan pronto como el nivel de stock cae por debajo del valor introducido. Seleccione la casilla de verificación e introduzca el nivel en el que desea que se le notifique.',
+'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => 'Con <span class="navipath_or_inputname"> Enviar e-mail si el stock cae por debajo del valor de </span> puede especificar que un e-mail será enviado tan pronto como el nivel de stock cae por debajo del valor introducido. Seleccione la casilla de verificación e introduzca el nivel en el que desea que se le notifique.',
 
 'HELP_ARTICLE_STOCK_DELIVERY'                 => 'Aquí puede introducir la fecha en que el producto estará disponible de nuevo, si se vende a cabo. El formato es año-mes-día e. g. 16.02.2009.',
 
@@ -349,7 +349,7 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'En <span class=navipath_or_inputname> Precio recargo / descuento </ span> el precio se introduce en el método de pago. El precio se puede especificar de dos maneras diferentes:.<li> <ul> Con class=userinput_or_code> <span abs </ span> el precio se introduce en el método de pago (por ejemplo: si escribe <span class=userinput_or_code> 7.50 </ span> un precio de 7,50 EUR se calcula .) </ li>.Con <li>% <span class=userinput_or_code> </ span> el precio se calcula en relación al precio de compra (por ejemplo: si escribe <span class=userinput_or_code> 2 </ span> el precio es de 2 por ciento del precio de compra ) </ li> </ ul>',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Cuando se calcula el suplemento o reducción, el valor del carrito se usa como base. Define cuales costos serán incluidos cuando se calcula el valor del carrito.',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Cuando se calcula el suplemento o reducción, el valor del carrito se usa como base. Define cuales costes serán incluidos cuando se calcula el valor del carrito.',
 
 'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'En <span class=navipath_or_inputname> Working Title </ span> puede introducir un nombre adicional que no se muestra a los usuarios de su tienda electrónica. Usted puede utilizar el título de trabajo para diferenciar entre las listas de selección similares (por ejemplo, los tamaños de los pantalones y los tamaños de camisetas).',
 
@@ -365,7 +365,7 @@ $aLang =  [
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Esta configuración se muestra si el usuario suscrito a la newsletter.',
 
-'HELP_USER_EXTEND_EMAILFAILED'                => 'Si no emails pueden ser enviados a la dirección de correo electrónico de este usuario comprobar esta configuración. Entonces no hay boletines son enviados a este usuario más. Otros mensajes de correo electrónico está siendo enviado.',
+'HELP_USER_EXTEND_EMAILFAILED'                => 'Si no e-mails pueden ser enviados a la dirección de correo electrónico de este usuario comprobar esta configuración. Entonces no hay boletines son enviados a este usuario más. Otros mensajes de correo electrónico está siendo enviado.',
 
 'HELP_USER_EXTEND_BONI'                       => 'Aquí puede introducir un valor numérico para la calificación de crédito del usuario. Con la calificación de crédito que pueden influir en que las formas de pago están disponibles para este usuario.',
 
@@ -381,9 +381,9 @@ $aLang =  [
 
 'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'En <span class=navipath_or_inputname> descuento </ span> se especifica la magnitud del descuento. Puede utilizar la lista de selección después de que el campo de entrada para especificar si el descuento se aplica como descuento en términos absolutos o como porcentaje de descuento.<ul>.<li> class=userinput_or_code> abs </ span>: El descuento es un descuento absoluta por ejemplo, 5 euros. </ Li>.<span class=userinput_or_code>% </ span>: El descuento es un porcentaje de descuento por ejemplo, 10 por ciento del precio de compra. </ Li>.</ Ul>',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Aquí se puede establecer si a los usuarios se les permite usar varios cupones de esta serie de cupones en sólo pedido.',
+'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Aquí se puede establecer si los usuarios se les permite usar varios cupones de esta serie de cupones en sólo pedido.',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => 'Aquí se puede establecer si a los usuarios se les permite usar los cupones junto con cupones de otras series de cupones en un mismo pedido.',
+'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => 'Aquí se puede establecer si los usuarios se les permite usar los cupones junto con cupones de otras series de cupones en un mismo pedido.',
 
 'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => 'Aquí se puede establecer si los usuarios pueden usar los cupones de esta serie de cupones en los pedidos múltiples.',
 
@@ -399,7 +399,7 @@ $aLang =  [
 
 'HELP_SHOP_PERF_SEO_CACHE'                    => 'Activado SEO cache incrementa el rendimiento, pero requiere mucho espacio en disco en el directorio /tmp.',
 
-'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'URL alternativa a imagen remota en el servidor puede especificarse en el archivo de configuración config.inc.php definiendo <i>sAltImageUrl</i> and <i>sSSLAltImageUrl</i>.<br> Así todos los productos se cargarán desde este servidor alternativo en vez del local. Aunque, los archivos subidos se guardarán localmente. En este caso la sincronización con el servidor externo puede hacerse a mano o con scripts personalizados.',
+'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'URL alternativa a imagen remota en el servidor puede especificarse en el fichero de configuración config.inc.php definiendo <i>sAltImageUrl</i> and <i>sSSLAltImageUrl</i>.<br> Así todos los productos se cargarán desde este servidor alternativo en vez del local. Aunque, los ficheros subidos se guardarán localmente. En este caso la sincronización con el servidor externo puede hacerse a mano o con scripts personalizados.',
 
 'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Seleccionar aquí, que página de contenido de información principal es mostrada, por ejemplo, "Sobre Nosotros"',
 
@@ -407,9 +407,9 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Seleccionar aquí, en que página de contenido se ha asignado información de envío a RDFa mostrada, por ejemplo, "Envío y cargos". Para asignar tus métodos de envío a métodos de pago RDFa en general ve a: Configuración de Tienda -> Métodos de envío -> RDFa.',
 
-'HELP_SHOP_RDFA_VAT'                          => 'Esta opción indica cuando el impuesto (IVA) es incluido en el precio y en los costos de entrega/pago o no.',
+'HELP_SHOP_RDFA_VAT'                          => 'Esta opción indica cuando el impuesto (IVA) es incluido en el precio y en los costes de entrega/pago o no.',
 
-'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Especifica aquí el tiempo de validez de los costos de los productos, pago y envío (por ejemplo, 1 día, 1 semana).',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Especifica aquí el tiempo de validez de los costes de los productos, pago y envío (por ejemplo, 1 día, 1 semana).',
 
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'La dirección Web (URL) de un logotipo o imagen.',
 
@@ -449,13 +449,13 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'En el área administradora los precios de los productos deben introducirse como valor neto.',
 
-'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Compruebe si un proxy inverso está disponible para el frontend. Cabecera de la página de inicio de la tienda es verificado.',
+'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Compruebe si un proxy inverso está disponible para el frontend. Cabecera de la página de inicio de la tienda es verificado.<br> El test podría fallar is diferentes dominios o protocolos (http/https) son usados para el panel de administración y el frontal de la tienda.',
 
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Área administrados es mostrada sin Proxy inverso. Cabecera no puede ser recibida.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Sólo IBAN y BIC puede ser introducido durante la realización del pedido. El número de cuenta y el código de banco solo puede ser introducido si esta casilla no está marcada.',
 
-'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'If this option is activated, users have to confirm terms and conditions for intangible or downloadable products in the fourth step of the check-out process. Please make sure this option is enabled for the specific item as well!',
+'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Si esta opción está activada, los usuarios tienen que confirmar términos y condiciones en el cuarto paso del proceso de compra para este objeto específico. Por favor, asegúrese que la opción general está activada y el producto es intangible o descargable.',
 
 'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
 ];
