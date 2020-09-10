@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'الفي',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'ماسترد كارت',
+'CARD_SECURITY_CODE'                                          => 'كود سري CVV2 or CVC2',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'تتم طباعة هذا الرقم الاختيار بالخط المائل العكسي على الجانب الخلفي لبطاقة الائتمان الخاصة بك الحق فوق لوحة التوقيع',
+'CARD_VISA'                                                   => 'فيزا',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'بطاقة إلى',
 /** end deprecated */
 'CART'                                                        => 'عربة',
 'CATEGORIES'                                                  => 'فئات',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'نغيير كلمة السر',
 'CHARGES'                                                     => 'ضَرَائِب',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'تحقق',
 /** end deprecated */
 'CHECKOUT'                                                    => 'سداد مع الخروج',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'احفظ ملفك التاريخ الخاص بك',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'القسيمة الخاصة بك غير مقبولة',
 'CREATE_PASSWORD'                                             => 'انشاء كلمة سر',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'كريديت كارد',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'المنتجات الحالية',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'العملاء الذين اشتروا هذا المنتج اشتروا أيضا',
