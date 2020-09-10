@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Назва',
     'NEWS_LIST_MENUITEM'                             => 'Інформація про клієнтів',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Новини',
     'NEWS_MAIN_SHORTDESC'                            => 'Назва',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Управління товарами',
     'mxmainmenu'               => 'Основні налаштування',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Новини',
     // END deprecated
     'mxorders'                 => 'Управління замовленнями',
     'mxpaymeth'                => 'Способи оплати',
