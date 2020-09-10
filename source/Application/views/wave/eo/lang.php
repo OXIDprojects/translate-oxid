@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Esperanto";
+$sLangName = "English";
 
 $aLang = array(
     'charset'                                               => '',
@@ -31,14 +31,14 @@ $aLang = array(
     'DD_DELETE'                                             => '',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Bv enigu validan retpoŝadreson',
     'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Bv enigu nombron',
     'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Bv enigu pozitivan nombron',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Bv enigu negativan nombron',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Bv enigu valoron',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Bv elektu minimume unu eblon',
 
     // Header
     'SEARCH_TITLE'                                          => '',
@@ -58,42 +58,42 @@ $aLang = array(
     'START_TOP_PRODUCTS_SUBHEADER'                          => '',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => '',
-    'DD_CONTACT_FORM_HEADING'                               => 'Kontakto',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Kontaktu nin!',
+    'DD_CONTACT_FORM_HEADING'                               => 'Kontaktformularo',
 
     // Link list
     'DD_LINKS_NO_ENTRIES'                                   => '',
 
     // 404 page
     'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
-    'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_START_BUTTON'                               => 'Iru al hejmpaĝo',
+    'DD_ERR_404_CONTACT_TEXT'                               => 'Ĉu ni povas helpi vin?<br>Bv telefonu al ni aŭ sendu retmesaĝon:',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'al la kontaktpaĝo',
 
     // Login
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => '',
-    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
+    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'elekti',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'aldoni liveradreson',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
-    'DD_LIST_SHOW_MORE'                                     => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtrilo:',
+    'DD_LIST_SHOW_MORE'                                     => 'Rigardu artiklojn',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'reen al la superrigardo',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => '',
-    'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'elŝuti',
+    'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Dosiergrando:',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'Horo',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Dosiernomo:',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
+    'BACK_TO_OVERVIEW'                                      => 'Al superrigardo',
     'OF'                                                    => '',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
@@ -105,25 +105,25 @@ $aLang = array(
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
-    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Entuta sumo',
+    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'Kontinuigi butikumi',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'reen al la vendejo',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
-    'DD_FORGOT_PASSWORD_HEADING'                            => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'Sekvu nin:',
+    'DD_FORGOT_PASSWORD_HEADING'                            => 'Mi forgesis la pasvorton',
     'DD_INVITE_HEADING'                                     => '',
-    'DD_INVITE_LINK'                                        => '',
+    'DD_INVITE_LINK'                                        => 'Ligilo',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
-    'DD_ORDERSHIPPED_HEADING'                               => '',
+    'DD_ORDERSHIPPED_HEADING'                               => 'Sendkonfirmo - mendo',
     'DD_PRICEALARM_HEADING'                                 => '',
-    'DD_REGISTER_HEADING'                                   => '',
-    'DD_DOWNLOADLINKS_HEADING'                              => '',
+    'DD_REGISTER_HEADING'                                   => 'Via regsitrado',
+    'DD_DOWNLOADLINKS_HEADING'                              => 'Viaj elŝutligiloj - mendoj',
     'DD_WISHLIST_HEADING'                                   => '',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menuo',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
