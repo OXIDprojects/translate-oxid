@@ -34,16 +34,16 @@ $sLangName = "Deutsch";
 
 $aLang = array(
     "charset"                                      => "UTF-8",
-    "oxpspaymorrow"                                => "",
+    "oxpspaymorrow"                                => "Paymorrow",
 
-    'NAVIGATION_PAYMORROW'                         => '',
+    'NAVIGATION_PAYMORROW'                         => '<a href="https://paymorrow.de/" target="_blank">Paymorrow Payment</a>',
     'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => 'API-Konfiguration',
     'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => 'Bestelldaten-Aktualisierung',
     'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => 'Rechnungskauf',
     'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => 'Lastschriftverfahren',
     'oxpspaymorrow_form_error_log'                 => 'Protokoll',
     'oxpspaymorrow_paymorrow_info'                 => 'Paymorrow-Info',
-    'oxpspaymorrow_payment_map'                    => '',
+    'oxpspaymorrow_payment_map'                    => 'Paymorrow',
 
     // Main Menu Settings
     'OXPSPAYMORROW_MAIN_MENU_SETTINGS_TITLE'       => 'Fehlerprotokoll',
