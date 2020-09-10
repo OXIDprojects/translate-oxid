@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "Deutsch";
+$sLangName  = "English";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -230,7 +230,7 @@ $aLang = array(
 'fcpo_admin_config_error_mapping'           => "",
 'fcpo_admin_config_add'                     => "hinzufügen",
 'fcpo_admin_config_delete'                  => "",
-'fcpo_admin_config_delete_confirm'          => "Wollen Sie diesen Eintrag wirklich löschen?",
+'fcpo_admin_config_delete_confirm'          => "Willst Du diesen Eintrag wirklich löschen?",
 'fcpo_admin_config_paymenttype'             => "",
 'fcpo_admin_config_status_payone'           => "",
 'fcpo_admin_config_status_shop'             => "",
@@ -384,7 +384,7 @@ $aLang = array(
 'ORDER_OVERVIEW_FCPO_ELV_BLZ'               => "",
 'ORDER_OVERVIEW_FCPO_ELV_KTONR'             => "",
 'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "IBAN",
-'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC",
+'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC:",
 
 'FCPO_CC_CONFIG'                            => '',
 'FCPO_CC_STANDARD_STYLE'                    => '',
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => 'Auswahl',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'Deutsch',
+'FCPO_CC_ERRORLANG_EN'                      => 'English',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => 'Vorschau',
     
