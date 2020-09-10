@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Aquí se puede establecer si los pedidos se pueden hacer en los países para los que no se definen los costes de envío:<ul><li>Si la opción está marcada, los usuarios pueden hacer pedidos: Los usuarios son notificados de que serán.</li><li>Si la opción no está marcada, los usuarios de los paises para los que no se definen costes de envío no podrán hacer pedidos.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Si la opción está marcada, la mayoría de los elementos de navegación no se mostrarán durante el proceso de pago. De esta forma el usuario no se distraerá innecesariamente.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Configuración recomendada entre 40 y 80:<br><ul><li>Bajo 40, la compresión se puede apreciar claramente con una baja calidad de imagen.</li><li>Sobre 80 la calidad se incrementa inapreciablemente y el espacio que ocupa la imagen aumenta notablemente.</li></ul><br>El valor por defecto es 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Por favor, edite el archivo core/oxldap.php.',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'En eShop hay muchas listas para la asignación de productos, ej. asignación de productos a los descuentos. Si la opción está marcada, las observaciones también se muestran en estas listas.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Esta opción permite poder comprar el producto padre',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Aquí se puede establecer si los precios de las escalas se heredan de los padres del producto: Si la configuración está activada, la escala de precios del producto primario se utilizan también para sus variantes.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Defina tiempo de vida de la disposición de la página en segundos. Esto será enviado en las cabeceras HTTP, especificando el valor de cabecera "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'En caso de doble opt-in es de usuarios activos recibirá un e-mail con un enlace de confirmación cuando se inscriban en el boletín. Sólo si este enlace de confirmación que se utiliza el usuario está registrado en el boletín. <br>.Haga doble opt-in "protege a los usuarios de los registros no deseados. Sin doble opt-en cualquier dirección de correo electrónico se pueden registrar en el boletín. Con doble opt-in "el propietario de la dirección de correo electrónico tiene que confirmar el registro.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Con crossselling puede ofrecer productos de adaptación de un producto: Si, por ejemplo a un coche de los neumáticos se asignan como crossselling producto de los neumáticos se muestran con el coche. <br>.Si crossselling bidireccional se activa funciona en ambas direcciones: El coche se muestra con los neumáticos también.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Para cada producto, usted puede configurar un mensaje de si el producto está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic">  Listo para el envío </span> se muestra.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Para cada producto, usted puede configurar un mensaje de si el producto no está en stock. <br>.Si este valor está activo se muestra un mensaje si no hay mensaje específico de un producto es introducido. El mensaje predeterminado <span class="filename_filepath_or_italic"> Este artículo no está en stock y debe ser pedido </ span> se muestra.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Usted puede establecer precios especiales para usuarios específicos: Para cada producto que puede entrar en los precios, B y C. Si los usuarios están en el grupo de usuarios <span Precio class=filename_filepath_or_italic> A </ span> el precio de A se muestra a ellos en vez del precio normal. <br>.Si esta opción está activada el precio normal del producto se utiliza si hay precio AB o C está disponible. <br>.Usted debe activar esta opción si está utilizando AB y C los precios: De lo contrario 000 muestran a los usuarios de acuerdo si no hay precio AB o C se establece.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Aquí puede definir los campos de base de datos en la que las búsquedas de búsqueda de productos. Introduzca un campo por fila. <br>.Las entradas más comunes son:.<ul> oxtitle <li> = Título </ li>.oxshortdesc <li> = Breve descripción </ li>.<li> oxsearchkeys = Los términos de búsqueda introducidos para cada producto </ li>.oxartnum <li> = Número de producto </ li>.<li> oxtags = Etiquetas incluidas en cada producto </ li> </ ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Aquí puede definir los campos de base de datos que pueden ser utilizados para clasificar las listas de productos. Introduzca un campo por fila. <br>.Las entradas más comunes son:.<ul> oxtitle <li> = Título </li>.<li> oxprice = Precio </li>.oxvarminprice <li> = El precio más bajo si las variantes con diferentes precios se utilizan. </li>.<li> oxartnum = número del producto </li>.<li> oxrating = Clasificación de los productos </li>.<li> oxstock = Stock </li> </ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Aquí se puede establecer los campos obligatorios para el registro de usuario. Introduzca un campo por fila. <br>.Las entradas más comunes son:.<ul> oxuser__oxfname <li> = Nombre </ li>.oxuser__oxlname <li> = Apellido </ li>.<li> oxuser__oxstreet = Street </ li>.oxuser__oxstreetnr <li> = Número de la casa </ li>.<li> oxuser__oxzip = ZIP </ li>.<li> oxuser__oxcity = Ciudad </ li>.<li> oxuser__oxcountryid = País </ li>.oxuser__oxfon <li> = Número de teléfono </ li> </ ul> <br>.También puede definir los campos obligatorios si el usuario introduce una dirección de entrega diferente. Las entradas más comunes son:.<ul> oxaddress__oxfname <li> = Nombre </ li>.oxaddress__oxlname <li> = Apellido </ li>.<li> oxaddress__oxstreet = Street </ li>.oxaddress__oxstreetnr <li> = Número de la casa </ li>.<li> oxaddress__oxzip = ZIP </ li>.<li> oxaddress__oxcity = Ciudad </ li>.<li> oxaddress__oxcountryid = País </ li>.oxaddress__oxfon <li> = Número de teléfono </ li> </ ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Con <span class="navipath_or_inputname"> Permitir valores negativos de archivo </span> puede definir cómo se calculan los niveles de existencias de los productos están fuera de stock: <br>.<li> Si el ajuste se comprueba los valores negativos de valores se calculan si las unidades nuevas se compran. </li>.<li> Si el ajuste no está marcada el valor de las acciones nunca cae por debajo de 0, incluso si las unidades nuevas se compran. </li> </ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Si la tasa de usuarios de un producto que no se puede calificar el producto de nuevo. Aquí se puede establecer el número de usuarios después de muchos días se les permitirá calificar un producto nuevo. Dejar en blanco para desactivar - los productos pueden ser valorados una sola vez por usuario.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'La verificación en línea de identificación del IVA se ejecuta si un cliente de un país extranjero dentro de la UE entra en una identificación del IVA con el pedido. Si el ID de IVA es válido, sin el IVA se calcula para este fin. <br>.Si la verificación está desactivada la normal del IVA para el país, según se calcula siempre.',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Aquí puede introducir una dirección URL alternativa para la comprobación de identificación en línea IVA.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Las ventas privadas sesión transforma compras regulares en los miembros.única tienda. Esto ayuda a desarrollar comunidades de clientes con intereses similares. .Este ajuste restringe el acceso a todas las páginas eShop.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Permite a los productos insertar sólo de uno (root) categoría si cambio de categoría es.usuario detectado se le pide que para finalizar (vaya a la caja) o seguir comprando.(Cesta se limpian en este caso). Con esta función en relación con el.debidamente organizada estructura de categorías se puede implementar cestas dividir a los diferentes suministradores.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Al desactivar esta opción eShop reduce stock de productos exactamente en el momento cuando el pedido es confirmado por el cliente y el proceso de compra ha terminado. <br>.Con esta opción activada esta funcionalidad cambios: Stock del producto se reduce y está siendo <b> reservado</b> cuando el producto se pone en la cesta. Reserva es cancelada cuando el contenido de la cesta se compra o expira.',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Después de este tiempo de espera de los productos reservados se devuelven al stock y se borra del carro del cliente.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Invitación se utiliza para su atractivo.amigos a la página web y conseguir puntos de crédito por la invitación.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'La cantidad de puntos de crédito del usuario se quien fue invitado por el ya.usuario registrado. usuario invitado debe registrarse para obtener estos puntos. Adquirida.puntos de crédito se almacenan en el registro de usuario y pueden ser utilizados por dueño de la tienda para cualquier propósito.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'La cantidad de puntos de crédito del usuario se que invitó a alguien a la tienda. .El usuario obtiene puntos de crédito sólo si es invitado usuario se registra en la tienda. Adquirida.puntos de crédito se almacenan en el registro de usuario y pueden ser utilizados por dueño de la tienda para cualquier propósito.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Atención: Incluso si el cifrado se utiliza la tarjeta de crédito por lo general los contratos de prohibir esta estrictamente!',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'En el 4º paso del proceso de realización del pedido, la página "oxtsinternationalfees" se mostrará adicionalmente.',
@@ -115,27 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Ruta donde los ficheros descargables están guardados.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Aquí puedes definir cuantas veces un usuario puede descargar el mismo link, si el usuario solicitó el producto sin registro. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Especifica el tiempo en horas, el link de descarga es válido después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Especifica el tiempo en horas, el link de descarga es válido después de la primera descarga. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Aquí se puede establecer lo que se muestra en la portada de este eShop:.<ul> <li> class=navipath_or_inputname> Mostrar selector de compras </ span>: Una página en la que diferentes tiendas online pueden ser seleccionados se muestra </ li>..<li> class=navipath_or_inputname> Mostrar tienda principal de primera plana </ span>: La primera página normal de esta tienda se muestra </ li> </ ul>.',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Puede definir un recargo en todos los precios de los productos en esta tienda: Escriba el recargo y seleccionar si es un porcentualmente (<span class=userinput_or_code>% </ span>) o absoluta (<span class=userinput_or_code> abs </ span>) .',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Una lista de los más nuevos productos se muestran en  <span class="filename_filepath_or_italic"> Novedades </ Span>. Aquí se puede establecer cómo se genera la lista:.<ul> <li> <span class="userinput_or_code"> inactivo </ span>: La lista no se muestra </ li>..<span class="userinput_or_code"> instrucciones </ span>: Puede definir los productos en <span class="navipath_or_inputname"> Información del cliente - Promociones -> </ span> en la promoción <span class="filename_filepath_or_italic"> Novedades </ span>. </ li>.<li> <span class="userinput_or_code"> automática </ span>: Los productos se calculan de forma automática </ li> </ ul>.',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Una lista de los productos más vendidos a menudo se muestra en el <span class=filename_filepath_or_italic>  Principio de la tienda </ span>. Aquí se puede establecer cómo se genera la lista:.<ul> <li> <span class=userinput_or_code> inactivo </ span>: La lista no se muestra </ li>..<span class=userinput_or_code> manual</ span>: Puede definir los productos en <span class=navipath_or_inputname> Información del cliente - Promociones> -> </ span> en el promoción <span class=filename_filepath_or_italic>   Arriba Tienda </ span>. </ li>.<li> <span class=userinput_or_code> automática </ span>: Los productos se calculan de forma automática </ li> </ ul>.',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Si esta opción está activada el árbol de categorías completo se muestra en la navegación por categorías (todas las categorías se expanden). Esto sólo funciona si la navegación por categorías no se muestra en la parte superior.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Por lo general, el caché se vacía completa tan pronto como guardar los cambios en la eShop de administración. Esto puede conducir a problemas de rendimiento en el admin. Si esta opción está activada la caché sólo se vacía al terminar la sesión de eShop admin.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Cada página tiene un título. este título se muestra en la barra superior de la ventana del navegador. <span Class=navipath_or_inputname> Prefijo Título </ span> <span class=navipath_or_inputname> Título sufijo </ span> puede añadir en el texto antes y después de los títulos de página: <br>.<li> <ul> En <span class=navipath_or_inputname> Prefijo Título </ span> entrar en el texto que se mostrará delante del título. </ li> </ ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Cada página tiene un título. este título se muestra en la barra superior de la ventana del navegador. <span Class=navipath_or_inputname> Prefijo Título </ span> <span class=navipath_or_inputname> Título sufijo </ span> puede añadir en el texto antes y después de los títulos de página: <br>.<li> <ul> En <span class=navipath_or_inputname> Título sufijo </ span>, escriba el texto que aparece detrás del título. </ li> </ ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'El separador se utiliza si los nombres de categoría y nombres de productos constan de varias palabras. El separador se utiliza en lugar de espacios por ejemplo, www.youreshop.com / categoría-nombre-de-<br> varias palabras.Si se introduce sin separador - se utiliza.',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Si varios productos tienen el mismo nombre y se encuentran en la misma categoría que tendría la misma dirección de SEO. Para evitar este sufijo el SEO se adjunta. Si no hay definido ningún sufijo SEO, se utiliza <span class=filename_filepath_or_italic> oxid </ span> se utiliza.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Para las páginas especiales (por ejemplo, términos y condiciones generales) puede introducir direcciones URL fija SEO. Al seleccionar una dirección URL estática la dirección normal se muestra en la <span URL class=navipath_or_inputname> estándar </ span>. En los campos de entrada a continuación puede definir una dirección URL de SEO para cada idioma.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Mientras esta opción está <span class=warning_or_important_hint>  no </ span> activa de información sobre los tiempos de ejecución y la información de depuración se muestran en la parte inferior de cada página. Esta información es útil eShop la hora de personalizar. <br>.<span class=warning_or_important_hint>  Active esta función cuando el eShop se pone en marcha. De esta manera sólo el eShop sin información adicional se muestra a los usuarios. </ Span>',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => '<span Class=navipath_or_inputname> Activo </ span> se puede activar / desactivar la tienda electrónica completa. Si el eShop se desactiva un mensaje diciendo que la tienda electrónica está en línea temporal se muestra a los usuarios. Esto puede ser útil para el mantenimiento.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'La vista de detalle de un producto se puede visualizar con una plantilla diferente. Para ello introduzca el nombre del archivo de la plantilla que se utilizará. Más información está disponible en la <a href = objetivo = _blank http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template > manual comforme <entrada / a>.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Si el producto se puede personalizar un campo de entrada adicional se muestra en la página de detalles de los productos y en la cesta de la compra. Aquí los clientes pueden ingresar texto para personalizar el producto. <br>.Un ejemplo típico son camisetas que se pueden imprimir con un texto personalizado. En la entrada de los clientes pueden entrar en el campo de texto para ser impreso en la camiseta.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Precios pueden cambiar en un tiempo definido. Campos proporcionados actualizan precios standard. Si dejas el precio con valor "0", precios no se actualizarán.',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Especifica el tiempo en horas, el enlace de descarga es válido después de la primera descarga. Para este fichero puedes sobreescribir la configuración por defecto, que se encuentra definida en Configuración Maestra -> Configuración del núcleo -> Configuración -> Descargas para todos los productos.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Los iconos son las imágenes más pequeñas de un producto. Por ejemplo que se utilizan en la cesta de la compra. <br>.icono de Carga personalizado anulará icono generados a partir de la imagen del producto en primer lugar. <br>.Después de cargar el nombre de archivo se muestra en el icono. Si no aparece el icono se han subido aún --- se muestra. <br>.Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics <a target=_blank> producto imágenes <introducción manual de / a >.',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Las miniaturas son imágenes pequeñas de productos. Por ejemplo se utilizan en las listas de productos (resultados de las categorías de búsqueda). <br>.miniatura Carga personalizado anulará la miniatura generada a partir de la imagen del producto en primer lugar. <br>.Después de cargar el nombre de archivo se muestra en miniatura. Si no se han subido aún miniatura ---- se muestra. <br>.Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics <a target=_blank> producto imágenes <introducción manual de / a >.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Las imágenes se utilizan en la vista detallada de un producto. Puedes subir hasta 7 imágenes por producto. Después de cargar el nombre de archivo se muestra en el campo de entrada comforme. Si no hay imagen es subido aún --- se muestra. <br>.Usted debe subir foto con la máxima resolución. Después de cargar la imagen principal captura de imagen en miniatura y el icono se generará de forma automática. <br>.Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics <a target=_blank> producto imágenes <introducción manual de / a >.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Ampliar imágenes son de pago imágenes de gran tamaño que se puede abrir desde la vista de detalle de un producto. </ Br>.Puedes subir imágenes en zoom <span class=navipath_or_inputname> Zoom X subir </ span>. Después de cargar el nombre de archivo se muestra en la <span class=navipath_or_inputname> Zoom X </ span>. Si no hay captura de imagen se han subido aún <span class=userinput_or_code> nopic.jpg </ span> se muestra. <br>.Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics <a target=_blank> producto imágenes <introducción manual de / a >.',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'El ajuste se hereda de los padres para variantes de producto y se aplica a todo el producto.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'En <span class="navipath_or_inputname">Estado de envío</span> puedes seleccionar 4 opciones:<ul><li><span class="userinput_or_code">Standard</span>: El producto puede también ser pedido si está agotado.</li><li><span class="userinput_or_code">Almcacén externo</span>: El producto puede ser comprado siempre y siempre se mostrara como <span class="filename_filepath_or_italic">en stock</span>. (El nivel de stock no se puede dar para almacén externo. Por tanto, el producto siempre se muestra como <span class="filename_filepath_or_italic">en stock</span>).</li><li><span class="userinput_or_code">Si está fuera de stock, offline</span>: El producto no se mostrará si está agotado.</li><li><span class="userinput_or_code">Si está fuera de stock,no se puede pedir</span>: El producto se muestra pero si está agotado no se puede pedir.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Los archivos de este producto se pueden descargar.',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'En <span Cantidad class=navipath_or_inputname> From / To / bis </ span> que establezca para la cual la cantidad amplia de la escala de precios es válida. <br>.Para más información sobre precios de la escala se puede encontrar en el <a href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices artículo target=_blank> escala de precios en el manual. </ a>.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Aquí puede establecer el precio de la cantidad ingresada. Puede introducir el precio en términos absolutos o como descuento porcentualmente. <br>.Para más información sobre precios de la escala se puede encontrar en el <a href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices artículo target=_blank> escala de precios en el manual. </ a>.',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class=navipath_or_inputname>Nombre de selección </ span> define cómo la selección de las variantes se etiqueta por ejemplo, <span class=userinput_or_code> color </ span> o <span class=userinput_or_code>Tamaño</ span>. <br>.',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Con <span Class=navipath_or_inputname> ocultar </ ​​span> Puede definir si esta categoría se muestra a los usuarios. Si una categoría está oculto que no se muestra a los usuarios, incluso si está activo.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'En <span class=navipath_or_inputname> subcategoría de </ span> se especifica el punto en el que la categoría es que aparezca: <br>.<li> Si la categoría no debe ser una subcategoría de otra categoría a continuación, seleccione <span class=userinput_or_code>  - </ span> Off </ li>..<li> Si la categoría es una subcategoría de otra categoría a continuación, seleccione la categoría adecuada. </ li> </ ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => '<span Class=navipath_or_inputname> Enlace externo </ span> se puede entrar en un vínculo que se abre cuando el usuario haga clic en la categoría. <span class=warning_or_important_hint>  Utilice esta función si desea mostrar un enlace en la barra de navegación categoría. Esto hace que la categoría a perder su función normal </ span>',
 
@@ -301,11 +301,11 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Esta descripción se integra en el código fuente HTML de la página de la CMS (descripción META). Este texto es a menudo aparecen en las páginas de resultados de motores de búsqueda. Una descripción adecuada se puede introducir aquí. Si  s se deja en blanco la descripción es generada automáticamente.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Bajo <span class=navipath_or_inputname> Cálculo Reglas </ span> se puede seleccionar la frecuencia con que el precio se calcula:.<ul> <span class=userinput_or_code> vez al carro de </ span>: El precio se calcula una vez para toda la orden </ li>..<li> class=userinput_or_code> vez para cada producto diferente </ span>: El precio se calcula una vez para cada producto diferente en la cesta de la compra. No hace ninguna diferencia lo que la cantidad de un producto es ordenado. </ Li>.class=userinput_or_code> <span Para cada producto </ span>: el precio se calcula para cada producto en la cesta de compras </ li> </ ul>.',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'En <span class=navipath_or_inputname> Estado </ span> se puede especificar que la regla de costo de envío sólo se aplica a una determinada condición. Usted puede elegir entre cuatro condiciones:.<ul> <span class=userinput_or_code> Cantidad </ span>: El número de productos en el carro de compras </ li>..<span class=userinput_or_code> Tamaño </ span>: el tamaño total de todos los productos. Para que esta configuración para utilizar correctamente el tamaño debe ser introducido para los productos. </ Li>.<span class=userinput_or_code> Peso </ span>: El peso total de la orden en kilogramos. Para que esta configuración para utilizar adecuadamente el peso se debe introducir los productos. </ Li>.<span class=userinput_or_code> Precio </ span>: El precio de compra de la orden </ li> </ ul>..Usted puede utilizar los campos de entrada<span class="navipath_or_inputname">>=</span> (mayor o igual a) y <span class="navipath_or_inputname"><=</span> (menor o igual a) para especificar el intervalo en que la condición se aplica. Un mayor número se debe introducir para <span class="navipath_or_inputname"><=</span> que para <span class="navipath_or_inputname">=></span>.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Usted puede utilizar <span class=navipath_or_inputname> Precio recargo / descuento </ span> para especificar la magnitud de los gastos de envío. El precio se puede calcular de dos formas diferentes:.<li> Con class=userinput_or_code> <span abs </ span> el precio se especifica absolutamente (por ejemplo: con <span class=userinput_or_code> 6.90 </ span> un precio de 6,90 euros se calcula) </ li. >.<li> Con <span class=userinput_or_code>% </ span> el precio se especifica en relación con el precio de compra (por ejemplo: Con <span class=userinput_or_code> 10 </ span> un precio de 10% del precio de compra se calculará ). </ li> </ ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Usted puede utilizar <span  class=navipath_or_inputname> Orden de regla de procesamiento </ span> para especificar el orden en que las normas de costos de envío se llevará a cabo. La regla de costo de envío con el número más bajo es la primera ejecución. El orden es importante si el ajuste <span class=navipath_or_inputname> Don  t calcular otras normas si esta regla coincide con </ span> se utiliza.',
 
@@ -319,7 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Usted puede utilizar <span class=navipath_or_inputname> Cantidad </ span> para especificar que el descuento sólo es válido para determinadas cantidades de compra. Si desea que el descuento sea válido para todas las cantidades de compra entrar <span class=userinput_or_code> 0 </ span> <span class=navipath_or_inputname> Desde </ span> <span y class=userinput_or_code> 0 </ span> < span class => navipath_or_inputname a> </ span.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'En <span class=navipath_or_inputname> descuento </ span> se especifica la magnitud del descuento. Puede utilizar la lista de selección después de que el campo de entrada para especificar si el descuento se aplica como descuento en términos absolutos o como porcentaje de descuento.<ul>.<li> class=userinput_or_code> abs </ span>: El descuento es un descuento absoluta por ejemplo, 5 euros. </ Li>.<span class=userinput_or_code>% </ span>: El descuento es un porcentaje de descuento por ejemplo, 10 por ciento del precio de compra. </ Li>.</ Ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Puede definir varias direcciones URL de SEO para los productos: para determinadas categorías y las páginas del fabricante. <span Class=navipath_or_inputname> Active Categoría / vendedor </ span> se puede seleccionar la dirección de SEO que desea editar.',
 
@@ -345,9 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Usted puede utilizar <span class=navipath_or_inputname> <span Seleccionado </ span> para definir la forma de pago es ser seleccionado como el método por defecto si el usuario puede elegir entre varias formas de pago.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Usted puede utilizar <span class=navipath_or_inputname> precio de compra </ span> para especificar que el método de pago sólo es válida para los precios de compra determinados. El class=navipath_or_inputname> <span de </ span> <span class=navipath_or_inputname> a </ span> Los campos le permiten establecer un rango. <br>.Si la forma de pago es válida para cualquier precio de compra debe especificar una condición que siempre se cumple: Escriba <span class=userinput_or_code> 0 </ span> en el class=navipath_or_inputname> <span de </ span> y <span class = userinput_or_code> 99999999> </ span en el class=navipath_or_inputname> <span a </ campo span>.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'En <span class=navipath_or_inputname> Precio recargo / descuento </ span> el precio se introduce en el método de pago. El precio se puede especificar de dos maneras diferentes:.<li> <ul> Con class=userinput_or_code> <span abs </ span> el precio se introduce en el método de pago (por ejemplo: si escribe <span class=userinput_or_code> 7.50 </ span> un precio de 7,50 EUR se calcula .) </ li>.Con <li>% <span class=userinput_or_code> </ span> el precio se calcula en relación al precio de compra (por ejemplo: si escribe <span class=userinput_or_code> 2 </ span> el precio es de 2 por ciento del precio de compra ) </ li> </ ul>',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Cuando se calcula el suplemento o reducción, el valor del carrito se usa como base. Define cuales costes serán incluidos cuando se calcula el valor del carrito.',
 
@@ -355,9 +355,13 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Todas las opciones disponibles se muestran en la <span class=navipath_or_inputname> Campos </ span> lista. Puede utilizar los campos de entrada a la facultad de crear nuevas opciones. Más información está disponible en el href=http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists <a <target=_blank> manual eShop / a> en la página web OXID eSales.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Aquí se puede distinguir si los usuarios registrados en el pedido:.<li> Si se establece una contraseña del usuario registrado. </ li>.<li> Si no se establece la contraseña del usuario ordenada sin necesidad de registrarse. </ li> </ ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'En esta pestaña puedes:
+<ul>
+   <li>Explorar y administrar métodos de pago existentes para usuarios.</li>
+   <li>Crear nuevos métodos de pado y definir los valores por defecto, por ejemplo, Débito Directo.</li>
+</ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Esta configuración se muestra si el usuario suscrito a la newsletter.',
 
@@ -375,7 +379,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Con esta opción se puede especificar si el sufijo título se muestra en el título de la ventana del navegador cuando la página del fabricante se abre. El sufijo título se puede establecer en <span class=navipath_or_inputname> Maestro Configuración -> Configuración de la base -> SEO -> Título del sufijo </ span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'En <span class=navipath_or_inputname> descuento </ span> se especifica la magnitud del descuento. Puede utilizar la lista de selección después de que el campo de entrada para especificar si el descuento se aplica como descuento en términos absolutos o como porcentaje de descuento.<ul>.<li> class=userinput_or_code> abs </ span>: El descuento es un descuento absoluta por ejemplo, 5 euros. </ Li>.<span class=userinput_or_code>% </ span>: El descuento es un porcentaje de descuento por ejemplo, 10 por ciento del precio de compra. </ Li>.</ Ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Aquí se puede establecer si los usuarios se les permite usar varios cupones de esta serie de cupones en sólo pedido.',
 
