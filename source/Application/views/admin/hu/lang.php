@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Információ',
     'MR'                                             => 'Úr',
     'MRS'                                            => 'Hölgy',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Üdvözöljük az Adminisztrációs felületen. Itt találja az alapvető funkciók és felületek áttekintését.',
     'NAVIGATION_TITLE'                               => 'Navigáció',
     'NAVIGATION_ESHOPADMIN'                          => 'Adminisztráció',
     'NAVIGATION_LOGOUT'                              => 'Kijelentkezés',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Oldal',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Verzió %s elérhető!',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => 'Naziv',
-    'NEWS_LIST_MENUITEM'                             => 'Ügyfélinformációk',
+    'NEWS_LIST_TITLE'                                => '[Hírkezelő]',
+    'NEWS_LIST_SHORTTEXT'                            => 'Megnevezés',
+    'NEWS_LIST_MENUITEM'                             => 'Ügyfél információk',
     'NEWS_LIST_MENUSUBITEM'                          => 'Hírek',
-    'NEWS_MAIN_SHORTDESC'                            => 'Naziv',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHORTDESC'                            => 'Megnevezés',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Látható a felhasználói csoport részére',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Nem Látható a felhasználói csoport részére',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Kedvencek',
     'NAVIGATION_FAVORITES_EDIT'                      => '[változtat]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Megr.]',
     'ORDER_REMARK_USER'                                  => '[Felh.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Hírek]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => 'Az adószám ellenőrzése nem sikerült',
     'ORDER_OVERVIEW_VATID'                               => 'Adószám:',
@@ -1012,7 +1012,7 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Összes <b>link </b> átvétele a szülő shopból',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Összes <b>utalványsorozat </b> átvétele a szülő shopból',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => '',
+    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Összes <b>hír </b> átvétele a szülő shopból',
     // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Összes <b>variáns</b> átvétele a szülő shopból',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Összes <b>szállító</b> átvétele a szülő shopból',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Fizetési mód költségének megadása nettóban (plusz ÁFA).',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'A tartalomkezelés könyvtára',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'A Hírek száma, amely a Hírek boxban jelenik meg.',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Az adminisztrációs felület dátumformája',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'A szállítási költségek kiszámítása akkor is, ha az ügyfél még nemjelentkezett be',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'A "raktáron"-alapkifejezés használata',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Bankkártya-Információk mentése',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => 'Információ megjelenítése a külföldi szállítási költségekről',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen vagy fsockopen a 80-as porton',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Kompatibilitás módot ki kell kapcsolni',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHP 5.3.25-ös verziótól',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'Létező REQUEST_URI',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL Modul MySQL 5-höz',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Version 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] JPEG támogatással',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Új szállítási szabány létrehozása',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Új szállítási mód létrehozása',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Új hírek létrehozása',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Új utalvány sorozat létrehozása',
     'TOOLTIPS_NEWCATTREE'                     => 'Kategóriafa új beolvasása',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Megr.]',
     'USER_REMARK_USER'                        => '[Reg.]\'',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Hírlevél]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Felhasználói csoportok kezelése',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Felhasználói csoportok',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Pénznemek megjelenítése',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Nyelvek megjelenítése',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Hírek megjelenítése',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Hírek megjelenítése csak a kezdőoldalon',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Variánsok megjelenítése a terméklistáknál (pl. keresési erdemények, Ketegórianézet). Ez a beállítás nagyon igénybe veszi a memóriát, és a gyengébb szervereknél problémát okozhat.',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Gyártók listájának betöltése',
@@ -1654,7 +1654,7 @@ $aLang = [
     'tbcllanguage_main'        => 'Törzs',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'tbclnews_main'            => 'Törzs',
-    'tbclnews_text'            => 'Leírás',
+    'tbclnews_text'            => 'Text',
     // END deprecated
     //  order_list',
     'tbclorder_overview'       => 'Áttekintés',
@@ -1864,13 +1864,13 @@ $aLang = [
     'PAYMENT_RDFA_BYBANKTRANSFERINADVANCE' => 'Előre utalás',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_CREDITCARD'              => 'Bankkártyás fizetés',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Szállítási módok hozzárendelése',
@@ -1922,7 +1922,7 @@ $aLang = [
     'OXDIAG_LIST_MENUSUBITEM' => 'Vizsgálati eszközök',
 
     'OXDIAG_MAIN_TITLE'                              => 'A shop vizsgálata',
-    'OXDIAG_VERSIONCHECKER'                          => '',
+    'OXDIAG_VERSIONCHECKER'                          => 'Verziószám vizsgálata',
     'OXDIAG_INTROINFORMATION_CONTACT_US'             => 'Amennyiben kapcsolatba szeretne lépni velünk, használja az',
     'OXDIAG_INTROINFORMATION_ONLINE_CONTACT_FORM'    => 'Online kapcsolati űrlapot',
 
@@ -1933,35 +1933,35 @@ $aLang = [
     'OXDIAG_DOWNLOAD_FILE'                => 'Kattintson ide a vizsgálati eredmény fájljának a letöltéséhez',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => 'Előforduló hibák',
     'OXDIAG_VERSION'                      => 'Verzió',
-    'OXDIAG_EDITION'                      => '',
-    'OXDIAG_REVISION'                     => '',
-    'OXDIAG_SUMMARY'                      => '',
-    'OXDIAG_HINTS'                        => '',
+    'OXDIAG_EDITION'                      => 'Kiadás',
+    'OXDIAG_REVISION'                     => 'Revizió',
+    'OXDIAG_SUMMARY'                      => 'Összefoglalás',
+    'OXDIAG_HINTS'                        => 'Információk',
     'OXDIAG_OK'                           => 'OK',
-    'OXDIAG_MODIFIED'                     => '',
-    'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
-    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
-    'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
-    'OXDIAG_SHOP_ORIGINAL'                => '',
+    'OXDIAG_MODIFIED'                     => 'Megváltoztatva',
+    'OXDIAG_VERSION_MISMATCH'             => 'Verziószám eltérés',
+    'OXDIAG_UNKNOWN'                      => 'Ismeretlen',
+    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => 'Az átvizsgált fájlok mennyisége',
+    'OXDIAG_SHOP_DOES_NOT_FIT'            => 'A shop nem 100%-ig eredeti',
+    'OXDIAG_SHOP_ORIGINAL'                => 'A shop nem változott és eredetinek tekinthető',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => '',
-    'OXDIAG_MODIFIEDHINTS2'                       => '',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => '',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'Az OXID eShop kiterjeszthető különböző funkcionális modulokkal anélkül, hogy ezek beállításra szorulnának. Az áruház fájljait nem szükséges megváltoztatni. Lásd ehhez a következő angol nyelvű leírást: <a href="http://www.oxidforge.org/wiki/Tutorials#How_to_Extend_OXID_eShop_With_Modules_.28Part_1.29" target=_blank>Tutorials</a>.',
+    'OXDIAG_MODIFIEDHINTS2'                       => 'az  OXID eShop 4.2.0 óta van lehetőség, <a href="http://www.oxidforge.org/wiki/Downloads/4.2.0#New_Features" target=_blank>saját sablon felhasználására</a>, az eredeti sablon megváltoztatása nélkül.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'valószínű egy vagy több frissítés sikertelen volt. Kattintson a részletek linkre, további információkért. Egy fájl, amely a továbbiakban nem tartozik a OXID eShop-hoz, okozhatja a verzió különbséget. A frissítésekre vonatkozó általános információkat a következő linken találja <a href="http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren" target=_blank>Dokumentation und Hilfe</a>.',
 
 
     'OXDIAG_HOME'                     => 'OXID Diagnózis',
     'OXDIAG_ABOUT'                    => 'Ez a modul technikai információkat szolgáltat az áruházáról és a szerveréről.
                                             Ezek az adatok érdekesek lehetnek egy frissítés, vagy egy modul telepítése előtt.',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_DOWNLOADLOG'              => 'A jelentés letöltése',
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => 'Modulok vizsgálata',
     'OXDIAG_COLLECT_HEALTH'           => 'Rendszeradatok lekérdezése',
     'OXDIAG_COLLECT_PHP'              => 'PHP-Konfiguráció (kiválasztás) lekérdezése',
     'OXDIAG_COLLECT_SERVER'           => 'Szerverinformációk lekérdezése (amennyiben lehetséges)',
-    'OXDIAG_STORE_ANALYSIS'           => '',
-    'OXDIAG_COLLECT_START'            => '',
+    'OXDIAG_STORE_ANALYSIS'           => 'Értékelés mentése',
+    'OXDIAG_COLLECT_START'            => 'Elemzés futtatása!',
 
     //index
     'OXDIAG_GOTO'                     => 'Megtekintés',
@@ -1970,9 +1970,9 @@ $aLang = [
     'OXDIAG_HEALTH'                   => 'Rendszeregészség',
     'OXDIAG_PHPINFO'                  => 'PHP-Információk',
     'OXDIAG_SERVERINFO'               => 'Szerverinformációk',
-    'OXDIAG_RESTART'                  => '',
+    'OXDIAG_RESTART'                  => 'Új elemzés',
 
-    'OXDIAG_DISCL'                    => '',
+    'OXDIAG_DISCL'                    => 'Az információk egy jelentésben a vonal alatt lettek mentve.',
     'OXDIAG_HEALTH_OK'                => 'OK',
     'OXDIAG_HEALTH_MIN'               => 'MiN',
     'OXDIAG_HEALTH_FAIL'              => 'N OK',
@@ -1999,7 +1999,7 @@ $aLang = [
     'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => 'A adatok nem küldhetők el az Oxid szervernek a CURL keresztül',
 
     //final note
-    'OXDIAG_FINALNOTE'                => '',
+    'OXDIAG_FINALNOTE'                => 'A kiértékelés vége',
 
     'OLC_ERROR_SERIAL_NOT_VALID'    => 'Lizenzkulcs azonosítása sikertelen. Kérem, kísérelje meg még egyszer, vagy vegye fel a kapcsolatot a szofver támogatással, amennyiben a probléma továbbra is fennáll.',
     'OLC_ERROR_RESPONSE_NOT_VALID'  => 'A szolgáltatás nem elérhető. Kérem, kísérelje meg még egyszer, vagy vegye fel a kapcsolatot a szofver támogatással, amennyiben a probléma továbbra is fennáll. Ellenőrizze továbbá, hogy a shop fel tud-e építeni külső kapcsolatot.',
