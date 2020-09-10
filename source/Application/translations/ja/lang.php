@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'キャンセル',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'マスターカード',
+'CARD_SECURITY_CODE'                                          => 'CVV2 または CVC2 セキュリティコード:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'このチェック数字は、あなたのクレジットカードの裏面の署名欄の右上に斜体で記載されています。',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'カード to:',
 /** end deprecated */
 'CART'                                                        => 'カート',
 'CATEGORIES'                                                  => 'カテゴリー',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'パスワードの変更',
 'CHARGES'                                                     => '変更:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'チェック',
 /** end deprecated */
 'CHECKOUT'                                                    => 'レジへ',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'ご注文履歴をチェック',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => '',
 'CREATE_PASSWORD'                                             => 'パスワードの作成',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'クレジットカード:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => '現在の商品',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'こちらの商品を購入したお客様はこちらも購入しています:',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => '名前:',
 'LAST_SEEN_PRODUCTS'                                          => '最後に見た商品',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => '最新のニュースとアップデート at',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'リンク',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => '最新ショップの記事',
 'NEWLIST'                                                     => '新しいリストマニア',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'ニュース',
 // END deprecated
 'NEWSLETTER'                                                  => 'ニュースレター',
 'NEWSLETTER_SETTINGS'                                         => 'ニュースレターの設定',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => '製品の画像',
 'PRODUCT_NO'                                                  => '製品番号:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => '製品のポストカード from',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => '製品レビュー',
 'PUBLIC_GIFT_REGISTRIES'                                      => '共有のギフトレジストリ',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => '受取人の名前:',
 'RECOMMEND'                                                   => 'おすすめ',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'おすすめ商品:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'おすすめ商品',
 'REDEEM_COUPON'                                               => 'クーポンを利用する',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => '検索',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'ニュース',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'おすすめ商品',
 'PAGE_TITLE_INVITE'                                           => 'お友だちを招待する',
