@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Zde můžete nastavit, zda lze provést objednávky ze zemí, pro které není stanoveno poštovné:<ul><li>Pokud je volba aktivována, uživatel si může objednat a v průběhu tohoto procesu mu bude zobrazena informace: Pokud souhlasíte, bude Vám poštovné stanoveno dodatečně. Pokračujte nyní v objednávce.</li><li>Pokud je volba vypnutá, uživatel si nemůže objednat žádné zboží.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Pokud je volba zapnutá, během závěru objednávky není zobrazena většina navigačních možností. Uživatel díky tomu není zbytečně rozptylován.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Doporučené hodnoty jsou 40-80:<br><ul><li>Pod 40 je komprese příliš velká a obrázky jsou rozostřené.</li><li>Nad 80 je komprese příliš malá a vznikají velké soubory.</li></ul><br>Základní hodnota je 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Prosím upravte soubor core/oxldap.php.',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'V eShopu existuje mnoho seznamů, ve kterých můžete přiřazovat produkty, např. přiřazování produktů ke slevám. Pokud je tato volba aktivní, pak jsou také uvedeny v těchto seznamech i varianty.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Zde můžete nastavit, zda mohou být zakoupeny i rodičovské produkty.<ul><li>Pokud ano, aktivujte tuto volbu.</li><li>Pokud mohou být objednány pouze varianty, volba musí být vypnutá.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Zde můžete nastavit chování obchodu v případě zadaných odstupňovaných cen u rodičovského produktu. Pokud je volba aktivní, budou ceny tohoto produktu použity i pro jeho varianty.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Nastaví životnost rozvržení stránky v sekundách. Bude zasílán jako hodnota headeru "Age" přes HTTP-header',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Pokud je volba aktivní, uživatel který si zaregistruje Novinky dostanete email s ověřovacím odkazem. Pouze pokud uživatel na odkaz klikne stává se odběratelem Novinek',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Pomocí křížového prodeje můžete nabídnout doplňkové zboží k produktu (např. k autu jsou jako křížový prodej přiřazeny pneumatiky, pak se pneumatiky zobrazí při koupi auta). <br> Pokud je aktivován obousměrný křížový prodej, vůz se zobrazí s pneumatikami a opačně.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Můžete nastavit upozornění pro každý produkt, který se objeví na skladě.<br>Pokud je tato volba aktivní, pro všechny produkty se zobrazí základní upozornění <i>Připraven k odeslání.</i> <br> Další informace najdete v <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/meldungen-zu-den-lagerbestaenden-einrichten" target="_blank">Manuál-Příloha: Hlášení stavu skladu</a>.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Můžete nastavit upozornění pro každý produkt, jehož skladové zásoby jsou vyprodány.<br>Pokud je tato volba aktivní, pro všechny produkty se zobrazí základní upozornění <i>Zásoby došly a zboží musí být doobjednáno</i>.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Pro různé uživatele můžete nastavit různé ceny: Pro každý produkt můžete zadat cenu A, B a C. Pokud je uživatel ve skupině <i>Cena A</i>, je mu místo normální ceny zobrazena cena A.<br>Pokud je tato volba aktivní, normální cena je použita v případě, že není definována cena A, B nebo C.<br>Tuto volbu můžete aktivovat když používáte A, B a C cenu. V případě, že cena pro skupinu není definována, uživateli se zobrazí cena 0,00.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Zde můžete zadat parametry, podle kterých bude možno vyhledávat. Do každého řádku zadejte pouze jeden parametr.<br>Nejčastější parametry:<ul><li>oxtitle = Název produktu</li><li>oxshortdesc = Krátký popis</li><li>oxsearchkeys = Klíčová slova</li><li>oxartnum = Číslo produktu</li><li>oxtags	= Značky</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Zde můžete zadat parametry, podle kterých budou produkty tříděny do seznamů. Do každého řádku zadejte pouze jeden parametr.<br>Nejčastější parametry:<ul><li>oxtitle = Název produktu</li><li>oxprice = Cena</li><li>oxvarminprice = Nejnižší cena, pokud jsou povoleny různé ceny.</li><li>oxartnum = Číslo produktu</li><li>oxrating = Hodnocení</li><li>oxstock = Skladové zásoby</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Zde můžete zvolit povinné registrační údaje. Do každého řádku zadejte pouze jeden údaj.<br>Nejčastější údaje:<ul><li>oxuser__oxfname = Jméno</li><li>oxuser__oxlname = Příjmení</li><li>oxuser__oxstreet = Ulice</li><li>oxuser__oxstreetnr = Číslo popisné</li><li>oxuser__oxzip = PSČ</li><li>oxuser__oxcity = Město</li><li>oxuser__oxcountryid = Země</li><li>oxuser__oxfon = Telefon</li></ul><br>Můžete také zvolit povinné údaje při zadávání odlišné doručovací adresy. Nejčastější údaje:<ul><li>oxaddress__oxfname = Jméno</li><li>oxaddress__oxlname = Příjmení</li><li>oxaddress__oxstreet = Ulice</li><li>oxaddress__oxstreetnr = Číslo popisné</li><li>oxaddress__oxzip = PSČ</li><li>oxaddress__oxcity = Město</li><li>oxaddress__oxcountryid = Země</li><li>oxaddress__oxfon = Telefon</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Pomocí <span class="navipath_or_inputname">Povolit zápornou hodnotu skladových zásob</span> můžete zvolit způsob počítáni záporných skladových hodnot:<br><ul><li>Je-li volba aktivní, zásoby se počítají do záporných hodnot, pokud si uživatel objedná zboží, které právě není na skladě.</li><li>Pokud je volba vypnutá, hodnota zásob nikdy neklesne pod 0, i když si uživatel zboží objedná.</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Uživatel nemůže jeden produkt hodnotit vícekrát. Zde můžete nastavit, po jak dlouhé době uživatel může produkt znovu hodnotit. Pokud nezadáte žádnou hodnotu, produkt může být hodnocen jen jednou.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Pokud zadá při objednání zákazník z cizí země v EU DPH, je DPH započítáno k objednávce. Pokud není UstId validní, DPH sazba není k objednávce připočtena.<br>Pokud je volba zakázána, je vždy započítána obecná DPH sazba.',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Zde můžete zadat alternativní URL adresu pro online kontrolu DIČ/UstId.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Přihlášení do privátního prodeje mění eShop na eShop pouze pro členy. Umožňuje to vytvářet komunity zákazníků s podobnými zájmy. Toto nastavení omezuje přístup ke všem stránkám eShopu.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Umožňuje vkládat produkty pouze z jedné (hlavní) kategorie, pokud se kategorie změní,  zákazník je požádán o dokončení objednávky (jít k platbě) nebo pokračovat v nákupu  (v tomto případě je košík vyprázdněn). Pomocí této funkce ve spojení s vhodně uspořádanou strukturou kategorií je možné implementovat oddělené košíky pro různé dodavatele.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Pokud je tato volba neaktivní, eShop snižuje množství na skladě až v okamžiku, kdy je objednávka potvrzena zákazníkem a dokončena platba.<br><br> Po aktivaci volby se funkcionalita mění: Skladová dispozice produktu se snižuje a produkt je <b>rezervován</b> v okamžiku, kdy je vložen do košíku. Rezervace je zrušena v případě, kdy je obsah košíku objednán nebo platnost košíku vyprší.',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Po vypršení lhůty jsou rezervované produkty uvolněny na skladě a zákazníkův košík je vyprázdněn.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Pozvánka je pro pozvání Vašich přátel do eShopu a získání kreditních bodů za pozvání.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Množství kreditních bodů, které uživatel dostane pokud byl pozván již registrovaným uživatelem.Pozvaný uživatel se musí registrovat, aby tyto body získal. Získané body jsou uloženy v uživatelově záznamu a provozovatel eShopu je může využít k jakémukoliv účelu.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Výše uživatelských kreditů, které získá pozvaný uživatel po své registraci.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Pozor: I když je použito šifrování, smlouvy s platebními společnostmi ukládání dat zakazují!',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'Ve 4. kroku výstupního procesu je CMS stránka "oxtscodmessage" zobrazena dodatečně.',
@@ -115,27 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Cesta k místu pro uložení stahovatelných produktů.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Zde můžete nastavit, kolikrát může uživatel stahovat ze stejného odkazu. Toto je výchozí nastavení pro všechny produkty.Tuto hodnotu můžete změnit pro každý soubor produktu v Administraci produktů -> Produkty -> Ke stažení.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Zde můžete nastavit, kolikrát může uživatel stahovat ze stejného odkazu, pokud uživatel objednal bez registrace. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v  Administrace produktů -> Produkty -> Ke stažení.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Zadejte čas v hodinách, udávající po jakou dobu od objednání je odkaz platný. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v Administrace produktů -> Produkty -> Ke stažení.',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Zadejte čas v hodinách, udávající po jakou dobu od prvního stažení je odkaz platný. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v Administrace produktů -> Produkty -> Ke stažení.',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Tady můžete nastavit co se zobrazí na přední stránce eShopu:<ul><li><span class="navipath_or_inputname">Show shop selector</span>: A page where the different eShops can be selected is shown.</li><li><span class="navipath_or_inputname">Show main shop front page</span>: The normal front page of this Shop is shown.</li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Můžete zadat příplatek pro všechny ceny produktů v eShopu: Zadejte příplatek a zvolte zda je procentní (<span class="userinput_or_code">%</span>) nebo absolutní (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Seznam nejnovějších produktů je zobrazen v <i>Právě dorazilo!</i>. Zde můžete vybrat způsob tvorby seznamu:<ul><li><span class="navipath_or_inputname">inactive</span>: Seznam se nezobrazuje.</li><li><span class="navipath_or_inputname">manual</span>: Můžete zvolit produkty v <em>Zákaznické informace -> Akce -></em> seznam <i>Právě dorazilo!</i>.</li><li><span class="navipath_or_inputname">automatic</span>: Seznam je generován automaticky.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Seznam dlouhodobě oblíbených produktů se zobrazuje v <i>Dlouhodobě oblíbené zboží</i>. Zde můžete nastavit, jak má být seznam generován:<ul><li><span class="navipath_or_inputname">inactive</span>: Seznam se nezobrazuje.</li><li><span class="navipath_or_inputname">manual</span>: Můžete zvolit produkty v <em>Zákaznické informace -> Akce -></em> seznam <i>Dlouhodobě oblíbené zboží</i>.</li><li><span class="navipath_or_inputname">automatic</span>: Seznam je generován automaticky.</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Pokud je volba aktivní, v navigaci se zobrazuje kompletní seznam kategorií. Zobrazit kompletní seznam lze jen v navigačním menu, které není umístěno nahoře.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Obvykle je kompletní chache vyprázdněna jakmile dojde k uložení změny v administraci. To může způsobovat výkonnostní problémy. Pokud je tato volba aktivní, cache se vymaže až po odhlášení z administrace eShopu.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Každá stránka má titulek. Titulek se zobrazuje ve vrchní liště prohlížeče. Pomocí <span class="navipath_or_inputname">Title Prefix</span> a <span class="navipath_or_inputname">Title Sufix</span> můžete přidat text před a za titulek:<br><ul><li>Do <span class="navipath_or_inputname">Title Prefix</span> zadejte text, který má být před titulkem.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Každá stránka má titulek. Titulek se zobrazuje ve vrchní liště prohlížeče. Pomocí <span class="navipath_or_inputname">Title Prefix</span> a <span class="navipath_or_inputname">Title Sufix</span> můžete přidat text před a za titulek:<br><ul><li>Do <span class="navipath_or_inputname">Title Sufix</span> zadejte text, který má být za titulkem.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Oddělovač se používá u víceslovných názvů místo mezer např. www.vasobchod.cz/kategorie-s-víceslovným-názvem<br>Pokud není zadán, je použit znak "-" (pomlčka) jako oddělovač.',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Pokud je v kategorii více produktů se stejným jménem, mají stejné SEO URL. Z tohoto důvodu mají pro odlišení také SEO příponu. Pokud žádnou příponu nedefinujete, bude použito <span class="filename_filepath_or_italic">oxid</span> jako standard.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Pro některé stránky v eShopu (např. Podmínky užití) můžete definovat pro vyhledávače "přívětivé" pevná URL. Pokud vyberete statickou URL, pak bude v poli <span class="navipath_or_inputname">Standard URL</span> zobrazena normální URL. Můžete také zadat URL pro každý jazyk zvlášť.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Pokud tato volba <span class="warning_or_important_hint">není</span> aktivní, informace o délce zpracování a debugovací informace jsou zobrazeny na konci každé stránky. Tyto informace jsou užitečné při nastavování eShopu.<br><span class="warning_or_important_hint">Aktivujte tuto volbu v případě, že je eShop v ostrém provozu. Tímto se Vašim zákazníkům nebudou žádné dodatečné informace zobrazovat.</span><br>Další důležité informace naleznete <a href="http://wiki.oxidforge.org/Tutorials/Check_before_going_live" target="_blank">zde</a>',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => '<span class="navipath_or_inputname">Aktivní</span> můžete zapnout / vypnout celý eShop. Pokud je eShop vypnutý, uživatelům se zobrazí zpráva o jeho dočasné nedostupnosti.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Deatil produktu může být zobrazen jinou šablonou. Název cesty a souboru šablony zadejte do tohoto políčka. Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template" target="_blank">příslušné části návodu</a>.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Pokud je volba zaškrtnuta, zobrazuje se v detailu produktu a nákupním košíku pole s poznámkou. Tam mohou zákazníci zadat text s doplňující informací.<br>Typickým příkladem mohou být trička, na  které může být dotisknut vlastní text. Do pole zadá zákazník text, který bude vytištěn na tričku.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Ceny se mohou měnit v definovaném čase. Zadané ceny aktualizují standardní ceny. Pokud má cena hodnotu "0", nebudou se ceny aktualizovat.',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Zadejte čas v hodinách, odkaz ke stažení je platný až po prvním stažení. V tomto souboru můžete přepsat výchozí nastavení, které bylo definováno v Hlavní nastaveni-> Nastavení -> Nastavení -> Soubory ke stažení pro všechny produkty.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Ikony jsou nejmenší obrázky produktu. Například, jsou používány v nákupním košíku.<br>Nahrání vlastní ikony nahradí automaticky generovanou ikonu, která je vygenerována z prvního obrázku.<br>Název ikony je zobrazen v poli Ikona. Pokud nebyla ikona dosud nahrána, je zobrazeno ---.<br>Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">části manuálu obrázky produktů</a>.',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Náhledy jsou malé obrázky produktu. Jsou použity například v přehledech produktů (kategorie, výsledky vyhledávání).<br>Náhled můžete nahrát pomocí<span class="navipath_or_inputname">Nahrání náhledu</span>. Po nahrání, název souboru náhledu se zobrazuje v <span class="navipath_or_inputname">Náhled</span>. Pokud nebyl ješte náhled nahrán, zobrazuje se <span class="userinput_or_code">nopic.jpg</span>.<br>Název náhledu je zobrazen v poli Náhled. Pokud nebyl náhledový obrázek dosud nahrán, je zobrazeno ---.<br>Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">části manuálu obrázky produktů</a>.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Obrázky jsou zobrazeny v detailním pohledu na produkt. Můžete nahrát až 7 obrázků pro jeden produkt. Po nahrání obrázku je jeho název zobrazen v příslušném poli. Pokud nebyl obrázek nahrán, je zobrazeno ---.</br>Můžete uploadovat obrázky v maximální velikosti 2MB a rozlišení 1500 * 1500 pixelů. Toto omezení nezpůsobuje problémy s limitem paměti v PHP. Po nahrání obrázku se hlavní obrázek, zoom obrázek, náhled a ikona vygnererují automaticky.<br>Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">části manuálu obrázky produktů</a>.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Zoom obrázky jsou obrázky ve velkém rozlišení, které se zobrazí po kliknutí na obrázek v detailním pohledu na produkt. </br>Zoom-obrázky můžete nahrát v <span class="navipath_or_inputname">Zoom X upload</span>. Po nahrání, je název souboru zobrazen v <span class="navipath_or_inputname">Zoom X</span>. Pokud dosud nebyl nahrán zoom-obrázek, je zobrazen <span class="userinput_or_code">nopic.jpg</span>.<br>Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">části manuálu obrázky produktů</a>.',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Pomocí <span class="navipath_or_inputname">Odeslat upozornění při dosažení určitého stavu skladových zásob</span> můžete zadat stav zásob, při kterých má být odesláno upozornění. Aktivujte nabídku a zadejte stav, pokud chcete být upozorněni.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'Existují 4 <span class="navipath_or_inputname">způsoby zobrazení produktů</span> :<ul><li><span class="navipath_or_inputname">Standardní</span>: produkt může být objednán, i když je vyprodán.</li><li><span class="navipath_or_inputname">Externí sklad</span>: produkt je vždy zobrazen jako <i>na skladu</i>.</li><li><span class="navipath_or_inputname">Vyprodán</span>: produkt není vůbec zobrazen.</li><li><span class="navipath_or_inputname">Vyprodán, neobjednatelný</span>: produkt je zobrazen ale nelze ho objednat.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Soubory tohoto produktu lze stáhnout.',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'V <span class="navipath_or_inputname">Množství od/do</span> nastavte pro jaký rozsah je platná cena.<br>Další informace o množstevních slevách jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">části manuálu o množstevních slevách</a>.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Zde  <span class="navipath_or_inputname">Cena </span> můžete nastavit cenu pro množství zadaném výše. Cenu můžete zadat absolutně nebo jako procentuální slevu.<br> Další informace o množstevních slevách jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">části manuálu o množstevních slevách</a>.',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Jméno výběru</span> určuje, jak bude výběr variant pojmenován, například<span class="userinput_or_code">Barva</span> nebo <span class="userinput_or_code">Velikost</span>.<br> Další informace jsou k dispozici v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">části manuálu o variantách produktů</a>.',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Pomocí <span class="navipath_or_inputname">Skrýt</span> můžete uživatelům skrýt ú zobrazit kategorii. Uživatelům nebudou zobrazeny skryté kategorie.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'V <span class="navipath_or_inputname">podkategorii</span> můžete nastavit kategorii, ke které podkategorie náleží:<br><ul><li>Pokud podkategorie nepatří do žádné kategorie, zadejte <span class="navipath_or_inputname">--</span> Off.</li><li>Pokud podkategorie do některé kategorie patří, vyberte ji.</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => '<span class="navipath_or_inputname">Externí odkaz</span> se uživateli otevře po kliknutí na danou kategorii. <strong>Tuto funkci používejte jen pokud chcete odkaz zobrazit v seznamu kategorií!</strong>',
 
@@ -301,11 +301,11 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Tento popis bude přímo v  HTML zdrojovém kódu CMS stránky produktu (META description). Popis je důležitý pro vyhledávače. Zde můžete popis zadat. Pokud jej nezadáte, budou automaticky vygenerována.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'V <var>pravidlech výpočtů</var> lze nastavit, jak často má být vypočítávána cena:<ul><li><kbd>Jednou</kbd>: cena se vypočítá na konci objednávky.</li><li><kbd>Jednou pro každé zboží</kbd>: cena se počítá pro každé zboží v košíku nehledě na množství.</li><li><kbd>Pro každý produkt</kbd>: cena se počítá pro každý kus.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'V <span class="navipath_or_inputname">Podmínky</span> můžete nastavit, jak bude účtováno poštovné. Můžete volit ze 4 podmínek:<ul><li><kbd>Počet</kbd>: podle počtu produktů v košíku.</li><li><kbd>Velikost</kbd>: podle velikosti všech produktů. V tomto případě musí být zadána velikost jednotlivých produktů.</li><li><kbd>Hmotnost</kbd>: podle váhy všech produktů. V tomto případě musí být zadána hmotnost jednotlivých produktů.</li><li><kbd>Cena</kbd>: podle ceny produktů.</li></ul>Můžete zadat symboly <var>>=</var> (větší nebo rovno) a <var><=</var> (menší nebo rovno) pro zadání limitů.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Můžete použít <var>Slevy / poplatky</var> pro volbu výpočtu poštovného. Existují dva způsoby:<ul><li>Pomocí <kbd>abs</kbd>, cena je pevně dána (např.: <kbd>6.50</kbd>, cena je 6,50 Kč).</li><li>Pomocí <kbd>%</kbd>, cena tvoří procento z ceny produktu (např.: <kbd>10</kbd>, poštovné stojí 10% ceny produktu).</li></ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Můžete použít <span class="navipath_or_inputname">Pořadí výpočtů pravidel</span> pro určení pořadí, ve kterém budou použity metody výpočtu poštovného. Metoda s nejnižším číslem bude použita první. Pořadí je důležité, pokud je aktivní volba <var>Nepočítat dále, po tomto pravidlu</var>.',
 
@@ -319,7 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Můžete použít <var>Množství</var> pro specifikování množství, pro které sleva platí. Pokud sleva platí pro libovolné množství, zadejte <kbd>0</kbd> do <var>Od</var> a <kbd>0</kbd> do <var>Do</var>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'Záložka <var>Slevy</var> slouží k nastavení parametrů slev. Můžete volit mezi dvěma typy slev:<ul><li><kbd>abs</kbd>: uvedená částka je velikostí slevy, např. 50 Kč.</li><li><kbd>%</kbd>: sleva je rovna části ceny objednávky, např. sleva 10%.</li>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Můžete vytvořit několik SEO odkazů pro produkty: Pro některé kategorie a stránky výrobce. S <span class="navipath_or_inputname">Aktivovat kategorii / výrobce</span> vyberete SEO URL, kterou chcete upravit.',
 
@@ -345,9 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Volba <span class="navipath_or_inputname">Vybraná</span> slouží k určení základní platební metody pokud mají uživatelé na výběr z více metod.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Můžete použít volbu <span class="navipath_or_inputname">Cena koupě</span> pro zpřístupněné platební metody pouze od určité ceny objednávky. Pole <span class="navipath_or_inputname">Od</span> a <span class="navipath_or_inputname">Do</span> slouží k nastavení rozsahu.<br>Pokud je platební metoda volně dostupná, musíte zadat tyto údaje: <span class="navipath_or_inputname">0</span> do pole <span class="navipath_or_inputname">Od</span>  a <span class="navipath_or_inputname">99999999</span> do pole <span class="navipath_or_inputname">Do</span>.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'V <span class="navipath_or_inputname">Slevy / poplatky</span>, je dána cena pro platební metodu . Cena může být zadána dvěma způsoby:<ul><li>Pomocí <span class="navipath_or_inputname">abs</span>, cena je dána pro konkrétní metodu (např.: <span class="navipath_or_inputname">750</span>, cena je 750 Kč).</li><li>Pomocí <span class="navipath_or_inputname">%</span>, cena se odvíjí od výše objednávky (např.: <span class="navipath_or_inputname">2</span>, cena tvoří 2% objednávky).</li></ul>',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'V okamžiku výpočtu ceny příplatku nebo slevy, je hodnota košíku brána jako základ. Zvolte, jaké náklady budou do ceny košíku zahrnuty.',
 
@@ -355,9 +355,13 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Všechny dostupné možnosti jsou zobrazeny v seznamu <span class="navipath_or_inputname">Polí</span>. Můžete přidat nové pole pro přidání nových možností. Více informací v <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists">návodu</a> na webu OXID eSales.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Zde můžete rozeznat, jestli je uživatel, který si objednává zboží, registrován:<ul><li>Pokud je zvoleno heslo, uživatel je registrován.</li><li>Pokud není zvolené heslo, uživatel registrován není.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'Na této záložce můžete:
+<ul>
+   <li>Prohlížet a nastavovat existující platební metody uživatelů.</li>
+   <li>Vytvářet nové platební metody a nastavovat defaultní hodnoty, např. inkaso.</li>
+</ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Tato volba zobrazí, jestli uživatel odebírá Novinky.',
 
@@ -375,7 +379,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Pomocí této volby můžete nastavit zobrazenou příponu titulku stránky výrobce v horní liště prohlížeče. Příponu můžete nastavit v  <em>Hlavní nastavení -> Nastavení -> SEO -> Sufix názvu obchodu</em>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'V záložce <span class="navipath_or_inputname">Slevy</span> můžete nastavit velikost slev. Můžete rozhodnout, zda sleva bude procentuální nebo ve formě konkrétní částky:<ul><li><span class="userinput_or_code">abs</span>, např. sleva v hodnotě 50 Kč.</li><li><span class="userinput_or_code">%</span>, např. sleva ve výši 10% z ceny objednávky.</li></ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Zde můžete nastavit, zda uživatel může uplatnit více kupónů této série v jedné objednávce.',
 
