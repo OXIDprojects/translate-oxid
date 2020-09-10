@@ -202,7 +202,7 @@ $aLang = array(
     'SHOP_THEME_blEcondaRecommendationsBasket'      => '',
     'SHOP_THEME_sEcondaWidgetIdBasket'              => '',
 
-    'SHOP_THEME_blFullwidthLayout'                      => '',
+    'SHOP_THEME_blFullwidthLayout'                      => 'Activate full width layout',
 
     'SHOP_THEME_blEmailsShowProductPictures'        => '',
 );
