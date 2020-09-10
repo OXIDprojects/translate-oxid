@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-$sLangName = "English";
+$sLangName = "Schwedisch";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => '',
+    'charset' => 'ISO-8859-15',
 
     'TCKLARNA_EXCEPTION_OUT_OF_STOCK' => '',
     'TCKLARNA_CHECKOUT'               => 'till kassan',
