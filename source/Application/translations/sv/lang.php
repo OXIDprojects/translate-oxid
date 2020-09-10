@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'avbryta',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Kontrollsiffran',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Denna står på baksidan av ditt kreditkort. Kontrollsiffran är de sista 3 siffror i underskriftsrutan.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kort till',
 /** end deprecated */
 'CART'                                                        => 'Kundvagn',
 'CATEGORIES'                                                  => 'Kategorier',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'ändra lösenord',
 'CHARGES'                                                     => 'Kostnader',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'se',
 /** end deprecated */
 'CHECKOUT'                                                    => 'till kassan',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Öppna din beställhistoria',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Värdebevis "%s" kan ej accepteras.',
 'CREATE_PASSWORD'                                             => 'skapa lösenord',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kort',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'aktuell artikel',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kunder som köpte denna artkel köpte även',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Efternamn',
 'LAST_SEEN_PRODUCTS'                                          => 'sist visade artiklar',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'try to',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Det finns inga nya meddelanden just nu',
 // END deprecated
 'LINKS'                                                       => 'Länkar',
 'LISTMANIA'                                                   => 'Favoritlistor',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Nekad på grund av butikens regler.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Mejladressen finns redan!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Fyll i adressuppgifterna och ditt personligt meddelande!',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Meddelande från',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Sammla bonuspoäng på ditt inköp!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Recensera denna artikel!!',
 'MESSAGE_READ_DETAILS'                                        => 'Läs detaljer till',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klicka på ” Skicka rekommendation” för att skicka mejlet!"',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Var snäll och välja minst en artikel!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Var snäll och välj artiklar för jämförelsen!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Tack för prenumeration av vårt nyhetsbrev.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Det valda leveranssättet är inte längre tillgänglig. Var snäll och välj ett annat leveranssätt!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Var snäll och kontrollera din mejladress!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Välkommen som registrerade användare!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Om någonting inte kan levereras, meddelar vi det till dig omgående.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Kontrollsiffrorna som du matade in är inte rätt. Var snäll och försök igen!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Du har redan fått en orderbekräftelse via mejl.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Nya artiklar i butiken',
 'NEWLIST'                                                     => 'Nny favortilista',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Nyheter',
 // END deprecated
 'NEWSLETTER'                                                  => 'Nyhetsbrev',
 'NEWSLETTER_SETTINGS'                                         => 'Nyhetsbrevinställningar',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Artikelbilder',
 'PRODUCT_NO'                                                  => 'Art. Nr.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Artikelpostkarte von',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Artikel recensera',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'offentlig önskelista',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Mottagarens namn',
 'RECOMMEND'                                                   => 'rekommendera',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Mina artikelrekommendationer',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Rekommendera artikeln',
 'REDEEM_COUPON'                                               => 'Lösa in värdebevis',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Sökning',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Nyheter',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Rekommendera artikeln',
 'PAGE_TITLE_INVITE'                                           => 'Bjuda in vänner',
