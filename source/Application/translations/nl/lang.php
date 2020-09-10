@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Annuleren',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVC-code:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Deze driecijferige code vindt u op de achterkant van uw creditcard.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kaart aan:',
 /** end deprecated */
 'CART'                                                        => 'Winkelmandje',
 'CATEGORIES'                                                  => 'Categoriën',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'wachtwoord veranderen',
 'CHARGES'                                                     => 'Kosten:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Zie',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Naar kassa',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Uw vroegere bestellingen oproepen',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => '',
 'CREATE_PASSWORD'                                             => 'Wachtwoord aanmaken',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Creditcard:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktuele artikel',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Klanten, die dit artikel hebben gekocht, kochten ook:',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Achternaam:',
 'LAST_SEEN_PRODUCTS'                                          => 'recent bekeken producten',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Onze nieuwtjes',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Links',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Geweigerd vanwege shop-regels.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-mailsadres is reeds geregistreerd!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Vul uw adresgegevens en uw persoonlijke bericht in a.u.b.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Bericht van',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Attentie! Spaar nu bonuspunten bij elke bestelling.',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Geef uw menig over dit artikel!',
 'MESSAGE_READ_DETAILS'                                        => 'Lees hier meer details over',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klik op "aanbeveling versturen" en verstuur dan de e-mail',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Kies a.u.b. tenminste één artikel!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => '',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'U bent nu aangemeld voor onze nieuwsbrief. Hartelijk dank voor uw interesse!',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'De dor u gekozen verzendwijze is niet mogelijk. Kies a.u.b. een andere verzendwijze.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Controleer uw e-mailadres a.u.b.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Hartelijk welkom als geregistreerde klant!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Als een artikel niet leverbaar is, laten we het u meteen weten.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'De controlecode die u heeft ingevoerd, is fout. Probeer het opnieuw a.u.b.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'We hebben u reeds per e-mail een bestelbevestiging gestuurd. Niet ontvangen? Neem dan contact met ons op a.u.b.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Nieuwe producten:',
 'NEWLIST'                                                     => 'Nieuwe favorieten',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Nieuws',
 // END deprecated
 'NEWSLETTER'                                                  => 'Nieuwsbrief',
 'NEWSLETTER_SETTINGS'                                         => 'Nieuwsbrief instellingen',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Productfoto',
 'PRODUCT_NO'                                                  => 'Art.No.:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Artikel-wenskaart van',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Prod. beoordelen',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Openbaar verlanglijstje',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Naam van de ontvanger:',
 'RECOMMEND'                                                   => 'aanbevelen',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Mijn product-aanbeveling:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Artikel aanbevelen',
 'REDEEM_COUPON'                                               => 'Tegoedbon inwisselen',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Zoeken',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Nieuws',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Artikel aanbevelen',
 'PAGE_TITLE_INVITE'                                           => 'Vrienden uitnodigen',
