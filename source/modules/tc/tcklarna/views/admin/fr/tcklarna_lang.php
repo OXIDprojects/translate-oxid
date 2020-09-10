@@ -20,9 +20,9 @@ $sLangName = "English";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => '',
+    'charset' => 'UTF-8',
 
-    'TCKLARNA_KLARNAMAINMENU'      => '',
+    'TCKLARNA_KLARNAMAINMENU'      => 'Klarna',
     'TCKLARNA_START'               => '',
     'TCKLARNA_GENERAL_SETTINGS'    => '',
     'TCKLARNA_CONFIGURATION'       => '',
@@ -34,7 +34,7 @@ $aLang = array(
     'TCKLARNA_BASIC_SETTINGS'      => '',
     'TCKLARNA_DISCOUNT_TITLE'      => 'Remise',
 
-    'tcklarna_tbclklarna_orders'     => '',
+    'tcklarna_tbclklarna_orders'     => 'Klarna',
     'TCKLARNA_NO_OPTIONS_MODE'       => '',
     'TCKLARNA_CHANGES_SAVED'         => '',
     'TCKLARNA_EMPTY_FIELDS_WARRNING' => '',
