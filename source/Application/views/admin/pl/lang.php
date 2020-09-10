@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Tytuł',
     'NEWS_LIST_MENUITEM'                             => 'Informacje dla klienta',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Wiadomości',
     'NEWS_MAIN_SHORTDESC'                            => 'Tytuł',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Produkty',
     'mxmainmenu'               => 'Ustawienia główne',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Wiadomości',
     // END deprecated
     'mxorders'                 => 'Zamówienia',
     'mxpaymeth'                => 'Formy płatności',
