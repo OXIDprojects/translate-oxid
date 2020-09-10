@@ -769,10 +769,10 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Pagina',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'È disponibile la version %s',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
+    'NEWS_LIST_TITLE'                                => '[Gestione News Oxid]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titolo',
-    'NEWS_LIST_MENUITEM'                             => 'Informazioni',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Novitá',
+    'NEWS_LIST_MENUITEM'                             => 'Informazioni cliente',
+    'NEWS_LIST_MENUSUBITEM'                          => 'News',
     'NEWS_MAIN_SHORTDESC'                            => 'Titolo',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1654,7 +1654,7 @@ $aLang = [
     'tbcllanguage_main'        => 'Principale',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'tbclnews_main'            => 'Principale',
-    'tbclnews_text'            => '',
+    'tbclnews_text'            => 'Testo',
     // END deprecated
     //  order_list',
     'tbclorder_overview'       => 'Panoramica',
@@ -1865,12 +1865,12 @@ $aLang = [
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
     'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
     'PAYMENT_RDFA_DINERSCLUB'              => '',
     'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Assegnare modo di consegna',
@@ -1938,7 +1938,7 @@ $aLang = [
     'OXDIAG_SUMMARY'                      => '',
     'OXDIAG_HINTS'                        => '',
     'OXDIAG_OK'                           => 'OK',
-    'OXDIAG_MODIFIED'                     => '',
+    'OXDIAG_MODIFIED'                     => 'Modificato',
     'OXDIAG_VERSION_MISMATCH'             => '',
     'OXDIAG_UNKNOWN'                      => '',
     'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
