@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Informacja',
     'MR'                                             => 'Pan',
     'MRS'                                            => 'Pani',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Witamy w panelu Admin OXID eShop. Jest to przegląd najważniejszych obszarów i funkcji.',
     'NAVIGATION_TITLE'                               => 'Nawigacja',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop Admin',
     'NAVIGATION_LOGOUT'                              => 'Wyloguj się',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Strona',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Wersja %s jest dostępna.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
+    'NEWS_LIST_TITLE'                                => '[Administracja sekcją Aktualności OXID]',
     'NEWS_LIST_SHORTTEXT'                            => 'Tytuł',
-    'NEWS_LIST_MENUITEM'                             => 'Informacje dla klienta',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Wiadomości',
+    'NEWS_LIST_MENUITEM'                             => 'Informacje klienta',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Aktualności',
     'NEWS_MAIN_SHORTDESC'                            => 'Tytuł',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Widoczne dla grupy użytkowników',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Niewidoczne dla grupy użytkowników',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Ulubione',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ edytuj ]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Zamów]',
     'ORDER_REMARK_USER'                                  => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Aktualności]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => 'Weryfikacja NIP nie powiodła się',
     'ORDER_OVERVIEW_VATID'                               => 'NIP:',
@@ -1012,7 +1012,7 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Dziedziczy wszystkie <b>linki sklepowe</b> ze sklepu macierzystego',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Dziedziczy wszystkie <b>serie kuponów</b> ze sklepu macierzystego',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => '',
+    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Dziedziczy <b>aktualnosci sklepu</b> ze sklepu macierzystego',
     // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Dziedziczy wszystkie <b>listy wyboru</b> ze sklepu macierzystego',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Dziedziczy wszystkich <b>dystrybutorów</b> ze sklepu macierzystego',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Wpisz metody poboru płatności jako ceny netto (plus VAT)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Foldery stron CMS',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Liczba wiadomości, które są wyświetlane w polu News Box',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Format daty w eShop Admin',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Oblicz koszty wysyłki domyślne gdy użytkownik nie jest jeszcze zalogowany',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Użyj domyślnej wiadomości "w magazynie"',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Zapisz informacje o karcie kredytowej',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => '',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen or fsockopen do portu 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Tryb zgodności z Zend musi być wyłączony',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Wersja PHP co najmniej 5.2.10',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'Ustaw REQUEST_URI',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL client connector for MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL version 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] włącznie z obsługą JPEG',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Dodaj nową regułę kosztów wysyłki',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Dodaj nową regułę wysyłki',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Dodaj nową wiadomość',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Dodaj nową serię kuponów',
     'TOOLTIPS_NEWCATTREE'                     => 'Zaktualizuj drzewo kategorii',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Zamówienie]',
     'USER_REMARK_USER'                        => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Nowości]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Zarządzaj użytkownikami',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Grupy użytkowników',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Pokaż Waluty',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Pokaż języki',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Załaduj wiadomości',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Załaduj wiadomości tylko na stronie startowej',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Załaduj warianty w listach (wyniki wyszukiwania, kategorie). To używa dużo pamięci i może powodować problemy z wydajnością małych serwerów',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Załaduj i wyświetl listę producentów',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Produkty',
     'mxmainmenu'               => 'Ustawienia główne',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => 'Wiadomości',
+    'mxnews'                   => 'Aktualności',
     // END deprecated
     'mxorders'                 => 'Zamówienia',
     'mxpaymeth'                => 'Formy płatności',
@@ -1864,13 +1864,13 @@ $aLang = [
     'PAYMENT_RDFA_BYBANKTRANSFERINADVANCE' => 'Płatność gotówką z góry',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_CREDITCARD'              => 'Płatność kartą kredytową',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Przypisz metodę dostarczania',
@@ -1937,7 +1937,7 @@ $aLang = [
     'OXDIAG_REVISION'                     => '',
     'OXDIAG_SUMMARY'                      => '',
     'OXDIAG_HINTS'                        => '',
-    'OXDIAG_OK'                           => '',
+    'OXDIAG_OK'                           => 'OK',
     'OXDIAG_MODIFIED'                     => '',
     'OXDIAG_VERSION_MISMATCH'             => '',
     'OXDIAG_UNKNOWN'                      => '',
