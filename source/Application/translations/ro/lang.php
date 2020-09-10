@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Anulare',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Codul de securitate CVV2 sau CVC2:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Codul de trei cifre CVV2/CVC2 este de obicei chiar deasupra spatiului pentru semnatura in litere italice inversate pe spatele cardului.<br/>In mod uzual este precedat de numarul cardului.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Card catre:',
 /** end deprecated */
 'CART'                                                        => 'Cos',
 'CATEGORIES'                                                  => 'Categorii',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Schimba parola',
 'CHARGES'                                                     => 'Costuri:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Verifica',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Comanda',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'verifica istoricul comenzii',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Cuponul dumneavoastra "%s" nu a fost putut fi acceptat.',
 'CREATE_PASSWORD'                                             => 'Creare parola',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Card bancar:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Produsul curent',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Clientii care au cumparat acest produs au cumparat si:',
