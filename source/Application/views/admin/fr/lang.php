@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Information',
     'MR'                                             => 'Mr',
     'MRS'                                            => 'Mme',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Bienvenue dans l\'administration de votre boutique OXID eShop.',
     'NAVIGATION_TITLE'                               => 'Navigation',
     'NAVIGATION_ESHOPADMIN'                          => 'Gestion de la boutique',
     'NAVIGATION_LOGOUT'                              => 'Déconnexion',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Page',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s disponible.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
+    'NEWS_LIST_TITLE'                                => '[OXID Gestion des news]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titre',
     'NEWS_LIST_MENUITEM'                             => 'Information clients',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Actualités',
+    'NEWS_LIST_MENUSUBITEM'                          => 'News',
     'NEWS_MAIN_SHORTDESC'                            => 'Titre',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible pour le(s) groupe(s)',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Masquée pour le(s) groupe(s)',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favoris',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ modifier ]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Commande]',
     'ORDER_REMARK_USER'                                  => '[Client]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[News]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => 'Echec de la validation du n° de TVA',
     'ORDER_OVERVIEW_VATID'                               => 'N° TVA:',
@@ -1012,7 +1012,7 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Hériter de tous les <b>liens</b> de la boutique parente',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Hériter de toutes les <b>séries de coupons</b> de la boutique parente',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => '',
+    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Hériter des <b>news</b> de la boutique parente',
     // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Hériter de toutes les <b>listes de sélection</b> de la boutique parente',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Hériter de tous les <b>distributeurs</b> de la boutique parente',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Saisir les frais sur moyens de paiement HT (plus TVA)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Dossiers des pages CMS',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Nombre de news à afficher dans le bloc Nouveautés',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Formats de date dans l\'administration de la boutique',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Calculer les frais de livraison par défaut lorsque le client n\'est pas encore connecté',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Utiliser le message "En stock" par défaut',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Enregistrer les données de la carte bancaire',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => 'Afficher un message sur d\'éventuels frais de livraison internationaux',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen ou fsockopen utilisent le port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend compatibility mode doit être off',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Version PHP minimale 5.3.25',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI activé',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL module pour MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL version 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] inclus support JPEG',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Créer une nouvelle règle de calcul de coût de transport',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Créer un mode de livraison',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Créer une News',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Créer un coupon',
     'TOOLTIPS_NEWCATTREE'                     => 'Re-Indexer les catégories',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Commande]',
     'USER_REMARK_USER'                        => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[News]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Gérer les clients',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Groupes de clients',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Afficher les devises',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Afficher les langues',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Charger les News',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Charger les News uniquement sur la page d\'accueil',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Charger les variantes dans les listes (Résultats de recherche, Catégories). <br>Ce paramètre consomme beaucoup de mémoire et peut avoir un impact sérieux sur les petits serveurs',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Charger et afficher la liste des fabricants/ marques',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Gérer les produits',
     'mxmainmenu'               => 'Configuration générale',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => 'Actualités',
+    'mxnews'                   => 'News',
     // END deprecated
     'mxorders'                 => 'Gérer les commandes',
     'mxpaymeth'                => 'Moyens de paiement',
@@ -1864,13 +1864,13 @@ $aLang = [
     'PAYMENT_RDFA_BYBANKTRANSFERINADVANCE' => 'Paiement d\'avance',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_CREDITCARD'              => 'Carte bancaire',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Affecter un mode de livraison',
@@ -1922,7 +1922,7 @@ $aLang = [
     'OXDIAG_LIST_MENUSUBITEM' => 'Outil diagnostic',
 
     'OXDIAG_MAIN_TITLE'                              => 'Diagnostics de votre eShop OXID',
-    'OXDIAG_VERSIONCHECKER'                          => '',
+    'OXDIAG_VERSIONCHECKER'                          => 'Vérificateur de version',
     'OXDIAG_INTROINFORMATION_CONTACT_US'             => 'Vous pouvez nous contacter en utilisant',
     'OXDIAG_INTROINFORMATION_ONLINE_CONTACT_FORM'    => 'Formulaire de contact en ligne',
 
@@ -1933,34 +1933,34 @@ $aLang = [
     'OXDIAG_DOWNLOAD_FILE'                => 'Cliquer ici afin de télécharger le fichier résultant',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => 'Ces erreur(s) se sont produites',
     'OXDIAG_VERSION'                      => 'Version',
-    'OXDIAG_EDITION'                      => '',
-    'OXDIAG_REVISION'                     => '',
-    'OXDIAG_SUMMARY'                      => '',
-    'OXDIAG_HINTS'                        => '',
+    'OXDIAG_EDITION'                      => 'Edition',
+    'OXDIAG_REVISION'                     => 'Révision',
+    'OXDIAG_SUMMARY'                      => 'Résumé',
+    'OXDIAG_HINTS'                        => 'Conseils',
     'OXDIAG_OK'                           => 'OK',
-    'OXDIAG_MODIFIED'                     => '',
-    'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
-    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
-    'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
-    'OXDIAG_SHOP_ORIGINAL'                => '',
+    'OXDIAG_MODIFIED'                     => 'Modifié',
+    'OXDIAG_VERSION_MISMATCH'             => 'Incompatibilité de version',
+    'OXDIAG_UNKNOWN'                      => 'Inconnu',
+    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => 'Nombre total de fichiers instruits',
+    'OXDIAG_SHOP_DOES_NOT_FIT'            => 'Cet eShop OXID n\'est pas conforme à 100%',
+    'OXDIAG_SHOP_ORIGINAL'                => 'Cette OXID eShop  n\'a pas été modifiée et est entièrement d\'origine',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => '',
-    'OXDIAG_MODIFIEDHINTS2'                       => '',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => '',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop a des possibilités sophistiquées d\'extension au moyen de modules sans avoir à modifier les fichiers existants. Ce n\'est pas recommandé et ce n\'est pas nécessaire de changer les fichiers de la boutique. Voir aussi nos <a href="http://www.oxidforge.org/wiki/Tutorials#How_to_Extend_OXID_eShop_With_Modules_.28Part_1.29" target=_blank>tutoriels</a>.',
+    'OXDIAG_MODIFIEDHINTS2'                       => 'Depuis OXID eShop 4.2.0 il est possible d\'utiliser <a href="http://www.oxidforge.org/wiki/Downloads/4.2.0#New_Features" target=_blank>vos propres templates sans modifier celles d\'origine</a>.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Apparemment, une ou plusieurs mises à jour sont défectueuses . Pour davantage d\'informations voir le lien de détails pour chaque fichier . Un fichier retiré qui n\'est plus inclus dans OXID eShop peut aussi être une raison <u>possible</u> d\'une incompatibilité de version. Trouvez une information de mise à jour dans <a href="http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation" target=_blank>Documentation et aide</a>.',
 
 
     'OXDIAG_HOME'                     => 'Diagnostics OXID',
     'OXDIAG_ABOUT'                    => 'Cet outil diagnostic collecte des informations techniques sur votre boutique et sur votre serveur. Cette information peut être utile avant une mise à jour, l\'installation de modules ou  des diagnostics.',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_DOWNLOADLOG'              => 'Rapport de téléchargement',
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => 'Extraction des modules',
     'OXDIAG_COLLECT_HEALTH'           => 'Etat de santé du système de sondage',
     'OXDIAG_COLLECT_PHP'              => 'Configuration de PHP Sondage (paramètres choisis)',
     'OXDIAG_COLLECT_SERVER'           => 'Information sur le système de sondage (si possible)',
-    'OXDIAG_STORE_ANALYSIS'           => '',
-    'OXDIAG_COLLECT_START'            => '',
+    'OXDIAG_STORE_ANALYSIS'           => 'Stocker les résultats',
+    'OXDIAG_COLLECT_START'            => 'Lancer l\'analyse !',
 
     //index
     'OXDIAG_GOTO'                     => 'Aller à',
@@ -1969,9 +1969,9 @@ $aLang = [
     'OXDIAG_HEALTH'                   => 'Santé du système',
     'OXDIAG_PHPINFO'                  => 'Information PHP',
     'OXDIAG_SERVERINFO'               => 'Information serveur',
-    'OXDIAG_RESTART'                  => '',
+    'OXDIAG_RESTART'                  => 'Démarrer une nouvelle analyse',
 
-    'OXDIAG_DISCL'                    => '',
+    'OXDIAG_DISCL'                    => 'L\'analyse ci-dessous a été a été enregistrée dans un fichier de rapport.',
     'OXDIAG_HEALTH_OK'                => 'OK',
     'OXDIAG_HEALTH_MIN'               => 'MIN',
     'OXDIAG_HEALTH_FAIL'              => 'ECHEC',
@@ -1998,7 +1998,7 @@ $aLang = [
     'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => 'Il n\'est pas possible d\'envoyer des informations à un serveur OXID via CURL',
 
     //final note
-    'OXDIAG_FINALNOTE'                => '',
+    'OXDIAG_FINALNOTE'                => 'Fin d\'analyse.',
 
     'OLC_ERROR_SERIAL_NOT_VALID'    => 'La vérification de la clé de licence a échoué. Réessayez ou contactez le support si cela arrive en permanence.',
     'OLC_ERROR_RESPONSE_NOT_VALID'  => 'Service indisponible, essayez plus tard... Si cela persiste vérifier s.v.p. que votre boutique puisse faire des connexions sortantes.',
