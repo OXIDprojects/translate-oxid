@@ -772,10 +772,10 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Τίτλος',
     'NEWS_LIST_MENUITEM'                             => 'Πληροφορίες Πελάτη',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Ειδήσεις',
     'NEWS_MAIN_SHORTDESC'                            => 'Τίτλος',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Ορατό για την Ομάδα Χρηστών',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Αόρατο για την Ομάδα Χρηστών',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Αγαπημένα',
     'NAVIGATION_FAVORITES_EDIT'                      => '[επεξ.]',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => '',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Προσθήκη Τρόπου Αποστολής',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Προσθήκη Μηνύματος',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => '',
     'TOOLTIPS_NEWCATTREE'                     => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Διαχείριση Προϊόντων',
     'mxmainmenu'               => 'Κύριες Settings',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Ειδήσεις',
     // END deprecated
     'mxorders'                 => 'Διαχείριση Παραγγελίων',
     'mxpaymeth'                => 'Τρόποι Πληρωμής',
@@ -1865,12 +1865,12 @@ $aLang = [
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
     'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => '',
@@ -1933,14 +1933,14 @@ $aLang = [
     'OXDIAG_DOWNLOAD_FILE'                => '',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => '',
     'OXDIAG_VERSION'                      => 'Έκδοση',
-    'OXDIAG_EDITION'                      => '',
+    'OXDIAG_EDITION'                      => 'Έκδοση',
     'OXDIAG_REVISION'                     => '',
     'OXDIAG_SUMMARY'                      => '',
     'OXDIAG_HINTS'                        => '',
-    'OXDIAG_OK'                           => '',
+    'OXDIAG_OK'                           => 'OK',
     'OXDIAG_MODIFIED'                     => '',
     'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
+    'OXDIAG_UNKNOWN'                      => 'Άγνωστο',
     'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
     'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
     'OXDIAG_SHOP_ORIGINAL'                => '',
