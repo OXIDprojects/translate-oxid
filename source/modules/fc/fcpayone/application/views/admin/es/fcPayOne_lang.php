@@ -402,7 +402,7 @@ $aLang = array(
 'FCPO_CC_ERRORLANG_DE'                      => '',
 'FCPO_CC_ERRORLANG_EN'                      => 'Español',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
-'FCPO_CC_PREVIEW'                           => 'Prevista',
+'FCPO_CC_PREVIEW'                           => 'Vista Previa',
     
 'FCPO_CREDITCARD'                           => '',
 'FCPO_NUMBER'                               => '',
@@ -434,7 +434,7 @@ $aLang = array(
 'FCPO_CC_TYPE_PASSWORD'                     => 'Clave',
 'FCPO_CC_TYPE_TEXT'                         => 'Texto',
     
-'FCPO_CC_IFRAME_STANDARD'                   => 'Standard',
+'FCPO_CC_IFRAME_STANDARD'                   => 'Estandar',
 'FCPO_CC_IFRAME_CUSTOM'                     => '',
 'FCPO_CC_USE_CVC'                           => '',
 'FCPO_CONFIG_DEBIT_BIC_MANDATORY'           => '',
