@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName  = '';
+$sLangName  = 'English';
 
 $aLang = array(
     'charset'                                       => '',
