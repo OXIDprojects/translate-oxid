@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "English";
+$sLangName  = "";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -228,7 +228,7 @@ $aLang = array(
 'fcpo_admin_config_status_forwarding'       => "",
 'fcpo_admin_config_status_mapping'          => "",
 'fcpo_admin_config_error_mapping'           => "",
-'fcpo_admin_config_add'                     => "添加",
+'fcpo_admin_config_add'                     => "",
 'fcpo_admin_config_delete'                  => "",
 'fcpo_admin_config_delete_confirm'          => "",
 'fcpo_admin_config_paymenttype'             => "",
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => '',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'English',
+'FCPO_CC_ERRORLANG_EN'                      => '',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => '',
     
