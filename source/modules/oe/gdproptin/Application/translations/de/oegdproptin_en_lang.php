@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Deutsch';
+$sLangName = 'Deutsch informell';
 
 $aLang = [
     'charset' => 'UTF-8',
