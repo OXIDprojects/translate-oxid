@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Отказвам',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 или CVC2 код за защита:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 3-цифрен код е отпечатан след полето за подпис на обратната страна на картата.<br>Обикновено е предхождан от номера на картата.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Съобщение до:',
 /** end deprecated */
 'CART'                                                        => 'Кошница',
 'CATEGORIES'                                                  => 'Категории',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Промени Паролата',
 'CHARGES'                                                     => 'Такси',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Провери',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Поръчка',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'проверете историята на поръчките',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Вашият купон "%s" не се приема',
 'CREATE_PASSWORD'                                             => 'Създай парола',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Кредитна карта:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Настоящ продукт',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Клиентите, които купиха този продукт, купиха също и',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Фамилия',
 'LAST_SEEN_PRODUCTS'                                          => 'Последно разглеждани артикули',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Последни новини и ъпдейти на',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Линкове',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Отказано от  правилата на магазина.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-mail адреса, който сте посочили вече го има.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Въведете Вашите данни и лично съобщение.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Съобщение от',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'СЕГА! Вземи бонус точки за тази поръчка.',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Гласувай за този продукт!',
 'MESSAGE_READ_DETAILS'                                        => 'Прочети нашите',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Натисни върху "Изпрати" за да изпратите e-mail-а.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => '',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => '',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Благодарим Ви за абонамента за новини.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Избрания начин на доставка не е наличен вече. Моля изберете друг.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Моля потвърдете Вашия e-mail.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Добре дошли като регистриран потребител!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Ше Ви информираме незабавно при възникнал проблем.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Кода за потвърждение е грешен. Моля опитеайте отново.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Вече сте получили потвърждение на поръчката по e-mail-а.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Най-нови артикули в магазина',
 'NEWLIST'                                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Новини',
 // END deprecated
 'NEWSLETTER'                                                  => 'Новини',
 'NEWSLETTER_SETTINGS'                                         => 'Настройки на новините',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => '',
 'RECOMMEND'                                                   => 'препоръчай',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Препоръчан продукт:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Препоръчай продукт',
 'REDEEM_COUPON'                                               => '',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => '',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Новини',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Препоръчай продукт',
 'PAGE_TITLE_INVITE'                                           => 'Покани приятел',
