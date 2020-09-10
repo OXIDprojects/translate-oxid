@@ -20,7 +20,7 @@ $sLangName = "English";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => 'UTF-8',
+    'charset' => '',
 
     'TCKLARNA_EXCEPTION_OUT_OF_STOCK' => '',
     'TCKLARNA_CHECKOUT'               => 'Checkout',
