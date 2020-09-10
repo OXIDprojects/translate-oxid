@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => '',
-    'OF'                                                    => 'of',
+    'OF'                                                    => 'OF',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
     'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => 'Customer Price',
+    'DD_PRICEALARM_HEADING'                                 => 'Cust. Price',
     'DD_REGISTER_HEADING'                                   => '',
     'DD_DOWNLOADLINKS_HEADING'                              => '',
     'DD_WISHLIST_HEADING'                                   => '',
