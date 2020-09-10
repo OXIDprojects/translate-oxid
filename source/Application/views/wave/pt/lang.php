@@ -28,7 +28,7 @@ $aLang = array(
     'DD_SORT_DESC'                                          => '',
     'DD_SORT_ASC'                                           => '',
     'DD_DEMO_ADMIN_TOOL'                                    => '',
-    'DD_DELETE'                                             => '',
+    'DD_DELETE'                                             => 'Eliminar',
 
     // Form validation
     'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
@@ -105,7 +105,7 @@ $aLang = array(
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Total',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
     'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
 
     // Checkout
