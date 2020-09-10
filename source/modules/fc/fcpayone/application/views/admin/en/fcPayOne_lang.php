@@ -384,7 +384,7 @@ $aLang = array(
 'ORDER_OVERVIEW_FCPO_ELV_BLZ'               => "",
 'ORDER_OVERVIEW_FCPO_ELV_KTONR'             => "",
 'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "IBAN:",
-'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "Swift Code:",
+'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC:",
 
 'FCPO_CC_CONFIG'                            => '',
 'FCPO_CC_STANDARD_STYLE'                    => '',
