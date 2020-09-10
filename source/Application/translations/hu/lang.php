@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Poništi',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Ellenőrző szám',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'A Bankkártya hátoldalán található. Az Ellenőrző szám <br>az utolsó három számjegy az aláírási mezőben.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Címzett:',
 /** end deprecated */
 'CART'                                                        => 'Košarica',
 'CATEGORIES'                                                  => 'Kategorije',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Promijeniti lozinku',
 'CHARGES'                                                     => 'Troškovi:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Lásd',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Do blagajne',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Kontrola historije Vaših narudžbi',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Az Utalványt %s nem tudjuk elfogadni.',
 'CREATE_PASSWORD'                                             => 'Kreiraj lozinku',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kártya',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktualan artikl',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kupci koji su kupili ovaj artikl su kupili i ove artikle:',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Prezime:',
 'LAST_SEEN_PRODUCTS'                                          => 'Utoljára megtekintett termék',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Újdonságaink',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Nincs új értesítés',
 // END deprecated
 'LINKS'                                                       => 'Linkovi',
 'LISTMANIA'                                                   => 'Kedvenceim',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Az áruház szabályai miatt Megtagadva',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Ez az e-mail-cím már létezik!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Adja meg a címét, és a személyes közlendőjét!',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Értesítés',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Itt az alkalom! Vigye el a Bónusz pontokat!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Értékelje a terméket!',
 'MESSAGE_READ_DETAILS'                                        => 'Olvassa el a részleteket ehhez',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Kattintson az alul lévő Ajánlás elküldése-gombra, és küldje el az e-mail-t!',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Kérjük válasszon legalább egy terméket!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Kérjük, válasszon ki az összehasonlításhoz egy terméket!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Köszönjük, hogy megrendelte a Hírlevél szolgáltatásunkat.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Az Ön által választott szállítási mód már nem áll rendelkezésre. Kérjük, válassszon egy másik szállítási módot!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Kérem, ellenőrizze az e-mail-címét!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Üdvözöljük Önt a regisztrált vásárlóink körében!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Ha egy termékünk mégsem szállítható, azonnal tájékoztatjuk Önt.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'A megadott ellenőrző kód hibás. Kérjük kísérelje meg még egyszer!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Küldtünk önnek egy e-mailt a megrendelésének visszagigazolásaként.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Új termék az áruházban',
 'NEWLIST'                                                     => 'Új kedvencek',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Hírek',
 // END deprecated
 'NEWSLETTER'                                                  => 'Newsletter',
 'NEWSLETTER_SETTINGS'                                         => 'Hírlevél-beállítások',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Termékképek',
 'PRODUCT_NO'                                                  => 'Br. artikla',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Termék-üdvözlőkártya, feladó',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Termék értékelése',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Nyivános kívánságlista',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'A címzett neve',
 'RECOMMEND'                                                   => 'ajánl',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Termék ajánlásaim',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Termék továbbajánlása',
 'REDEEM_COUPON'                                               => 'Utalvány beváltása',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Traži',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Hírek',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Termék továbbajánlása',
 'PAGE_TITLE_INVITE'                                           => 'Barátok meghívása',
