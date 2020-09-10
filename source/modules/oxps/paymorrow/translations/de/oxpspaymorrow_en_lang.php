@@ -52,10 +52,10 @@ $aLang = array(
 
     // Email
     'EMAIL_ORDER_CUST_HTML_PAYMENTMETHOD'            => 'Zahlungsart:',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => 'Bankname:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => 'Bank:',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_IBAN'           => 'IBAN:',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_BIC'            => 'BIC:',
     'PAYMORROW_EMAIL_ORDER_CUST_HTML_REFERENCE_LINE' => 'Verwendungszweck:',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_ORDER_ID'       => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_CUSTOMER_NR'    => '',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_ORDER_ID'       => 'BE',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_CUSTOMER_NR'    => 'KD',
 );
