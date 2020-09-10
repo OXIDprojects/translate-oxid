@@ -63,12 +63,12 @@ $aLang = [
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
+'CARD_SECURITY_CODE'                                          => 'CVV2 vai CVC2 drošības kods:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 trīsciparu kods ir uzdrukāts bankas norēķinu kartes aizmugurē uz paraksta lauciņa reversa italics stilā.<br>Parasti tas sākas ar jūsu kartes numuru.',
 'CARD_VISA'                                                   => '',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kartes īpašnieks:',
 /** end deprecated */
 'CART'                                                        => 'Grozs',
 'CATEGORIES'                                                  => 'Kategorijas',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Nomainīt paroli',
 'CHARGES'                                                     => 'Izmaksas:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Čeks',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Rēķins',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Apskatīt pasūtījumu vēsturi',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => '',
 'CREATE_PASSWORD'                                             => 'Izveidot paroli',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kredītkarte:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Esošais produkts',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Pircēji kuri iegādājās šo produktu, iegādājās arī sekojošo:',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Uzvārds:',
 'LAST_SEEN_PRODUCTS'                                          => 'Pēdējie skatītie produkti',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Jaunākās ziņas',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => '',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => '',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-pasta adrese, kuru Jūs norādījāt, jau ir lietošanā.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Ievadiet savu adresi un ziņojumu mums.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Ziņa no.',
 'MESSAGE_GET_BONUS_POINTS'                                    => '',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => '',
 'RECOMMEND'                                                   => '',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Ieteiktie produkti:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Ieteikt produktu',
 'REDEEM_COUPON'                                               => 'Atgūt kuponu',
