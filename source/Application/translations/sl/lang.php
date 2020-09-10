@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Prekliči',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 ali CVC2 varnostna koda',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Ta koda je natisnjena za hrbtni strani vaše kreditne kartice v poševni pisavi, nad mestom za podpis.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Voščilnica za',
 /** end deprecated */
 'CART'                                                        => 'Nakupovalni voziček',
 'CATEGORIES'                                                  => 'Kategorije',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Vašega bona "%s" ne moremo sprejeti.',
 'CREATE_PASSWORD'                                             => 'Ustvari geslo',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditna kartica',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Trenutni artikel',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kupci, ki so kupili ta izdelek, so kupili tudi',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Priimek',
 'LAST_SEEN_PRODUCTS'                                          => 'Nazadnje ogledani izdelki',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Zadnje novice in posodobitve na',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Povezave',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Zavrnjeno zaradi pravil trgovine.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Ta E-poštni naslov že obstaja!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Vnesite vaš E-poštni naslov in osebno sporočilo!',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Sporočilo od',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Pridobite bonus točke za vaš nakup!',
@@ -347,7 +347,7 @@ s potrditvijo naročila. Če ste registrirani, najdete povezave do teh artiklov 
 'NEWEST_SHOP_PRODUCTS'                                        => '',
 'NEWLIST'                                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Novice',
 // END deprecated
 'NEWSLETTER'                                                  => 'Novice',
 'NEWSLETTER_SETTINGS'                                         => 'Nastavitve novic',
@@ -734,7 +734,7 @@ s potrditvijo naročila. Če ste registrirani, najdete povezave do teh artiklov 
 'PAGE_TITLE_SEARCH'                                           => '',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Novice',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => '',
 'PAGE_TITLE_INVITE'                                           => 'Povabite prijatelje',
