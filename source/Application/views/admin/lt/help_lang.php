@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Leisti užsakymus iš kitų šalių:<ul><li>Jei varnelė uždėta, vartotojai gali užsakyti: jiems bus pranešta, jei pristatymo kainos keisis.</li><li>Jei varnelė neuždėta, vartotojai iš kitų šalių, kurios neturi apibrėžtų pristatymo kainų, užsakyti negali.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Jei varnelė uždėta, labiausiai naviguojami elementai nėra rodomi užsakymo siuntimo metu. Todėl vartotojai nereikalingai neblaškomi užsakymo formavimo metu.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Rekomenduojami nustatymai yra nuo 40 iki 80:<br /><ul><li>Jei nustatysite mažiau 40, tai nuotraukos bus neryškios, blogai matomomos ir nekokybiškos.</li><li>Jei nustatysite daugiau 80, failo dydis padidės, tačiau kokybės pagerinti nepavyks.</li></ul><br />Rekomenduojama reikšmė yra 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => '',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'Parduotuvėje yra daug prekių priskirtų sąrašams, pavyzdžiui, nuolaidai priskirtos prekės. Jei varnelė uždėta, tada variantai rodomi šiuose sąrašuose.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Šis nustatymas įtakoja pagrindinės prekės įsigyjimą:<ul><li>Jei varnelė uždėta, pagrindinės prekės gali būti perkamos.</li><li>Jei varnelė neuždėta, tada prekių variantai gali būti perkami, o pagrindinė prekė neparduodama.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Čia galite nurodyti pagrindinės prekės kainos paveldimumą variantams. Jei varnelė uždėta, pagrindinės prekės kaina yra priskiriama prekių variantams.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => '',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Jei varnelė uždėta, tai vartotojai gauna el. laišką su nuoroda naujienlaiškio užsakymo patvirtinimui.Funkcija "double-opt-in" apsaugo vartotojus nuo nepageidaujamų registracijų. Be "double-opt-in", daugelis vartotojų gali būti užregistruoti naujienlaiškiams. Su "double-opt-in", el. pašto adreso savininkas turi patvirtinti registraciją.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Naudojant kryžminį prekių pardavimą, galite nurodyti suderinamas prekes: Pvz.: jei automobilio padangos yra priskiriamos kaip kryžminės prekės, tai padangos yra rodomos prie automobilio.<br />Jei kryžminis pardavimas aktyvuotas, tai veikia dviejuose direktorijose: automobilis yra rodomas ir prie padangų taip pat.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Kiekvienai prekei galite nustatyti pranešimą, kai prekės likutis yra pakankamas<br />Jei varnelė uždėta, pranešimas bus rodomas, jei nėra įvesta kitų pranešimų šiai prekei. Standartinis pranešimas <i>Paruošta siuntimui</i>.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Kiekvienai prekei galite nustatyti pranešimą, jei prekės likutis pasibaigęs.<br />Jei varnelė uždėta, pranešimas bus rodomas, jei nėra įvesta kitų pranešimų šiai prekei. Standartinis pranešimas <i>Jei išpirkta, neužsakoma</i>.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Galite nustatyti specialias kainas pasirinktiems vartotojams: Kiekvienai prekei galite įvesti A, B ir C kainas. Jei vartotojai yra vartotojų grupėse <i>Kaina A</i>, kaina A yra rodoma vietoj įprastos kainos.<br />Jei varnelė uždėta, bus rodoma įprasta prekės kaina, jei nėra įvestų kainų A, B, C.<br />Uždėkite varnelė, jei naudojate A, B ir C kainas, kitu atveju vartotojams rodoma 0,00, jei A, B arba C kainos nėra įvestos prie prekės.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Čia galite nurodyti privalomus laukus, kuriuose bus vykdoma prekių paieška. Vienoje eilutėje įveskite tik vieną laukelį.<br />Dažniausiai naudojami laukai:<ul><li>oxtitle = Pavadinimas</li><li>oxshortdesc = Tr. aprašymas</li><li>oxsearchkeys = Paieškos raktažodžiai</li><li>oxartnum = Prekės kodas</li><li>oxtags	= Žymės</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Čia galite nurodyti laukus, pagal kuriuos bus rikiuojamos prekės sąraše. Vienoje eilutėje įveskite tik vieną lauką.<br />Dažniausiai naudojami laukai:<ul><li>oxtitle = Pavadinimas</li><li>oxprice = Kaina</li><li>oxvarminprice = Mažesnė kaina, jei naudojami variantai su skirtingomis kainomis.</li><li>oxartnum = Prekės kodas</li><li>oxrating = Prekės įvertinimas</li><li>oxstock = Likutis</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Čia galite nurodyti privalomus laukus vartotojų registracijai. Vienoje eilutėje įveskite tik vieną lauką.<br />Dažniausiai naudojami laukai:<ul><li>oxuser__oxfname = Vardas</li><li>oxuser__oxlname = Pavardė</li><li>oxuser__oxstreet = Gatvė</li><li>oxuser__oxstreetnr = Namo  nr.</li><li>oxuser__oxzip = Pašto kodas</li><li>oxuser__oxcity = Miestas</li><li>oxuser__oxcountryid = Šalis</li><li>oxuser__oxfon = Telefono  numeris</li></ul><br />Taip pat galite nurodyti privalomus laukus, jei vartotojai įveda kitą pristatymo adresą. Dažniausiai naudojami laukai:<ul><li>oxaddress__oxfname = Vardas</li><li>oxaddress__oxlname = Pavardė</li><li>oxaddress__oxstreet = Gatvė</li><li>oxaddress__oxstreetnr = Namo nr.</li><li>oxaddress__oxzip = Pašto kodas</li><li>oxaddress__oxcity = Miestas</li><li>oxaddress__oxcountryid = Šalis</li><li>oxaddress__oxfon = Telefono numeris</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '<var>Leisti skaičiuoti neigiamą prekės likučio reikšmę:</var> <br /><ul><li>Jei varnelė uždėta, prekės likutis taps neigiamu jei prekė bus perkama toliau.</li><li>Jei varnelė neuždėta, likutis niekada netaps mažesnis už 0, net jei prekė bus perkama toliau.</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Vartotojas gali įvertinti prekę tik vieną kartą. Čia galite nurodyti, po kurio laiko vartotojas vėl galės įvertinti prekę. Palikus tuščią - prekės gali būti įvertintos vartotojo tik vieną kartą.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Vartotojui iš kitos EU šalies įvedus PVM ID užsakymo metu yra atliekamas PVM ID patikrinamas online. Jei PVM ID yra galiojantis, PVM nėra skaičiuojamas užsakymui.<br />Jei patikrinimas online neveikia, PVM visada skaičiuojamas pagal šalį.',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Čia jūs galite įvesti alternatyvų URL PVM ID tikrinimui online. Jei PVM ID tikrinimo nuoroda nepasiekiama per URL, parduotuvė bando pasiekti ją per naudojamą URL čia.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Privačių pardavimų prisijungimas pakeičia reguliarią parduotuvę į pardavėjų parduotuvę.Tai padeda suformuoti pirkėjų grupę su tais pačiais interesais. Šis nustatymas riboja prieigą prie visų el. parduotuvės puslapių.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Leidžia įkelti prekes tik iš vienos (pagrindinės) kategorijos, jei kategorija pasikeičia vartotojas yra užklausiamas dėl užsakymo pabaigimo (patvirtinimo) ar apsipirkimo tęsimo (tuomet krepšelis bus išvalytas). Naudokite šią funkciją galėsite  tinkamai valdyti kategorijų struktūrą bei atskirti prekių krepšelius skirtingų tiekėjų.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Jei parinktas požymis "neaktyvus", el. parduotuvė sumažina prekės likutį tuo metu kai užsakymas yra patvirtintas pirkėjo ir pirkimo procesas yra baigtas.<br><br> Jei parinktas požymis "aktyvus", funkcionalumas pasikeičia: Prekės likutis mažėja ir yra <b>rezervuojamas</b> kai prekė yra patalpinama į krepšelį. Rezervacija panaikinama kai prekė nuperkama ar baigiasi krepšelio rezervacija.',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Praėjus rezervacijos laikui prekės likutis atstatomas ir pirkėjo krepšelis išvalomas.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Kvietimas yra naudojamas pakviesti draugus į svetainę ir už tai gauti kredito taškų.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Kredito taškų sumą gauna vartotojai, kurie buvo pakviesti registruotų vartotojų. Pakviestas vartotojas privalo užsiregistruoti norėdamas gauti taškus. Turimi kredito taškai yra saugomi vartotojo aplinkoje ir gali būti panaudojami bet kokiam tikslui.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Kredito taškų sumą gauna vartotojai, kurie pakvietė draugus į parduotuvę. Vartotojas gauna kredito taškus, jei pakviesti draugai užsiregistruoja el. parduotuvėje. Turimi kredito taškai yra saugomi vartotojo aplinkoje ir gali būti panaudojami bet kokiam tikslui.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'DĖMESIO! Master ir VISA kortelių duomenis saugoti draudžiama',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => '',
@@ -129,13 +129,13 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Čia jūs galite nustatyti, kas yra matoma parduotuvės pagrindiniame puslapyje:<ul><li><span class="navipath_or_inputname">Rodyti parduotuvės parinkėją</span>: Puslapis, kur skirtingos parduotuvės gali būti pažymėtos, yra rodomas.</li><li><span class="navipath_or_inputname">Rodyti pagrindinės parduotuvės pirmą puslapį</span>: Šios parduotuvės pagrindinis puslapis yra rodomas.</li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Jūs galite apibrėžti visų prekių kainų antkainį šioje parduotuvėje: Įveskite antkainį ir pažymėkite ar jis procentinis (<span class="userinput_or_code">%</span>) ar absoliutus (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Naujausių prekių sąraše yra rodoma <i>Naujausios prekės!</i>. Čia jūs galite nurodyti kaip bus generuojamas prekių sąrašas:<ul><li><kbd>išjungta</kbd>: Sąrašas nerodomas.</li><li><kbd>neautomatinis</kbd>: Prekes galite priskirti <em>Informacija klientams -> Akcijos -></em> akcijose <i>Naujausios!</i>.</li><li><kbd>automatinis</kbd>: Prekės atrenkamos automatiškai.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Perkamiausių prekių sąrašas rodomas <i>parduotuvės viršuje</i>. Čia jūs galite nustatyti kaip sąrašas bus generuojamas:<ul><li><kbd>išjungta</kbd>: Sąrašas nerodomas.</li><li><kbd>neautomatinis</kbd>: Prekes galite priskirti <em>Informacija klientams -> Akcijos -></em> akcijose <i>Perkamiausios</i>.</li><li><kbd>automatinis</kbd>: Prekės atrenkamos automatiškai.</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Jei varnelė uždėta, visas kategorijų medis yra rodomas kategorijų navigacijoje (visos kategorijos yra matomos). Veikia tada, kai kategorijos navigacija yra rodoma viršuje.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Dažniausia kešas yra išvalomas, kad jūs galėtumėte išsaugoti pakeitimus parduotuvės administravimo aplinkoje. Tai gali sukelti našumo problemų administravime. Jei varnelė uždėta, kešas yra išvalomas atsijungus iš parduotuvės administravimo.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Kiekvienas puslapis turi pavadinimą. Šis pavadinimas rodomas naršyklės lange. <var>Pavadinimo priešdėlio</var> ir <var>Pavadinimo priesagos</var> tekstą galite įvesti prieš arba po puslapių antraštėmis:<br /><ul><li> <var>Pavadinimo priešdėlio</var> laukelyje, įveskite tekstą, kuris bus rodomas pavadinimo pradžioje.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Kiekvienas puslapis turi pavadinimą. Šis pavadinimas yra rodomas naršyklės lango viršuje. <var>Pavadinimo priešdėlio</var> ir <var>Pavadinimo priesagos</var> tekstą galite įvesti prieš arba po puslapių antraštėmis:<br /><ul><li> <var>Pavadinimo priesagos</var> laukelyje įveskite tekstą, kuris bus rodomas pavadinimo pabaigoje.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Skyriklis yra naudojamas jei kategorijos ir prekės pavadinimai susideda iš kelių žodžių. Skyriklis yra naudojamas vietoj erdvės, pvz. www.youreshop.com/category-name-of-several-words<br />Jei nėra įvesto skyriklio, bus naudojamas "-" .',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Jei kelios prekės turi tokį patį pavadinimą, ir jos yra toje pačioje kategorijoje, joms bus suteiktas toks pat SEO URL. Norėdami to išvengti, SEO priešdėlis yra pridedamas. Jei nėra SEO priešdėlio yra naudojamas standartinis <i>oxid</i> skyriklis.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Specialiems puslapiams (pvz. taisyklės ir grąžinimo teisė) jūs galite įvesti fiksuotą SEO URL. Pažymėkite statinį URL, standartiškai URL yra rodomas <var>Standartinis URL</var>. Įvedimo laukuose galite nurodyti SEO URL kiekvienai kalbai.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Jei varnelė <span class="warning_or_important_hint"></span> neuždėta, tai kiekvieno svetainės puslapio apačioje rodoma informacija apie kiekvieno puslapio krovimosi ir atsijungimo laiką. Ši informacija yra reikalinga kuriant parduotuvę.<br /><span class="warning_or_important_hint">Uždėkite produktyvumo rėžimo varnelę kai parduotuvė yra paleidžiama, tada iš kiekvieno puslapio dings krovimosi ir atsijungimo laikas.</span>',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Laukelyje <var>Aktyvavimas</var> galite aktyvuoti/deaktyvuoti pilnai parduotuvę. Jei parduotuvė yra neaktyvi, rodoma žinutė, kad parduotuvė šiuo metu yra neprieinama vartotojams. Tai gali būti naudingai pritaikyta.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Prekės peržiūros puslapis gali būti matomas skirtingais šablonais. Norint taip padaryti, įveskite norimo naudoti šablono failo pavadinimą.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Jei prekė yra pritaikoma, papildomi įvedimo laukai yra rodomi prekės detaliame puslapyje ir prekių krepšelyje. Čia vartotojai gali įvesti tekstą pritaikomai prekei.<br /><br />Tipinis pavyzdys yra marškinėliai, kurie gali būti atspausdinti kaip tekstas. Įvedimo laukeliuose klientai gali įvesti tekstą, kuris bus atspausdintas ant marškinėlių.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => '',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => '',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Piktogramos yra mažiausios prekių nuotraukos. Pavyzdžiui, jos naudojamos prekių krepšelyje.<br />Jūs galite įkelti piktogramą paspaudę mygtuką <span class="navipath_or_inputname">Browse</span>. Po įkėlimo, failo pavadinimas yra rodomas <span class="navipath_or_inputname">Piktograma</span>. Jei nėra įkeltų piktogramų, bus rodoma <span class="userinput_or_code">---</span>.<br />',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Miniatiūros yra mažos prekių nuotraukos. Pavyzdžiui, jos naudojamos prekių sąraše (kategorijose, paieškos rezultatuose).<br />Jūs galite įkelti miniatiūrą paspaudė mygtuką <span class="navipath_or_inputname">Browse</span>. Po įkėlimo, failo pavadinimas yra rodomas <span class="navipath_or_inputname">Miniatiūra</span>. Jei nėra įkeltų miniatiūrų, bus rodoma <span class="userinput_or_code">---</span>.<br />',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Nuotraukos yra naudojamos detalioje prekės peržiūroje. Jūs galite atnaujinti 7 prekės nuotraukas. </br>Jūs galite įkelti nuotraukas paspaudę mygtuką <span class="navipath_or_inputname">Browse</span>. Po įkėlimo, failo pavadinimas yra rodomas <span class="navipath_or_inputname">#X</span>. Jei nėra įkeltų nuotraukų, bus rodoma <span class="userinput_or_code">---</span>.<br />',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Padidintos nuotraukos yra labai didelės nuotraukos, kuriuos gali būti atidaromos iš detalaus prekės peržiūros puslapio. </br>Jūs galite įkelti padidintas nuotraukas <span class="navipath_or_inputname">Įkelti padidintą X</span>. Po įkėlimo, failo pavadinimas yra rodomas <span class="navipath_or_inputname">Padidinta X</span>. Jei nėra įkeltų padidintų prekės nuotraukų, bus rodoma <span class="userinput_or_code">nopic.jpg</span>.<br />',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Laukelyje <var>Siųsti pranešimą sumažėjus likučiui iki </var> galite nurodyti, kad būtų siunčiamas el. laiškas informuojantis apie likučio sumažėjimą. Pažymėkite langelį ir įveskite požymį, pagal kurį jums būtų pranešta apie likučio sumažėjimą.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => '<var>Likučio būseną</var> jūs galite pasirinkti iš 4 galimų:<ul><li><kbd>Standartinis</kbd>: Prekė gali būti užsakoma, nors jau ir išparduota.</li><li><kbd>Išorinis likutis</kbd>: Prekė gali būti visada užsakoma ir rodoma <i>sandėlyje</i>. (Likutis negali būti rodomas iš išorinio sandėlio, todėl prekės yra rodomos kaip esančios <i>sandėlyje</i>).</li><li><kbd>Jei išpirkta, nerodoma</kbd>: Prekės nerodomos, jei jos parduotos.</li><li><kbd>Jei išpirkta, neužsakoma</kbd>: Prekės yra rodomas jei parduotos, bet negalima jų užsakyti.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => '',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'Laukeliuose <span class="navipath_or_inputname">Kiekis nuo/iki</span> galite nustatyti kokiam kiekio intervalui galioja kaina.<br />',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Čia jūs galite pasirinkti kainą nuo kiekio. Jūs galite įvesti kainą absoliutinę arba procentinę nuolaidą.<br />',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Savybės pavadinimas</span> apibrėžiamas kaip variantų pavadinimas, pvz. <span class="userinput_or_code">Spalva</span> ar <span class="userinput_or_code">Dydis</span>.<br />',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Laukelyje <var>Paslėpta</var> <galite nustatyti ar šią kategoriją rotyti klientams. Jei kategorija yra paslėpta, ji nerodoma vartotojams, net jeigu yra aktyvi.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'Nurodykite <var>Subkategorijos</var> vietą, kuriai kategorijai ji priklauso:<br /><ul><li>Jei kategorija yra pagrindinė, tada pasirinkite <kbd>--</kbd>.</li><li>Jei kategorija yra subkategorija(aukštesnio lygio kategorija), tada pasirinkite titinkamą kategoriją, kuriai ji priklauso.</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Laukelyje <var>Išorinė nuoroda</var>, galite įrašyti nuorodą, kuri atsidarys vartotojui paspaudus ant kategorijos. <strong>Naudokite šią funkciją tada, jei norite rodyti nuorodą kategorijos navigacijoje. Tačiau kategorija gali prarasti savo įprastą funkciją!</strong>',
 
@@ -301,11 +301,11 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Šis aprašymas yra integruotas į TTS puslapių HTML kodą (META aprašymas). Šis tekstas dažnai rodomas paieškos rezultatuose. Tinkami aprašymai gali būti įrašomi čia. Jei paliksite tuščią, aprašymas bus sugeneruotas automatiškai.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Laukelyje <var>Skaičiavimo taisyklės</var> galite pasirinkti kaip dažnai perskaičiuojamos kainos:<ul><li><kbd>Vieną kartą krepšeliui</kbd>: Kaina skaičiuojama vieną kartą užsakymui.</li><li><kbd>Vieną kartą už prekę</kbd>: Kaina yra skaičiuojama kartą skirtingoms prekės krepšelyje. Nėra jokio skirtumo koks prekės kiekis yra užsakomas.</li><li><kbd>Kiekvienai prekei krepšelyje</kbd>: Kaina yra perskaičiuojama kiekvienai prekei krepšelyje.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'Laukelyje <var>Sąlyga</var> galite nurodyti, kad pristatymo kainų taisyklės taikomos tam tikroms sąlygoms. Galite pasirinkti vieną iš 4 sąlygų:<ul><li><kbd>Kiekis</kbd>: Prekių skaičius krepšelyje.</li><li><kbd>Dydis</kbd>: Prekių dydis. Kad šis parametras būtų tinkamai naudojamas, turi būti įrašytas prekės dydis.</li><li><kbd>Svoris</kbd>: Prekių svorio suma užsakyme. Kad šis parametras būtų tinkamai naudojamas, turi būti įrašytas prekių svoris.</li><li><kbd>Kaina</kbd>: Užsakymo kaina.</li></ul>Jūs galite įvesti laukus <var>>=</var> (didesnius arba lygius) ir <var><=</var> (mažesnius arba lygius) nurodytai sričiai, kuriai taikomos sąlygos.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Laukelyje <var>Kainos antkainis/nuolaida</var> nurodoma pristatymo kaina. Kaina gali būti skaičiuojama dviem būdais:<ul><li>Laukelyje <kbd>abs</kbd>, kaina yra nurodyta absoliutinė.</li><li>Laukelyje <kbd>%</kbd>, kaina yra procentinė.</li></ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Laukelyje <var>Eiliškumas</var> nurodykite kokia tvarka bus tikrinamos pristatymo kainų taisyklės. Pristatymo kainos su mažiausiu numeriu yra rodomos viršuje. Užsakymas yra svarbus jei naudojamas nustatymas <var>Stabdyti kitų taisyklių tikrinimą, jei tenkina ši taisyklė. </var>',
 
@@ -319,7 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Laukelyje <var>Kiekis</var> nurodykite ar nuolaida galioja tam tikriems pirkimo kiekiams. Jei norite, kad  nuolaida galiotų tam tikriems pirkinių kiekiams, įveskite <kbd>0</kbd> <var>Nuo</var> ir <kbd>0</kbd> <var>Iki</var>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'Laukelyje <var>Nuolaida</var>, nurodykite nuolaidos dydį. Galite naudoti pasirinktą sąrašą, kad nustatyti ar nuolaida gali būti taikoma kaip absoliutinė arba procentinė:<ul><li><kbd>abs</kbd>: nuolaida yra absoliutinė, pvz.5 Lt.</li><li><kbd>%</kbd>: nuolaida yra procentinė, pvz. 10 procentų nuo pardavimo kainos.</li>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Prekei galite nustatyti keletą SEO URL: tai tikriems gamintojų ir kategorijų puslapiams. Laukelyje <var>Aktyvi kategorija/gamintojas</var> galite pasirinkti SEO URL, kurį norite koreguoti.',
 
@@ -345,9 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Jūs galite naudoti lauką <var>Pasirinktas</var> siekiant nustatyti koks mokėjimo būdas pasirinktas, kaip standartinis trečiame krepšelio žingsnyje, tačiau vartotojui paliekama galimybė pasirinkti kitą mokėjimo būdą.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Jūs galite naudoti <var>Krepšelio sumą</var> nurodant mokėjimo būdų galiojimą tik tam tikroms krepšelio sumoms. <var>Nuo</var> ir <var>iki</var> laukai leidžia nustatyti įvairias vertes.<br />Jei mokėjimo būdas galioja pirkimo kainai, jūs privalote nurodyti sąlygas, kurių turite laikytis: Įveskite <kbd>0</kbd>  <var>į nuo</var>  ir <kbd>99999999</kbd>  <var>į iki</var> laukus.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'Laukelyje <var>Antkainis</var> mokėjimo būdui įrašoma kaina. Kaina gali būti nurodyta dviem būdais:<ul><li> <kbd>abs</kbd> kaina mokėjimo būdui(pvz.: jei įvesite <kbd>7.50</kbd>, bus pridedama 7.50 Lt.)</li><li><kbd>%</kbd>, kaina nuo krepšelio sumos (pvz.: jei įvesite <kbd>2</kbd>,tai bus 2 procentai nuo krepšelio sumos)</li></ul>',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Kai skaičiuojamas kainos antkainis ar sumažinimas, krepšelio kaina naudojama kaip bazinė. Kainos bus įtraukiamos kai skaičiuosime krepšelio sumą.',
 
@@ -355,7 +355,7 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Visi galimi nustatymai yra matomi laukelyje <var>Laukai</var> sąrašu. Jūs galite naudoti įrašų laukus dešinėje sukuriant naują nustatymą.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Čia galite matyti ar vartotojas užsiregistravo atlikdamas užsakymą:<ul><li>Jei slaptažodis yra, vartotojas registruotas.</li><li>Jei slaptažodžio nėra, vartotojas užsisakė be registracijos.</li></ul>',
 
 'HELP_USER_PAYMENT_METHODS'                   => '',
 
@@ -375,7 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Šis nustatymas leidžia apibūdinti pavadinimo priesagą rodomą naršyklės lango viršuje (pavadinime), kai gamintojo puslapis yra atidaromas. Pavadinimo priesaga gali būti koreguojama <em>Pagr. informacija -> Pagr. nustatymai -> SEO -> Pavadinimo priesaga</em>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'Laukelyje <var>Nuolaida</var>, galite pasirinkti nuolaidos tipą. Laukelyje įveskite nuolaidą ir pasirinkite tipą, ar procentinė ar absoliutinė:<ul><li><kbd>abs</kbd>: Nuolaida yra absoliutinė nuolaida, pvz. 5 Lt.</li><li><kbd>%</kbd>: Nuolaida yra procentinė, pvz. 10 proc. nuo pirkimo kainos.</li>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Čia galite pasirinkti kuriems vartotojams leisti naudoti keletą tos pačios serijos kuponų užsakyme.',
 
