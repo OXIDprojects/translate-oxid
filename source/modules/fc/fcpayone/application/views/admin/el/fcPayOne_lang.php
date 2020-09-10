@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "English";
+$sLangName  = "Ελληνικά";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => 'Επιλογή',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'English',
+'FCPO_CC_ERRORLANG_EN'                      => 'Ελληνικά',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => 'Προεπισκόπιση',
     
