@@ -50,3 +50,10 @@ files:
       /source/modules/tc/tcklarna/views/admin/%two_letters_code%/tcklarna_lang.php
   - source: /source/Application/views/wave/en/theme_options.php
     translation: /source/Application/views/wave/%two_letters_code%/theme_options.php
+  - source: >-
+      /source/modules/bestit/amazonpay4oxid/application/views/admin/en/bestitamazonpay4oxid_lang.php
+    translation: >-
+      /source/modules/bestit/amazonpay4oxid/application/views/admin/%two_letters_code%/%original_file_name%
+  - source: /source/modules/fc/fcpayone/application/views/admin/en/fcPayOne_lang.php
+    translation: >-
+      /source/modules/fc/fcpayone/application/views/admin/%two_letters_code%/%original_file_name%
