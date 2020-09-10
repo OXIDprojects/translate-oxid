@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Naziv',
     'NEWS_LIST_MENUITEM'                             => 'Kupci info',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Novosti',
     'NEWS_MAIN_SHORTDESC'                            => 'Naziv',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '',
     'ORDER_REMARK_USER'                                  => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[News]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => '',
     'ORDER_OVERVIEW_VATID'                               => '',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL client connector for MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL version 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => '',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Order]',
     'USER_REMARK_USER'                        => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[News]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => '',
     'USERGROUP_LIST_MENUSUBITEM'              => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => '',
     'mxmainmenu'               => 'Osnovni podaci',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Novosti',
     // END deprecated
     'mxorders'                 => '',
     'mxpaymeth'                => '',
@@ -1592,7 +1592,7 @@ $aLang = [
     'tbcldiscount_mall'        => '',
     'tbclmanufacturer_mall'    => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_mall'            => '',
+    'tbclnews_mall'            => 'Mall',
     // END deprecated
     'tbclvendor_mall'          => 'Mall',
     'tbclselectlist_mall'      => '',
@@ -1865,12 +1865,12 @@ $aLang = [
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
     'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
     'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_JCB'                     => 'JBC',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => '',
