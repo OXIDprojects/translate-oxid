@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => '',
     'NEWS_LIST_MENUITEM'                             => 'カスタマー情報',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'ニュース',
     'NEWS_MAIN_SHORTDESC'                            => '',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => '製品を管理',
     'mxmainmenu'               => 'マスターの設定',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'ニュース',
     // END deprecated
     'mxorders'                 => '注文の管理',
     'mxpaymeth'                => '支払い方法',
