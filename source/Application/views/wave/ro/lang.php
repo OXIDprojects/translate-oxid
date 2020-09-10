@@ -25,20 +25,20 @@ $aLang = array(
     'charset'                                               => '',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
-    'DD_DEMO_ADMIN_TOOL'                                    => '',
+    'DD_SORT_DESC'                                          => 'descrescatoare',
+    'DD_SORT_ASC'                                           => 'crescator',
+    'DD_DEMO_ADMIN_TOOL'                                    => 'Deschide interfata de admin',
     'DD_DELETE'                                             => 'Sterge',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
-    'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Va rugam inserati o adresa de email valida.',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Parola nu se potrivește .',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Va rugam inserati un numar.',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Zecimalele nu sunt permise',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Va rugam inserati un numar pozitiv.',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Va rugam introduceti un numar negativ',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Va rugam specificati o valoare pt campul specificat',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Va rugam selectați măcar o opțiune .',
 
     // Header
     'SEARCH_TITLE'                                          => '',
@@ -58,72 +58,72 @@ $aLang = array(
     'START_TOP_PRODUCTS_SUBHEADER'                          => '',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => '',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Contactaține !',
     'DD_CONTACT_FORM_HEADING'                               => 'Contact',
 
     // Link list
-    'DD_LINKS_NO_ENTRIES'                                   => '',
+    'DD_LINKS_NO_ENTRIES'                                   => 'Din pacate, nu sunt legaturi disponibile.',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
-    'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_START_TEXT'                                 => 'Puteti  sa gasiti informatii  de pe pagina noastra de acasa :',
+    'DD_ERR_404_START_BUTTON'                               => 'Mergi la pagina de start',
+    'DD_ERR_404_CONTACT_TEXT'                               => 'Va putem ajuta?<br>Sunati-ne sau scrieti-ne un email:',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'spre pagina de contact',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Prin creerea unui cont in mgazinul nostru, vei fi gidat prin procesul de facturare mai rapid. Ca bonus, poti stoca mai multe adrese de livreare si poti urmari comenzile din contul tau.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'Judet',
-    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
+    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'selectati',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'Adauga adresa de livrare',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
-    'DD_LIST_SHOW_MORE'                                     => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtru :',
+    'DD_LIST_SHOW_MORE'                                     => 'Vezi produse...',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'Înapoi la produse',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => '',
-    'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'descarca',
+    'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Marime fisier:',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'ceas',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Nume fisier',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
+    'BACK_TO_OVERVIEW'                                      => 'spre prezentarea generala',
     'OF'                                                    => '',
-    'DD_RATING_CUSTOMERRATINGS'                             => '',
+    'DD_RATING_CUSTOMERRATINGS'                             => 'Parerile clientilor',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
-    'DETAILS_VPE_MESSAGE_1'                                 => "",
+    'DETAILS_VPE_MESSAGE_1'                                 => "Acest produs poate fi comandat in cutii de",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
-    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Total',
+    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'continua cumparaturile',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'Înapoi in shop',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
-    'DD_FORGOT_PASSWORD_HEADING'                            => '',
-    'DD_INVITE_HEADING'                                     => '',
-    'DD_INVITE_LINK'                                        => '',
-    'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
-    'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => 'Pret Client',
-    'DD_REGISTER_HEADING'                                   => '',
-    'DD_DOWNLOADLINKS_HEADING'                              => '',
-    'DD_WISHLIST_HEADING'                                   => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'Urmăriține :',
+    'DD_FORGOT_PASSWORD_HEADING'                            => 'Am uitat parola',
+    'DD_INVITE_HEADING'                                     => 'Recomandare articol',
+    'DD_INVITE_LINK'                                        => 'Link',
+    'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Subscriptia ta la Stiri',
+    'DD_ORDERSHIPPED_HEADING'                               => 'Confirmare de livrare - Comanda',
+    'DD_PRICEALARM_HEADING'                                 => 'Alarma de pret',
+    'DD_REGISTER_HEADING'                                   => 'Inregistrarea dumneavoastra',
+    'DD_DOWNLOADLINKS_HEADING'                              => 'Linkurile dumneavoastra  de descarcare - comenzi',
+    'DD_WISHLIST_HEADING'                                   => 'Lista de dorinte',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Meniu',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
