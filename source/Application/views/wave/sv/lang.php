@@ -25,105 +25,105 @@ $aLang = array(
     'charset'                                               => '',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
-    'DD_DEMO_ADMIN_TOOL'                                    => '',
+    'DD_SORT_DESC'                                          => 'uppstigande',
+    'DD_SORT_ASC'                                           => 'nerstigande',
+    'DD_DEMO_ADMIN_TOOL'                                    => 'Starta administratorverktyg',
     'DD_DELETE'                                             => 'ta bort',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
-    'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Var snäll ange en giltig mejladress.',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Lösenorden stämmer inte överense.',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Var snäll och fyll i en siffra.',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Siffror efter kommat är ej tillåtna.',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Var snäll ange en positiv siffra.',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Var snäll ange en negativ siffra.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Var snäll och ange ett värde.',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Var snäll och välj minst en option.',
 
     // Header
-    'SEARCH_TITLE'                                          => '',
-    'SEARCH_SUBMIT'                                         => 'Sökning',
+    'SEARCH_TITLE'                                          => 'Ange sökord...',
+    'SEARCH_SUBMIT'                                         => 'sök',
     'NAV_MORE'                                              => 'mer',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => '',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Nyaste produkter och bästa erbjudande via mejl att du inte missa någonting!',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => '',
-    'START_BARGAIN_HEADER'                                  => '',
-    'START_NEWEST_HEADER'                                   => '',
-    'START_TOP_PRODUCTS_HEADER'                             => '',
-    'START_BARGAIN_SUBHEADER'                               => '',
-    'START_NEWEST_SUBHEADER'                                => '',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => '',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'Här presenterar vi våra utvalda varumärken, deras produkter finns i vår webbutik.',
+    'START_BARGAIN_HEADER'                                  => 'Veckans deal',
+    'START_NEWEST_HEADER'                                   => 'Precis inkommit',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Bästsäljare',
+    'START_BARGAIN_SUBHEADER'                               => 'Gör ett klipp med våra erbjudanden.',
+    'START_NEWEST_SUBHEADER'                                => 'Färskare blir det inte. ut ur paketet direkt till butiken.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Bara 2 produkter men dem bästa som vi kan erbjuda.',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => '',
-    'DD_CONTACT_FORM_HEADING'                               => 'Kontakt',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Kontakta oss!',
+    'DD_CONTACT_FORM_HEADING'                               => 'kontaktformulär',
 
     // Link list
-    'DD_LINKS_NO_ENTRIES'                                   => '',
+    'DD_LINKS_NO_ENTRIES'                                   => 'Det finns tyvärr inga länkar än.',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
-    'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_START_TEXT'                                 => 'Kanske hittar du de önskade informationerna genom vår startsida:',
+    'DD_ERR_404_START_BUTTON'                               => 'Gå till startsidan',
+    'DD_ERR_404_CONTACT_TEXT'                               => 'Kan vi hjälpa dig?<br>Du kan gärna ringa oss eller skriva ett mejl:',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'till kontaktformuläret',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Genom din registrering i vår web-butik är det smidigare att beställa. Dessutom kan du spara flera leveransadresser och du kan följa dina beställningar.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => '',
-    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
+    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'välja',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'neue Adresse hinzufügen',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
-    'DD_LIST_SHOW_MORE'                                     => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter',
+    'DD_LIST_SHOW_MORE'                                     => 'titta på produkter...',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'tillbaka till översikten',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => '',
-    'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'ladda ner',
+    'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Filstorlek:',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'Klocka',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Filnamn:',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
-    'OF'                                                    => 'FRÅN',
-    'DD_RATING_CUSTOMERRATINGS'                             => '',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
-    'DETAILS_VPE_MESSAGE_1'                                 => "",
+    'BACK_TO_OVERVIEW'                                      => 'till översikt',
+    'OF'                                                    => 'från',
+    'DD_RATING_CUSTOMERRATINGS'                             => 'Kundrecensioner',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Andra kunder som köpte denna artikel, köpte även följande artiklar.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Följande artiklar passar bra till den artikel.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Kolla artiklar som är likvärdiga.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Kunder som kollade den artikel, kollade även dessa artiklar.',
+    'DETAILS_VPE_MESSAGE_1'                                 => "Dieser Artikel kann nur in Verpackungseinheiten zu je",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Totalbelopp',
-    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Totalsumma',
+    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'fortsätt handla',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'tillbaka till butiken',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
-    'DD_FORGOT_PASSWORD_HEADING'                            => '',
-    'DD_INVITE_HEADING'                                     => '',
-    'DD_INVITE_LINK'                                        => '',
-    'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
-    'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => '',
-    'DD_REGISTER_HEADING'                                   => '',
-    'DD_DOWNLOADLINKS_HEADING'                              => '',
-    'DD_WISHLIST_HEADING'                                   => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'DD_FOOTER_FÖLJER_OSS',
+    'DD_FORGOT_PASSWORD_HEADING'                            => 'glömt lösenord',
+    'DD_INVITE_HEADING'                                     => 'Artikelrekommendation',
+    'DD_INVITE_LINK'                                        => 'länk',
+    'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Din nyhetsbrev-prenumeration',
+    'DD_ORDERSHIPPED_HEADING'                               => 'DD_LEVERANSSKICKAT_HEADING',
+    'DD_PRICEALARM_HEADING'                                 => 'Prislarm',
+    'DD_REGISTER_HEADING'                                   => 'Din registrering',
+    'DD_DOWNLOADLINKS_HEADING'                              => 'Din registrering',
+    'DD_WISHLIST_HEADING'                                   => 'Önskelista',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Meny',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
