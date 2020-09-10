@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "Deutsch";
+$sLangName  = "English";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -54,7 +54,7 @@ $aLang = [
 'BARGAIN'                                                     => 'Schnäppchen',
 'BARGAIN_PRODUCTS'                                            => 'Die besten Schnäppchen des Shops',
 'BASKET_EMPTY'                                                => 'Der Warenkorb ist leer.',
-'BIC'                                                         => 'BIC',
+'BIC'                                                         => 'BIC:',
 'BILLING_ADDRESS'                                             => 'Rechnungsadresse',
 'BILLING_SHIPPING_SETTINGS'                                   => 'Rechnungs- und Lieferadressen',
 'BIRTHDATE'                                                   => 'Geburtsdatum',
@@ -125,7 +125,7 @@ $aLang = [
 'DELIVERY_STATUS_NLB'                                         => 'Nicht lieferbar',
 'DELIVERY_STATUS_STO'                                         => 'Storniert',
 'DESCRIPTION'                                                 => 'Beschreibung',
-'DETAILS'                                                     => 'Details',
+'DETAILS'                                                     => 'Beschriftung',
 'DISCOUNT'                                                    => 'Rabatt',
 'DISPLAY_BASKET'                                              => 'Warenkorb zeigen',
 'DO_NOT_WANT_CREATE_ACCOUNT'                                  => '(Ich möchte kein Kundenkonto eröffnen)',
@@ -210,7 +210,7 @@ $aLang = [
 'GIFT_REGISTRY_SEARCH_RESULTS'                                => 'Wunschzettelsuchergebnis',
 'GIFT_WRAPPING'                                               => 'Geschenkverpackung',
 'GIFT_WRAPPING_GREETING_CARD'                                 => 'Geschenkverpackung/Grußkarte',
-'GO'                                                          => 'Los!',
+'GO'                                                          => 'GO!',
 'GRAND_TOTAL'                                                 => 'Gesamtbetrag',
 'GREETING'                                                    => 'Hallo,',
 'GREETING_CARD'                                               => 'Grußkarte',
@@ -387,7 +387,7 @@ $aLang = [
 'BRAND'                                                       => 'Marke',
 'OUR_BRANDS'                                                  => 'Unsere Marken',
 'OUR_REGULAR_PRICE'                                           => '(Unser regulärer Preis)',
-'OXID_ESALES_URL'                                             => 'https://www.oxid-esales.com',
+'OXID_ESALES_URL'                                             => 'http://www.oxid-esales.com/de/startseite',
 'OXID_ESALES_URL_TITLE'                                       => 'Shopsoftware von OXID eSales',
 'PAGE'                                                        => 'Seite',
 'PASSWORD'                                                    => 'Passwort',
@@ -743,7 +743,7 @@ $aLang = [
 
 
 'BETA_NOTE'                                                   => 'Willkommen ',
-'BETA_NOTE_RELEASE_BETA'                                      => 'zur Beta',
+'BETA_NOTE_RELEASE_BETA'                                      => 'Beta',
 'BETA_NOTE_RELEASE_RC'                                        => 'zum Release-Kandidaten',
 'BETA_NOTE_MIDDLE'                                            => ' des OXID eShop ',
 'BETA_NOTE_FAQ'                                               => '. Häufig gestellte Fragen und Antworten sind in der %s gelistet.',
