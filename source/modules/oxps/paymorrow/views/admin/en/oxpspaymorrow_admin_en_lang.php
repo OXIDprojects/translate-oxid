@@ -33,7 +33,7 @@
 $sLangName = "English";
 
 $aLang = array(
-    "charset"                                      => "UTF-8",
+    "charset"                                      => "",
     "oxpspaymorrow"                                => "",
 
     'NAVIGATION_PAYMORROW'                         => '',
