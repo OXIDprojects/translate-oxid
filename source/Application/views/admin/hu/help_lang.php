@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Ez a beállítás meghatározza a program működését, ha egy országba, ahonnan a felhasználó rendelni szeretne, nincs meghatározva szállítási költség:<br /><ul><li>Ha ez a beállítás aktív, a felhasználó kap egy jelzést a megrendelési folyamat közben: A szállítási költségekről később kap tájékoztatást, amennyiben egyetért ezzel, tobábbhaladhat a megrendelés folyamatában.</li><li>ha ez a beállítás inaktív, akkor azok a felhasználók, akik olyan országból rendelnek, ahol nincs szállítási költség meghatározva, nem tudnak vásárolni.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Ha ezt a beállítást aktíválja, a navigációs elemek nagy része nem lesz látható a megrendelés folyamata során. Ezáltal a felhasználók figyelme nem lesz szükségtelenül elterelve.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Az ajánlott beállítások 40-80:<br /><ul><li>40 alatt a tömörítés nagysága miatt a képek élessége romlik.</li><li>80 fölött a képek minősége már nem lesz lényegesen jobb, ugyanakkor a képfájlok nagysága lényegesen nagyobb.</li></ul><br />Az alapértelmezett beállítás 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Kérem, állítsa be a core/oxldap.php fájlt megfelelően..',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'A programban vannak olyan listák, amelyekhez terméket lehet rendelni, pl.: a terméket a leértekelendő árukhoz rendeljük. Ha ez a beállítás aktív, akkor ezek a listák a variánsoknál is megjelennek.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Itt állíthatja be, hogy a Törzs termék is értékesíthető:<ul><li>Ha ez a beállítás aktív, akkor a törzs termék is értékesíthető.</li><li>Amennyiben ez a beállítás nem aktív, akkor csak a variáns értékesíthető.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Ez a beállítás meghatározza a program működését, ha a törzstermékeknél aktíváltuk a lépcsős árakat: Ha ez a beállítás aktív, akkor a lépcsős árak érvényesek a variánsokra is.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Az oldalszerkezet a pufferben történő megtartásának az időtartama másodpercben. Ez "Age" Header-értékként jelenik meg a HTTP-Header-ben.',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Ha a Double-Opt-In aktív, akkor a felhasználók kapnak egy megerősítő linkkel ellátott e-mailt, amikor a hírlevélre feliratkoznak, és csak akkor iratkozhatnak fel a hírlevélre, ha az aktivációs linkre kattintva a shopot felkeresik.<br />Double-Opt-In nélkül tetszés szerinti e-mail-címmel is fel lehetne iratkozni a hírlevél szolgáltatásra. Ezt a lehetőséget használják ki a Spam-robotok is. A Double-Opt-In által ellenőrizheti a Shop tulajdonosa, hogy valóban az erre jogosult iratkozik fel.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'A Crossselling segítségével kínálhatunk a termékünkhöz egy másik megfelelő terméket is megvételre. Crossselling-termékek a következőkkel <span class="filename_filepath_or_italic">Kennen Sie schon?</span> megjelenítve.<br />Pl.: egy autóhoz hozzárendeljük a téligumit, mint Crossselling-termék, akkor az autó mellett megjelenik a téligumi is. Ha a Bidirektionális Crossselling aktív, akkor a crosselling mind a két irányban működik. A téliguminál megjelenik a megfelelő autó is.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Minden terméknél beállítható, hogy milyen jelzést kap a felhasználó, ha a termék a raktáron van. Ha ez a beállítás aktív, akkor a felhasználó akkor is jelzést kap, ha a terméknél nincs külön jelzés meghatározva. Ilyenkor az alapértelmezett jelzés:<span class="filename_filepath_or_italic"> azonnal szállítható</span>.<br />További információk a következő linken található: <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/meldungen-zu-den-lagerbestaenden-einrichten" target="_blank">Handbuch-Beitrag zu den Lagerbestandsmeldungen</a>.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Minden terméknél beállítható, hogy milyen jelzést kap a felhasználó, ha kívánt termék nincs a raktáron. Ha ez a beállítás aktív, akkor a felhasználó akkor is jelzést kap, ha a terméknél nincs külön jelzés meghatározva. Ilyenkor az alapértelmezett jelzés:<span class="filename_filepath_or_italic"> Ez a termék nincs raktáron, először meg kell rendelnünk</span>.<br />További információk a következő linken található: <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/meldungen-zu-den-lagerbestaenden-einrichten" target="_blank">Handbuch-Beitrag zu den Lagerbestandsmeldungen</a>.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Önnek lehetősége van arra, hogy meghatározott felhasználóknak és felhasználói csoportoknak különböző árakat határozzon meg. Minden terméknél lehetősége van öbnnek arra, hogy A, B, és C-árakat határozzon meg. Így lehetséges az, hogy annak a felhasználócsoportnak amelyik az alternatív Ár: A-hoz van hozzárendelve, az A-ár jelenik meg a normál ár helyett.<br />Ha ez a beállítás aktív, akkor ezeknek a felhasználóknak az alternatív ár jelenik meg, ha a terméknél nincs  A, B illetve C-Ár meghatározva.<br />Aktiválja ezt a beállítást, ha Ön A,B és C-árakat használ: különben a felhasználó 0,00 árat lát, ha nincs A-B-C-ár meghatározva.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Itt adhatja meg azokat a termék adatbázis mezőket, amelyekben a keresés funkció alkalmazható. Soronként csak egy adatbázis mezőt adjon meg.<br />A leggyakrabban használt mezők:<ul><li>oxtitle = Megnevezés (a termék neve)</li><li>oxshortdesc = A termék rövid leírása</li><li>oxsearchkeys = Keresőszavak, amelyek a terméknél szerepelnek</li><li>oxartnum = Termékszám</li><li>oxtags    = Címszavak, amelyek a terméknél szerepelnek</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Itt adhatja meg azokat a termék adatbázis mezőket, amelyek a termékek sorrendjét határozzák meg. Soronként csak egy adatbázis mezőt adjon meg.<br />A leggyakrabban használt mezők:<ul><li>oxtitle = A termék neve</li><li>oxprice = A termék ára</li><li>oxvarminprice = A termék legalacsonyabb ára, ha a variánsok különböző árral szerepelnek.</li><li>oxartnum = Termékszám</li><li>oxrating = Termék értékelése</li><li>oxstock = A termék raktárkészlet</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Itt adhatja meg, hogy mely beviteli mezőket kell a felhasználónak kötelezően kitölteni a regisztráció során. Soronként csak egy adatbázis mezőt adjon meg.<br />A leggyakrabban használt mezők:<ul><li>oxuser__oxfname = Utónév</li><li>oxuser__oxlname = Vezetéknév</li><li>oxuser__oxstreet = Utca</li><li>oxuser__oxstreetnr = Házszám</li><li>oxuser__oxzip = Irányítósz.</li><li>oxuser__oxcity = Város</li><li>oxuser__oxcountryid = Ország</li><li>oxuser__oxfon = Telefonszám</li></ul><br />Itt adhatja meg azt is, hogy melyik mezőket kell kitölteni a szállításhoz. A leggyakrabban használt mezők:<ul><li>oxaddress__oxfname= Utónév</li><li>oxaddress__oxlname = Vezetéknév</li><li>oxaddress__oxstreet = Utca</li><li>oxaddress__oxstreetnr = Házszám</li><li>oxaddress__oxzip = Irányítósz</li><li>oxaddress__oxcity = Város</li><li>oxaddress__oxcountryid = Ország</li><li>oxaddress__oxfon = Telefonszám</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'A <span class="navipath_or_inputname"> negatív mennyiség engedélyezése...</span>-nél beállíthatja, hogy milyen raktárkészlet legyen kiszámítva, ha egy termék már nincs raktáron:<br /><ul><li>Ha ez a beállítás aktív, akkor a készlet minuszba megy, ha további mennyiség kerül értékesítésre.</li><li>Ha ez a beállítás inaktív, akkor a raktárkészlet mennyisége soha nem lesz 0 alatt, akkor sem, ha a termék már elfogyott és további mennyiség került megrendelésre</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Itt határozhatja meg, hogy egy termékre leadott értékelés hány napig lesz a shopban látható.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Az Online adószám-ellenőrzés minden esetben aktív, ha egy ügyfél külföldről (de az EU-n belül) az adószámát beírja. Ha az adószám érvényes, akkor akkor az ügyfél a Nettó árakat látja.<br />Ha az ellenőrzés ki van kapcsolva, akkor az az ügyfél is nettó árat lát, ha ő nem viszonteladó.',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Itt állíthat be az adószámellenőrzéshez egy alternatiív URL-t, ha az ellenőrzés nem működik a rendes URL-en, a program megkísérli az ellenőrzést az alternatív URL-en keresztül lebonyolítani.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Átalakakítja a webáruházát egy zártkörű áruházzá. Ezen a módon létrehoz Egy privát, vagy zártkörű csoportot.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Lehetővé teszi, hogy termékeket csak kizárólag főkategóriákból lehet a kosárba tenni. A főkategória váltása esetén a vásárló arra kényszerül, hogy a kosár tartalmát vagy megveszi, vagy az törlésre kerül.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Ha ez az opció aktív, akkor a kosár tartalma az Ön által meghatározott időn belül érvényességét veszti.  <br><br>Ebből eredően, ez az opció bekapcsolja  a termék rezerválását, amivel a termék raktárkészlete először foglalt lesz,és majd csak a kosár tartalmának feloldása után lesz levonva a raktárkészletből a megfelelő mennyiség. A lejárt kosarakban szereplő termékek mennyisége a raktárkészlethez újra hozzáadódnak.<br><br>A megvásárolt kosarak termékek mennyisége végérvényesen le lesz vonva a raktárkészletből.',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Ha a beállított másodpercek eltelte után a kosár tartalma nem változik, akkor a a kosár tartalma automatikusan kiürül,és az abban lévő termékek visszaíródnak a raktárkészlethez.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Itt engedélyezheti azt, hogy a felhasználók meghívhatják-e az ismerőseiket bónuszpontokért cserébe, amennyiben a meghívottak regisztrálják magukat a shopban. A gyüjtött bónuszpontok a mindenkori fehasználó profiljában van tárolva, és Ön mint tulajdonos, az üzleti politikájától függően számíthatja be ezeket.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Bónuszpontok mennyisége, amit a meghívót küldő ügyfél kap, ha a meghívott regisztrálja magát.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Bónuszpontok mennyisége, amit a meghívót küldő ügyfél kap, ha a meghívott regisztrálja magát.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Figyelem! A gyakorlatban a MasterCard és a VISA Bankkártyáknál kötött szerződésekben kifejezetten tilos az adatok tárolása.',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'A megrendelés folyamatának 4. lépésénél kiegészítőleg megjelenik a CMS-oldal "oxtsinternationalfees".',
@@ -115,27 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'A letölthető termékek fáljainak az elérési útja.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Itt adhatja meg azt, hogy egy megrendelés után hányszor használható fel a letöltési link a vásárló számára. Ez lesz az alapbeállítás az összes letölthető termékre. Ezt az értéket felülírhatja az összes terméknél. Az adott Termék -> letöltések ->  További opciók.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Itt adhatja meg azt, hogy egy megrendelő, aki regisztrálás nélkül vásárolt, hányszor használhatja fel a letöltési linket. Ez lesz az alapbeállítás az összes letölthető termékre. Ezt az értéket megváltoztathatja az összes terméknél. Termék -> letöltések ->  További opciók.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Adja meg óraszámban azt az értéket,ameddig a letöltési link a megrendelés után érvényes. Ez lesz az alapbeállítás az összes letölthető termékre. Ezt az értéket megváltoztathatja az összes terméknél. Termék -> letöltések ->  További opciók.',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Adja meg óraszámban azt az értéket, ameddig a letöltési link érvényes az első letöltés után. Ezt az értéket megváltoztathatja az összes terméknél. Termék -> letöltések ->  További opciók.',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Itt állíthatja be, hogy mi jelenjen meg a kezdőlapon: <ul><li><span class="navipath_or_inputname">Shop-választási lista</span>: Egy olyan oldal jelenik meg, ahol az ügyfél több áruház között választhat.</li><li><span class="navipath_or_inputname">Főáruház</span>: Az alapértelmezett áruház jelenik meg.</li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Önnek lehetősége van arra, hogy az összes termékhez felárat határozzon meg: Adja meg a megfelelő felárat és adja meg a választási listát ahhoz, hogy %-os vagy abszolút (<span class="userinput_or_code">%</span>)(<span class="userinput_or_code">abs</span>) érték legyen kiszámítva.',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Az áruházban a legújabb termékek listája is megjeleníthető. Itt állíthatja be, hogy a lista miként lesz generálva:<ul><li><span class="userinput_or_code">kikapcsolva</span>: Ez a lista nem jelenik meg.</li><li><span class="userinput_or_code">kézi</span>: a <span class="navipath_or_inputname">ügyfélinformációk -> Akciók kezelése</span> akcióknál <span class="navipath_or_inputname"> most érkezett</span> beállítani, hogy mely termékek kerüljenek ebbe a listába.</li><li><span class="userinput_or_code">automatikus</span>: A legújabb termékek automatikusan lesznek generálva.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Az áruházban megjeleníthető a leggyakrabban értékesített termékek listája (Top of the Shop). It állíthatja be, hogy a lista miként lesz generálva:<ul><li><span class="userinput_or_code">kikapcsolva</span>: A lista nem jelenik meg.</li><li><span class="userinput_or_code">kézi</span>: az <span class="navipath_or_inputname">Ügyfélinformációk -> Akciók kezelése</span> akciók <span class="navipath_or_inputname">Topseller</span>-hez rendelheti azokat a termékeket, amelyek a listában megjelennek.</li><li><span class="userinput_or_code">automatikus</span>: A leggyakrabban értékesített termékek listája automatikusan lesz kiszámítva.</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Ha ez a beállítás aktív, akkor a kategória navigációnál a teljes kategóriafa jelenik meg (Mineden kategória és alkategória kibontva \'látható\'). Ez a beállítás csak akkor működik, ha kategórianavigáció<span class="warning_or_important_hint">nem</span> fent jelenik meg.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Rendes esetben a puffertároló időről-időre ürítésre kerül, amíg ön a shop adminisztrációban változásokat eszközöl. Ez lelassíthatja a rendszer működését az áruház adminisztrációs felületén. Ha azonban ezt a beállítás aktív, akkor a puffertároló tartalma csak akkor törlődik, ha ön az adminisztrációból kijelentkezik.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Minden egyes oldalnak van elnevezése, amelyet az Ön böngészője a böngésző ablak címeként jelenít meg. A <span class="navipath_or_inputname">Oldalcím előtag</span> és <span class="navipath_or_inputname">Oldalcím utótag</span> beírásakor lehetősége van arra, hogy a az Ön által megadott szöveg jelenjen meg az Oldalcím állandó elő- és utótagjaként:<br /><ul><li>Írja be a <span class="navipath_or_inputname">Oldalcím előtag</span> mezőbe azt a szöveget amelynek az oldalcím előtt kell megjelennie.</li><li>Írja be a  <span class="navipath_or_inputname">Oldalcím utótag</span> mezőbe azt a szöveget amelynek az oldalcím után kell megjelennie.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Minden egyes oldalnak van elnevezése, amelyet az Ön böngészője a böngésző ablak címeként jelenít meg. A <span class="navipath_or_inputname">Oldalcím előtag</span> és <span class="navipath_or_inputname">Oldalcím utótag</span> beírásakor lehetősége van arra, hogy a az Ön által megadott szöveg jelenjen meg az Oldalcím állandó elő- és utótagjaként:<br /><ul><li>Írja be a <span class="navipath_or_inputname">Oldalcím előtag</span> mezőbe azt a szöveget amelynek az oldalcím előtt kell megjelennie.</li><li>Írja be a  <span class="navipath_or_inputname">Oldalcím utótag</span> mezőbe azt a szöveget amelynek az oldalcím után kell megjelennie.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Ha a kategória- és termékmegnevezések több szóból állnak, akkor elválasztójelet használunk, szavak közti szóköz helyettesítéseként. Pl.: www.ihronlineshop.de/Kategorie-aus-mehreren-Worten/Artikel-aus-mehreren-Worten.html<br />Ha nem ad meg elválasztójelet, akkor a program - kötőjelet alkalmaz elválasztójelként.',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Ha több teméknek azonos neve van egy kategóriában, akkor ezek a termékek azonos SEO URL-alatt lennének elérhetők. Ezt elkerülendő, egy ún. SEO utótagot határozhatunk meg, amely a termék neve mögött szerepel. Így elkerülhetjük az azonos SEO URL-ket. Ha nem ad meg SEO utótagot, akkor <span class="filename_filepath_or_italic">oxid</span> szó jelenik meg alapértelmezett SEO utótagként.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Bizonyos oldalak számára (pl.: ÁSZF) állandó keresőbarát URL-t határozhatunk meg. Ha Ön kiválaszt egy statikus URL-t akkor a mezőben a <span class="navipath_or_inputname">Standard URL</span> az alapértelmezett URL jelenik meg. Az alábbi beviteli mezőkben minden használatban lévő nyelvre vonatkozóan meghatározhat egy keresőbarát URL-t.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Amíg ez a beállítás <span class="warning_or_important_hint">nem</span> aktív, az áruház alsó részén bizonyos információk jelennek meg a különböző oldalak betöltésekor. Ezenkívül megjelennek Debug-informaciók is, amelyek fejlesztők számára fontosak a program testreszabásánál.<br /><span class="warning_or_important_hint">Aktíválja ezt a beállítást mielőtt az áruház online működésbe lépne, hogy a látogatók csak a számukra fontos információkat lássák.</span>',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Ezzel a beállítással: <span class="navipath_or_inputname">Aktiv</span> lehetséges az áruház ki- és bekapcsolása. Ha az áruház offline van, az ügyfelei jelzést kapnak arról, hogy az online áruház ideiglenesen nem elérhető. Ez hasznos lehet a program karbantartása esetén.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Az adott termék részleteinek megjelenítéséhez megadhat egy másik sablont. Ehhez írja be a megjelenítendő sablon nevét, és annak elérési útját.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Ha a termék testreszabható, akkor a termékrészleteknél és a kosárban megjelenik egy szövegbeviteli mező, ahol a vásárló beírhatja a neki tetsző szöveget, mellyel a terméket testreszabja.<br /><br />Egy tipikus példa erre a nyomtatható T-Shirts. Ebbe a mezőbe kerül az a szöveg, amellyel a poló nyomtatásra kerül.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Az árak megváltoztathatók egy meghatározott időpontban. Az itt megadott árak aktualizálják az alapértelmezett árat. Ha az érték "0", akkor az alapár nem változik.',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Adja meg a letöltési link érvényességi idejét órákban, amely az első letöltés után érvényes. Ezzel felülírhatja az alapértemezett beállítást, amelyet a Törzsadatok  -> Alapbeállítások -> Beállítások. -> A letöltési link érvényességi ideje az első letöltés után - határozott meg.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Az ikonok a legkisebb képek egy termékről. Az ikonok  pl.: Vásárlókosárban láthatók. <br />Ha egy ikont kézzel feltölt, akkor az automatikusan generált ikont felülírja.<br />A feltöltés után a --- helyett a feltöltött kép neve jelenik meg.<br />További információkat itt találhat: <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/artikelbilder-grundlagen" target="_blank">Artikelbilder-Kapitel des Handbuchs</a>.',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'A bélyegképek nagyobbak az ikonoknál és pl. a terméklistában jelennek meg. <br />Ha egy bélyegkép kézzel kerül feltöltésre, akkor az automatikusan generált bélyegképek felülírásara kerülnek..<br />A feltöltés után a --- helyett a feltöltött kép neve jelenik meg.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'A termékképek a termékrészleteknél jelennek meg. Termékenként 7 kép feltöltésére van lehetőség.  A feltöltés után a --- helyett a feltöltött kép neve jelenik meg. <br />Célszerű a termékképet a maximális felbontással feltölteni, mert a nagyított képek, a bélyekképek és az ikonok ebből generálódnak.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'A nagyított képek a termékrészleteknél használatosak, és a termékképeknél látható nagyítás jelre (X) kattintva jelennek meg.',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'A beállítás öröklődik az alapterméktől, és a teljes termékre érvényes.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'Itt állíthatja be, hogy mi történjék akkor, ha egy termék elfogyott:<br /><ul><li>Alapértelmezett: A termék akkor is megrendelhető, ha elfogyott.</li><li>Másik raktár: A termék mindig megvásárolható, és a <span class="filename_filepath_or_italic">Raktáron</span> jelenik meg. (Egy másik raktári készlet nem jeleníthető meg, ezért jelenik meg a "Raktáron" jelzés).</li><li>Ha elfogyott: offline: A termék nem jelenik meg a vásárlói oldalon, ha elfogyott.</li><li>Ha elfogyott, nem megrendelhető: A termék megjelenik a vásárlói oldalon akkor is, ha elfogyott, de nem vásárolható.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'A termék fájljai letölthetők.',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'A <span class="navipath_or_inputname">Mennyiségtől/-ig</span> állíthatja be, hogy a lépcsős árak milyen mennyiségi tartományra érvényesek.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Itt állíthatja be a megadott mennyiségekre vonatkozó <span class="navipath_or_inputname">Árakat </span> Két lehetőség van: az ár megadása abszolút vagy százalékos értékben.',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => 'A <span class="navipath_or_inputname">variáns neve</span>-nél beállíthatja, hogy mi legyen a kiválasztott variáns neve. Pl.: <span class="userinput_or_code">Szín</span>, vagy <span class="userinput_or_code">Méret</span>.',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'A <span class="navipath_or_inputname">rejtett</span> négyzet bekattintásával a felhasználók számára rejtve marad az adott kategória akkor is, ha a kategória aktív.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'A <span class="navipath_or_inputname">Kategóriába, mint alkategória</span> mezőben állíthatja be azt, hogy hol jelenjen meg az adott kategória:<ul><li>Ha a kategóriát főkategóriaként szeretné beállítani, akkor válassza a <span class="userinput_or_code">--</span> beállítást.</li><li>Ha a kategória alkategóriaként lesz beállítva, akkor válassza ki azt a kategóriát, amelynek részeként az alkategória megjelenik.</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'A <span class="navipath_or_inputname">Külső Link</span> mezőben megadhat egy linket, amely az adott kategóriára kattintva megnyílik. <span class="warning_or_important_hint">Figyelem! A kategória elveszti ezáltal a normális fukcióját!</span>',
 
@@ -302,11 +302,11 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Ez a leírás jelenik meg a HTML-forráskódban (Meta Description). Ez a szöveg jelenik meg a keresőrobotok keresési eredményeiben. Itt adhatja meg a CMS-oldalnak megfelelő leírást. Amennyiben nem ad meg semmit, a leírás automatikusan generálódik.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Itt adhatja meg azt, hogy a megrendelésnél a termék áránál szereplő Felár/árengedmény milyen módon legyen kiszámítva<br /><ul><li>Egyszer kosaranként: Az ár egyszer a megrendelés teljes összegére vonatkozóan lesz kiszámítva.</li><li>Egyszer különböző termékenként: Az ár egyszer, minden egyes különböző termékre vonatkozóan lesz kiszámítva. Hányat vásárolnak egy termékből, az ez esetben mindegy.</li><li>Minden termékre vonatkozóan: Azaz az ár, minden egyes termék esetén ki lesz számolva.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'A <span class="navipath_or_inputname">Feltétel</span>-nél állíthatja be, hogy szállítási szabály egy bizonyos feltételre vonatkozik. Ön 4 feltétel között választhat.:<br /><ul><li>Mennyiség: A kosárban lévő termékek száma.</li><li>Méret: A kosárban lévö összes termék összmérete.</li><li>Súly: A megrendelés összsúlya Kg-ban.</li><li>Ár: A megrendelés összértéke.</li></ul>A beviteli mezőknél tudja a <span class="navipath_or_inputname">>=</span> (nagyobb egyenlő) és <span class="navipath_or_inputname"><=</span> (kisebb egyenlő) tartományt beállítani, ahol a feltételek érvényesek. A <span class="navipath_or_inputname"><=</span>-nál nagyobb értéknek kell szerepelnie, mint amennyi a <span class="navipath_or_inputname">>=</span>-nál van megadva.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Az <span class="navipath_or_inputname">ár felár/engedmény</span>-nél adhatja meg, hogy milyen magasak a szállítási költségek. Az ár kétféleképpen adható meg:<ul><li><span class="userinput_or_code">abs</span> az ár abszolút értékben van megadva (pl.: a <span class="userinput_or_code">6,90</span> esetén 6,90 Euro lesz kiszámítva).</li><li><span class="userinput_or_code">%</span> az ár a vásárlási érték viszonylatában relatív lesz megadva(Pl.:<span class="userinput_or_code">10</span> érték esetén, a vásárlási érték 10%-a lesz kiszámolva).</li></ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'A <span class="navipath_or_inputname">Kiszámítások sorrendje</span>-nél határozhatja meg, hogy milyen sorrendben legyen a szállítási szabályok kiszámolva: A szállítási szabályoknál a legkisebb érték lesz először kiszámolva. A sorrend fontos, különösen akkor, ha a beállításnál a  <span class="navipath_or_inputname">További kiszámítási szabályok mellőzése</span> van beállítva.',
 
@@ -320,7 +320,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'A <span class="navipath_or_inputname">Vásárolt mennyiség</span>-nél állíthatja be, hogy az árcsökkentés a vásárolt mennyiségre vonatkozóan érvényes. Ha azonban az engedmény minden vásárlási mennyiségre érvényes, akkor adja meg <span class="navipath_or_inputname">tól</span> és <span class="navipath_or_inputname">ig</span> a <span class="userinput_or_code">0</span> értéket.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'Az <span class="navipath_or_inputname">Engedmény</span>-nél állíthatja be a kedvezmény mértékét. A beviteli mező után álló listából választhatja ki, hogy az engedmény aszolút vagy százalékos legyen-e. Az itm választásakor egy terméket adunk ajándékként, amelyet a Termék kiválasztása gombra kattintva választhat ki:<ul><li><span class="userinput_or_code">abs</span>: Az engedmény abszolút, pl.: 5 Euro.</li><li><span class="userinput_or_code">%</span>: Az engedmény százalékos: pl.: 10 %-a a vásárlás összegének.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Egy termék számára különböző SEO URL-t határozhatunk meg: Egyet a meghatározott kategóriához, valamint egy a termék gyártójához. <span class="navipath_or_inputname">Aktív kategória/Gyártó</span> meg tudja határozni, hogy melyik SEO-URL-t szeretné testreszabni.',
 
@@ -346,9 +346,9 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Az <span class="navipath_or_inputname">Alapértelmezett</span> aktiválásával tudja meghatározni az alapértelmezett fizetési módot, ha a vásárló a megrendelés 3. lépésében különböző fizetési mód között választhat.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'A <span class="navipath_or_inputname">Vásárlási érték</span>-nél állíthatja be, hogy a fizetési mód csak egy meghatározott vásárlási értékre vonatkozik. A <span class="navipath_or_inputname">tól</span> és <span class="navipath_or_inputname">ig</span> mezőkben megadott értékekkel tudja a vásárlási értéktartományt pontosan meghatározni.<br />Ha a fizetési mód az összes vásárlási értékre érvényes, akkor a <span class="navipath_or_inputname">tól</span> mezőbe írjon<span class="userinput_or_code">0</span> értéket, és a <span class="navipath_or_inputname">ig</span> mezőbe <span class="userinput_or_code">999999999</span>értéket.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'Az <span class="navipath_or_inputname">Felár/engedmény</span>-nél határozzuk meg a fizetési mód költségét. A költség kétféle módon határozható meg:<ul><li>Az <span class="userinput_or_code">abs</span> mezőben a költség abszolút értékben történik. (Pl.: Ha ön <span class="userinput_or_code">7,50</span>-et ad meg, akkor 7,50 Euro lesz számolva).</li><li>A <span class="userinput_or_code">%</span> mezőnél a fizetési mód költsége a vásárlási érték százalékos értéke ár (pl.: Ha ön <span class="userinput_or_code">2</span>-t ad meg, akkor a vásárlási ár 2%-a lesz a fizetési mód költsége).</li></ul>Ön megadhat negatív értéket is, a megadott érték levonódik: Pl.: <span class="userinput_or_code">-2</span> értéknél <span class="userinput_or_code">%</span>-t választja, akkor a vásárlási érték 2%-a le lesz vonva a vásárlási értékből.',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'A felár/engedmény kiszámításához mindig a kosárérték szolgál alapösszegként. Határozza meg, hogy milyen költségek járulnak a Vásárlókosár értékéhez.',
 
@@ -356,9 +356,9 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'A <span class="navipath_or_inputname">Mezők</span>-nél az összes meghatározott kiszerelés jelenik meg a kiválasztási listában. A <span class="navipath_or_inputname">Mezők</span> mellett jobbra hozhatja létre az új variánsokat.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Itt az jelenik meg, hogy a felhasználó rendelkezik-e jelszóval. Ebből meg tudja állapítani, hogy a felhasználó regisztrálta magát, vagy sem:<ul><li>Ha egy jelszó létezik, akkor a felhasználó regisztrálta magát.</li><li>Ha nincs jelszó, akkor a vásárló rendelt ugyan, de regisztráció nélkül.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'A fizetés fülön elvégezheti a következőket:<ul><li>A felhasználó fizetési módjait megjeleníteni, és kezelni.<li>Új fizetési módokat létrehozni, alapértelmezett értéket definiálni pl.: Banki levonás/Banki terhelés.</li></ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Itt jelenik meg az, hogy a felhasználó megrendelte-e a hírlevél szolgáltatást, vagy sem.',
 
@@ -376,7 +376,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Ez a beállítás meghatározza, hogy megjelenjen-e az utótag az ablakcímben, ha a gyártó oldalt nézi a felhasználó. Az oldalcím utótagját (Suffix) a <span class="navipath_or_inputname">Törzsadatok -> Alapbeállítások -> SEO -> Oldalcím utótag</span>-nál állíthatja be.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'Az <span class="navipath_or_inputname">Engedmény</span>-nél állítja be, hogy mekkora legyen az ármérséklés mértéke. A beviteli mező után választhatja ki, hogy az engedmény abszolút, vagy százalékos legyen:<ul><li><span class="userinput_or_code">abs</span>: Az engedmény abszolút, pl. 5 Euro.</li><li><span class="userinput_or_code">%</span>: vagy az engedmény százalékos, pl. 5, azaz a vásárlási érték 5%-a vonódik le az árból.</li></ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Itt állíthatja be azt, hogy a felhasználó több utalványt használhat fel egy sorozatból, vagy sem.',
 
