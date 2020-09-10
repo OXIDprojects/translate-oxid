@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Naziv',
     'NEWS_LIST_MENUITEM'                             => 'Podatki o stranki',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Novice',
     'NEWS_MAIN_SHORTDESC'                            => 'Naziv',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => '',
     'mxmainmenu'               => 'Glavne nastavitve',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Novice',
     // END deprecated
     'mxorders'                 => '',
     'mxpaymeth'                => '',
