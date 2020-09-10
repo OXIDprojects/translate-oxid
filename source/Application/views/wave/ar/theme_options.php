@@ -86,7 +86,7 @@ $aLang = array(
     'SHOP_THEME_iNewBasketItemMessage_3'            => '',
 
     'SHOP_THEME_blShowListDisplayType'              => '',
-    'HELP_SHOP_THEME_blShowListDisplayType'         => '',
+    'HELP_SHOP_THEME_blShowListDisplayType'         => 'أن تقرر إذا كان الزائر لتخزين الخاص بك يمكن تحديد نوع قائمة المنتجات في مخزن جبهة. إذا لم يتم تنشيط هذا الخيار، سوف ترى الزوار قوائم عرض مثل يمكنك تعديله في مربع القائمة "نوع قائمة المنتج الافتراضي".',
     'SHOP_THEME_sDefaultListDisplayType'            => '',
     'SHOP_THEME_sDefaultListDisplayType_grid'       => 'خطوط الشبكة',
     'SHOP_THEME_sDefaultListDisplayType_line'       => '',
