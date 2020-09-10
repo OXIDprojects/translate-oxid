@@ -23,11 +23,11 @@
 $aLang =  [
 'charset'                                     => '',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Możesz tutaj ustawić czy zamówienia mogą być składane z państw które nie posiadają zdefiniowanych kosztów dostawy:<ul><li>Jeśli jest to zaznaczone, użytkownicy mogą zamawiać i są informowani o indywidualnie wyliczanych kosztach dostawy.</li><li>Jeśli odnaczone, użytkownicy z krajów dla których koszty te nie są ustalone, nie mogą składać zamówień.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Jeśłi zaznaczone, większość elementów nawigacyjnych zostaje ukryta podczas procesu składania zamówienia.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Rekomendowane ustawienia 40-80:<br><ul><li>Poniżej 40, kompresja zaczyna byćzauważalna i zdjęcia są zamazane.</li><li>Powyżej 80, wzrost jakości niezauważalny, a rozmiar pliku wzrasta znacząco.</li></ul><br>Standardowa wartość to 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Proszę edytować plik core/oxldap.php.',
 
@@ -35,7 +35,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'W panelu administracyjnym dużo jest wyświtlanych list w których można przypisywać produkty. Jeśli ta opcja będzie zaznaczona, warianty również będą tam widoczne.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Czy produkt nadrzędny może być kupowany?<ul><li>jeśli zaznaczone, produkt nadrzędny może zostać zakupiony.</li><li>Jeśli nie zaznaczone, tylko wybrany wariant może zostać zakupiony.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Jeśli zazanaczone, skalowanie ceny rownież używane przy wariantach produktu.',
 
@@ -55,23 +55,23 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Ustawia czas życia layoutu strony w sekundach. Zostanie to zamieszczone w nagłówkach HTTP, w znaczniku "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Jeśil aktywowane, użytkownik dostaje e-mail z linkiem potwierdzającym podczas rejestracji na newsletter. Dopiero po kliknięciu w link z tej wiadomości użytkownik jest rejestrowany w bazie newslettera.<br>Zabezpiecza to przed niechcianymi rejestracjami na newsletter oraz fałszywymi adresami email.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Dzięki produktom powiązanym, można prezentować produkty o podobnej tematyce do danego produktu którymi użytkownik również może być zainteresowany. Np. dla samochodu produktem powiązanym mogą być opony.<br>Jeśli włączone są dwukierunkowe produkty powiązane, również na stronie opon samochód zostanie zaprezentowany.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Dla każdego produktu może zostać zdefiniowany komunikat jeśli produkt dostępny jest na magazynie.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Dla każdego produktu może zostać zdefiniowany komunikat jeśli produkt nie jest dostępny na magazynie.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Można skonfigurować ceny dla konkretnyh użytkowników. Jeśli uzupełnione zostaną pola Cena A, Cena B bądź Cena C - użytkownicy należący do danej grupy użytkowników (Grupa A, Grupa B. Grupa C) zobaczy na stronie odpowiednią cenę.<br>Jeśli zaznaczone, standardowa cena zostanie wyświetlona jeśli nie jest skonfigurowana Cena A, B lub C.<br>',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Tutaj wybierane są pola tabeli w bazie danych, które są uwzględniane podczas wyszukiwania produktów.Najpopularniejsze:<ul><li>oxtitle = Tytuł</li><li>oxshortdesc = Krótki opis</li><li>oxsearchkeys = słowa kluczowe przypisane do produktu</li><li>oxartnum = numer produktu</li><li>oxtags    = tagi</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Pola po których można sortować produkty w panelu administracyjnym.<br>Najpopularniejsze:<ul><li>oxtitle = Tytuł</li><li>oxprice = Cena</li><li>oxvarminprice = Najniższa cena jeśli są warianty z różnymi cenami.</li><li>oxartnum = Numer produktu</li><li>oxrating = Oceny produktu</li><li>oxstock = Stan magazynowy</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Pola obowiązkowe podczas rejestracji użytkownika.<br>Najpopularniejsze:<ul><li>oxuser__oxfname = imię</li><li>oxuser__oxlname = nazwisko</li><li>oxuser__oxstreet = ulica</li><li>oxuser__oxstreetnr = numer domu</li><li>oxuser__oxzip = kod pocztowy</li><li>oxuser__oxcity = miasto</li><li>oxuser__oxcountryid = kraj</li><li>oxuser__oxfon = telefon</li></ul><br>Można zdefiniować również pola obowiązkowe jeśli inny adres dostawy jest ustawiony, np:<ul><li>oxaddress__oxfname = imię</li><li>oxaddress__oxlname = nazwisko</li><li>oxaddress__oxstreet = ulica</li><li>oxaddress__oxstreetnr = numer domu</li><li>oxaddress__oxzip = kod pocztowy</li><li>oxaddress__oxcity = miasto</li><li>oxaddress__oxcountryid = kraj</li><li>oxaddress__oxfon = telefon</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Z opcją <span class="navipath_or_inputname">Ujemne stany magazynowe</span> możesz zdefiniować jak mają być liczone stany magazynowe produktów które są niedostępne w magazynie:<br><ul><li>Jeśli zaznaczone, ujemne wartości są przyjmowane jeśli produkt zostaje kupiony.</li><li>Jeśli odznaczone, snat magazynowy produktu nigdy nie spadnie poniżej zera.</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
@@ -85,26 +85,26 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Jeśli użytwnik raz oceni produkt, nie będzie mógł ocenić go ponownie. Tutaj możesz zdefiniować po ilu dniach możliwe będzie wystawienie kolejnej oceny. Jeśli puste - użytkownik będzie mógł ocenić tylko raz.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Używane do walidacji poprawności numeru NIP',
 
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Podajemy alternatywny adres skryptu badającego poprawność numeru NIP.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Dzięki tej opcji, dostęp do stron systemu będą mieli tylko zalogowaniu użytkownicy.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Opcja ta, powoduje że użytkownik może zamieścić w koszyku produkty z tylko jednej kategorii. Jeśli wykryta zostanie zmiana kategorii, użytkownik zostanie zapytany, czy chce dokończyć proces kupowania tych produktów czy kontynuować zakupy (wtedy zawartość koszyka jest usuwana).',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Stan magazynowy produktu zmniejszany jest w momencie kiedy zamówienie potwierzdone jest przez użytkownikai proces składania zamówienia jest zakończony.<br><br> Jeśli włączone, stan magazynowy zmniejszany jest już w momencie zamieszczenia go w koszyku, co pozwala na zrobienie <b>rezerwacji</b>',
 
 'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Czas po jakim rezerwacje są anulowane, czyli koszyk klienta jest czyszczony i przywracany stan magazynowy.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'Zaproszenia używane do zaprszania znajomych i zbierania punktów za zaproszenia.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Punkty przyznawane są po zarejestrowaniu się zaproszonego użytkownika.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Punkty przyznawane są po zarejestrowaniu się zaproszonego użytkownika.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Uwaga: Nawet jeśli szyfrowanie jest włączone, karty kredytowe zabraniają tego!',
 // END deprecated
 
 'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'W czwartym kroku procesu zakupowego strona CMS "oxtsinternationalfees" zostanie dodatkowo wyświetlony.',
@@ -115,27 +115,27 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Ścieżka gdzie przechowywane będą pliki do pobrania.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Tutaj definiujemy ile razy jeden użytkownik może pobrać dany produkt po zakupie.Standardowa wartość ustawiana w  Zarządzaj produktami -> Produkty -> Pobrania.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Tutaj definujemy ile razy plik może być pobrany z tego samego linku po zakupie przez użytkownika niezarejestrowanego',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Czas aktywności linku pliku do pobrania.',
 
 'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Czas aktywności linku pliku do pobrania.',
 
 'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Wybierz co ma być widoczne na stronie startowej sklepu:<ul><li><span class="navipath_or_inputname">Wybór sklepu</span>: Strona na której użytkownik wybiera do którego sklepu chce wejść.</li><li><span class="navipath_or_inputname">Strona główna głównego sklepu</span></li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Możesz zdefiniować dopłatę do wszystkich produktów: procentową (<span class="userinput_or_code">%</span>) bądź (<span class="userinput_or_code">kwotową</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Lista najnowszych produktów widoczna jako <span class="filename_filepath_or_italic">Nowości!</span>. Tutaj ustawiasz jak tworzona jest ta lista:<ul><li><span class="userinput_or_code">wyłączone</span>: brak listy.</li><li><span class="userinput_or_code">ręcznie</span>: wskazujesz w <span class="navipath_or_inputname">Informacje klienta -> Promocje -></span> które produkty mają się tam znaleźć.</li><li><span class="userinput_or_code">automat</span>: produkty dodawane są tam automatycznie.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Lista  <span class="filename_filepath_or_italic">Najczęsciej sprzedawanych</span>. Tutaj ustawiasz jak tworzona jest ta lista:<ul><li><span class="userinput_or_code">wyłączone</span>: brak listy.</li><li><span class="userinput_or_code">ręcznie</span>: wskazujesz w <span class="navipath_or_inputname">Informacje klienta -> Promocje -></span> które produkty mają się tam znaleźć.</li><li><span class="userinput_or_code">automat</span>: produkty dodawane są tam automatycznie.</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Jeśli zaznaczone, całe drzewo kategorii wyświetlane jest w menu na stronie publicznej(wszystkie kategorie są rozwinięte). Działa tylko wtedy jeśli kategorie nawigacyjne nie są zamieszczone na górze strony.',
 
@@ -157,11 +157,11 @@ $aLang =  [
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Normalnie cache usuwany jest jak tylko wprowadzone są zmiany w panelu administracyjnym. To może powodować problem z wydajnością. Jeśli zaznaczone, cache jest usuwany tylko wtedy gdy wylogujesz się z panelu administracyjnego.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Każda strona ma swój tytuł, który wyświetlany jest górnym pasku Twojej przeglądarki. Z polami <span class="navipath_or_inputname">Tytuł Prefix</span> oraz <span class="navipath_or_inputname">Tytuł Suffix</span> możesz zamieścić tekst który wyświetli się przed i za tytułem strony:',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Każda strona ma swój tytuł, który wyświetlany jest górnym pasku Twojej przeglądarki. Z polami <span class="navipath_or_inputname">Tytuł Prefix</span> oraz <span class="navipath_or_inputname">Tytuł Suffix</span> możesz zamieścić tekst który wyświetli się przed i za tytułem strony:',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Separator używany jest jeśli nazwy kategorii składają się z kilku słów. Separator używany wtedy jest zamiast spacji przy budowaniu adresu URL, np. www.youreshop.com/category-name-of-several-words<br>Jeśli nie nie zostanie podane, "-" będzie użyty.',
 
 'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Jeśli kilka produktów ma tą samą nazwę w tej samej kategorii, dostały by ten sam adres URL. Aby temu zapobiec SEO Suffix jest dodawany. Jeśli SEO Suffix nie jest zdefiniowany, <span class="filename_filepath_or_italic">oxid</span> jest używany.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Dla stron specjalnych, (np. regulamin) można wytworzyć specjalne adresy URL. Tworząc statyczny adres URL, standardowy URL pokazywany jest w <span class="navipath_or_inputname">Standard URL</span>. Poniżej można zdefiniować SEO URL dla każdego języka.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Jeśli to ustawienie jest <span class="warning_or_important_hint">nie</span> aktywne, informacje dotyczące czasu wykonywania i debugowania będą wyświetlane na dole każdej strony. Przydatne w stanie "deweloperskim".<br><span class="warning_or_important_hint">Aktywuj kiedy sklep jest w fazie produkcyjnej.<br>Więcej na <a href="http://wiki.oxidforge.org/Tutorials/Check_before_going_live" target="_blank">OXIDforge</a>.',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'Z opcją <span class="navipath_or_inputname">Aktywny</span> możesz włączyć/wyłączyć cały sklep. Jeśli sklep jest wyłączony, wyświetlany będzie komunikat że sklep jest tymaczsowo niedostępny.',
 
@@ -207,7 +207,7 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'Strona produktowa może być wyświetlana wg innego szablonu. Aby tak było, należy podać sćieżkę dostępu i nazwę szablonu który ma być użyty. Więcej info na <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template" target="_blank">stronie</a>.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Jeśli produkt jest konfigurowalny, dodatkowe pole tekstowe zostanie wyświetlone na stronie produktu i w koszyku. Tutaj klient może doprecyzować zamawiany produkt.<br><br>Przykład: t-shirts z nadrukowanym tekstem. Wtedy klient może podać tekst który ma zostać wydrukowany.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Ceny mogą być zmienione w zdefiniowanym czasie wg podanej tutaj wartości. Jeśli podane będzie "0", cena nie ulegnie zmianie.',
 
@@ -223,17 +223,17 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Czas w godzinach, aktywności linku po pierwszym pobraniu pliku.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Ikony są najmniejszymi zdjęciami produktu. Wyświetlane np w koszyku.<br>Załączenie ikony użytkownika nadpisze plik wygenerowany automatycznie przez system ze zdjęcia pierwszego.<br>Po wgraniu ikony, nazwa pliku będzie wyświetlana, jeśli nie było jeszcze zdjęcie załączane, wyświetlane będzie --- .<br>Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">stronie</a>.',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Miniatury małymi zdjęciami produktów. Wyświetlane np na stronie z listą produktów (kategoria, wyniki wyszukiwania).<br>Załączenie minaitury użytkownika nadpisze plik wygenerowany automatycznie przez system ze zdjęcia pierwszego.<br>Po wgraniu miniatury, nazwa pliku będzie wyświetlana, jeśli nie było jeszcze zdjęcie załączane, wyświetlane będzie --- .<br>Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">stronie</a>.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Zdjęcia wyświetlane są na stronie ze szczegółami o produkcie. Można zamieścić do 7 zdjęć produktu. Po wgraniu zdjęcia, nazwa pliku będzie wyświetlana, jeśli nie było jeszcze zdjęcie załączane, wyświetlane będzie --- <br>Zdjęcia mogą mieć maksymalnie: 2 MB lub 1500 * 1500 px rozdzielczości. Ograniczenia te są po to aby uniknąć problemów technicznych z generowaniem obrazków. Po wgraniu zdjęcia, zdjęcie główne, przybliżone, ikona i miniaturka zostaną wygenerowane automatycznie.<br>Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">stronie</a>.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Zdjęcia przybliżone (Zoom) są zdjęcia w dużej rozdzielczości, które mogą być otwierane na stronie ze szczegółami o produkcie. <br>Po wgraniu zdjęcia, nazwa pliku będzie wyświetlana, jeśli nie było jeszcze zdjęcie załączane, <span class="userinput_or_code">nopic.jpg</span> zostanie wyświetlone.<br>Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">stronie</a>.',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Ustawienie dziedziczone z produktu "macierzystego" do wariantów i stosowane do całego produktu.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'Można wybrać spośród 4 ustawień:<ul><li><span class="userinput_or_code">Standard</span>: Produkt może być zamawiany nawet jeśli jest wyprzedany.</li><li><span class="userinput_or_code">Zewnętrzny magazyn</span>: Produkt zawsze może być zamawiany, i zawsze wyświetlany jest jako dostępny (na magazynie).</li><li><span class="userinput_or_code">Jeśli wyprzedany, wyłaczony</span>: Produkt nie wyświetlany na stronie jeśli zostanie wyprzedany.</li><li><span class="userinput_or_code">Jeśli wyprzedany, nie zamawialny</span>: Produkt wyświetlany z informacją że nie jest możliwy do zamówienia.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Pliki tego produktu mogą być pobierane.',
 
@@ -255,7 +255,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'Tutaj ustawiasz przedział ilościowy w którym obowiązuje dana cena.<br>więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">stronie, rozdział: scale price article in the manual.</a>.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Tutaj podajemy cenę dla ilości ustawionych powyżej. Wartości rabatu mogą być podane kwotowo lub procentowo.<br> Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">stronie, rozdział: scale price article in the manual.</a>.',
 
 'HELP_ARTICLE_VARIANT_VARNAME'                => 'Definiuje nazwę listy wyboru, np. <span class="userinput_or_code">Kolor</span> lub <span class="userinput_or_code">Rozmair</span>.<br> Wiecej na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">stronie, rozdział: variants article in the manual</a>.',
 
@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Jeśli jest ukryta kategoria choć aktywna nie bedzie wyświetlana na stronie głównej w nawigacji.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'Ustawienie kategorii nadrzędnej:<br><ul><li>Jeśli ma to być jedna z kategorii głównych, proszę wybrać <span class="userinput_or_code">--</span>.</li><li>Jeśli ma to być podkategoria, należy wybrać kategorię nadrzędną.</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Jeśli po kliknięciu na nazwę kategorii użytkownik ma zostać przeniesiony na zewnętrzą stronę, tutaj podajemy adres URL. </span>',
 
@@ -301,11 +301,11 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'Ten opis jest zintegrowany z kodem źródłowym strony. Słowa zamieszczne w META tagach (description), które używane jest przez wyszukiwarki. Jeśli pusty, zostanie wygenerowany automatycznie',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Ustawienie to sugeruje jak często ceny mają być przeliczane:<ul><li><span class="userinput_or_code">Jednorazowo na koszyk</span>: Cena jest przeliczana raz na cały proces skłądania zamówienia.</li><li><span class="userinput_or_code">Raz dla każdego produktu z osobna</span>: Ceny przeliczane są dla każdego produktu z koszyka z osobna. Nie ma to znaczenia jaka ilość jest zamawiana.</li><li><span class="userinput_or_code">Dla każdego produktut</span>: ceny są przeliczane dla każdego produktu z koszyka.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'Można ustawić aby reguły wyliczania kosztów dostawy były stosowane do konkretnych warunków           you can specify that the shipping cost rule applies only to a certain condition. You can choose from among 4 conditions:<ul><li><span class="userinput_or_code">Amount</span>: liczby produktów w koszyku.</li><li><span class="userinput_or_code">Rozmiar</span>: Rozmiaru produktów. Wymaga to ustawienia rozmiarów produktów.</li><li><span class="userinput_or_code">Waga</span>: Waga wszystkich produktów. Wymaga to posiadania przypisanych wag do produktów.</li><li><span class="userinput_or_code">Cena</span>: Cena zamówienia.</li></ul>Można używać znaków <span class="navipath_or_inputname">>=</span> (większości) i <span class="navipath_or_inputname"><=</span> (mniejszości) do sprecyzowania zakresów.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Używane do określenia wielkości kosztów wysyłki. Cena może być wyliczana na dwa sposoby:<ul><li>kwotowo <span class="userinput_or_code">kwota</span>, kwota wyliczona bezwględnie (np.: with <span class="userinput_or_code">6.90</span>, cena EUR 6.90 zostanie przeliczona).</li><li>procentowo <span class="userinput_or_code">%</span>, cena jest wyliczana relatywnie do ceny początkowej(np.: <span class="userinput_or_code">10</span>, da 10% wartości zamówienia).</li></ul>',
 
 'HELP_DELIVERY_MAIN_ORDER'                    => 'Kolejność stosowania reguł wyliczania kosztów dostawy. Reguła z najniższą wartością sprawdzana jest pierwsza. Ma to znaczenie dla ustawienia. Kolejnośc ma znaczenie jeśli używasz opcji <span class="navipath_or_inputname">Nie sprawdzaj kolejnych reguł jeśli ta pasuje</span>.',
 
@@ -319,7 +319,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Rabat może obowiązywać dla wybranego przedziału ilości zamawianych produktów. Jeśli ma obowiązywać dla wszystkich ilości, wpisz <span class="userinput_or_code">0</span> w <span class="navipath_or_inputname">Od</span> i <span class="userinput_or_code">0</span> w <span class="navipath_or_inputname">Do</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'Tutaj możesz określić wysokość rabatu. Sposób naliczania rabatu:<ul><li><span class="userinput_or_code">kwota</span>: rabat naliczany kwotowo, np. 5 zł.</li><li><span class="userinput_or_code">%</span>: procentowo, np. 10% wartości zamówienia.</li><li><span class="userinput_or_code">itm</span>: Rabat w postaci darmowego produktu. Ustaw ilość tego produktu. Wybierz "Pomnóż" jeśli ten produkt ma być darmowy niezależnie od wybranej ilości w koszyku.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Można zdefiniować kilka SEO URL dla produktów, np dla wybranych kategorii i producentów. Dzięki <span class="navipath_or_inputname">Aktywna kategoria/dostawca</span> możesz wybrać adres który chcesz edytować.',
 
@@ -345,9 +345,9 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Należy wskazać domyślną metodę płatności.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Można zdefiniować zakres cenowy w jakim możliwe będzie użycie danej metody płatności.<br>Jeśli metoda płatności ma być dostępna zawsze, należy wskazać zakres cen pasujący do wszystkich zamówień, np: od 0 do 999999999999.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'Wartość opłaty/zniżki definiujemy w dwa możliwe sposoby:<ul><li><span class="userinput_or_code">kwota</span> podana kwota zostanie doliczona/odliczona do ceny zamówienia</li><li><span class="userinput_or_code">%</span>, cena będzie wyliczona relatywnie od ceny zamówienia, np 10% wartości zamówienia</li></ul>',
 
 'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Obliczając cenę zniżek/dopłat brana jest pod uwagę aktualna wartość w koszyku. Zdefinuj jakie koszty będą brane pod uwagę przy wyliczaniu wartości koszyka.',
 
@@ -355,9 +355,9 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Wszystkie dostępne opcje wyświetlane są na liście pól. Więcej info na <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists" target="_blank">stronie</a>.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Tutaj można wskazać czy użytkownik był zarejestrowany podczas składania zamówienia:<ul><li>Jeśli hasło jest ustawione, użytkownik jest zarejestrowany.</li><li>Jeśli brak jest hasła. użytkownik zamówił jako niezarejestrowany</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'W tej zakładce możnaOn this tab you can:<ul><li>przeglądać i zarządzać istniejącymi metodami płatności.<li>tworzyć nowe metody płatności i ustawiać jej wartości</li></ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'Pokazuje czy dany użytkownik jest zapisany na newsletter czy nie.',
 
@@ -375,7 +375,7 @@ $aLang =  [
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Proszę podać suffix który dodawany będzie w tytule strony, wyświetlanej w pasku tytułowym okna przeglądarki na stronie producenta.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'Proszę wybrać jak ma być wyliczany rabat:<ul><li><span class="userinput_or_code">kwota</span>: wartość rabatu kwotowa, np w wysokości: 5 zł.</li><li><span class="userinput_or_code">%</span>: procentowo, np. 10% wartości zamówienia.</li></ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Czy można użyć kilka kuponów jednocześnie pochodzących z jednej serii podczas jednego zamówienia.',
 
