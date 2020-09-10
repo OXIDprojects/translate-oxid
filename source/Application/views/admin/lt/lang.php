@@ -762,7 +762,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'MAIN_INFO'                                      => 'Informacija',
     'MR'                                             => 'Ponas',
     'MRS'                                            => 'Ponia/Panelė',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Sveiki atvykę į OXID el. parduotuvės administravimo aplinką. Tai pagrindinių sričių ir funkcijų valdymas.',
     'NAVIGATION_TITLE'                               => 'Navigacija',
     'NAVIGATION_ESHOPADMIN'                          => 'El. parduotuvės administravimas',
     'NAVIGATION_LOGOUT'                              => 'Atsijungti',
@@ -770,13 +770,13 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'NAVIGATION_PAGE'                                => 'Puslapis',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versija %s yra pasiekiama.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => '',
-    'NEWS_LIST_MENUITEM'                             => 'Inform. klientams',
+    'NEWS_LIST_TITLE'                                => '[OXID Naujienų administravimas]',
+    'NEWS_LIST_SHORTTEXT'                            => 'Trumpas aprašymas',
+    'NEWS_LIST_MENUITEM'                             => 'Informacija klientams',
     'NEWS_LIST_MENUSUBITEM'                          => 'Naujienos',
-    'NEWS_MAIN_SHORTDESC'                            => '',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHORTDESC'                            => 'Antraštė',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Matomos šioms grupėms',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Nematoma šioms grupėms',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Mėgstamiausi',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ keisti ]',
@@ -850,7 +850,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'ORDER_REMARK_ORDER'                                 => '[Užsakymas]',
     'ORDER_REMARK_USER'                                  => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Naujienos]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => '',
     'ORDER_OVERVIEW_VATID'                               => 'PVM:',
@@ -1085,7 +1085,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => '',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'TTS puslapių katalogas',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Naujienų skaičius rodomas parduotuvės puslapyje',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Datos formatas administravime',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Skaičiuoti pristatymo kainą net jei klientas neprisijungęs',
@@ -1122,7 +1122,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Naudoti standartinius likučio pranešimus',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Išsaugoti kreditinių kortelių informaciją duomenų bazėje',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => '',
@@ -1243,7 +1243,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen ar fsockopen to port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend suderinamumas(PHP4) rėžimas turi būti išjungtas',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHP versija nuo 5.2.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI rėžimas',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1255,7 +1255,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL modulis MySQL 5 versijai',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL versija 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] taip pat JPEG',
@@ -1343,7 +1343,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'TOOLTIPS_NEWDELIVERY'                    => 'Sukurti naują pristatymo kainą',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Sukurti naują prist. kainų grupę',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Sukurti naują žinutę',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Sukurti naują kupono seriją',
     'TOOLTIPS_NEWCATTREE'                     => 'Perindeksuoti kategorijų medį',
@@ -1400,7 +1400,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'USER_REMARK_ORDER'                       => '[Užsakymas]',
     'USER_REMARK_USER'                        => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Naujienos]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Vartotojų valdymas',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Grupės',
@@ -1479,8 +1479,8 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SHOP_PERF_LOADCURRENCY'                  => 'Rodyti valiutas',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Rodyti kalbas',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Rodyti naujienų sąrašą',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Rodyti naujienų sąrašą tik pirmame (pagrindiniame) puslapyje',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Rodyti prekių variantus sąrašuose: paieška, prekių kategorijos ir kt. Dėmesio: lėtina sistemos darbą',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Rodyti gamintojų sąrašą',
@@ -1654,8 +1654,8 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     //languages
     'tbcllanguage_main'        => 'Pagr. duomenys',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_main'            => '',
-    'tbclnews_text'            => 'Aprašymas',
+    'tbclnews_main'            => 'Pagr. duomenys',
+    'tbclnews_text'            => 'Tekstas',
     // END deprecated
     //  order_list',
     'tbclorder_overview'       => 'Bendrai',
