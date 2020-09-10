@@ -207,7 +207,9 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'La visualizzazione dei dettagli di un prodotto può essere visualizzata con un template diverso. A tal fine, immettere il percorso e il nome del template da utilizzare.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Se il prodotto è personalizzabile, viene visualizzato un campo di input aggiuntivo nella pagina dei dettagli dei prodotti e nel carrello. Qui i clienti possono inserire un testo per personalizzare il prodotto. 
+
+Un tipico esempio sono le t-shirt che possono essere stampate con testo personalizzato. Nel campo di input i clienti possono inserire il testo da stampare sulla t-shirt.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'I prezzi possono essere modificati in un tempo definito. I campi forniti aggiornano i prezzi standard. Se lasci i valori di prezzo "0", i prezzi non verranno aggiornati.',
 
@@ -223,13 +225,15 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Specificare il tempo in ore, il collegamento per il download è valido dopo il primo download. Per questo file è possibile sovrascrivere l\'impostazione predefinita, definita in Impostazioni principali -> Impostazioni di base -> Impostazioni -> Download per tutti i prodotti.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => '',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Le icone sono le immagini più piccole di un prodotto. Ad esempio, vengono utilizzati nel carrello.<br>Il caricamento dell\'icona personalizzata sostituirà l\'icona, generata dalla prima immagine del prodotto.<br>Dopo il caricamento, il nome del file viene visualizzato in Icona. Se non viene ancora caricata alcuna icona, viene visualizzato ---',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => '',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Le miniature sono piccole immagini di prodotti. Ad esempio, vengono utilizzati negli elenchi di prodotti (categorie, risultati di ricerca). Il caricamento della miniatura personalizzata sovrascriverà la miniatura generata automaticamente. Dopo il caricamento, il nome del file viene mostrato in miniatura. Se non è stata ancora caricata alcuna miniatura, viene visualizzato ----.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => '',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Le immagini vengono utilizzate nella veduta dettagliata di un prodotto. Puoi caricare fino a 7 immagini per prodotto. Dopo il caricamento, il nome del file viene visualizzato nel campo di immissione corrispondente. Se non è stata ancora caricata alcuna immagine, viene visualizzato ---. 
+È possibile caricare immagini con una risoluzione massima di 2 MB o 1500 * 1500 pixel. Questa restrizione serve a evitare problemi con il limite di memoria PHP. Dopo aver caricato l\'immagine principale, lo zoom, la miniatura e l\'icona verranno generate automaticamente.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Immagini Zoom sono immagini ingranditi che possono essere aperte nella veduta dettagliata di un prodotto. 
+Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricamento Zoom X.</span> Dopo il caricamento, il nome del file viene mostrato in <span class="navipath_or_inputname">Zoom X.</span> Se non è stata ancora caricata alcuna immagine zoom, viene visualizzato <span class="userinput_or_code">nopic.jpg</span> .',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'L\'impostazione viene ereditata dal prodotto principale a Varianti e si applica all intero prodotto.',
 
