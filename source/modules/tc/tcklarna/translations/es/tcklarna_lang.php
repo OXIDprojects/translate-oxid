@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "English";
+$sLangName = "Español";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
