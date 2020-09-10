@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Cancella',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'MasterCard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 o CVC2 security code:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Il CVV2/CVC2 three-digit value is printed just above the signature panel in reverse italics on the back of your card.<br>Usually it is preceded by your card number.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Card to:',
 /** end deprecated */
 'CART'                                                        => 'carrello',
 'CATEGORIES'                                                  => 'Categoria',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Cambia password',
 'CHARGES'                                                     => 'Costi:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Vedi',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Alla cassa',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'I tuoi ordini precedenti',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Il tuo coupon "%s" non è valido.',
 'CREATE_PASSWORD'                                             => 'Crea Password',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Carta di credito:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Articolo attuale',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Clienti che hanno comprato questo articolo, hanno comprato anche:',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Cognome:',
 'LAST_SEEN_PRODUCTS'                                          => 'Ultimi prodotti guardati',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Ultime Novitá a',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Nessuna news',
 // END deprecated
 'LINKS'                                                       => 'Collegamenti',
 'LISTMANIA'                                                   => 'Lista dei preferiti',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Negato.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'L\'indirizzo E-Mail é giá in uso!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Metti l\'indirizzo E-Mail e il messaggio personale.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Messagio di',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Adesso puoi ricevere Punti Bonus per il tuo acquisto!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Giudicate questo prodotto',
 'MESSAGE_READ_DETAILS'                                        => 'Leggeti il nostro',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Clicca su "Inviare Condiglio" per inviare un E-Mail',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Seleziona almeno un prodotto!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Seleziona i prodotti per il confronto.',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'thank you for subscribing to our newsletter.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'The shipping method you selected isn\'t available any more. Please choose another shipping method.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Prego controllato l\'indirizzo E-Mail',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Adesso sei un\'utente registarto nel fixlight.it Online Shop!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Se qualcoso non e fornibile ti informiamo!',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Il codice emmesso non é valido. Prego riprovare',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Hai giá ricevuto una conferma d\'Ordine.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Articoli nuovi',
 'NEWLIST'                                                     => 'Nuovi articoli preferiti',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Novitá',
 // END deprecated
 'NEWSLETTER'                                                  => 'Newsletter',
 'NEWSLETTER_SETTINGS'                                         => 'Newsletter Settings',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Immagine Articolo',
 'PRODUCT_NO'                                                  => 'Art.Nr.:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Una Cartolina Prodotto da',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Giudicazione Prodotto',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Promemoria pubblica',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Nome del Destinatario:',
 'RECOMMEND'                                                   => 'consigliare',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'I miei consigli:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Consigliare articolo',
 'REDEEM_COUPON'                                               => 'Annullare un Buono',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Ricerca',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Novitá',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Consigliare articolo',
 'PAGE_TITLE_INVITE'                                           => 'Invita i tuoi amici',
