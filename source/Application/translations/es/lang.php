@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Español";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Cancelar',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 o CVC2 código de seguridad:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'El valor de tres dígitos de CVV2/CVC2 está impreso al lado del panel de la firma en la parte de atrás de tu tarjeta.<br>Usualmente es continuación de tu número de tarjeta.',
+'CARD_VISA'                                                   => 'visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Tarjeta para:',
 /** end deprecated */
 'CART'                                                        => 'Carrito',
 'CATEGORIES'                                                  => 'Categorías',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Cambiar tu clave',
 'CHARGES'                                                     => 'Cargos',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Comprobar',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Pagar',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'revisar tu historial de órdenes',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Tu cupón "%s" no pudo ser aceptado.',
 'CREATE_PASSWORD'                                             => 'Crear clave',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Tarjeta',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Producto actual',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Los clientes que compraron este producto también compraron',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Apellido',
 'LAST_SEEN_PRODUCTS'                                          => 'Ultimos productos vistos',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Últimas noticias y actualizaciones en',
+'LATEST_NEWS_NOACTIVENEWS'   => 'En estos momentos no hay noticias',
 // END deprecated
 'LINKS'                                                       => 'Links',
 'LISTMANIA'                                                   => 'Listmania',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Denegado por reglas de la tienda.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Este email ya existe!',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Introduce tus datos de dirección y mensaje personal.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Mensaje de',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Recibe puntos por tu compra ahora!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Evalua este producto!',
 'MESSAGE_READ_DETAILS'                                        => 'Lee nuestro',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Clickea en "Enviar recomendación" para enviar el e-mail.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Por favor selecciona al menos un producto!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Por favor selecciona varios productos para la comparación!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Gracias por suscribirte a nuestra lista de mensajes.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'El método de envío que seleccionaste no esta disponible. Por favor escoge otro!',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Por favor verifica tu email!',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Te damos la bienvenida como usuario registrado!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Te informaremos de inmediato si un artículo no se puede enviar.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'El código de verificación no es correcto. Por favor trate de nuevo.!',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Ya has recibido un email con el código de confirmación.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Productos recientes en la tienda',
 'NEWLIST'                                                     => 'Nueva lista listmania',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Noticias',
 // END deprecated
 'NEWSLETTER'                                                  => 'Boletín de suscriptores',
 'NEWSLETTER_SETTINGS'                                         => 'Opciones del boletín de suscriptores',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Imágenes del producto',
 'PRODUCT_NO'                                                  => 'Artículo #',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Una postal de producto desde',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Evaluación de Producto',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Registros de Regalo Públicos',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Nombre del recipiente',
 'RECOMMEND'                                                   => 'Recomendar',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Mi artículo recomendación',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Recomendar Producto',
 'REDEEM_COUPON'                                               => 'Aplicar Cupón',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Buscar',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Noticias',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Recomendar Producto',
 'PAGE_TITLE_INVITE'                                           => 'Invita a tus amigos',
