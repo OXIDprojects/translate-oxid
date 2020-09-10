@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'インフォメーション',
     'MR'                                             => '',
     'MRS'                                            => '',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'OXID eShop 管理へようこそ。こちらがメインの領域と機能の概要です。',
     'NAVIGATION_TITLE'                               => 'ナビゲーション',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop 管理',
     'NAVIGATION_LOGOUT'                              => 'ログアウト',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'ページ',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'バージョン %s が利用可能です。',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => '',
+    'NEWS_LIST_TITLE'                                => '[OXID ニュース管理]',
+    'NEWS_LIST_SHORTTEXT'                            => 'タイトル',
     'NEWS_LIST_MENUITEM'                             => 'カスタマー情報',
     'NEWS_LIST_MENUSUBITEM'                          => 'ニュース',
-    'NEWS_MAIN_SHORTDESC'                            => '',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_MAIN_SHORTDESC'                            => 'タイトル',
+    'NEWS_MAIN_SHOWFORGROUP'                         => '公開されているユーザーグループ',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '公開されていないユーザーグループ',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'お気に入り',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ 編集 ]',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => '',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'CMS ベージ フォルダー',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'ニュースボックスに表示されるニュースの数',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'eShopアドミンでの日付フォーマット',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'ユーザーがまだログインしていないとき、デフォルトの配送料を計算する',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => '"入荷"メッセージのデフォルトを使用',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'クレジットカード情報を保存',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => '',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen または fsockopen to port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zendの互換モードをオフにする必要があります',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHPバージョン 5.2.0以上',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => '',
     'SYSREQ_LIB_XML2'                         => '',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL 5のMySQLクライアントコネクタ',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL バージョン 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 (JPEGサポート含む)',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => '新規発送費用規定の作成',
     'TOOLTIPS_NEWDELIVERYSET'                 => '新規発送方法の作成',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => '新規メッセージの作成',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => '新しいクーポンのシリーズを作成',
     'TOOLTIPS_NEWCATTREE'                     => 'Re-Index カテゴリーツリー',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => '表示通貨',
     'SHOP_PERF_LOADLANGUAGES'                 => '表示言語',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'ニュースを読み込む',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'ニュースの最初のページのみ読み込む',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'リスト (検索結果、カテゴリー) で異なるものを読み込みます。この処理はメモリを多量に使用しますので小規模サーバーではパフォーマンス問題が起きます。',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'メーカーリストを読み込んで表示',
@@ -1653,7 +1653,7 @@ $aLang = [
     //languages
     'tbcllanguage_main'        => 'メイン',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'tbclnews_main'            => '',
+    'tbclnews_main'            => 'メイン',
     'tbclnews_text'            => 'テキスト',
     // END deprecated
     //  order_list',
