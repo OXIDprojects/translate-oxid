@@ -761,7 +761,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Informace',
     'MR'                                             => 'Pan',
     'MRS'                                            => 'Paní',
-    'HOME_DESC'                                      => '',
+    'HOME_DESC'                                      => 'Vítejte v OXID eShop administrátorském rozhraní. Toto je přehled základních oblastí a funkcí',
     'NAVIGATION_TITLE'                               => 'Navigace',
     'NAVIGATION_ESHOPADMIN'                          => 'Administrace eShopu',
     'NAVIGATION_LOGOUT'                              => 'Odhlášení',
@@ -769,13 +769,13 @@ $aLang = [
     'NAVIGATION_PAGE'                                => 'Strana',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Je dostupná verze %s.',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'NEWS_LIST_TITLE'                                => '',
-    'NEWS_LIST_SHORTTEXT'                            => 'Nadpis',
+    'NEWS_LIST_TITLE'                                => '[Administrace OXID Novinek]',
+    'NEWS_LIST_SHORTTEXT'                            => 'Krátký popis',
     'NEWS_LIST_MENUITEM'                             => 'Zákaznické informace',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
-    'NEWS_MAIN_SHORTDESC'                            => 'Nadpis',
-    'NEWS_MAIN_SHOWFORGROUP'                         => '',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Zprávy',
+    'NEWS_MAIN_SHORTDESC'                            => 'Přehled',
+    'NEWS_MAIN_SHOWFORGROUP'                         => 'Viditelné pro uživatelskou skupinu',
+    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Neviditelné pro uživatelskou skupinu',
     // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Oblíbené',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ upravit ]',
@@ -849,7 +849,7 @@ $aLang = [
     'ORDER_REMARK_ORDER'                                 => '[Objedn.]',
     'ORDER_REMARK_USER'                                  => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'ORDER_REMARK_NEWS'                                  => '',
+    'ORDER_REMARK_NEWS'                                  => '[Novinky]',
     // END deprecated
     'ORDER_OVERVIEW_VATIDCHECKFAIL'                      => 'DIČ -  validace selhala',
     'ORDER_OVERVIEW_VATID'                               => 'DIČ:',
@@ -1012,7 +1012,7 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Zdědit všechny <b>odkazy</b> z rodičovského obchodu',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Zdědit všechny <b>série slevových kupónů</b> z rodičovského obchodu',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => '',
+    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Zdědit všechny <b>Novinky</b> z rodičovského obchodu',
     // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Zdědit všechny <b>výběrové seznamy</b> z rodičovského obchodu',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Zdědit všechny <b>dodavatele</b> z rodičovského obchodu',
@@ -1084,7 +1084,7 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Zadat poplatky pro druhy plateb jako netto-cenu (plus Dph)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Složky redakčního systému',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_CONFIG_CNTOFNEWS'                                   => '',
+    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Počet zpráv zobrazovaných v Novinkách na levé straně',
     // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Formát data (pro administrátorské rozhraní)',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Pokud je nabídka aktivovaná, poštovné se započítá do ceny pro nepřihlášené uživatele',
@@ -1121,7 +1121,7 @@ $aLang = [
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => 'Použít standardní zprávu "Skladem"',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'SHOP_CONFIG_STORECREDITCARDINFO'                         => '',
+    'SHOP_CONFIG_STORECREDITCARDINFO'                         => 'Ukládat informace o kreditních kartách v databázi.',
     // END deprecated
 
     'SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE'              => 'Zobrazení zprávu o možnosti mezinárodních dodacích poplatků',
@@ -1242,7 +1242,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen nebo fsockopen na port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend compatibility mode musí být vypnut',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Verze PHP nejméně 5.3.25',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI nastaveno',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1254,7 +1254,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL client connector for MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => '',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL verze 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] inkl. JPEG podpory',
@@ -1342,7 +1342,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Přidat nová pravidla pro přepravní náklady',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Přidat způsob dopravy',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'Vytvořit zprávu',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Vytvořit sérii poukázek',
     'TOOLTIPS_NEWCATTREE'                     => 'Přeindexovat adresář kategorii',
@@ -1399,7 +1399,7 @@ $aLang = [
     'USER_REMARK_ORDER'                       => '[Objednávka]',
     'USER_REMARK_USER'                        => '[Reg.]',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'USER_REMARK_NEWS'                        => '',
+    'USER_REMARK_NEWS'                        => '[Novinky]',
     // END deprecated
     'USERGROUP_LIST_MENUITEM'                 => 'Upravit uživatelskou skupinu',
     'USERGROUP_LIST_MENUSUBITEM'              => 'Uživatelská skupina',
@@ -1478,8 +1478,8 @@ $aLang = [
     'SHOP_PERF_LOADCURRENCY'                  => 'Zobrazit měnu',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Zobrazit jazyk',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'SHOP_PERF_LOADNEWS'                      => '',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => '',
+    'SHOP_PERF_LOADNEWS'                      => 'Zobrazit Novinky',
+    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Novinky zobrazit jen na hlavní stránce',
     // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Načíst varianty i ve výpisu kategorií, vyhledávání apod.  - Upozornění: operace je náročná na paměť',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Zobrazit seznam výrobců',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Produkty',
     'mxmainmenu'               => 'Hlavní nastavení',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Zprávy',
     // END deprecated
     'mxorders'                 => 'Objednávky',
     'mxpaymeth'                => 'Způsoby platby',
@@ -1864,13 +1864,13 @@ $aLang = [
     'PAYMENT_RDFA_BYBANKTRANSFERINADVANCE' => 'Platba předem',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-    'PAYMENT_RDFA_CREDITCARD'              => '',
-    'PAYMENT_RDFA_AMERICANEXPRESS'         => '',
-    'PAYMENT_RDFA_DINERSCLUB'              => '',
-    'PAYMENT_RDFA_DISCOVER'                => '',
-    'PAYMENT_RDFA_JCB'                     => '',
-    'PAYMENT_RDFA_MASTERCARD'              => '',
-    'PAYMENT_RDFA_VISA'                    => '',
+    'PAYMENT_RDFA_CREDITCARD'              => 'Platba kreditní kartou',
+    'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
+    'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
+    'PAYMENT_RDFA_DISCOVER'                => 'Objevit',
+    'PAYMENT_RDFA_JCB'                     => 'JCB',
+    'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
+    'PAYMENT_RDFA_VISA'                    => 'VISA',
     // END deprecated
 
     'DELIVERY_RDFA_ASIGN_DELIVERY'             => 'Přiřadit druhy dodání',
@@ -1922,7 +1922,7 @@ $aLang = [
     'OXDIAG_LIST_MENUSUBITEM' => 'Diagnostický nástroj',
 
     'OXDIAG_MAIN_TITLE'                              => 'Diagnostika Vášeho OXID eShopu',
-    'OXDIAG_VERSIONCHECKER'                          => '',
+    'OXDIAG_VERSIONCHECKER'                          => 'Kontrolor verze',
     'OXDIAG_INTROINFORMATION_CONTACT_US'             => 'Můžete nás kontaktovat pomocí',
     'OXDIAG_INTROINFORMATION_ONLINE_CONTACT_FORM'    => 'Online Kontaktní formulář',
 
@@ -1933,34 +1933,34 @@ $aLang = [
     'OXDIAG_DOWNLOAD_FILE'                => 'Klikni zde pro stažení výsledného souboru',
     'OXDIAG_ERRORMESSAGETEMPLATE'         => 'Došlo k těmto chybám',
     'OXDIAG_VERSION'                      => 'Verze',
-    'OXDIAG_EDITION'                      => '',
-    'OXDIAG_REVISION'                     => '',
-    'OXDIAG_SUMMARY'                      => '',
-    'OXDIAG_HINTS'                        => '',
+    'OXDIAG_EDITION'                      => 'Vydání',
+    'OXDIAG_REVISION'                     => 'Revize',
+    'OXDIAG_SUMMARY'                      => 'Shrnutí',
+    'OXDIAG_HINTS'                        => 'Tipy',
     'OXDIAG_OK'                           => 'OK',
-    'OXDIAG_MODIFIED'                     => '',
-    'OXDIAG_VERSION_MISMATCH'             => '',
-    'OXDIAG_UNKNOWN'                      => '',
-    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => '',
-    'OXDIAG_SHOP_DOES_NOT_FIT'            => '',
-    'OXDIAG_SHOP_ORIGINAL'                => '',
+    'OXDIAG_MODIFIED'                     => 'Upravený',
+    'OXDIAG_VERSION_MISMATCH'             => 'Neshoda verze',
+    'OXDIAG_UNKNOWN'                      => 'Neznámý',
+    'OXDIAG_NUMBER_OF_INVESTIGATED_FILES' => 'Počet sledovaných souborů celkem',
+    'OXDIAG_SHOP_DOES_NOT_FIT'            => 'Tento OXID eShop není na 100% v pořádku.',
+    'OXDIAG_SHOP_ORIGINAL'                => 'Tento OXID eShop nebyl upraven a je plně originální',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => '',
-    'OXDIAG_MODIFIEDHINTS2'                       => '',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => '',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop má sofistikovanou možnost rozšíření pomocí modulů bez změny odeslaných souborů. Nedoporučuje se a není nutné měnit soubory eShopu. Viz také naše <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>tutorials</a>.',
+    'OXDIAG_MODIFIEDHINTS2'                       => 'Od té doby, kdy je OXID eShop ve verzi 4.2.0 je možné používat <a href="http://www.oxidforge.org/wiki/Downloads/4.2.0#New_Features" target=_blank> své vlastní šablony beze nutnosti měnit ty již odeslané</a> .',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Zřejmě jedna nebo více aktualizací se pokazilo. Podívejte se na více detailních informací o každém souboru v tomto odkazu. Přebývající soubor, který není už zahrnut v OXID eShopu by mohl být <u>možným</u> důvodem nesouladu verzí. Informace o aktualizaci naleznete v naší < href="http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation" target = _blank>Podpoře: Dokumentaci a nápovědě</a>.',
 
 
     'OXDIAG_HOME'                     => 'OXID Diagnostika',
     'OXDIAG_ABOUT'                    => 'Tento nástroj Diagnostika shromažďuje technické informace o vašem obchodě a serveru. Tato informace může být užitečná před aktualizací, instalací modulů nebo na diagnostikou.',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_DOWNLOADLOG'              => 'Stáhněte si zprávu',
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => 'Načítat moduly',
     'OXDIAG_COLLECT_HEALTH'           => 'Anketa stav systému',
     'OXDIAG_COLLECT_PHP'              => 'Konfigurace PHP Ankety (vybrané parametry)',
     'OXDIAG_COLLECT_SERVER'           => 'Informace o anketním systému (pokud je to možné)',
-    'OXDIAG_STORE_ANALYSIS'           => '',
-    'OXDIAG_COLLECT_START'            => '',
+    'OXDIAG_STORE_ANALYSIS'           => 'Úložiště výsledků',
+    'OXDIAG_COLLECT_START'            => 'Spustit analýzu!',
 
     //index
     'OXDIAG_GOTO'                     => 'Jít na',
@@ -1969,9 +1969,9 @@ $aLang = [
     'OXDIAG_HEALTH'                   => 'Zdraví systému',
     'OXDIAG_PHPINFO'                  => 'PHP informace',
     'OXDIAG_SERVERINFO'               => 'Informace o serveru',
-    'OXDIAG_RESTART'                  => '',
+    'OXDIAG_RESTART'                  => 'Spustit novou analýzu',
 
-    'OXDIAG_DISCL'                    => '',
+    'OXDIAG_DISCL'                    => 'Analýza pod čarou byla uložena v souboru sestavy.',
     'OXDIAG_HEALTH_OK'                => 'OK',
     'OXDIAG_HEALTH_MIN'               => 'MIN',
     'OXDIAG_HEALTH_FAIL'              => 'SELHAL',
@@ -1998,7 +1998,7 @@ $aLang = [
     'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => 'Informácie nemôžu byť zaslané OXID servera cez CURL',
 
     //final note
-    'OXDIAG_FINALNOTE'                => '',
+    'OXDIAG_FINALNOTE'                => 'Konec analýzy.',
 
     'OLC_ERROR_SERIAL_NOT_VALID'    => 'Kontrola licenčního klíče selhala. Zkuste to znovu, nebo kontaktujte technickou podporu pokud k tomu dojde natrvalo.',
     'OLC_ERROR_RESPONSE_NOT_VALID'  => 'Služba není k dispozici, zkuste to znovu později ... Jestli tento problém potrvá, zkontrolujte, zda váš obchod může vytvořit odchozí spojení.',
