@@ -6,7 +6,7 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "English";
+$sLangName  = "Esperanto";
 
 $aLang = array(
     'charset'                                               => '',
