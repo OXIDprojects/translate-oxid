@@ -6,7 +6,7 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "español";
+$sLangName  = "Español";
 
 $aLang = array(
     'charset'                                                    => 'UTF-8',
@@ -38,7 +38,7 @@ Además, para aquellas compras que cumplan los requisitos, disfrutará de la pro
     'BESTITAMAZONPAY_EMAIL_DECLINED_TEXT'                      => 'Desgraciadamente, Amazon Pay ha rechazado el pago de tu pedido en nuestra tienda online',
     'BESTITAMAZONPAY_EMAIL_CONTACT_US'                         => 'Por favor, contáctanos en referencia a tu pedido',
     'BESTITAMAZONPAY_ERROR_CURRENCY_UNSUPPORTED'               => 'Amazon Pay no puede ser utilizado con la moneda seleccionada. Por favor, seleccione una moneda diferente, si es posible, en la página web del vendedor.',
-    'BESTITAMAZONPAY_BILLING_ADDRESS'                          => 'Dirección de facturación',
+    'BESTITAMAZONPAY_BILLING_ADDRESS'                          => 'Dirección de cobro',
     'BESTITAMAZONPAY_UPDATE_BILLING_ADDRESS'                   => 'Utiliza la dirección de facturación de Amazon',
     'BESTITAMAZONPAY_BILLING_ADDRESS_CURRENT'                  => 'Dirección de facturación actual',
     'BESTITAMAZONPAY_BILLING_ADDRESS_NEW'                      => 'Dirección de facturación de Amazon',
