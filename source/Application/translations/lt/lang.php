@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Atšaukti',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 ar CVC2 saugos kodas:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 trys skaitmenys paryškintu pasviru šriftu yra matomi šalia parašo kitoje kortelės pusėje .<br>',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kortelė:',
 /** end deprecated */
 'CART'                                                        => 'Krepšelis',
 'CATEGORIES'                                                  => 'Kategorijos',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Keisti slaptažodį',
 'CHARGES'                                                     => ':',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Tikrinti',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Vykdyti užsakymą',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Patikrinti užsakymų istoriją',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Jūsų kuponas "%s" negalėjo būti priimtas.',
 'CREATE_PASSWORD'                                             => 'Sukurti slaptažodį',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditinė kortelė:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Konkreti prekė',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Pirkėjas, kuris pirko šią prekę, taip pat pirko:',
@@ -239,7 +239,7 @@ $aLang = [
 'LAST_NAME'                                                   => 'Pavardė:',
 'LAST_SEEN_PRODUCTS'                                          => 'Anksčiau peržiūrėtos prekės',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Paskutinės naujienos ir atnaujinimai',
 'LATEST_NEWS_NOACTIVENEWS'   => '',
 // END deprecated
 'LINKS'                                                       => 'Nuorodos',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Prieiga uždrausta.',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Toks el. pašto adresas jau egzistuoja.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Įveskite savo adresą ir asmeninę žinutę',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Žinutė nuo:',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Dabar! Pirkite ir gaukite lojalumo taškų.',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Įvertinkite šią prekę!',
 'MESSAGE_READ_DETAILS'                                        => 'Paskaityk mūsų',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Paspauskite "Siųsti rekomendaciją" jei norite išsiųsti laišką.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => '',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => '',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'dėkojame, kad užsisakė mūsų naujienas el. paštu.',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Pasirinktas pristatymo būdas negalioja. Prašome pasirinkti kitą pristatymo būdą.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Prašome patvirtinti savo el. pašto adresą.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Sveiki, jūs jau užsiregistravote!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Mes jus informuosime iš karto, kai tik problemos išsispręs.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Jūsų įvestas saugos kodas yra neteisingas. Prašome bandyti dar kartą.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Jūs jau gavote užsakymo patvirtinimą el. paštu.',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Naujausios prekės',
 'NEWLIST'                                                     => 'Naujas mėgstamiausių prekių sąrašas',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Naujienos',
 // END deprecated
 'NEWSLETTER'                                                  => 'Naujienlaiškis',
 'NEWSLETTER_SETTINGS'                                         => 'Naujienų el. paštu nustatymai',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Prekės paveikslėliai',
 'PRODUCT_NO'                                                  => 'Pr.k.:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Rekomendacija',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Prekės peržiūra',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Publikuoti pageidavimus',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Gavėjo vardas:',
 'RECOMMEND'                                                   => 'rekomenduoti',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Rekomenduotos prekės:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Rekomenduota prekė',
 'REDEEM_COUPON'                                               => 'Kuponas',
@@ -734,7 +734,7 @@ Patiktinkite adresus.',
 'PAGE_TITLE_SEARCH'                                           => 'Paieška',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Naujienos',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Rekomenduota prekė',
 'PAGE_TITLE_INVITE'                                           => 'Pakviesk savo draugus',
