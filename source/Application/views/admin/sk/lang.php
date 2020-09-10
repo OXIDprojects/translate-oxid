@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Nadpis',
     'NEWS_LIST_MENUITEM'                             => 'Zákaznícke informácie',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Novinky',
     'NEWS_MAIN_SHORTDESC'                            => 'Nadpis',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Produkty',
     'mxmainmenu'               => 'Hlavné nastavenia',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Novinky',
     // END deprecated
     'mxorders'                 => 'Objednávky',
     'mxpaymeth'                => 'Spôsoby platby',
