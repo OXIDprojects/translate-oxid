@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Başlık',
     'NEWS_LIST_MENUITEM'                             => 'Müşteri Bilgisi',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Haberler',
     'NEWS_MAIN_SHORTDESC'                            => 'Başlık',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Ürün yönetimi',
     'mxmainmenu'               => 'Ana Bilgiler',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Haberler',
     // END deprecated
     'mxorders'                 => 'Sipariş Yönetimi',
     'mxpaymeth'                => 'Ödeme seçenekleri',
