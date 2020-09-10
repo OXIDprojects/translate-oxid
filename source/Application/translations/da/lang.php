@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Afslut',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'Mastercard',
+'CARD_SECURITY_CODE'                                          => 'Kontrolcifre:',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Kontrolcifrene er som regel de tre sidste cifre i den talrække, der står i underskriftsfeltet på bagsiden af dit kort',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Kort til:',
 /** end deprecated */
 'CART'                                                        => 'Indkøbskurv',
 'CATEGORIES'                                                  => 'Kategorier',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Skift Password',
 'CHARGES'                                                     => 'Omkostninger:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Se her',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Til indkøbsvogn',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'se din bestillingshistorik',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Din kupon "%s" kunne ikke accepteres.',
 'CREATE_PASSWORD'                                             => 'Opret Password',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditkort:',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Nuværende produkt',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Kunde der har købt dette produkt, har også købt:',
@@ -239,8 +239,8 @@ $aLang = [
 'LAST_NAME'                                                   => 'Efternavn:',
 'LAST_SEEN_PRODUCTS'                                          => 'Sidst sete produkter',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => '',
-'LATEST_NEWS_NOACTIVENEWS'   => '',
+'LATEST_NEWS_AND_UPDATES_AT' => 'Seneste nyheder på',
+'LATEST_NEWS_NOACTIVENEWS'   => 'Ingen nyheder lige nu',
 // END deprecated
 'LINKS'                                                       => 'Links',
 'LISTMANIA'                                                   => 'Listmania',
@@ -276,7 +276,7 @@ $aLang = [
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Afvist pga. butikkens regler',
 'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-mail adressen er allerede i brug.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => '',
+'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Indtast din adresse og personlig besked.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Besked fra',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Få dine bonus points for dit køb nu!',
@@ -310,7 +310,7 @@ $aLang = [
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Bedøm dette produkt!',
 'MESSAGE_READ_DETAILS'                                        => 'Læs vores',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => '',
+'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klik på "Send Anbefaling" for at sende e-mailen.',
 /** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Vælg venligst mindst et produkt!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Vælg venligst produkter til sammenligning!',
@@ -322,7 +322,7 @@ $aLang = [
 'MESSAGE_THANKYOU_FOR_SUBSCRIBING_NEWSLETTERS'                => 'Tak for din tilmelding til vores nyhedsbrev',
 'MESSAGE_UNAVAILABLE_SHIPPING_METHOD'                         => 'Den valgte leveringsmetode er ikke længere mulig. Vælg venligst en anden.',
 'MESSAGE_VERIFY_YOUR_EMAIL'                                   => 'Kontroller venligst din e-mail adresse.',
-'MESSAGE_WELCOME_REGISTERED_USER'                             => '',
+'MESSAGE_WELCOME_REGISTERED_USER'                             => 'Vi byder dig velkommen som registreret bruger!',
 'MESSAGE_WE_WILL_INFORM_YOU'                                  => 'Skulle noget ikke kunne leveres, bliver du straks informeret.',
 'MESSAGE_WRONG_VERIFICATION_CODE'                             => 'Den indtastede verifikationskode er ikke korrekt. Prøv venligst igen.',
 'MESSAGE_YOU_RECEIVED_ORDER_CONFIRM'                          => 'Du har allerede modtaget en ordrebekræftelse pr. e-amil',
@@ -346,7 +346,7 @@ $aLang = [
 'NEWEST_SHOP_PRODUCTS'                                        => 'Nyeste produkter',
 'NEWLIST'                                                     => 'New ListMania list',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => '',
+'NEWS' => 'Nyheder',
 // END deprecated
 'NEWSLETTER'                                                  => 'Nyhedsbrev',
 'NEWSLETTER_SETTINGS'                                         => 'Nyhedsbrev indstillinger',
@@ -427,7 +427,7 @@ $aLang = [
 'PRODUCT_IMAGES'                                              => 'Produktbilleder',
 'PRODUCT_NO'                                                  => 'Produktnr.:',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => '',
+'PRODUCT_POST_CARD_FROM'                                      => 'Produkt-Postkort fra',
 /** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Produkt anmeldelse',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Offentlig gaveliste',
@@ -448,7 +448,7 @@ $aLang = [
 'RECIPIENT_NAME'                                              => 'Navn på modtager:',
 'RECOMMEND'                                                   => 'anbefal',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => '',
+'RECOMMENDED_PRODUCTS'                                        => 'Anbefalede produkter:',
 /** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Anbefal produkt',
 'REDEEM_COUPON'                                               => 'Indløs kupon',
@@ -733,7 +733,7 @@ $aLang = [
 'PAGE_TITLE_SEARCH'                                           => 'Søg',
 'PAGE_TITLE_CLEARCOOKIES'                                     => '',
 // @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => '',
+'PAGE_TITLE_NEWS' => 'Nyheder',
 // END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Anbefal produkt',
 'PAGE_TITLE_INVITE'                                           => 'Inviter dine venner',
