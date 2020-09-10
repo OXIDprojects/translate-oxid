@@ -19,26 +19,26 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Български";
+$sLangName = "English";
 
 $aLang = array(
     'charset'                                               => '',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
+    'DD_SORT_DESC'                                          => 'низходящ',
+    'DD_SORT_ASC'                                           => 'възходящ',
     'DD_DEMO_ADMIN_TOOL'                                    => '',
     'DD_DELETE'                                             => '',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Моля въведете валиден имейл',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Паролата не съвпада.',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Моля въведете номер',
     'DD_FORM_VALIDATION_INTEGER'                            => '',
     'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Моля въведете отрицателно число.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Моля въведете стойност в задължителното поле',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Моля изберете поне една опция',
 
     // Header
     'SEARCH_TITLE'                                          => '',
@@ -58,42 +58,42 @@ $aLang = array(
     'START_TOP_PRODUCTS_SUBHEADER'                          => '',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => '',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Свържете се с нас!',
     'DD_CONTACT_FORM_HEADING'                               => 'Контакти',
 
     // Link list
-    'DD_LINKS_NO_ENTRIES'                                   => '',
+    'DD_LINKS_NO_ENTRIES'                                   => 'За съжаление няма налични линкове',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
+    'DD_ERR_404_START_TEXT'                                 => 'Може да намерите информацията на нашия сайт:',
+    'DD_ERR_404_START_BUTTON'                               => 'Към началната страница',
     'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'към страницата за контакти',
 
     // Login
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => '',
-    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
+    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'избери',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'добави адрес за доставка',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
-    'DD_LIST_SHOW_MORE'                                     => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Филтър:',
+    'DD_LIST_SHOW_MORE'                                     => 'Виж продуктите...',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'обратно към преглеждане',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => '',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'свали',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'часа',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Име на файла:',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
+    'BACK_TO_OVERVIEW'                                      => 'към общия преглед',
     'OF'                                                    => '',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
@@ -106,24 +106,24 @@ $aLang = array(
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
-    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
+    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'продължи пазаруването',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'обратно към магазина',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
-    'DD_FORGOT_PASSWORD_HEADING'                            => '',
-    'DD_INVITE_HEADING'                                     => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'Последвайте ни:',
+    'DD_FORGOT_PASSWORD_HEADING'                            => 'Забравена парола',
+    'DD_INVITE_HEADING'                                     => 'Препоръка за артикула',
     'DD_INVITE_LINK'                                        => '',
-    'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
-    'DD_ORDERSHIPPED_HEADING'                               => '',
+    'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Вашия абонамент за новини',
+    'DD_ORDERSHIPPED_HEADING'                               => 'Потвърждаване на доставката - поръчай',
     'DD_PRICEALARM_HEADING'                                 => '',
-    'DD_REGISTER_HEADING'                                   => '',
-    'DD_DOWNLOADLINKS_HEADING'                              => '',
-    'DD_WISHLIST_HEADING'                                   => '',
+    'DD_REGISTER_HEADING'                                   => 'Вашата регистрация',
+    'DD_DOWNLOADLINKS_HEADING'                              => 'Вашия линк за сваляне - поръчки',
+    'DD_WISHLIST_HEADING'                                   => 'Списък с желания',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Меню',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
