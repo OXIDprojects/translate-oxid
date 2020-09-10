@@ -772,7 +772,7 @@ $aLang = [
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Naziv',
     'NEWS_LIST_MENUITEM'                             => 'Ügyfélinformációk',
-    'NEWS_LIST_MENUSUBITEM'                          => '',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Hírek',
     'NEWS_MAIN_SHORTDESC'                            => 'Naziv',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => '',
@@ -1544,7 +1544,7 @@ $aLang = [
     'mxmanageprod'             => 'Termékek kezelése',
     'mxmainmenu'               => 'Törzsadatok',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => '',
+    'mxnews'                   => 'Hírek',
     // END deprecated
     'mxorders'                 => 'Megrendelések kezelése',
     'mxpaymeth'                => 'Fizetési módok',
