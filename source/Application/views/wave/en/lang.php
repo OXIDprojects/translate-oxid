@@ -22,7 +22,7 @@
 $sLangName = "English";
 
 $aLang = array(
-    'charset'                                               => 'UTF-8',
+    'charset'                                               => '',
 
     // Global
     'DD_SORT_DESC'                                          => '',
