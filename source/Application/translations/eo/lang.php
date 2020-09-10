@@ -62,13 +62,13 @@ $aLang = [
 'CANCEL'                                                      => 'Nuligi',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => '',
-'CARD_SECURITY_CODE'                                          => '',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => '',
-'CARD_VISA'                                                   => '',
+'CARD_MASTERCARD'                                             => 'MasterCard',
+'CARD_SECURITY_CODE'                                          => 'CVV2 aŭ CVC2 kodo',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'La tri-cifera kodo estas presita sur la dorso de via kreditkarto, dekstro de la subskribo.',
+'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => '',
+'CARD_TO'                                                     => 'Karto al:',
 /** end deprecated */
 'CART'                                                        => 'Butikuma korbo',
 'CATEGORIES'                                                  => 'Kategorioj',
@@ -82,7 +82,7 @@ $aLang = [
 'CHANGE_PASSWORD'                                             => 'Ŝanĝi pasvorton',
 'CHARGES'                                                     => 'Kostoj',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => '',
+'CHECK'                                                       => 'Kontrolu',
 /** end deprecated */
 'CHECKOUT'                                                    => '',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Via mendhistorio',
@@ -103,7 +103,7 @@ $aLang = [
 'COUPON_NOT_ACCEPTED'                                         => 'Via kupono "%s" ne estas akceptata.',
 'CREATE_PASSWORD'                                             => 'Krei pasvorton',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => '',
+'CREDITCARD'                                                  => 'Kreditkarto',
 // END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktuala produkto',
 'CUSTOMERS_ALSO_BOUGHT'                                       => '',
