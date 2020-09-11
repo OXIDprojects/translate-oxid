@@ -4,11 +4,6 @@
  * See LICENSE file for license details.
  */
 
-/*
- * Capitalisation in this document:
- * First letter is always capitalized
- * All nouns are capitalized
- */
 $sLangName = 'Česky';
 
 // -------------------------------
@@ -16,7 +11,7 @@ $sLangName = 'Česky';
 // -------------------------------
 $aLang = [
 
-    'charset'          => '',
+    'charset'          => 'UTF-8',
     'fullDateFormat'   => 'd.m.Y H:i:s',
     'simpleDateFormat' => 'd.m.Y',
 
