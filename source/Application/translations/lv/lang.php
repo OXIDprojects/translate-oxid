@@ -5,13 +5,13 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Latviešu";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => '',
 'simpleDateFormat'                                            => '',
 'grid'                                                        => '',
