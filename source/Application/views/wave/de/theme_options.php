@@ -33,7 +33,7 @@ $aLang = array(
     'SHOP_THEME_GROUP_header'                       => 'Header',
     'SHOP_THEME_GROUP_contact'                      => 'Kontakt',
     'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
-    'SHOP_THEME_GROUP_googlets'                     => 'Google Zertifizierte Händler',
+    'SHOP_THEME_GROUP_googlets'                     => 'Google Trusted Shops',
     'SHOP_THEME_GROUP_background'                   => 'Hintergrundbild',
     'SHOP_THEME_GROUP_econda'                       => 'econda Web Shop Controlling',
     'SHOP_THEME_GROUP_emails'                       => 'E-Mails',
@@ -42,11 +42,11 @@ $aLang = array(
     'HELP_SHOP_THEME_sIconsize'                     => 'Icons sind die kleinsten Bilder eines Artikels. Sie werden z. B. <br>' .
                                                        '<ul><li>im Warenkorb angezeigt</li>' .
                                                        '<li>angezeigt, wenn Artikel in der Seitenleiste aufgelistet werden (z.B. bei den Aktionen <span class="filename_filepath_or_italic">Top of the Shop</span> und <span class="filename_filepath_or_italic">Schnäppchen</span>).</li></ul>' .
-                                                       'Damit die Harmonie des eShops nicht durch zu große Icons gestört wird, werden zu große Icons automatisch verkleinert. Die maximale Größe können Sie hier eingeben.<br>',
+                                                       'Damit das Design nicht durch zu große Icons zerstört wird, werden zu große Icons automatisch verkleinert. Die maximale Größe können Sie hier eingeben.<br>.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Größe des Thumbnails in Pixeln (Breite*Höhe)', //SHOP_CONFIG_THUMBNAILSIZE
     'HELP_SHOP_THEME_sThumbnailsize'                => 'Thumbnails sind kleine Bilder eines Artikels. Sie werden z. B. <br>' .
-                                                       '<ul><li>in Artikellisten angezeigt. Artikellisten sind z. B. Kategorieansichten (alle Artikel in einer Kategorie werden aufgelistet) und die Suchergebnisse.</li>' .
+                                                       '<ul><li>in Produktlisten.</li>' .
                                                        '<li>in Aktionen angezeigt, die in der Mitte der Startseite angezeigt werden, z. B. <span class="filename_filepath_or_italic">Die Dauerbrenner</span> und <span class="filename_filepath_or_italic">Frisch eingetroffen!</span>.</li></ul>' .
                                                        'Damit das Design des eShops nicht durch zu große Thumbnails gestört wird, werden zu große Thumbnails automatisch verkleinert. Die maximale Größe können Sie hier eingeben.',
 
@@ -68,7 +68,7 @@ $aLang = array(
     'SHOP_THEME_blFooterShowLinks'                  => 'Links-Link aktivieren',
     'SHOP_THEME_blFooterShowNewsletter'             => 'Newsletter-Link aktivieren',
     'SHOP_THEME_blFooterShowNewsletterForm'         => 'Newsletter-Formular aktivieren',
-    'SHOP_THEME_blFooterShowNews'                   => 'Neuigkeiten-Link aktivieren (im OXID eShop admin "Nachrichten" genannt)',
+    'SHOP_THEME_blFooterShowNews'                   => 'Nachrichten-Link aktivieren',
     'SHOP_THEME_bl_showGiftWrapping'                => 'Geschenkverpackungen aktivieren', //SHOP_CONFIG_SHOWGIFTWRAPPING
     'SHOP_THEME_bl_showVouchers'                    => 'Gutscheine aktivieren', //SHOP_CONFIG_SHOWVOUCHERS
     'SHOP_THEME_bl_showWishlist'                    => 'Wunschzettel aktivieren', //SHOP_CONFIG_SHOWWISHLIST
@@ -81,7 +81,7 @@ $aLang = array(
     'SHOP_THEME_iNewBasketItemMessage'              => 'Wenn Produkt in den Warenkorb gelegt wird, folgende Aktion ausführen', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'Wenn Konsumenten ein Produkt in den Warenkorb legen, kann der OXID eShop unterschiedliche Feedback-Aktionen durchführen.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'Keine',
-    'SHOP_THEME_iNewBasketItemMessage_1'            => 'Meldung ausgeben',
+    'SHOP_THEME_iNewBasketItemMessage_1'            => 'Nachricht anzeigen',
     'SHOP_THEME_iNewBasketItemMessage_2'            => 'Popup öffnen',
     'SHOP_THEME_iNewBasketItemMessage_3'            => 'Warenkorb öffnen',
 
@@ -134,7 +134,7 @@ $aLang = array(
     'HELP_SHOP_THEME_sEmailLogo'                    => 'Relativ zum Pfad <code>/out/flow/img/</code>.',
 
     'SHOP_THEME_sFaviconFile'                       => 'Dateiname des Favicons',
-    'HELP_SHOP_THEME_sFaviconFile'                  => 'Das Favicon, das im Browser auch beim Tab angezeigt wird.<br>In der Regel handelt es sich hier um eine .ico-Datei.<br>Relativ zum Pfad <code>/out/flow/img/favicons/</code>.',
+    'HELP_SHOP_THEME_sFaviconFile'                  => 'Das Favicon, das im Browser auch beim Tab angezeigt wird.<br>In der Regel handelt es sich hier um eine.ico-Datei.<br>Relativ zum Pfad <code>/out/flow/img/favicons/</code>.',
     'SHOP_THEME_sFavicon16File'                     => 'Dateiname des Favicons mit den Maßen 16*16px',
     'SHOP_THEME_sFavicon32File'                     => 'Dateiname des Favicons mit den Maßen 32*32px',
     'SHOP_THEME_sFavicon48File'                     => 'Dateiname des Favicons mit den Maßen 48*48px',
@@ -170,7 +170,7 @@ $aLang = array(
     'SHOP_THEME_blHomeLink'                         => 'Startseiten-Link in der Navigation anzeigen?',
     'SHOP_THEME_bl_showPriceAlarm'                  => 'Wunschpreis aktivieren',
 
-    'SHOP_THEME_blUseGoogleTS'                      => 'Google Zertifizierte Händler benutzen',
+    'SHOP_THEME_blUseGoogleTS'                      => 'Google Trusted Shops benutzen?',
     'SHOP_THEME_sGoogleVendorId'                    => 'Google Store-ID (erforderlich)',
     'HELP_SHOP_THEME_sGoogleVendorId'               => 'Diese ID findest Du im Händler-Dashboard von "Google Zertifizierte Händler".',
     'SHOP_THEME_sGoogleShoppingAccountId'           => 'Google Shopping Account-ID (Optional)',
@@ -183,23 +183,23 @@ $aLang = array(
     'HELP_SHOP_THEME_sShoppingLanguage'             => 'Gib dieses Feld nur an, wenn Du Feeds an Google Shopping sendest.<br><br>Dies ist die Sprache des Kontos aus Google Shopping. Dieser Wert sollte mit der Sprache des Kontos übereinstimmen, das Du verwendest, um Deinen <a href="https://support.google.com/merchants/answer/188494#US" target="_blank">Produktdatenfeed an Google Shopping zu senden</a>.<br><br>Der Wert des Sprachparameters muss ein aus <a href="http://de.wikipedia.org/wiki/ISO_639#ISO_639-1" target="_blank">zwei Buchstaben bestehender ISO 639-1-Sprachcode</a> sein.<br><br>Beispiele: en, fr, de, ja.',
     'SHOP_THEME_sShippingDaysOnStock'               => 'Anzahl der Tage bis zum Versand einer Bestellung mit Artikeln, die alle auf Lager sind (erforderlich).',
     'HELP_SHOP_THEME_sShippingDaysOnStock'          => 'Hierbei handelt es sich um das voraussichtliche Datum des Versands der Bestellung; dies ist nicht das Selbe wie das voraussichtliche Lieferdatum.<br><br>Wenn die Bestellung mehrere Artikel umfasst, wähle das späteste voraussichtliche Versanddatum aus.<br><br>Wenn Du Deinen Kunden einen Zeitraum nennst, gib den letzten Tag des Zeitraums an. Wenn Du beispielsweise innerhalb von 5 bis 7 Tagen versendest, gib 7 Tage an.<br><br>Der hier genannte Termin wird dem Kunden per E-Mail mitgeteilt.<br><br>Nach dem voraussichtlichen Versanddatum erhält der Kunde eine Umfrage zum abgeschlossenen Kauf.',
-    'SHOP_THEME_sShippingDaysNotOnStock'            => 'Anzahl der Tage bis zum Versand einer Bestellung, bei der mindestens ein Artikel nicht auf Lager ist. (erforderlich)',
-    'HELP_SHOP_THEME_sShippingDaysNotOnStock'       => 'Hierbei handelt es sich um das voraussichtliche Datum des Versands der Bestellung; dies ist nicht dasselbe wie das voraussichtliche Lieferdatum.<br><br>Wenn die Bestellung mehrere Artikel umfasst, wähle das späteste voraussichtliche Versanddatum aus.<br><br>Wenn Du Deinen Kunden einen Zeitraum nennst, gib den letzten Tag des Zeitraums an. Wenn Du beispielsweise innerhalb von 5 bis 7 Tagen versendest, gib 7 Tage an.<br><br>Der hier genannte Termin wird dem Kunden per E-Mail mitgeteilt.<br><br>Nach dem voraussichtlichen Versanddatum erhält der Kunde eine Umfrage zum abgeschlossenen Kauf.',
+    'SHOP_THEME_sShippingDaysNotOnStock'            => 'Anzahl der Tage bis zum Versand einer Bestellung, bei der mindestens ein Artikel nicht auf Lager ist. (erforderlich).',
+    'HELP_SHOP_THEME_sShippingDaysNotOnStock'       => 'Hierbei handelt es sich um das voraussichtliche Datum des Versands der Bestellung; dies ist nicht das Selbe wie das voraussichtliche Lieferdatum.<br><br>Wenn die Bestellung mehrere Artikel umfasst, wähle das späteste voraussichtliche Versanddatum aus.<br><br>Wenn Du Deinen Kunden einen Zeitraum nennst, gib den letzten Tag des Zeitraums an. Wenn Du beispielsweise innerhalb von 5 bis 7 Tagen versendest, gib 7 Tage an.<br><br>Der hier genannte Termin wird dem Kunden per E-Mail mitgeteilt.<br><br>Nach dem voraussichtlichen Versanddatum erhält der Kunde eine Umfrage zum abgeschlossenen Kauf.',
     'SHOP_THEME_sDeliveryDaysOnStock'               => 'Anzahl der Tage bis zur Lieferung einer Bestellung mit Artikeln, die alle auf Lager sind (erforderlich).',
     'HELP_SHOP_THEME_sDeliveryDaysOnStock'          => 'Dies ist das voraussichtliche Datum, an dem Du mit der Lieferung der Bestellung an den Kunden rechnest. Wenn die Bestellung mehrere Artikel umfasst, wähle das späteste voraussichtliche Lieferdatum. Wenn Du einen Lieferzeitraum nennst, gib den letzten Tag des Zeitraums an - bei 5 bis 7 Tagen also 7 Tage.',
     'SHOP_THEME_sDeliveryDaysNotOnStock'            => 'Anzahl der Tage bis zur Lieferung einer Bestellung, bei der mindestens ein Artikel nicht auf Lager ist (erforderlich).',
     'HELP_SHOP_THEME_sDeliveryDaysNotOnStock'       => 'Dies ist das voraussichtliche Datum, an dem Du mit der Lieferung der Bestellung an den Kunden rechnest. Wenn die Bestellung mehrere Artikel umfasst, wähle das späteste voraussichtliche Lieferdatum. Wenn Du einen Lieferzeitraum nennst, gib den letzten Tag des Zeitraums an - bei 5 bis 7 Tagen also 7 Tage.',
 
-    'SHOP_THEME_blSliderShowImageCaption'           => 'Bildunterschriften im Slider auf der Startseite aktivieren',
+    'SHOP_THEME_blSliderShowImageCaption'           => 'Bildbeschreibungen im Slider auf der Startseite aktivieren',
     'HELP_SHOP_THEME_blSliderShowImageCaption'      => 'Diese wird angezeigt, sobald einem Slide ein Produkt zugeordnet ist.',
 
-    'SHOP_THEME_blEcondaRecommendationsStart'       => 'Kundenempfehlungen auf Startseite anzeigen?',
+    'SHOP_THEME_blEcondaRecommendationsStart'       => 'Kundenempfehlungen auf Startseite anzeigen',
     'SHOP_THEME_sEcondaWidgetIdStart'               => 'Kundenempfehlung-Widget-ID für Startseite',
-    'SHOP_THEME_blEcondaRecommendationsList'        => 'Kundenempfehlungen in Listenansicht anzeigen?',
+    'SHOP_THEME_blEcondaRecommendationsList'        => 'Kundenempfehlungen in Listenansicht anzeigen',
     'SHOP_THEME_sEcondaWidgetIdList'                => 'Kundenempfehlung-Widget-ID für Listenansicht',
-    'SHOP_THEME_blEcondaRecommendationsDetails'     => 'Kundenempfehlungen auf Detailseite anzeigen?',
+    'SHOP_THEME_blEcondaRecommendationsDetails'     => 'Kundenempfehlungen auf Detailseite anzeigen',
     'SHOP_THEME_sEcondaWidgetIdDetails'             => 'Kundenempfehlung-Widget-ID für Detailseite',
-    'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Kundenempfehlungen im Warenkorb anzeigen?',
+    'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Kundenempfehlungen im Warenkorb anzeigen',
     'SHOP_THEME_sEcondaWidgetIdBasket'              => 'Kundenempfehlung-Widget-ID für Warenkorb',
 
     'SHOP_THEME_blFullwidthLayout'                      => 'Full-Width Layout aktivieren',
