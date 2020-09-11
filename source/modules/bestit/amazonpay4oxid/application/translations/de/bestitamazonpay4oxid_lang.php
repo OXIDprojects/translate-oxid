@@ -44,6 +44,6 @@ Zudem genießen Sie für qualifizierte Einkäufe den Käuferschutz, den Amazon m
     'BESTITAMAZONPAY_BILLING_ADDRESS_NEW'                      => 'Amazon Rechnungsadresse',
     'BESTITAMAZONPAY_THANK_YOU_MESSAGE'                        => 'Ihre Zahlung mit Amazon Pay ist derzeit noch in Prüfung. Bitte beachten Sie, dass wir uns mit Ihnen in Kürze per Email in Verbindung setzen werden, falls noch Unklarheiten bestehen sollten.',
     'BESTITAMAZONPAY_LOGIN_BUTTON_HINT'                        => 'Melden Sie sich mit Ihren Amazon-Zugangsdaten an, und zahlen Sie einfach mit Ihren, bei Amazon hinterlegten Adress- und Zahlungsinformationen.',
-    'BESTITAMAZONPAY_PAY_BUTTON_HINT'                          => 'Melden Sie sich mit Ihren Amazon-Zugangsdaten an, und zahlen Sie einfach mit Ihren, bei Amazon hinterlegten Adress- und Zahlungsinformationen.',
+    'BESTITAMAZONPAY_PAY_BUTTON_HINT'                          => 'Melde Dich mit Deinen Amazon-Zugangsdaten an und zahle einfach mit den bei Amazon hinterlegten Adress- und Zahlungsinformationen.',
     'BESTITAMAZONPAY_PAY_OR'                                   => '- oder -',
 );
