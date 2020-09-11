@@ -22,7 +22,7 @@
 $sLangName  = 'Dansk';
 
 $aLang = array(
-    'charset'                                       => '',
+    'charset'                                       => 'UTF-8',
 
     'SHOP_THEME_GROUP_images'                       => '',
     'SHOP_THEME_GROUP_features'                     => '',
