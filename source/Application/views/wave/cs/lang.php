@@ -22,7 +22,7 @@
 $sLangName = "Česky";
 
 $aLang = array(
-    'charset'                                               => '',
+    'charset'                                               => 'UTF-8',
 
     // Global
     'DD_SORT_DESC'                                          => 'sestupně',
