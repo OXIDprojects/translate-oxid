@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English (United Kingdom)';
+$sLangName = 'English (Australia)';
 
 $aLang = [
-    'charset' => 'UTF-8',
+    'charset' => '',
     'oegdproptin' => '',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
