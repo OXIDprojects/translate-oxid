@@ -20,7 +20,7 @@
  * @version   OXID eSales WYSIWYG
  */
 
-$sLangName = '中文';
+$sLangName = '繁體中文';
 
 $aLang = array(
     // Charsets
