@@ -33,7 +33,7 @@
 $sLangName = "Esperanto";
 
 $aLang = array(
-    "charset"                                      => "",
+    "charset"                                      => "UTF-8",
     "oxpspaymorrow"                                => "",
 
     'NAVIGATION_PAYMORROW'                         => '',
