@@ -24,7 +24,7 @@ $sLangName  = "Ελληνικά";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                   => '',
+'charset'                                   => 'UTF-8',
 'fcpo_admin_title'                          => '',
 'fcpo_main_title'                           => '',
 'fcpo_main_log'                             => '',
