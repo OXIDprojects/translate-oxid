@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Español';
+$sLangName = 'Español de América';
 
 $aLang = [
-    'charset' => '',
+    'charset' => 'UTF-8',
     'oegdproptin' => '',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
