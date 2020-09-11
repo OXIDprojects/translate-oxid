@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "Português do Brasil";
+$sLangName = "Português";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -23,7 +23,7 @@ $aLang = array(
     'charset' => 'UTF-8',
 
     'TCKLARNA_EXCEPTION_OUT_OF_STOCK' => '',
-    'TCKLARNA_CHECKOUT'               => 'Fechar pedido',
+    'TCKLARNA_CHECKOUT'               => 'Checkout',
 
     'TCKLARNA_DISCOUNT_TITLE'                     => 'Desconto',
     'TCKLARNA_VOUCHER_DISCOUNT'                   => '',
@@ -32,7 +32,7 @@ $aLang = array(
     'TCKLARNA_PAYMENT_FEE_TITLE'                  => '',
     'TCKLARNA_TRUSTED_SHOPS_EXCELLENCE_FEE_TITLE' => '',
 
-    'TCKLARNA_PASSWORD'                          => 'Senha',
+    'TCKLARNA_PASSWORD'                          => '',
     'TCKLARNA_TRUSTED_SHOP_BUYER_PROTECTION'     => '',
     'TCKLARNA_ALREADY_A_CUSTOMER'                => 'Já sou um cliente',
     'TCKLARNA_LAW_NOTICE'                        => '',
