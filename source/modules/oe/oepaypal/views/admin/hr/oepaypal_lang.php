@@ -19,13 +19,13 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English';
+$sLangName = 'Hrvatski';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                              => '',
+    'charset'                              => 'UTF-8',
     'tbclorder_paypal'                     => 'PayPal',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => '',
     'OEPAYPAL_AMOUNT'                      => 'Količina',
