@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "Deutsch informell";
+$sLangName = "Deutsch";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -358,7 +358,7 @@ Sie können es jederzeit deaktivieren, indem Sie die Codes wieder entfernen.',
     'TCKLARNA_IS_SETTING_NATIONAL_IDENTIFICATION_NUMBER_MANDATORY_TOOLTIP' => 'Bitte wählen Sie, ob die nationalie Identifikationsnummer ein Pflichtfeld sein soll.',
     'TCKLARNA_IS_BUTTON_SETTINGS_VARIATION' => 'Variation',
     'TCKLARNA_IS_BUTTON_SETTINGS_TAGLINE' => 'Tagline',
-    'TCKLARNA_IS_BUTTON_SETTINGS_TYPE' => 'Typ',
+    'TCKLARNA_IS_BUTTON_SETTINGS_TYPE' => 'Type',
     'TCKLARNA_IS_SETTING_PHONE_MANDATORY' => 'Telefonnummer ist Pflichtfeld',
     'TCKLARNA_IS_SETTING_PHONE_MANDATORY_TOOLTIP' => 'Bitte wählen Sie, ob die Telefonnummer ein Pflichtfeld sein soll.',
     'TCKLARNA_IS_DEFAULT_COUNTRY_TIP'            => 'Bitte wählen Sie aus der Liste aus, welches Land bei Aufruf des Klarna Instant Shoppings standardmäßig voreingestellt sein soll, solange der Kunde sein Land noch nicht angegeben hat.',
