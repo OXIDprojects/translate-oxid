@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Możesz tutaj ustawić czy zamówienia mogą być składane z państw które nie posiadają zdefiniowanych kosztów dostawy:<ul><li>Jeśli jest to zaznaczone, użytkownicy mogą zamawiać i są informowani o indywidualnie wyliczanych kosztach dostawy.</li><li>Jeśli odnaczone, użytkownicy z krajów dla których koszty te nie są ustalone, nie mogą składać zamówień.</li></ul>',
 
