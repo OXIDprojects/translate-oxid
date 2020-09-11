@@ -9,7 +9,7 @@
 $sLangName  = "Dansk";
 
 $aLang = array(
-    'charset'                                                    => '',
+    'charset'                                                    => 'UTF-8',
     'BESTITAMAZONPAY_SWITCH_BACK_2_STANDARD'                   => "",
     'BESTITAMAZONPAY_ERROR_AMAZON_TERMINATED'                  => "",
     'BESTITAMAZONPAY_PLEASE_CLICK_ON_AMAZON_BUTTON'            => "",
