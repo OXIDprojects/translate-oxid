@@ -23,7 +23,7 @@ $sLangName  = "Български";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                       => '',
+'charset'                                       => 'UTF-8',
 'FCPO_IBAN_INVALID'                             => '',
 'FCPO_BIC_INVALID'                              => '',
 'FCPO_BLZ_INVALID'                              => '',
