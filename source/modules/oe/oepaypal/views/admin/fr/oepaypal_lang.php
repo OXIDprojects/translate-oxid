@@ -25,7 +25,7 @@ $sLangName = 'Français';
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                              => '',
+    'charset'                              => 'UTF-8',
     'tbclorder_paypal'                     => 'PayPal',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => '',
     'OEPAYPAL_AMOUNT'                      => 'Quantité',
