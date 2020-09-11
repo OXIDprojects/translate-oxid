@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = '中文';
+$sLangName = '繁體中文';
 
 $aLang = [
     'charset' => 'UTF-8',
