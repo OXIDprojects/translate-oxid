@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName  = 'English (Australia)';
+$sLangName  = 'English (United States)';
 
 $aLang = array(
-    'charset'                                       => '',
+    'charset'                                       => 'UTF-8',
 
     'SHOP_THEME_GROUP_images'                       => 'Images',
     'SHOP_THEME_GROUP_features'                     => 'Features',
@@ -78,15 +78,15 @@ $aLang = array(
 
     'SHOP_THEME_iTopNaviCatCount'                   => 'Amount of categories to be displayed at the top navigation', //SHOP_CONFIG_TOPNAVICATCOUNT
     'SHOP_THEME_blShowFinalStep'                    => 'Show up fifth step in checkout (confirmation)', //SHOP_SYSTEM_SHOWFINALSTEP
-    'SHOP_THEME_iNewBasketItemMessage'              => 'Select action when product is added to basket', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'SHOP_THEME_iNewBasketItemMessage'              => 'Select action when product is added to cart', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'When customer adds products to cart, OXID eShop can behave differently. Set up what shall happen to give a proper feedback to customer.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'None',
     'SHOP_THEME_iNewBasketItemMessage_1'            => 'Display message',
     'SHOP_THEME_iNewBasketItemMessage_2'            => 'Open popup window',
-    'SHOP_THEME_iNewBasketItemMessage_3'            => 'Open basket',
+    'SHOP_THEME_iNewBasketItemMessage_3'            => 'Open cart',
 
     'SHOP_THEME_blShowListDisplayType'              => 'Display product list type selector',
-    'HELP_SHOP_THEME_blShowListDisplayType'         => 'Decide if the visitor of your shop may select the type of the product list in storefront. If this options is not activated, your visitors will see the lists displayed like adjusted in the drop box "Default product list type".',
+    'HELP_SHOP_THEME_blShowListDisplayType'         => 'Decide if the visitor of your store may select the type of the product list in storefront. If this options is not activated, your visitors will see the lists displayed like adjusted in the drop box "Default product list type".',
     'SHOP_THEME_sDefaultListDisplayType'            => 'Default product list type',
     'SHOP_THEME_sDefaultListDisplayType_grid'       => 'Grid',
     'SHOP_THEME_sDefaultListDisplayType_line'       => 'List',
@@ -141,11 +141,11 @@ $aLang = array(
     'SHOP_THEME_sFavicon64File'                     => 'File name of the favicon with 64*64px',
     'SHOP_THEME_sFavicon128File'                    => 'File name of the favicon with 128*128px.',
     'SHOP_THEME_sFavicon512File'                    => 'File name of the favicon with 512*512px',
-    'SHOP_THEME_sFaviconMSTileColor'                => 'Tile colour for Windows 8/Windows Mobile bookmarks',
+    'SHOP_THEME_sFaviconMSTileColor'                => 'Tile color for Windows 8/Windows Mobile bookmarks',
     'HELP_SHOP_THEME_sFaviconMSTileColor'           => 'Specified as a hexadecimal value.<br>E.g.: #D83434',
 
     'SHOP_THEME_blUseBackground'                    => 'Show background image',
-    'SHOP_THEME_sBackgroundColor'                   => 'Background colour of shop',
+    'SHOP_THEME_sBackgroundColor'                   => 'Background color of shop',
     'HELP_SHOP_THEME_sBackgroundColor'              => 'Specified as a hexadecimal value.<br>E.g.: #D83434',
     'SHOP_THEME_sBackgroundPath'                    => 'File name of the background image',
     'HELP_SHOP_THEME_sBackgroundPath'               => 'This is relative to the path <code>/out/flow/img/backgrounds/</code>.',
@@ -171,17 +171,17 @@ $aLang = array(
     'SHOP_THEME_bl_showPriceAlarm'                  => '',
 
     'SHOP_THEME_blUseGoogleTS'                      => 'Use Google Trusted Stores',
-    'SHOP_THEME_sGoogleVendorId'                    => 'Google shop ID',
+    'SHOP_THEME_sGoogleVendorId'                    => 'Google store ID',
     'HELP_SHOP_THEME_sGoogleVendorId'               => 'Please find this ID in your "Trusted Stores Merchant" Dashboard.',
     'SHOP_THEME_sGoogleShoppingAccountId'           => 'Google shopping account ID (optionally)',
     'HELP_SHOP_THEME_sGoogleShoppingAccountId'      => 'Provide this field only if you submit feeds for Google Shopping.<br><br>Account ID from Google Merchant Center. This value should match the account ID you use to submit your <a href="https://support.google.com/merchants/answer/188494#US" target="_blank">product data feed to Google Shopping</a> via Google Merchant center. If you have an MCA account, please use the sub-account ID associated with that product feed.',
-    'SHOP_THEME_sPageLanguage'                      => 'Language of your shop according to ISO',
+    'SHOP_THEME_sPageLanguage'                      => 'Language of your store according to ISO',
     'HELP_SHOP_THEME_sPageLanguage'                 => 'The locale should be in the format of <language>_<country><br><br><Language> is a two-letter language code defined in ISO 639-1, and <country> is a two-letter country code defined in ISO 3166-1 alpha-2. Usually <country> should be all capitalized, and <language> should be in lowercase. e.g. en_US, en_GB, en_AU, fr_FR, de_DE, or ja_JP.',
     'SHOP_THEME_sShoppingCountry'                   => 'Google Shopping feed country (optionally)',
     'HELP_SHOP_THEME_sShoppingCountry'              => 'Provide this field only if you submit feeds for Google Shopping.<br><br>Account country from Google Shopping. This value should match the account country you use to submit your <a href="https://support.google.com/merchants/answer/188494#US" target="_blank">product data feed to Google Shopping</a>.<br><br>The value of the country parameter should be a <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">two-letter ISO 3166 country code</a>.<br><br>For example, values could be US, GB, AU, FR, DE, JP.',
     'SHOP_THEME_sShoppingLanguage'                  => 'Google Shopping feed language (optionally)',
     'HELP_SHOP_THEME_sShoppingLanguage'             => 'Provide this field only if you submit feeds for Google Shopping.<br><br>Account language from Google Shopping. This value should match the account language you use to submit your <a href="https://support.google.com/merchants/answer/188494#US" target="_blank">product data feed to Google Shopping</a>.<br><br>The value of the language parameter should be a <a href="http://en.wikipedia.org/wiki/ISO_639-1" target="_blank">two-letter ISO 639-1 language code</a>.<br><br>For example, values could be en, fr, de, ja.',
-    'SHOP_THEME_sShippingDaysOnStock'               => 'Amount of days till delivery of an order that has all products on stock.',
+    'SHOP_THEME_sShippingDaysOnStock'               => 'Amount of days till shipping of an order that has all products on stock.',
     'HELP_SHOP_THEME_sShippingDaysOnStock'          => 'ETA when you will ship the order; this is different to the estimated delivery date.<br><br>If the order contains multiple items, select the latest estimated shipping date.<br><br>If you offer a range of days, please communicate the latest (e.g., 7 days if your shipping range is 5-7 days).<br><br>The date provided here will be sent to the customer via email.<br><br>The customer will receive a survey after the estimated shipping date is over.',
     'SHOP_THEME_sShippingDaysNotOnStock'            => 'Amount of days till shipping of an order that has <b>not</b> all products on stock.',
     'HELP_SHOP_THEME_sShippingDaysNotOnStock'       => 'ETA when you will ship the order; this is different to the estimated delivery date.<br><br>If the order contains multiple items, select the latest estimated shipping date.<br><br>If you offer a range of days, please communicate the latest (e.g., 7 days if your shipping range is 5-7 days).<br><br>The date provided here will be sent to the customer via email.<br><br>The customer will receive a survey after the estimated shipping date is over.',
@@ -199,8 +199,8 @@ $aLang = array(
     'SHOP_THEME_sEcondaWidgetIdList'                => 'Recommendation widget ID for list view',
     'SHOP_THEME_blEcondaRecommendationsDetails'     => 'Show recommendations on details page',
     'SHOP_THEME_sEcondaWidgetIdDetails'             => 'Recommendation widget ID for detail page',
-    'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Show recommendations in basket',
-    'SHOP_THEME_sEcondaWidgetIdBasket'              => 'Recommendation widget ID for basket',
+    'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Show recommendations in cart',
+    'SHOP_THEME_sEcondaWidgetIdBasket'              => 'Recommendation widget ID for cart',
 
     'SHOP_THEME_blFullwidthLayout'                      => 'Activate full with layout',
 
