@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English (Australia)';
+$sLangName = 'English (United Kingdom)';
 
 $aLang = [
     'charset' => 'UTF-8',
