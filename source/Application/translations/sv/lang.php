@@ -5,13 +5,13 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Svenska";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'd.m.Y H:i:s',
 'simpleDateFormat'                                            => 'd.m.Y',
 'grid'                                                        => 'Galeria',
