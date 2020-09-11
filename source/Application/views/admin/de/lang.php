@@ -755,7 +755,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Information',
     'MR'                                             => 'Herr',
     'MRS'                                            => 'Frau',
-    'HOME_DESC'                                      => 'Willkommen im OXID eShop Administrationsbereich. Hier findest Du eine Übersicht über die grundlegenden Bereiche und Funktionen',
+    'HOME_DESC'                                      => 'Willkommen im OXID eShop Administrationsbereich. Hier findest Du eine Übersicht über die grundlegenden Bereiche und Funktionen.',
     'NAVIGATION_TITLE'                               => 'Navigation',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop Admin',
     'NAVIGATION_LOGOUT'                              => 'Abmelden',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'History',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Die Systemgesundheit dieses Shops ist gefährdet. Möglicherweise verhält sich Dein OXID eShop in einigen Bereichen unerwartet. Bitte stelle sicher, dass die Servereinstellungen korrekt vorgenommen werden. Unterstützung findest Du in der",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Systemgesundheitsprüfung.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Die permanente Systemgesundheitsprüfung wurde deaktiviert. Sie können diese auf der Registerkarte Perform. unter Stammdaten -> Grundeinstellungen aktivieren. Um dennoch zu prüfen, klicken Sie bitte hier: ",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Die permanente Systemgesundheitsprüfung wurde deaktiviert. Du kannst diese auf der Registerkarte Perform. unter Stammdaten -> Grundeinstellungen aktivieren. Um dennoch zu prüfen, klicke bitte hier: ",
     'NAVIGATION_SHOPFRONT'                           => "Startseite des Shops",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Dein Newsletter wurde versendet.',
@@ -1233,7 +1233,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen oder fsockopen auf Port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Kompatibilitätsmodus muss ausgeschaltet sein',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'PHP mindestens Version 5.3.25',
+    'SYSREQ_PHP_VERSION'                      => 'PHP-Version von 7.1 bis 7.4',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI vorhanden',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1245,7 +1245,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL Client Connector für MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Version 5',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Version 5.5 oder 5.7',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] incl. JPEG Unterstützung',
@@ -1333,7 +1333,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Neue Versandkostenregel anlegen',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Neue Versandart anlegen',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => 'Neue Nachricht anlegen',
+    'TOOLTIPS_NEWNEWS'                        => 'Nachricht erstellen',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Neue Gutscheinserie anlegen',
     'TOOLTIPS_NEWCATTREE'                     => 'Kategoriebaum neu indizieren',
@@ -1738,7 +1738,7 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Der Lizenzschlüssel Ihres OXID eShop ist endgültig abgelaufen. Bitte kontaktiere den Technischen Support.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Der Lizenzschlüssel Deines OXID eShop ist abgelaufen. Dieser OXID eShop wird innerhalb der nächsten 24 Stunden offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder wende Dich an den technischen Support.',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Die erneute Prüfung ergab, dass der Lizenzschlüssel Ihres OXID eShop nun gültig ist. Der stille Countdown von sieben Tagen wurde aus diesem Grund beendet.',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Die erneute Prüfung ergab, dass der Lizenzschlüssel Deines OXID eShop nun gültig ist. Der stille Countdown von sieben Tagen wurde aus diesem Grund beendet.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Es ist ein Problem mit dem Lizenzschlüssel Deines OXID eShop aufgetreten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib den gültigen Lizenzschlüssel erneut ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Der Lizenzschlüssel Deines OXID eShop ist abgelaufen. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Die Anzahl der lizensierten Subshops wurde überschritten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
@@ -1858,7 +1858,7 @@ $aLang = [
     'PAYMENT_RDFA_CREDITCARD'              => 'Kreditkartenzahlung',
     'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
     'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
-    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
+    'PAYMENT_RDFA_DISCOVER'                => 'Entdecken',
     'PAYMENT_RDFA_JCB'                     => 'JCB',
     'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
     'PAYMENT_RDFA_VISA'                    => 'VISA',
@@ -1936,9 +1936,9 @@ $aLang = [
     'OXDIAG_SHOP_DOES_NOT_FIT'            => 'Dieser OXID eShop ist nicht 100% original',
     'OXDIAG_SHOP_ORIGINAL'                => 'Dieser OXID eShop wurde nicht verändert und ist original',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop kann durch Module funktional erweitert werden, ohne dass dabei die  ausgelieferten Dateien angepasst werden müssen. Shopdateien sollten niemals geändert werden. Siehe dazu unsere englischen <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>Tutorials</a>.',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop kann durch Module funktional erweitert werden, ohne dass dabei die ausgelieferten Dateien angepasst werden müssen. Shopdateien sollten niemals geändert werden. Siehe dazu unsere englischen <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>Tutorials</a>.',
     'OXDIAG_MODIFIEDHINTS2'                       => 'Seit OXID eShop 4.2.0 ist es möglich, <a href="http://oxidforge.org/en/oxid-eshop-version-4-2-0.html#New_Features" target=_blank>eigene Templates zu verwenden</a>, ohne die ausgelieferten Templates zu ändern.',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Offenbar schlug ein Update oder auch mehrere fehl. Klicke auf den Details-Link, um mehr Informationen zu jeder einzelnen Datei zu erhalten. Eine übrig gebliebene Datei, die nicht mehr länger zum OXID eShop gehört, kann auch ein <u>möglicher</u> Grund für eine Versionsungleichheit sein. Informationen zum Update findest Du in unserer <a href="http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren" target=_blank>Dokumentation und Hilfe</a>.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Offenbar schlug ein Update oder auch mehrere fehl. Klicke auf den Details-Link, um mehr Informationen zu jeder einzelnen Datei zu erhalten. Eine übrig gebliebene Datei, die nicht mehr länger zum OXID eShop gehört, kann auch ein <u>möglicher</u> Grund für eine Versionsungleichheit sein. Informationen zum Update findest Du in unserer <a href="https://docs.oxid-esales.com/eshop/de/5.3/installation/installation.html" target=_blank>Dokumentation und Hilfe</a>.',
 
 
     'OXDIAG_HOME'                     => 'OXID Diagnose',
