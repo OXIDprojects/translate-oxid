@@ -11,7 +11,7 @@ $sLangName  = "Esperanto";
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => '',
 'simpleDateFormat'                                            => '',
 'grid'                                                        => '',
