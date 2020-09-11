@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English';
+$sLangName = 'Indonesia';
 
 $aLang = [
-    'charset' => '',
+    'charset' => 'UTF-8',
     'oegdproptin' => '',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
