@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Deutsch informell";
+$sLangName = "English";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -42,7 +42,7 @@ $aLang = array(
 
     // Header
     'SEARCH_TITLE'                                          => 'Suchbegriff eingeben...',
-    'SEARCH_SUBMIT'                                         => 'Suche',
+    'SEARCH_SUBMIT'                                         => 'Suchen',
     'NAV_MORE'                                              => 'Mehr',
 
     // Footer
@@ -59,7 +59,7 @@ $aLang = array(
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Tritt mit uns in Kontakt!',
-    'DD_CONTACT_FORM_HEADING'                               => 'Kontakt',
+    'DD_CONTACT_FORM_HEADING'                               => 'Kontaktformular',
 
     // Link list
     'DD_LINKS_NO_ENTRIES'                                   => 'Es sind leider noch keine Links vorhanden.',
@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'Zur Übersicht',
-    'OF'                                                    => 'VON',
+    'OF'                                                    => 'von',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Kundenmeinungen',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Kunden die sich diesen Artikel gekauft haben, kauften auch folgende Artikel.',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Folgende Artikel passen gut zu diesem Artikel:',
@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Deine Newsletter-Anmeldung',
     'DD_ORDERSHIPPED_HEADING'                               => 'Versandbestätigung - Bestellung',
-    'DD_PRICEALARM_HEADING'                                 => 'Kundenpreis',
+    'DD_PRICEALARM_HEADING'                                 => 'Preisalarm',
     'DD_REGISTER_HEADING'                                   => 'Deine Registrierung',
     'DD_DOWNLOADLINKS_HEADING'                              => 'Deine Downloadlinks - Bestellung',
     'DD_WISHLIST_HEADING'                                   => 'Wunschzettel',
@@ -128,7 +128,7 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Dieser Vorgang kann nicht rückgängig gemacht werden. Alle persönlichen Daten werden dauerhaft gelöscht.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Konto löschen',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Sind Sie sicher, dass Sie Ihr Konto löschen wollen?',
-    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Beenden',
+    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Abbrechen',
     'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Ihr Konto wurde gelöscht',
     'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Das Konto konnte nicht gelöscht werden',
 
@@ -138,9 +138,9 @@ $aLang = array(
     'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sind Sie sicher, dass Sie die Bewertung löschen wollen?',
 
     // Contact page
-    'DD_SELECT_SALUTATION'                                  => 'Bitte wählen',
+    'DD_SELECT_SALUTATION'                                  => 'Bitte auswählen',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => 'Reset',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Zurücksetzen',
 );
 
 /*
