@@ -30,10 +30,10 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English (United Kingdom)";
+$sLangName = "English (Australia)";
 
 $aLang = array(
-    "charset"                                      => "UTF-8",
+    "charset"                                      => "",
     "oxpspaymorrow"                                => "",
 
     'NAVIGATION_PAYMORROW'                         => '',
