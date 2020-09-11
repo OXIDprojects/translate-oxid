@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Définissez ici si des commandes peuvent être passées dans des pays pour lesquels aucun mode de livraison n\'a été défini:<ul><li>Si cette fonction est activée, les utilisateurs peuvent commander: Les utilisateurs seront notifiés manuellement des coûts de transport pour leur commande.</li><li>Si cette fonction est désactivée, les utilisateurs de pays pour lesquels aucun mode de livraison n\'a été défini ne pourront pas commander.</li></ul>',
 
