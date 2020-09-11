@@ -18,12 +18,12 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "";
+$sLangName  = "Slovenčina";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                       => '',
+'charset'                                       => 'UTF-8',
 'FCPO_IBAN_INVALID'                             => '',
 'FCPO_BIC_INVALID'                              => '',
 'FCPO_BLZ_INVALID'                              => '',
