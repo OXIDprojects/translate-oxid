@@ -9,14 +9,14 @@
  * First letter is always capitalized
  * All nouns are capitalized
  */
-$sLangName = 'English';
+$sLangName = 'Tiếng Việt';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
 
-    'charset'          => '',
+    'charset'          => 'UTF-8',
     'fullDateFormat'   => '',
     'simpleDateFormat' => '',
 
