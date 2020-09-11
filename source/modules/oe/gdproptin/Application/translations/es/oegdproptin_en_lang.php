@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Español';
+$sLangName = 'Español de América';
 
 $aLang = [
-    'charset' => '',
+    'charset' => 'UTF-8',
     'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "",
     'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => '',
     'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "",
