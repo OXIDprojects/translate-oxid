@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "Deutsch";
+$sLangName = "Deutsch informell";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -24,14 +24,14 @@ $aLang = array(
 
     'TCKLARNA_KLARNAMAINMENU'      => 'Klarna',
     'TCKLARNA_START'               => 'Start',
-    'TCKLARNA_GENERAL_SETTINGS'    => 'Allgemein',
+    'TCKLARNA_GENERAL_SETTINGS'    => 'Allgemeine Einstellungen',
     'TCKLARNA_CONFIGURATION'       => 'Konfiguration',
     'TCKLARNA_CONFIGURATION_KCO'   => 'Konfiguration für Klarna Checkout',
-    'TCKLARNA_CONFIGURATION_KP'    => 'Konfiguration für Klarna Payments',
-    'TCKLARNA_KLARNADESIGN'        => 'Design Settings',
-    'TCKLARNA_EXTERNAL_PAYMENTS'   => 'External Payment Methods',
-    'TCKLARNA_EXTRA_MERCHANT_DATA' => 'Extra Merchant Data',
-    'TCKLARNA_BASIC_SETTINGS'      => 'basic settings',
+    'TCKLARNA_CONFIGURATION_KP'    => 'Konfiguration für Klarna Zahlungen',
+    'TCKLARNA_KLARNADESIGN'        => 'Designeinstellungen',
+    'TCKLARNA_EXTERNAL_PAYMENTS'   => 'Externe Zahlungsarten',
+    'TCKLARNA_EXTRA_MERCHANT_DATA' => 'Zusätzliche Händlerdaten',
+    'TCKLARNA_BASIC_SETTINGS'      => 'Grundeinstellungen',
     'TCKLARNA_DISCOUNT_TITLE'      => 'Rabatt',
 
     'tcklarna_tbclklarna_orders'     => 'Klarna',
@@ -41,7 +41,7 @@ $aLang = array(
 
     'TCKLARNA_EASY'                         => 'So einfach ist es, Klarna zu aktiveren',
     'TCKLARNA_PHONE'                        => 'Telefon',
-    'TCKLARNA_EMAIL'                        => 'Email',
+    'TCKLARNA_EMAIL'                        => 'E-Mail',
     'TCKLARNA_BUSINESS_HOURS'               => 'Geschäftszeiten',
     'TCKLARNA_MONDAY'                       => 'Montag',
     'TCKLARNA_TUESDAY'                      => 'Dienstag',
@@ -53,7 +53,7 @@ $aLang = array(
     'TCKLARNA_YOUR_COUNTRY_SPECIFIC_CREDS'  => 'Ihre länderspezifischen Zugangsdaten',
     'TCKLARNA_ADD_COUNTRY_SPECIFIC_CREDS'   => 'Länderspezifische Zugangsdaten hinzufügen',
     'TCKLARNA_COUNTRY'                      => 'Land',
-    'TCKLARNA_MERCHANT_ID'                  => 'Merchant ID',
+    'TCKLARNA_MERCHANT_ID'                  => 'Händler-ID',
     'TCKLARNA_PASSWORD'                     => 'Passwort',
     'TCKLARNA_DEFAULT_SHOP_COUNTRY'         => 'Standard Land des Shops',
     'TCKLARNA_ENABLE_LOGGING'               => 'Logging aktiv',
@@ -64,7 +64,7 @@ $aLang = array(
     'TCKLARNA_ADD'                          => 'Hinzufügen',
 
     'TCKLARNA_CHECKOUT_NAME'             => 'Klarna Checkout',
-    'TCKLARNA_PAYMENTS_NAME'             => 'Klarna Payments',
+    'TCKLARNA_PAYMENTS_NAME'             => 'Klarna Zahlungen',
     'TCKLARNA_CHOOSE_KLARNA_MODULE_MODE' => 'Klarna Modul Modus auswählen',
 
     'TCKLARNA_CHECKOUT_DESC' => 'Die Komplettlösung enthält alle wichtigen Zahlarten (Rechnung, Ratenkauf, Sofortüberweisung, Lastschrift, Mastercard und VISA-Card) und wird durch Klarna gehostet. Ihre Kunden müssen beim Bezahlen lediglich E-Mail-Adresse und Postleitzahl eingeben und können ihre bevorzugte Zahlart wählen. Alles mit nur einer Integration.',
@@ -358,7 +358,7 @@ Sie können es jederzeit deaktivieren, indem Sie die Codes wieder entfernen.',
     'TCKLARNA_IS_SETTING_NATIONAL_IDENTIFICATION_NUMBER_MANDATORY_TOOLTIP' => 'Bitte wählen Sie, ob die nationalie Identifikationsnummer ein Pflichtfeld sein soll.',
     'TCKLARNA_IS_BUTTON_SETTINGS_VARIATION' => 'Variation',
     'TCKLARNA_IS_BUTTON_SETTINGS_TAGLINE' => 'Tagline',
-    'TCKLARNA_IS_BUTTON_SETTINGS_TYPE' => 'Type',
+    'TCKLARNA_IS_BUTTON_SETTINGS_TYPE' => 'Typ',
     'TCKLARNA_IS_SETTING_PHONE_MANDATORY' => 'Telefonnummer ist Pflichtfeld',
     'TCKLARNA_IS_SETTING_PHONE_MANDATORY_TOOLTIP' => 'Bitte wählen Sie, ob die Telefonnummer ein Pflichtfeld sein soll.',
     'TCKLARNA_IS_DEFAULT_COUNTRY_TIP'            => 'Bitte wählen Sie aus der Liste aus, welches Land bei Aufruf des Klarna Instant Shoppings standardmäßig voreingestellt sein soll, solange der Kunde sein Land noch nicht angegeben hat.',
