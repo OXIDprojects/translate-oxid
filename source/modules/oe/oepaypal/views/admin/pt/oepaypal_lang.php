@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Português do Brasil';
+$sLangName = 'Português';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
