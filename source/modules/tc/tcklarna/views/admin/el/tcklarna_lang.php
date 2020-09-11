@@ -20,7 +20,7 @@ $sLangName = "Ελληνικά";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => '',
+    'charset' => 'UTF-8',
 
     'TCKLARNA_KLARNAMAINMENU'      => '',
     'TCKLARNA_START'               => '',
