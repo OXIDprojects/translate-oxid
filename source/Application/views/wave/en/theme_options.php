@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName  = 'English (United Kingdom)';
+$sLangName  = 'English (Australia)';
 
 $aLang = array(
-    'charset'                                       => 'UTF-8',
+    'charset'                                       => '',
 
     'SHOP_THEME_GROUP_images'                       => 'Images',
     'SHOP_THEME_GROUP_features'                     => 'Features',
@@ -79,7 +79,7 @@ $aLang = array(
     'SHOP_THEME_iTopNaviCatCount'                   => 'Amount of categories to be displayed at the top navigation', //SHOP_CONFIG_TOPNAVICATCOUNT
     'SHOP_THEME_blShowFinalStep'                    => 'Show up fifth step in checkout (confirmation)', //SHOP_SYSTEM_SHOWFINALSTEP
     'SHOP_THEME_iNewBasketItemMessage'              => 'Select action when product is added to basket', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
-    'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'When customer adds products to basket, OXID eShop can behave differently. Set up what shall happen to give a proper feedback to customer.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'When customer adds products to cart, OXID eShop can behave differently. Set up what shall happen to give a proper feedback to customer.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'None',
     'SHOP_THEME_iNewBasketItemMessage_1'            => 'Display message',
     'SHOP_THEME_iNewBasketItemMessage_2'            => 'Open popup window',
