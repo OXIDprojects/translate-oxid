@@ -18,7 +18,7 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "Español de América";
+$sLangName  = "Español";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -69,7 +69,7 @@ $aLang = array(
 'FCPO_BANK_ACCOUNT_HOLDER'                      => '',
 'FCPO_CREDITCARD'                               => "",
 'FCPO_CREDITCARD_CHOOSE' => "",
-'FCPO_CARD_VISA'                                => "Visa",
+'FCPO_CARD_VISA'                                => "visa",
 'FCPO_CARD_MASTERCARD'                          => "Mastercard",
 'FCPO_NUMBER'                                   => "",
 'FCPO_FIRSTNAME'                                => "",
@@ -78,7 +78,7 @@ $aLang = array(
 'FCPO_IF_DEFERENT_FROM_BILLING_ADDRESS'         => "",
 'FCPO_VALID_UNTIL'                              => "",
 'FCPO_CARD_SECURITY_CODE'                       => "",
-'FCPO_CARD_SECURITY_CODE_DESCRIPTION'           => "Este dígito de revisión está impreso en itálicas en el dorso de tu tarjeta de crédito próximo al cajón  de la firma.",
+'FCPO_CARD_SECURITY_CODE_DESCRIPTION'           => "El valor de tres dígitos de CVV2/CVC2 está impreso al lado del panel de la firma en la parte de atrás de tu tarjeta.<br>Usualmente es continuación de tu número de tarjeta.",
 'FCPO_TYPE_OF_PAYMENT'                          => "",
 'FCPO_MIN_ORDER_PRICE'                          => "Mínimo ordenable",
 'FCPO_PREVIOUS_STEP'                            => "",
