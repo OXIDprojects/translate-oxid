@@ -46,19 +46,19 @@ $aLang = array(
     'NAV_MORE'                                              => 'Mehr',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => 'Die neuesten Produkte und die besten Angebote per E-Mail, damit Du nichts mehr verpasst!',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Die neuesten Produkte und die besten Angebote per E-Mail, damit Du nichts mehr verpasst.',
 
     // Home page
     'MANUFACTURERSLIDER_SUBHEAD'                            => 'Wir präsentieren Dir hier unsere sorgsam ausgewählten Marken, deren Produkte Du in unserem Shop findest.',
     'START_BARGAIN_HEADER'                                  => 'Angebote der Woche',
     'START_NEWEST_HEADER'                                   => 'Frisch eingetroffen',
-    'START_TOP_PRODUCTS_HEADER'                             => 'Topseller',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Bestseller',
     'START_BARGAIN_SUBHEADER'                               => 'Spare bares Geld mit unseren aktuellen Schnäppchen!',
     'START_NEWEST_SUBHEADER'                                => 'Frischer geht es nicht. Gerade noch in der Kiste und nun schon im Shop.',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Nur zwei Produkte. Dafür aber die besten, die wir Euch bieten können.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Nur %s Produkte, aber das Beste, was wir Euch anbieten können.',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => 'Tritt mit uns in Kontakt!',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Kontaktiere uns!',
     'DD_CONTACT_FORM_HEADING'                               => 'Kontakt',
 
     // Link list
@@ -71,23 +71,23 @@ $aLang = array(
     'DD_ERR_404_CONTACT_BUTTON'                             => 'zur Kontaktseite',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Durch Deine Anmeldung in unserem Shop kannst Du schneller durch den Bestellvorgang geführt werden. Ausserdem kannst Du mehrere Versandadressen speichern und Bestellungen in Deinem Konto verfolgen.',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Durch Deine Anmeldung in unserem Shop kannst Du schneller durch den Bestellvorgang geführt werden. Außerdem kannst Du mehrere Versandadressen speichern und Bestellungen in Deinem Konto verfolgen.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'Bundesland',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'auswählen',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'neue Adresse hinzufügen',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'neue Lieferadresse hinzufügen',
     'DD_DELETE_SHIPPING_ADDRESS'                            => 'Lieferadresse löschen',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter:',
-    'DD_LIST_SHOW_MORE'                                     => 'Produkte ansehen...',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter',
+    'DD_LIST_SHOW_MORE'                                     => 'Produkte ansehen',
 
     // Recommendation list
     'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'zurück zur Übersicht',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'herunterladen',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'heruntergeladen',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Dateigröße:',
     'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'Uhr',
     'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Dateiname:',
@@ -96,7 +96,7 @@ $aLang = array(
     'BACK_TO_OVERVIEW'                                      => 'Zur Übersicht',
     'OF'                                                    => 'VON',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Kundenmeinungen',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Kunden die sich diesen Artikel gekauft haben, kauften auch folgende Artikel.',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Kunden, die diesen Artikel gekauft haben, kauften auch folgende Artikel:',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Folgende Artikel passen gut zu diesem Artikel:',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Schau Dir doch auch ähnliche Artikel an!',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Kunden die sich diesen Artikel angesehen haben, haben sich auch folgende Artikel angesehen.',
