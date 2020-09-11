@@ -5,13 +5,13 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Русский";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'd M Y H:i:s',
 'simpleDateFormat'                                            => 'd/m/Y',
 'grid'                                                        => 'Галерея',
