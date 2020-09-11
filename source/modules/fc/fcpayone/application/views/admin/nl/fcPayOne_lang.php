@@ -19,12 +19,12 @@
  */
  
 
-$sLangName  = "English";
+$sLangName  = "Nederlands";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                   => '',
+'charset'                                   => 'UTF-8',
 'fcpo_admin_title'                          => '',
 'fcpo_main_title'                           => '',
 'fcpo_main_log'                             => '',
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => '',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'English',
+'FCPO_CC_ERRORLANG_EN'                      => 'Nederlands',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => '',
     
