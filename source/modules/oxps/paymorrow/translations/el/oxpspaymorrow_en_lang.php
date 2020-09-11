@@ -33,7 +33,7 @@
 $sLangName = "Ελληνικά";
 
 $aLang = array(
-    "charset"                                        => "",
+    "charset"                                        => "UTF-8",
 
     'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Τιμολόγιο',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
