@@ -6,7 +6,7 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "Português do Brasil";
+$sLangName  = "Português";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
