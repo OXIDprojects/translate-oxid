@@ -30,32 +30,32 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English";
+$sLangName = "Magyar";
 
 $aLang = array(
-    "charset"                                        => "",
+    "charset"                                        => "ISO-8859-2",
 
-    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Számla',
-    'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
+    'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => '\'Sz',
+    'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '\'Fizet',
 
-    'PAYMORROW_PAYMENT_NO_JAVASCRIPT'                => '',
+    'PAYMORROW_PAYMENT_NO_JAVASCRIPT'                => 'A fizet',
 
-    'PAYMORROW_GENERAL_ERROR'                        => '',
-    'PAYMORROW_ACCEPT_CONDITIONS_ERROR'              => '',
-    'PAYMORROW_SELECT_GENDER_ERROR'                  => '',
-    'PAYMORROW_DATE_OF_BIRTH_ERROR'                  => '',
-    'PAYMORROW_MOBILE_NUMBER_ERROR'                  => '',
+    'PAYMORROW_GENERAL_ERROR'                        => 'Egy hiba l',
+    'PAYMORROW_ACCEPT_CONDITIONS_ERROR'              => 'K',
+    'PAYMORROW_SELECT_GENDER_ERROR'                  => 'Nem v',
+    'PAYMORROW_DATE_OF_BIRTH_ERROR'                  => 'Nem adta meg a sz',
+    'PAYMORROW_MOBILE_NUMBER_ERROR'                  => 'Nem adott meg h',
 
     // Custom
-    'PAYMORROW_ORDER_DATA_COLLECTION_FAILED'         => '',
-    'PAYMORROW_ORDER_SAVING_TEMPORARY_ORDER_FAILED'  => '',
+    'PAYMORROW_ORDER_DATA_COLLECTION_FAILED'         => 'A megrendel',
+    'PAYMORROW_ORDER_SAVING_TEMPORARY_ORDER_FAILED'  => 'Az ideiglenes (tempor',
 
     // Email
-    'EMAIL_ORDER_CUST_HTML_PAYMENTMETHOD'            => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_IBAN'           => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BIC'            => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_REFERENCE_LINE' => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_ORDER_ID'       => '',
-    'PAYMORROW_EMAIL_ORDER_CUST_HTML_CUSTOMER_NR'    => '',
+    'EMAIL_ORDER_CUST_HTML_PAYMENTMETHOD'            => '\'Fizet',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BANK'           => 'Bank:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_IBAN'           => 'IBAN:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_BIC'            => 'BIC:',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_REFERENCE_LINE' => 'Felhaszn',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_ORDER_ID'       => 'BE',
+    'PAYMORROW_EMAIL_ORDER_CUST_HTML_CUSTOMER_NR'    => 'KD',
 );
