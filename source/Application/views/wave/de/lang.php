@@ -100,7 +100,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Folgende Artikel passen gut zu diesem Artikel:',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Schau Dir doch auch ähnliche Artikel an!',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Kunden die sich diesen Artikel angesehen haben, haben sich auch folgende Artikel angesehen.',
-    'DETAILS_VPE_MESSAGE_1'                                 => "Dieser Artikel kann nur in Verpackungseinheiten zu je",
+    'DETAILS_VPE_MESSAGE_1'                                 => "Dieser Artikel kann nur in Verpackungseinheiten zu je ",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
     'TO_CART_NOVARIANT'                                     => 'Variante wählen',
 
@@ -127,15 +127,15 @@ $aLang = array(
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Dieser Vorgang kann nicht rückgängig gemacht werden. Alle persönlichen Daten werden dauerhaft gelöscht.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Konto löschen',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Sind Sie sicher, dass Sie Ihr Konto löschen wollen?',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Bist Du sicher, dass Du Dein Konto löschen möchtest?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Beenden',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Ihr Konto wurde gelöscht',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Dein Konto wurde gelöscht',
     'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Das Konto konnte nicht gelöscht werden',
 
     // Account -> My product reviews
     'DD_DELETE_REVIEW_AND_RATING'                           => 'Bewertung und Sterne-Rating löschen',
     'DD_REVIEWS_NOT_AVAILABLE'                              => 'Es liegen keine Bewertungen vor',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sind Sie sicher, dass Sie die Bewertung löschen wollen?',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sicher, dass Du die Bewertung löschen willst?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Bitte wählen',
