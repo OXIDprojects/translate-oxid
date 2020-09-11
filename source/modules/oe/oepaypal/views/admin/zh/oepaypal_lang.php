@@ -19,13 +19,13 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = '繁體中文';
+$sLangName = '中文';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                              => '',
+    'charset'                              => 'UTF-8',
     'tbclorder_paypal'                     => '',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => '',
     'OEPAYPAL_AMOUNT'                      => '',
@@ -56,7 +56,7 @@ $aLang = array(
     'OEPAYPAL_HISTORY_NOTICE_TEXT'         => '',
     'OEPAYPAL_MONEY_ACTION_FULL'           => '',
     'OEPAYPAL_MONEY_ACTION_PARTIAL'        => '',
-    'OEPAYPAL_LIST_STATUS_ALL'             => '',
+    'OEPAYPAL_LIST_STATUS_ALL'             => '全部',
     'OEPAYPAL_STATUS_pending'              => '',
     'OEPAYPAL_STATUS_completed'            => '',
     'OEPAYPAL_STATUS_failed'               => '',
