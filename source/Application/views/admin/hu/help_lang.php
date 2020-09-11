@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Ez a beállítás meghatározza a program működését, ha egy országba, ahonnan a felhasználó rendelni szeretne, nincs meghatározva szállítási költség:<br /><ul><li>Ha ez a beállítás aktív, a felhasználó kap egy jelzést a megrendelési folyamat közben: A szállítási költségekről később kap tájékoztatást, amennyiben egyetért ezzel, tobábbhaladhat a megrendelés folyamatában.</li><li>ha ez a beállítás inaktív, akkor azok a felhasználók, akik olyan országból rendelnek, ahol nincs szállítási költség meghatározva, nem tudnak vásárolni.</li></ul>',
 
