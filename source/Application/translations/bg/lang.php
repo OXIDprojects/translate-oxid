@@ -11,7 +11,7 @@ $sLangName  = "Български";
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'Y-m-d H:i:s',
 'simpleDateFormat'                                            => '',
 'grid'                                                        => '',
