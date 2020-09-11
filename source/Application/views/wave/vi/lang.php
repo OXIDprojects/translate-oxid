@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "English";
+$sLangName = "Tiếng Việt";
 
 $aLang = array(
-    'charset'                                               => '',
+    'charset'                                               => 'UTF-8',
 
     // Global
     'DD_SORT_DESC'                                          => '',
