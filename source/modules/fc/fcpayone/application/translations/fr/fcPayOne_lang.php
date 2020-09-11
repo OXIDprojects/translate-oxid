@@ -18,7 +18,7 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "";
+$sLangName  = "Français";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
