@@ -18,12 +18,12 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "English (United Kingdom)";
+$sLangName  = "English (Australia)";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                       => 'UTF-8',
+'charset'                                       => '',
 'FCPO_IBAN_INVALID'                             => '',
 'FCPO_BIC_INVALID'                              => '',
 'FCPO_BLZ_INVALID'                              => '',
@@ -70,7 +70,7 @@ $aLang = array(
 'FCPO_CREDITCARD'                               => "",
 'FCPO_CREDITCARD_CHOOSE' => "",
 'FCPO_CARD_VISA'                                => "Visa",
-'FCPO_CARD_MASTERCARD'                          => "Mastercard",
+'FCPO_CARD_MASTERCARD'                          => "MasterCard",
 'FCPO_NUMBER'                                   => "",
 'FCPO_FIRSTNAME'                                => "",
 'FCPO_LASTNAME'                                 => "",
