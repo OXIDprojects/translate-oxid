@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English (Australia)';
+$sLangName = 'English (United States)';
 
 $aLang = [
-    'charset' => '',
+    'charset' => 'UTF-8',
     'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "",
     'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => '',
     'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "",
