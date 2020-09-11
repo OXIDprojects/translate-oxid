@@ -30,7 +30,7 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English (United States)";
+$sLangName = "English (United Kingdom)";
 
 $aLang = array(
     "charset"                                      => "UTF-8",
