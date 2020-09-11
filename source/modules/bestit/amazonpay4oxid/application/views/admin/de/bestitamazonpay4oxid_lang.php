@@ -6,7 +6,7 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "Deutsch informell";
+$sLangName  = "Deutsch";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -19,7 +19,7 @@ $aLang = array(
     'SHOP_MODULE_blAmazonLogging'                           => 'Logs speichern',
     'SHOP_MODULE_blAmazonLoggingLevel'                     => 'Log Level',
     'SHOP_MODULE_blAmazonLoggingLevel_debug'               => 'Debug',
-    'SHOP_MODULE_blAmazonLoggingLevel_error'               => 'Fehler',
+    'SHOP_MODULE_blAmazonLoggingLevel_error'               => 'Error',
 
     'SHOP_MODULE_GROUP_bestitAmazonPay4OxidLoginSettings'        => 'Amazon Login-Einstellungen',
     'SHOP_MODULE_blAmazonLoginActive'                             => 'Amazon Login aktiv',
