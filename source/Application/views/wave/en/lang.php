@@ -22,7 +22,7 @@
 $sLangName = "English";
 
 $aLang = array(
-    'charset'                                               => '',
+    'charset'                                               => 'UTF-8',
 
     // Global
     'DD_SORT_DESC'                                          => 'descending',
@@ -49,11 +49,11 @@ $aLang = array(
     'FOOTER_NEWSLETTER_INFO'                                => 'Get informed about the latest products and offers via e-mail.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our shop.',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our store.',
     'START_BARGAIN_HEADER'                                  => 'This week\'s special',
     'START_NEWEST_HEADER'                                   => 'Just arrived',
     'START_TOP_PRODUCTS_HEADER'                             => 'Top sellers',
-    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current bargains!',
+    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current deals!',
     'START_NEWEST_SUBHEADER'                                => 'Can\'t get it more fresh! Just arrived.',
     'START_TOP_PRODUCTS_SUBHEADER'                          => 'Just two products - the best we\'d like to offer!',
 
@@ -76,7 +76,7 @@ $aLang = array(
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'State',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'select',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add delivery address',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add shipping address',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
