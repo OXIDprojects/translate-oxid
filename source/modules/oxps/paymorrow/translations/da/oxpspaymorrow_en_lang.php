@@ -33,7 +33,7 @@
 $sLangName = "Dansk";
 
 $aLang = array(
-    "charset"                                        => "",
+    "charset"                                        => "UTF-8",
 
     'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => '',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
