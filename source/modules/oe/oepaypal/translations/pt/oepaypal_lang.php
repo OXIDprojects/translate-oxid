@@ -23,7 +23,7 @@
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                                    => '',
+    'charset'                                    => 'UTF-8',
     'OEPAYPAL_LOCALE'                            => '',
     'OEPAYPAL_PARTNERBOX_LINK'                   => '',
     'OEPAYPAL_ERROR_USER_ADDRESS'                => '',
