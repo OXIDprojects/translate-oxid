@@ -11,7 +11,7 @@ $sLangName  = "Česky";
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'd.m.Y H:i:s',
 'simpleDateFormat'                                            => 'Y-m-d',
 'grid'                                                        => 'Mřížka',
