@@ -169,7 +169,7 @@ $aLang = [
 'ERROR_MESSAGE_CURRENT_PASSWORD_INVALID'                      => 'Chyba: Vaše současné heslo je nesprávné.',
 'ERROR_MESSAGE_RECOMMLIST_NOTITLE'                            => 'Pole "Název" je prázdné',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_CLASSNOTFOUND'                 => 'Třída "%s" nebyla nalezena',
-'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => '',
+'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => 'Třída "%s" nebyla nalezena!',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_FUNCTIONNOTFOUND'              => 'Funkce "%s" nebyla nalezena',
 'EXCEPTION_SYSTEMCOMPONENT_TEMPLATENOTFOUND'                  => 'Šablona "%s" nenalezena',
 'ERROR_MESSAGE_UNKNOWN_ERROR'                                 => 'Neznámá chyba',
@@ -706,11 +706,11 @@ $aLang = [
 'BASKET_TOTAL_PLUS_PROPORTIONAL_VAT'                          => '+ DPH (úměrně vypočítané)',
 'PROPORTIONALLY_CALCULATED'                                   => 'Úměrně vypočtené',
 'PRICE_FROM'                                                  => 'od',
-'PAGE_DETAILS_THANKYOUMESSAGE1'                               => '',
-'PAGE_DETAILS_THANKYOUMESSAGE2'                               => '',
+'PAGE_DETAILS_THANKYOUMESSAGE1'                               => 'Děkujeme Vám.',
+'PAGE_DETAILS_THANKYOUMESSAGE2'                               => ' oceňuje vaše komentáře.',
 'PAGE_DETAILS_THANKYOUMESSAGE3'                               => '',
-'PAGE_DETAILS_THANKYOUMESSAGE4'                               => '',
-'PAGE_TITLE_START'                                            => '',
+'PAGE_DETAILS_THANKYOUMESSAGE4'                               => '.',
+'PAGE_TITLE_START'                                            => 'Domovská stránka',
 'PAGE_TITLE_BASKET'                                           => 'Košík',
 'PAGE_TITLE_USER'                                             => 'Dodací adresa',
 'PAGE_TITLE_PAYMENT'                                          => 'Platební metody',
@@ -731,7 +731,7 @@ $aLang = [
 'PAGE_TITLE_CONTACT'                                          => 'Kontakt',
 'PAGE_TITLE_LINKS'                                            => 'Odkazy',
 'PAGE_TITLE_SEARCH'                                           => 'Hledat',
-'PAGE_TITLE_CLEARCOOKIES'                                     => '',
+'PAGE_TITLE_CLEARCOOKIES'                                     => 'Informace o cookies',
 // @deprecated 6.5.6 "News" feature will be removed completely
 'PAGE_TITLE_NEWS' => 'Novinky',
 // END deprecated
@@ -783,5 +783,5 @@ $aLang = [
 'INFO_ABOUT_COOKIES'                                          => 'Informace o cookies',
 'PARTNERS'                                                    => 'Partneři',
 
-'MY_REVIEWS'                                                  => '',
+'MY_REVIEWS'                                                  => 'Moje recenze',
 ];
