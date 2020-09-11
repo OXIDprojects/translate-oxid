@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Aquí se puede establecer si los pedidos se pueden hacer en los países para los que no se definen los costos de envío:<ul><li>Si la opción está marcada, los usuarios pueden hacer pedidos: Los usuarios son notificados de que serán.</li><li>Si la opción no está marcada, los usuarios de los paises para los que no se definen costos de envío no podrán hacer pedidos.</li></ul>',
 
