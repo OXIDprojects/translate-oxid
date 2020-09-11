@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Zde můžete nastavit, zda lze provést objednávky ze zemí, pro které není stanoveno poštovné:<ul><li>Pokud je volba aktivována, uživatel si může objednat a v průběhu tohoto procesu mu bude zobrazena informace: Pokud souhlasíte, bude Vám poštovné stanoveno dodatečně. Pokračujte nyní v objednávce.</li><li>Pokud je volba vypnutá, uživatel si nemůže objednat žádné zboží.</li></ul>',
 
