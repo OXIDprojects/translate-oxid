@@ -6,10 +6,10 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "English (United Kingdom)";
+$sLangName  = "English (Australia)";
 
 $aLang = array(
-    'charset'                                               => 'UTF-8',
+    'charset'                                               => '',
 
     'SHOP_MODULE_GROUP_bestitAmazonPay4OxidSettings'       => '',
     'SHOP_MODULE_blAmazonSandboxActive'                     => '',
