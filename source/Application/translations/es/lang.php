@@ -5,13 +5,13 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "Español";
+$sLangName  = "Español de América";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'Y-m-d H:i:s',
 'simpleDateFormat'                                            => 'Y-m-d',
 'grid'                                                        => 'Parrilla',
