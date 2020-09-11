@@ -11,7 +11,7 @@ $sLangName  = "Français";
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = [
-'charset'                                                     => '',
+'charset'                                                     => 'UTF-8',
 'fullDateFormat'                                              => 'd-m-Y H:i:s',
 'simpleDateFormat'                                            => 'A-m-j',
 'grid'                                                        => 'Grille',
