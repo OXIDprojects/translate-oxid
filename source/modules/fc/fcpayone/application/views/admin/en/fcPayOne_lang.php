@@ -19,12 +19,12 @@
  */
  
 
-$sLangName  = "English (Australia)";
+$sLangName  = "English (United States)";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'charset'                                   => '',
+'charset'                                   => 'UTF-8',
 'fcpo_admin_title'                          => '',
 'fcpo_main_title'                           => '',
 'fcpo_main_log'                             => '',
@@ -384,7 +384,7 @@ $aLang = array(
 'ORDER_OVERVIEW_FCPO_ELV_BLZ'               => "",
 'ORDER_OVERVIEW_FCPO_ELV_KTONR'             => "",
 'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "IBAN:",
-'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "Swift Code:",
+'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC:",
 
 'FCPO_CC_CONFIG'                            => '',
 'FCPO_CC_STANDARD_STYLE'                    => '',
@@ -400,7 +400,7 @@ $aLang = array(
 'FCPO_CC_SELECT'                            => 'Selection',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'English (Australia)',
+'FCPO_CC_ERRORLANG_EN'                      => 'English (United States)',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => 'Preview',
     
