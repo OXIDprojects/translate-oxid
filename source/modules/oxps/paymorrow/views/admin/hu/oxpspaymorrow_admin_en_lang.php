@@ -30,49 +30,49 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English";
+$sLangName = "Magyar";
 
 $aLang = array(
-    "charset"                                      => "",
-    "oxpspaymorrow"                                => "",
+    "charset"                                      => "ISO-8859-2",
+    "oxpspaymorrow"                                => "Paymorrow",
 
-    'NAVIGATION_PAYMORROW'                         => '',
-    'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => '',
-    'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => '',
-    'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => 'Számla',
-    'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => '',
-    'oxpspaymorrow_form_error_log'                 => '',
-    'oxpspaymorrow_paymorrow_info'                 => '',
-    'oxpspaymorrow_payment_map'                    => '',
+    'NAVIGATION_PAYMORROW'                         => '<a href="https://paymorrow.de/" target="_blank">Paymorrow Payment</a>',
+    'SHOP_MODULE_GROUP_oxpsPaymorrowConfiguration' => '\'API-Konfigur',
+    'SHOP_MODULE_GROUP_oxpsPaymorrowProfileUpdate' => 'Megrendel',
+    'OXPSPAYMORROW_PAYMENT_TYPE_INVOICE'           => '\'Sz',
+    'OXPSPAYMORROW_PAYMENT_TYPE_DIRECT_DEBIT'      => '\'Fizet',
+    'oxpspaymorrow_form_error_log'                 => 'Protokoll',
+    'oxpspaymorrow_paymorrow_info'                 => 'Paymorrow-Info',
+    'oxpspaymorrow_payment_map'                    => 'Paymorrow',
 
     // Main Menu Settings
-    'OXPSPAYMORROW_MAIN_MENU_SETTINGS_TITLE'       => '',
-    'SHOP_MODULE_paymorrowSandboxMode'             => '',
-    'SHOP_MODULE_paymorrowMerchantId'              => '',
-    'SHOP_MODULE_paymorrowMerchantIdTest'          => '',
-    'SHOP_MODULE_paymorrowEndpointUrlTest'         => '',
-    'SHOP_MODULE_paymorrowEndpointUrlProd'         => '',
-    'SHOP_MODULE_paymorrowLoggingEnabled'          => '',
-    'SHOP_MODULE_paymorrowResourcePath'            => '',
-    'SHOP_MODULE_paymorrowResourcePathTest'        => '',
-    'SHOP_MODULE_paymorrowOperationMode'           => '',
-    'SHOP_MODULE_paymorrowOperationModeTest'       => '',
+    'OXPSPAYMORROW_MAIN_MENU_SETTINGS_TITLE'       => '\'Hibajelent',
+    'SHOP_MODULE_paymorrowSandboxMode'             => '\'Sandbox-M',
+    'SHOP_MODULE_paymorrowMerchantId'              => 'Live-Webservice-Felhaszn',
+    'SHOP_MODULE_paymorrowMerchantIdTest'          => 'Test-Webservice-Felhaszn',
+    'SHOP_MODULE_paymorrowEndpointUrlTest'         => 'Test-Endpoint-URL',
+    'SHOP_MODULE_paymorrowEndpointUrlProd'         => 'Live-Endpoint-URL',
+    'SHOP_MODULE_paymorrowLoggingEnabled'          => 'Log f',
+    'SHOP_MODULE_paymorrowResourcePath'            => 'Live-Resource-Pfad (JavaScript/CSS)',
+    'SHOP_MODULE_paymorrowResourcePathTest'        => 'Test-Resource-Pfad (JavaScript/CSS)',
+    'SHOP_MODULE_paymorrowOperationMode'           => 'Live-Operation-Mode',
+    'SHOP_MODULE_paymorrowOperationModeTest'       => 'Test-Operation-Mode',
 
     // RSA Keys fields
-    'SHOP_MODULE_paymorrowKeysJson'                => '',
-    'SHOP_MODULE_paymorrowPrivateKey'              => '',
-    'SHOP_MODULE_paymorrowPrivateKeyTest'          => '',
-    'SHOP_MODULE_paymorrowPublicKey'               => '',
-    'SHOP_MODULE_paymorrowPublicKeyTest'           => '',
-    'SHOP_MODULE_paymorrowPaymorrowKey'            => '',
-    'SHOP_MODULE_paymorrowPaymorrowKeyTest'        => '',
+    'SHOP_MODULE_paymorrowKeysJson'                => 'Feld aller Daten',
+    'SHOP_MODULE_paymorrowPrivateKey'              => 'Live - aktiver privater Schl',
+    'SHOP_MODULE_paymorrowPrivateKeyTest'          => 'Test - aktiver privater Schl',
+    'SHOP_MODULE_paymorrowPublicKey'               => 'Live - aktiver ',
+    'SHOP_MODULE_paymorrowPublicKeyTest'           => 'Test - aktiver ',
+    'SHOP_MODULE_paymorrowPaymorrowKey'            => 'Live - ',
+    'SHOP_MODULE_paymorrowPaymorrowKeyTest'        => 'Test - ',
 
     // Profile data normalization settings
-    'SHOP_MODULE_paymorrowUpdateAddresses'         => '',
-    'SHOP_MODULE_paymorrowUpdatePhones'            => '',
+    'SHOP_MODULE_paymorrowUpdateAddresses'         => 'Zur',
+    'SHOP_MODULE_paymorrowUpdatePhones'            => 'Zur',
 
     // Help Idents
-    'PM_HELP_ADMIN_PAYMENT_METHODS_ACTIVATE'       => '',
-    'PM_HELP_ADMIN_PAYMENT_METHODS_INVOICE'        => '',
-    'PM_HELP_ADMIN_PAYMENT_METHODS_SDD'            => '',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_ACTIVATE'       => 'Aktivierung bewirkt die Zuordnung dieser Zahlungsart zu Paymorrow.',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_INVOICE'        => 'Aktivierung bewirkt, dass diese Paymorrow zugeordnete Zahlungsart f',
+    'PM_HELP_ADMIN_PAYMENT_METHODS_SDD'            => 'Aktivierung bewirkt, dass diese Paymorrow zugeordnete Zahlungsart f',
 );
