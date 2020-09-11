@@ -4,11 +4,6 @@
  * See LICENSE file for license details.
  */
 
-/*
- * Capitalisation in this document:
- * First letter is always capitalized
- * All nouns are capitalized
- */
 $sLangName = 'Esperanto';
 
 // -------------------------------
@@ -16,7 +11,7 @@ $sLangName = 'Esperanto';
 // -------------------------------
 $aLang = [
 
-    'charset'          => '',
+    'charset'          => 'UTF-8',
     'fullDateFormat'   => '',
     'simpleDateFormat' => '',
 
