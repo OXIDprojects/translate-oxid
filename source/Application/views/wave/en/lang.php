@@ -19,10 +19,10 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "English (United Kingdom)";
+$sLangName = "English (Australia)";
 
 $aLang = array(
-    'charset'                                               => 'UTF-8',
+    'charset'                                               => '',
 
     // Global
     'DD_SORT_DESC'                                          => 'descending',
