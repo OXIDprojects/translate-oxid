@@ -25,20 +25,20 @@ $aLang = array(
     'charset'                                               => 'UTF-8',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
+    'DD_SORT_DESC'                                          => 'descendente',
     'DD_SORT_ASC'                                           => '',
     'DD_DEMO_ADMIN_TOOL'                                    => '',
     'DD_DELETE'                                             => 'Eliminar',
 
     // Form validation
     'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'As passwords não coincidem.',
     'DD_FORM_VALIDATION_NUMBER'                             => '',
     'DD_FORM_VALIDATION_INTEGER'                            => '',
     'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Por favor, introduza um número negativo.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Por favor, indique um valor para este campo obrigatório.',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Por favor, selecione pelo menos uma opção.',
 
     // Header
     'SEARCH_TITLE'                                          => '',
@@ -58,7 +58,7 @@ $aLang = array(
     'START_TOP_PRODUCTS_SUBHEADER'                          => '',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => 'Entre em contato conosco',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Contacte-nos!',
     'DD_CONTACT_FORM_HEADING'                               => 'Contactos',
 
     // Link list
@@ -66,12 +66,12 @@ $aLang = array(
 
     // 404 page
     'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
+    'DD_ERR_404_START_BUTTON'                               => 'Voltar à página principal',
     'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'para a página de contactos',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Ao criar uma conta na nossa loja, será guiado rapidamente através do processo de compras. Em adição, pode salvar múltiplos endereços de entrega e seguir as suas encomendas na sua área de cliente.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => '',
@@ -80,27 +80,27 @@ $aLang = array(
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtro:',
     'DD_LIST_SHOW_MORE'                                     => '',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'voltar à vista geral',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'baixar',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => '',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'ora',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'Horas',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Nome do ficheiro',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
+    'BACK_TO_OVERVIEW'                                      => 'para a vista geral',
     'OF'                                                    => 'DE',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
-    'DETAILS_VPE_MESSAGE_1'                                 => "",
+    'DETAILS_VPE_MESSAGE_1'                                 => "Este produto só pode ser encomendado em packs de",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
     'TO_CART_NOVARIANT'                                     => '',
 
@@ -109,21 +109,21 @@ $aLang = array(
     'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'voltar à loja',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'Siga-nos:',
     'DD_FORGOT_PASSWORD_HEADING'                            => '',
     'DD_INVITE_HEADING'                                     => '',
-    'DD_INVITE_LINK'                                        => '',
-    'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
+    'DD_INVITE_LINK'                                        => 'Link',
+    'DD_NEWSLETTER_OPTIN_HEADING'                           => 'A sua subscrição na Newsletter',
     'DD_ORDERSHIPPED_HEADING'                               => '',
     'DD_PRICEALARM_HEADING'                                 => '',
     'DD_REGISTER_HEADING'                                   => '',
-    'DD_DOWNLOADLINKS_HEADING'                              => '',
-    'DD_WISHLIST_HEADING'                                   => '',
+    'DD_DOWNLOADLINKS_HEADING'                              => 'Os seus links para download - encomendas',
+    'DD_WISHLIST_HEADING'                                   => 'Lista de desejos',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menu',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
