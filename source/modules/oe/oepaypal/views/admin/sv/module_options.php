@@ -23,7 +23,7 @@
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                                                => '',
+    'charset'                                                => 'UTF-8',
     'SHOP_MODULE_GROUP_oepaypal_display'                     => '',
     'SHOP_MODULE_GROUP_oepaypal_checkout'                    => '',
     'SHOP_MODULE_GROUP_oepaypal_payment'                     => '',
