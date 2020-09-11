@@ -19,13 +19,13 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'English (United Kingdom)';
+$sLangName = 'English (Australia)';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                              => 'UTF-8',
+    'charset'                              => '',
     'tbclorder_paypal'                     => 'PayPal',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => '',
     'OEPAYPAL_AMOUNT'                      => 'Amount',
@@ -60,7 +60,7 @@ $aLang = array(
     'OEPAYPAL_STATUS_pending'              => '',
     'OEPAYPAL_STATUS_completed'            => '',
     'OEPAYPAL_STATUS_failed'               => '',
-    'OEPAYPAL_STATUS_canceled'             => 'Canceled',
+    'OEPAYPAL_STATUS_canceled'             => 'Cancelled',
     'OEPAYPAL_ONLY_FOR_PAYPAL_PAYMENT'     => '',
     'OEPAYPAL_ONLY_FOR_NEW_PAYPAL_PAYMENT' => '',
     'OEPAYPAL_PAYMENT_METHOD'              => 'Payment Method',
