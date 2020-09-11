@@ -9,7 +9,7 @@
  * First letter is always capitalized
  * All nouns are capitalized
  */
-$sLangName = 'English';
+$sLangName = 'Lietuvių';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
