@@ -46,7 +46,7 @@ $aLang = array(
     'OEPAYPAL_GIFTWRAPPER'                       => 'Geschenkverpackung',
     'OEPAYPAL_GREETING_CARD'                     => 'Grußkarte',
     'OEPAYPAL_GRAND_TOTAL'                       => 'Gesamtsumme:',
-    'OEPAYPAL_INFORMATION'                       => 'PayPal',
+    'OEPAYPAL_INFORMATION'                       => 'PayPal-Information',
     'OEPAYPAL_SAME_ITEM_QUESTION'                => 'Dieser Artikel ist bereits im Warenkorb.<br> Möchten Sie %s Artikel zusätzlich hinzufügen?',
     'OEPAYPAL_SAME_ITEMS_QUESTION'               => 'Dieser Artikel ist bereits im Warenkorb.<br> Möchten Sie %s Artikel zusätzlich hinzufügen?',
     'OEPAYPAL_BUTTON_DO_NOT_ADD_ITEM'            => 'Nicht hinzufügen und zum Warenkorb',
@@ -57,5 +57,5 @@ $aLang = array(
     'OEPAYPAL_OR'                                => 'oder',
     'OEPAYPAL_BACK'                              => 'Zurück',
     'OEPAYPAL_PLUS_VAT'                          => 'zzgl. MwSt.',
-    'OEPAYPAL_PAYMENT_INFORMATION'               => "Bezahlinformationen",
+    'OEPAYPAL_PAYMENT_INFORMATION'               => "Bezahlinformation",
 );
