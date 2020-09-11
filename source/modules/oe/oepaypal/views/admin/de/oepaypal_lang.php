@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2018
  */
 
-$sLangName = 'Deutsch informell';
+$sLangName = 'Deutsch';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -28,7 +28,7 @@ $aLang = array(
     'charset'                              => 'UTF-8',
     'tbclorder_paypal'                     => 'PayPal',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => 'Für PayPal mit mobilen Endgeräten',
-    'OEPAYPAL_AMOUNT'                      => 'Menge',
+    'OEPAYPAL_AMOUNT'                      => 'Betrag',
     'OEPAYPAL_SHOP_PAYMENT_STATUS'         => 'Shop-Zahlungsstatus',
     'OEPAYPAL_ORDER_PRICE'                 => 'Bestellpreis gesamt',
     'OEPAYPAL_ORDER_PRODUCTS'              => 'Bestellte Artikel',
@@ -42,7 +42,7 @@ $aLang = array(
     'OEPAYPAL_MONEY_REFUND'                => 'Gelderstattung',
     'OEPAYPAL_CAPTURE'                     => 'Einziehen',
     'OEPAYPAL_REFUND'                      => 'Erstatten',
-    'OEPAYPAL_DETAILS'                     => 'Beschriftung',
+    'OEPAYPAL_DETAILS'                     => 'Details',
     'OEPAYPAL_AUTHORIZATION'               => 'Autorisierung',
     'OEPAYPAL_CANCEL_AUTHORIZATION'        => 'Stornieren',
     'OEPAYPAL_PAYMENT_HISTORY'             => 'PayPal-Historie',
@@ -60,7 +60,7 @@ $aLang = array(
     'OEPAYPAL_STATUS_pending'              => 'Ausstehend',
     'OEPAYPAL_STATUS_completed'            => 'Abgeschlossen',
     'OEPAYPAL_STATUS_failed'               => 'Fehlgeschlagen',
-    'OEPAYPAL_STATUS_canceled'             => 'Storniert',
+    'OEPAYPAL_STATUS_canceled'             => 'Abgebrochen',
     'OEPAYPAL_ONLY_FOR_PAYPAL_PAYMENT'     => 'Diese Registerkarte ist nur für Bestellungen mit der Zahlungsart PayPal.',
     'OEPAYPAL_ONLY_FOR_NEW_PAYPAL_PAYMENT' => 'Diese Bestellung wurde vom OXID eFire PayPal-Modul erstellt und kann auf dieser Registerkarte nicht angezeigt werden.',
     'OEPAYPAL_PAYMENT_METHOD'              => 'Zahlungsart',
