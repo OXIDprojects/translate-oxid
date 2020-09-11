@@ -18,7 +18,7 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "中文";
+$sLangName  = "繁體中文";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -98,7 +98,7 @@ $aLang = array(
 'FCPO_KLV_TELEPHONENUMBER_INVALID'              => '',
 'FCPO_KLV_BIRTHDAY'                             => '',
 'FCPO_KLV_BIRTHDAY_INVALID'                     => '',
-'FCPO_KLV_ADDINFO'                              => '附加信息',
+'FCPO_KLV_ADDINFO'                              => '',
 'FCPO_KLV_ADDINFO_INVALID'                      => '',
 'FCPO_KLV_ADDINFO_DEL'                          => '',
 'FCPO_KLV_SAL'                                  => '',
