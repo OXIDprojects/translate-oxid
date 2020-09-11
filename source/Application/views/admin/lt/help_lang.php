@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Leisti užsakymus iš kitų šalių:<ul><li>Jei varnelė uždėta, vartotojai gali užsakyti: jiems bus pranešta, jei pristatymo kainos keisis.</li><li>Jei varnelė neuždėta, vartotojai iš kitų šalių, kurios neturi apibrėžtų pristatymo kainų, užsakyti negali.</li></ul>',
 
