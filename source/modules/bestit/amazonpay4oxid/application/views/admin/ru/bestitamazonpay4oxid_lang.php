@@ -6,10 +6,10 @@
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "English";
+$sLangName  = "Русский";
 
 $aLang = array(
-    'charset'                                               => '',
+    'charset'                                               => 'UTF-8',
 
     'SHOP_MODULE_GROUP_bestitAmazonPay4OxidSettings'       => '',
     'SHOP_MODULE_blAmazonSandboxActive'                     => '',
