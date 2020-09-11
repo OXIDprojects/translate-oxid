@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "Português do Brasil";
+$sLangName = "Português";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -54,7 +54,7 @@ $aLang = array(
     'TCKLARNA_ADD_COUNTRY_SPECIFIC_CREDS'   => '',
     'TCKLARNA_COUNTRY'                      => 'País:',
     'TCKLARNA_MERCHANT_ID'                  => '',
-    'TCKLARNA_PASSWORD'                     => 'Senha',
+    'TCKLARNA_PASSWORD'                     => '',
     'TCKLARNA_DEFAULT_SHOP_COUNTRY'         => '',
     'TCKLARNA_ENABLE_LOGGING'               => '',
     'TCKLARNA_SEND_ADDITIONAL_PRODUCT_DATA' => '',
