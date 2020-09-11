@@ -9,7 +9,7 @@
 $sLangName  = "Česky";
 
 $aLang = array(
-    'charset'                                               => '',
+    'charset'                                               => 'UTF-8',
 
     'SHOP_MODULE_GROUP_bestitAmazonPay4OxidSettings'       => '',
     'SHOP_MODULE_blAmazonSandboxActive'                     => '',
