@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "English";
+$sLangName  = "Українська ";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
