@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-$sLangName = "繁體中文";
+$sLangName = "中文";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -34,7 +34,7 @@ $aLang = array(
 
     'TCKLARNA_PASSWORD'                          => '',
     'TCKLARNA_TRUSTED_SHOP_BUYER_PROTECTION'     => '',
-    'TCKLARNA_ALREADY_A_CUSTOMER'                => '',
+    'TCKLARNA_ALREADY_A_CUSTOMER'                => '已注册用户',
     'TCKLARNA_LAW_NOTICE'                        => '',
     'TCKLARNA_OUTSIDE_VOUCHER'                   => '',
     'TCKLARNA_GO_TO_CHECKOUT'                    => '',
