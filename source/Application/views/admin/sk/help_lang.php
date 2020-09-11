@@ -21,7 +21,7 @@
  */
 
 $aLang =  [
-'charset'                                     => '',
+'charset'                                     => 'UTF-8',
 
 'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Tu môžete nastaviť, či je možné uskutočniť objednávky z krajín, pre ktoré nie sú stanovené ceny:<ul><li>Pokým je voľba aktivovaná, užívateľ si môže objednať a bude mu stanovená špeciálna cena.</li><li>Pokiaľ je voľba vypnutá, užívateľ si nemôže objednať žiadny tovar.</li></ul>',
 
