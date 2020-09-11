@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-$sLangName = "English";
+$sLangName = "Magyar";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => '',
+    'charset' => 'UTF-8',
 
     'TCKLARNA_EXCEPTION_OUT_OF_STOCK' => '',
     'TCKLARNA_CHECKOUT'               => 'Do blagajne',
