@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-$sLangName = "English";
+$sLangName = "日本語";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => '',
+    'charset' => 'UTF-8',
 
     'TCKLARNA_KLARNAMAINMENU'      => '',
     'TCKLARNA_START'               => '',
