@@ -16,7 +16,7 @@ $sLangName = 'English';
 // -------------------------------
 $aLang = [
 
-    'charset'          => '',
+    'charset'          => 'UTF-8',
     'fullDateFormat'   => 'L-m-d U:m:s',
     'simpleDateFormat' => '',
 
