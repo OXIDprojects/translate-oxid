@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Español";
+$sLangName = "Español de América";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -42,7 +42,7 @@ $aLang = array(
 
     // Header
     'SEARCH_TITLE'                                          => 'Ingrese un término de búsqueda ...',
-    'SEARCH_SUBMIT'                                         => 'Busqueda',
+    'SEARCH_SUBMIT'                                         => 'Buscar',
     'NAV_MORE'                                              => 'Más',
 
     // Footer
@@ -59,7 +59,7 @@ $aLang = array(
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Contacta con nosotros!',
-    'DD_CONTACT_FORM_HEADING'                               => 'Contactar',
+    'DD_CONTACT_FORM_HEADING'                               => 'Contacto',
 
     // Link list
     'DD_LINKS_NO_ENTRIES'                                   => 'Lamentablemente, no hay enlaces disponibles.',
@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Enlace',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Tu suscripción al boletín informativo',
     'DD_ORDERSHIPPED_HEADING'                               => 'Confirmación de entrega - Pedido',
-    'DD_PRICEALARM_HEADING'                                 => 'Alarma de precio',
+    'DD_PRICEALARM_HEADING'                                 => 'Precio fijado por el cliente',
     'DD_REGISTER_HEADING'                                   => 'Tu registro',
     'DD_DOWNLOADLINKS_HEADING'                              => 'Tus enlaces de descarga - pedidos',
     'DD_WISHLIST_HEADING'                                   => 'Lista de deseos',
@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Por favor escoge',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => 'Reset',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Resetear',
 );
 
 /*
