@@ -25,7 +25,7 @@ $sLangName = 'Esperanto';
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset'                              => '',
+    'charset'                              => 'UTF-8',
     'tbclorder_paypal'                     => '',
     'OEPAYPAL_MOBILE_DEFAULT_PAYMENT'      => '',
     'OEPAYPAL_AMOUNT'                      => 'Kvanto',
