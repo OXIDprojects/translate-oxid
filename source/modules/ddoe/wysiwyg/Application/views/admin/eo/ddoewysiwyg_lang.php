@@ -24,7 +24,7 @@ $sLangName = 'Esperanto';
 
 $aLang = array(
     // Charsets
-    'charset' => '',
+    'charset' => 'UTF-8',
     // 'charset' => 'ISO-8859-15',
 
     // Lang-Strings
