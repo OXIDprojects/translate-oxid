@@ -30,10 +30,10 @@
  * the OXID module for Paymorrow payment. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$sLangName = "English";
+$sLangName = "Português do Brasil";
 
 $aLang = array(
-    "charset"                                        => "",
+    "charset"                                        => "UTF-8",
 
     'PAYMORROW_PAYMENT_METHOD_NAME_INVOICE'          => 'Fatura',
     'PAYMORROW_PAYMENT_METHOD_NAME_DIRECT_DEBIT'     => '',
