@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "Português do Brasil";
+$sLangName  = "Português";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
@@ -36,7 +36,7 @@ $aLang = array(
 'FCPO_SUBACCOUNT_ID'                        => '',
 'FCPO_BANKACCOUNTCHECK'                     => '',
 'FCPO_DEACTIVATED'                          => '',
-'FCPO_ACTIVATED'                            => 'Ativo',
+'FCPO_ACTIVATED'                            => '',
 'FCPO_ACTIVATEDWITHPOS'                     => '',
 'FCPO_LIVE_MODE'                            => '',
 'FCPO_TEST_MODE'                            => '',
@@ -110,7 +110,7 @@ $aLang = array(
 'fcpo_admin_protocol'                       => '',
 'FCPO_NO_TRANSACTION'                       => '',
 'fcpo_admin_information'                    => '',
-'fcpo_admin_common'                         => '',
+'fcpo_admin_common'                         => 'Geral',
 'fcpo_admin_support'                        => '',
 'fcpo_admin_api_logs'                       => '',
 'FCPO_LIST_HEADER_TIMESTAMP'                => 'Tempo:',
@@ -255,7 +255,7 @@ $aLang = array(
 'FCPO_KLARNA_DELETE_STORE_ID'               => "",
 
 'FCPO_CONFIG_GROUP_CONN'                    => "",
-'FCPO_CONFIG_GROUP_GENERAL'                 => "",
+'FCPO_CONFIG_GROUP_GENERAL'                 => "Geral",
 'FCPO_CONFIG_GROUP_DEBITNOTE'               => "",
 'FCPO_CONFIG_GROUP_CREDITCARD'              => "",
 'FCPO_CONFIG_GROUP_KLARNA'                  => "",
@@ -318,7 +318,7 @@ $aLang = array(
 
 'FCPO_KLARNA_CAMPAIGNS'                     => "",
 'FCPO_KLARNA_CAMPAIGN_CODE'                 => "",
-'FCPO_KLARNA_CAMPAIGN_TITLE'                => "Titúlo",
+'FCPO_KLARNA_CAMPAIGN_TITLE'                => "",
 'FCPO_KLARNA_ADD_CAMPAIGN'                  => "",
 
 'FCPO_CONFIG_DEBIT_BANKDATA'                => "",
@@ -383,24 +383,24 @@ $aLang = array(
 
 'ORDER_OVERVIEW_FCPO_ELV_BLZ'               => "",
 'ORDER_OVERVIEW_FCPO_ELV_KTONR'             => "",
-'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "IBAN:",
-'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "BIC",
+'ORDER_OVERVIEW_FCPO_ELV_IBAN'              => "",
+'ORDER_OVERVIEW_FCPO_ELV_BIC'               => "",
 
 'FCPO_CC_CONFIG'                            => '',
 'FCPO_CC_STANDARD_STYLE'                    => '',
 'FCPO_CC_ERRORS'                            => '',
     
 'FCPO_CC_STANDARD_INPUT'                    => '',
-'FCPO_CC_STANDARD_SELECTION'                => '',
+'FCPO_CC_STANDARD_SELECTION'                => 'Seleção',
 'FCPO_CC_STANDARD_FIELDS'                   => '',
 'FCPO_CC_STANDARD_IFRAME'                   => '',
     
-'FCPO_CC_ACTIVE'                            => 'Ativo',
+'FCPO_CC_ACTIVE'                            => '',
 'FCPO_CC_LANGUAGE'                          => '',
-'FCPO_CC_SELECT'                            => '',
+'FCPO_CC_SELECT'                            => 'Seleção',
     
 'FCPO_CC_ERRORLANG_DE'                      => '',
-'FCPO_CC_ERRORLANG_EN'                      => 'Português do Brasil',
+'FCPO_CC_ERRORLANG_EN'                      => 'Português',
 'FCPO_CC_CUSTOM_TEMPLATE'                   => '',
 'FCPO_CC_PREVIEW'                           => 'Visualização',
     
@@ -431,7 +431,7 @@ $aLang = array(
 'FCPO_CC_ROW_CC_Year'                       => '',
     
 'FCPO_CC_TYPE_NUMERIC'                      => '',
-'FCPO_CC_TYPE_PASSWORD'                     => 'Senha',
+'FCPO_CC_TYPE_PASSWORD'                     => '',
 'FCPO_CC_TYPE_TEXT'                         => '',
     
 'FCPO_CC_IFRAME_STANDARD'                   => '',
