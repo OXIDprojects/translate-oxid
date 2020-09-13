@@ -47,8 +47,8 @@ $aLang = array(
     'SHOP_THEME_sThumbnailsize'                     => 'Größe des Thumbnails in Pixeln (Breite*Höhe)', //SHOP_CONFIG_THUMBNAILSIZE
     'HELP_SHOP_THEME_sThumbnailsize'                => 'Thumbnails sind kleine Bilder eines Artikels. Sie werden z. B. <br>' .
                                                        '<ul><li>in Produktlisten.</li>' .
-                                                       '<li>in Aktionen angezeigt, die in der Mitte der Startseite angezeigt werden, z. B. <span class="filename_filepath_or_italic">Die Dauerbrenner</span> und <span class="filename_filepath_or_italic">Frisch eingetroffen!</span>.</li></ul>' .
-                                                       'Damit das Design des eShops nicht durch zu große Thumbnails gestört wird, werden zu große Thumbnails automatisch verkleinert. Die maximale Größe können Sie hier eingeben.',
+                                                       '<li>in "Promotions", angezeigt in der Mitte der Startseite, z. B. <span class="filename_filepath_or_italic">Frisch eingetroffen!</span>.</li></ul>' .
+                                                       'Damit das Design des eShops nicht durch zu große Thumbnails gestört wird, werden zu große Thumbnails automatisch verkleinert. Die maximale Größe kannst Du hier eingeben.',
 
     'SHOP_THEME_sZoomImageSize'                     => 'Größe der Zoom-Bilder (Zoom 1-4) in Pixeln (Breite*Höhe)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'Größe des Kategoriebildes in Pixeln (Breite*Höhe)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
