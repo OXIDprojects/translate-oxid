@@ -119,16 +119,16 @@ $aLang = array(
     'SHOP_THEME_blUseGAEcommerceTracking'           => 'Google Analytics Ecommerce Tracking benutzen',
     'HELP_SHOP_THEME_blUseGAEcommerceTracking'      => 'Bitte beachte, dass diese Option zusätzlich in Deinem Google Analytics Konto aktiviert sein muss. Anleitung: <a href="https://support.google.com/analytics/answer/1009612?hl=de&ref_topic=1037061" target="_blank">Link</a>',
     'SHOP_THEME_sGATrackingId'                      => 'Google Analytics Tracking-ID',
-    'HELP_SHOP_THEME_sGATrackingId'                 => 'Bsp.: UA-XXXXXXXX-1',
-    'SHOP_THEME_blGAAnonymizeIPs'                   => 'IP-Adressen anonymisieren (in DE Pflicht!)',
+    'HELP_SHOP_THEME_sGATrackingId'                 => 'Z.B.: UA-XXXXXXXX-1<br><br>Der Shopbetreiber ist rechtlich für die Nutzung dieser Funktion verantwortlich. Eine Anpassung der Datenschutzrichtlinie ist obligatorisch.',
+    'SHOP_THEME_blGAAnonymizeIPs'                   => 'IP-Adressen anonymisieren',
 
-    'SHOP_THEME_sLogoFile'                          => 'Dateiname des Logos im Header',
+    'SHOP_THEME_sLogoFile'                          => 'Dateiname des Logos',
     'HELP_SHOP_THEME_sLogoFile'                     => 'Relativ zum Pfad <code>/out/flow/img/</code>.',
 
     'SHOP_THEME_sLogoWidth'                         => 'Breite des Header-Logos',
-    'HELP_SHOP_THEME_sLogoWidth'                    => 'Angaben in Pixel',
+    'HELP_SHOP_THEME_sLogoWidth'                    => 'Angaben in Pixel.',
     'SHOP_THEME_sLogoHeight'                        => 'Höhe des Header-Logos',
-    'HELP_SHOP_THEME_sLogoHeight'                   => 'Angaben in Pixel',
+    'HELP_SHOP_THEME_sLogoHeight'                   => 'Angaben in Pixel.',
 
     'SHOP_THEME_sEmailLogo'                         => 'Dateiname des Logos im E-Mail-Kopf',
     'HELP_SHOP_THEME_sEmailLogo'                    => 'Relativ zum Pfad <code>/out/flow/img/</code>.',
