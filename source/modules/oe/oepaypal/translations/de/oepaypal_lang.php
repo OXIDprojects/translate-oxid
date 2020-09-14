@@ -28,9 +28,9 @@ $aLang = array(
     'OEPAYPAL_PARTNERBOX_LINK'                   => 'https://www.paypal.com/de/cgi-bin/webscr?cmd=xpt/cps/popup/OLCWhatIsPayPal-outside',
     'OEPAYPAL_ERROR_USER_ADDRESS'                => 'Ihre im Shop hinterlegten Adressinformationen stimmen nicht mit Ihrer PayPal-Lieferadresse überein. Aus Sicherheitsgründen müssen wir Ihre Identität prüfen. Bitte loggen Sie sich im Shop ein und führen Sie den PayPal Express Checkout noch einmal durch.',
     'OEPAYPAL_LOGO_IMG'                          => 'logo-paypal-medium.png',
-    'OEPAYPAL_PAYMENT_NOSHIPPINGFOUND'           => "Keine Versandarten gefunden. Bitte kontaktieren Sie uns telefonisch oder per E-Mail.",
     'OEPAYPAL_PAYMENT_HELP_LINK'                 => 'https://www.paypal.com/de/webapps/mpp/paypal-popup',
     'OEPAYPAL_PAYMENT_HELP_LINK_TEXT'            => 'Was ist PayPal?',
+    'OEPAYPAL_PAYMENT_NOSHIPPINGFOUND'           => 'Keine Versandarten gefunden. Bitte kontaktieren Sie uns telefonisch oder per E-Mail.',
     'OEPAYPAL_PAYMENT_NOT_VALID'                 => 'Leider können Sie diese Artikel nicht mit PayPal zahlen. Bitte wählen Sie eine andere Zahlungsart.',
     'OEPAYPAL_ORDER_SUBJECT'                     => 'Ihre Bestellung bei %s in Höhe von %s %s',
     'OEPAYPAL_ORDER_CONF_SUBJECT'                => 'Bestellnummer %s',
@@ -56,6 +56,6 @@ $aLang = array(
     'OEPAYPAL_SELECT_ANOTHER_SHIPMENT'           => 'Es gibt keine Versandart für das gewählte Land und diese Zahlungsart.',
     'OEPAYPAL_OR'                                => 'oder',
     'OEPAYPAL_BACK'                              => 'Zurück',
-    'OEPAYPAL_PLUS_VAT'                          => "zzgl. MwSt.",
+    'OEPAYPAL_PLUS_VAT'                          => 'zzgl. MwSt.',
     'OEPAYPAL_PAYMENT_INFORMATION'               => "Bezahlinformation",
 );
