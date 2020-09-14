@@ -40,11 +40,11 @@ $aLang = array(
 
     'PAYMORROW_PAYMENT_NO_JAVASCRIPT'                => 'Um diese Zahlungsart zu nutzen, muss JavaScript im Browser aktiviert sein.',
 
-    'PAYMORROW_GENERAL_ERROR'                        => 'Es ist ein Fehler aufgetreten. Bitte wiederhole den Vorgang.',
-    'PAYMORROW_ACCEPT_CONDITIONS_ERROR'              => 'Bitte akzeptiere die Datenschutzbestimmungen der Paymorrow GmbH.',
-    'PAYMORROW_SELECT_GENDER_ERROR'                  => 'Du hast keine Anrede ausgewählt.',
-    'PAYMORROW_DATE_OF_BIRTH_ERROR'                  => 'Du hast kein Geburtsdatum angegeben.',
-    'PAYMORROW_MOBILE_NUMBER_ERROR'                  => 'Du hast keine Festnetz- oder Mobilnummer eingegeben.',
+    'PAYMORROW_GENERAL_ERROR'                        => 'Es ist ein Fehler aufgetreten. Bitte wiederholen Sie den Vorgang.',
+    'PAYMORROW_ACCEPT_CONDITIONS_ERROR'              => 'Bitte akzeptieren Sie die Datenschutzbestimmungen der Paymorrow GmbH.',
+    'PAYMORROW_SELECT_GENDER_ERROR'                  => 'Sie haben keine Anrede ausgewählt.',
+    'PAYMORROW_DATE_OF_BIRTH_ERROR'                  => 'Sie haben kein Geburtsdatum angegeben.',
+    'PAYMORROW_MOBILE_NUMBER_ERROR'                  => 'Sie haben keine Festnetz- oder Mobilnummer eingegeben.',
 
     // Custom
     'PAYMORROW_ORDER_DATA_COLLECTION_FAILED'         => 'Die Bestelldatenerfassung ist gescheitert',
