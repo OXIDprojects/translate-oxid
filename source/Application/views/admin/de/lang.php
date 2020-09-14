@@ -4,7 +4,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName = 'Deutsch informell';
+$sLangName = 'Deutsch ';
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -170,7 +170,7 @@ $aLang = [
     'GENERAL_ATALL'                  => 'Gesamt',
     'GENERAL_AUTO'                   => 'automatisch',
     'GENERAL_BEGINDATE'              => 'Gültig von',
-    'GENERAL_BILLADDRESS'            => 'Rechnungsadresse:',
+    'GENERAL_BILLADDRESS'            => 'Rechnungsadresse: ',
     'GENERAL_BILLSAL'                => 'Anrede',
     'GENERAL_BIRTHDATE'              => 'Geburtsdatum',
     'GENERAL_CARD'                   => 'Grußkarte',
@@ -192,12 +192,12 @@ $aLang = [
     'GENERAL_EMAIL'                  => 'E-Mail',
     'GENERAL_ENDDATE'                => 'Gültig bis',
     'GENERAL_ESTART'                 => 'Export starten',
-    'GENERAL_EXPORTDELCOST'          => 'Bitte Versandkosten eingeben',
-    'GENERAL_EXPORTMAINVARS'         => 'Vaterartikel von Varianten exportieren',
-    'GENERAL_EXPORTMINPRICE'         => 'Export ab Bruttopreis',
-    'GENERAL_EXPORTCAMPAIGN'         => 'Kampagnenparameter',
-    'GENERAL_EXPORTMINSTOCK'         => 'Export ab min. Lagerbestand',
-    'GENERAL_EXPOSTVARS'             => 'Varianten exportieren',
+    'GENERAL_EXPORTDELCOST'          => 'Bitte Versandkosten eingeben ',
+    'GENERAL_EXPORTMAINVARS'         => 'Vaterartikel von Varianten exportieren ',
+    'GENERAL_EXPORTMINPRICE'         => 'Export ab Bruttopreis ',
+    'GENERAL_EXPORTCAMPAIGN'         => 'Kampagnenparameter ',
+    'GENERAL_EXPORTMINSTOCK'         => 'Export ab min. Lagerbestand ',
+    'GENERAL_EXPOSTVARS'             => 'Varianten exportieren ',
     'GENERAL_EXPORTLANGUAGE'         => 'Export für Sprache',
     'GENERAL_EXPORTCUSTOMHEADER'     => 'Benutzerdefinierte Kopfzeile',
     'GENERAL_EXTERNALSTOCK'          => 'Fremdlager',
@@ -211,7 +211,7 @@ $aLang = [
     'GENERAL_FILTERING'              => 'Als Platzhalter ein Sternchen * verwenden',
     'GENERAL_FON'                    => 'Fon',
     'GENERAL_FROM'                   => 'von',
-    'GENERAL_FROMCATEGORY'           => 'aus Kategorie:',
+    'GENERAL_FROMCATEGORY'           => 'aus Kategorie: ',
     'GENERAL_IBRUTTO'                => 'Artikel brutto',
     'GENERAL_ICON'                   => 'Icon',
     'GENERAL_IDENT'                  => 'Ident',
@@ -232,7 +232,7 @@ $aLang = [
     'GENERAL_NODATA'                 => 'Keine Daten verfügbar',
     'GENERAL_ITEM'                   => 'Artikel',
     'GENERAL_ITEMNR'                 => 'Art.-Nr.',
-    'GENERAL_LANGUAGE'               => 'In Sprache',
+    'GENERAL_LANGUAGE'               => 'In Sprache ',
     'GENERAL_LANGUAGE_NAME'          => 'Sprache',
     'GENERAL_LINK'                   => 'Link',
     'GENERAL_MANUEL'                 => 'Manuell',
@@ -267,7 +267,7 @@ $aLang = [
     'GENERAL_SEARCHKEY'              => 'Optionale Suchworte',
     'GENERAL_SEARCHKEYS'             => 'Search Keys',
     'GENERAL_SENDEMAIL'              => 'E-Mail schicken?',
-    'GENERAL_SENDON'                 => 'Versandt am',
+    'GENERAL_SENDON'                 => 'Versandt am ',
     'GENERAL_SEND'                   => 'Versenden',
     'GENERAL_NOSENT'                 => 'Bestellung wurde noch nicht versandt.',
     'GENERAL_SETBACKSENDTIME'        => 'Versanddatum zurücksetzen',
@@ -303,7 +303,7 @@ $aLang = [
     'GENERAL_URL'                               => 'URL',
     'GENERAL_USER'                              => 'Benutzer',
     'GENERAL_USTID'                             => 'Umsatzsteuer-Identnummer',
-    'GENERAL_VARIANTE'                          => 'Variante von',
+    'GENERAL_VARIANTE'                          => 'Variante von  ',
     'GENERAL_VENDOR'                            => 'Lieferant',
     'GENERAL_VOUCHERS'                          => 'Gutschein Rabatt',
     'GENERAL_YOUWANTTODELETE'                   => 'Willst Du diesen Eintrag wirklich löschen?',
@@ -402,7 +402,7 @@ $aLang = [
     'ARTICLE_MAIN_PRICEC'                       => 'C:',
     'ARTICLE_MAIN_VAT'                          => 'Spez. MwSt.',
     'ARTICLE_MAIN_ARTCOPY'                      => 'Art. kopieren',
-    'ARTICLE_MAIN_VARIANTE'                     => 'Variante von',
+    'ARTICLE_MAIN_VARIANTE'                     => 'Variante von  ',
     'ARTICLE_MAIN_ACTIVFROMTILL'                => 'Oder aktiv',
     'ARTICLE_MAIN_TITLE'                        => 'Titel',
     'ARTICLE_MAIN_ARTNUM'                       => 'Art.-Nr.',
@@ -421,25 +421,25 @@ $aLang = [
                                                    '<li>In Klammern steht immer der Bruttopreis.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Art. erstellt am',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Letzte Änderung am',
-    'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Verkaufsrang Position',
+    'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Verkaufsrang Position ',
     'ARTICLE_OVERVIEW_TOTALORDERCNT'            => 'Gesamtanzahl bestellt',
     'ARTICLE_OVERVIEW_SOLDCNT'                  => 'Verkäufe gesamt',
     'ARTICLE_OVERVIEW_CANCELEDCNT'              => 'Storniert gesamt',
     'ARTICLE_OVERVIEW_LEFTORDERCNT'             => 'Anzahl der offenen Bestellungen',
-    'ARTICLE_PICTURES_PIC1UPLOAD'               => 'Bild 1 hochladen:',
-    'ARTICLE_PICTURES_PIC2UPLOAD'               => 'Bild 2 hochladen:',
-    'ARTICLE_PICTURES_PIC3UPLOAD'               => 'Bild 3 hochladen:',
-    'ARTICLE_PICTURES_PIC4UPLOAD'               => 'Bild 4 hochladen:',
-    'ARTICLE_PICTURES_PIC5UPLOAD'               => 'Bild 5 hochladen:',
-    'ARTICLE_PICTURES_PIC6UPLOAD'               => 'Bild 6 hochladen:',
-    'ARTICLE_PICTURES_PIC7UPLOAD'               => 'Bild 7 hochladen:',
-    'ARTICLE_PICTURES_ZOOM1UPLOAD'              => 'Zoom 1 hochladen:',
-    'ARTICLE_PICTURES_ZOOM2UPLOAD'              => 'Zoom 2 hochladen:',
-    'ARTICLE_PICTURES_ZOOM3UPLOAD'              => 'Zoom 3 hochladen:',
-    'ARTICLE_PICTURES_ZOOM4UPLOAD'              => 'Zoom 4 hochladen:',
+    'ARTICLE_PICTURES_PIC1UPLOAD'               => 'Bild 1 hochladen: ',
+    'ARTICLE_PICTURES_PIC2UPLOAD'               => 'Bild 2 hochladen: ',
+    'ARTICLE_PICTURES_PIC3UPLOAD'               => 'Bild 3 hochladen: ',
+    'ARTICLE_PICTURES_PIC4UPLOAD'               => 'Bild 4 hochladen: ',
+    'ARTICLE_PICTURES_PIC5UPLOAD'               => 'Bild 5 hochladen: ',
+    'ARTICLE_PICTURES_PIC6UPLOAD'               => 'Bild 6 hochladen: ',
+    'ARTICLE_PICTURES_PIC7UPLOAD'               => 'Bild 7 hochladen: ',
+    'ARTICLE_PICTURES_ZOOM1UPLOAD'              => 'Zoom 1 hochladen: ',
+    'ARTICLE_PICTURES_ZOOM2UPLOAD'              => 'Zoom 2 hochladen: ',
+    'ARTICLE_PICTURES_ZOOM3UPLOAD'              => 'Zoom 3 hochladen: ',
+    'ARTICLE_PICTURES_ZOOM4UPLOAD'              => 'Zoom 4 hochladen: ',
     'ARTICLE_PICTURES_SAVE'                     => 'Speichern',
-    'ARTICLE_PICTURES_THUMBUPLOAD'              => 'Thumbn. hochladen:',
-    'ARTICLE_PICTURES_ICONUPLOAD'               => 'Icon hochladen:',
+    'ARTICLE_PICTURES_THUMBUPLOAD'              => 'Thumbn. hochladen: ',
+    'ARTICLE_PICTURES_ICONUPLOAD'               => 'Icon hochladen: ',
     'ARTICLE_PICTURES_THUMB'                    => 'Thumbnail',
     'ARTICLE_PICTURES_ICON'                     => 'Icon',
     'ARTICLE_PICTURES_CUSTOM_PICTURES'          => 'Thumbnail/Icon manuell hochladen',
@@ -468,9 +468,9 @@ $aLang = [
     'ARTICLE_REVIEW_DELETE'                     => 'Löschen',
     'ARTICLE_REVIEW_SAVE'                       => 'Speichern',
     'ARTICLE_REVIEW_ACTIVE'                     => 'Aktiv',
-    'ARTICLE_REVIEW_POSTEDFROM'                 => 'Gepostet von:',
-    'ARTICLE_REVIEW_TEXT'                       => 'Text:',
-    'ARTICLE_RIGHTS_SETGROUPS_BUYABLE'          => 'Ausschließlich kaufbar für die Benutzergruppe',
+    'ARTICLE_REVIEW_POSTEDFROM'                 => 'Gepostet von: ',
+    'ARTICLE_REVIEW_TEXT'                       => 'Text: ',
+    'ARTICLE_RIGHTS_SETGROUPS_BUYABLE'          => 'Ausschließlich kaufbar für die Benutzergruppe ',
     'ARTICLE_RIGHTS_SETGROUPS_VISIBLE'          => 'Ausschließlich sichtbar für die Benutzergruppe',
     'ARTICLE_RIGHTS_ALLGROUPS'                  => 'Alle Benutzergruppen',
     'ARTICLE_RIGHTS_ASSIGNVISIBLE'              => 'Benutzergruppen zuordnen (Ausschließlich sichtbar)',
@@ -508,7 +508,7 @@ $aLang = [
     'ARTICLE_VARIANT_ARTNUM'                    => 'Art.-Nr.',
     'ARTICLE_VARIANT_ACTIVE'                    => 'Aktiv',
     'ARTICLE_VARIANT_SELECTLIST'                => 'Auswahllisten',
-    'ARTICLE_VARIANT_VARNAME'                   => 'Name der Auswahl:',
+    'ARTICLE_VARIANT_VARNAME'                   => 'Name der Auswahl: ',
     'ARTICLE_VARIANT_CHOICE'                    => 'Auswahl',
     'ARTICLE_VARIANT_SORT'                      => 'Sort.',
     'ARTICLE_VARIANT_STOCK'                     => 'Lager',
@@ -565,7 +565,7 @@ $aLang = [
     'CATEGORY_RIGHTS_ALLGROUPS'                 => 'Alle Benutzergruppen',
     'CATEGORY_RIGHTS_APPLYLEVEL'                => 'Änderungen nur für die Kategorie und ihre Artikel anlegen',
     'CATEGORY_RIGHTS_APPLYLEVEL2'               => 'Änderungen für die Kategorie, Subkategorien und ihre Artikel anlegen',
-    'CATEGORY_RIGHTS_SETGROUPS_VISIBLE'         => 'Ausschließlich sichtbar für die Benutzergruppe',
+    'CATEGORY_RIGHTS_SETGROUPS_VISIBLE'         => 'Ausschließlich sichtbar für die Benutzergruppe ',
     'CATEGORY_RIGHTS_ALLGROUPS2'                => 'Alle Benutzergruppen',
     'CATEGORY_RIGHTS_APPLYLEVEL3'               => 'Änderungen nur für die Kategorie und ihre Artikel anlegen',
     'CATEGORY_RIGHTS_APPLYLEVEL4'               => 'Änderungen für die Kategorie, Subkategorien und ihre Artikel anlegen',
@@ -671,7 +671,7 @@ $aLang = [
     'EXCEPTION_FILENAMEINVALIDCHARS'                 => 'Ungültige Zeichen im Dateinamne',
     'EXCEPTION_FILEUPLOADERROR_1'                    => 'Die Datei überschreitet die erlaubte Maximalgröße', // message is taken from php docu
     'EXCEPTION_FILEUPLOADERROR_2'                    => 'Die Datei überschreitet die erlaubte Maximalgröße', // message is taken from php docu
-    'EXCEPTION_FILEUPLOADERROR_3'                    => 'Die Datei wurde unvollständig hochgeladen', // message is taken from php docu
+    'EXCEPTION_FILEUPLOADERROR_3'                    => 'Die Datei wurde unvollständig hochgeladen ', // message is taken from php docu
     'EXCEPTION_FILEUPLOADERROR_4'                    => 'Es wurde keine Datei hochgeladen', // message is taken from php docu
     'EXCEPTION_FILEUPLOADERROR_6'                    => 'Temporärer Ordner nicht verfügbar', // message is taken from php docu
     'EXCEPTION_FILEUPLOADERROR_7'                    => 'Schreibfehler', // message is taken from php docu
@@ -755,7 +755,7 @@ $aLang = [
     'MAIN_INFO'                                      => 'Information',
     'MR'                                             => 'Herr',
     'MRS'                                            => 'Frau',
-    'HOME_DESC'                                      => 'Willkommen im OXID eShop Administrationsbereich. Hier findest Du eine Übersicht über die grundlegenden Bereiche und Funktionen.',
+    'HOME_DESC'                                      => 'Willkommen im OXID eShop Administrationsbereich. Hier findest Du eine Übersicht über die grundlegenden Bereiche und Funktionen',
     'NAVIGATION_TITLE'                               => 'Navigation',
     'NAVIGATION_ESHOPADMIN'                          => 'eShop Admin',
     'NAVIGATION_LOGOUT'                              => 'Abmelden',
@@ -765,7 +765,7 @@ $aLang = [
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Newsverwaltung]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titel',
-    'NEWS_LIST_MENUSUBITEM'                          => 'News',
+    'NEWS_LIST_MENUSUBITEM'                          => 'Nachrichten',
     'NEWS_MAIN_SHORTDESC'                            => 'Titel',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Sichtbar für Benutzergruppe',
     'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Nicht sichtbar für Benutzergruppe',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'History',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Die Systemgesundheit dieses Shops ist gefährdet. Möglicherweise verhält sich Dein OXID eShop in einigen Bereichen unerwartet. Bitte stelle sicher, dass die Servereinstellungen korrekt vorgenommen werden. Unterstützung findest Du in der",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Systemgesundheitsprüfung.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Die permanente Systemgesundheitsprüfung wurde deaktiviert. Du kannst diese auf der Registerkarte Perform. unter Stammdaten -> Grundeinstellungen aktivieren. Um dennoch zu prüfen, klicke bitte hier: ",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Die permanente Systemgesundheitsprüfung wurde deaktiviert. Sie können diese auf der Registerkarte Perform. unter Stammdaten -> Grundeinstellungen aktivieren. Um dennoch zu prüfen, klicken Sie bitte hier: ",
     'NAVIGATION_SHOPFRONT'                           => "Startseite des Shops",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Dein Newsletter wurde versendet.',
@@ -914,7 +914,7 @@ $aLang = [
     'PRICEALARM_MAIN_REGULARPRICE'                       => 'Normal. Preis',
     'PRICEALARM_MAIN_EMAILSEND'                          => 'E-Mail senden',
     'PRICEALARM_SEND_TITLE'                              => 'oxid Pricealarm',
-    'PRICEALARM_MESSAGE_SENT'                            => 'Versendet',
+    'PRICEALARM_MESSAGE_SENT'                            => 'Gesendet',
     'PRICEALARM_SEND_FROM'                               => 'von insgesamt',
     'ROLES_LIST_TITLE'                                   => 'Titel',
     'ROLES_FEMAIN_SAVE'                                  => 'Speichern',
@@ -1233,7 +1233,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen oder fsockopen auf Port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Kompatibilitätsmodus muss ausgeschaltet sein',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'PHP-Version von 7.1 bis 7.4',
+    'SYSREQ_PHP_VERSION'                      => 'PHP mindestens Version 5.3.25',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI vorhanden',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1245,7 +1245,7 @@ $aLang = [
     'SYSREQ_MYSQL_CONNECT'                    => 'MySQL Client Connector für MySQL 5',
 
     // @deprecated since v6.5.1 (2020-03-12); We do not check mysql version
-    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Version 5.5 oder 5.7',
+    'SYSREQ_MYSQL_VERSION'                    => 'MySQL Version 5',
     // END deprecated
 
     'SYSREQ_GD_INFO'                          => 'GDlib v2 [v1] incl. JPEG Unterstützung',
@@ -1297,7 +1297,7 @@ $aLang = [
     'TOOLTIPS_ARTICLEVAT'                     => 'Nur falls spezielle MwSt. hier ausfüllen',
     'TOOLTIPS_ARTICLEREVIEW'                  => 'Artikel Vorschau öffnen',
     'TOOLTIPS_ARTICLESTOCK'                   => 'Anzahl Artikel auf Lager',
-    'TOOLTIPS_ARTICLEDELIVERY'                => 'Zeit Format:',
+    'TOOLTIPS_ARTICLEDELIVERY'                => 'Zeit Format: ',
     'TOOLTIPS_ARTICLETEMPLATE'                => 'Dateiname des Templates<br>falls nicht Standard',
     'TOOLTIPS_ARTICLEURLIMG'                  => 'Anpassung der Templates notwendig',
     'TOOLTIPS_ARTLIST_SEARCHFIELDOXDYNAMIC'   => 'suche',
@@ -1333,7 +1333,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => 'Neue Versandkostenregel anlegen',
     'TOOLTIPS_NEWDELIVERYSET'                 => 'Neue Versandart anlegen',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => 'Nachricht erstellen',
+    'TOOLTIPS_NEWNEWS'                        => 'Neue Nachricht anlegen',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => 'Neue Gutscheinserie anlegen',
     'TOOLTIPS_NEWCATTREE'                     => 'Kategoriebaum neu indizieren',
@@ -1349,7 +1349,7 @@ $aLang = [
     'TOOLTIPS_RESETNROFARTICLESINCAT'         => 'Artikelanzahl in den Kategorien zurücksetzen',
     'TOOLTIPS_RESETNROFARTICLESINVND'         => 'Artikelanzahl in den Lieferanten zurücksetzen',
     'TOOLTIPS_RESETNROFARTICLESINMAN'         => 'Artikelanzahl in den Herstellern zurücksetzen',
-    'TOOLTIPS_TIMEFORMAT'                     => 'Zeit Format:',
+    'TOOLTIPS_TIMEFORMAT'                     => 'Zeit Format: ',
     'TOOLTIPS_VALDESC'                        => 'Eintrag1__@@Eintrag2__@@ usw.',
     'TOOLTIPS_ITEMUNASSIGN'                   => 'Verknüpfung zu Shop lösen',
     'TOOLTIPS_ARTLIST_NEWROLE'                => 'Neue Rolle anlegen',
@@ -1424,10 +1424,10 @@ $aLang = [
     'VOUCHERSERIE_MAIN_GENERATE'  => 'Generieren',
     'VOUCHERSERIE_MAIN_EXPORT'    => 'Export',
     'VOUCHERSERIE_GENERATING'     => 'Generiere Gutscheine ...',
-    'VOUCHERSERIE_GENERATED'      => 'Anzahl Gutscheine generiert:',
+    'VOUCHERSERIE_GENERATED'      => 'Anzahl Gutscheine generiert: ',
     'VOUCHERSERIE_GENERATEDONE'   => 'Gutscheingenerierung abgeschlossen.',
     'VOUCHERSERIE_EXPORTING'      => 'Exportiere Gutscheine ...',
-    'VOUCHERSERIE_EXPORTED'       => 'Gutscheine exportiert:',
+    'VOUCHERSERIE_EXPORTED'       => 'Gutscheine exportiert: ',
     'VOUCHERSERIE_EXPORTDONE'     => 'Gutscheinexport abgeschlossen.',
     'VOUCHERSERIE_EXPORTDOWNLOAD' => 'Download',
 
@@ -1535,7 +1535,7 @@ $aLang = [
     'mxmanageprod'             => 'Artikel verwalten',
     'mxmainmenu'               => 'Stammdaten',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'mxnews'                   => 'News',
+    'mxnews'                   => 'Nachrichten',
     // END deprecated
     'mxorders'                 => 'Bestellungen verwalten',
     'mxpaymeth'                => 'Zahlungsarten',
@@ -1645,7 +1645,7 @@ $aLang = [
     'tbcllanguage_main'        => 'Stamm',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'tbclnews_main'            => 'Stamm',
-    'tbclnews_text'            => 'Langtext',
+    'tbclnews_text'            => 'Text',
     // END deprecated
     //  order_list',
     'tbclorder_overview'       => 'Übersicht',
@@ -1738,7 +1738,7 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Der Lizenzschlüssel Ihres OXID eShop ist endgültig abgelaufen. Bitte kontaktiere den Technischen Support.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Der Lizenzschlüssel Deines OXID eShop ist abgelaufen. Dieser OXID eShop wird innerhalb der nächsten 24 Stunden offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder wende Dich an den technischen Support.',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Die erneute Prüfung ergab, dass der Lizenzschlüssel Deines OXID eShop nun gültig ist. Der stille Countdown von sieben Tagen wurde aus diesem Grund beendet.',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Die erneute Prüfung ergab, dass der Lizenzschlüssel Ihres OXID eShop nun gültig ist. Der stille Countdown von sieben Tagen wurde aus diesem Grund beendet.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Es ist ein Problem mit dem Lizenzschlüssel Deines OXID eShop aufgetreten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib den gültigen Lizenzschlüssel erneut ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Der Lizenzschlüssel Deines OXID eShop ist abgelaufen. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Die Anzahl der lizensierten Subshops wurde überschritten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
@@ -1858,7 +1858,7 @@ $aLang = [
     'PAYMENT_RDFA_CREDITCARD'              => 'Kreditkartenzahlung',
     'PAYMENT_RDFA_AMERICANEXPRESS'         => 'American Express',
     'PAYMENT_RDFA_DINERSCLUB'              => 'Diners Club',
-    'PAYMENT_RDFA_DISCOVER'                => 'Entdecken',
+    'PAYMENT_RDFA_DISCOVER'                => 'Discover',
     'PAYMENT_RDFA_JCB'                     => 'JCB',
     'PAYMENT_RDFA_MASTERCARD'              => 'MasterCard',
     'PAYMENT_RDFA_VISA'                    => 'VISA',
@@ -1936,9 +1936,9 @@ $aLang = [
     'OXDIAG_SHOP_DOES_NOT_FIT'            => 'Dieser OXID eShop ist nicht 100% original',
     'OXDIAG_SHOP_ORIGINAL'                => 'Dieser OXID eShop wurde nicht verändert und ist original',
 
-    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop kann durch Module funktional erweitert werden, ohne dass dabei die ausgelieferten Dateien angepasst werden müssen. Shopdateien sollten niemals geändert werden. Siehe dazu unsere englischen <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>Tutorials</a>.',
+    'OXDIAG_MODIFIEDHINTS1'                       => 'OXID eShop kann durch Module funktional erweitert werden, ohne dass dabei die  ausgelieferten Dateien angepasst werden müssen. Shopdateien sollten niemals geändert werden. Siehe dazu unsere englischen <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>Tutorials</a>.',
     'OXDIAG_MODIFIEDHINTS2'                       => 'Seit OXID eShop 4.2.0 ist es möglich, <a href="http://oxidforge.org/en/oxid-eshop-version-4-2-0.html#New_Features" target=_blank>eigene Templates zu verwenden</a>, ohne die ausgelieferten Templates zu ändern.',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Offenbar schlug ein Update oder auch mehrere fehl. Klicke auf den Details-Link, um mehr Informationen zu jeder einzelnen Datei zu erhalten. Eine übrig gebliebene Datei, die nicht mehr länger zum OXID eShop gehört, kann auch ein <u>möglicher</u> Grund für eine Versionsungleichheit sein. Informationen zum Update findest Du in unserer <a href="https://docs.oxid-esales.com/eshop/de/5.3/installation/installation.html" target=_blank>Dokumentation und Hilfe</a>.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Offenbar schlug ein Update oder auch mehrere fehl. Klicke auf den Details-Link, um mehr Informationen zu jeder einzelnen Datei zu erhalten. Eine übrig gebliebene Datei, die nicht mehr länger zum OXID eShop gehört, kann auch ein <u>möglicher</u> Grund für eine Versionsungleichheit sein. Informationen zum Update findest Du in unserer <a href="http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren" target=_blank>Dokumentation und Hilfe</a>.',
 
 
     'OXDIAG_HOME'                     => 'OXID Diagnose',
@@ -2006,7 +2006,7 @@ $aLang = [
     'TITLE'                          => 'Anrede',
     'SUBJECT'                        => 'Betreff',
     'MESSAGE'                        => 'Nachricht',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Fehler beim Abrufen von Versionsinformationen',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Fehler beim Abrufen von Versionsinformationen!',
     'CURL_EXECUTE_ERROR' => 'Verbindungsfehler (%s). Bitte versuchen Sie es später noch einmal.',
 ];
 
