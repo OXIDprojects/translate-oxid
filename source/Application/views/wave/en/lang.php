@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "English (Australia)";
+$sLangName = "English (United States)";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -49,11 +49,11 @@ $aLang = array(
     'FOOTER_NEWSLETTER_INFO'                                => 'Get informed about the latest products and offers via e-mail.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our shop.',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our store.',
     'START_BARGAIN_HEADER'                                  => 'This week\'s special',
     'START_NEWEST_HEADER'                                   => 'Just arrived',
     'START_TOP_PRODUCTS_HEADER'                             => 'Top sellers',
-    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current bargains!',
+    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current deals!',
     'START_NEWEST_SUBHEADER'                                => 'Can\'t get it more fresh! Just arrived.',
     'START_TOP_PRODUCTS_SUBHEADER'                          => 'Just two products - the best we\'d like to offer!',
 
@@ -76,8 +76,8 @@ $aLang = array(
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'State',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'select',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add delivery address',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add shipping address',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Delete shipping address',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter:',
@@ -102,7 +102,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Customers who viewed this product also glanced these:',
     'DETAILS_VPE_MESSAGE_1'                                 => "This product can only be ordered in packaging units of",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Choose a variant',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Subtotal',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Navigation',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'This action cannot be undone. This will permanently delete your personal data.',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Delete account',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Are you sure you want to delete your account?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Cancel',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'The account has been deleted',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'The account could not have been deleted',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Delete review and star rating',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'No reviews available',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Are you sure you want to delete the review?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Please choose',
