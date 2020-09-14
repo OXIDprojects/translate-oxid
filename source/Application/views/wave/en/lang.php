@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "English (United States)";
+$sLangName = "English (Australia)";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -49,11 +49,11 @@ $aLang = array(
     'FOOTER_NEWSLETTER_INFO'                                => 'Get informed about the latest products and offers via e-mail.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our store.',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'We present our carefully selected brands, whose products can be found in our shop.',
     'START_BARGAIN_HEADER'                                  => 'This week\'s special',
     'START_NEWEST_HEADER'                                   => 'Just arrived',
     'START_TOP_PRODUCTS_HEADER'                             => 'Top sellers',
-    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current deals!',
+    'START_BARGAIN_SUBHEADER'                               => 'Save money with our current bargains!',
     'START_NEWEST_SUBHEADER'                                => 'Can\'t get it more fresh! Just arrived.',
     'START_TOP_PRODUCTS_SUBHEADER'                          => 'Just two products - the best we\'d like to offer!',
 
@@ -76,7 +76,7 @@ $aLang = array(
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'State',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'select',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add shipping address',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'add delivery address',
     'DD_DELETE_SHIPPING_ADDRESS'                            => 'Delete shipping address',
 
     // List views
@@ -129,7 +129,7 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT'                                  => 'Delete account',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Are you sure you want to delete your account?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Cancel',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'The account has been deleted',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Your account has been deleted.',
     'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'The account could not have been deleted',
 
     // Account -> My product reviews
