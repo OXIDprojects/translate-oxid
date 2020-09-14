@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Language entries for FR
+ * Language entries for EN
  *
  * @author best it GmbH & Co. KG <info@bestit-online.de>
  */
 
-$sLangName  = "français";
+$sLangName  = "Français";
 
 $aLang = array(
     'charset'                                                    => 'UTF-8',
@@ -24,7 +24,7 @@ $aLang = array(
     'BESTITAMAZONPAYLOGIN_ERROR_invalid_token'                 => "Votre session Amazon a expiré, merci de vous reconnecter.",
     'BESTITAMAZONPAYLOGIN_PURCHASE_WITH_AMAZON'                => "Commandez avec votre compte Amazon",
 
-    'BESTITAMAZONPAY_EMAIL_SUBJECT_INVALID_PAYMENT'            => "Merci d'utiliser un moyen de paiement différent pour votre commande avec Amazon Pay",
+    'BESTITAMAZONPAY_EMAIL_SUBJECT_INVALID_PAYMENT'            => 'Merci d\'utiliser un moyen de paiement différent pour votre commande avec Amazon Pay',
     'BESTITAMAZONPAY_EMAIL_SUBJECT_REJECTED_PAYMENT'           => 'Amazon Pay a refusé votre paiement',
     'BESTITAMAZONPAY_EMAIL_VALUED_CUSUTOMER'                   => 'Cher client',
     'BESTITAMAZONPAY_EMAIL_THANKYOU'                           => 'Nous vous remercions pour votre commande auprès de',
