@@ -19,7 +19,7 @@
  */
  
 
-$sLangName  = "English (Australia)";
+$sLangName  = "English (US)";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
