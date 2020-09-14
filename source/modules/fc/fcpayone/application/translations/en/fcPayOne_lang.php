@@ -18,7 +18,7 @@
  * @version   OXID eShop CE
  */
  
-$sLangName  = "English (United Kingdom)";
+$sLangName  = "English (United States)";
 // -------------------------------
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
