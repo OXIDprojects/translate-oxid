@@ -20,7 +20,7 @@
  * @version   OXID eSales WYSIWYG
  */
 
-$sLangName = 'English (United Kingdom)';
+$sLangName = 'English (United States)';
 
 $aLang = array(
     // Charsets
@@ -33,8 +33,8 @@ $aLang = array(
 
     'DD_CLOSE'          => 'Close',
     'DD_CANCEL'         => 'Cancel',
-    'DD_APPLY'          => 'Apply',
-    'DD_OK'             => 'okay',
+    'DD_APPLY'          => '',
+    'DD_OK'             => 'OK',
     'DD_CONFIRM_DIALOG' => '',
     'DD_CONFIRM'        => '',
 
