@@ -23,7 +23,7 @@
 $aLang =  [
 'charset'                                     => 'UTF-8',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Here you can set if orders can be made in countries for which no shipping costs are defined:<ul><li>If the setting is checked, users can order: The users are notified that they are informed about the shipping costs manually.</li><li>If the setting is unchecked, users from countries for which no shipping costs are defined cannot order.</li></ul>',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Here you can set if orders can be made in countries for which no delivery costs are defined:<ul><li>If the setting is checked, users can order: The users are notified that they are informed about the delivery costs manually.</li><li>If the setting is unchecked, users from countries for which no delivery costs are defined cannot order.</li></ul>',
 
 'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'If this setting is checked, most navigation elements aren\'t shown during checkout. Thereby users aren\'t distracted unnecessarily during checkout.',
 
@@ -59,7 +59,7 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'With crossselling you can offer fitting products for a product: If e.g. to a car tires are assigned as crossselling product, the tires are shown with the car.<br>If bidirectional crossselling is activated, it works in both directions: The car is shown with the tires, too.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'For each product you can set up a message if the product is on stock.<br>If this setting is active, a message is shown if no specific message for for a product is entered. The default message <span class="filename_filepath_or_italic">Ready for shipping</span> is shown.',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'For each product you can set up a message if the product is on stock.<br>If this setting is active, a message is shown if no specific message for for a product is entered. The default message <span class="filename_filepath_or_italic">Ready for delivery</span> is shown.',
 
 'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'For each product you can set up a message if the product is not in stock.<br>If this setting is active, a message is shown if no specific message for for a product is entered. The default message <span class="filename_filepath_or_italic">This item is not in stock and must be back-ordered</span> is shown.',
 
@@ -85,17 +85,17 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'If users rate a product, they cannot rate the product again. Here you can set after how many days users are allowed to rate a product again. Leave empty to disable - products can be rated only once per user.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'The online VAT ID check is executed if a customer from a foreign country inside the EU enters a VAT ID when ordering. If the VAT ID is valid, no VAT is calculated for this order.<br>If the check is disabled, the normal VAT for the according country is always calculated.',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'The online GST ID check is executed if a customer from a foreign country inside the EU enters a VAT ID when ordering. If the GST ID is valid, no GST is calculated for this order.<br>If the check is disabled, the normal GST for the according country is always calculated.',
 
-'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Here you can enter an alternative URL for the online VAT ID check.',
+'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Here you can enter an alternative URL for the online GST ID check.',
 
 'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Private Sales Login transforms regular shop into members only shop. This helps to develop customer communities with similar interests. This setting restricts access to all eShop pages.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Allows to insert products only from one (root) category, if category change is detected user is asked to finalize order (go to checkout) or continue shopping (cart is cleaned in this case). Using this feature in conjunction with  properly organized category structure you can implement split carts for different suppliers.',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Allows to insert products only from one (root) category, if category change is detected user is asked to finalize order (go to checkout) or continue shopping (basket is cleaned in this case). Using this feature in conjunction with  properly organized category structure you can implement split baskets for different suppliers.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'When disabling this option eShop reduces product stock exactly at timewhen order is confirmed by customer and checkout is finished.<br><br> With this option enabled this functionality changes: Product stock reduces and is being <b>reserved</b> when product is put into cart. Reservation is canceled when cart content is bought or cart expires.',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'When disabling this option eShop reduces product stock exactly at timewhen order is confirmed by customer and checkout is finished.<br><br> With this option enabled this functionality changes: Product stock reduces and is being <b>reserved</b> when product is put into the basket. Reservation is canceled when the basket content is bought or the basket expires.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'After this timeout the reserved products are returned to stock and customer\'s cart is cleared.',
+'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'After this timeout the reserved products are returned to stock and customer\'s basket is cleared.',
 
 'HELP_SHOP_CONFIG_INVITATION'                 => 'Invitation is used for inviting your friends to website and getting credit points for inviting.',
 
@@ -143,9 +143,9 @@ $aLang =  [
 
 'HELP_SHOP_PERF_USESELECTLISTPRICE'           => 'In selection lists surcharges/discounts can be set up. If this setting is checked, the surcharges/discounts are loaded and applied. If unchecked, the surcharges/discounts aren\'t applied.',
 
-'HELP_SHOP_PERF_DISBASKETSAVING'              => 'The shopping cart of registered users is saved. When they visit your eShop again, the shopping cart contents are loaded. If you activate this setting, the shopping carts aren\'t saved any more.',
+'HELP_SHOP_PERF_DISBASKETSAVING'              => 'The basket of registered users is saved. When they visit your eShop again, the basket contents are loaded. If you activate this setting, the baskets aren\'t saved any more.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no shipping costs are calculated: The shipping costs are always 0.00 EUR.',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'If you deactivate this setting, no delivery costs are calculated: The delivery costs are always at $0.00',
 
 'HELP_SHOP_PERF_LOADPRICE'                    => 'If you deactivate this setting, no product prices are calculated: No prices are shown.',
 
@@ -187,7 +187,7 @@ $aLang =  [
 
 'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'With <span class="navipath_or_inputname">Alt. Prices</span> you can set up special prices for certain users. More information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/set-alternative-prices-special-users" target="_blank">eShop Manual</a> on the OXID eSales website.',
 
-'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special VAT for this product. This VAT is used for this product in all later calculations (cart, order, invoice)',
+'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special GST for this product. This GST is used for this product in all later calculations (basket, order, invoice)',
 
 'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'With <span class="navipath_or_inputname">Quantity</span> and <span class="navipath_or_inputname">Unit</span> you can set the price per quantity unit. The price per quantity unit is calculated and displayed with the product (e.g. 1.43 EUR per liter). In <span class="navipath_or_inputname">Quantity</span>, enter the amount of the product (e.g. <span class="userinput_or_code">1.5</span>), in <span class="navipath_or_inputname">Unit</span> define the according quantity unit (e.g. <span class="userinput_or_code">liter</span>). You can choose unit type from given values or, by selecting blank unit type "-", enter unit type manually. If you wish to append existing type list, please follow this <a href="http://oxidforge.org/en/adding-new-unit-types.html" target="_blank">link</a> for instructions.',
 
@@ -201,13 +201,13 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Setting is inherited from Parent product to Variants and applies to the entire product.',
 
-'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Price Alert can be turned off for this product.',
+'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Price alert can be turned off for this product.',
 
 'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => 'If <span class="navipath_or_inputname">Skip all negative discounts</span> is active, negative allowances will not be calculated for this product. These include discounts and vouchers.',
 
 'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'The detail view of a product can be displayed with a different template. For doing so, enter path and name of the template to be used. Further information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template" target="_blank">accordant manual entry</a>.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'If the product is customizable, an additional input field is displayed on the products detail page and in the shopping cart. Here customers can enter text for customizing the product.<br><br>A typical example are t-shirts which can be imprinted with custom text. In the input field customers can enter the text to be printed on the t-shirt.',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'If the product is customisable, an additional input field is displayed on the products detail page and in the basket. Here customers can enter text for customizing the product.<br><br>A typical example are t-shirts which can be imprinted with custom text. In the input field customers can enter the text to be printed on the t-shirt.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Prices can be changed on a defined time. Given fields update standard prices. If you leave price values "0", prices will not be updated.',
 
@@ -223,7 +223,7 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Specify the time in hours, the download link is valid after the first download. For this file you can overwrite the default setting, which was defined in Master Settings -> Core Setting -> Settings -> Downloads for all products.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => 'Icons are the smallest pictures of a product. For example, they are used in the shopping cart.<br>Uploading custom icon will override icon, generated from the first product picture.<br>After uploading, the filename is shown in Icon. If no icon is uploaded yet, --- is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Icons are the smallest pictures of a product. For example, they are used in the basket.<br>Uploading custom icon will override icon, generated from the first product picture.<br>After uploading, the filename is shown in Icon. If no icon is uploaded yet, --- is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
 'HELP_ARTICLE_PICTURES_THUMB'                 => 'Thumbnails are small product pictures. For example, they are used in product lists (categories, search results).<br>Uploading custom thumbnail will override the thumbnail generated from the first product picture.<br>After uploading, the filename is shown in Thumbnail. If no thumbnail is uploaded yet, ---- is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
@@ -257,7 +257,7 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Here you can set the price for the quantity entered above. You can enter the price absolutely or as percental discount.<br> Further information about scale prices can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">scale price article in the manual.</a>.',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Color</span> or <span class="userinput_or_code">Size</span>.<br> Further Information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">variants article in the manual</a>.',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Colour</span> or <span class="userinput_or_code">Size</span>.<br> Further Information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">variants article in the manual</a>.',
 
 'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'If checked, this attribute\'s value will be shown in cart and order overview below the product title.',
 
@@ -301,17 +301,17 @@ $aLang =  [
 
 'HELP_CONTENT_SEO_DESCRIPTION'                => 'This description is integrated in the HTML sourcecode of the CMS page (META description). This text is often displayed in result pages of search engines. A suitable description can be entered here. If it\'s left blank, the description is generated automatically.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Under <span class="navipath_or_inputname">Calculation Rules</span> you can select how often the price is calculated:<ul><li><span class="userinput_or_code">Once per cart</span>: Price is calculated once for the entire order.</li><li><span class="userinput_or_code">Once for each different product</span>: Price is calculated once for each different product in the shopping cart. It makes no difference what quantity of a product is ordered.</li><li><span class="userinput_or_code">For each product</span>: price is calculated for each product in the shopping cart.</li></ul>',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Under <span class="navipath_or_inputname">Calculation Rules</span> you can select how often the price is calculated:<ul><li><span class="userinput_or_code">Once per basket</span>: Price is calculated once for the entire order.</li><li><span class="userinput_or_code">Once for each different product</span>: Price is calculated once for each different product in the basket. It makes no difference what quantity of a product is ordered.</li><li><span class="userinput_or_code">For each product</span>: price is calculated for each product in the basket.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => 'In <span class="navipath_or_inputname">Condition</span> you can specify that the shipping cost rule applies only to a certain condition. You can choose from among 4 conditions:<ul><li><span class="userinput_or_code">Amount</span>: Number of products in the shopping car.</li><li><span class="userinput_or_code">Size</span>: Total size of all products. In order for this setting to be used properly, the size must be entered for products.</li><li><span class="userinput_or_code">Weight</span>: Total weight of the order in kilograms. In order for this setting to be used properly, the weight must be entered for products.</li><li><span class="userinput_or_code">Price</span>: Purchase price of the order.</li></ul>You can use the entry fields <span class="navipath_or_inputname">>=</span> (greater than or equal to) and <span class="navipath_or_inputname"><=</span> (less than or equal to) to specify the range to which the condition is to apply. A larger number must be entered for <span class="navipath_or_inputname"><=</span> than for <span class="navipath_or_inputname">-></span>.',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'In <span class="navipath_or_inputname">Condition</span> you can specify that the delivery cost rule applies only to a certain condition. You can choose from among 4 conditions:<ul><li><span class="userinput_or_code">Amount</span>: Number of products in the basket.</li><li><span class="userinput_or_code">Size</span>: Total size of all products. In order for this setting to be used properly, the size must be entered for products.</li><li><span class="userinput_or_code">Weight</span>: Total weight of the order in kilograms. In order for this setting to be used properly, the weight must be entered for products.</li><li><span class="userinput_or_code">Price</span>: Purchase price of the order.</li></ul>You can use the entry fields <span class="navipath_or_inputname">>=</span> (greater than or equal to) and <span class="navipath_or_inputname"><=</span> (less than or equal to) to specify the range to which the condition is to apply. A larger number must be entered for <span class="navipath_or_inputname"><=</span> than for <span class="navipath_or_inputname">-></span>.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => 'You can use <span class="navipath_or_inputname">Price Surcharge/Discount</span> to specify the magnitude of the shipping costs. The price can be calculated in two different ways:<ul><li>With <span class="userinput_or_code">abs</span>, the price is specified absolutely (e.g.: with <span class="userinput_or_code">6.90</span>, a price of EUR 6.90 is calculated).</li><li>With <span class="userinput_or_code">%</span>, the price is specified relative to the purchase price (e.g.: With <span class="userinput_or_code">10</span>, a price of 10% of the purchase price is calculated).</li></ul>',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'You can use <span class="navipath_or_inputname">Price Surcharge/Discount</span> to specify the magnitude of the delivery costs. The price can be calculated in two different ways:<ul><li>With <span class="userinput_or_code">abs</span>, the price is specified absolutely (e.g.: with <span class="userinput_or_code">6.90</span>, a price of EUR 6.90 is calculated).</li><li>With <span class="userinput_or_code">%</span>, the price is specified relative to the purchase price (e.g.: With <span class="userinput_or_code">10</span>, a price of 10% of the purchase price is calculated).</li></ul>',
 
-'HELP_DELIVERY_MAIN_ORDER'                    => 'You can use <span class="navipath_or_inputname">Order of rule processing</span> to specify the order in which the shipping cost rules will be run. The shipping cost rule with the lowest number is run first. The order is important if the setting <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> is used.',
+'HELP_DELIVERY_MAIN_ORDER'                    => 'You can use <span class="navipath_or_inputname">Order of rule processing</span> to specify the order in which the delivery cost rules will be run. The delivery cost rule with the lowest number is run first. The order is important if the setting <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> is used.',
 
-'HELP_DELIVERY_MAIN_FINALIZE'                 => 'You can use <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> to specify that no further rules are to be run if this shipping cost rule is valid and is being run. For this option, the order in which the shipping cost rules are run is important. It is specified through the <span class="navipath_or_inputname">Order of Rule processing</span>.',
+'HELP_DELIVERY_MAIN_FINALIZE'                 => 'You can use <span class="navipath_or_inputname">Don\'t calculate further rules if this rule matches</span> to specify that no further rules are to be run if this delivery cost rule is valid and is being run. For this option, the order in which the delivery cost rules are run is important. It is specified through the <span class="navipath_or_inputname">Order of Rule processing</span>.',
 
-'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Sorting</span> specifies the order in which the shipping methods are displayed to users: The shipping method with the lowest number is displayed at the top.',
+'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Sorting</span> specifies the order in which the delivery methods are displayed to users: The delivery method with the lowest number is displayed at the top.',
 
 'HELP_DISCOUNT_MAIN_SORT'                     => 'Use <span class="navipath_or_inputname">Sorting</span> to define the order of the discounts applied to products or cart. The discount with the lowest number applies first, the one with the highest number last.',
 
@@ -320,8 +320,7 @@ $aLang =  [
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'You can use <span class="navipath_or_inputname">Quantity</span> to specify that the discount is only valid for certain purchase quantities. If you want the discount to be valid for all purchase quantities, enter <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">From</span> and <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">To</span>.',
 
 'HELP_DISCOUNT_MAIN_REBATE'                   => 'In <span class="navipath_or_inputname">Discount</span>, you specify the magnitude of the discount. You can use the selection list after the entry field to specify whether the discount is to be applied as an absolute discount or as a percentage discount:<ul><li><span class="userinput_or_code">abs</span>: The discount is an absolute discount, e.g. EUR 5.</li><li><span class="userinput_or_code">%</span>: The discount is a percentage discount, e.g. 10 percent of the purchase price.</li>
-<li><span class="userinput_or_code">itm</span>: Discount in the form of a free product. Set the amount of this product. Choose "Multiply" if the amount of discounted product in shopping cart should be multiplied with the amount of the free product.</li>
-</ul>',
+<li><span class="userinput_or_code">itm</span>: Discount in the form of a free product. Set the amount of this product. Choose "Multiply" if the amount of discounted product in shopping cart should be multiplied with the amount of the free product.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'You can define several SEO URLs for products: For certain categories and manufacturer pages. With <span class="navipath_or_inputname">Active Category/Vendor</span> you can select the SEO URL you want to edit.',
 
@@ -351,7 +350,7 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'In <span class="navipath_or_inputname">Price Surcharge/Reduction</span>, the price is entered for the payment method. The price can be specified in two different ways:<ul><li>With <span class="userinput_or_code">abs</span> the price is entered for the payment method (e.g.: if you enter <span class="userinput_or_code">7.50</span> a price of EUR 7.50 is calculated.)</li><li>With <span class="userinput_or_code">%</span>, the price is calculated relative to the purchase price (e.g.: if you enter <span class="userinput_or_code">2</span>, the price is 2 percent of the purchase price)</li></ul>',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'When calculating price surcharge or reduction, cart value is being used as base. Define what costs will be included when calculating cart value.',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'When calculating price surcharge or reduction, basket value is being used as base. Define what costs will be included when calculating basket value.',
 
 'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'In <span class="navipath_or_inputname">Working Title</span>, you can enter an additional name that is not displayed to users of your eShop. You can use the working title to differentiate between similar selection lists (e.g., Sizes for trousers and Sizes for shirts).',
 
@@ -396,7 +395,7 @@ $aLang =  [
 
 'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => 'Here you can enter a coupon number. This number is used when creating new coupons if <span class="navipath_or_inputname">Random Numbers</span> is deactivated. All Coupons get the same coupon numberon.',
 
-'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'If you assign products or categories to your coupon, deactivate this option to calculate this coupon to each product per cart position. Activate if the coupon shall be valid only once per cart position.',
+'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'If you assign products or categories to your coupon, deactivate this option to calculate this coupon to each product per basket position. Activate if the coupon shall be valid only once per basket position.',
 
 'HELP_WRAPPING_MAIN_PICTURE'                  => 'With <span class="navipath_or_inputname">Picture</span> and <span class="navipath_or_inputname">Upload Picture</span> you can upload a picture for the gift wrapping. In <span class="navipath_or_inputname">Upload Picture</span>, select the picture to upload. When clicking on <span class="navipath_or_inputname">Save</span>, the picture is uploaded. After uploading, the filename is shown in <span class="navipath_or_inputname">Picture</span>.',
 
@@ -410,11 +409,11 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Select here, in which content page not to RDFa assigned payment information is displayed, e.g. "Terms and Conditions". To assign your payment methods to RDFa payment methods in general go to: Shop Settings -> Payment Methods -> RDFa.',
 
-'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Select here, in which content page not to RDFa assigned shipping information is displayed, e.g. "Shipping and charges". To assign your shipping methods to RDFa payment methods in general go to: Shop Settings -> Shipping Methods -> RDFa.',
+'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Select here, in which content page not to RDFa assigned delivery information is displayed, e.g. "Delivery and charges". To assign your delivery methods to RDFa payment methods in general go to: Shop Settings -> Delivery Methods -> RDFa.',
 
-'HELP_SHOP_RDFA_VAT'                          => 'This option specifies whether the tax (VAT) is included in the price and delivery/payment costs or not.',
+'HELP_SHOP_RDFA_VAT'                          => 'This option specifies whether the VAT is included in the price and delivery/payment costs or not.',
 
-'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Specify here the time of the validity of the costs of products, payment and shipping (e.g. 1 day, 1 week).',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Specify here the time of the validity of the costs of products, payment and delivery (e.g. 1 day, 1 week).',
 
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'The Web address (URL) of a logo or image.',
 
@@ -446,17 +445,17 @@ $aLang =  [
 
 'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Runs the system health check when accessing the admin home page and displays messages if necessary. In special configurations this may affect the performance of the admin panel.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The VAT rate of the products, which have the biggest net value in shopping cart, is used for calculating.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'The GST rate of the products with the biggest net value in shopping basket. Used for calculating.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in cart with the same VAT rate is used for calculating.',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'The percentage of products in the basket with the same GST rate will be used for calculations.',
 
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In frontend product prices are shown as net prices.',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'In the store front, product prices will be shown as prices w/o GST.',
 
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In admin area product prices must be entered as net prices.',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'In the admin panel, product prices must be entered as prices w/o GST.',
 
 'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Checks if Reverse Proxy is available for the frontend. Header of the shop\'s start page is verified.<br>The test could fail if different domains or protocols (http/https) are used for the admin panel and the store front.',
 
-'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Admin area is displayed without Reverse Proxy. Varnish header could not be received.',
+'HELP_REVERSE_PROXY_GET_BACKEND'              => 'The admin panel will be displayed without using reverse proxy caching. The varnish header could not be received.',
 
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Only IBAN and BIC can be entered during the checkout. Bank account number and the bank code can only be entered if this check box is not activated.',
 
