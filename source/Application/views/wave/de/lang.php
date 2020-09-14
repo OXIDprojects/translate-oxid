@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Deutsch informell";
+$sLangName = "English";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -42,24 +42,24 @@ $aLang = array(
 
     // Header
     'SEARCH_TITLE'                                          => 'Suchbegriff eingeben...',
-    'SEARCH_SUBMIT'                                         => 'Suche',
+    'SEARCH_SUBMIT'                                         => 'Suchen',
     'NAV_MORE'                                              => 'Mehr',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => 'Die neuesten Produkte und die besten Angebote per E-Mail, damit Du nichts mehr verpasst.',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Die neuesten Produkte und die besten Angebote per E-Mail, damit Du nichts mehr verpasst!',
 
     // Home page
     'MANUFACTURERSLIDER_SUBHEAD'                            => 'Wir präsentieren Dir hier unsere sorgsam ausgewählten Marken, deren Produkte Du in unserem Shop findest.',
     'START_BARGAIN_HEADER'                                  => 'Angebote der Woche',
     'START_NEWEST_HEADER'                                   => 'Frisch eingetroffen',
-    'START_TOP_PRODUCTS_HEADER'                             => 'Bestseller',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Topseller',
     'START_BARGAIN_SUBHEADER'                               => 'Spare bares Geld mit unseren aktuellen Schnäppchen!',
     'START_NEWEST_SUBHEADER'                                => 'Frischer geht es nicht. Gerade noch in der Kiste und nun schon im Shop.',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Nur %s Produkte, aber das Beste, was wir Euch anbieten können.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Nur zwei Produkte. Dafür aber die besten, die wir Euch bieten können.',
 
     // Contact form
-    'DD_CONTACT_PAGE_HEADING'                               => 'Kontaktiere uns!',
-    'DD_CONTACT_FORM_HEADING'                               => 'Kontakt',
+    'DD_CONTACT_PAGE_HEADING'                               => 'Tritt mit uns in Kontakt!',
+    'DD_CONTACT_FORM_HEADING'                               => 'Kontaktformular',
 
     // Link list
     'DD_LINKS_NO_ENTRIES'                                   => 'Es sind leider noch keine Links vorhanden.',
@@ -71,36 +71,36 @@ $aLang = array(
     'DD_ERR_404_CONTACT_BUTTON'                             => 'zur Kontaktseite',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Durch Deine Anmeldung in unserem Shop kannst Du schneller durch den Bestellvorgang geführt werden. Außerdem kannst Du mehrere Versandadressen speichern und Bestellungen in Deinem Konto verfolgen.',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Durch Deine Anmeldung in unserem Shop kannst Du schneller durch den Bestellvorgang geführt werden. Ausserdem kannst Du mehrere Versandadressen speichern und Bestellungen in Deinem Konto verfolgen.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'Bundesland',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'auswählen',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'neue Lieferadresse hinzufügen',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'neue Adresse hinzufügen',
     'DD_DELETE_SHIPPING_ADDRESS'                            => 'Lieferadresse löschen',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter',
-    'DD_LIST_SHOW_MORE'                                     => 'Produkte ansehen',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter:',
+    'DD_LIST_SHOW_MORE'                                     => 'Produkte ansehen...',
 
     // Recommendation list
     'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'zurück zur Übersicht',
 
     // Downloads
-    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'heruntergeladen',
+    'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'herunterladen',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Dateigröße:',
     'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'Uhr',
     'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Dateiname:',
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'Zur Übersicht',
-    'OF'                                                    => 'VON',
+    'OF'                                                    => 'von',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Kundenmeinungen',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Kunden, die diesen Artikel gekauft haben, kauften auch folgende Artikel:',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Kunden die sich diesen Artikel gekauft haben, kauften auch folgende Artikel.',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Folgende Artikel passen gut zu diesem Artikel:',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Schau Dir doch auch ähnliche Artikel an!',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Kunden die sich diesen Artikel angesehen haben, haben sich auch folgende Artikel angesehen.',
-    'DETAILS_VPE_MESSAGE_1'                                 => "Dieser Artikel kann nur in Verpackungseinheiten zu je ",
+    'DETAILS_VPE_MESSAGE_1'                                 => "Dieser Artikel kann nur in Verpackungseinheiten zu je",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
     'TO_CART_NOVARIANT'                                     => 'Variante wählen',
 
@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Deine Newsletter-Anmeldung',
     'DD_ORDERSHIPPED_HEADING'                               => 'Versandbestätigung - Bestellung',
-    'DD_PRICEALARM_HEADING'                                 => 'Kundenpreis',
+    'DD_PRICEALARM_HEADING'                                 => 'Preisalarm',
     'DD_REGISTER_HEADING'                                   => 'Deine Registrierung',
     'DD_DOWNLOADLINKS_HEADING'                              => 'Deine Downloadlinks - Bestellung',
     'DD_WISHLIST_HEADING'                                   => 'Wunschzettel',
@@ -127,20 +127,20 @@ $aLang = array(
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Dieser Vorgang kann nicht rückgängig gemacht werden. Alle persönlichen Daten werden dauerhaft gelöscht.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Konto löschen',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Bist Du sicher, dass Du Dein Konto löschen möchtest?',
-    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Beenden',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Dein Konto wurde gelöscht',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Sind Sie sicher, dass Sie Ihr Konto löschen wollen?',
+    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Abbrechen',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Ihr Konto wurde gelöscht',
     'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Das Konto konnte nicht gelöscht werden',
 
     // Account -> My product reviews
     'DD_DELETE_REVIEW_AND_RATING'                           => 'Bewertung und Sterne-Rating löschen',
     'DD_REVIEWS_NOT_AVAILABLE'                              => 'Es liegen keine Bewertungen vor',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sicher, dass Du die Bewertung löschen willst?',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Sind Sie sicher, dass Sie die Bewertung löschen wollen?',
 
     // Contact page
-    'DD_SELECT_SALUTATION'                                  => 'Bitte wählen',
+    'DD_SELECT_SALUTATION'                                  => 'Bitte auswählen',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => 'Reset',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Zurücksetzen',
 );
 
 /*
