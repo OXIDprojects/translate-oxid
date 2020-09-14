@@ -29,7 +29,7 @@ $aLang =  [
 
 'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Recommended settings are from 40-80:<br><ul><li>Under 40, the compression gets clearly visible and the pictures are blurred.</li><li>Above 80 hardly any quality improvement can be detected, but the filesize increases enormously.</li></ul><br>The default value is 75.',
 
-'HELP_SHOP_SYSTEM_LDAP'                       => 'Please edit file Core/oxldap.php.',
+'HELP_SHOP_SYSTEM_LDAP'                       => 'Please edit file core/oxldap.php.',
 
 'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => 'This setting affects how reviews for variants are handled: If the setting is checked, remarks from variants are also shown at the parent product.',
 
@@ -65,7 +65,7 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'You can set up special prices for specific users: For each product you can enter A, B and C prices. If users are in the user group <span class="filename_filepath_or_italic">Price A</span>, the A price is shown to them instead of the normal price.<br>If this setting is checked, the normal product price is used if no A, B or C price is available.<br>You should activate this setting if you are using A, B and C prices: Otherwise 0,00 is displayed to the according users if no A, B or C price is set.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Here you can define the database fields in which the product search searches. Enter one field per row.<br>The most common entries are:<ul><li>oxtitle = Title</li><li>oxshortdesc = Short description</li><li>oxsearchkeys = Search terms entered for each product</li><li>oxartnum = Product number</li></ul>',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Here you can define the database fields in which the product search searches. Enter one field per row.<br>The most common entries are:<ul><li>oxtitle = Title</li><li>oxshortdesc = Short description</li><li>oxsearchkeys = Search terms entered for each product</li><li>oxartnum = Product number</li><li>oxtags    = Tags entered for each product</li></ul>',
 
 'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Here you can define the database fields which can be used for sorting product lists. Enter one field per row.<br>The most common entries are:<ul><li>oxtitle = Title</li><li>oxprice = Price</li><li>oxvarminprice = The lowest price if variants with different prices are used.</li><li>oxartnum = Product numbers</li><li>oxrating = Rating of the products</li><li>oxstock = Stock</li></ul>',
 
@@ -153,7 +153,7 @@ $aLang =  [
 
 'HELP_SHOP_PERF_LOADSELECTLISTSINALIST'       => 'Normally selection lists are only shown in the detail view of a product. If you activate this setting, the selection lists are also shown in product lists (e. g. search results, categories).',
 
-'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => 'If this setting is activated the eShop checks on each call if any templates were changed. If so, the output is recalculated. Activate this setting when adapting templates, deactivate it if the eShop is live for better performance.',
+'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => 'If this setting is activated the eShop checks on each call if any templates were changed. If so, the output is  recalculated. Activate this setting when adapting templates, deactivate it if the eShop is live for better performance. <br>Further information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/advices-adepting-templates" target="_blank">caching article in the manual</a>.',
 
 'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Usually the complete cache is emptied as soon as you save any changes in the eShop admin. This can lead to performance problems in admin. If this setting is activated, the cache is only emptied when you log out from eShop admin.',
 
@@ -173,7 +173,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'For special pages (e. g. general terms and conditions) you can enter fixed SEO URLs. When selecting a static URL, the normal URL is shown in <span class="navipath_or_inputname">Standard URL</span>. In the input fields below you can define a SEO URL for each language.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'Non-productive eShop mode is intended for eShop installation, configuration, template customization and module debugging phase. As soon as productive mode is turned <span class="warning_or_important_hint">ON</span>, the cache handling and the error reporting behavior is optimized for the live shop.<br><span class="warning_or_important_hint">Activate this setting when the eShop is launched.</span><br>Find other important information for going live with OXID eShop in our <a href="https://oxidforge.org/en/check-before-going-live.html" target="_blank">OXIDforge</a>.',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'As long as this setting is <span class="warning_or_important_hint">not</span> active, information about execution times and debug information are displayed  at the bottom of each page. These information is useful when customizing eShop.<br><span class="warning_or_important_hint">Activate this setting when the eShop is launched. Thereby only the eShop without additional information is displayed to your users.</span><br>Find other important information for going live with OXID eShop in our <a href="http://oxidforge.org/en/check-before-going-live.html" target="_blank">OXIDforge</a>.',
 
 'HELP_SHOP_MAIN_ACTIVE'                       => 'With <span class="navipath_or_inputname">Active</span> you can enable/disable the complete eShop. If the eShop is disabled, a message saying the eShop is temporary offline is displayed to the users. This can be useful for maintenance.',
 
@@ -183,13 +183,13 @@ $aLang =  [
 
 'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'When users order, you receive an e-mail with a summary of the order. These e-mails are sent to <span class="navipath_or_inputname">Order e-mails to</span>.',
 
-'HELP_SHOP_MAIN_SMTPSERVER'                   => 'SMTP data is needed for sending e-mails (e.g. sending customers an order confirmation e-mail).',
+'HELP_SHOP_MAIN_SMTPSERVER'                   => 'SMTP data is needed for sending e-mails (e.g. sending customers an order confirmation e-mail) Further information can be found in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/entering-smtp-data" target="_blank">accordant manual entry</a>.',
 
-'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'With <span class="navipath_or_inputname">Alt. Prices</span> you can set up special prices for certain users (user groups "Price A", "Price B" and "Price C").',
+'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'With <span class="navipath_or_inputname">Alt. Prices</span> you can set up special prices for certain users. More information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/set-alternative-prices-special-users" target="_blank">eShop Manual</a> on the OXID eSales website.',
 
 'HELP_ARTICLE_MAIN_VAT'                       => 'Here you can enter a special VAT for this product. This VAT is used for this product in all later calculations (cart, order, invoice)',
 
-'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'With <span class="navipath_or_inputname">Quantity</span> and <span class="navipath_or_inputname">Unit</span> you can set the price per quantity unit. The price per quantity unit is calculated and displayed with the product (e.g. 1.43 EUR per liter). In <span class="navipath_or_inputname">Quantity</span>, enter the amount of the product (e.g. <span class="userinput_or_code">1.5</span>), in <span class="navipath_or_inputname">Unit</span> define the according quantity unit (e.g. <span class="userinput_or_code">liter</span>). You can choose unit type from given values or, by selecting blank unit type "-", enter unit type manually. If you wish to append existing type list, please follow this <a href="https://oxidforge.org/en/adding-new-unit-types.html" target="_blank">link</a> for instructions.',
+'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'With <span class="navipath_or_inputname">Quantity</span> and <span class="navipath_or_inputname">Unit</span> you can set the price per quantity unit. The price per quantity unit is calculated and displayed with the product (e.g. 1.43 EUR per liter). In <span class="navipath_or_inputname">Quantity</span>, enter the amount of the product (e.g. <span class="userinput_or_code">1.5</span>), in <span class="navipath_or_inputname">Unit</span> define the according quantity unit (e.g. <span class="userinput_or_code">liter</span>). You can choose unit type from given values or, by selecting blank unit type "-", enter unit type manually. If you wish to append existing type list, please follow this <a href="http://oxidforge.org/en/adding-new-unit-types.html" target="_blank">link</a> for instructions.',
 
 'HELP_ARTICLE_EXTEND_EXTURL'                  => 'In <span class="navipath_or_inputname">External URL</span> you can enter a link where further information about the product is available (e. g. on the manufacturer\'s website). In <span class="navipath_or_inputname">Text for external URL</span> you can enter the text which is linked, e .g. <span class="userinput_or_code">Further information on the manufacturer\'s website</span>.',
 
@@ -201,11 +201,11 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Setting is inherited from Parent product to Variants and applies to the entire product.',
 
-'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Wished price can be turned off for this product.',
+'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Price Alert can be turned off for this product.',
 
 'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => 'If <span class="navipath_or_inputname">Skip all negative discounts</span> is active, negative allowances will not be calculated for this product. These include discounts and vouchers.',
 
-'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'The detail view of a product can be displayed with a different template. For doing so, enter path and name of the template to be used.',
+'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'The detail view of a product can be displayed with a different template. For doing so, enter path and name of the template to be used. Further information is available in the <a href="http://www.oxid-esales.com/de/resources/help-faq/eshop-manual/display-certain-products-or-categories-another-template" target="_blank">accordant manual entry</a>.',
 
 'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'If the product is customizable, an additional input field is displayed on the products detail page and in the shopping cart. Here customers can enter text for customizing the product.<br><br>A typical example are t-shirts which can be imprinted with custom text. In the input field customers can enter the text to be printed on the t-shirt.',
 
@@ -223,13 +223,13 @@ $aLang =  [
 
 'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Specify the time in hours, the download link is valid after the first download. For this file you can overwrite the default setting, which was defined in Master Settings -> Core Setting -> Settings -> Downloads for all products.',
 
-'HELP_ARTICLE_PICTURES_ICON'                  => 'Icons are the smallest pictures of a product. For example, they are used in the shopping cart.<br>Uploading custom icon will override icon, generated from the first product picture.<br>After uploading, the filename is shown in Icon. If no icon is uploaded yet, --- is displayed.',
+'HELP_ARTICLE_PICTURES_ICON'                  => 'Icons are the smallest pictures of a product. For example, they are used in the shopping cart.<br>Uploading custom icon will override icon, generated from the first product picture.<br>After uploading, the filename is shown in Icon. If no icon is uploaded yet, --- is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
-'HELP_ARTICLE_PICTURES_THUMB'                 => 'Thumbnails are small product pictures. For example, they are used in product lists (categories, search results).<br>Uploading custom thumbnail will override the thumbnail generated from the first product picture.<br>After uploading, the filename is shown in Thumbnail. If no thumbnail is uploaded yet, ---- is displayed.',
+'HELP_ARTICLE_PICTURES_THUMB'                 => 'Thumbnails are small product pictures. For example, they are used in product lists (categories, search results).<br>Uploading custom thumbnail will override the thumbnail generated from the first product picture.<br>After uploading, the filename is shown in Thumbnail. If no thumbnail is uploaded yet, ---- is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
-'HELP_ARTICLE_PICTURES_PIC1'                  => 'Pictures are used in the detail view of a product. You can upload up to 7 pictures per product. After uploading, the filename is shown in the accordant input field. If no picture is uploaded yet, --- is displayed.<br>Pictures with a maximum of 2 MB or 1500 * 1500 pixel resolution can be uploaded. This restriction is to avoid problems with the PHP memory limit. After uploading, the main picture, zoom picture, thumbnail and icon will be generated automatically.',
+'HELP_ARTICLE_PICTURES_PIC1'                  => 'Pictures are used in the detail view of a product. You can upload up to 7 pictures per product. After uploading, the filename is shown in the accordant input field. If no picture is uploaded yet, --- is displayed.<br>Pictures with a maximum of 2 MB or 1500 * 1500 pixel resolution can be uploaded. This restriction is to avoid problems with the PHP memory limit. After uploading, the main picture, zoom picture, thumbnail and icon will be generated automatically.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
-'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Zoom pictures are extra large pictures which can be opened from the detail view of a product. <br>You can upload zoom pictures in <span class="navipath_or_inputname">Zoom X upload</span>. After uploading, the filename is shown in <span class="navipath_or_inputname">Zoom X</span>. If no zoom picture is uploaded yet, <span class="userinput_or_code">nopic.jpg</span> is displayed.',
+'HELP_ARTICLE_PICTURES_ZOOM1'                 => 'Zoom pictures are extra large pictures which can be opened from the detail view of a product. <br>You can upload zoom pictures in <span class="navipath_or_inputname">Zoom X upload</span>. After uploading, the filename is shown in <span class="navipath_or_inputname">Zoom X</span>. If no zoom picture is uploaded yet, <span class="userinput_or_code">nopic.jpg</span> is displayed.<br>Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/product-images-basics" target="_blank">product pictures manual entry</a>.',
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Setting is inherited from Parent product to Variants and applies to the entire product.',
 
@@ -249,15 +249,15 @@ $aLang =  [
 
 'HELP_ARTICLE_SEO_ACTCAT'                     => 'You can define several SEO URLs for products: For certain categories and manufacturer pages. With <span class="navipath_or_inputname">Active Category/Vendor</span> you can select the SEO URL you want to edit.',
 
-'HELP_ARTICLE_STOCK_STOCKTEXT'                => 'Here you can enter a message which is shown if the product is in stock.',
+'HELP_ARTICLE_STOCK_STOCKTEXT'                => 'Here you can enter a message which is shown if the product is in stock. Further information about stock messages can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-messages-stock-levels" target="_blank">article about stock messages in the manual</a>.',
 
-'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Here you can enter a message which is shown if the product is out of stock.',
+'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Here you can enter a message which is shown if the product is off stock. Further information about stock messages can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-messages-stock-levels" target="_blank">article about stock messages in the manual</a>.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'In <span class="navipath_or_inputname">Quantity From/To/bis</span> you can set which quantity range the scale price is valid for.',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'In <span class="navipath_or_inputname">Quantity From/To/bis</span> you set for which quantity range the scale price is valid.<br>Further information about scale prices can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">scale price article in the manual.</a>.',
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Here you can set the price for the quantity entered above. You can enter the price absolutely or as percental discount.<br> Further information about scale prices can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">scale price article in the manual.</a>.',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Color</span> or <span class="userinput_or_code">Size</span>.',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Name of Selection</span> defines how the selection of the variants is labeled , e.g. <span class="userinput_or_code">Color</span> or <span class="userinput_or_code">Size</span>.<br> Further Information can be found in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-variants-a-product" target="_blank">variants article in the manual</a>.',
 
 'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'If checked, this attribute\'s value will be shown in cart and order overview below the product title.',
 
@@ -269,7 +269,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => 'With <span class="navipath_or_inputname">Price From/To</span> you can specify that <span class="warning_or_important_hint">all</span> products in a certain price range are shown in this category. Enter the lower limit in the first entry field and the upper limit in the second entry field. Then <span class="warning_or_important_hint">all products of the eShop</span> within this price range are shown in this category.',
 
-'HELP_CATEGORY_MAIN_DEFSORT'                  => 'With <span class="navipath_or_inputname">Fast Sorting</span> you specify the manner in which the products in the category will be sorted.',
+'HELP_CATEGORY_MAIN_DEFSORT'                  => 'With <span class="navipath_or_inputname">Fast Sorting</span> you specify the manner in which the products in the category will be sorted. To learn about the available options, refer to <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/sorting-products" target="_blank">the eShop manual</a> an the OXID eSales website.',
 
 'HELP_CATEGORY_MAIN_SORT'                     => 'You can use <span class="navipath_or_inputname">Sorting</span> to define the order in which categories are displayed: The category with the lowest number is displayed at the top, and the category with the highest number at the bottom.',
 
@@ -303,7 +303,7 @@ $aLang =  [
 
 'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Under <span class="navipath_or_inputname">Calculation Rules</span> you can select how often the price is calculated:<ul><li><span class="userinput_or_code">Once per cart</span>: Price is calculated once for the entire order.</li><li><span class="userinput_or_code">Once for each different product</span>: Price is calculated once for each different product in the shopping cart. It makes no difference what quantity of a product is ordered.</li><li><span class="userinput_or_code">For each product</span>: price is calculated for each product in the shopping cart.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => 'In <span class="navipath_or_inputname">Condition</span> you can specify that the shipping cost rule applies only to a certain condition. You can choose from among 4 conditions:<ul><li><span class="userinput_or_code">Amount</span>: Number of products in the shopping cart.</li><li><span class="userinput_or_code">Size</span>: Total size of all products. In order for this setting to be used properly, the size must be entered for products.</li><li><span class="userinput_or_code">Weight</span>: Total weight of the order in kilograms. In order for this setting to be used properly, the weight must be entered for products.</li><li><span class="userinput_or_code">Price</span>: Purchase price of the order.</li></ul>You can use the entry fields <span class="navipath_or_inputname">>=</span> (greater than or equal to) and <span class="navipath_or_inputname"><=</span> (less than or equal to) to specify the range to which the condition is to apply. A larger number must be entered for <span class="navipath_or_inputname"><=</span> than for <span class="navipath_or_inputname">-></span>.',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'In <span class="navipath_or_inputname">Condition</span> you can specify that the shipping cost rule applies only to a certain condition. You can choose from among 4 conditions:<ul><li><span class="userinput_or_code">Amount</span>: Number of products in the shopping car.</li><li><span class="userinput_or_code">Size</span>: Total size of all products. In order for this setting to be used properly, the size must be entered for products.</li><li><span class="userinput_or_code">Weight</span>: Total weight of the order in kilograms. In order for this setting to be used properly, the weight must be entered for products.</li><li><span class="userinput_or_code">Price</span>: Purchase price of the order.</li></ul>You can use the entry fields <span class="navipath_or_inputname">>=</span> (greater than or equal to) and <span class="navipath_or_inputname"><=</span> (less than or equal to) to specify the range to which the condition is to apply. A larger number must be entered for <span class="navipath_or_inputname"><=</span> than for <span class="navipath_or_inputname">-></span>.',
 
 'HELP_DELIVERY_MAIN_PRICE'                    => 'You can use <span class="navipath_or_inputname">Price Surcharge/Discount</span> to specify the magnitude of the shipping costs. The price can be calculated in two different ways:<ul><li>With <span class="userinput_or_code">abs</span>, the price is specified absolutely (e.g.: with <span class="userinput_or_code">6.90</span>, a price of EUR 6.90 is calculated).</li><li>With <span class="userinput_or_code">%</span>, the price is specified relative to the purchase price (e.g.: With <span class="userinput_or_code">10</span>, a price of 10% of the purchase price is calculated).</li></ul>',
 
@@ -319,7 +319,9 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'You can use <span class="navipath_or_inputname">Quantity</span> to specify that the discount is only valid for certain purchase quantities. If you want the discount to be valid for all purchase quantities, enter <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">From</span> and <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">To</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => 'In <span class="navipath_or_inputname">Discount</span>, you specify the magnitude of the discount. You can use the selection list after the entry field to specify whether the discount is to be applied as an absolute discount or as a percentage discount:<ul><li><span class="userinput_or_code">abs</span>: The discount is an absolute discount, e.g. EUR 5.</li><li><span class="userinput_or_code">%</span>: The discount is a percentage discount, e.g. 10 percent of the purchase price.</li><li><span class="userinput_or_code">itm</span>: Discount in the form of a free product. Set the amount of this product. Choose "Multiply" if the amount of discounted product in shopping cart should be multiplied with the amount of the free product.</li></ul>',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'In <span class="navipath_or_inputname">Discount</span>, you specify the magnitude of the discount. You can use the selection list after the entry field to specify whether the discount is to be applied as an absolute discount or as a percentage discount:<ul><li><span class="userinput_or_code">abs</span>: The discount is an absolute discount, e.g. EUR 5.</li><li><span class="userinput_or_code">%</span>: The discount is a percentage discount, e.g. 10 percent of the purchase price.</li>
+<li><span class="userinput_or_code">itm</span>: Discount in the form of a free product. Set the amount of this product. Choose "Multiply" if the amount of discounted product in shopping cart should be multiplied with the amount of the free product.</li>
+</ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'You can define several SEO URLs for products: For certain categories and manufacturer pages. With <span class="navipath_or_inputname">Active Category/Vendor</span> you can select the SEO URL you want to edit.',
 
@@ -353,11 +355,18 @@ $aLang =  [
 
 'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'In <span class="navipath_or_inputname">Working Title</span>, you can enter an additional name that is not displayed to users of your eShop. You can use the working title to differentiate between similar selection lists (e.g., Sizes for trousers and Sizes for shirts).',
 
-'HELP_SELECTLIST_MAIN_FIELDS'                 => 'All available options are displayed in the <span class="navipath_or_inputname">Fields</span> list. You can use the entry fields to the right to set up new options.',
+'HELP_SELECTLIST_MAIN_FIELDS'                 => 'All available options are displayed in the <span class="navipath_or_inputname">Fields</span> list. You can use the entry fields to the right to set up new options. Further information is available in the <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/implementing-simple-variants-selection-lists" target="_blank">eShop manual</a> on the OXID eSales website.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => 'Here you can distinguish if users registered when ordering:<ul><li>If a password is set, the user registered.</li><li>If no password is set, the user ordered without registering.</li></ul>',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'On this tab you can:
+<ul>
+   <li>Browse and manage existing user payment methods.</li>
+<li>Create new payment methods and set default values, for example direct debit.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => 'On this tab you can:<ul><li>Browse and manage existing user payment methods.<li>Create new payment methods and set default values, for example direct debit.</li></ul>',
+'HELP_USER_PAYMENT_METHODS'                   => 'On this tab you can:
+<ul>
+   <li>Browse and manage existing user payment methods.</li>
+   <li>Create new payment methods and set default values, for example direct debit.</li>
+</ul>',
 
 'HELP_USER_EXTEND_NEWSLETTER'                 => 'This setting shows if the user subscribed to the newsletter.',
 
