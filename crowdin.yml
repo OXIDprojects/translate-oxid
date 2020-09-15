@@ -1,19 +1,19 @@
 files:
   - source: /source/Application/translations/en/lang.php
-    translation: /source/Application/translations/%two_letters_code%/%original_file_name%
+    translation: /source/Application/translations/%locale%/%original_file_name%
   - source: /source/Application/views/admin/en/lang.php
-    translation: /source/Application/views/admin/%two_letters_code%/%original_file_name%
+    translation: /source/Application/views/admin/%locale%/%original_file_name%
   - source: /source/Application/views/admin/en/help_lang.php
-    translation: /source/Application/views/admin/%two_letters_code%/%original_file_name%
+    translation: /source/Application/views/admin/%locale%/%original_file_name%
   - source: /source/Application/views/wave/en/lang.php
-    translation: /source/Application/views/wave/%two_letters_code%/%original_file_name%
+    translation: /source/Application/views/wave/%locale%/%original_file_name%
   - source: >-
       /source/modules/oe/gdproptin/Application/translations/en/oegdproptin_en_lang.php
     translation: >-
-      /source/modules/oe/gdproptin/Application/translations/%two_letters_code%/%original_file_name%
+      /source/modules/oe/gdproptin/Application/translations/%locale%/%original_file_name%
   - source: >-
       /source/modules/oe/gdproptin/Application/views/admin/en/oegdproptin_admin_en_lang.php
     translation: >-
-      /source/modules/oe/gdproptin/Application/views/admin/%two_letters_code%/%original_file_name%
+      /source/modules/oe/gdproptin/Application/views/admin/%locale%/%original_file_name%
   - source: /source/Application/views/wave/en/theme_options.php
-    translation: /source/Application/views/wave/%two_letters_code%/theme_options.php
+    translation: /source/Application/views/wave/%locale%/theme_options.php
