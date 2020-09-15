@@ -1,54 +1,19 @@
 files:
   - source: /source/Application/translations/en/lang.php
-    translation: /source/Application/translations/%locale%/%original_file_name%
+    translation: /source/Application/translations/%two_letters_code%/%original_file_name%
   - source: /source/Application/views/admin/en/lang.php
-    translation: /source/Application/views/admin/%locale%/%original_file_name%
+    translation: /source/Application/views/admin/%two_letters_code%/%original_file_name%
   - source: /source/Application/views/admin/en/help_lang.php
-    translation: /source/Application/views/admin/%locale%/%original_file_name%
+    translation: /source/Application/views/admin/%two_letters_code%/%original_file_name%
   - source: /source/Application/views/wave/en/lang.php
-    translation: /source/Application/views/wave/%locale%/%original_file_name%
-  - source: >-
-      /source/modules/bestit/amazonpay4oxid/application/translations/en/bestitamazonpay4oxid_lang.php
-    translation: >-
-      /source/modules/bestit/amazonpay4oxid/application/translations/%locale%/%original_file_name%
-  - source: >-
-      /source/modules/ddoe/wysiwyg/Application/views/admin/en/ddoewysiwyg_lang.php
-    translation: >-
-      /source/modules/ddoe/wysiwyg/Application/views/admin/%locale%/%original_file_name%
-  - source: /source/modules/fc/fcpayone/application/translations/en/fcPayOne_lang.php
-    translation: >-
-      /source/modules/fc/fcpayone/application/translations/%locale%/%original_file_name%
+    translation: /source/Application/views/wave/%two_letters_code%/%original_file_name%
   - source: >-
       /source/modules/oe/gdproptin/Application/translations/en/oegdproptin_en_lang.php
     translation: >-
-      /source/modules/oe/gdproptin/Application/translations/%locale%/%original_file_name%
+      /source/modules/oe/gdproptin/Application/translations/%two_letters_code%/%original_file_name%
   - source: >-
       /source/modules/oe/gdproptin/Application/views/admin/en/oegdproptin_admin_en_lang.php
     translation: >-
-      /source/modules/oe/gdproptin/Application/views/admin/%locale%/%original_file_name%
-  - source: /source/modules/oe/oepaypal/translations/en/oepaypal_lang.php
-    translation: /source/modules/oe/oepaypal/translations/%locale%/%original_file_name%
-  - source: /source/modules/oe/oepaypal/views/admin/en/oepaypal_lang.php
-    translation: /source/modules/oe/oepaypal/views/admin/%locale%/%original_file_name%
-  - source: /source/modules/oe/oepaypal/views/admin/en/module_options.php
-    translation: /source/modules/oe/oepaypal/views/admin/%locale%/%original_file_name%
-  - source: /source/modules/oxps/paymorrow/translations/en/oxpspaymorrow_en_lang.php
-    translation: >-
-      /source/modules/oxps/paymorrow/translations/%locale%/oxpspaymorrow_en_lang.php
-  - source: >-
-      /source/modules/oxps/paymorrow/views/admin/en/oxpspaymorrow_admin_en_lang.php
-    translation: >-
-      /source/modules/oxps/paymorrow/views/admin/%locale%/oxpspaymorrow_admin_en_lang.php
-  - source: /source/modules/tc/tcklarna/translations/en/tcklarna_lang.php
-    translation: /source/modules/tc/tcklarna/translations/%locale%/tcklarna_lang.php
-  - source: /source/modules/tc/tcklarna/views/admin/en/tcklarna_lang.php
-    translation: /source/modules/tc/tcklarna/views/admin/%locale%/tcklarna_lang.php
+      /source/modules/oe/gdproptin/Application/views/admin/%two_letters_code%/%original_file_name%
   - source: /source/Application/views/wave/en/theme_options.php
-    translation: /source/Application/views/wave/%locale%/theme_options.php
-  - source: >-
-      /source/modules/bestit/amazonpay4oxid/application/views/admin/en/bestitamazonpay4oxid_lang.php
-    translation: >-
-      /source/modules/bestit/amazonpay4oxid/application/views/admin/%locale%/%original_file_name%
-  - source: /source/modules/fc/fcpayone/application/views/admin/en/fcPayOne_lang.php
-    translation: >-
-      /source/modules/fc/fcpayone/application/views/admin/%locale%/%original_file_name%
+    translation: /source/Application/views/wave/%two_letters_code%/theme_options.php
