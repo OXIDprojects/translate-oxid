@@ -40,7 +40,7 @@ $aLang = [
 'ALREADY_CUSTOMER'                                            => 'Ich bin bereits Kunde',
 'APPLY'                                                       => 'Übernehmen',
 'ARTNUM'                                                      => 'Artikelnummer',
-'ATENTION_GREETING_CARD'                                      => 'ACHTUNG Grußkarte',
+'ATENTION_GREETING_CARD'                                      => 'Achtung: Grußkarte!',
 'AUTHOR'                                                      => 'Autor',
 'AVAILABLE_ON'                                                => 'Lieferbar ab',
 'BACK_TO_OVERVIEW'                                            => 'Zurück zur Übersicht',
@@ -54,7 +54,7 @@ $aLang = [
 'BARGAIN'                                                     => 'Schnäppchen',
 'BARGAIN_PRODUCTS'                                            => 'Die besten Schnäppchen des Shops',
 'BASKET_EMPTY'                                                => 'Der Warenkorb ist leer.',
-'BIC'                                                         => 'BIC:',
+'BIC'                                                         => 'BIC',
 'BILLING_ADDRESS'                                             => 'Rechnungsadresse',
 'BILLING_SHIPPING_SETTINGS'                                   => 'Rechnungs- und Lieferadressen',
 'BIRTHDATE'                                                   => 'Geburtsdatum',
@@ -64,7 +64,7 @@ $aLang = [
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'CARD_MASTERCARD'                                             => 'Mastercard',
 'CARD_SECURITY_CODE'                                          => 'Prüfziffer:',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Diese befindet sich auf der Rückseite Deiner Kreditkarte. Die Prüfziffer<br>sind die letzten drei Ziffern im Unterschriftsfeld.',
+'CARD_SECURITY_CODE_DESCRIPTION'                              => 'Diese befindet sich auf der Rückseite Deiner Kreditkarte. Die Prüfziffer sind die letzten drei Ziffern im Unterschriftsfeld.',
 'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
