@@ -85,7 +85,7 @@ $aLang = [
 'CHECK'                                                       => 'Siehe',
 /** end deprecated */
 'CHECKOUT'                                                    => 'Zur Kasse',
-'CHECK_YOUR_ORDER_HISTORY'                                    => 'Ihre Bestellhistorie aufrufen',
+'CHECK_YOUR_ORDER_HISTORY'                                    => 'Deine Bestellhistorie aufrufen',
 'CHOOSE'                                                      => 'Wählen',
 'CHOOSE_VARIANT'                                              => 'Variante wählen',
 'CLICK_HERE'                                                  => 'hier klicken.',
