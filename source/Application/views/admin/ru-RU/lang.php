@@ -63,7 +63,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXSHOPID'          => 'Идентификатор магазина',
     'GENERAL_ARTICLE_OXPARENTID'        => 'Идентификатор главного товара',
     'GENERAL_ARTICLE_OXACTIVE'          => 'Активно',
-    'GENERAL_ARTICLE_OXHIDDEN'          => '',
+    'GENERAL_ARTICLE_OXHIDDEN'          => 'Скрытое',
     'GENERAL_ARTICLE_OXSHORTDESC'       => 'Краткое описание',
     'GENERAL_ARTICLE_OXLONGDESC'        => 'Полное описание',
     'GENERAL_ARTICLE_OXPRICE'           => 'Цена',
@@ -127,7 +127,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Нижний порог кол-ва',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'Идентификатор товара',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'Идентификатор задания',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Максимальная цена всех вариантов',
     'GENERAL_ARTICLE_OXVENDORID'        => 'Идентификатор поставщика(вендора)',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'Идентификатор производителя',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Счётчик вариантов',
@@ -314,7 +314,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Максимальное число скачиваний для незарегистрированных пользователей',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Время истечения действия ссылки',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Время истечения действия ссылки после первого скачивания',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Только администратор ТЦ имеет право изменять акции по всему миру.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Выберите позицию из списка выше, чтобы внести изменения',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Все доступные товары',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Продвигаемые товары',
@@ -395,7 +395,7 @@ $aLang = [
     'ARTICLE_MAIN_ACTIVETO'                     => 'До',
     'ARTICLE_MAIN_ACTIVEFROM'                   => 'От',
     'ARTICLE_MAIN_ACTIVE'                       => 'Активно',
-    'ARTICLE_MAIN_HIDDEN'                       => '',
+    'ARTICLE_MAIN_HIDDEN'                       => 'Скрытое',
     'ARTICLE_MAIN_SHORTDESC'                    => 'Краткое описание',
     'ARTICLE_MAIN_PRICEA'                       => 'А:',
     'ARTICLE_MAIN_PRICEB'                       => 'Б:',
@@ -416,9 +416,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'EAN производителя',
     'ARTICLE_MAIN_MPN'                          => 'Арт. номер производителя',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Производитель',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Эта цена унаследована вариантам продукта.' .
+                                                   '<ul><li>В зависимости от чистой цены настроек магазина или общая цена введена/показана.</li>' .
+                                                   '<li>Валовая цена всегда показывается в скобках.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Товар создан',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Последнее изменение',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Рейтинг по продажам',
@@ -636,8 +636,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Все страны',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Выбранные страны',
     'DISCOUNT_LIST_MENUITEM'                    => 'Еастройки магазина',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Ошибка: значение поля "%s" должно быть числом.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Ошибка: Значение поля "%s" должно быть уникальным.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Скидки',
     'DISCOUNT_MAIN_AFROM'                       => '(с)',
     'DISCOUNT_MAIN_ATILL'                       => '(до)',
@@ -719,7 +719,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Недопустимые метаданные в расширенном разделе. Следующие расширенные классы магазина либо опечатаны, либо не принадлежат к Unified Namespace: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Пожалуйста, не забудьте обновить вид базы данных Сервис-> Инструменты",
     'LANGUAGE_ACTIVE'                                => 'Активно во фронтэнде',
     'LANGUAGE_LIST_MENUITEM'                         => 'Основные настройки',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'История',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Система Health Check показывает Настройка / Настройка сервера этого OXID eShop может быть нарушена. Вероятно, OXID eShop ведет себя странно, в некоторых случаях. Пожалуйста, исправьте это как можно быстрее.",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Проверка системы",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Постоянная проверка состояния системы была отключена. Вы можете повторно активировать её в форме. Нажмите на Master settings -> Core settings (Основные параметры). Для проверки в любом случае, пожалуйста, нажмите на ссылку: ",
     'NAVIGATION_SHOPFRONT'                           => "Главная страница магазина",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Ваш бюллетень был отправлен.',
@@ -1044,13 +1044,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Идентификатор НДС',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Активный режим',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Разрешить пользователям магазина управлять своими отзывами',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Разрешить пользователям магазина удалять свою учетную запись',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'Разделительный символ для импорта/экспорта CSV',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Обрамление значений при CSV-импорте/экспорте',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'При клонировании товаров: копии создавать неактивными',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Разрешить рекомендации товаров',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Количества строк за тик при экспорте в CSV-файл',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'Настройки НДС для экспорта в XML',
@@ -1132,7 +1132,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Поиск',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Списки пользователей (обзор)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Списки пользователей (товары)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Разрешить подключение к серверам eSales OXID для улучшения качества наших продуктов с открытым исходным кодом.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Проверить наличие обновлений регулярно',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Выберите компоненты eShop',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Отключить онлайн-проверку системы налогооблажения',
@@ -1152,8 +1152,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Использовать только IBAN/BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'сервис-URL для отслеживания почтовых отправлений',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Указанное значение: %s некорректно.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Активировать отзывы пользователей и рейтинги звезд',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Включить ссылку на отзывы о товаре в электронной почте',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Количество одинаковых атрибутов для похожих товаров (%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Качество изображений от 0 (низкое) до 100 (высокое)',
@@ -1197,7 +1197,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '-- новый --',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Зарезервированные слова (автоматическая суффиксация)',
     'SHOP_SEO_SKIPTAGS'                       => 'Слова для исключения из автоматического создания мета-тэгов',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'URL-адреса SEO в нижнем регистре',
     'SHOP_LICENSE_SERIAL'                     => 'Установленные ключи',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Укажите ключ лицензии',
     'SHOP_LICENSE_VERSION'                    => 'Версия магазина',
@@ -1739,13 +1739,13 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Ключ лицензии OXID eShop истёк. Обратитесь в службу технической поддержки.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Ключ лицензии OXID eShop истёк. Магазин будет отключен в течении 24 часов. Укажите действующий ключ лицензии или свяжитесь со службой технической поддержки!',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'В результате перепроверки, что лицензионный ключ eShop был действителен. Поэтому был отменен таймер спрятанного отсчета семи дней .',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Проблема с ключом лицензии OXID eShop. Магазин будет отключен в течении 7 дней. Укажите действующий ключ лицензии или свяжитесь со службой технической поддержки!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Ключ лицензии OXID eShop истёк. Магазин будет отключен в течении 7 дней. Укажите действующий ключ лицензии или свяжитесь со службой технической поддержки!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Ключ лицензии не поддерживает большее количество магазинов. Магазины будут отключены в течении 7 дней. Укажите действующий ключ лицензии или свяжитесь со службой технической поддержки!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'Информация о лицензии OXID eShop',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Это сообщение было отправлено из магазина %s.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Основные',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Поиск',
@@ -1763,7 +1763,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Приглашения',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Товары-файлы для скачивания',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Информация о банковском счёте (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Настройки учетной записи',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Доступно группам пользователей',
     'PROMOTION_LIST_ALL'          => 'Все',
@@ -1881,7 +1881,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Предмет',
 
     'SHOP_PERF_SEO_CACHE'                        => 'Активировать SEO-кэш',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'Включить системные сообщения о здоровье на стартовой странице',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'Темы и модули обработки переехали в новое меню "Расширения"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Тема не может быть определена в config.inc.php',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Оповещение о цене в',
@@ -1998,17 +1998,17 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'Обновление системы: http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Ошибка: Модуль не активирован.<br />Все ключи и значения контроллера должны быть уникальными в магазине или субмагазине.<br />Ключи или значения контроллера, определенные в metadata.php этого модуля, не уникальны:<br /> %s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Обязательные поля контактной формы',
+    'EMAIL'                          => 'Адрес электронной почты',
     'FIRST_NAME'                     => 'Имя:',
     'LAST_NAME'                      => 'Фамилия:',
     'TITLE'                          => 'Обращение',
     'SUBJECT'                        => 'Тема',
     'MESSAGE'                        => 'Сообщение',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Ошибка при получении информации о версии',
+    'CURL_EXECUTE_ERROR' => 'Ошибка подключения (%s). Пожалуйста, повторите попытку позже',
 ];
 
 /*
