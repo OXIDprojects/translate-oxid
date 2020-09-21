@@ -23,16 +23,16 @@ $sLangName = 'Русский';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'OE GDPR модуль для выбора',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Настройка GDPR',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Показывать опцию для адреса счёта',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Показать согласие для адреса доставки',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Показать согласие для регистрации пользователя',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Показывать отзывы о товарах',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Настройки формы контакта',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Показать заметку для удаления данных после обработки',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Показать неявку для обработки и статистического использования данных',
 ];
