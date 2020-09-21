@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Штат',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'выберите',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'добавить адрес',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Удалить адрес доставки',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Фильтр',
@@ -102,7 +102,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Клиенты, что просматривали этот товар также смотрели',
     'DETAILS_VPE_MESSAGE_1'                                 => "Этот товара можно заказать только с",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Выберите вариант',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Итог',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Меню',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Это действие не может быть отменено. Это окончательно удалит ваши личные данные.',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Удалить учетную запись',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Вы уверены, что хотите удалить свою учетную запись?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Отменить',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Ваша учетная запись была удалена',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Не удалось удалить учетную запись',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Удалить отзыв и рейтинг звезды',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Отзывов пока нет',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Вы уверены, что хотите удалить ваш отзыв?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Выберите',
