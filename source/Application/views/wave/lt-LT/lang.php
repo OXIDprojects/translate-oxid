@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'į apžvalgą',
-    'OF'                                                    => '',
+    'OF'                                                    => 'iš',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Klientų atsiliepimai',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
