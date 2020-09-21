@@ -39,16 +39,16 @@ $aLang = array(
     'SHOP_THEME_GROUP_emails'                       => 'Е-mail адреса',
 
     'SHOP_THEME_sIconsize'                          => 'Размер иконок (ширина*высота)', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'HELP_SHOP_THEME_sIconsize'                     => 'Иконки - это самые маленькие картинки продукта. Используются: <br>' .
+                                                       '<ul><li>в корзине.</li>' .
+                                                       '<li>, если товары отображаются в правом меню (например, в <span class="filename_filepath_or_italic">ТОП магазина</span> и <span class="filename_filepath_or_italic">Торговля</span>).</li></ul>' .
+                                                       'Для избежания проблем дизайна, вызванных слишком большими значками, размер значков изменяется. Введите максимальный размер значков здесь.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Размер иконок (ширина*высота)', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Миниатюры - это маленькие изображения товара. Они используются:<br>' .
+                                                       '<ul><li>в списках товаров.</li>' .
+                                                       '<li>в рекламных акциях, отображаемых в середине главной страницы, например, <span class="filename_filepath_or_italic">только что прибыли!</span>.</li></ul>' .
+                                                       'Для избежания проблем дизайна, вызванных слишком большими эскизами, миниатюры изменяются. Введите максимальный размер эскизов здесь.',
 
     'SHOP_THEME_sZoomImageSize'                     => 'Размер увеличенного изображения (ширина*высота)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'Размер картинки категории (ширина*высота)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
@@ -167,8 +167,8 @@ $aLang = array(
     'SHOP_THEME_sBackgroundSize_contain'            => 'обложка (ширина)',
     'SHOP_THEME_sBackgroundSize_normal'             => 'Сохранить исходный размер',
     'SHOP_THEME_blBackgroundAttachment'             => 'Зафиксировать фон при скороле?',
-    'SHOP_THEME_blHomeLink'                         => '',
-    'SHOP_THEME_bl_showPriceAlarm'                  => '',
+    'SHOP_THEME_blHomeLink'                         => 'Показывать ссылку "Домой" в основной навигации?',
+    'SHOP_THEME_bl_showPriceAlarm'                  => 'Использовать нужную цену',
 
     'SHOP_THEME_blUseGoogleTS'                      => 'Использовать Google Trusted Stores',
     'SHOP_THEME_sGoogleVendorId'                    => 'ID магазина в Google Store',
