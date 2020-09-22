@@ -1055,7 +1055,7 @@ $aLang = [
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Anzahl von Zeilen im CSV, die pro Tick exportiert werden',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'MwSt.-Einstellungen für XML-Export',
     'SHOP_CONFIG_NUMBEROFEMAILSPERTICK'                       => 'Anzahl von E-Mails, die der Newsletter pro Tick verschickt',
-    'SHOP_CONFIG_UPDATEVIEWS'                                 => 'Datenbank Views müssen aktualisiert werden!',
+    'SHOP_CONFIG_UPDATEVIEWS'                                 => 'Datenbank-Views müssen aktualisiert werden!',
     'SHOP_CONFIG_ASSIGNDEFAULTCAT'                            => 'Aktive Kategorie setzen',
     'SHOP_CONFIG_UNASSIGNDEFAULTCAT'                          => 'Zuordnung löschen',
     'SHOP_CONFIG_ASSIGNEDDEFAULTCAT'                          => 'Aktive Kategorie beim Start:',
@@ -1289,7 +1289,7 @@ $aLang = [
     'TOOLS_MAIN_CHECKPICS'                    => 'Unbenutzte Bilder suchen und löschen',
     'TOOLS_MAIN_UPDATEVIEWSINFO'              => 'Nachdem Du Änderungen am Tabellenlayout vorgenommen hast, musst Du die VIEWS neu generieren.',
     'TOOLS_MAIN_UPDATEVIEWSNOW'               => 'VIEWS jetzt updaten',
-    'TOOLS_MAIN_UPDATEVIEWSCONFIRM'           => 'Bist Du sicher, dass Du die VIEWS jetzt updaten willst',
+    'TOOLS_MAIN_UPDATEVIEWSCONFIRM'           => 'Bist Du sicher, dass Du die VIEWS jetzt updaten willst?',
     'TOOLS_LIST_UPDATEVIEWSSECCESS'           => 'Datenbank-Views wurden erfolgreich aktualisiert.',
     'TOOLS_LIST_UPDATEVIEWSFAILED'            => 'Fehler beim Aktualisieren der Datenbank-Views',
     'TOOLTIPS_ADDSUMTYPE'                     => 'Absoluter oder<br>prozentualer<br>Auf/Abschlag',
@@ -1741,7 +1741,7 @@ $aLang = [
     'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Die erneute Prüfung ergab, dass der Lizenzschlüssel Deines OXID eShop nun gültig ist. Der stille Countdown von sieben Tagen wurde aus diesem Grund beendet.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Es ist ein Problem mit dem Lizenzschlüssel Deines OXID eShop aufgetreten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib den gültigen Lizenzschlüssel erneut ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Der Lizenzschlüssel Deines OXID eShop ist abgelaufen. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
-    'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Die Anzahl der lizensierten Subshops wurde überschritten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
+    'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Die Anzahl der lizenzierten Subshops wurde überschritten. Aus diesem Grund wurde ein stiller Countdown von 7 Tagen gestartet. Nach Ablauf der Frist wird der OXID eShop offline gehen. Bitte gib einen gültigen Lizenzschlüssel ein oder kontaktiere den Technischen Support!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'OXID eShop Lizenzinformation',
 
     'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Diese E-Mail wurde vom Shop %s versandt.',
@@ -1881,13 +1881,13 @@ $aLang = [
 
     'SHOP_PERF_SEO_CACHE'                        => 'SEO Cache aktivieren',
     'SHOP_PERF_SYSREQ_CHECK'                     => 'Meldungen der Systemgesundheitsprüfung auf der Startseite aktivieren',
-    'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'Die Einstellungen für Themes und Module finden Sie im neuen Menü "Erweiterungen"',
+    'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'Die Einstellungen für Themes und Module findest Du im neuen Menü "Erweiterungen"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Theme darf nicht in config.inc.php definiert sein',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Preisalarm im',
     'EMAIL_PRICEALARM_CUSTOMER_HY'               => 'Hallo,',
     'EMAIL_PRICEALARM_CUSTOMER_HAVEPRICEALARM'   => 'wir haben einen Preisalarm im',
     'EMAIL_PRICEALARM_CUSTOMER_ITEM1'            => 'Der Artikel',
-    'EMAIL_PRICEALARM_CUSTOMER_ITEM2'            => "für den Sie sich interessieren und einen Preis von",
+    'EMAIL_PRICEALARM_CUSTOMER_ITEM2'            => "für den Du Dich interessierst und einen Preis von",
     'EMAIL_PRICEALARM_CUSTOMER_ITEM3'            => 'geboten haben ist jetzt für',
     'EMAIL_PRICEALARM_CUSTOMER_ITEM4'            => 'zu haben!',
     'EMAIL_PRICEALARM_CUSTOMER_CLICKHERE1'       => 'Um direkt zu dem Artikel zu gelangen klick bitte',
@@ -1995,7 +1995,7 @@ $aLang = [
     'OLC_ERROR_RESPONSE_NOT_VALID'  => 'Fehler: Dienst nicht verfügbar. Bitte versuch es später noch einmal. Falls das Problem weiterhin bestehen sollte, überprüfe bitte, ob Dein Shop ausgehende Verbindungen aufbauen kann.',
     'OLC_ERROR_RESPONSE_UNEXPECTED' => 'Fehler: Antwort vom Server kann wegen unerwarteten Formats nicht ausgewertet werden. Bitte versuche es erneut.',
 
-    'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren/update-vorbereiten.html',
+    'VERSION_UPDATE_LINK' => 'https://docs.oxid-esales.com/eshop/de/6.2/installation/update/index.html',
 
     'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Fehler: Modul nicht aktiviert.<br />In einem Shop oder Sub-Shop müssen Schüssel und Werte für "controllers" eindeutig sein.<br />Folgende Schlüssel oder Werte für "controllers", die in der Datei metadata.php dieses Moduls definiert sind, existieren schon im Shop:<br /> %s',
 
@@ -2007,7 +2007,7 @@ $aLang = [
     'SUBJECT'                        => 'Betreff',
     'MESSAGE'                        => 'Nachricht',
     'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Fehler beim Abrufen von Versionsinformationen',
-    'CURL_EXECUTE_ERROR' => 'Verbindungsfehler (%s). Bitte versuchen Sie es später noch einmal.',
+    'CURL_EXECUTE_ERROR' => 'Verbindungsfehler (%s). Bitte versuche es später noch einmal.',
 ];
 
 /*
