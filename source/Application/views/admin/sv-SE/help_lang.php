@@ -23,19 +23,19 @@
 $aLang =  [
 'charset'                                     => 'UTF-8',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Här kan du ställa in om beställningar kan göras i länder för vilka inga fraktkostnader har angivits:<ul><li>Om inställningen är markerad, kan användare beställa. Användarna meddelas att de informeras om fraktkostnaderna manuellt.</li><li>Om inställningen är avmarkerad kan användare från länder där inga fraktkostnader är definierade inte beställa.</li></ul>',
 
-'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => '',
+'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Om den här inställningen är markerad visas de flesta navigationselement inte i kassan. På så sätt blir användarna inte distraherade i onödan i kassan.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Rekommenderad inställning är mellan 40-80:<br><ul><li>Under 40 blir kompressionen tydligt synlig och bilderna blir suddiga.</li><li>Över 80 kan knappast någon kvalitetsförbättring upptäckas, men filstorleken ökar enormt.</li></ul><br>Standardvärdet är 75.',
 
-'HELP_SHOP_SYSTEM_LDAP'                       => '',
+'HELP_SHOP_SYSTEM_LDAP'                       => 'Redigera filen Core/oxldap.php.',
 
-'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => '',
+'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => 'Denna inställning påverkar hur recensioner av varianter hanteras: Om inställningen är markerad visas kommentarer från varianter också på den överordnade produkten.',
 
-'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => '',
+'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'I eShop finns det många listor som kan tillordnas produkter, t.ex. produkter till rabatter. Om den här inställningen markeras visas även varianter i dessa listor.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Denna inställning påverkar om överordnade produkter kan köpas:<ul><li>Om inställningen är markerad, kan överordnade produkter köpas.</li><li>Om inställningen är avmarkerad kan endast varianter av den överordnade produkten köpas.</li></ul>',
 
 'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => '',
 
