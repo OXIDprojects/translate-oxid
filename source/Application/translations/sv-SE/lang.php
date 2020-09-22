@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "Svenska";
+$sLangName  = "Engelska";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -38,7 +38,7 @@ $aLang = [
 'ALL'                                                         => 'alla',
 'ALL_LISTMANIA'                                               => 'alla favoritlistor',
 'ALREADY_CUSTOMER'                                            => 'Jag är redan kund',
-'APPLY'                                                       => '',
+'APPLY'                                                       => 'Använd',
 'ARTNUM'                                                      => 'Artikelnummer',
 'ATENTION_GREETING_CARD'                                      => 'OBS personligt kort',
 'AUTHOR'                                                      => 'Författare',
@@ -165,11 +165,11 @@ $aLang = [
 'ERROR_MESSAGE_PASSWORD_EMAIL_INVALID'                        => 'Var snäll och fyll i en giltig mejladress!',
 'ERROR_MESSAGE_PASSWORD_LINK_EXPIRED'                         => 'Denna sida är inte längre giltig. Var snäll och använd funktionen ”glömt lösenord?" Igen.',
 'ERROR_MESSAGE_PASSWORD_TOO_SHORT'                            => 'Fel: Ditt lösenord är för kort.',
-'ERROR_REVIEW_AND_RATING_NOT_DELETED'                         => '',
+'ERROR_REVIEW_AND_RATING_NOT_DELETED'                         => 'Granskningen och stjärnbetyget kunde inte raderas',
 'ERROR_MESSAGE_CURRENT_PASSWORD_INVALID'                      => 'Fel: Ditt aktuella lösenord är fel.',
 'ERROR_MESSAGE_RECOMMLIST_NOTITLE'                            => 'Det finns ingen rubrik',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_CLASSNOTFOUND'                 => 'Class "%s"inte hittat',
-'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => '',
+'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => 'Klassen "%s" hittades inte!',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_FUNCTIONNOTFOUND'              => 'Function "%s" inte hittat',
 'EXCEPTION_SYSTEMCOMPONENT_TEMPLATENOTFOUND'                  => 'Template "%s" inte hittat',
 'ERROR_MESSAGE_UNKNOWN_ERROR'                                 => 'okänt fel',
@@ -177,7 +177,7 @@ $aLang = [
 'ERROR_MESSAGE_USER_NOVALIDLOGIN'                             => 'Fel mejladress eller fel lösenord!!',
 'ERROR_MESSAGE_USER_NOVALUES'                                 => 'Mejladress och lösenord måste vara ifylld!!',
 'ERROR_MESSAGE_USER_USERCREATIONFAILED'                       => 'Fel vid skapning av ny användare!',
-'ERROR_MESSAGE_USER_UPDATE_FAILED'                            => '',
+'ERROR_MESSAGE_USER_UPDATE_FAILED'                            => 'Fel vid uppdatering av användardata!',
 'ERROR_MESSAGE_USER_USEREXISTS'                               => '%s kunde ej registreras. Har du redan ett kundkonto hos oss?',
 'ERROR_MESSAGE_VERSION_EXPIRED1'                              => 'Din version är inte längre giltig. Var snäll och kontakterar',
 'ERROR_MESSAGE_VOUCHER_INCORRECTPRICE'                        => 'Köpebeloppet är för lågt för denna värdecheck!',
@@ -193,8 +193,8 @@ $aLang = [
 'ERROR_MESSAGE_INCORRECT_DATE'                                => 'Fel datum',
 'EXCEPTION_NOT_VALID_CURL_CONSTANT'                           => 'ogiltigt cURL konstantnamn: %s',
 'EXCEPTION_CURL_ERROR'                                        => 'cURL fel: %s',
-'EXCEPTION_NON_MATCHING_CSRF_TOKEN'                           => '',
-'ERROR_MESSAGE_NON_MATCHING_CSRF_TOKEN'                       => '',
+'EXCEPTION_NON_MATCHING_CSRF_TOKEN'                           => 'CSRF-token matchar inte!',
+'ERROR_MESSAGE_NON_MATCHING_CSRF_TOKEN'                       => 'Åtgärden kunde inte slutföras. Försök igen!',
 'EXPIRES_IN'                                                  => 'Slutar gäller om',
 'FAX'                                                         => 'Fax',
 'FIRST_LAST_NAME'                                             => 'namn',
@@ -377,7 +377,7 @@ $aLang = [
 'OPEN_ACCOUNT'                                                => 'skapa konto',
 'OR'                                                          => 'eller',
 'ORDERS'                                                      => 'Beställningar',
-'ORDER'                                                       => '',
+'ORDER'                                                       => 'Beställning',
 'ORDER_COMPLETED'                                             => 'Beställning klart',
 'ORDER_DATE'                                                  => 'Beställning från',
 'ORDER_EMPTY_HISTORY'                                         => 'Beställhistoria är tom',
@@ -545,7 +545,7 @@ $aLang = [
 'VAT'                                                         => 'moms',
 'VAT_ID_NUMBER'                                               => 'VAT Nr.',
 'VAT_MESSAGE_ID_NOT_VALID'                                    => 'VAT Nr. är giltig',
-'VAT_MESSAGE_COMPANY_MISSING'                                 => '',
+'VAT_MESSAGE_COMPANY_MISSING'                                 => 'Ange ditt företagsnamn tillsammans med ditt momsregistreringsnummer!',
 'VENDOR'                                                      => 'Leverantör',
 'VENDOR_S'                                                    => '| Leverantör: %s',
 'VERIFICATION_CODE'                                           => 'Kontrollsiffra',
@@ -706,11 +706,11 @@ $aLang = [
 'BASKET_TOTAL_PLUS_PROPORTIONAL_VAT'                          => 'moms tillkommer (räknad andelsmässigt)',
 'PROPORTIONALLY_CALCULATED'                                   => 'andelsmässigt beräknad',
 'PRICE_FROM'                                                  => 'från',
-'PAGE_DETAILS_THANKYOUMESSAGE1'                               => '',
-'PAGE_DETAILS_THANKYOUMESSAGE2'                               => '',
-'PAGE_DETAILS_THANKYOUMESSAGE3'                               => '',
-'PAGE_DETAILS_THANKYOUMESSAGE4'                               => '',
-'PAGE_TITLE_START'                                            => '',
+'PAGE_DETAILS_THANKYOUMESSAGE1'                               => 'Tack!',
+'PAGE_DETAILS_THANKYOUMESSAGE2'                               => ' uppskattar dina kommentarer.',
+'PAGE_DETAILS_THANKYOUMESSAGE3'                               => 'Vi kommer att informera dig så snart priset faller under',
+'PAGE_DETAILS_THANKYOUMESSAGE4'                               => '.',
+'PAGE_TITLE_START'                                            => 'Hemsida',
 'PAGE_TITLE_BASKET'                                           => 'Kundvagn',
 'PAGE_TITLE_USER'                                             => 'Leveransadress',
 'PAGE_TITLE_PAYMENT'                                          => 'Leverans- och betalsätt',
@@ -731,7 +731,7 @@ $aLang = [
 'PAGE_TITLE_CONTACT'                                          => 'Kontakt',
 'PAGE_TITLE_LINKS'                                            => 'Länkar',
 'PAGE_TITLE_SEARCH'                                           => 'Sökning',
-'PAGE_TITLE_CLEARCOOKIES'                                     => '',
+'PAGE_TITLE_CLEARCOOKIES'                                     => 'Information om cookies',
 // @deprecated 6.5.6 "News" feature will be removed completely
 'PAGE_TITLE_NEWS' => 'Nyheter',
 // END deprecated
@@ -743,8 +743,8 @@ $aLang = [
 
 
 'BETA_NOTE'                                                   => 'Willkommen zum Release-Kandidat',
-'BETA_NOTE_RELEASE_BETA'                                      => '',
-'BETA_NOTE_RELEASE_RC'                                        => '',
+'BETA_NOTE_RELEASE_BETA'                                      => 'Beta',
+'BETA_NOTE_RELEASE_RC'                                        => 'Releasekandidat',
 'BETA_NOTE_MIDDLE'                                            => 'von OXID eShop',
 'BETA_NOTE_FAQ'                                               => '. Häufig gestellte Fragen und Antworten sind in der <a href=\'http://wiki.oxidforge.org/Development/Beta\' class="external">FAQ</a> gelistet.',
 
@@ -753,12 +753,12 @@ $aLang = [
 'DETAILS_VPE_MESSAGE'                                         => 'Denna artikel kan bara köpas i förpakcingsenheter med %s stycken.',
 'DETAILS_CHOOSEVARIANT'                                       => 'Var snäll och välj en variant',
 'INVITE_TO_SHOP'                                              => 'En inbjudan från %s att besöka %s .',
-'PAYMENT_INFO_OFF'                                            => '',
+'PAYMENT_INFO_OFF'                                            => 'BETALNINGSINFORMATION AVSTÄNGD - redigera Application/views/[theme]/tpl/email/html/order_owner.tpl and plain/order_owner.tpl för att aktivera.',
 'DISTRIBUTORS'                                                => 'Leverantör',
 'MANUFACTURERS'                                               => 'Märken',
-'SERVICES'                                                    => '',
-'FORM_SUGGEST_MESSAGE1'                                       => '',
-'FORM_SUGGEST_MESSAGE2'                                       => '',
+'SERVICES'                                                    => 'Tjänst',
+'FORM_SUGGEST_MESSAGE1'                                       => 'Hej, jag tittade på',
+'FORM_SUGGEST_MESSAGE2'                                       => 'idag och hittade något som kan vara intressant för dig. Klicka bara på länken nedan så kommer du att hänvisas till butiken.',
 'SHOP_SUGGEST_MESSAGE'                                        => 'Hej, jag har hittat den interessanta e-butiken %s åt dig. Klicka bara på länken nedan så kommer du direkt till butiken.',
 'SHOP_SUGGEST_BUY_FOR_ME'                                     => 'Hej, jag har skapat en önskelista hos %s. Det vore jätte snällt om du kunde köpa någonting från listan till mig.',
 'GIFT_REGISTRY_SENT_SUCCESSFULLY'                             => 'Din önskelista har skickats till %s !',
@@ -781,7 +781,7 @@ $aLang = [
 'PRODUCT_RATING'                                              => 'Recensera artiklar',
 'SHIPMENT_TRACKING'                                           => 'Din länk till spårning av försändelsen',
 'INFO_ABOUT_COOKIES'                                          => 'Information om cookies',
-'PARTNERS'                                                    => '',
+'PARTNERS'                                                    => 'Partner',
 
-'MY_REVIEWS'                                                  => '',
+'MY_REVIEWS'                                                  => 'Mina recensioner',
 ];
