@@ -42,7 +42,7 @@ $aLang = array(
     'HELP_SHOP_THEME_sIconsize'                     => 'Icons sind die kleinsten Bilder eines Artikels. Sie werden z. B. <br>' .
                                                        '<ul><li>im Warenkorb angezeigt</li>' .
                                                        '<li>angezeigt, wenn Artikel in der Seitenleiste aufgelistet werden (z.B. bei den Aktionen <span class="filename_filepath_or_italic">Top of the Shop</span> und <span class="filename_filepath_or_italic">Schnäppchen</span>).</li></ul>' .
-                                                       'Damit das Design nicht durch zu große Icons zerstört wird, werden zu große Icons automatisch verkleinert. Die maximale Größe können Sie hier eingeben.<br>.',
+                                                       'Damit das Design nicht durch zu große Icons zerstört wird, werden zu große Icons automatisch verkleinert. Die maximale Größe kannst Du hier eingeben.<br>.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Größe des Thumbnails in Pixeln (Breite*Höhe)', //SHOP_CONFIG_THUMBNAILSIZE
     'HELP_SHOP_THEME_sThumbnailsize'                => 'Thumbnails sind kleine Bilder eines Artikels. Sie werden z. B. <br>' .
