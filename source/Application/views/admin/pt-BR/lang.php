@@ -13,7 +13,7 @@ $aLang = [
 
     'charset'          => 'UTF-8',
     'fullDateFormat'   => 'd.m.Y H:i:s',
-    'simpleDateFormat' => '',
+    'simpleDateFormat' => 'Ano-Mês-Dia',
 
     'COLON'                             => ':',
     'ELLIPSIS'                          => '...',
