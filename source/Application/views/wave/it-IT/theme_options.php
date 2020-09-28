@@ -35,90 +35,90 @@ $aLang = array(
     'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
     'SHOP_THEME_GROUP_googlets'                     => 'Negozi Fidati di Google',
     'SHOP_THEME_GROUP_background'                   => 'Immagine-sfondo',
-    'SHOP_THEME_GROUP_econda'                       => 'econda Web Shop Controlling',
+    'SHOP_THEME_GROUP_econda'                       => '',
     'SHOP_THEME_GROUP_emails'                       => 'E-mail',
 
     'SHOP_THEME_sIconsize'                          => 'Dimensione icona (ampiezza*altezza)', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => 'Le icone sono le immagini più piccole di un prodotto. Sono usate: <br>' .
                                                        '<ul><li>nel carrello.</li>' .
-                                                       '' .
-                                                       '',
+                                                       '<li>se i prodotti sono mostrati nel menu a destra (es. in <span class="filename_filepath_or_italic">ALTO al Negozio</span> e <span class="filename_filepath_or_italic">Occasioni</span>).</li></ul>' .
+                                                       'Per evitare problemi di progettazione causati da icone troppo grandi, le icone sono ridimensionate. Inserisci la dimensione massima per le icone qui.',
 
-    'SHOP_THEME_sThumbnailsize'                     => '', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sThumbnailsize'                     => 'Dimensione miniatura (ampiezza*altezza)', //SHOP_CONFIG_THUMBNAILSIZE
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Le miniature sono piccole immagini del prodotto. Sono usate:<br>' .
+                                                       '<ul><li>negli elenchi di prodotti.</li>' .
+                                                       '<li>nelle promozioni mostrate al centro della pagina iniziale, es. <span class="filename_filepath_or_italic">Appena arrivate!</span>.</li></ul>-' .
+                                                       'Per evitare problemi di progettazione causati da miniature troppo grandi, le miniature sono ridimensionate. Inserisci la dimensione massima per le miniature qui.',
 
-    'SHOP_THEME_sZoomImageSize'                     => '', //SHOP_CONFIG_ZOOMIMAGESIZE
-    'SHOP_THEME_sCatThumbnailsize'                  => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'HELP_SHOP_THEME_sCatThumbnailsize'             => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'SHOP_THEME_aDetailImageSizes'                  => '', //SHOP_CONFIG_DETAILIMAGESIZE
+    'SHOP_THEME_sZoomImageSize'                     => 'Dimensione immagine ingrandita (ampiezza*altezza)', //SHOP_CONFIG_ZOOMIMAGESIZE
+    'SHOP_THEME_sCatThumbnailsize'                  => 'Dimensione immagine di categoria (ampiezza*altezza)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'HELP_SHOP_THEME_sCatThumbnailsize'             => 'Nella vista della categoria, l\'immagine della categoria selezionata è mostrata nella dimensione definita.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'SHOP_THEME_aDetailImageSizes'                  => 'Dimensione dell\'immagine del prodotto (ampiezza*altezza)', //SHOP_CONFIG_DETAILIMAGESIZE
 
-    'SHOP_THEME_sManufacturerIconsize'              => '', // Check if this is really manufacturer or if it is more like "brand"
-    'HELP_SHOP_THEME_sManufacturerIconsize'         => '',
+    'SHOP_THEME_sManufacturerIconsize'              => 'Dimensione del logo del marchio/del produttore', // Check if this is really manufacturer or if it is more like "brand"
+    'HELP_SHOP_THEME_sManufacturerIconsize'         => 'Il logo del marchio/produttore è mostrato sulla pagina iniziale del cursore del produttore.',
 
-    'SHOP_THEME_sCatIconsize'                       => '',
-    'HELP_SHOP_THEME_sCatIconsize'                  => '',
+    'SHOP_THEME_sCatIconsize'                       => 'La dimensione di un\'immagine di una sottocategoria (ampiezza*altezza)',
+    'HELP_SHOP_THEME_sCatIconsize'                  => 'Nella vista della categoria, le immagini di categoria delle sottocategorie sono mostrate nella dimensione definita.',
 
-    'SHOP_THEME_sCatPromotionsize'                  => '',
-    'HELP_SHOP_THEME_sCatPromotionsize'             => '',
+    'SHOP_THEME_sCatPromotionsize'                  => 'La dimensione dell\'immagine di categoria per la promozione sulla pagina iniziale (ampiezza*altezza)',
+    'HELP_SHOP_THEME_sCatPromotionsize'             => 'La promozione della categoria sulla pagina iniziale necessita di una dimensione speciale per le immagini di categoria. Definisci la dimensione di queste immagini qui.',
 
-    'SHOP_THEME_blFooterShowHelp'                   => '',
-    'SHOP_THEME_blFooterShowLinks'                  => '',
-    'SHOP_THEME_blFooterShowNewsletter'             => '',
-    'SHOP_THEME_blFooterShowNewsletterForm'         => '',
-    'SHOP_THEME_blFooterShowNews'                   => '',
-    'SHOP_THEME_bl_showGiftWrapping'                => '', //SHOP_CONFIG_SHOWGIFTWRAPPING
-    'SHOP_THEME_bl_showVouchers'                    => '', //SHOP_CONFIG_SHOWVOUCHERS
-    'SHOP_THEME_bl_showWishlist'                    => '', //SHOP_CONFIG_SHOWWISHLIST
-    'SHOP_THEME_bl_showCompareList'                 => '', //SHOP_CONFIG_SHOWCOMPARELIST
-    'SHOP_THEME_bl_showListmania'                   => '', //SHOP_CONFIG_SHOWLISTMANIA
-    'SHOP_THEME_blShowBirthdayFields'               => '', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
+    'SHOP_THEME_blFooterShowHelp'                   => 'Usa collegamento d\'aiuto',
+    'SHOP_THEME_blFooterShowLinks'                  => 'Usa collegamento dei Collegamenti',
+    'SHOP_THEME_blFooterShowNewsletter'             => 'Usa collegamento della newsletter',
+    'SHOP_THEME_blFooterShowNewsletterForm'         => 'Usa modulo della newsletter',
+    'SHOP_THEME_blFooterShowNews'                   => 'Usa collegamento delle notizie',
+    'SHOP_THEME_bl_showGiftWrapping'                => 'Usa confezione regalo', //SHOP_CONFIG_SHOWGIFTWRAPPING
+    'SHOP_THEME_bl_showVouchers'                    => 'Usa buoni sconto', //SHOP_CONFIG_SHOWVOUCHERS
+    'SHOP_THEME_bl_showWishlist'                    => 'Usa registro dei regali', //SHOP_CONFIG_SHOWWISHLIST
+    'SHOP_THEME_bl_showCompareList'                 => 'Usa elenco di confronto', //SHOP_CONFIG_SHOWCOMPARELIST
+    'SHOP_THEME_bl_showListmania'                   => 'Usa listmania', //SHOP_CONFIG_SHOWLISTMANIA
+    'SHOP_THEME_blShowBirthdayFields'               => 'Mostra i campi di inserimento per la data di nascita quando i clienti inseriscono i propri dati personali', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
 
-    'SHOP_THEME_iTopNaviCatCount'                   => '', //SHOP_CONFIG_TOPNAVICATCOUNT
-    'SHOP_THEME_blShowFinalStep'                    => '', //SHOP_SYSTEM_SHOWFINALSTEP
-    'SHOP_THEME_iNewBasketItemMessage'              => '', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
-    'HELP_SHOP_THEME_iNewBasketItemMessage'         => '', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'SHOP_THEME_iTopNaviCatCount'                   => 'Quantità di categorie che viene mostrata in alto', //SHOP_CONFIG_TOPNAVICATCOUNT
+    'SHOP_THEME_blShowFinalStep'                    => 'Mostra la conferma dell\'ordine dopo il termine dell\'ordine (Quinto Passaggio nel Pagamento)', //SHOP_SYSTEM_SHOWFINALSTEP
+    'SHOP_THEME_iNewBasketItemMessage'              => 'Seleziona azione quando il prodotto viene aggiunto al carrello', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'Quando il cliente aggiunge i prodotti al carrello, l\'eShop di OXID può comportarsi differentemente. Configura cosa dovrebbe succedere per dare il feedback adeguato al cliente.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'nessuno',
-    'SHOP_THEME_iNewBasketItemMessage_1'            => '',
-    'SHOP_THEME_iNewBasketItemMessage_2'            => '',
-    'SHOP_THEME_iNewBasketItemMessage_3'            => '',
+    'SHOP_THEME_iNewBasketItemMessage_1'            => 'Mostra messaggio',
+    'SHOP_THEME_iNewBasketItemMessage_2'            => 'Apri popup',
+    'SHOP_THEME_iNewBasketItemMessage_3'            => 'Apri cestino',
 
-    'SHOP_THEME_blShowListDisplayType'              => '',
-    'HELP_SHOP_THEME_blShowListDisplayType'         => '',
-    'SHOP_THEME_sDefaultListDisplayType'            => '',
+    'SHOP_THEME_blShowListDisplayType'              => 'Mostra il selettore del tipo di elenco dei prodotti',
+    'HELP_SHOP_THEME_blShowListDisplayType'         => 'Decidi se il visitatore del tuo negozio può selezionare il tipo dell\'elenco di prodotti nel negozio. Se queste opzioni non sono attivate, i tuoi visitatori vedranno gli elenchi mostrato come se tu li avessi regolati nella casella di derivazione "Tipo di elenco di prodotti predefinito".',
+    'SHOP_THEME_sDefaultListDisplayType'            => 'Tipo di elenco di prodotti predefinito',
     'SHOP_THEME_sDefaultListDisplayType_grid'       => 'Griglia',
-    'SHOP_THEME_sDefaultListDisplayType_line'       => '',
+    'SHOP_THEME_sDefaultListDisplayType_line'       => 'Elenco',
     'SHOP_THEME_sDefaultListDisplayType_infogrid'   => 'Griglia doppia',
-    'SHOP_THEME_sStartPageListDisplayType'          => '',
+    'SHOP_THEME_sStartPageListDisplayType'          => 'Tipo di elenco dei prodotti sulla Pagina Iniziale',
     'SHOP_THEME_sStartPageListDisplayType_grid'     => 'Griglia',
-    'SHOP_THEME_sStartPageListDisplayType_line'     => '',
+    'SHOP_THEME_sStartPageListDisplayType_line'     => 'Elenco',
     'SHOP_THEME_sStartPageListDisplayType_infogrid' => 'Griglia doppia',
 
-    'SHOP_THEME_aNrofCatArticlesInGrid'             => '',
-    'SHOP_THEME_aNrofCatArticles'                   => '',
+    'SHOP_THEME_aNrofCatArticlesInGrid'             => 'Vista Griglia: Numero di prodotti che possono essere mostrati in un elenco di prodotti (pagine di categoria, risultati di ricerca)<br><br>Attenzione: Un grande numero di prodotti per pagina (oltre i 100) può causare perdite di prestazioni!',
+    'SHOP_THEME_aNrofCatArticles'                   => 'Numero di prodotti che possono essere mostrati in un elenco di prodotti (pagine di categoria, risultati di ricerca)<br><br>Attenzione: Un grande numero di prodotti per pagina (oltre i 100) può causare perdite di prestazioni!',
 
-    'SHOP_THEME_sFacebookUrl'                       => '',
-    'HELP_SHOP_THEME_sFacebookUrl'                  => '',
-    'SHOP_THEME_sTwitterUrl'                        => '',
-    'HELP_SHOP_THEME_sTwitterUrl'                   => '',
-    'SHOP_THEME_sBlogUrl'                           => '',
-    'HELP_SHOP_THEME_sBlogUrl'                      => '',
-    'SHOP_THEME_sYouTubeUrl'                        => '',
-    'HELP_SHOP_THEME_sYouTubeUrl'                   => '',
-    'SHOP_THEME_sGooglePlusUrl'                     => '',
-    'HELP_SHOP_THEME_sGooglePlusUrl'                => '',
+    'SHOP_THEME_sFacebookUrl'                       => 'Pagina di Facebook-URL',
+    'HELP_SHOP_THEME_sFacebookUrl'                  => 'Es.: https://www.facebook.com/oxidesales',
+    'SHOP_THEME_sTwitterUrl'                        => 'Profilo-URL Twitter',
+    'HELP_SHOP_THEME_sTwitterUrl'                   => 'Es.: https://twitter.com/OXID_eSales',
+    'SHOP_THEME_sBlogUrl'                           => 'URL del blog',
+    'HELP_SHOP_THEME_sBlogUrl'                      => 'Es.: http://blog.oxid-esales.com',
+    'SHOP_THEME_sYouTubeUrl'                        => 'URL-Canale di YouTube',
+    'HELP_SHOP_THEME_sYouTubeUrl'                   => 'Es.: https://www.youtube.com/user/oxidesales',
+    'SHOP_THEME_sGooglePlusUrl'                     => 'URL-Pagina Google+',
+    'HELP_SHOP_THEME_sGooglePlusUrl'                => 'Es.: https://plus.google.com/114133952363540971062',
 
-    'SHOP_THEME_sGoogleMapsAddr'                    => '',
-    'HELP_SHOP_THEME_sGoogleMapsAddr'               => '',
+    'SHOP_THEME_sGoogleMapsAddr'                    => 'Il tuo indirizzo postale',
+    'HELP_SHOP_THEME_sGoogleMapsAddr'               => 'Es.: OXID eSales AG, Bertoldstraße 48, 79098 Freiburg',
 
-    'SHOP_THEME_bl_showManufacturerSlider'          => '',
+    'SHOP_THEME_bl_showManufacturerSlider'          => 'Mostra cursore del produttore alla Pagina Iniziale',
 
-    'SHOP_THEME_blUseGAPageTracker'                 => '',
-    'SHOP_THEME_blUseGAEcommerceTracking'           => '',
-    'HELP_SHOP_THEME_blUseGAEcommerceTracking'      => '',
-    'SHOP_THEME_sGATrackingId'                      => '',
+    'SHOP_THEME_blUseGAPageTracker'                 => 'Usa Google Analytics PageTracker',
+    'SHOP_THEME_blUseGAEcommerceTracking'           => 'Usa Google Analytics Ecommerce Tracking',
+    'HELP_SHOP_THEME_blUseGAEcommerceTracking'      => 'Sei pregato di tenere a mente che quest\'opzione necessita di essere abilitata anche nel tuo profilo di Google Analytics. Manuale: <a href="https://support.google.com/analytics/answer/1009612?hl=en&ref_topic=1037061" target="_blank">Collegamento</a>',
+    'SHOP_THEME_sGATrackingId'                      => 'Google Analytics Tracking-ID',
     'HELP_SHOP_THEME_sGATrackingId'                 => '',
     'SHOP_THEME_blGAAnonymizeIPs'                   => '',
 
@@ -151,12 +151,12 @@ $aLang = array(
     'HELP_SHOP_THEME_sBackgroundPath'               => '',
     'SHOP_THEME_sBackgroundRepeat'                  => '',
     'SHOP_THEME_sBackgroundRepeat_no-repeat'        => 'No',
-    'SHOP_THEME_sBackgroundRepeat_repeat-x'         => '',
-    'SHOP_THEME_sBackgroundRepeat_repeat-y'         => '',
-    'SHOP_THEME_sBackgroundRepeat_repeat'           => '',
-    'SHOP_THEME_sBackgroundPosHorizontal'           => '',
-    'SHOP_THEME_sBackgroundPosHorizontal_left'      => '',
-    'SHOP_THEME_sBackgroundPosHorizontal_right'     => '',
+    'SHOP_THEME_sBackgroundRepeat_repeat-x'         => 'Sì, orizzontale',
+    'SHOP_THEME_sBackgroundRepeat_repeat-y'         => 'Sì, verticale',
+    'SHOP_THEME_sBackgroundRepeat_repeat'           => 'Sì, orizzontale e verticale',
+    'SHOP_THEME_sBackgroundPosHorizontal'           => 'Posizione orizzontale dell\'immagine di sfondo',
+    'SHOP_THEME_sBackgroundPosHorizontal_left'      => 'sinistra',
+    'SHOP_THEME_sBackgroundPosHorizontal_right'     => 'destra',
     'SHOP_THEME_sBackgroundPosHorizontal_center'    => '',
     'SHOP_THEME_sBackgroundPosVertical'             => '',
     'SHOP_THEME_sBackgroundPosVertical_top'         => '',
