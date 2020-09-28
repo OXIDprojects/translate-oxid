@@ -25,7 +25,7 @@ $aLang = [
     'charset' => 'UTF-8',
     'oegdproptin' => '',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Impostazioni GDPR',
     'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
     'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
     'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
@@ -33,6 +33,6 @@ $aLang = [
 
     'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Mostra una nota per l\'eliminazione dei dati dopo l\'elaborazione',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Mostra un opt-in per l\'elaborazione e l\'uso statistico dei dati',
 ];
