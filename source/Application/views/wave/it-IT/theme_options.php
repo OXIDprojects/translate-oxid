@@ -24,23 +24,23 @@ $sLangName  = 'Italiano';
 $aLang = array(
     'charset'                                       => 'UTF-8',
 
-    'SHOP_THEME_GROUP_images'                       => '',
-    'SHOP_THEME_GROUP_features'                     => '',
-    'SHOP_THEME_GROUP_display'                      => '',
-    'SHOP_THEME_GROUP_logo'                         => '',
-    'SHOP_THEME_GROUP_favicons'                     => '',
-    'SHOP_THEME_GROUP_footer'                       => '',
-    'SHOP_THEME_GROUP_header'                       => '',
+    'SHOP_THEME_GROUP_images'                       => 'Immagini',
+    'SHOP_THEME_GROUP_features'                     => 'Funzionalità',
+    'SHOP_THEME_GROUP_display'                      => 'Schermo',
+    'SHOP_THEME_GROUP_logo'                         => 'Logo',
+    'SHOP_THEME_GROUP_favicons'                     => 'Favicon',
+    'SHOP_THEME_GROUP_footer'                       => 'Piè di Pagina',
+    'SHOP_THEME_GROUP_header'                       => 'Intestazione',
     'SHOP_THEME_GROUP_contact'                      => 'Contatti',
-    'SHOP_THEME_GROUP_googleanalytics'              => '',
-    'SHOP_THEME_GROUP_googlets'                     => '',
-    'SHOP_THEME_GROUP_background'                   => '',
-    'SHOP_THEME_GROUP_econda'                       => '',
+    'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
+    'SHOP_THEME_GROUP_googlets'                     => 'Negozi Fidati di Google',
+    'SHOP_THEME_GROUP_background'                   => 'Immagine-sfondo',
+    'SHOP_THEME_GROUP_econda'                       => 'econda Web Shop Controlling',
     'SHOP_THEME_GROUP_emails'                       => 'E-mail',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
+    'SHOP_THEME_sIconsize'                          => 'Dimensione icona (ampiezza*altezza)', //SHOP_CONFIG_ICONSIZE
+    'HELP_SHOP_THEME_sIconsize'                     => 'Le icone sono le immagini più piccole di un prodotto. Sono usate: <br>' .
+                                                       '<ul><li>nel carrello.</li>' .
                                                        '' .
                                                        '',
 
