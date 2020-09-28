@@ -784,5 +784,5 @@ Application/views/[theme]/tpl/email/html/order_owner.tpl e plani/order_owner.tpl
 'INFO_ABOUT_COOKIES'                                          => 'Informazioni sui coockie',
 'PARTNERS'                                                    => 'Partner',
 
-'MY_REVIEWS'                                                  => '',
+'MY_REVIEWS'                                                  => 'Le mie recensioni',
 ];
