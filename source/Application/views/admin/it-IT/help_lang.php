@@ -57,11 +57,11 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Se il doppio opt-in è attivo, gli utenti ricevono un\'email con un collegamento di conferma quando si registrano per la newsletter. Solo se il collegamento di conferma viene usato l\'utente viene registrato per la newsletter.<br>Il doppio opt-in protegge gli utenti da registrazioni indesiderate. Senza il doppio opt-in, ogni indirizzo e-mail è registrabile alle newsletter. Con il doppio opt-in, il proprietario dell\'indirizzo email deve confermare la registrazione.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Con la vendita incrociata puoi offrire prodotti adatti ad un prodotto: Se per es. agli pneumatici di un auto è assegnata la vendita incrociata, gli pneumatici sono mostrati con l\'auto.<br>Se la vendita incrociata bidirezionale è attivata, funziona in entrambe le direzioni: Anche l\'auto viene mostrata con gli pneumatici.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Per ogni prodotto puoi configurare un messaggio se il prodotto è in magazzino.<br>Se l\'impostazione è attiva, un messaggio viene mostrato se nessun messaggio specifico per un prodotto viene inserito. Il messaggio predefinito <span class="filename_filepath_or_italic">Pronto per la spedizione</span> viene mostrato.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Per ogni prodotto puoi configurare un messaggio se il prodotto non è in magazzino.<br>Se l\'impostazione è attiva, un messaggio viene mostrato se nessun messaggio specifico per un prodotto viene inserito. Il messaggio predefinito <span class="filename_filepath_or_italic">Questo elemento non è in magazzinpo e deve essere arretrato</span> viene mostrato.',
 
 'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
