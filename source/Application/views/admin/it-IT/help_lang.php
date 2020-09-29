@@ -63,71 +63,71 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'Per ogni prodotto puoi configurare un messaggio se il prodotto non è in magazzino.<br>Se l\'impostazione è attiva, un messaggio viene mostrato se nessun messaggio specifico per un prodotto viene inserito. Il messaggio predefinito <span class="filename_filepath_or_italic">Questo elemento non è in magazzinpo e deve essere arretrato</span> viene mostrato.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Puoi configurare dei prezzi speciali per utenti specifici: Per ogni prodotto puoi inserire prezzi A, B e C. Se gli utenti sono nel gruppo utente <span class="filename_filepath_or_italic">Prezzo A</span>, viene mostrato loro il prezzo A invece di quello normale.<br>Se l\'impostazione è selezionata, il prezzo del prodotto normale viene usato se non è disponibile alcun prezzo A, B o C.<br>Dovresti attivare quest\'impostazione se stai usando i prezzi A, B e C: Altrimenti 0,00 viene mostrato agli utenti se non è impostato alcun prezzo A, B o C.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Qui puoi definire i campi del database in cui la ricerca dei prodotti cerca. Inserisci un campo per riga.<br>Le voci più comuni sono:<ul><li>oxtitle = Titolo</li><li>oxshortdesc = Descrizione breve</li><li>oxsearchkeys = Termini di ricerca inseriti per ogni prodotto</li><li>oxartnum = Numero del prodotto</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Qui puoi definire i campi del database che possono essere usati per ordinare gli elenchi di prodotti.. Inserisci un campo per riga.<br>Le voci più comuni sono:<ul><li>oxtitle = Titolo</li><li>oxprice = Prezzo</li><li>oxvarminprice = Il prezzo minimo se le varianti con prezzi differenti sono usate.</li><li>oxartnum = Numeri del prodotto</li><li>oxrating = Valutazione dei prodotti</li><li>oxstock = Scorte</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Qui puoi configurare i campi obbligatori per la registrazione dell\'utente. Inserisci un campo per riga.<br>Le voci più comuni sono:<ul><li>oxuser__oxfname = Nome</li><li>oxuser__oxlname = Cognome</li><li>oxuser__oxstreet = Strada</li><li>oxuser__oxstreetnr = Numero civico</li><li>oxuser__oxzip = CAP</li><li>oxuser__oxcity = Città</li><li>oxuser__oxcountryid = Paese</li><li>oxuser__oxfon = Numero telefonico</li></ul><br>Puoi anche definire i campi obbligatori se gli utenti inseriscono un indirizzo di spedizione differente. Le voci più comuni sono:<ul><li>oxaddress__oxfname = Nome</li><li>oxaddress__oxlname = Cognome</li><li>oxaddress__oxstreet = Strada</li><li>oxaddress__oxstreetnr = Numero civico</li><li>oxaddress__oxzip = CAP</li><li>oxaddress__oxcity = Città</li><li>oxaddress__oxcountryid = Paese</li><li>oxaddress__oxfon = Numero telefonico</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Con <span class="navipath_or_inputname">Consenti Valori di Scorta negativi</span> puoi definire come vengono calcolati i livelli delle scorte di prodotti esauriti:<br><ul><li>Se l\'impostazione è selezionata, i valori delle scorte negativi sono calcolati se sono acquistate ulteriori unità.</li><li>Se l\'impostazione non è selezionata, il valore delle scorte non cade mai sotto 0, anche se ulteriori unità sono acquistate.</li></ul>',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => 'Aggiungi o rimuovi valute. Ogni riga contiene i parametri di valuta separati dal simbolo @.<br /><br /><ul><li>codice valuta in base a ISO 4217 (es. EUR)</li><li>tasso di cambio della valuta alla valuta base con il valore 1.00</li><li>separatore decimale</li><li>separatore delle migliaia</li><li>segno di valuta</li><li>numero di posti decimali</li><li>parametro "Fronte" opzionale. Se inserito, il segno della valuta viene mostrato davanti al prezzo.</li></ul>',
 
-'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => '',
+'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'Sulla pagina iniziale del tuo eShop i prodotti più nuovi sono mostrati in <span class="filename_filepath_or_italic">Appena arrivati!</span>. Quest\'impostazione determina come sono calcolati i prodotti più nuovi: per data di creazione o per data dell\'ultima modifica nell\'ordine admin/ultima.',
 
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Attiva la raccomandazione dei prodotti sulle pagine di dettaglio del prodotto.',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => 'Nessuna data aziendale o informazione del cliente rilevante sarà trasmessa. I dati raccolti si applicano esclusivamente all\'informatica. Per migliorare la qualità dei nostri prodotti, informazioni come questa saranno raccolte:<ul>  <li>numero delle installazioni globali di OXID eShop Community Edition</li>  <li>numero medio di estensioni installate per OXID eShop</li>  <li>estensioni più diffuse per OXID eShop</li></ul>',
 
-'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => '',
+'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Se gli utenti valutano un prodotto, non possono valutarlo di nuovo. Qui puoi impostare per quanti giorni gli utenti sono autorizzati a votare di nuovo un prodotto. Lascia vuoto per disabilitare - i prodotti possono essere valutati solo una volta per utente.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Il controllo online della partita IVA viene eseguito se un cliente da un paese estero nell\'UE inserisce una partita IVA quando ordina. Se la partita IVA è valida, non viene calcolata nessuna IVA per quest\'ordine.<br>Se il controllo è disabilitato, viene calcolata l\'IVA normale per il dato paese.',
 
-'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => '',
+'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Qui puoi inserire un URL alternativo per il controllo online della partita IVA.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'L\'Accesso alle Vendite Private trasforma il negozio regolare in un negozio per soli membri. Questo aiuta a sviluppare comunità dei clienti con interessi simili. Quest\'impostazione limita l\'accesso a tutte le pagine dell\'eShop.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Consente di inserire prodotti solo da una categoria (root), se la categoria cambia, viene chiesto al suo utente rilevato di finalizzare l\'ordine (vai al pagamento) o continuare a fare shopping (il cartello viene pulito in questo caso). Usando questa funzionalità in congiunzione con una struttura di categorie propriamente organizzata, puoi implementare i carrelli divisi per fornitori differenti.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Quando disabiliti quest\'opzione, eShop riduce le scorte del prodotto esattamente nel momento in cui l\'ordine è confermato dal cliente e il pagamento è concluso.<br><br> Con quest\'opzione disabilitata, questa funzionalità cambia: Le scorte del prodotto si riducono e sono <b>riservate</b> quando il prodotto viene messo nel carrello. La prenotazione viene annullata quando il contenuto del carrello è acquistato o il carrello scade.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'Dopo questo timeout, i prodotti prenotati sono restituiti al magazzino ed il carrello del cliente viene eliminato.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'L\'invito è usato per invitare i tuoi amici al sito web ed ottenere punti di credito per l\'invito.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'L\'importo di punti di credito che l\'utente invitato da un utente già registrato ottiene. L\'utente invitato deve registrarsi per ottenere questi punti. I punti di credito acquisiti sono memorizzati nel registro dell\'utente e possono essere usati dal proprietario del negozio per qualsiasi scopo.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'La quantità di punti di credito che l\'utente che hai invitato qualcuno al negozio ottiene. L\'utente ottiene punti di credito solo se l\'utente invitato si registra al negozio. I punti di credito acquisiti sono memorizzati nel registro dell\'utente e possono essere utilizzati dal proprietario del negozio per qualsiasi scopo.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Attenzione: Anche se la crittografia viene usata, i contratti con Carta di Credito lo proibiscono spesso rigorosamente!',
 // END deprecated
 
-'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => '',
+'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'Nel quarto passo del processo di pagamento viene inoltre mostrata la pagina CMS "oxtsinternationalfees".',
 
-'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => '',
+'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => 'Nel quarto passo del processo di pagamento, viene inoltre mostrata la pagina CMS "oxtscodmessage".',
 
-'HELP_SHOP_CONFIG_DOWNLOADS'                  => '',
+'HELP_SHOP_CONFIG_DOWNLOADS'                  => 'Negozio con prodotti scaricabili. Attiva qui, così che i prodotti possano essere ordinati e scaricati.',
 
-'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => '',
+'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Il percorso dove sono memorizzati i file dei prodotti scaricabili.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Qui puoi definire quante volte l\'utente può scaricare dallo stesso collegamento dopo l\'ordine. Questa è l\'impostazione predefinita per tutti i prodotti. Puoi modificare questo valore per ogni file del prodotto in Amministrazione Prodotti -> Prodotti -> Download.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Qui puoi definire quante volte l\'utente può scaricare dallo stesso collegamento, se l\'utente ha ordinato senza registrazione. Questa è l\'impostazione predefinita per tutti i prodotti. Puoi modificare questo valore per ogni file del prodotto in Amministrazione Prodotti -> Prodotti -> Download.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Specifica l\'orario in ore per cui il collegamento di download è valido dopo l\'ordine. Questa è l\'impostazione predefinita per tutti i prodotti. Puoi modificare questo valore per ogni file del prodotto in Amministrazione Prodotti -> Prodotti -> Download.',
 
-'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
+'HELP_SHOP_CONFIG_PARCELSERVICE'              => 'Sei pregato di compilare l\'URL di monitoraggio del tuo fornitore della spedizione. <i>##ID##</i> è un segnaposto e sarà sostituito con il numero di tracciamento corrispondente.',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Specifica l\'orario in ore per cui il collegamento di download è valido dopo il primo download. Questa è l\'impostazione predefinita per tutti i prodotti. Puoi modificare questo valore per ogni file del prodotto in Amministrazione Prodotti -> Prodotti -> Download.',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => 'Gli utenti possono recensire e valutare i tuoi prodotti con le stelle. Se quest\'impostazione è selezionata, le valutazioni delle stelle/recensioni esistenti sono caricate e mostrate con il prodotto. Quest\'impostazione potrebbe degradare le prestazioni del negozio.',
 
-'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Sei pregato di ricontrollare se questo è legalmente conforme alle leggi applicabili. Questa impostazione sarà applicata solo se "recensioni utente e valutazioni a stelle" è attivata.',
 
 'HELP_SHOP_MALL_MALLMODE'                     => '',
 
