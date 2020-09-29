@@ -273,47 +273,47 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => 'Con <span class="navipath_or_inputname">Prezzo Da/A</span> puoi specificare che <span class="warning_or_important_hint">tutti</span> i prodotti in un certo intervallo di prezzi sono mostrati in questa categoria. Inserisci il limite minimo nel primo campo della voce e nel limite seuperiore nel secondo campo della voce. Poi <span class="warning_or_important_hint">tutti i prodotti dell\'eShop</span> entro questo intervallo di prezzi sono mostrati in questa categoria.',
 
-'HELP_CATEGORY_MAIN_DEFSORT'                  => '',
+'HELP_CATEGORY_MAIN_DEFSORT'                  => 'Con <span class="navipath_or_inputname">Ordinamento Veloce</span> specifichi il modo in cui i prodotti nella categoria potranno essere ordinati.',
 
-'HELP_CATEGORY_MAIN_SORT'                     => '',
+'HELP_CATEGORY_MAIN_SORT'                     => 'Puoi usare <span class="navipath_or_inputname">Ordinamento</span> per definire l\'ordine in cui sono mostrate le categorie: La categoria con il numero minimo è mostrata in alto e quella con il numero massimo in basso.',
 
-'HELP_CATEGORY_MAIN_THUMB'                    => '',
+'HELP_CATEGORY_MAIN_THUMB'                    => 'Con <span class="navipath_or_inputname">Immagine</span> e <span class="navipath_or_inputname">Carica Immagine</span> puoi caricare un\'immagine per questa categoria. L\'immagine è mostrata in alto alla categoria visualizzata. Seleziona l\'immagine in <span class="navipath_or_inputname">Carica Immagine</span> Quando clicchi su <span class="navipath_or_inputname">Salva</span>, l\'immagine viene caricata. Dopo il caricamento, il nome del file dell\'immagine viene mostrata nell\'<span class="navipath_or_inputname">Immagine</span>.',
 
-'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => '',
+'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => 'Con l\'<span class="navipath_or_inputname">icona della promozione</span> e <span class="navipath_or_inputname">carica icona</span> puoi caricare un\'immagine della categoria per la promozione sulla pagina iniziale. Per mostrare la promozione della categoria vedi <span class="navipath_or_inputname">Impostazioni Principali -> Info Cliente -> Migliore offerta nelle categorie</span>',
 
-'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '',
+'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '<li>Se <span class="navipath_or_inputname">Salta tutti gli sconti negativi</span> è attivo, le quote negative non saranno calcolate per ogni prodotto in questa categoria.',
 
-'HELP_CATEGORY_SEO_FIXED'                     => '',
+'HELP_CATEGORY_SEO_FIXED'                     => 'Puoi far ricalcolare gli URL SEO dell\'eShop. Una pagina della categoria ottiene un nuovo URL SEO se per es. il titolo della categoria è cambiato. L\'impostazione <span class="navipath_or_inputname">URL Fisso</span> previene questo: Se è attiva, il vecchio URL SEO viene mantenuto e nessun URL SEO nuovo viene calcolato.',
 
-'HELP_CATEGORY_SEO_KEYWORDS'                  => '',
+'HELP_CATEGORY_SEO_KEYWORDS'                  => 'Queste parole chiave sono integrate nel codice sorgente HTML della pagina della categoria (parole chiave META). Quest\'informazione è usata dai motori di ricerca. Le parole chiave adatte per la categoria possono essere inserite qui. Se viene lasciato vuoto, le parole chiave sono automaticamente generate.',
 
-'HELP_CATEGORY_SEO_DESCRIPTION'               => '',
+'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Questa descrizione è integrata nel codice sorgente HTML della pagina della categoria (descrizione META). Questo testo è spesso mostrato nelle pagine del risultato dei motori di ricerca. Una descrizione adatta può essere inserita qui. Se è lasciata vuota, la descrizione viene generata automaticamente.',
 
-'HELP_CATEGORY_SEO_SHOWSUFFIX'                => '',
+'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Con quest\'impostazione puoi specificare se il suffisso del titolo viene mostrato nel titolo della finestra del browser quando la pagina della categoria viene aperta. Il suffisso del titolo può essere impostato in <span class="navipath_or_inputname">Impostazioni Principali -> Impostazioni Core -> SEO -> Suffisso Titolo</span>.',
 
-'HELP_CONTENT_MAIN_SNIPPET'                   => '',
+'HELP_CONTENT_MAIN_SNIPPET'                   => 'Se selezioni <span class="navipath_or_inputname">Frammento</span> può includere questa pagina CMS in altre pagine CMS dal suo identificativo: <span class="userinput_or_code">[{ oxcontent ident=ident_of_the_cms_page }]</span>',
 
-'HELP_CONTENT_MAIN_MAINMENU'                  => '',
+'HELP_CONTENT_MAIN_MAINMENU'                  => 'Se selezioni <span class="navipath_or_inputname">Menu Superiore</span>, un collegamento a questa pagina CMS viene mostrato nel menu superiore (A Termini e Su di Noi).',
 
-'HELP_CONTENT_MAIN_CATEGORY'                  => '',
+'HELP_CONTENT_MAIN_CATEGORY'                  => 'Se selezioni <span class="navipath_or_inputname">Categoria</span>, un link a questa pagina CMS viene mostrato nella navigazione della categoria sotto le altre categorie.',
 
-'HELP_CONTENT_MAIN_MANUAL'                    => '',
+'HELP_CONTENT_MAIN_MANUAL'                    => 'Se selezioni <span class="navipath_or_inputname">Manualmente</span>, un collegamento viene creato che puoi usare per includere questa pagina CMS in altre pagine CMS. Il collegamento è mostrato sotto quando clicchi su <span class="navipath_or_inputname">Salva</span>',
 
-'HELP_CONTENT_SEO_FIXED'                      => '',
+'HELP_CONTENT_SEO_FIXED'                      => 'Puoi far ricalcolare gli URL SEO dell\'eShop. Una pagina CMS ottiene un nuovo URL SEO se es. il titolo della pagina CMS è cambiato. Le impostazioni dell\'<span class="navipath_or_inputname">URL Fisso</span> lo previene: Se è attivo, il vecchio URL SEO è mantenuto e nessun URL SEO nuovo viene calcolato.',
 
-'HELP_CONTENT_SEO_KEYWORDS'                   => '',
+'HELP_CONTENT_SEO_KEYWORDS'                   => 'Queste parole chiave sono integrate nel codice sorgente HTML della pagina CMS (parole chiave META). Quest\'informazione è usata dai motori di ricerca. Le parole chiave adatte per la pagina CMS possono essere inserite qui. Se lasciato vuoto, le parole chiave sono automaticamente generate.',
 
-'HELP_CONTENT_SEO_DESCRIPTION'                => '',
+'HELP_CONTENT_SEO_DESCRIPTION'                => 'La descrizione è integrata nel codice sorgente HTML della pagina CMS (descrizione META). Questo testo è spesso mostrato nelle pagine del risultato dei motori di ricerca. Una descrizione adatta può essere inserita qui. Se lasciato vuoto, la descrizione viene generata automaticamente.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'Sotto <span class="navipath_or_inputname">Regole di Calcolo</span> puoi selezionare quanto spesso viene calcolato il prezzo:<ul><li><span class="userinput_or_code">Una volta per carrello</span>: Il prezzo viene calcolato una volta per l\'intero ordine.</li><li><span class="userinput_or_code">Una volta per ogni prodotto differente</span>: Il prezzo è calcolato una volta per ogni prodotto differente nel carrello. Non fa differenza quale quantità di un prodotto viene ordinata.</li><li><span class="userinput_or_code">Per ogni prodotto</span>: il prezzo viene calcolato per ogni prodotto nel carrello.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'In <span class="navipath_or_inputname">Condizione</span> puoi specificare che la regola del costo di spedizione si applica solo ad una certa condizione. Puoi scegliere tra 4 condizioni:<ul><li><span class="userinput_or_code">Quantità</span>: Numero di prodotti nel carrello.</li><li><span class="userinput_or_code">Dimensione</span>: Dimensione totale di tutti i prodotti. Per usare propriamente quest\'impostazione, la dimensione per i prodotti deve essere inserita.</li><li><span class="userinput_or_code">Peso</span>: Il peso totale dell\'ordine in chilogrammi. Per usare propriamente quest\'impostazione, il peso per i prodotti deve essere inserito.</li><li><span class="userinput_or_code">Prezzo</span>: Prezzo d\'acquisto dell\'ordine.</li></ul>Puoi usare i campi delle voci <span class="navipath_or_inputname">>=</span> (maggiore di o uguale a) e <span class="navipath_or_inputname"><=</span> (minore di o uguale a) per specificare l\'intervallo a cui la condizione si deve applicare. Un numero maggiore deve essere inserito per <span class="navipath_or_inputname"><=</span> poi per <span class="navipath_or_inputname">-></span>.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'Puoi usare <span class="navipath_or_inputname">Sovrapprezzo/Sconto</span> per specificare la magnitudine dei costi di spedizione. Il prezzo può essere calcolato in due modi differenti:<ul><li>Con <span class="userinput_or_code">abs</span>, il prezzo viene assolutamente specificato (es.: con <span class="userinput_or_code">6.90</span>, un prezzo di EUR 6.90 viene calcolato).</li><li>Con <span class="userinput_or_code">%</span>, il prezzo è specificato in relazione al prezzo d\'acquisto (es.: Con <span class="userinput_or_code">10</span>, un prezzo del 10% del prezzo d\'acquisto viene calcolato).</li></ul>',
 
-'HELP_DELIVERY_MAIN_ORDER'                    => '',
+'HELP_DELIVERY_MAIN_ORDER'                    => 'Puoi usare l\'<span class="navipath_or_inputname">Ordine di elaborazione della regola</span> per specificare l\'ordine in cui le regole del costo di spedizione sarà eseguito. La regola del costo di spedizione con il numero minore viene eseguita prima. L\'ordine è importante se l\'impostazione <span class="navipath_or_inputname">Non calcolare ulteriori regole se questa regola corrisponde</span> è usata.',
 
-'HELP_DELIVERY_MAIN_FINALIZE'                 => '',
+'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Puoi usare <span class="navipath_or_inputname">Non calcolare ulteriori regole se questa regola corrisponde</span> per specificare che nessun altra regola debba essere eseguita se la regola del costo di spedizione è valida ed è in esecuzione. Per quest\'opzione, l\'ordine in cui le regole del costo di spedizione sono eseguite è importante. Viene specificato tramite l\'<span class="navipath_or_inputname">Ordine di elaborazione della Regola</span>.',
 
 'HELP_DELIVERYSET_MAIN_POS'                   => '',
 
