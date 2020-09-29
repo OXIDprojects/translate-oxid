@@ -129,61 +129,61 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Sei pregato di ricontrollare se questo è legalmente conforme alle leggi applicabili. Questa impostazione sarà applicata solo se "recensioni utente e valutazioni a stelle" è attivata.',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Qui puoi impostare cosa viene mostrato come pagina iniziale di questo eShop:<ul><li><span class="navipath_or_inputname">Mostra selettore negozio</span>: Una pagina dove i differenti eShop possono essere selezionati viene mostrata.</li><li><span class="navipath_or_inputname">Mostra pagina iniziale del negozio principale</span>La pagina iniziale normale di questo Negozio viene mostrata.</li></ul>',
 
-'HELP_SHOP_MALL_PRICEADDITION'                => '',
+'HELP_SHOP_MALL_PRICEADDITION'                => 'Puoi definire un sovrapprezzo su tutti i prezzi dei prodotti in questo negozio: Inserisci il sovrapprezzo e seleziona se è una percentuale (<span class="userinput_or_code">%</span>) o è assoluto (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Un elenco dei prodotti più nuovi è mostrato in <span class="filename_filepath_or_italic">Appena arrivati!</span>. Qui puoi impostare come viene generato questo elenco:<ul><li><span class="userinput_or_code">inattivo</span>: L\'elenco non viene mostrato.</li><li><span class="userinput_or_code">manuale</span>; Puoi definire i prodotti in <span class="navipath_or_inputname">Info Cliente -> Promozioni -></span> nella promozione <span class="filename_filepath_or_italic">Appena arrivati!</span>.</li><li><span class="userinput_or_code">automatico</span>: I prodotti sono automaticamente calcolati.</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Un elenco dei prodotti venduti più spesso è mostrato in <span class="filename_filepath_or_italic">Migliori del Negozio</span>. Qui puoi impostare come viene generato l\'elenco:<ul><li><span class="userinput_or_code">inattivo</span>: L\'elenco non viene mostrato.</li><li><span class="userinput_or_code">manuale</span>: Puoi definire i prodotti in <span class="navipath_or_inputname">Info Cliente -> Promozioni -></span> nella promozione <span class="filename_filepath_or_italic">Migliori del Negozio</span>.</li><li><span class="userinput_or_code">automatico</span>: I prodotti sono automaticamente calcolati.</li></ul>',
 
-'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
+'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Se l\'impostazione è selezionata, l\'albero completo delle categorie è mostrato nella navigazione delle categorie (tutte le categorie sono espanse). Questo funziona solo se la navigazione delle categorie non è mostrata in alto.',
 
-'HELP_SHOP_PERF_LOADACTION'                   => '',
+'HELP_SHOP_PERF_LOADACTION'                   => 'Se l\'impostazione è selezionata, le promozioni come <span class="filename_filepath_or_italic">Appena arrivati</span> e <span class="filename_filepath_or_italic">Migliori del Negozio</span> sono caricate e mostrate.',
 
-'HELP_SHOP_PERF_USESELECTLISTPRICE'           => '',
+'HELP_SHOP_PERF_USESELECTLISTPRICE'           => 'Nell\'elenco di selezione, possono essere impostati i sovrapprezzi/sconti. Se quest\'impostazione è selezionata, i sovrapprezzi/sconti sono caricati e applicati. Se non selezionata, i sovrapprezzi/sconti non sono applicati.',
 
-'HELP_SHOP_PERF_DISBASKETSAVING'              => '',
+'HELP_SHOP_PERF_DISBASKETSAVING'              => 'Il carrello degli utenti registrati viene salvato. Quando visitano di nuovo il tuo eShop, i contenuti del carrello sono caricati. Se attivi quest\'impostazione, i carrelli non sono più salvati.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => '',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'Se disattivi quest\'impostazione, nessun costo di spedizione è calcolato: I costi di spedizione sono sempre 0.00 EUR.',
 
-'HELP_SHOP_PERF_LOADPRICE'                    => '',
+'HELP_SHOP_PERF_LOADPRICE'                    => 'Se disattivi quest\'impostazione, i prezzi dei prodotti non sono calcolati: Nessun prezzo viene mostrato.',
 
-'HELP_SHOP_PERF_PARSELONGDESCINSMARTY'        => '',
+'HELP_SHOP_PERF_PARSELONGDESCINSMARTY'        => 'Se quest\'impostazione è attiva, le descrizioni dei prodotti e le categorie sono analizzate tramite Smarty: Puoi usare i tag Smarty (es. per usare le variabili) <br>',
 
-'HELP_SHOP_PERF_LOADSELECTLISTSINALIST'       => '',
+'HELP_SHOP_PERF_LOADSELECTLISTSINALIST'       => 'Normalmente gli elenchi di selezione sono mostrati solo nella visualizzazione dettagliata di un prodotto. Se attivi quest\'impostazione, sono mostrati anche gli elenchi di selezione negli elenchi del prodotto (es. risultati della ricerca, categorie).',
 
-'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => '',
+'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => 'Se quest\'impostazione è attivata, l\'eShop controlla su ogni chiamata se ogni modello è stato modificato. Se è così, l\'output viene ricalcolato. Attiva quest\'impostazione quando adatti i modelli, disattivala se l\'eShop è live per prestazioni migliori.',
 
-'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => '',
+'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Di solito, la cache completa è svuotata appena salvi qualsiasi modifica nell\'amministrazione dell\'eShop. Questo può portare a problemi di prestazioni all\'amministratore. Se quest\'impostazione è attivata, la cache viene svuotata solo se ti disconnetti dall\'amministrazione dell\'eShop.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Ogni pagina ha un titolo. questo titolo viene mostrato nella barra superiore della finestra del browser. Con <span class="navipath_or_inputname">Prefisso Titolo</span> e <span class="navipath_or_inputname">Suffisso Titolo</span> puoi compilare il testo prima e dopo i titoli della pagina:<br><ul><li>In <span class="navipath_or_inputname">Prefisso Titolo</span>, inserisci il testo da mostrare davanti al titolo.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Ogni pagina ha un titolo. questo titolo viene mostrato nella barra superiore della finestra del browser. Con <span class="navipath_or_inputname">Prefisso Titolo</span> e <span class="navipath_or_inputname">Suffisso Titolo</span> puoi compilare il testo prima e dopo i titoli della pagina:<br><ul><li>In <span class="navipath_or_inputname">Suffisso Titolo</span> inserisci il testo da mostrare dietro al titolo.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Il separatore è usato se i nomi della categoria e i nomi del prodotto consistono di diverse parole. Il separatore viene usato al posto degli spazi, es. www.youreshop.com/category-name-of-several-words<br>Se non viene inserito alcun separatore, viene usato -.',
 
-'HELP_SHOP_SEO_SAFESEOPREF'                   => '',
+'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Se diversi prodotti hanno lo stesso nome e sono nella stessa categoria, otterrebbero lo stesso URL SEO. Per evitare ciò, il Suffisso SEO viene allegato. Se non è definito alcun Suffisso SEO, viene usato <span class="filename_filepath_or_italic">oxid</span>.',
 
-'HELP_SHOP_SEO_RESERVEDWORDS'                 => '',
+'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Alcuni URL sono definiti nell\'OXID eShop, come www.youreshop.com/admin per accedere all\'amministrazione dell\'eShop. Se una categoria è stata denominata <span class="filename_filepath_or_italic">admin</span>, anche l\'URL SEO sarebbe www.youreshop.com/admin - la categoria non sarebbe accessibile. Dunque, il suffisso SEO è allegato a questi URL. Puoi definire qui quali URL sono automaticamente suffissati.',
 
-'HELP_SHOP_SEO_SKIPTAGS'                      => '',
+'HELP_SHOP_SEO_SKIPTAGS'                      => 'Se non sono definiti alcuni tag META per prodotti e categorie, i tag META sono creati in automatico. quindi le parole molto comuni possono essere omesse. Tutte le parole qui inserite sono omesse quando si creano i tag META.',
 
-'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
+'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Rende minuscoli tutti i caratteri maiuscoli negli url SEO. Es. www/youreshop.com/Kiteboarding/Kites/ si trasforma in www.youreshop.com/kiteboarding/kites/.',
 
-'HELP_SHOP_SEO_STATICURLS'                    => '',
+'HELP_SHOP_SEO_STATICURLS'                    => 'Per le pagine speciali (es. termini e condizioni generali) puoi inserire URL SEO fissi. Quando selezioni un URL statico, l\'URL normale è mostrato in <span class="navipath_or_inputname">URL Standard</span>. Nei campi di inserimento sotto puoi definire un URL SEO per ogni lingua.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'La modalità eShop non produttiva è intesa per l\'installazione, configurazione, personalizzazione dei modelli e fase di debug dei moduli dell\'eShop. Non appena la modalità produttiva è <span class="warning_or_important_hint">ON</span>, la gestione della cache e il comportamento di segnalazione di errori è ottimizzata per il negozio live.<br><span class="warning_or_important_hint">Attiva quest\'impostazione quando l\'eShop viene lanciato.</span><br>Trova altre informazioni importanti per andare live con OXID eShop nella nostra <a href="https://oxidforge.org/en/check-before-going-live.html" target="_blank">OXIDforge</a>.',
 
-'HELP_SHOP_MAIN_ACTIVE'                       => '',
+'HELP_SHOP_MAIN_ACTIVE'                       => 'Con <span class="navipath_or_inputname">Attiva</span> puoi abilitare/disabilitare l\'eShop completo. Se l\'eShop è disabilitato, un messaggio che dice che l\'eShop è temporaneamente offline viene mostrato agli utenti. Questo può essere utile per la manutenzione.',
 
-'HELP_SHOP_MAIN_INFOEMAIL'                    => '',
+'HELP_SHOP_MAIN_INFOEMAIL'                    => 'Tutte l\'email inviate tramite la pagina di contatto sono inviate a questo indirizzo e-mail.',
 
-'HELP_SHOP_MAIN_ORDEREMAIL'                   => '',
+'HELP_SHOP_MAIN_ORDEREMAIL'                   => 'Quando gli utenti ordinano ricevono un\'email con un sommario dell\'ordine. Le risposte a quest\'email sono inviate a <span class="navipath_or_inputname">Risposta all\'email dell\'ordine</span>.',
 
-'HELP_SHOP_MAIN_OWNEREMAIL'                   => '',
+'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'Quando gli utenti ordinano, ricevi un\'email con un sommario dell\'ordine. Queste email sono inviate e <span class="navipath_or_inputname">Email dell\'ordine a</span>.',
 
-'HELP_SHOP_MAIN_SMTPSERVER'                   => '',
+'HELP_SHOP_MAIN_SMTPSERVER'                   => 'I dati SMTP sono necessari per inviare email (es. inviare un\'email di conferma dell\'ordine ai clienti).',
 
 'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'Con <span class="navipath_or_inputname">Alt. Prezzi</span> è possibile impostare prezzi speciali per determinati utenti (gruppi di utenti "Prezzo A", "Prezzo B" e "Prezzo C").',
 
@@ -237,41 +237,41 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'L\'impostazione viene ereditata dal prodotto principale a Varianti e si applica all intero prodotto.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'A <span class="navipath_or_inputname">Stato spedizione</span> puoi selezionare da 4 impostazioni:<ul><li><span class="userinput_or_code">Standard</span>: Il prodotto può essere ordinato anche se è esaurito.</li><li><span class="userinput_or_code">Magazzino esterno</span>: Il prodotto può sempre essere acquistato ed è sempre mostrato come <span class="filename_filepath_or_italic">in magazzino</span>. (Il livello delle scorte non può essere dato per il magazzino esterno. Dunque, il prodotto è sempre mostrato come <span class="filename_filepath_or_italic">in magazzino</span>).</li><li><span class="userinput_or_code">Se esaurito, offline</span>: Il prodotto non è mostrato se è esaurito.</li><li><span class="userinput_or_code">Se esaurito, non ordinabile</span>: Il prodotto viene mostrato se è esaurito, ma non può essere ordinato.</li></ul>',
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'I file di questo prodotto possono essere scaricati.',
 
-'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => '',
+'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => 'Con <span class="navipath_or_inputname">Invia email se le scorte cadono sotto il valore</span> puoi specificare che un\'email sarà inviata non appena il livello delle scorte cadrà sotto il valore inserito. Seleziona la casella di controllo e poi inserisci il livello a cui vuoi essere notificato.',
 
-'HELP_ARTICLE_STOCK_DELIVERY'                 => '',
+'HELP_ARTICLE_STOCK_DELIVERY'                 => 'Qui puoi inserire la data in cui il prodotto sarà nuovamente disponibile se esaurito. Il formato è anno-mese-giorno, es. 2009-02-16.',
 
-'HELP_ARTICLE_SEO_FIXED'                      => '',
+'HELP_ARTICLE_SEO_FIXED'                      => 'Puoi far ricalcolare gli URL SEO all\'eShop. Una pagina del prodotto ottiene un nuovo URL SEO se per es. il titolo del prodotto viene modificato. L\'impostazione <span class="navipath_or_inputname">URL Fisso</span> lo previene: Se è attiva, il vecchio URL SEO è mantenuto e non viene calcolato alcun nuovo URL SEO.',
 
-'HELP_ARTICLE_SEO_KEYWORDS'                   => '',
+'HELP_ARTICLE_SEO_KEYWORDS'                   => 'Queste parole chiave sono integrate nel codice sorgente HTML della pagina del prodotto (parole chiave META). Quest\'informazione viene usata dai motori di ricerca. Le parole chiave adatte per il prodotto sono inseribili qui. Se lasciato vuoto, le parole chiave sono generate automaticamente.',
 
 'HELP_ARTICLE_SEO_DESCRIPTION'                => 'Questa descrizione è integrata nel codice sorgente HTML della pagina del prodotto (descrizione META). Questo testo viene spesso visualizzato nelle pagine dei risultati dei motori di ricerca. Una descrizione adeguata può essere inserita qui. Se viene lasciato vuoto, la descrizione viene generata automaticamente.',
 
 'HELP_ARTICLE_SEO_ACTCAT'                     => 'Puoi definire diversi URL SEO per i prodotti: per determinate categorie e pagine di produttori. Con <span class="navipath_or_inputname">Active Category / Vendor</span> puoi selezionare l\'URL SEO che desideri modificare.',
 
-'HELP_ARTICLE_STOCK_STOCKTEXT'                => '',
+'HELP_ARTICLE_STOCK_STOCKTEXT'                => 'Qui puoi inserire un messaggio che viene mostrato se il prodotto è in magazzino.',
 
-'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => '',
+'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Qui puoi inserire un messaggio che viene mostrato se il prodotto è esaurito.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'In <span class="navipath_or_inputname">Quantità Da/A/bis</span> puoi impostare per quale intervallo di quantità è valido il prezzo della scala.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Qui puoi impostare il prezzo per la quantità sopra inserita. Puoi inserire il prezzo assoluto o come sconto percentuale.<br>Ulteriori informazioni sui prezzi di scala si possono trovare nell\'<a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">articolo sui prezzi di scala nel manuale</a>.',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Nome della Selezione</span> definisce come la selezione delle varianti è etichettata, es. <span class="userinput_or_code">Colore</span> o <span class="userinput_or_code">Dimensione</span>.',
 
-'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => '',
+'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'Se selezionato, questo valore dell\'attributo sarà mostrato nel cartello e nella panoramica dell\'ordine sotto il titolo del prodotto.',
 
-'HELP_CATEGORY_MAIN_HIDDEN'                   => '',
+'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Con <span class="navipath_or_inputname">Nascosto</span> puoi definire se questa categoria viene mostrata agli utenti. Se una categoria è nascosta, non viene mostrata agli utenti, anche se è attiva.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'In <span class="navipath_or_inputname">Sottocategoria Di</span> specifichi il punto in cui la categoria deve comparire:<br><ul><li>Se la categoria non deve essere una sottocategoria di ogni altra categoria, allora seleziona <span class="userinput_or_code">--</span> Off.</li><li>Se la categoria deve essere una sottocategoria di un\'altra categoria, allora seleziona la categoria appropriata.</li></ul>',
 
-'HELP_CATEGORY_MAIN_EXTLINK'                  => '',
+'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Con <span class="navipath_or_inputname">Collegamento Esterno</span>, puoi inserire un collegamento che si apre quando gli utenti cliccano sulla categoria. <span class="warning_or_important_hint">Usa questa funzione solo se vuoi mostrare un collegamento nella navigazione della categoria. Causa alla categoria di perdere la sua funzione normale!</span>',
 
-'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => '',
+'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => 'Con <span class="navipath_or_inputname">Prezzo Da/A</span> puoi specificare che <span class="warning_or_important_hint">tutti</span> i prodotti in un certo intervallo di prezzi sono mostrati in questa categoria. Inserisci il limite minimo nel primo campo della voce e nel limite seuperiore nel secondo campo della voce. Poi <span class="warning_or_important_hint">tutti i prodotti dell\'eShop</span> entro questo intervallo di prezzi sono mostrati in questa categoria.',
 
 'HELP_CATEGORY_MAIN_DEFSORT'                  => '',
 
