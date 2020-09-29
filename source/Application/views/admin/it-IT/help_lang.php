@@ -369,15 +369,15 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_USER_EXTEND_BONI'                       => 'Qui puoi inserire un valore numerico per la valutazione di credito dell\'utente. Con la valutazione di credito puoi influenzare quali metodi di pagamento sono disponibili a quest\'utente.',
 
-'HELP_MANUFACTURER_MAIN_ICON'                 => '',
+'HELP_MANUFACTURER_MAIN_ICON'                 => 'Con <span class="navipath_or_inputname">Icona</span> e <span class="navipath_or_inputname">Carica Icona</span> puoi caricare un\'immagine per questo produttore (es. il logo). In <span class="navipath_or_inputname">Carica Icona</span>, seleziona l\'Immagine che vuoi caricare. Quando clicchi su <span class="navipath_or_inputname">Salva</span> l\'immagine viene caricata. Dopo il caricamento, il nome del file viene mostrato in <span class="navipath_or_inputname">Icona</span>.',
 
-'HELP_MANUFACTURER_SEO_FIXED'                 => '',
+'HELP_MANUFACTURER_SEO_FIXED'                 => 'Puoi far ricalcolare gli URL SEO all\'eShop. Una pagina del produttore ottiene un nuovo URL SEO se per es. il titolo del prodottutore viene modificato. L\'impostazione <span class="navipath_or_inputname">URL Fisso</span> lo previene: Se è attiva, il vecchio URL SEO è mantenuto e non viene calcolato alcun nuovo URL SEO.',
 
-'HELP_MANUFACTURER_SEO_KEYWORDS'              => '',
+'HELP_MANUFACTURER_SEO_KEYWORDS'              => 'Queste parole chiave sono integrate nel codice sorgente HTML della pagina del produttore (parole chiave META). Quest\'informazione è usata dai motori di ricerca. Le parole chiave adatte per la categoria possono essere inserite qui. Se viene lasciato vuoto, le parole chiave sono automaticamente generate.',
 
-'HELP_MANUFACTURER_SEO_DESCRIPTION'           => '',
+'HELP_MANUFACTURER_SEO_DESCRIPTION'           => 'Questa descrizione è integrata nel codice sorgente HTML della pagina del produttore (descrizione META). Questo testo viene spesso visualizzato nelle pagine dei risultati dei motori di ricerca. Una descrizione adeguata può essere inserita qui. Se viene lasciato vuoto, la descrizione viene generata automaticamente.',
 
-'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => '',
+'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Con quest\'impostazione puoi specificare se il suffisso del titolo viene mostrato nel titolo della finestra del browser quando la pagina del produttore viene aperta. Il suffisso del titolo può essere impostato in <span class="navipath_or_inputname">Impostazioni Principali -> Impostazioni Core -> SEO -> Suffisso Titolo</span>.',
 
 'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
