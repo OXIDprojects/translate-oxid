@@ -315,59 +315,59 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Puoi usare <span class="navipath_or_inputname">Non calcolare ulteriori regole se questa regola corrisponde</span> per specificare che nessun altra regola debba essere eseguita se la regola del costo di spedizione è valida ed è in esecuzione. Per quest\'opzione, l\'ordine in cui le regole del costo di spedizione sono eseguite è importante. Viene specificato tramite l\'<span class="navipath_or_inputname">Ordine di elaborazione della Regola</span>.',
 
-'HELP_DELIVERYSET_MAIN_POS'                   => '',
+'HELP_DELIVERYSET_MAIN_POS'                   => 'L\'<span class="navipath_or_inputname">Ordine</span> specifica l\'ordine in cui i metodi di spedizione sono mostrati agli utenti: Il metodo di spedizione con il numero minore viene mostrato in alto.',
 
-'HELP_DISCOUNT_MAIN_SORT'                     => '',
+'HELP_DISCOUNT_MAIN_SORT'                     => 'Usa <span class="navipath_or_inputname">Ordine</span> per definire l\'ordine degli sconti applicati ai prodotti o al carrello. Lo sconto con il numero minore si applica per primo, quello con il numero maggiore per ultimo.',
 
-'HELP_DISCOUNT_MAIN_PRICE'                    => '',
+'HELP_DISCOUNT_MAIN_PRICE'                    => 'Puoi usare il <span class="navipath_or_inputname">Prezzo di Acquisto</span> per specificare che lo sconto è valido solo per certi prezzi d\'acquisto. Se lo sconto deve essere valido per tutti i prezzi d\'acquisto, inserisci <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">Da</span> e <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">A</span>.',
 
-'HELP_DISCOUNT_MAIN_AMOUNT'                   => '',
+'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Puoi usare <span class="navipath_or_inputname">Quantità</span> per specificare che lo sconto è valido solo per certe quantità d\'acquisto. Se vuoi che lo sconto sia valido per tutte le quantità d\'acquisto, inserisci <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">Da</span> e <span class="userinput_or_code">0</span> in <span class="navipath_or_inputname">A</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'In <span class="navipath_or_inputname">Sconto</span>, specifichi la magnitudine dello sconto. Puoi usare l\'elenco di selezione dopo il campo di della voce per specificare se lo sconto si deve applicare come uno sconto assoluto o come uno sconto percentuale:<ul><li><span class="userinput_or_code">abs</span>: Lo sconto è uno sconto assoluto, es. EUR 5.</li><li><span class="userinput_or_code">%</span>: Lo sconto è uno sconto percentuale, es. 10 percento del prezzo d\'acquisto.</li><li><span class="userinput_or_code">itm</span>: Sconto nella forma di un prodotto gratuito. Imposta la quantità di questo prodotto. Scegli "Moltiplica" se la quantità del prodotto scontato nel carrello dovrebbe essere moltiplicata con la quantità del prodotto gratuito.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Puoi definire diversi URL SEO per i prodotti: per determinate categorie e pagine di produttori. Con <span class="navipath_or_inputname">Active Category / Vendor</span> puoi selezionare l\'URL SEO che desideri modificare.',
 
-'HELP_GENERAL_SEO_FIXED'                      => '',
+'HELP_GENERAL_SEO_FIXED'                      => 'L\'eShop ricalcola automaticamente gli URL SEO. Per esempio, una pagina del prodotto ottiene un nuovo URL SEO se il titolo del prodotto è cambiato. L\'impostazione <span class="navipath_or_inputname">URL Fisso</span> previene il ricalcolo: Se è attivo, il vecchio URL SEO viene mantenuto e nessun URL SEO nuovo viene generato.',
 
-'HELP_GENERAL_SEO_SHOWSUFFIX'                 => '',
+'HELP_GENERAL_SEO_SHOWSUFFIX'                 => 'Con quest\'impostazione puoi specificare se il suffisso del titolo viene mostrato nel titolo della finestra del browser quando la data pagina è aperta. Il suffisso del titolo può essere impostato in <span class="navipath_or_inputname">Impostazioni Principali -> Impostazioni Core -> SEO -> Suffisso Titolo</span>.',
 
-'HELP_GENERAL_SEO_OXKEYWORDS'                 => '',
+'HELP_GENERAL_SEO_OXKEYWORDS'                 => 'Queste parole chiave sono integrate nel codice sorgente HTML (parole chiave META). Quest\'informazione viene usata dai motori di ricerca. Le parole chiave adatte per il prodotto possono inserite qui. Se viene lasciato vuoto, le parole chiave sono automaticamente generate.',
 
-'HELP_GENERAL_SEO_OXDESCRIPTION'              => '',
+'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'Questa descrizione è integrata nel codice sorgente HTML (descrizione META). Questo testo è spesso mostrato nelle pagine del risultato dei motori di ricerca. Una descrizione adatta può essere inserita qui. Se è lasciato vuoto, la descrizione è automaticamente generata.',
 
-'HELP_GENIMPORT_FIRSTCOLHEADER'               => '',
+'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Attiva quest\'impostazione se la prima riga del file CSV contiene i nomi delle colonne del database a cui sono stati assegnati i valori del CSV. I valori sono assegnati automaticamente alle colonne del database.',
 
-'HELP_GENIMPORT_REPEATIMPORT'                 => '',
+'HELP_GENIMPORT_REPEATIMPORT'                 => 'Se l\'impostazione è attiva, il passaggio uno viene mostrato dopo l\'importazione riuscita così che tu possa iniziare l\'importazione successiva immediatamente.',
 
-'HELP_LANGUAGE_DEFAULT'                       => '',
+'HELP_LANGUAGE_DEFAULT'                       => 'La lingua predefinita viene usata quando il negozio non può rilevare la lingua in altri modi: l\'id lingua non è definito dall\'URL, non è rilevabile dal browser, non è definito nella sessione etc. La lingua predefinita può solo essere disabilitata, eliminarla <u>non è possibile</u>.',
 
-'HELP_LANGUAGE_ACTIVE'                        => '',
+'HELP_LANGUAGE_ACTIVE'                        => 'Quest\'opzione definisce la disponibilità della lingua nel frontend dell\'eShop: se è attivata - la lingua è disponibile nel frontend. Per lavorare nell\'area d\'amministrazione, questa lingua è sempre disponibile; anche se è disabilitata dal frontend.',
 
-'HELP_PAYMENT_MAIN_SORT'                      => '',
+'HELP_PAYMENT_MAIN_SORT'                      => 'In <span class="navipath_or_inputname">Ordine</span> puoi specificare l\'ordine in cui i metodi di pagamento devono essere mostrati agli utenti: Il metodo di pagamento con il numero d\'ordinamento minore è mostrato in alto.',
 
-'HELP_PAYMENT_MAIN_FROMBONI'                  => '',
+'HELP_PAYMENT_MAIN_FROMBONI'                  => 'Puoi usare <span class="navipath_or_inputname">Valutazione Minima del Credito</span> per specificare che i metodi di pagamento sono solo disponibili agli utenti aventi un certo indice di credito o superiore. Puoi inserire la valutazione di credito per ogni utente in <span class="navipath_or_inputname">Amministra Utenti -> Utenti -> Esteso</span>.',
 
-'HELP_PAYMENT_MAIN_SELECTED'                  => '',
+'HELP_PAYMENT_MAIN_SELECTED'                  => 'Puoi usare <span class="navipath_or_inputname">Selezionato</span> per definire quale metodo di pagamento deve essere selezionato come il metodo predefinito se l\'utente può scegliere tra diversi metodi di pagamento.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Puoi usare <span class="navipath_or_inputname">Prezzo d\'Acquisto</span> per specificare che il metodo di pagamento è valido solo per certi prezzi di spedizione. I campi <span class="navipath_or_inputname">da</span> e <span class="navipath_or_inputname">a</span> ti consentono di impostare un intervallo.<br>Se il metodo di pagamento deve essere valido per ogni prezzo d\'acquisto, devi specificare una condizione che viene sempre incontrata: Inserisci <span class="userinput_or_code">0</span> nel campo <span class="navipath_or_inputname">da</span> e <span class="userinput_or_code">99999999</span> nel campo <span class="navipath_or_inputname">a</span>.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'In <span class="navipath_or_inputname">Sovrapprezzo/Riduzione</span>, il prezzo viene inserito per il metodo di pagamento. Il prezzo può essere specificato in due modi differenti:<ul><li>Con <span class="userinput_or_code">abs</span> il prezzo viene inserito per il metodo di pagamento (es.: se inserisci <span class="userinput_or_code">7.50</span> un prezzo di EUR 7.50 viene calcolato.)</li><li>Con <span class="userinput_or_code">%</span>, il prezzo è calcolato in base al prezzo d\'acquisto (es.: se inserisci <span class="userinput_or_code">2</span>, il prezzo è il 2 percento del prezzo d\'acquisto)</li></ul>',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => '',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Quando calcoli il sovrapprezzo o la riduzione del prezzo, il valore del carrello viene usato come base. Definisce quali costi saranno inclusi quando si calcola il valore del carrello.',
 
-'HELP_SELECTLIST_MAIN_TITLEIDENT'             => '',
+'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'In <span class="navipath_or_inputname">Titolo di Lavoro</span>, puoi inserire un nome aggiuntivo che non viene mostrato agli utenti del tuo eShop. Puoi usare il titolo di lavoro per differenziare tra gli elenchi di selezione simili (es., Dimensioni per pantaloni e Dimensioni per camicie).',
 
-'HELP_SELECTLIST_MAIN_FIELDS'                 => '',
+'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Tutte le opzioni disponibili sono mostrate nell\'elenco dei <span class="navipath_or_inputname">Campi</span>. Puoi usare i campi di inserimento alla destra per configurare nuove opzioni.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Qui puoi distinguere se gli utenti si sono registrati quando ordinano:<ul><li>Se una password viene impostata, l\'utente è registrato.</li><li>Se nessuna password viene impostata, l\'utente ha ordinato senza registrarsi.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'Su questa scheda puoi:<ul><li>Naviga e gestisci i metodi di pagamento dell\'utente esistenti.<li>Crea nuovi metodi di pagamento e imposta i valori predefiniti, per esempio il debito diretto.</li></ul>',
 
-'HELP_USER_EXTEND_NEWSLETTER'                 => '',
+'HELP_USER_EXTEND_NEWSLETTER'                 => 'Quest\'impostazione mostra se l\'utente si è iscritto alla newsletter.',
 
-'HELP_USER_EXTEND_EMAILFAILED'                => '',
+'HELP_USER_EXTEND_EMAILFAILED'                => 'Se nessun e-mail può essere inviata all\'indirizzo e-mail di questo utente, controlla quest\'impostazione. Allora nessuna newsletter è più inviata a quest\'utente. Altre email sono ancora inviate.',
 
-'HELP_USER_EXTEND_BONI'                       => '',
+'HELP_USER_EXTEND_BONI'                       => 'Qui puoi inserire un valore numerico per la valutazione di credito dell\'utente. Con la valutazione di credito puoi influenzare quali metodi di pagamento sono disponibili a quest\'utente.',
 
 'HELP_MANUFACTURER_MAIN_ICON'                 => '',
 
@@ -381,82 +381,82 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Qui puoi impostare se gli utenti sono autorizzati ad usare diversi coupon di questa serie di coupon in un ordine singolo.',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => 'Qui puoi impostare se gli utenti possono usare i coupon con coupon di un\'altra serie in un ordine singolo.',
 
-'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => '',
+'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => 'Qui puoi impostare se gli utenti possono usare i coupon di questa serie di coupon in ordini multipli.',
 
-'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => '',
+'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => 'Se quest\'impostazione è attiva viene calcolato un numero casuale per ogni coupon.',
 
-'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => '',
+'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => 'Qui puoi inserire un numero di coupon. Questo numero è usato creando nuovi coupon se <span class="navipath_or_inputname">Numeri Casuali</span> è disattivato. Tutti i Coupon ottengono lo stesso numero del coupon.',
 
-'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => '',
+'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'Se assegni i prodotti o le categorie al tuo coupon, disattiva quest\'opzione per calcolare questo coupon ad ogni prodotto per la posizione del carrello. Attiva se il coupon dovrebbe essere valido solo una volta per posizione del carrello.',
 
-'HELP_WRAPPING_MAIN_PICTURE'                  => '',
+'HELP_WRAPPING_MAIN_PICTURE'                  => 'Con <span class="navipath_or_inputname">Immagine</span> e <span class="navipath_or_inputname">Carica Immagine</span> puoi caricare un\'immagine per la confezione regalo. In <span class="navipath_or_inputname">Carica Immagine</span>, seleziona l\'immagine da caricare. Quando clicchi su <span class="navipath_or_inputname">Salva</span>, l\'immagine viene caricata. Dopo il caricamento, il nome del file viene mostrato in <span class="navipath_or_inputname">Immagine</span>.',
 
-'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => '',
+'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Carica l\'immagine del banner e inserisci l\'URL del banner che sarà usato quando clicchi sul banner. Se il prodotto viene assegnato al banner e l\'URL non è inserito, il collegamento al prodotto assegnato sarà usato quando si clicca sul banner.',
 
-'HELP_SHOP_PERF_SEO_CACHE'                    => '',
+'HELP_SHOP_PERF_SEO_CACHE'                    => 'La cache SEO abilitata aumenta le prestazioni, ma richiede molto spazio su disco nella directory /tmp.',
 
 'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'L\'URL alternativo al server di immagini remoto può essere specificato nel file di configurazione config.inc.php impostando <i>sAltImageUrl</i> e <i>sSSLAltImageUrl</i> . 
 Quindi tutte le immagini del prodotto verranno caricate da questo server alternativo invece che da quello locale. Tuttavia, i file caricati verranno archiviati localmente. In questo caso la sincronizzazione con il server esterno deve essere eseguita manualmente o con script personalizzati.',
 
-'HELP_SHOP_RDFA_CONTENT_OFFERER'              => '',
+'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Seleziona qui, in quale pagina di contenuto di eShop sono mostrate le informazioni principali, es. "Su di Noi".',
 
 'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => '',
 
 'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => '',
 
-'HELP_SHOP_RDFA_VAT'                          => '',
+'HELP_SHOP_RDFA_VAT'                          => 'Quest\'opzione specifica se l\'imposta (VAT) è inclusa nel prezzo e i costi di spedizione/pagamento o no.',
 
-'HELP_SHOP_RDFA_DURATION_PRICES'              => '',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'Specifica qui l\'orario di validità dei costi dei prodotti, pagamento e spedizione (es. 1 giorno, 1 settimana).',
 
 'HELP_SHOP_RDFA_LOGO_URL'                     => 'L\'indirizzo Web (URL) di un logo o immagine.',
 
-'HELP_SHOP_RDFA_GEO_LONGITUDE'                => '',
+'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'La longitudine del negozio come parte della geolocalizzazione. Sei pregato di inserire solo i numeri.',
 
-'HELP_SHOP_RDFA_GEO_LATITUDE'                 => '',
+'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'La latitudine del negozio come parte della geolocalizzazione. Sei pregato di inserire solo i numeri.',
 
-'HELP_SHOP_RDFA_GLN'                          => '',
+'HELP_SHOP_RDFA_GLN'                          => 'Global Location Number (GLN) per l\'azienda. Il Global Location Number è un numero di tredici cifre usato per identificare parti e posizioni fisiche.',
 
-'HELP_SHOP_RDFA_NAICS'                        => '',
+'HELP_SHOP_RDFA_NAICS'                        => 'Il Codice del Sistema di Classificazione Industriale Nord Americano (NAICS) per la tua azienda. Vedi http://www.census.gov/eos/www/naics/.',
 
-'HELP_SHOP_RDFA_ISIC'                         => '',
+'HELP_SHOP_RDFA_ISIC'                         => 'Il Codice dello Standard Internazionale di Classificazione Industriale di Tutte le Attività Economiche (ISIC) per la tua azienda. Vedi http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
 
-'HELP_SHOP_RDFA_DUNS'                         => '',
+'HELP_SHOP_RDFA_DUNS'                         => 'Il Dun & Bradstreet D-U-N-S è un numero di nove cifre usato per identificare le entità legali.',
 
-'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => '',
+'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Se quest\'opzione è su mezzi, allora le scorte reali del prodotto sono mostrate.',
 
-'HELP_SHOP_RDFA_RATING_MIN'                   => '',
+'HELP_SHOP_RDFA_RATING_MIN'                   => 'Il valore minimo possibile si riferisce alla scala usata per le valutazioni nel tuo negozio. Questo valore non è la valutazione corrente minima di un prodotto!',
 
-'HELP_SHOP_RDFA_RATING_MAX'                   => '',
+'HELP_SHOP_RDFA_RATING_MAX'                   => 'Il valore massimo possibile si riferisce alla scala usata per le valutazioni nel tuo negozio. Questo valore non è la valutazione corrente massima di un prodotto!',
 
-'HELP_SHOP_RDFA_COND'                         => '',
+'HELP_SHOP_RDFA_COND'                         => 'Seleziona qui, quale termine descrive la condizione dei prodotti (nuovo, usato, o rinnovato).',
 
-'HELP_SHOP_RDFA_FNC'                          => '',
+'HELP_SHOP_RDFA_FNC'                          => 'Seleziona la funzione aziendale dei prodotti qui. Per esempio, sono offerti per la vendita, il noleggio o la riparazione?',
 
-'HELP_SHOP_RDFA_COSTUMER'                     => '',
+'HELP_SHOP_RDFA_COSTUMER'                     => 'I tipi di clienti per cui i prodotti del negozio sono validi (Utente finale, Rivenditore, Azienda e/o Pubblico).',
 
-'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => '',
+'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Questa proprietà specifica l\'orario della validità dei prodotti, es. 1 giorno, 1 settimana o 1 mese.',
 
-'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Esegue il controllo di salute del sistema quando si accede alla pagina principale dell\'amministratore e mostra i messaggi se necessario. Nelle configurazioni speciali questo potrebbe influenzare la performance del pannello d\'amministrazione.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'Il tasso IVA dei prodotti, che hanno il valore netto maggiore nel carrello, è usato per il calcolo.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'La percentuale dei prodotti nel carrello con lo stesso tasso IVA è usato per il calcolo.',
 
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Nei prezzi del prodotto del frontend sono mostrati come prezzi netti.',
 
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => '',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'Nell\'area di amministrazione i prezzi del prodotto devono essere inseriti come prezzi netti.',
 
-'HELP_REVERSE_PROXY_GET_FRONTEND'             => '',
+'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Controlla se il Proxy Inverso è disponibile per il frontend. L\'intestazione della pagina iniziale del negozio è verificata.<br>Il test potrebbe fallire se differenti domini o protocolli (http/https) sono usati per il pannello dell\'amministrazione e il front del negozio.',
 
-'HELP_REVERSE_PROXY_GET_BACKEND'              => '',
+'HELP_REVERSE_PROXY_GET_BACKEND'              => 'L\'area di amministrazione è mostrata senza Proxy Inverso. Impossibile ricevere l\'intestazione Varnish.',
 
-'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => '',
+'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Solo IBAN e BIC possono essere inseriti durante il pagamento. Il numero di conto bancario e il codice bancario sono inseribili solo se questa casella di controllo non è attivata.',
 
-'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => '',
+'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Se quest\'opzione è attivata, gli utenti devono confermare i termini e le condizioni per i prodotti immateriali o scaricabili nel quarto passaggio del processo di pagamento. Sei pregato di assicurarti che quest\'opzione sia abilitata anche per l\'elemento specifico!',
 
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Qui puoi definire i campi del modulo di contatto che un utente deve necessariamente compilare.',
 ];
