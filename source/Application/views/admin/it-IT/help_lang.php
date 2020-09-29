@@ -23,39 +23,39 @@
 $aLang =  [
 'charset'                                     => 'UTF-8',
 
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Qui puoi impostare se gli ordini possono esser effettuati in paesi per cui non sono definiti i costi di spedizione:<ul><li>Se l\'impostazione è selezionata, gli utenti possono ordinare: Gli utenti sono notificati che sono informati sui costi di spedizione manualmente.</li><li>Se l\'impostazione non è selezionata, gli utenti dai paesi per cui non sono definiti costi di spedizione non possono ordinare.</li></ul>',
 
-'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => '',
+'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Se l\'impostazione è selezionata, gran parte degli elementi di navigazione non sono mostrati durante il pagamento. In seguito, gli utenti non sono inutilmente distratti durante il pagamento.',
 
-'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
+'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => 'Le impostazioni consigliate sono 40-80:<br><ul><li>Sotto i 40, la compressione diviene chiaramente visibile e le immagini sono sfocate.</li><li>Sopra gli 80 difficilmente si può rilevare qualsiasi miglioramento di qualità, ma la dimensione del file aumenta enormemente.</li></ul><br>Il valore predefinito è 75.',
 
 'HELP_SHOP_SYSTEM_LDAP'                       => 'Modificare il file core/oxldap.php.',
 
-'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => '',
+'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => 'Quest\'impostazione influisce su come sono gestite le revisioni per le varianti: Se l\'impostazione è selezionata, anche le osservazioni dalle varianti sono mostrate al prodotto genitore.',
 
-'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => '',
+'HELP_SHOP_SYSTEM_VARIANTSSELECTION'          => 'In eShop ci sono molti elenchi per assegnare i prodotti, es. assegnare i prodotti agli sconti. Se l\'impostazione è selezionata, le varianti sono mostrate anche in questi elenchi.',
 
-'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => '',
+'HELP_SHOP_SYSTEM_VARIANTPARENTBUYABLE'       => 'Quest\'impostazione influisce sul fatto che i prodotti genitore possano essere comprati:<ul><li>Se l\'impostazione è selezionata, anche i prodotti genitore possono essere comprati.</li><li>Se l\'impostazione non è selezionata, solo le varianti dei prodotti genitore possono essere comprate.</li></ul>',
 
-'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => '',
+'HELP_SHOP_SYSTEM_VARIANTINHERITAMOUNTPRICE'  => 'Qui puoi impostare se le scale di prezzi sono ereditate dal prodotto genitore: Se l\'impostazione è selezionata, la scala dei prezzi del prodotto genitore è usata anche per le sue varianti.',
 
-'HELP_SHOP_SYSTEM_ISERVERTIMESHIFT'           => '',
+'HELP_SHOP_SYSTEM_ISERVERTIMESHIFT'           => 'Il server in cui è eseguito eShop può essere in un fuso orario differente. Con quest\'impostazione il fuso orario è regolabile: Inserisci la quantità di ore che devono essere aggiunte/sottratte dall\'ora del server, es. <kdb>+2</kdb> o <kdb>-2</kdb>',
 
-'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => '',
+'HELP_SHOP_SYSTEM_INLINEIMGEMAIL'             => 'Se l\'impostazione è selezionata, le immagini nelle email sono inviate con l\'email. Se l\'impostazione non è selezionata, le immagini sono scaricate dal programma dell\'email quando l\'email viene aperta.',
 
-'HELP_SHOP_SYSTEM_UTILMODULE'                 => '',
+'HELP_SHOP_SYSTEM_UTILMODULE'                 => 'Sei pregato di inserire qui il file PHP personalizzato, che sovrascriverà le funzioni di eShop all\'avvio del negozio.',
 
-'HELP_SHOP_CACHE_ENABLED'                     => '',
+'HELP_SHOP_CACHE_ENABLED'                     => 'Se la cache del contenuto Dinamico è attiva, i contenuti aggiuntivi cono memorizzati per aumentare le prestazioni. Disattiva quest\'impostazione finché si adatta al Negozio (scrivere moduli, adattare modelli e così via).',
 
-'HELP_SHOP_CACHE_LIFETIME'                    => '',
+'HELP_SHOP_CACHE_LIFETIME'                    => 'Qui puoi impostare quanti secondi di contenuti memorizzati nella cache sono salvati prima che siano ricreati. L\'impostazione predefinita è 36000 secondi.',
 
-'HELP_SHOP_CACHE_CLASSES'                     => '',
+'HELP_SHOP_CACHE_CLASSES'                     => 'Qui puoi impostare quali classi di visualizzazione sono memorizzate nella cache.<br> Modifica quest\'impostazione solo se sei familiare con i meccanismi della cache!',
 
-'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => '',
+'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => 'Attiva un Proxy Inverso di HTTP della cache. Nota;: Non usare la "Cache del Contenuto Dinamico" allo stesso tempo, poiché potrebbe rallentare le prestazioni.',
 
-'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => '',
+'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Imposta la durata del layout della pagina in secondi. Questo sarà inviato tramite le intestazioni di HTTP, specificandone il valore "Età".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Se il doppio opt-in è attivo, gli utenti ricevono un\'email con un collegamento di conferma quando si registrano per la newsletter. Solo se il collegamento di conferma viene usato l\'utente viene registrato per la newsletter.<br>Il doppio opt-in protegge gli utenti da registrazioni indesiderate. Senza il doppio opt-in, ogni indirizzo e-mail è registrabile alle newsletter. Con il doppio opt-in, il proprietario dell\'indirizzo email deve confermare la registrazione.',
 
 'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
 
