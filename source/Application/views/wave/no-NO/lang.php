@@ -128,7 +128,7 @@ $aLang = array(
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
-    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => '',
+    'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Avbryt',
     'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
     'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
 
