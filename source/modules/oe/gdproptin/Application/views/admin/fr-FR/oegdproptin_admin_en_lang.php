@@ -25,7 +25,7 @@ $aLang = [
     'charset' => 'UTF-8',
     'oegdproptin' => '',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Paramètres RGPD',
     'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
     'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
     'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
