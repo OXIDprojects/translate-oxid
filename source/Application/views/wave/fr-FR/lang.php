@@ -126,14 +126,14 @@ $aLang = array(
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menu',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Supprimer mon compte',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Êtes-vous sûr de vouloir supprimer votre compte?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Annuler',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Votre compte a été supprimé',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Votre compte n\'a pas pu être supprimé',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Supprimer votre évaluation',
     'DD_REVIEWS_NOT_AVAILABLE'                              => '',
     'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
 
