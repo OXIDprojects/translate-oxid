@@ -39,14 +39,14 @@ $aLang = array(
     'SHOP_THEME_GROUP_emails'                       => 'E-Mails',
 
     'SHOP_THEME_sIconsize'                          => 'Taille de l\'icône (largeur*hauteur)', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
+    'HELP_SHOP_THEME_sIconsize'                     => 'Les icônes sont les plus petites images d\'un produit. Elles sont utilisées : <br>' .
                                                        '' .
                                                        '' .
                                                        '',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Taille de la vignette (largeur*hauteur)', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Les vignettes sont de images du produit en taille réduite. Elles sont utilisées :<br>' .
+                                                       '<ul><li>dans les listes de produits.</li>' .
                                                        '' .
                                                        '',
 

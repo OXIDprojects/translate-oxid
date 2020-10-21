@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Etat',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'Sélectionner',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'ajouter une adresse de livraison',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Supprimer l\'adresse de livraison',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtre:',
@@ -134,7 +134,7 @@ $aLang = array(
 
     // Account -> My product reviews
     'DD_DELETE_REVIEW_AND_RATING'                           => 'Supprimer votre évaluation',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Aucun avis disponible',
     'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
 
     // Contact page

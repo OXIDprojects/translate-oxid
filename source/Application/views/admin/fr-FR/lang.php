@@ -1762,7 +1762,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Invitations',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Produits téléchargeables',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Informations de compte bancaire (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Paramètres du compte',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Groupes de clients assignés',
     'PROMOTION_LIST_ALL'          => 'Tous',

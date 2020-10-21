@@ -31,7 +31,7 @@ $aLang = [
     'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
     'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Paramètres du formulaire de contact',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
     'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
     'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
