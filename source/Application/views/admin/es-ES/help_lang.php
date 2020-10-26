@@ -81,7 +81,7 @@ $aLang =  [
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Activa la recomendación de los productos en las páginas de detalle de los productos.',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => 'No se transmitirá ninguna informació relevante de la Tienda o información del cliente. Para mejorar la calidad de nuestros productos, esta información será recogida :<ul>  <li>número de las instalaciones de la Edición Comunitaria de eShop OXID en todo el mundo</li>  <li>número promedio de extensiones instaladas por eShop OXID</li>  <li>extensiones de difusión superior para la eShop OXID</li></ul>',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Si la tasa de usuarios de un producto que no se puede calificar el producto de nuevo. Aquí se puede establecer el número de usuarios después de muchos días se les permitirá calificar un producto nuevo. Dejar en blanco para desactivar - los productos pueden ser valorados una sola vez por usuario.',
 
@@ -121,13 +121,13 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Especifica el tiempo en horas, el link de descarga es válido después del pedido. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
+'HELP_SHOP_CONFIG_PARCELSERVICE'              => 'Por favor, rellena la URL de seguimiento de tu proveedor de envío. <i>##ID##</i> es un marcador de posición y será reemplazado con el número de seguimiento correspondiente.',
 
 'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Especifica el tiempo en horas, el link de descarga es válido después de la primera descarga. Esta es la coonfiguración por defecto para todos los productos. Puedes cambiar este valor para cada fichero de producto en Administrar Productos -> Productos -> Descargas.',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => 'Los usuarios pueden revisar y calificar sus productos con estrellas. Si esta opción está marcada, las valoraciones existentes y las estrellas se cargarán y mostrarán con el producto. Esta configuración podría disminuir el rendimiento de la tienda.',
 
-'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Por favor, compruebe si esto es legalmente compatible con las leyes aplicables. Esta configuración sólo se aplicará, si "el usuario revisa y califica las estrellas" está activado.',
 
 'HELP_SHOP_MALL_MALLMODE'                     => 'Aquí se puede establecer lo que se muestra en la portada de este eShop:.<ul> <li> class=navipath_or_inputname> Mostrar selector de compras </ span>: Una página en la que diferentes tiendas online pueden ser seleccionados se muestra </ li>..<li> class=navipath_or_inputname> Mostrar tienda principal de primera plana </ span>: La primera página normal de esta tienda se muestra </ li> </ ul>.',
 
@@ -169,7 +169,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Si no hay etiquetas META se definen los productos y categorías de las etiquetas META se crean automáticamente. por lo tanto las palabras muy comunes puede ser omitido. Todas las palabras introducidas aquí se omiten cuando se crean las etiquetas META.',
 
-'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
+'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Todas las mayúsculas y minúsculas de las urls de SEO, p. ej., www.tueshop.com/Kiteboarding/Kites/ se cambiara a www.tueshop.com/kiteboarding/kites/.',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Para las páginas especiales (por ejemplo, términos y condiciones generales) puede introducir direcciones URL fija SEO. Al seleccionar una dirección URL estática la dirección normal se muestra en la <span URL class=navipath_or_inputname> estándar </ span>. En los campos de entrada a continuación puede definir una dirección URL de SEO para cada idioma.',
 
@@ -313,7 +313,7 @@ $aLang =  [
 
 'HELP_DELIVERYSET_MAIN_POS'                   => 'class = navipath_or_inputname > <span clasificación </ span> especifica el orden en que los métodos de envio se muestranlos usuarios : El Método de envio con el menor número se muestra en la parte superior .',
 
-'HELP_DISCOUNT_MAIN_SORT'                     => '',
+'HELP_DISCOUNT_MAIN_SORT'                     => 'Utilice <span class="navipath_or_inputname">ordenar</span> para definir el orden de los descuentos aplicados a productos o carritos. El descuento con el número más bajo se aplica primero, el que tiene el número más alto, el último.',
 
 'HELP_DISCOUNT_MAIN_PRICE'                    => 'Usted puede utilizar <span class=navipath_or_inputname> precio de compra </ span> para especificar que el descuento sólo es válido para los precios de compra determinados. Si la oferta es válida para todos los precios de compra entre <span class=userinput_or_code> 0 </ span> <span class=navipath_or_inputname> Desde </ span> <span class=userinput_or_code> 0 </ span> <span class = navipath_or_inputname> A> </ span.',
 
@@ -439,7 +439,7 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Esta propiedad especifica el tiempo de validez de los productos, por ejemplo, 1 día,1 semana o un mes.',
 
-'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Ejecuta la verificación de estado del sistema al acceder a la página de inicio del administrador y muestra los mensajes si es necesario. En configuraciones especiales, esto puede afectar al rendimiento del panel de administración.',
 
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'El porcentaje de IVA de los productos, que tiene un valor neto en el carrito, es usado para el cálculo.',
 
@@ -457,5 +457,5 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Si esta opción está activada, los usuarios tienen que confirmar términos y condiciones en el cuarto paso del proceso de compra para este objeto específico. Por favor, asegúrese que la opción general está activada y el producto es intangible o descargable.',
 
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Aquí puedes definir los campos del formulario de contacto que un usuario tiene que rellenar.',
 ];
