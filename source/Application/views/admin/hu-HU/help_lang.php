@@ -73,15 +73,15 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'A <span class="navipath_or_inputname"> negatív mennyiség engedélyezése...</span>-nél beállíthatja, hogy milyen raktárkészlet legyen kiszámítva, ha egy termék már nincs raktáron:<br /><ul><li>Ha ez a beállítás aktív, akkor a készlet minuszba megy, ha további mennyiség kerül értékesítésre.</li><li>Ha ez a beállítás inaktív, akkor a raktárkészlet mennyisége soha nem lesz 0 alatt, akkor sem, ha a termék már elfogyott és további mennyiség került megrendelésre</li></ul>',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => 'Pénznemek hozzáadása vagy eltávolítása. Minden sor tartalmazza a deviza paramétereket, amelyeket @ szimbólum választ el. <br /> <br /> <ul> <li> pénznemkód az ISO 4217 szerint (pl. EUR) </li> <li> valuta árfolyam az alap pénznemig értékkel 1.00 </li> <li> tizedes elválasztó </li> <li> több ezer elválasztó </li> <li> pénznemjel </li> <li> tizedesjegyek száma </li> <li> opcionális "Front" paraméter ". Ha beírja, az ár előtt megjelenik a pénznem jele. </li> </ul>',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'A Shop kezdőlapján a<span class="filename_filepath_or_italic"> Most érkezett!</span> alatt jelennek meg a legújabb termékek. Itt állíthatja be, hogy ezek a termékek automatikusan, vagy kézi beállítással generálódjanak. Itt állíthatja be továbbá, hogy a termék felvétele szerinti dátum, vagy pedig az utolsó változtatás dátuma az adminisztrációs felületen lesz a mérvadó.',
 
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Aktiválja a termékek ajánlását a termékrészletek oldalán.',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => 'Nem továbbít üzleti szempontból releváns adatokat vagy ügyfélinformációkat. Az összegyűjtött adatok kizárólag a technológiai információkra vonatkoznak. Termékeink minőségének javítása érdekében ehhez hasonló információkat gyűjtenek: <ul> <li> az OXID eShop Community Edition telepítések száma világszerte </li> <li> az OXID eShopra telepített kiterjesztések átlagos száma </li> <li> legnépszerűbb kiterjesztések az OXID eShop számára </li> </ul>',
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Itt határozhatja meg, hogy egy termékre leadott értékelés hány napig lesz a shopban látható.',
 
@@ -121,13 +121,13 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Adja meg óraszámban azt az értéket,ameddig a letöltési link a megrendelés után érvényes. Ez lesz az alapbeállítás az összes letölthető termékre. Ezt az értéket megváltoztathatja az összes terméknél. Termék -> letöltések ->  További opciók.',
 
-'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
+'HELP_SHOP_CONFIG_PARCELSERVICE'              => 'Kérjük, töltse ki szállítási szolgáltatója URL-jét. A <i> ## ID ## </i> helyőrző, és helyébe a megfelelő nyomkövetési szám lép.',
 
 'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Adja meg óraszámban azt az értéket, ameddig a letöltési link érvényes az első letöltés után. Ezt az értéket megváltoztathatja az összes terméknél. Termék -> letöltések ->  További opciók.',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => 'A felhasználók csillaggal értékelhetik az Ön termékeit. Ha ez a beállítás be van jelölve, akkor a meglévő vélemények / csillagértékek betöltődnek és megjelennek a termékkel együtt. Ez a beállítás ronthatja az üzlet sebességét.',
 
-'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Kérjük, ellenőrizze még egyszer, hogy ez jogilag megfelel-e az alkalmazandó törvényeknek. Ezt a beállítást csak akkor alkalmazzák, ha a "felhasználói vélemények és csillagértékelések" aktiválva vannak.',
 
 'HELP_SHOP_MALL_MALLMODE'                     => 'Itt állíthatja be, hogy mi jelenjen meg a kezdőlapon: <ul><li><span class="navipath_or_inputname">Shop-választási lista</span>: Egy olyan oldal jelenik meg, ahol az ügyfél több áruház között választhat.</li><li><span class="navipath_or_inputname">Főáruház</span>: Az alapértelmezett áruház jelenik meg.</li></ul>',
 
@@ -169,7 +169,7 @@ $aLang =  [
 
 'HELP_SHOP_SEO_SKIPTAGS'                      => 'Ha a termékeknél és kategóriáknál nem írunk be META-kulcsszavakat, akkor ezek az információk a leírásokból generálódnak automatikusan. Bizonyos (gyakran előforduló) szavakat kihagyhatunk ezekből. Azok a kifejezések, amelyeket ebbe a beviteli mezőbe beírunk, az automatikus META-generálás számára figyelmen kívül maradnak.',
 
-'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
+'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Kisbetűs összes nagybetű a SEO URL-ekben. Például a www.youreshop.com/Kiteboarding/Kites/ átalakul a www.youreshop.com/kiteboarding/kites/ webhelyre.',
 
 'HELP_SHOP_SEO_STATICURLS'                    => 'Bizonyos oldalak számára (pl.: ÁSZF) állandó keresőbarát URL-t határozhatunk meg. Ha Ön kiválaszt egy statikus URL-t akkor a mezőben a <span class="navipath_or_inputname">Standard URL</span> az alapértelmezett URL jelenik meg. Az alábbi beviteli mezőkben minden használatban lévő nyelvre vonatkozóan meghatározhat egy keresőbarát URL-t.',
 
@@ -314,7 +314,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_DELIVERYSET_MAIN_POS'                   => 'A <span class="navipath_or_inputname">Rendezés</span>-nél állíthatja be, hogy a szállítási módok, milyen sorrendben, jelennek meg a vásárló számára:<br /><ul><li>A szállítási módnál a legkisebb szám jelenik meg legfelül.</li><li>A szállítási módnál a nagyobb szám jelenik meg legalul.</li></ul>',
 
-'HELP_DISCOUNT_MAIN_SORT'                     => '',
+'HELP_DISCOUNT_MAIN_SORT'                     => 'A <span class = "navipath_or_inputname"> Rendezés </span> használatával meghatározhatja a termékekre vagy a kosárra alkalmazott kedvezmények sorrendjét. Először a legalacsonyabb számmal érvényes kedvezmény érvényesül, utoljára a legmagasabb.',
 
 'HELP_DISCOUNT_MAIN_PRICE'                    => 'A <span class="navipath_or_inputname">Vásárlási érték</span>-nél állíthatja be, hogy az árcsökkentés csak meghatározott értéktől vonatkozóan érvényes. Ha az árcsökkentés minden vásárlásra lenne érvényes, akkor adja meg a <span class="navipath_or_inputname">tól</span> és <span class="navipath_or_inputname">ig</span> <span class="userinput_or_code">mezőkbe a 0 értéket</span>.',
 
@@ -436,7 +436,7 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Ez a tulajdonság jelzi a termékei érvényességének időtartamát, pl. 1 nap, 1 hét vagy 1 hónap.',
 
-'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Futtatja a rendszer állapotfelmérését, amikor belép az adminisztrátor honlapjára, és szükség esetén üzeneteket jelenít meg. Speciális konfigurációkban ez befolyásolhatja az admin panel sebességét.',
 
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'A kiszámításhoz az az ÁFA-érték lesz felhasználva, amelyik a legnagyobb nettó értékkel rendelkezik a kosárban.',
 
@@ -454,5 +454,5 @@ beállítás hatályon kívül helyezi ezt, így a régi SEO URL megmarad és ne
 
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Amennyiben ez az opció aktív, akkor a megrendelés negyedik lépésénél el kell fogadnia az ÁSZF-t az ügyfélnek akkor is, ha szellemi és letölthető termékről van szó! Aktiválja az opciót, ha különleges termékeket értékesít.',
 
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Itt meghatározhatja azokat a kapcsolatfelvételi űrlap mezőket, amelyeket a felhasználónak feltétlenül ki kell töltenie.',
 ];
