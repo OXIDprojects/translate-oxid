@@ -73,12 +73,12 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Con <span class="navipath_or_inputname"> Permitir valores negativos de archivo </span> puede definir cómo se calculan los niveles de existencias de los productos están fuera de stock: <br>.<li> Si el ajuste se comprueba los valores negativos de valores se calculan si las unidades nuevas se compran. </li>.<li> Si el ajuste no está marcada el valor de las acciones nunca cae por debajo de 0, incluso si las unidades nuevas se compran. </li> </ul>',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => 'Añadir o eliminar monedas locales. Cada línea contiene parámetros de moneda separados por el símbolo @.<br /><br /><ul><li>código de moneda según ISO 4217 (e. . EUR)</li><li>tipo de moneda a moneda básica con el valor 1. 0</li><li>separador decimal</li><li>separador de miles</li><li>signo de moneda</li><li>números de decimales</li><li>parámetro opcional "Front". Si se introdujo, el registro de la moneda aparezera delante del precio.</li></ul>',
 
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'En la primera página de su tienda electrónica los productos más recientes se muestran en la <span class=filename_filepath_or_italic> llegado! </ Span>. Este ajuste determina cómo se calculan los productos más nuevos: por fecha de creación o por fecha del último cambio en el admin / última orden.',
 
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Activa la recomendación de los productos en las páginas de detalle de los productos.',
 /** end deprecated */
 
 'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
