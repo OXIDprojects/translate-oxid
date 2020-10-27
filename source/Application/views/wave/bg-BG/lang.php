@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'към общия преглед',
-    'OF'                                                    => '',
+    'OF'                                                    => 'от',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
