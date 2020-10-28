@@ -42,7 +42,7 @@ $aLang = array(
 
     // Header
     'SEARCH_TITLE'                                          => '',
-    'SEARCH_SUBMIT'                                         => '',
+    'SEARCH_SUBMIT'                                         => 'Търси',
     'NAV_MORE'                                              => 'Повече',
 
     // Footer
