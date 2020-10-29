@@ -47,43 +47,43 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_ENABLED'                     => 'Ако кеша за Динамичното съдържание е активен, заедно с него се кешира и останалото съдържание за по-добро представяне. Деактивирайте тази опция, докато адаптирате магазина си (пишете модули, адаптирате темплейти и т. н.).',
 
-'HELP_SHOP_CACHE_LIFETIME'                    => '',
+'HELP_SHOP_CACHE_LIFETIME'                    => 'Тук може да настроите в секунди колко дълго да се съхранява кешираното съдържание преди опресняване. Стойността по подразбиране е 36000 секунди.',
 
-'HELP_SHOP_CACHE_CLASSES'                     => '',
+'HELP_SHOP_CACHE_CLASSES'                     => 'Тук може да зададете кои класове изгледи да се кешират <br> Променяйте тази настройка само ако сте запознати с механизмите на кеширане!',
 
-'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => '',
+'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => 'Активира кеширащо HTTP обратно прокси. Забележка: Не използвайте "Динамично Кеширане на Съдържанието" заедно с тази опция, защото може да намали производителността.',
 
-'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => '',
+'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Задава трайност на оформлението на страниците в секунди. Тази стойност ще бъде изпратена чрез HTTP хедъра "Age".',
 
-'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
+'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Ако double-opt-in е активно, потребителите получават имейл с линк за потвърждение, когато се регистрират за получаване не нюзлетър. Потребителят бива регистриран за нюзлетър, само ако е последван линка за потвърждение.<br>Double-opt-in предпазва потребителите от случайно регистриране. Без Double-opt-in всеки имейл може да се регистрира за получаване на нюзлетър. Посредством Double-opt-in притежателят на имейл адреса трябва да потвърди регистрацията.',
 
-'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => '',
+'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Посредством crossselling могат да се предлагат продукти, които са съвместими с друг продукт. Например, ако гуми за автомобил са маркирани като crossselling продукт, то заедно с гумите ще се вижда и автомобилът. Ако е активирано <br>If bidirectional crossselling, принципът на предлагане важи и в двете посоки: заедно с автомобила, ще се виждат и гумите.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'За всеки наличен продукт, може да се визуализира съобщение. <br>Ако настройката е активирана, ще се визуализира съобщение, в случай че не е въведено друго специфично за този продукт съобщение. Дефолтното съобщение е <span class="filename_filepath_or_italic">Ready for shipping</span>.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'За всеки продукт, който не е наличен, може да се визуализира съобщение. <br>Ако настройката е активирана, ще се визуализира съобщение, в случай че не е въведено друго специфично за този продукт съобщение. Дефолтното съобщение е <span class="filename_filepath_or_italic">This item is not in stock and must be back-ordered</span>.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Може да зададете специални цени за различните си клиенти: За всеки продукт може да въведете А, B и C цени. Ако потребителите са в група <span class="filename_filepath_or_italic">Price A</span>, те ще виждат само цена А, вместо нормалната цена.<br>В случай че, тази настройка е отметната, ще се вижда нормалната цена на продукта, ако няма зададени A, B или C цени.<br>Тази настройка трябва да бъде отметната, ако използвате цени A, B или C: В противен случай потребителите ще виждат 0,00.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Тук може да дефинирате полетата с данни, измежду които проверява търсачката на продукта. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxtitle = Наименование</li><li>oxshortdesc = Кратко описание</li><li>oxsearchkeys = Критерии за търсене на всеки продукт</li><li>oxartnum = Номер на продукт</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Тук може да дефинирате полетата с данни, които се използват за сортиране на списъците с продукти. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxtitle = Наименование</li><li>oxprice = Цена</li><li>oxvarminprice = Най- ниската цена, ако са използвани варианти с различна цена</li><li>oxartnum = Номер на продукт</li><li>oxrating = Рейтинг на продуктите</li><li>oxstock = Наличност</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Тук може да въведете задължителните полета при регистрация на потребител. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxuser__oxfname = Име</li><li>oxuser__oxlname = Фамилия</li><li>oxuser__oxstreet = Улица</li><li>oxuser__oxstreetnr = Номер</li><li>oxuser__oxzip = Пощенски код</li><li>oxuser__oxcity = Град</li><li>oxuser__oxcountryid = Страна</li><li>oxuser__oxfon = Телефонен номер</li></ul><br>Можете също да дефинирате задължителните полета, ако потребителя въвежда различен адрес за доставка. Най- често въвеждани са:<ul><li>oxaddress__oxfname = Име</li><li>oxaddress__oxlname = Фамилия</li><li>oxaddress__oxstreet = Улица</li><li>oxaddress__oxstreetnr = Номер</li><li>oxaddress__oxzip = Пощенски код</li><li>oxaddress__oxcity = Град</li><li>oxaddress__oxcountryid = Страна</li><li>oxaddress__oxfon = Телефонен номер</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Посредством <span class="navipath_or_inputname">Allow negative Stock Values</span> може да дефинирате как да се калкулира наличността на продуктите, ако има продукти с нулева наличност:<br><ul><li>Ако настройката е отметната, отрицателните наличности се калкулират, ако са закупени бройки надхвърлящи наличността.</li><li>Ако настройката не е отметната, наличността не пада под 0, дори да са закупени бройки надхвърлящи наличността.</li></ul>',
 
-'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
+'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => 'Добавете или премахнете валути. Всеки ред съдържа валутни параметри, разделени от символа @.<br /><br /><ul><li>Влутен код според ISO 4217 (e.g. EUR)</li><li>валутен курс към базова валута със стойност 1.00</li><li>десетичен разделител</li><li>хиляден разделител</li><li>валутен знак</li><li>място на десетичната запетая</li><li>допълнителен параметър"Front". Ако е въведен, валутният знак се показва пред цената</li></ul>',
 
-'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => '',
+'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'На главната страница на вашия електронен магазин се показват най- новите продукти<span class="filename_filepath_or_italic">Just arrived!</span>. Тази настройка определя как да се калкулират най- новите продукти: по дата на създаване или по дата на последно направена промяна от администратор.',
 
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Активиране на препоръки за продукт на продуктовата страница.',
 /** end deprecated */
 
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => 'Бизнес данни или информация за клентите няма да бъде разпространявана. Събраните данни се използват единствено за технологични цели. Подобна информация ще бъде събирана, за да се подобри качеството на нашите продукти:<ul>  <li>броя инсталирани OXID eShop Community Edition</li>  <li>приблизителен брой на инсталирани разширения в един електронен магазин на OXID</li>  <li>най- популярните разширения за един електронен магазин на OXID</li></ul>',
 
-'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => '',
+'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Ако потребителите оценят даден продукт веднъж, не могат да дадат повторна оценка за същия продукт. Тук може да кажете след колко дни потребител може да даде повторна оценка за даден продукт. Ако полето не е отметнато - продуктите могат да бъдат оценявани еднократно.',
 
 'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
 
