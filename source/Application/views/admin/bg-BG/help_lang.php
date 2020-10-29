@@ -63,15 +63,15 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'За всеки продукт, който не е наличен, може да се визуализира съобщение. <br>Ако настройката е активирана, ще се визуализира съобщение, в случай че не е въведено друго специфично за този продукт съобщение. Дефолтното съобщение е <span class="filename_filepath_or_italic">This item is not in stock and must be back-ordered</span>.',
 
-'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
+'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => 'Може да зададете специални цени за различните си клиенти: За всеки продукт може да въведете А, B и C цени. Ако потребителите са в група <span class="filename_filepath_or_italic">Price A</span>, те ще виждат само цена А, вместо нормалната цена.<br>В случай че, тази настройка е отметната, ще се вижда нормалната цена на продукта, ако няма зададени A, B или C цени.<br>Тази настройка трябва да бъде отметната, ако използвате цени A, B или C: В противен случай потребителите ще виждат 0,00.',
 
-'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
+'HELP_SHOP_CONFIG_SEARCHFIELDS'               => 'Тук може да дефинирате полетата с данни, измежду които проверява търсачката на продукта. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxtitle = Наименование</li><li>oxshortdesc = Кратко описание</li><li>oxsearchkeys = Критерии за търсене на всеки продукт</li><li>oxartnum = Номер на продукт</li></ul>',
 
-'HELP_SHOP_CONFIG_SORTFIELDS'                 => '',
+'HELP_SHOP_CONFIG_SORTFIELDS'                 => 'Тук може да дефинирате полетата с данни, които се използват за сортиране на списъците с продукти. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxtitle = Наименование</li><li>oxprice = Цена</li><li>oxvarminprice = Най- ниската цена, ако са използвани варианти с различна цена</li><li>oxartnum = Номер на продукт</li><li>oxrating = Рейтинг на продуктите</li><li>oxstock = Наличност</li></ul>',
 
-'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => '',
+'HELP_SHOP_CONFIG_MUSTFILLFIELDS'             => 'Тук може да въведете задължителните полета при регистрация на потребител. Въведете едно поле за ред.<br>Най- често въвеждани са:<ul><li>oxuser__oxfname = Име</li><li>oxuser__oxlname = Фамилия</li><li>oxuser__oxstreet = Улица</li><li>oxuser__oxstreetnr = Номер</li><li>oxuser__oxzip = Пощенски код</li><li>oxuser__oxcity = Град</li><li>oxuser__oxcountryid = Страна</li><li>oxuser__oxfon = Телефонен номер</li></ul><br>Можете също да дефинирате задължителните полета, ако потребителя въвежда различен адрес за доставка. Най- често въвеждани са:<ul><li>oxaddress__oxfname = Име</li><li>oxaddress__oxlname = Фамилия</li><li>oxaddress__oxstreet = Улица</li><li>oxaddress__oxstreetnr = Номер</li><li>oxaddress__oxzip = Пощенски код</li><li>oxaddress__oxcity = Град</li><li>oxaddress__oxcountryid = Страна</li><li>oxaddress__oxfon = Телефонен номер</li></ul>',
 
-'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => '',
+'HELP_SHOP_CONFIG_USENEGATIVESTOCK'           => 'Посредством <span class="navipath_or_inputname">Allow negative Stock Values</span> може да дефинирате как да се калкулира наличността на продуктите, ако има продукти с нулева наличност:<br><ul><li>Ако настройката е отметната, отрицателните наличности се калкулират, ако са закупени бройки надхвърлящи наличността.</li><li>Ако настройката не е отметната, наличността не пада под 0, дори да са закупени бройки надхвърлящи наличността.</li></ul>',
 
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 
