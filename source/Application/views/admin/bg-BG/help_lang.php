@@ -53,7 +53,7 @@ $aLang =  [
 
 'HELP_SHOP_CACHE_REVERSE_PROXY_ENABLED'       => 'Активира кеширащо HTTP обратно прокси. Забележка: Не използвайте "Динамично Кеширане на Съдържанието" заедно с тази опция, защото може да намали производителността.',
 
-'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => '',
+'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Задава трайност на оформлението на страниците в секунди. Тази стойност ще бъде изпратена чрез HTTP хедъра "Age".',
 
 'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => '',
 
