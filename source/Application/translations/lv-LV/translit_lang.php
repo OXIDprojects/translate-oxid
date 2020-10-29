@@ -6,11 +6,6 @@
 **/
 
 $aSeoReplaceChars = array(
+/* for example. Please consider to send a pull requets with your adaptions to https://github.com/OXIDprojects/translate-oxid/ */
     'ä' => 'ae',
-    'ö' => 'oe',
-    'ü' => 'ue',
-    'Ä' => 'AE',
-    'Ö' => 'OE',
-    'Ü' => 'UE',
-    'ß' => 'ss',
 );
