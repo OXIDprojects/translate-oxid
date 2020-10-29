@@ -379,7 +379,7 @@ Puoi caricare immagini zoom <span class="navipath_or_inputname">zoom in caricame
 
 'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Con quest\'impostazione puoi specificare se il suffisso del titolo viene mostrato nel titolo della finestra del browser quando la pagina del produttore viene aperta. Il suffisso del titolo può essere impostato in <span class="navipath_or_inputname">Impostazioni Principali -> Impostazioni Core -> SEO -> Suffisso Titolo</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'In <span class="navipath_or_inputname">Sconto</span>, specifichi la magnitudine dello sconto. Puoi usare l\'elenco di selezione dopo il campo di inserimento per specificare se lo sconto deve essere applicato come uno sconto assoluto o percentuale:<ul><li><span class="userinput_or_code">abs</span>: Lo sconto è assoluto, es. EUR 5.</li><li><span class="userinput_or_code">%</span>: Lo sconto è percentuale, es. 10 percento del prezzo di acquisto.</li></ul>',
 
 'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Qui puoi impostare se gli utenti sono autorizzati ad usare diversi coupon di questa serie di coupon in un ordine singolo.',
 
