@@ -59,9 +59,9 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Посредством crossselling могат да се предлагат продукти, които са съвместими с друг продукт. Например, ако гуми за автомобил са маркирани като crossselling продукт, то заедно с гумите ще се вижда и автомобилът. Ако е активирано <br>If bidirectional crossselling, принципът на предлагане важи и в двете посоки: заедно с автомобила, ще се виждат и гумите.',
 
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'За всеки наличен продукт, може да се визуализира съобщение. <br>Ако настройката е активирана, ще се визуализира съобщение, в случай че не е въведено друго специфично за този продукт съобщение. Дефолтното съобщение е <span class="filename_filepath_or_italic">Ready for shipping</span>.',
 
-'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
+'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => 'За всеки продукт, който не е наличен, може да се визуализира съобщение. <br>Ако настройката е активирана, ще се визуализира съобщение, в случай че не е въведено друго специфично за този продукт съобщение. Дефолтното съобщение е <span class="filename_filepath_or_italic">This item is not in stock and must be back-ordered</span>.',
 
 'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 
