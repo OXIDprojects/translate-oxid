@@ -1044,7 +1044,7 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Ідентифікатор ПДВ',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Активний режим',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Дозволити користувачам магазину керувати їх відгуками',
     'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'Розділовий символ для імпорту / експорту CSV',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Обрамлення значень при CSV-імпорті / експорті',
@@ -1152,8 +1152,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Використовувати тільки IBAN / BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'сервіс-URL для відстеження поштових відправлень',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Указане значення:%s некоректне.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Активувати відгуки та рейтинги користувачів',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Додати посилання на відгуки про товари в електронному листі до замовлення',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Кількість однакових атрибутів для подібних товарів (%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Якість зображень від 0 (низький) до 100 (високе)',
@@ -1615,7 +1615,7 @@ $aLang = [
     'tbclarticle_variant'      => 'Варіанти',
     'tbclarticle_pictures'     => 'Зображення',
     'tbclarticle_files'        => 'Завантаження',
-    'tbclarticle_review'       => 'Огляд',
+    'tbclarticle_review'       => 'Відгук',
     'tbclarticle_overview'     => 'Статистика',
     // adminlinks_list',
     'tbcladminlinks_main'      => 'Головна',
