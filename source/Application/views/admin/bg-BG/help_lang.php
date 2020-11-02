@@ -104,16 +104,16 @@ $aLang =  [
 'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Брой точки, които получава потребител, поканен от вече регистриран друг потребител. За да получи точките си, поканеният трябва да се регистрира. Получените точки се съхраняват във файл на потребителя и могат да се използват от администратора за всякакви цели. Получените точки се съхраняват във файл на потребителя и могат да се използват от администратора за всякакви цели.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Внимание: Въпреки, че информацията е криптирана, обикновено според договора за кредитна карта това е строго забранено!',
 // END deprecated
 
-'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => '',
+'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'На 4 та стъпка от чекаута допълнително се визуализира CMS страница "oxtsinternationalfees".',
 
-'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => '',
+'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => 'На 4 та стъпка от чекаута допълнително се визуализира CMS страница "oxtscodmessage".',
 
-'HELP_SHOP_CONFIG_DOWNLOADS'                  => '',
+'HELP_SHOP_CONFIG_DOWNLOADS'                  => 'Магазин за продукти за изтегляне. Активирайте тук, за да поръчате и изтегляте продукти.',
 
-'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => '',
+'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Пътят, където са запазени файловете на изтеглените продукти.',
 
 'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
 
