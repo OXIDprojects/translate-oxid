@@ -416,9 +416,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'EAN виробника',
     'ARTICLE_MAIN_MPN'                          => 'Арт. номер виробника',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Виробник',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Цю ціну успадковують варіанти товару.' .
+                                                   '<ul><li>Залежно від налаштувань магазину вводиться/відображається ціна нетто або ціна брутто.</li>' .
+                                                   '<li>Ціна брутто завжди відображається в дужках.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Товар створено',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Останні зміни',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Рейтинг по продажам',
@@ -636,8 +636,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Всі країни',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Вибрані країни',
     'DISCOUNT_LIST_MENUITEM'                    => 'Налаштування магазину',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Помилка: Значення поля "%s" має бути числом.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Помилка: Значення поля "%s" має бути унікальним.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Знижки',
     'DISCOUNT_MAIN_AFROM'                       => '(з)',
     'DISCOUNT_MAIN_ATILL'                       => '(до)',
@@ -719,7 +719,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Недійсні метадані в розділі extend. Наступні розширені класи магазину або введені неправильно, або не належать до Unified Namespace: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Будь ласка, не забудьте оновити вигляд бази даних Сервіс-> Інструменти",
     'LANGUAGE_ACTIVE'                                => 'Активно у фронтенді',
     'LANGUAGE_LIST_MENUITEM'                         => 'Основні налаштування',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Історія',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Система Healthcheck показує Налаштування / Налаштування сервера цього OXID eShop може бути порушена. Ймовірно, OXID eShop поводиться дивно, в деяких випадках. Будь ласка, виправте це якомога швидше.",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Перевірка системи",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Постійну перевірку стану системи вимкнено. Ви можете повторно активувати її на вкладці Продуктивність у меню Основні налаштування -> Основні параметри. Щоб все-таки перевірити стан, натисніть на посилання: ",
     'NAVIGATION_SHOPFRONT'                           => "Головна сторінка магазину",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Ваш бюлетень був відправлений.',
