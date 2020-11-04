@@ -133,9 +133,9 @@ $aLang =  [
 
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Посочи надценка за всички продукти в магазина: Въведете сумата и изберете дали да се отрази като процент (<span class="userinput_or_code">%</span>) или като абсолютно число (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Списък с най- новите продукти <span class="filename_filepath_or_italic">Най- нови!</span>. Задайте как да се генерира списъкът:<ul><li><span class="userinput_or_code">деактивирано</span>: Списъкът не се показва.</li><li><span class="userinput_or_code">ръчно</span>: Изберете продукти в <span class="navipath_or_inputname">Информация за клиента -> Промоции -></span> в промоция <span class="filename_filepath_or_italic">Най- нови!</span>.</li><li><span class="userinput_or_code">автоматично</span>: Продуктите се избират автоматично</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Списък с най- продаваните продукти <span class="filename_filepath_or_italic">Най- продавани!</span>. Задайте как да се генерира списъкът:<ul><li><span class="userinput_or_code">деактивирано</span>: Списъкът не се показва.</li><li><span class="userinput_or_code">ръчно</span>: Изберете продукти в <span class="navipath_or_inputname">Информация за клиента -> Промоции -></span> в промоция <span class="filename_filepath_or_italic">Най- продавани!</span>.</li><li><span class="userinput_or_code">автоматично</span>: Продуктите се избират автоматично</li></ul>',
 
 'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
 
