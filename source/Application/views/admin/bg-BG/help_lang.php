@@ -161,15 +161,15 @@ $aLang =  [
 
 'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Всяка страница си има име, което се вижда горе в браузъра. Посредством <span class="navipath_or_inputname">Преди името<span class="navipath_or_inputname"></span> и <span class="navipath_or_inputname">След името</span> може да се добави допълнителен текст преди и след името на страницата:<br><ul><li>В <span class="navipath_or_inputname">След името</span>, въведи текста, който ще се вижда след името на страница.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Разделителят се ползва, когато имената на категориите или на продуктите се състоят от няколко думи. Използва се вместо разстояние между думите, напр. www.youreshop.com/category-name-of-several-words<br>Ако не е зададен разделител, се ползва "-".',
 
-'HELP_SHOP_SEO_SAFESEOPREF'                   => '',
+'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Ако има продукти с еднакви имена в една и съща категория, те ще получат еднакво SEO URL. За да се избегне това, се прикрепя SEO наставка. Ако за SEO наставката не е зададена стойност, се поставя <span class="filename_filepath_or_italic">oxid</span>.',
 
-'HELP_SHOP_SEO_RESERVEDWORDS'                 => '',
+'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Някои от урл-ите се дефинират в магазина на OXID, напр. www.youreshop.com/admin за достъпване на администрацията на магазина. Ако има категория, която да се казва <span class="filename_filepath_or_italic">admin</span>, SEO URL ще бъде също www.youreshop.com/admin и категорията няма да може да бъде достъпена. На такива урл-та се добавя SEO наставка. Тук може да зададете на кои урл-та да се поставя наставка автоматично.',
 
-'HELP_SHOP_SEO_SKIPTAGS'                      => '',
+'HELP_SHOP_SEO_SKIPTAGS'                      => 'Ако няма зададени Мета тагове за продукти и категории, те се генерират автоматично. При автоматичното генериране на Мета тагове, всички думи въведени тук, няма да бъдат взети под внимание.',
 
-'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
+'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Всички главни букви в SEO урл-тата стават малки букви, напр. www.youreshop.com/Kiteboarding/Kites/ става www.youreshop.com/kiteboarding/kites/.',
 
 'HELP_SHOP_SEO_STATICURLS'                    => '',
 
