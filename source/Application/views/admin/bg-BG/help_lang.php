@@ -129,7 +129,7 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Моля уверете се, че настройката е съобразена с действащите закони. Настройката ще се отрази, ако функцията "потребителски преглед и оценка" е активирана.',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Настройки за изгледа на заглавната страница на магазина:<ul><li><span class="navipath_or_inputname">Избор на магазин</span>: Страница с различни магазини.</li><li><span class="navipath_or_inputname">Покажи заглавната страница на магазина</span>: Показване на нормалната заглавна страница на магазина.</li></ul>',
 
 'HELP_SHOP_MALL_PRICEADDITION'                => '',
 
