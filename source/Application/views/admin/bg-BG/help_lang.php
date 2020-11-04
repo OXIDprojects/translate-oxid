@@ -131,7 +131,7 @@ $aLang =  [
 
 'HELP_SHOP_MALL_MALLMODE'                     => 'Настройки за изгледа на заглавната страница на магазина:<ul><li><span class="navipath_or_inputname">Избор на магазин</span>: Страница с различни магазини.</li><li><span class="navipath_or_inputname">Покажи заглавната страница на магазина</span>: Показване на нормалната заглавна страница на магазина.</li></ul>',
 
-'HELP_SHOP_MALL_PRICEADDITION'                => '',
+'HELP_SHOP_MALL_PRICEADDITION'                => 'Посочи надценка за всички продукти в магазина: Въведете сумата и изберете дали да се отрази като процент (<span class="userinput_or_code">%</span>) или като абсолютно число (<span class="userinput_or_code">abs</span>).',
 
 'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
 
