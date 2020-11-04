@@ -137,17 +137,17 @@ $aLang =  [
 
 'HELP_SHOP_PERF_TOPSELLER'                    => 'Списък с най- продаваните продукти <span class="filename_filepath_or_italic">Най- продавани!</span>. Задайте как да се генерира списъкът:<ul><li><span class="userinput_or_code">деактивирано</span>: Списъкът не се показва.</li><li><span class="userinput_or_code">ръчно</span>: Изберете продукти в <span class="navipath_or_inputname">Информация за клиента -> Промоции -></span> в промоция <span class="filename_filepath_or_italic">Най- продавани!</span>.</li><li><span class="userinput_or_code">автоматично</span>: Продуктите се избират автоматично</li></ul>',
 
-'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
+'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Ако тази настройка е отметната, цялото дърво с категории се вижда в навигацията (всички категории са отворени). Тази функция работи само, когато навигацията най- горе на страницата не се вижда.',
 
-'HELP_SHOP_PERF_LOADACTION'                   => '',
+'HELP_SHOP_PERF_LOADACTION'                   => 'Ако настройката е отметната, промоции като <span class="filename_filepath_or_italic">Най- нови!</span> и <span class="filename_filepath_or_italic">Най- продавани</span> се зареждат, за да се виждат.',
 
-'HELP_SHOP_PERF_USESELECTLISTPRICE'           => '',
+'HELP_SHOP_PERF_USESELECTLISTPRICE'           => 'В списъците за избор на функции могат да се задават надценка/ отстъпка на продукта. Ако настройката е активна, се зареждат зададените надценки/ отстъпки. Ако не е активна, надценки/ отстъпки не се прилагат.',
 
-'HELP_SHOP_PERF_DISBASKETSAVING'              => '',
+'HELP_SHOP_PERF_DISBASKETSAVING'              => 'Съдържанието на кошницата на регистриран потребител се запазва. При повторно посещение на магазина, кошницата им ще се зареди автоматично. Ако активирате настройката, съдържанието на кошницата няма да бъде запазвано.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => '',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'Ако деактивирате настройката, няма да бъде добавяна цена на доставката: Доставката винаги ще бъде 0.00.',
 
-'HELP_SHOP_PERF_LOADPRICE'                    => '',
+'HELP_SHOP_PERF_LOADPRICE'                    => 'Ако настройката се деактивира, няма да се генерират цени на продуктите. Цени няма да се виждат.',
 
 'HELP_SHOP_PERF_PARSELONGDESCINSMARTY'        => '',
 
