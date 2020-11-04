@@ -171,17 +171,17 @@ $aLang =  [
 
 'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Всички главни букви в SEO урл-тата стават малки букви, напр. www.youreshop.com/Kiteboarding/Kites/ става www.youreshop.com/kiteboarding/kites/.',
 
-'HELP_SHOP_SEO_STATICURLS'                    => '',
+'HELP_SHOP_SEO_STATICURLS'                    => 'За специални страници като (Условия за полване) може да въведете статично урл. Когато е избрано статично урл, се показва нормално урл в<span class="navipath_or_inputname">Стандартно URL</span>. В полето по-долу може да се въведе SEO URL за всеки език.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'По време на инсталирането, конфигурирането, настройването на темплейтите и фаза дебъгване на модул е желателно да е активирана неживата версия на магазина. Тогава, когато магазинът е на живо<span class="warning_or_important_hint">ON</span>, изчистването на кеша и репортването на грешки трябва да се оптимизират за тази му версия.<br><span class="warning_or_important_hint">Активирайте, когато магазинът работи на живо.</span><br>Открийте още информация как да пуснете магазина си на живо в нашия OXID магазин <a href="https://oxidforge.org/en/check-before-going-live.html" target="_blank">OXIDforge</a>.',
 
-'HELP_SHOP_MAIN_ACTIVE'                       => '',
+'HELP_SHOP_MAIN_ACTIVE'                       => 'С помощта на <span class="navipath_or_inputname">Активен</span> можете да активирате/ деактивирате целия магазин. Ако той е деактивиран, потребителите ще виждат съобщение, казващо, че магазинът е временно офлайн. Тази опция може да е полезна при работа върху настройките на магазина.',
 
-'HELP_SHOP_MAIN_INFOEMAIL'                    => '',
+'HELP_SHOP_MAIN_INFOEMAIL'                    => 'Всички имейли, изпратени посредством страницата за контакт, се изпращат до този имейл адрес.',
 
-'HELP_SHOP_MAIN_ORDEREMAIL'                   => '',
+'HELP_SHOP_MAIN_ORDEREMAIL'                   => 'След направена поръчка, потребителят получава имейл с обобщена информация за поръчката. Отговори до този имейл адрес се изпращат до <span class="navipath_or_inputname">Отговор на имейл за поръчка</span>.',
 
-'HELP_SHOP_MAIN_OWNEREMAIL'                   => '',
+'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'След направена поръчка, администраторът получава имейл с обобщена информация за поръчката. Тези имейли се изпращат до <span class="navipath_or_inputname">Имейли за поръчка</span>.',
 
 'HELP_SHOP_MAIN_SMTPSERVER'                   => '',
 
