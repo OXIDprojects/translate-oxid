@@ -183,11 +183,11 @@ $aLang =  [
 
 'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'След направена поръчка, администраторът получава имейл с обобщена информация за поръчката. Тези имейли се изпращат до <span class="navipath_or_inputname">Имейли за поръчка</span>.',
 
-'HELP_SHOP_MAIN_SMTPSERVER'                   => '',
+'HELP_SHOP_MAIN_SMTPSERVER'                   => 'SMTP данни са нужни за изпращането на имейли (напр. за да се изпрати имейл до клиента за потвърждение на поръчка).',
 
-'HELP_ARTICLE_MAIN_ALDPRICE'                  => '',
+'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'Посредством <span class="navipath_or_inputname">Alt. Prices</span> различните потребители могат да виждат специални цени ( потребителски групи "Price A", "Price B" и "Price C").',
 
-'HELP_ARTICLE_MAIN_VAT'                       => '',
+'HELP_ARTICLE_MAIN_VAT'                       => 'Добавяне на специално ДДС за този продукт. Това ДДС ще бъде използвано за всички следващи калкулации на този продукт (кошница, поръчка, фактура)',
 
 'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => '',
 
