@@ -189,7 +189,7 @@ $aLang =  [
 
 'HELP_ARTICLE_MAIN_VAT'                       => 'Добавяне на специално ДДС за този продукт. Това ДДС ще бъде използвано за всички следващи калкулации на този продукт (кошница, поръчка, фактура)',
 
-'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => '',
+'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'Посредством <span class="navipath_or_inputname">Количество</span> и <span class="navipath_or_inputname">Мерна единица</span> се задава цена за мерна единица. Цената за количество мерна единица се изчислява и показва заедно с продукта (пр. 1.43лв за литър). В <span class="navipath_or_inputname">Количество</span>въведете количеството на продукта (пр. <span class="userinput_or_code">1.5</span>), в <span class="navipath_or_inputname">Мерна единица</span> въведете съответната мерна единица (e.g. <span class="userinput_or_code">литър</span>). Може да изберете мерна единица от дадените стойности или избирайки празно поле "-", да въведете мерна единица ръчно. Ако искате да прикачите списък със съществуващи мерни единици, моля последвайте <a href="https://oxidforge.org/en/adding-new-unit-types.html" target="_blank">линк</a> за инструйции.',
 
 'HELP_ARTICLE_EXTEND_EXTURL'                  => '',
 
