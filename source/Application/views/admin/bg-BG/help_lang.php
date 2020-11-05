@@ -191,23 +191,23 @@ $aLang =  [
 
 'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'Посредством <span class="navipath_or_inputname">Количество</span> и <span class="navipath_or_inputname">Мерна единица</span> се задава цена за мерна единица. Цената за количество мерна единица се изчислява и показва заедно с продукта (пр. 1.43лв за литър). В <span class="navipath_or_inputname">Количество</span>въведете количеството на продукта (пр. <span class="userinput_or_code">1.5</span>), в <span class="navipath_or_inputname">Мерна единица</span> въведете съответната мерна единица (e.g. <span class="userinput_or_code">литър</span>). Може да изберете мерна единица от дадените стойности или избирайки празно поле "-", да въведете мерна единица ръчно. Ако искате да прикачите списък със съществуващи мерни единици, моля последвайте <a href="https://oxidforge.org/en/adding-new-unit-types.html" target="_blank">линк</a> за инструйции.',
 
-'HELP_ARTICLE_EXTEND_EXTURL'                  => '',
+'HELP_ARTICLE_EXTEND_EXTURL'                  => 'Въведете <span class="navipath_or_inputname">Външен URL</span> , към допълнителна информация за продукта ( напр. уебсайт на производител). Въведете <span class="navipath_or_inputname">Текст за външен URL</span> с текст, който ще бъде линк към съответния външен уебсайт, напр. <span class="userinput_or_code">Допълнителна информация на сайт на производител</span>.',
 
-'HELP_ARTICLE_EXTEND_TPRICE'                  => '',
+'HELP_ARTICLE_EXTEND_TPRICE'                  => 'В полето <span class="navipath_or_inputname">RRP</span> въведете препоръчителната цена на производителя. Въведената стойност за RRP ще е достъпна за потребителя: Над цената на продукта <span class="filename_filepath_or_italic">Намалено от RRP само сега</span>.',
 
-'HELP_ARTICLE_EXTEND_QUESTIONEMAIL'           => '',
+'HELP_ARTICLE_EXTEND_QUESTIONEMAIL'           => 'Въведете <span class="navipath_or_inputname">Alt. Contact</span> имейл адрес. Ако потребителите отправят въпроси относно този продукт, те ще бъдат изпратени до този имейл адрес. Ако имейл адрес не е въведен, запитването ще бъде изпратено до имейл адреса на сайта.',
 
-'HELP_ARTICLE_EXTEND_NONMATERIAL'             => '',
+'HELP_ARTICLE_EXTEND_NONMATERIAL'             => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_EXTEND_FREESHIPPING'            => '',
+'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => '',
+'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Желаната цена може да бъде изключена за този продукт.',
 
-'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => '',
+'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => 'Ако <span class="navipath_or_inputname">Игнорирай всички негативни отстъпки</span> е активно, негативни намаления няма да се изчисляват за този продукт. Такива са: намаления и ваучери.',
 
-'HELP_ARTICLE_EXTEND_TEMPLATE'                => '',
+'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'За подробната страница на продукта може да се използва различен темплейт. За тази цел въведете път и име на темплейта, който искате да ползвате.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Ако продуктът е модифициран, допълнително поле за въвеждане на информация се вижда за потребителите на продуктовата страница и в кошницата. В това поле потребителите могат да въвеждат текст. <br><br> Типичен пример са тениски, на които може да има принт с текст по избор на клиента. Текстът за принт може да бъде въведен в това поле.',
 
 'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => '',
 
@@ -231,7 +231,7 @@ $aLang =  [
 
 'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
-'HELP_ARTICLE_STOCK_REMINDACTIV'              => '',
+'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
 'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
