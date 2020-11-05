@@ -100,7 +100,7 @@ $aLang = [
 'CONTINUE_TO_NEXT_STEP'                                       => 'Kitas žingsnis',
 'COUNTRY'                                                     => 'Šalis:',
 'COUPON'                                                      => 'Kuponas',
-'COUPON_NOT_ACCEPTED'                                         => 'Jūsų kuponas "%s" negalėjo būti priimtas.',
+'COUPON_NOT_ACCEPTED'                                         => 'Jūsų kuponas "%s" nepriimtas.',
 'CREATE_PASSWORD'                                             => 'Sukurti slaptažodį',
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'CREDITCARD'                                                  => 'Kreditinė kortelė:',
@@ -333,7 +333,7 @@ $aLang = [
 'MONTHS'                                                      => 'mėnesiai',
 'DELIVERYTIME_MONTHS'                                         => '%s mėn.',
 'MORE'                                                        => 'daugiau',
-'MORE_INFO'                                                   => 'daugiau',
+'MORE_INFO'                                                   => 'Daugiau informacijos',
 'MOVE'                                                        => 'perkelti',
 'MR'                                                          => 'Ponas',
 'MRS'                                                         => 'Ponia/Panelė',
