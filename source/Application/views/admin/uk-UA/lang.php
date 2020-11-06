@@ -63,7 +63,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXSHOPID'          => 'Ідентифікатор магазину',
     'GENERAL_ARTICLE_OXPARENTID'        => 'Ідентифікатор головного товару',
     'GENERAL_ARTICLE_OXACTIVE'          => 'Активно',
-    'GENERAL_ARTICLE_OXHIDDEN'          => '',
+    'GENERAL_ARTICLE_OXHIDDEN'          => 'Прихований',
     'GENERAL_ARTICLE_OXSHORTDESC'       => 'Короткий опис',
     'GENERAL_ARTICLE_OXLONGDESC'        => 'Повний опис',
     'GENERAL_ARTICLE_OXPRICE'           => 'Ціна',
@@ -127,7 +127,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Нижній поріг к-сті',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'Ідентифікатор товару',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'Ідентифікатор завдання',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Максимальна ціна всіх варіантів',
     'GENERAL_ARTICLE_OXVENDORID'        => 'Ідентифікатор постачальника (вендора)',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'Ідентифікатор виробника',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Лічильник варіантів',
@@ -314,7 +314,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Максимальна кількість завантаженьдля незареєстрованих користувачів',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Час закінчення дії посилання',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Час закінчення дії посилання після першого завантаження',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Лише адміністратор торгового майданчика може змінювати промо-акції глобально.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Виберіть позицію із списку вище, щоб внести зміни',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Усі доступні товари',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Просування товарів',
@@ -395,7 +395,7 @@ $aLang = [
     'ARTICLE_MAIN_ACTIVETO'                     => 'До',
     'ARTICLE_MAIN_ACTIVEFROM'                   => 'Від',
     'ARTICLE_MAIN_ACTIVE'                       => 'Активно',
-    'ARTICLE_MAIN_HIDDEN'                       => '',
+    'ARTICLE_MAIN_HIDDEN'                       => 'Прихований',
     'ARTICLE_MAIN_SHORTDESC'                    => 'Короткий опис',
     'ARTICLE_MAIN_PRICEA'                       => 'А:',
     'ARTICLE_MAIN_PRICEB'                       => 'Б:',
@@ -416,9 +416,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'EAN виробника',
     'ARTICLE_MAIN_MPN'                          => 'Арт. номер виробника',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Виробник',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Цю ціну успадковують варіанти товару.' .
+                                                   '<ul><li>Залежно від налаштувань магазину вводиться/відображається ціна нетто або ціна брутто.</li>' .
+                                                   '<li>Ціна брутто завжди відображається в дужках.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Товар створено',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Останні зміни',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Рейтинг по продажам',
@@ -636,8 +636,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Всі країни',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Вибрані країни',
     'DISCOUNT_LIST_MENUITEM'                    => 'Налаштування магазину',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Помилка: Значення поля "%s" має бути числом.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Помилка: Значення поля "%s" має бути унікальним.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Знижки',
     'DISCOUNT_MAIN_AFROM'                       => '(з)',
     'DISCOUNT_MAIN_ATILL'                       => '(до)',
@@ -719,7 +719,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Недійсні метадані в розділі extend. Наступні розширені класи магазину або введені неправильно, або не належать до Unified Namespace: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Будь ласка, не забудьте оновити вигляд бази даних Сервіс-> Інструменти",
     'LANGUAGE_ACTIVE'                                => 'Активно у фронтенді',
     'LANGUAGE_LIST_MENUITEM'                         => 'Основні налаштування',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Історія',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Система Healthcheck показує Налаштування / Налаштування сервера цього OXID eShop може бути порушена. Ймовірно, OXID eShop поводиться дивно, в деяких випадках. Будь ласка, виправте це якомога швидше.",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Перевірка системи",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Постійну перевірку стану системи вимкнено. Ви можете повторно активувати її на вкладці Продуктивність у меню Основні налаштування -> Основні параметри. Щоб все-таки перевірити стан, натисніть на посилання: ",
     'NAVIGATION_SHOPFRONT'                           => "Головна сторінка магазину",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Ваш бюлетень був відправлений.',
@@ -1044,7 +1044,7 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Ідентифікатор ПДВ',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Активний режим',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Дозволити користувачам магазину керувати їх відгуками',
     'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'Розділовий символ для імпорту / експорту CSV',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Обрамлення значень при CSV-імпорті / експорті',
@@ -1152,8 +1152,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Використовувати тільки IBAN / BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'сервіс-URL для відстеження поштових відправлень',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Указане значення:%s некоректне.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Активувати відгуки та рейтинги користувачів',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Додати посилання на відгуки про товари в електронному листі до замовлення',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Кількість однакових атрибутів для подібних товарів (%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Якість зображень від 0 (низький) до 100 (високе)',
@@ -1615,7 +1615,7 @@ $aLang = [
     'tbclarticle_variant'      => 'Варіанти',
     'tbclarticle_pictures'     => 'Зображення',
     'tbclarticle_files'        => 'Завантаження',
-    'tbclarticle_review'       => 'Огляд',
+    'tbclarticle_review'       => 'Відгук',
     'tbclarticle_overview'     => 'Статистика',
     // adminlinks_list',
     'tbcladminlinks_main'      => 'Головна',

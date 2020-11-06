@@ -38,7 +38,7 @@ $aLang = array(
     'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Įveskite teigiamą skaičių.',
     'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Įveskite neigiamą skaičių.',
     'DD_FORM_VALIDATION_REQUIRED'                           => 'Nurodykite šio būtino lauko reikšmę.',
-    'DD_FORM_VALIDATION_CHECKONE'                           => 'Pasirinkite bent vieną parinktį.',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Prašome pasirinkti bent vieną variantą.',
 
     // Header
     'SEARCH_TITLE'                                          => '',

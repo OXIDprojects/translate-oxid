@@ -85,143 +85,143 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Ако потребителите оценят даден продукт веднъж, не могат да дадат повторна оценка за същия продукт. Тук може да кажете след колко дни потребител може да даде повторна оценка за даден продукт. Ако полето не е отметнато - продуктите могат да бъдат оценявани еднократно.',
 
-'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => '',
+'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Онлайн проверката на идентификационен номер по ДДС стартира, ако потребител от друга държава, членка на ЕС въведе идентификационен номер при поръчка. Ако номерът е валиден, на направената поръчка не се добавя ДДС.<br>Ако опцията не е отметната, се начислява ДДС, валидно за съответната държава.',
 
-'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => '',
+'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Въвеждане на алтернативен урл за онлайн проверка на идентификационен номер по ДДС.',
 
-'HELP_SHOP_CONFIG_PSLOGIN'                    => '',
+'HELP_SHOP_CONFIG_PSLOGIN'                    => 'Private Sales Login трансформира стандартния магазин в магазин само за специални членове. Така се сформират потребителски групи с подобни интереси. Тази настройка не позволява достъп до всички страници в магазина.',
 
-'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => '',
+'HELP_SHOP_CONFIG_BASKETEXCLUDE'              => 'Позволява включване на продукти само от една (главна) категория. При промяна на категорията, потребителят ще бъде помолен да финализира поръчката (да премине към чекаут) или да продължи с пазаруването (при което кошницата ще бъде изчистена). Използването на тази функция в съчетание с подходящо организирана структура на категориите позволява отделни кошници за отделните доставчици.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATION'          => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATION'          => 'Когато тази опция не е активна, наличността на даден продукт намалява при потвърждаване на поръчката от потребителя и финализиран чекаут.<br><br> Когато опцията е активна, функционалността се променя: наличността намалява и продуктът е <b>резервиран<b> когато е поставен в кошницата. Резервацията се отменя, когато продуктите в кошницата са купени или кошницата е вече невалидна.',
 
-'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => '',
+'HELP_SHOP_CONFIG_BASKETRESERVATIONTIMEOUT'   => 'След изтичане на валидността на кошницата, резервираните продукти се връщат в магазина, а кошницата се изпразва.',
 
-'HELP_SHOP_CONFIG_INVITATION'                 => '',
+'HELP_SHOP_CONFIG_INVITATION'                 => 'С поканата можете да приканите приятели да посетят магазина и да получат кредит под форма на точки за всяка покана, която те изпратят.',
 
-'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => '',
+'HELP_SHOP_CONFIG_POINTSFORINVITATION'        => 'Брой точки, които получава потребител, поканен от вече регистриран друг потребител. За да получи точките си, поканеният трябва да се регистрира. Получените точки се съхраняват във файл на потребителя и могат да се използват от администратора за всякакви цели.',
 
-'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => '',
+'HELP_SHOP_CONFIG_POINTSFORREGISTRATION'      => 'Брой точки, които получава потребител, поканен от вече регистриран друг потребител. За да получи точките си, поканеният трябва да се регистрира. Получените точки се съхраняват във файл на потребителя и могат да се използват от администратора за всякакви цели. Получените точки се съхраняват във файл на потребителя и могат да се използват от администратора за всякакви цели.',
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'HELP_SHOP_CONFIG_ATTENTION'                  => '',
+'HELP_SHOP_CONFIG_ATTENTION'                  => 'Внимание: Въпреки, че информацията е криптирана, обикновено според договора за кредитна карта това е строго забранено!',
 // END deprecated
 
-'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => '',
+'HELP_SHOP_CONFIG_SHOWTSINTERNATIONALFEESMESSAGE' => 'На 4 та стъпка от чекаута допълнително се визуализира CMS страница "oxtsinternationalfees".',
 
-'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => '',
+'HELP_SHOP_CONFIG_SHOWTSCODMESSAGE'           => 'На 4 та стъпка от чекаута допълнително се визуализира CMS страница "oxtscodmessage".',
 
-'HELP_SHOP_CONFIG_DOWNLOADS'                  => '',
+'HELP_SHOP_CONFIG_DOWNLOADS'                  => 'Магазин за продукти за изтегляне. Активирайте тук, за да поръчате и изтегляте продукти.',
 
-'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => '',
+'HELP_SHOP_CONFIG_DOWNLOADS_PATH'             => 'Пътят, където са запазени файловете на изтеглените продукти.',
 
-'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => '',
+'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Тук може да зададете броя изтегляния от един и същи линк след поръчка. Това е дефолтна настройка за всички продукти. Настройката може да бъде зададена за всеки отделен файл на продукт в Управляване на продуктите -> Продукти -> Изтегляния.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Тук може да зададете броя изтегляния от един и същи линк, в случай на потребител без регистрация. Това е дефолтна настройка за всички продукти. Настройката може да бъде зададена за всеки отделен файл на продукт в Управляване на продуктите -> Продукти -> Изтегляния.',
 
-'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => '',
+'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Време на валидност на изтегления линк след поръчка (в часове). Това е дефолтна настройка за всички продукти. Настройката може да бъде зададена за всеки отделен файл на продукт в Управляване на продуктите -> Продукти -> Изтегляния.',
 
-'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
+'HELP_SHOP_CONFIG_PARCELSERVICE'              => 'Моля, въведете урл за проследяване на вашия доставчик. <i>##ID##</i> това съдържание ще бъде заменено със съответния номер за проследяване.',
 
-'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => '',
+'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Време на валидност на изтегления линк след първоначално изтегляне (в часове). Това е дефолтна настройка за всички продукти. Настройката може да бъде зададена за всеки отделен файл на продукт в Управляване на продуктите -> Продукти -> Изтегляния.',
 
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => 'Потребителите могат да преглеждат и да дават оценка на продуктите посредством звезди. Ако настройката е активирана, съществуващите прегледи/ оценки се зареждат и визуализират заедно с продукта. Настройката може да забави работата на магазина.',
 
-'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Моля уверете се, че настройката е съобразена с действащите закони. Настройката ще се отрази, ако функцията "потребителски преглед и оценка" е активирана.',
 
-'HELP_SHOP_MALL_MALLMODE'                     => '',
+'HELP_SHOP_MALL_MALLMODE'                     => 'Настройки за изгледа на заглавната страница на магазина:<ul><li><span class="navipath_or_inputname">Избор на магазин</span>: Страница с различни магазини.</li><li><span class="navipath_or_inputname">Покажи заглавната страница на магазина</span>: Показване на нормалната заглавна страница на магазина.</li></ul>',
 
-'HELP_SHOP_MALL_PRICEADDITION'                => '',
+'HELP_SHOP_MALL_PRICEADDITION'                => 'Посочи надценка за всички продукти в магазина: Въведете сумата и изберете дали да се отрази като процент (<span class="userinput_or_code">%</span>) или като абсолютно число (<span class="userinput_or_code">abs</span>).',
 
-'HELP_SHOP_PERF_NEWESTARTICLES'               => '',
+'HELP_SHOP_PERF_NEWESTARTICLES'               => 'Списък с най- новите продукти <span class="filename_filepath_or_italic">Най- нови!</span>. Задайте как да се генерира списъкът:<ul><li><span class="userinput_or_code">деактивирано</span>: Списъкът не се показва.</li><li><span class="userinput_or_code">ръчно</span>: Изберете продукти в <span class="navipath_or_inputname">Информация за клиента -> Промоции -></span> в промоция <span class="filename_filepath_or_italic">Най- нови!</span>.</li><li><span class="userinput_or_code">автоматично</span>: Продуктите се избират автоматично</li></ul>',
 
-'HELP_SHOP_PERF_TOPSELLER'                    => '',
+'HELP_SHOP_PERF_TOPSELLER'                    => 'Списък с най- продаваните продукти <span class="filename_filepath_or_italic">Най- продавани!</span>. Задайте как да се генерира списъкът:<ul><li><span class="userinput_or_code">деактивирано</span>: Списъкът не се показва.</li><li><span class="userinput_or_code">ръчно</span>: Изберете продукти в <span class="navipath_or_inputname">Информация за клиента -> Промоции -></span> в промоция <span class="filename_filepath_or_italic">Най- продавани!</span>.</li><li><span class="userinput_or_code">автоматично</span>: Продуктите се избират автоматично</li></ul>',
 
-'HELP_SHOP_PERF_LOADFULLTREE'                 => '',
+'HELP_SHOP_PERF_LOADFULLTREE'                 => 'Ако тази настройка е отметната, цялото дърво с категории се вижда в навигацията (всички категории са отворени). Тази функция работи само, когато навигацията най- горе на страницата не се вижда.',
 
-'HELP_SHOP_PERF_LOADACTION'                   => '',
+'HELP_SHOP_PERF_LOADACTION'                   => 'Ако настройката е отметната, промоции като <span class="filename_filepath_or_italic">Най- нови!</span> и <span class="filename_filepath_or_italic">Най- продавани</span> се зареждат, за да се виждат.',
 
-'HELP_SHOP_PERF_USESELECTLISTPRICE'           => '',
+'HELP_SHOP_PERF_USESELECTLISTPRICE'           => 'В списъците за избор на функции могат да се задават надценка/ отстъпка на продукта. Ако настройката е активна, се зареждат зададените надценки/ отстъпки. Ако не е активна, надценки/ отстъпки не се прилагат.',
 
-'HELP_SHOP_PERF_DISBASKETSAVING'              => '',
+'HELP_SHOP_PERF_DISBASKETSAVING'              => 'Съдържанието на кошницата на регистриран потребител се запазва. При повторно посещение на магазина, кошницата им ще се зареди автоматично. Ако активирате настройката, съдържанието на кошницата няма да бъде запазвано.',
 
-'HELP_SHOP_PERF_LOADDELIVERY'                 => '',
+'HELP_SHOP_PERF_LOADDELIVERY'                 => 'Ако деактивирате настройката, няма да бъде добавяна цена на доставката: Доставката винаги ще бъде 0.00.',
 
-'HELP_SHOP_PERF_LOADPRICE'                    => '',
+'HELP_SHOP_PERF_LOADPRICE'                    => 'Ако настройката се деактивира, няма да се генерират цени на продуктите. Цени няма да се виждат.',
 
-'HELP_SHOP_PERF_PARSELONGDESCINSMARTY'        => '',
+'HELP_SHOP_PERF_PARSELONGDESCINSMARTY'        => 'Ако настройката е активна, описанието на продуктите и категориите се интерпретират посредством Smarty: Може да се използват Smarty тагове (напр. за използването на променливи) <br>',
 
-'HELP_SHOP_PERF_LOADSELECTLISTSINALIST'       => '',
+'HELP_SHOP_PERF_LOADSELECTLISTSINALIST'       => 'Обикновено списъците за избор на функции се виждат само на продуктовата страница. Ако тази настройка се активира, списъкът за избор на функции ще се вижда и на страницата на всяка категория, на страницата с резултатите от търсенето, както и на всяка страница, където има списък с продукти.',
 
-'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => '',
+'HELP_SHOP_PERF_CHECKIFTPLCOMPILE'            => 'Ако настройката е активирана, магазинът проверява дали има промяна в темплейтите при всяка заявка. Ако има такава, резултатите се преизчисляват. Активирайте настройката, когато се работи по темплейтите. Когато магазинът е на живо, по-добре настройката да е деактивирана.',
 
-'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => '',
+'HELP_SHOP_PERF_CLEARCACHEONLOGOUT'           => 'Обикновено кешът се изчиства напълно със запазването на промените в администрацията на магазина. Това може да създаде проблем за работата на администрацията на магазина. Ако настройката е активирана, кешът ще се изчиства, когато администратора излезе от магазина.',
 
-'HELP_SHOP_SEO_TITLEPREFIX'                   => '',
+'HELP_SHOP_SEO_TITLEPREFIX'                   => 'Всяка страница си има име, което се вижда горе в браузъра. Посредством <span class="navipath_or_inputname">Преди името<span class="navipath_or_inputname"></span> и <span class="navipath_or_inputname">След името</span> може да се добави допълнителен текст преди и след името на страницата:<br><ul><li>В <span class="navipath_or_inputname">Преди името</span>, въведи текста, който ще се вижда преди името на страница.</li></ul>',
 
-'HELP_SHOP_SEO_TITLESUFFIX'                   => '',
+'HELP_SHOP_SEO_TITLESUFFIX'                   => 'Всяка страница си има име, което се вижда горе в браузъра. Посредством <span class="navipath_or_inputname">Преди името<span class="navipath_or_inputname"></span> и <span class="navipath_or_inputname">След името</span> може да се добави допълнителен текст преди и след името на страницата:<br><ul><li>В <span class="navipath_or_inputname">След името</span>, въведи текста, който ще се вижда след името на страница.</li></ul>',
 
-'HELP_SHOP_SEO_IDSSEPARATOR'                  => '',
+'HELP_SHOP_SEO_IDSSEPARATOR'                  => 'Разделителят се ползва, когато имената на категориите или на продуктите се състоят от няколко думи. Използва се вместо разстояние между думите, напр. www.youreshop.com/category-name-of-several-words<br>Ако не е зададен разделител, се ползва "-".',
 
-'HELP_SHOP_SEO_SAFESEOPREF'                   => '',
+'HELP_SHOP_SEO_SAFESEOPREF'                   => 'Ако има продукти с еднакви имена в една и съща категория, те ще получат еднакво SEO URL. За да се избегне това, се прикрепя SEO наставка. Ако за SEO наставката не е зададена стойност, се поставя <span class="filename_filepath_or_italic">oxid</span>.',
 
-'HELP_SHOP_SEO_RESERVEDWORDS'                 => '',
+'HELP_SHOP_SEO_RESERVEDWORDS'                 => 'Някои от урл-ите се дефинират в магазина на OXID, напр. www.youreshop.com/admin за достъпване на администрацията на магазина. Ако има категория, която да се казва <span class="filename_filepath_or_italic">admin</span>, SEO URL ще бъде също www.youreshop.com/admin и категорията няма да може да бъде достъпена. На такива урл-та се добавя SEO наставка. Тук може да зададете на кои урл-та да се поставя наставка автоматично.',
 
-'HELP_SHOP_SEO_SKIPTAGS'                      => '',
+'HELP_SHOP_SEO_SKIPTAGS'                      => 'Ако няма зададени Мета тагове за продукти и категории, те се генерират автоматично. При автоматичното генериране на Мета тагове, всички думи въведени тук, няма да бъдат взети под внимание.',
 
-'HELP_SHOP_SEO_LOWERCASEURLS'                 => '',
+'HELP_SHOP_SEO_LOWERCASEURLS'                 => 'Всички главни букви в SEO урл-тата стават малки букви, напр. www.youreshop.com/Kiteboarding/Kites/ става www.youreshop.com/kiteboarding/kites/.',
 
-'HELP_SHOP_SEO_STATICURLS'                    => '',
+'HELP_SHOP_SEO_STATICURLS'                    => 'За специални страници като (Условия за полване) може да въведете статично урл. Когато е избрано статично урл, се показва нормално урл в<span class="navipath_or_inputname">Стандартно URL</span>. В полето по-долу може да се въведе SEO URL за всеки език.',
 
-'HELP_SHOP_MAIN_PRODUCTIVE'                   => '',
+'HELP_SHOP_MAIN_PRODUCTIVE'                   => 'По време на инсталирането, конфигурирането, настройването на темплейтите и фаза дебъгване на модул е желателно да е активирана неживата версия на магазина. Тогава, когато магазинът е на живо<span class="warning_or_important_hint">ON</span>, изчистването на кеша и репортването на грешки трябва да се оптимизират за тази му версия.<br><span class="warning_or_important_hint">Активирайте, когато магазинът работи на живо.</span><br>Открийте още информация как да пуснете магазина си на живо в нашия OXID магазин <a href="https://oxidforge.org/en/check-before-going-live.html" target="_blank">OXIDforge</a>.',
 
-'HELP_SHOP_MAIN_ACTIVE'                       => '',
+'HELP_SHOP_MAIN_ACTIVE'                       => 'С помощта на <span class="navipath_or_inputname">Активен</span> можете да активирате/ деактивирате целия магазин. Ако той е деактивиран, потребителите ще виждат съобщение, казващо, че магазинът е временно офлайн. Тази опция може да е полезна при работа върху настройките на магазина.',
 
-'HELP_SHOP_MAIN_INFOEMAIL'                    => '',
+'HELP_SHOP_MAIN_INFOEMAIL'                    => 'Всички имейли, изпратени посредством страницата за контакт, се изпращат до този имейл адрес.',
 
-'HELP_SHOP_MAIN_ORDEREMAIL'                   => '',
+'HELP_SHOP_MAIN_ORDEREMAIL'                   => 'След направена поръчка, потребителят получава имейл с обобщена информация за поръчката. Отговори до този имейл адрес се изпращат до <span class="navipath_or_inputname">Отговор на имейл за поръчка</span>.',
 
-'HELP_SHOP_MAIN_OWNEREMAIL'                   => '',
+'HELP_SHOP_MAIN_OWNEREMAIL'                   => 'След направена поръчка, администраторът получава имейл с обобщена информация за поръчката. Тези имейли се изпращат до <span class="navipath_or_inputname">Имейли за поръчка</span>.',
 
-'HELP_SHOP_MAIN_SMTPSERVER'                   => '',
+'HELP_SHOP_MAIN_SMTPSERVER'                   => 'SMTP данни са нужни за изпращането на имейли (напр. за да се изпрати имейл до клиента за потвърждение на поръчка).',
 
-'HELP_ARTICLE_MAIN_ALDPRICE'                  => '',
+'HELP_ARTICLE_MAIN_ALDPRICE'                  => 'Посредством <span class="navipath_or_inputname">Alt. Prices</span> различните потребители могат да виждат специални цени ( потребителски групи "Price A", "Price B" и "Price C").',
 
-'HELP_ARTICLE_MAIN_VAT'                       => '',
+'HELP_ARTICLE_MAIN_VAT'                       => 'Добавяне на специално ДДС за този продукт. Това ДДС ще бъде използвано за всички следващи калкулации на този продукт (кошница, поръчка, фактура)',
 
-'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => '',
+'HELP_ARTICLE_EXTEND_UNITQUANTITY'            => 'Посредством <span class="navipath_or_inputname">Количество</span> и <span class="navipath_or_inputname">Мерна единица</span> се задава цена за мерна единица. Цената за количество мерна единица се изчислява и показва заедно с продукта (пр. 1.43лв за литър). В <span class="navipath_or_inputname">Количество</span>въведете количеството на продукта (пр. <span class="userinput_or_code">1.5</span>), в <span class="navipath_or_inputname">Мерна единица</span> въведете съответната мерна единица (e.g. <span class="userinput_or_code">литър</span>). Може да изберете мерна единица от дадените стойности или избирайки празно поле "-", да въведете мерна единица ръчно. Ако искате да прикачите списък със съществуващи мерни единици, моля последвайте <a href="https://oxidforge.org/en/adding-new-unit-types.html" target="_blank">линк</a> за инструйции.',
 
-'HELP_ARTICLE_EXTEND_EXTURL'                  => '',
+'HELP_ARTICLE_EXTEND_EXTURL'                  => 'Въведете <span class="navipath_or_inputname">Външен URL</span> , към допълнителна информация за продукта ( напр. уебсайт на производител). Въведете <span class="navipath_or_inputname">Текст за външен URL</span> с текст, който ще бъде линк към съответния външен уебсайт, напр. <span class="userinput_or_code">Допълнителна информация на сайт на производител</span>.',
 
-'HELP_ARTICLE_EXTEND_TPRICE'                  => '',
+'HELP_ARTICLE_EXTEND_TPRICE'                  => 'В полето <span class="navipath_or_inputname">RRP</span> въведете препоръчителната цена на производителя. Въведената стойност за RRP ще е достъпна за потребителя: Над цената на продукта <span class="filename_filepath_or_italic">Намалено от RRP само сега</span>.',
 
-'HELP_ARTICLE_EXTEND_QUESTIONEMAIL'           => '',
+'HELP_ARTICLE_EXTEND_QUESTIONEMAIL'           => 'Въведете <span class="navipath_or_inputname">Alt. Contact</span> имейл адрес. Ако потребителите отправят въпроси относно този продукт, те ще бъдат изпратени до този имейл адрес. Ако имейл адрес не е въведен, запитването ще бъде изпратено до имейл адреса на сайта.',
 
-'HELP_ARTICLE_EXTEND_NONMATERIAL'             => '',
+'HELP_ARTICLE_EXTEND_NONMATERIAL'             => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_EXTEND_FREESHIPPING'            => '',
+'HELP_ARTICLE_EXTEND_FREESHIPPING'            => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => '',
+'HELP_ARTICLE_EXTEND_BLFIXEDPRICE'            => 'Желаната цена може да бъде изключена за този продукт.',
 
-'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => '',
+'HELP_ARTICLE_EXTEND_SKIPDISCOUNTS'           => 'Ако <span class="navipath_or_inputname">Игнорирай всички негативни отстъпки</span> е активно, негативни намаления няма да се изчисляват за този продукт. Такива са: намаления и ваучери.',
 
-'HELP_ARTICLE_EXTEND_TEMPLATE'                => '',
+'HELP_ARTICLE_EXTEND_TEMPLATE'                => 'За подробната страница на продукта може да се използва различен темплейт. За тази цел въведете път и име на темплейта, който искате да ползвате.',
 
-'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => '',
+'HELP_ARTICLE_EXTEND_ISCONFIGURABLE'          => 'Ако продуктът е модифициран, допълнително поле за въвеждане на информация се вижда за потребителите на продуктовата страница и в кошницата. В това поле потребителите могат да въвеждат текст. <br><br> Типичен пример са тениски, на които може да има принт с текст по избор на клиента. Текстът за принт може да бъде въведен в това поле.',
 
-'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => '',
+'HELP_ARTICLE_EXTEND_UPDATEPRICE'             => 'Промяна на цените на определено време. Стойности в дадените полета ще заместят стандартната цена. Ако цената е със стойност равна на "0", въведените стойности няма да я заместят.',
 
-'HELP_ARTICLE_EXTEND_SHOWCUSTOMAGREEMENT'     => '',
+'HELP_ARTICLE_EXTEND_SHOWCUSTOMAGREEMENT'     => 'Ако настройката е активна, потребителите трябва изрично да приемат условията за ползване на магазина на четвъртата стъпка от чекаута за този продукт специално. Моля да се уверите, че опцията е включена от общите настройки на магазина, както и че продуктът няма физическа форма или е продукт за изтегляне.',
 
-'HELP_ARTICLE_FILES_MAX_DOWNLOADS_COUNT'      => '',
+'HELP_ARTICLE_FILES_MAX_DOWNLOADS_COUNT'      => 'Брой изтегляния на съдържанието на един и същи линк след поръчка с презаписване на дефолтните настройки, намиращи се в Основни настройки -> Централни настройки -> Настройки -> Изтегляния за всички продукти.',
 
-'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME_UNREGISTERED' => '',
+'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Брой изтегляния на съдържанието на един и същи линк без регистрация с презаписване на дефолтните настройки, намиращи се в Основни настройки -> Централни настройки -> Настройки -> Изтегляния за всички продукти.',
 
-'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME'     => '',
+'HELP_ARTICLE_FILES_LINK_EXPIRATION_TIME'     => 'Валидност на линка в часове след поръчка с презаписване на дефолтните настройки, намиращи се в Основни настройки -> Централни настройки -> Настройки -> Изтегляния за всички продукти.',
 
-'HELP_ARTICLE_FILES_NEW'                      => '',
+'HELP_ARTICLE_FILES_NEW'                      => 'Въведете име на файла прехвърлен чрез FTP или качете нов файл тук. Имайте предвид, че големи файлове могат да се качват само чрез FTP. Ограниченията за размер на файла са валидни, тогава когато файлът се качи от администратор. Ограничението зависи от PHP настройките на сървъра и можа да се редактира само там.',
 
-'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => '',
+'HELP_ARTICLE_FILES_DOWNLOAD_EXPIRATION_TIME' => 'Валидност на линк в часове след първоначално изтегляне на съдържанието с презаписване на дефолтните настройки, намиращи се в Основни настройки -> Централни настройки -> Настройки -> Изтегляния за всички продукти.',
 
 'HELP_ARTICLE_PICTURES_ICON'                  => '',
 
@@ -231,7 +231,7 @@ $aLang =  [
 
 'HELP_ARTICLE_PICTURES_ZOOM1'                 => '',
 
-'HELP_ARTICLE_STOCK_REMINDACTIV'              => '',
+'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
 'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
 
