@@ -1484,7 +1484,7 @@ $aLang = [
     'SHOP_PERF_DISBASKETSAVING'               => '',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
     'DYNSCREEN_LOCAL_TITLE'                   => 'e-commerce услуги',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Важна информация за e-commerce услуги',
+    'DYNSCREEN_LOCAL_TEXT'                    => 'Обща информация за e-commerce услугите',
     'GENIMPORT_MENUITEM'                      => '',
     'GENIMPORT_MENUSUBITEM'                   => '',
     'GENIMPORT_STEP_1_TITLE'                  => '',
@@ -1515,7 +1515,7 @@ $aLang = [
 
     /* menu */
     'dyn_menu'                 => 'Район на услугите',
-    'dyn_about'                => '',
+    'dyn_about'                => 'Общи',
     'dyn_interface'            => 'Интерфейс',
     'dyn_technics'             => 'Техника',
     'mxactions'                => 'ПромоциИ',
