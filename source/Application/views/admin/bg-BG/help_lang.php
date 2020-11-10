@@ -253,15 +253,15 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Съобщение за изчерпан продукт.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'В полето <span class="navipath_or_inputname">Количество От/До</span> се въвеждат количествата, за които е валидна посочената цена.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Въведете цената за посочените по-горе количества. Цената може да бъде абсолютно число или процентова отстъпка.<br> Допълнителна информация за цените може да бъде намерена на <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">ръководство за скала на цените на продукта</a>.',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Име на селекцията</span> определя как е назована селекцията от варианти, напр. <span class="userinput_or_code">Цвят</span> или <span class="userinput_or_code">Размер</span>.',
 
-'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => '',
+'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'Ако има отметка, стойността на този атрибут ще се вижда в кошницата и при прегледа на поръчката в чекаута под името на продукта.',
 
-'HELP_CATEGORY_MAIN_HIDDEN'                   => '',
+'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Клас на категория <span class="navipath_or_inputname">Скрит</span> определя дали тази категория ще е видима за потребителите. Ако една категория е скрита, тя не е видима за потребителя, дори да е активна.',
 
 'HELP_CATEGORY_MAIN_PARENTID'                 => '',
 
