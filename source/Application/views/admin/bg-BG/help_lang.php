@@ -237,9 +237,9 @@ $aLang =  [
 
 'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Файлове от този продукт могат да бъдат изтегляни.',
 
-'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => '',
+'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => 'Опцията<span class="navipath_or_inputname">Изпрати имейл, ако наличността падне под</span>позволява изпращането на имейл, веднага - щом наличните бройки паднат под въведената стойност. Поставете отметка в чекбокса и въведете стойността, при която искате да получавате известие.',
 
-'HELP_ARTICLE_STOCK_DELIVERY'                 => '',
+'HELP_ARTICLE_STOCK_DELIVERY'                 => 'Въведете дата, от която продуктът ще бъде отново наличен, ако е изчерпан. Форматът е г-м-д, напр. 2009-02-16.',
 
 'HELP_ARTICLE_SEO_FIXED'                      => '',
 
