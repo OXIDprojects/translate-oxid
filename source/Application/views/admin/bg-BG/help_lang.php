@@ -233,9 +233,9 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'В <span class="navipath_or_inputname">Статус на доставката</span> има 4 вида доставка за избор<ul><li><span class="userinput_or_code">Стандартна</span>: Продуктът може да бъде поръчан, дори и да не е наличен.</li><li><span class="userinput_or_code">От външен склад</span>: Продуктът може винаги да бъде купен и винаги е със статус <span class="filename_filepath_or_italic">наличен</span>. (Наличността от външен склад не може да бъде посочена. Затова продуктът винаги е със статус <span class="filename_filepath_or_italic">наличен</span>).</li><li><span class="userinput_or_code">Ако е изчерпан, офлайн</span>: Продуктът не се вижда, ако е изчерпан.</li><li><span class="userinput_or_code">Ако е изчерпан, не може да бъде поръчан</span>: Продуктът се вижда като изчерпан, но не може да бъде поръчан.</li></ul>',
 
-'HELP_ARTICLE_IS_DOWNLOADABLE'                => '',
+'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Файлове от този продукт могат да бъдат изтегляни.',
 
 'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => '',
 
