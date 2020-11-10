@@ -263,7 +263,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Клас на категория <span class="navipath_or_inputname">Скрит</span> определя дали тази категория ще е видима за потребителите. Ако една категория е скрита, тя не е видима за потребителя, дори да е активна.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'С <span class="navipath_or_inputname">Подкатегория на</span> определяме къде да се появи дадена категория:<br><ul><li> Ако категорията няма да бъде подкатегория на друга категория, изберете<span class="userinput_or_code">--</span> Изкл.</li><li>Ако категорията ще бъде подкатегория на друга категория, тогава изберете подходящата категория</li></ul>',
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => '',
 
