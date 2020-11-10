@@ -247,11 +247,11 @@ $aLang =  [
 
 'HELP_ARTICLE_SEO_DESCRIPTION'                => 'Това описание е интегрирано в HTML кода на продуктовата страница ( Meta описание) и се използва от интернет търсачките. Подходящо описание на продукта може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_ARTICLE_SEO_ACTCAT'                     => '',
+'HELP_ARTICLE_SEO_ACTCAT'                     => 'Въвеждане на няколко SEO URL-и за продукти. За определени категории и страници на производители. Посредством <span class="navipath_or_inputname">Активна категория/Продавач</span> избирате SEO URL, което искате да редактирате.',
 
-'HELP_ARTICLE_STOCK_STOCKTEXT'                => '',
+'HELP_ARTICLE_STOCK_STOCKTEXT'                => 'Съобщение за продукт, който е наличен.',
 
-'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => '',
+'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Съобщение за изчерпан продукт.',
 
 'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => '',
 
@@ -321,7 +321,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
-'HELP_GENERAL_SEO_ACTCAT'                     => '',
+'HELP_GENERAL_SEO_ACTCAT'                     => 'Въвеждане на няколко SEO URL-и за продукти. За определени категории и страници на производители. Посредством <span class="navipath_or_inputname">Активна категория/Продавач</span> избирате SEO URL, което искате да редактирате.',
 
 'HELP_GENERAL_SEO_FIXED'                      => '',
 
