@@ -265,7 +265,7 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_PARENTID'                 => 'С <span class="navipath_or_inputname">Подкатегория на</span> определяме къде да се появи дадена категория:<br><ul><li> Ако категорията няма да бъде подкатегория на друга категория, изберете<span class="userinput_or_code">--</span> Изкл.</li><li>Ако категорията ще бъде подкатегория на друга категория, тогава изберете подходящата категория</li></ul>',
 
-'HELP_CATEGORY_MAIN_EXTLINK'                  => '',
+'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Въведете линк <span class="navipath_or_inputname">Външен линк</span>, който искате да се отваря при клик върху категория.<span class="warning_or_important_hint">Използвайте тази функция само, в случай че искате да се показва линк в навигацията на категорията. Категорията не функционира нормално, ако е въведен външен линк!</span>',
 
 'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => '',
 
