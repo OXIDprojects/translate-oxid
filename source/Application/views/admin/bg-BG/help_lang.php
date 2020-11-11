@@ -287,11 +287,11 @@ $aLang =  [
 
 'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Тази настройка позволява в браузъра да се види думичката след името на категорията, когато страницата се отвори. Каква да е думичката след името на категорията, може да изберете в <span class="navipath_or_inputname">Основни настройки -> Централни настройки-> SEO -> Дума след името</span>.',
 
-'HELP_CONTENT_MAIN_SNIPPET'                   => '',
+'HELP_CONTENT_MAIN_SNIPPET'                   => 'С избирането на <span class="navipath_or_inputname">Снипет</span> може да внедрите една CMS страница в друга CMS страница, използвайки идентификационният и номер: <span class="userinput_or_code">[{ oxcontent ident=ident_of_the_cms_page }]</span>',
 
-'HELP_CONTENT_MAIN_MAINMENU'                  => '',
+'HELP_CONTENT_MAIN_MAINMENU'                  => 'Ако изберете <span class="navipath_or_inputname">Горно Меню</span>, линк до съответната CMS страница ще се вижда в горното меню ( в Условия за ползване на магазина и За нас).',
 
-'HELP_CONTENT_MAIN_CATEGORY'                  => '',
+'HELP_CONTENT_MAIN_CATEGORY'                  => 'Ако изберете <span class="navipath_or_inputname">Категория</span>, линк до съответната CMS страница ще се вижда в навигационната лента на категорията под останалите категории.',
 
 'HELP_CONTENT_MAIN_MANUAL'                    => '',
 
