@@ -267,9 +267,9 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Въведете линк <span class="navipath_or_inputname">Външен линк</span>, който искате да се отваря при клик върху категория.<span class="warning_or_important_hint">Използвайте тази функция само, в случай че искате да се показва линк в навигацията на категорията. Категорията не функционира нормално, ако е въведен външен линк!</span>',
 
-'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => '',
+'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => 'В полето <span class="navipath_or_inputname">Цена От/До</span> можете да посочите <span class="warning_or_important_hint">всички</span> продукти от определен ценови диапазон, които да се виждат в тази категория. Въведете началната цена в първото поле и крайната във второто. След което <span class="warning_or_important_hint">всички продукти от магазина</span> които се намират в посочения ценови диапазон, ще са видими в тази категория.',
 
-'HELP_CATEGORY_MAIN_DEFSORT'                  => '',
+'HELP_CATEGORY_MAIN_DEFSORT'                  => 'В полето <span class="navipath_or_inputname">Бързо подреждане</span> определяте начина, по който да са подредени продуктите в тази категория.',
 
 'HELP_CATEGORY_MAIN_SORT'                     => '',
 
