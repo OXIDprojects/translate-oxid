@@ -271,13 +271,13 @@ $aLang =  [
 
 'HELP_CATEGORY_MAIN_DEFSORT'                  => 'В полето <span class="navipath_or_inputname">Бързо подреждане</span> определяте начина, по който да са подредени продуктите в тази категория.',
 
-'HELP_CATEGORY_MAIN_SORT'                     => '',
+'HELP_CATEGORY_MAIN_SORT'                     => 'Използвайте <span class="navipath_or_inputname">Подреди по</span> за да определите реда, по който се виждат категориите: Категорията с най- малка цифра, се вижда най- отгоре, а категорията с най- голяма - най-долу.',
 
-'HELP_CATEGORY_MAIN_THUMB'                    => '',
+'HELP_CATEGORY_MAIN_THUMB'                    => 'Със <span class="navipath_or_inputname">Снимка</span> и <span class="navipath_or_inputname">Добави Снимка</span> можете да поставите снимка за тази категория. Снимката се вижда най- горе на страницата на категорията. Изберете снимка в <span class="navipath_or_inputname">Добавете снимка</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, снимката се качва. След качване, името на файла на снимката се вижда в <span class="navipath_or_inputname">Снимка</span>.',
 
-'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => '',
+'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => 'С <span class="navipath_or_inputname">икона за промоция</span> и <span class="navipath_or_inputname">добави икона</span> може да се добави картинка за актуална промоция на дадена категория, която да е видима на началната страница на магазина. За добавите актуална промоция в категория, вижте <span class="navipath_or_inputname">Основни настройки -> Информация за клиента -> Топ оферти в категории</span>',
 
-'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '',
+'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '<li>Ако <span class="navipath_or_inputname">Игнорирай всички негативни отстъпки</span> е активно, намаления с отрицателна стойност няма да се изчисляват за нито един продукт от тази категория.',
 
 'HELP_CATEGORY_SEO_FIXED'                     => '',
 
