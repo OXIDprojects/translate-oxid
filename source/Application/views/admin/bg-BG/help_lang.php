@@ -293,15 +293,15 @@ $aLang =  [
 
 'HELP_CONTENT_MAIN_CATEGORY'                  => 'Ако изберете <span class="navipath_or_inputname">Категория</span>, линк до съответната CMS страница ще се вижда в навигационната лента на категорията под останалите категории.',
 
-'HELP_CONTENT_MAIN_MANUAL'                    => '',
+'HELP_CONTENT_MAIN_MANUAL'                    => 'При избор на <span class="navipath_or_inputname">Ръчно</span>, се създава линк, който може да бъде използван, за да севключи тази CMS страница в други такива. Линкът се вижда по-долу, при клик върху<span class="navipath_or_inputname">Запази</span>',
 
-'HELP_CONTENT_SEO_FIXED'                      => '',
+'HELP_CONTENT_SEO_FIXED'                      => 'Презаписване на SEO URL-и. Ако името на CMS страницата бъде променено, тя ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_CONTENT_SEO_KEYWORDS'                   => '',
+'HELP_CONTENT_SEO_KEYWORDS'                   => 'Тези ключови думи са интегрирани в HTML кода на CMS страницата ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за CMS страницата могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_CONTENT_SEO_DESCRIPTION'                => '',
+'HELP_CONTENT_SEO_DESCRIPTION'                => 'Това описание е интегрирано в HTML кода на CMS страницата ( Meta описание) и се използва от интернет търсачките. Подходящо описание може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'В полето <span class="navipath_or_inputname">Правила за изчисляване</span> определяте колко често се изчислява цената:<ul><li><span class="userinput_or_code">Веднъж за кошница</span>: Цената се калкулира веднъж за цялата поръчка.</li><li><span class="userinput_or_code">Веднъж за всеки продукт</span>: Цената се калкулира веднъж за всеки продукт в кошницата. Като няма значение какво количество от даден продукт е поръчано. </li><li><span class="userinput_or_code">За всеки продукт</span>: цената се калкулира за всеки продукт в кошницата.</li></ul>',
 
 'HELP_DELIVERY_MAIN_CONDITION'                => '',
 
