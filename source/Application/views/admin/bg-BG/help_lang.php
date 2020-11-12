@@ -314,11 +314,11 @@ $aLang =  [
 
 'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Подреди по</span> уточнява реда, в който начините на доставка са представени на потребителя: Начинът на доставка с най- ниска позиция, ще бъде най- отгоре в списъка.',
 
-'HELP_DISCOUNT_MAIN_SORT'                     => '',
+'HELP_DISCOUNT_MAIN_SORT'                     => 'Използвайте <span class="navipath_or_inputname">Подреди по</span> за да уточните реда, по който се прилагат отстъпките върху продуктите в кошницата. Отстъпката на най- ниска позиция, ще бъде приложена първа, а онази на най- висока позиция- последна.',
 
-'HELP_DISCOUNT_MAIN_PRICE'                    => '',
+'HELP_DISCOUNT_MAIN_PRICE'                    => 'Използвайте <span class="navipath_or_inputname">Цена на покупка</span>, за да уточните отстъпката, валидна само за определени цени на покупката. Ако искате отстъпката да е валидна за покупки на всякаква стойност, въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
-'HELP_DISCOUNT_MAIN_AMOUNT'                   => '',
+'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Използвайте <span class="navipath_or_inputname">Количество</span>, за да уточните отстъпката, валидна само за определени количества на покупката. Ако искате отстъпката да е валидна за всякакви количества, въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
 'HELP_DISCOUNT_MAIN_REBATE'                   => '',
 
