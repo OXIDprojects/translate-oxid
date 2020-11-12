@@ -320,7 +320,7 @@ $aLang =  [
 
 'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Използвайте <span class="navipath_or_inputname">Количество</span>, за да уточните отстъпката, валидна само за определени количества на покупката. Ако искате отстъпката да е валидна за всякакви количества, въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'В полето <span class="navipath_or_inputname">Отстъпка</span>можете да уточните размера на отстъпката. Уточнете дали отстъпката да бъде като абсолютно число, или като процент: <ul><li><span class="userinput_or_code">абс</span>: Отстъпката е абсолютно число, напр. EUR 5.</li><li><span class="userinput_or_code">%</span>: Отстъпката е процент, напр. 10 процента от цената на покупката.</li><li><span class="userinput_or_code">артикул</span>: Отстъпка под формата на безплатен продукт. Посочете стойността на този продукт. Изберете "Умножи" ако искате стойността на намаления продукт в кошницата, да бъде умножена по стойността на безплатния продукт.</li></ul>',
 
 'HELP_GENERAL_SEO_ACTCAT'                     => 'Въвеждане на няколко SEO URL-и за продукти. За определени категории и страници на производители. Посредством <span class="navipath_or_inputname">Активна категория/Продавач</span> избирате SEO URL, което искате да редактирате.',
 
