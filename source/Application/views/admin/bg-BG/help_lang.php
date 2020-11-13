@@ -233,137 +233,138 @@ $aLang =  [
 
 'HELP_ARTICLE_STOCK_REMINDACTIV'              => 'Настройката е наследена от главния продукт и важи за всички варианти на продукта.',
 
-'HELP_ARTICLE_STOCK_STOCKFLAG'                => '',
+'HELP_ARTICLE_STOCK_STOCKFLAG'                => 'В <span class="navipath_or_inputname">Статус на доставката</span> има 4 вида доставка за избор<ul><li><span class="userinput_or_code">Стандартна</span>: Продуктът може да бъде поръчан, дори и да не е наличен.</li><li><span class="userinput_or_code">От външен склад</span>: Продуктът може винаги да бъде купен и винаги е със статус <span class="filename_filepath_or_italic">наличен</span>. (Наличността от външен склад не може да бъде посочена. Затова продуктът винаги е със статус <span class="filename_filepath_or_italic">наличен</span>).</li><li><span class="userinput_or_code">Ако е изчерпан, офлайн</span>: Продуктът не се вижда, ако е изчерпан.</li><li><span class="userinput_or_code">Ако е изчерпан, не може да бъде поръчан</span>: Продуктът се вижда като изчерпан, но не може да бъде поръчан.</li></ul>',
 
-'HELP_ARTICLE_IS_DOWNLOADABLE'                => '',
+'HELP_ARTICLE_IS_DOWNLOADABLE'                => 'Файлове от този продукт могат да бъдат изтегляни.',
 
-'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => '',
+'HELP_ARTICLE_STOCK_REMINDAMAOUNT'            => 'Опцията<span class="navipath_or_inputname">Изпрати имейл, ако наличността падне под</span>позволява изпращането на имейл, веднага - щом наличните бройки паднат под въведената стойност. Поставете отметка в чекбокса и въведете стойността, при която искате да получавате известие.',
 
-'HELP_ARTICLE_STOCK_DELIVERY'                 => '',
+'HELP_ARTICLE_STOCK_DELIVERY'                 => 'Въведете дата, от която продуктът ще бъде отново наличен, ако е изчерпан. Форматът е г-м-д, напр. 2009-02-16.',
 
-'HELP_ARTICLE_SEO_FIXED'                      => '',
+'HELP_ARTICLE_SEO_FIXED'                      => 'Презаписване на SEO URL-и. Ако името на продукта бъде променено, продуктовата страница ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_ARTICLE_SEO_KEYWORDS'                   => '',
+'HELP_ARTICLE_SEO_KEYWORDS'                   => 'Тези ключови думи са интегрирани в HTML кода на продуктовата страница ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за продукта могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_ARTICLE_SEO_DESCRIPTION'                => '',
+'HELP_ARTICLE_SEO_DESCRIPTION'                => 'Това описание е интегрирано в HTML кода на продуктовата страница ( Meta описание) и се използва от интернет търсачките. Подходящо описание на продукта може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_ARTICLE_SEO_ACTCAT'                     => '',
+'HELP_ARTICLE_SEO_ACTCAT'                     => 'Въвеждане на няколко SEO URL-и за продукти. За определени категории и страници на производители. Посредством <span class="navipath_or_inputname">Активна категория/Продавач</span> избирате SEO URL, което искате да редактирате.',
 
-'HELP_ARTICLE_STOCK_STOCKTEXT'                => '',
+'HELP_ARTICLE_STOCK_STOCKTEXT'                => 'Съобщение за продукт, който е наличен.',
 
-'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => '',
+'HELP_ARTICLE_STOCK_NOSTOCKTEXT'              => 'Съобщение за изчерпан продукт.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_AMOUNTFROM'   => 'В полето <span class="navipath_or_inputname">Количество От/До</span> се въвеждат количествата, за които е валидна посочената цена.',
 
-'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => '',
+'HELP_ARTICLE_STOCK_AMOUNTPRICE_PRICE'        => 'Въведете цената за посочените по-горе количества. Цената може да бъде абсолютно число или процентова отстъпка.<br> Допълнителна информация за цените може да бъде намерена на <a href="http://www.oxid-esales.com/en/resources/help-faq/eshop-manual/setting-graduated-prices" target="_blank">ръководство за скала на цените на продукта</a>.',
 
-'HELP_ARTICLE_VARIANT_VARNAME'                => '',
+'HELP_ARTICLE_VARIANT_VARNAME'                => '<span class="navipath_or_inputname">Име на селекцията</span> определя как е назована селекцията от варианти, напр. <span class="userinput_or_code">Цвят</span> или <span class="userinput_or_code">Размер</span>.',
 
-'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => '',
+'HELP_ATTRIBUTE_MAIN_DISPLAYINBASKET'         => 'Ако има отметка, стойността на този атрибут ще се вижда в кошницата и при прегледа на поръчката в чекаута под името на продукта.',
 
-'HELP_CATEGORY_MAIN_HIDDEN'                   => '',
+'HELP_CATEGORY_MAIN_HIDDEN'                   => 'Клас на категория <span class="navipath_or_inputname">Скрит</span> определя дали тази категория ще е видима за потребителите. Ако една категория е скрита, тя не е видима за потребителя, дори да е активна.',
 
-'HELP_CATEGORY_MAIN_PARENTID'                 => '',
+'HELP_CATEGORY_MAIN_PARENTID'                 => 'С <span class="navipath_or_inputname">Подкатегория на</span> определяме къде да се появи дадена категория:<br><ul><li> Ако категорията няма да бъде подкатегория на друга категория, изберете<span class="userinput_or_code">--</span> Изкл.</li><li>Ако категорията ще бъде подкатегория на друга категория, тогава изберете подходящата категория</li></ul>',
 
-'HELP_CATEGORY_MAIN_EXTLINK'                  => '',
+'HELP_CATEGORY_MAIN_EXTLINK'                  => 'Въведете линк <span class="navipath_or_inputname">Външен линк</span>, който искате да се отваря при клик върху категория.<span class="warning_or_important_hint">Използвайте тази функция само, в случай че искате да се показва линк в навигацията на категорията. Категорията не функционира нормално, ако е въведен външен линк!</span>',
 
-'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => '',
+'HELP_CATEGORY_MAIN_PRICEFROMTILL'            => 'В полето <span class="navipath_or_inputname">Цена От/До</span> можете да посочите <span class="warning_or_important_hint">всички</span> продукти от определен ценови диапазон, които да се виждат в тази категория. Въведете началната цена в първото поле и крайната във второто. След което <span class="warning_or_important_hint">всички продукти от магазина</span> които се намират в посочения ценови диапазон, ще са видими в тази категория.',
 
-'HELP_CATEGORY_MAIN_DEFSORT'                  => '',
+'HELP_CATEGORY_MAIN_DEFSORT'                  => 'В полето <span class="navipath_or_inputname">Бързо подреждане</span> определяте начина, по който да са подредени продуктите в тази категория.',
 
-'HELP_CATEGORY_MAIN_SORT'                     => '',
+'HELP_CATEGORY_MAIN_SORT'                     => 'Използвайте <span class="navipath_or_inputname">Подреди по</span> за да определите реда, по който се виждат категориите: Категорията с най- малка цифра, се вижда най- отгоре, а категорията с най- голяма - най-долу.',
 
-'HELP_CATEGORY_MAIN_THUMB'                    => '',
+'HELP_CATEGORY_MAIN_THUMB'                    => 'Със <span class="navipath_or_inputname">Снимка</span> и <span class="navipath_or_inputname">Добави Снимка</span> можете да поставите снимка за тази категория. Снимката се вижда най- горе на страницата на категорията. Изберете снимка в <span class="navipath_or_inputname">Добавете снимка</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, снимката се качва. След качване, името на файла на снимката се вижда в <span class="navipath_or_inputname">Снимка</span>.',
 
-'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => '',
+'HELP_CATEGORY_MAIN_PROMOTION_ICON'           => 'С <span class="navipath_or_inputname">икона за промоция</span> и <span class="navipath_or_inputname">добави икона</span> може да се добави картинка за актуална промоция на дадена категория, която да е видима на началната страница на магазина. За добавите актуална промоция в категория, вижте <span class="navipath_or_inputname">Основни настройки -> Информация за клиента -> Топ оферти в категории</span>',
 
-'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '',
+'HELP_CATEGORY_MAIN_SKIPDISCOUNTS'            => '<li>Ако <span class="navipath_or_inputname">Игнорирай всички негативни отстъпки</span> е активно, намаления с отрицателна стойност няма да се изчисляват за нито един продукт от тази категория.',
 
-'HELP_CATEGORY_SEO_FIXED'                     => '',
+'HELP_CATEGORY_SEO_FIXED'                     => 'Презаписване на SEO URL-и. Ако името на категорията бъде променено, страницата на категорията ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_CATEGORY_SEO_KEYWORDS'                  => '',
+'HELP_CATEGORY_SEO_KEYWORDS'                  => 'Тези ключови думи са интегрирани в HTML кода на страницата на категорията ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за категорията могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_CATEGORY_SEO_DESCRIPTION'               => '',
+'HELP_CATEGORY_SEO_DESCRIPTION'               => 'Това описание е интегрирано в HTML кода на страницата на категорията ( Meta описание) и се използва от интернет търсачките. Подходящо описание на категорията може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_CATEGORY_SEO_SHOWSUFFIX'                => '',
+'HELP_CATEGORY_SEO_SHOWSUFFIX'                => 'Тази настройка позволява в браузъра да се види думичката след името на категорията, когато страницата се отвори. Каква да е думичката след името на категорията, може да изберете в <span class="navipath_or_inputname">Основни настройки -> Централни настройки-> SEO -> Дума след името</span>.',
 
-'HELP_CONTENT_MAIN_SNIPPET'                   => '',
+'HELP_CONTENT_MAIN_SNIPPET'                   => 'С избирането на <span class="navipath_or_inputname">Снипет</span> може да внедрите една CMS страница в друга CMS страница, използвайки идентификационният и номер: <span class="userinput_or_code">[{ oxcontent ident=ident_of_the_cms_page }]</span>',
 
-'HELP_CONTENT_MAIN_MAINMENU'                  => '',
+'HELP_CONTENT_MAIN_MAINMENU'                  => 'Ако изберете <span class="navipath_or_inputname">Горно Меню</span>, линк до съответната CMS страница ще се вижда в горното меню ( в Условия за ползване на магазина и За нас).',
 
-'HELP_CONTENT_MAIN_CATEGORY'                  => '',
+'HELP_CONTENT_MAIN_CATEGORY'                  => 'Ако изберете <span class="navipath_or_inputname">Категория</span>, линк до съответната CMS страница ще се вижда в навигационната лента на категорията под останалите категории.',
 
-'HELP_CONTENT_MAIN_MANUAL'                    => '',
+'HELP_CONTENT_MAIN_MANUAL'                    => 'При избор на <span class="navipath_or_inputname">Ръчно</span>, се създава линк, който може да бъде използван, за да севключи тази CMS страница в други такива. Линкът се вижда по-долу, при клик върху<span class="navipath_or_inputname">Запази</span>',
 
-'HELP_CONTENT_SEO_FIXED'                      => '',
+'HELP_CONTENT_SEO_FIXED'                      => 'Презаписване на SEO URL-и. Ако името на CMS страницата бъде променено, тя ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_CONTENT_SEO_KEYWORDS'                   => '',
+'HELP_CONTENT_SEO_KEYWORDS'                   => 'Тези ключови думи са интегрирани в HTML кода на CMS страницата ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за CMS страницата могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_CONTENT_SEO_DESCRIPTION'                => '',
+'HELP_CONTENT_SEO_DESCRIPTION'                => 'Това описание е интегрирано в HTML кода на CMS страницата ( Meta описание) и се използва от интернет търсачките. Подходящо описание може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_DELIVERY_MAIN_COUNTRULES'               => '',
+'HELP_DELIVERY_MAIN_COUNTRULES'               => 'В полето <span class="navipath_or_inputname">Правила за изчисляване</span> определяте колко често се изчислява цената:<ul><li><span class="userinput_or_code">Веднъж за кошница</span>: Цената се калкулира веднъж за цялата поръчка.</li><li><span class="userinput_or_code">Веднъж за всеки продукт</span>: Цената се калкулира веднъж за всеки продукт в кошницата. Като няма значение какво количество от даден продукт е поръчано. </li><li><span class="userinput_or_code">За всеки продукт</span>: цената се калкулира за всеки продукт в кошницата.</li></ul>',
 
-'HELP_DELIVERY_MAIN_CONDITION'                => '',
+'HELP_DELIVERY_MAIN_CONDITION'                => 'В полето <span class="navipath_or_inputname">Условие</span> уточнете към кое специфично условие да се отнася, въведеното правило за цена на доставката. Можете да избирате между 4 условия:<ul><li><span class="userinput_or_code">Количество</span>: Брой продукти в кошницата.</li><li><span class="userinput_or_code">Размер</span>: Общият размер на всички продукти. За да работи тази настройка правилно, трябва да са въведени размери на всеки отделен продукт.</li><li><span class="userinput_or_code">Тегло</span>: Общото тегло на поръчката в килограми. За да работи тази настройка правилно, трябва да е въведено теглото на всеки отделен продукт.</li><li><span class="userinput_or_code">Цена</span>: Стойност на поръчката.</li></ul>Въвеждане на информация в полетата <span class="navipath_or_inputname">>=</span> (по- голямо или равно на) и <span class="navipath_or_inputname"><=</span> (по-малко или равно на) за да уточните диапазона, в който условието ще бъде в сила. По- голяма цифра трябва да се въведе за <span class="navipath_or_inputname"><=</span>, отколкото за <span class="navipath_or_inputname">-></span>.',
 
-'HELP_DELIVERY_MAIN_PRICE'                    => '',
+'HELP_DELIVERY_MAIN_PRICE'                    => 'В полето <span class="navipath_or_inputname">Надценка/Отстъпка</span> се уточнява размера на цената на доставката. Цената може да бъде изчислена по два начина:<ul><li>С <span class="userinput_or_code">абс</span>, цената ще бъде абсолютна стойност (напр. ако е въведена стойност <span class="userinput_or_code">6.90</span>, се калкулира цена EUR 6.90).</li><li>Ако е въведена стойност в полето <span class="userinput_or_code">%</span>, цената се изчислява спрямо цената на покупката (напр. Ако е въведено <span class="userinput_or_code">10</span>, се изчисляват 10% от цената на покупката).</li></ul>',
 
-'HELP_DELIVERY_MAIN_ORDER'                    => '',
+'HELP_DELIVERY_MAIN_ORDER'                    => '<span class="navipath_or_inputname">Ред на прилагане на правилото</span> се използва, когато искаме да определим по какъв ред ще се прилагат правилата за цена на доставката. Правилото на най- ниска позиция, ще бъде приложено първо. Този ред е важен, ако е активирана настройката <span class="navipath_or_inputname">Не прилагай следващо поред правило, ако на това има съответствие </span>.',
 
-'HELP_DELIVERY_MAIN_FINALIZE'                 => '',
+'HELP_DELIVERY_MAIN_FINALIZE'                 => 'Настройката <span class="navipath_or_inputname">Не прилагай следващо поред правило, ако на това има съответствие </span> уточнява, че няма да бъде използвано нито едно от следващите правила, ако на първото по ред има съответствие. Затова е много важен редът, по който са подредени правилата за образуване на цена на доставката в полето 
+<span class="navipath_or_inputname">Ред на прилагане на правилото</span>.',
 
-'HELP_DELIVERYSET_MAIN_POS'                   => '',
+'HELP_DELIVERYSET_MAIN_POS'                   => '<span class="navipath_or_inputname">Подреди по</span> уточнява реда, в който начините на доставка са представени на потребителя: Начинът на доставка с най- ниска позиция, ще бъде най- отгоре в списъка.',
 
-'HELP_DISCOUNT_MAIN_SORT'                     => '',
+'HELP_DISCOUNT_MAIN_SORT'                     => 'Използвайте <span class="navipath_or_inputname">Подреди по</span> за да уточните реда, по който се прилагат отстъпките върху продуктите в кошницата. Отстъпката на най- ниска позиция, ще бъде приложена първа, а онази на най- висока позиция- последна.',
 
-'HELP_DISCOUNT_MAIN_PRICE'                    => '',
+'HELP_DISCOUNT_MAIN_PRICE'                    => 'Използвайте <span class="navipath_or_inputname">Цена на покупка</span>, за да уточните отстъпката, валидна само за определени цени на покупката. Ако искате отстъпката да е валидна за покупки на всякаква стойност, въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
-'HELP_DISCOUNT_MAIN_AMOUNT'                   => '',
+'HELP_DISCOUNT_MAIN_AMOUNT'                   => 'Използвайте <span class="navipath_or_inputname">Количество</span>, за да уточните отстъпката, валидна само за определени количества на покупката. Ако искате отстъпката да е валидна за всякакви количества, въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">От</span> и <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">До</span>.',
 
-'HELP_DISCOUNT_MAIN_REBATE'                   => '',
+'HELP_DISCOUNT_MAIN_REBATE'                   => 'В полето <span class="navipath_or_inputname">Отстъпка</span>можете да уточните размера на отстъпката. Уточнете дали отстъпката да бъде като абсолютно число, или като процент: <ul><li><span class="userinput_or_code">абс</span>: Отстъпката е абсолютно число, напр. EUR 5.</li><li><span class="userinput_or_code">%</span>: Отстъпката е процент, напр. 10 процента от цената на покупката.</li><li><span class="userinput_or_code">артикул</span>: Отстъпка под формата на безплатен продукт. Посочете стойността на този продукт. Изберете "Умножи" ако искате стойността на намаления продукт в кошницата, да бъде умножена по стойността на безплатния продукт.</li></ul>',
 
-'HELP_GENERAL_SEO_ACTCAT'                     => '',
+'HELP_GENERAL_SEO_ACTCAT'                     => 'Въвеждане на няколко SEO URL-и за продукти. За определени категории и страници на производители. Посредством <span class="navipath_or_inputname">Активна категория/Продавач</span> избирате SEO URL, което искате да редактирате.',
 
-'HELP_GENERAL_SEO_FIXED'                      => '',
+'HELP_GENERAL_SEO_FIXED'                      => 'Презаписване на SEO URL-и. Ако името на продукта бъде променено, продуктовата страница ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_GENERAL_SEO_SHOWSUFFIX'                 => '',
+'HELP_GENERAL_SEO_SHOWSUFFIX'                 => 'Тази настройка позволява в браузъра да се види думичката след името на категорията, когато страницата се отвори. Каква да е думичката след името на категорията, може да изберете в <span class="navipath_or_inputname">Основни настройки -> Централни настройки-> SEO -> Дума след името</span>.',
 
-'HELP_GENERAL_SEO_OXKEYWORDS'                 => '',
+'HELP_GENERAL_SEO_OXKEYWORDS'                 => 'Тези ключови думи са интегрирани в HTML кода ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за продукта могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_GENERAL_SEO_OXDESCRIPTION'              => '',
+'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'Това описание е интегрирано в HTML кода ( Meta описание) и се използва от интернет търсачките. Подходящо описание може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_GENIMPORT_FIRSTCOLHEADER'               => '',
+'HELP_GENIMPORT_FIRSTCOLHEADER'               => 'Активиране на тази настройка, ако първият ред на CSV файла съдържа имена на колони от базата данни, към които трябва да се прикачат CSV стойности. Стойностите автоматично се прикрепят към колоните от базата данни.',
 
-'HELP_GENIMPORT_REPEATIMPORT'                 => '',
+'HELP_GENIMPORT_REPEATIMPORT'                 => 'Ако настройката е активирана, след успешен импорт се вижда първа стъпка, за да може следващият импорт да стартира веднага.',
 
-'HELP_LANGUAGE_DEFAULT'                       => '',
+'HELP_LANGUAGE_DEFAULT'                       => 'Използва се дефолтно избрания език, ако за магазина не е допълнително избран друг език: ID на език не е намерено посредством URL, не може да бъде намерено от браузъра, не е дефинирано и в сесия и т. н. Дефолтният език може само да бъде деактивиран, изтриването му е <u>невъзможно</u>.',
 
-'HELP_LANGUAGE_ACTIVE'                        => '',
+'HELP_LANGUAGE_ACTIVE'                        => 'Опцията позволява избиране на език за фронтенд на магазина: ако е активна- езикът е валиден за фронтенда. За администратора този език ще е валиден, дори във фронтенд да не е активен.',
 
-'HELP_PAYMENT_MAIN_SORT'                      => '',
+'HELP_PAYMENT_MAIN_SORT'                      => 'В <span class="navipath_or_inputname">Подреди по</span> указвате начина, по който методите за плащане да са подредени за потребителя: Методът с най- нисък номер поред, ще бъде първи в списъка.',
 
-'HELP_PAYMENT_MAIN_FROMBONI'                  => '',
+'HELP_PAYMENT_MAIN_FROMBONI'                  => 'С <span class="navipath_or_inputname">Мин. Кредитен Рейтинг</span> указавате, че даден метод на плащане е достъпен за потребители, които имат кредитен индекс равен или по-висок от посочения. Въведете валиден кредитен рейтинг за всеки потребител в <span class="navipath_or_inputname">Управление на потребителите -> Потребители -> Разширени</span>.',
 
-'HELP_PAYMENT_MAIN_SELECTED'                  => '',
+'HELP_PAYMENT_MAIN_SELECTED'                  => 'Използвайте <span class="navipath_or_inputname">Избрани</span> за да укажете кой от методите на плащане е избран дефолтно, ако потребителят може да избира между няколко метода на плащане.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Използвайте <span class="navipath_or_inputname">Цена на покупка</span> за да укажете, че един метод на плащане е валиден само за избраната цена на покупка. Дадените полета <span class="navipath_or_inputname">от</span> и <span class="navipath_or_inputname">до</span> позволяват да се посочи ценови диапазон.<br>Ако методът на плащане ще бъде валиден за всички цени на покупки, трябва да се посочи условие, което да е винаги изпълнено: Въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">от</span>  и <span class="userinput_or_code">99999999</span> в <span class="navipath_or_inputname">до</span> полетата.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'В полето <span class="navipath_or_inputname">Надценка/Отстъпка</span> въведете цената за съответния метод на плащане. Цената може да бъде изчислена по два начина:<ul><li>С <span class="userinput_or_code">абс</span>, цената ще бъде абсолютна стойност (напр. ако е въведена стойност <span class="userinput_or_code">7.50</span>, се калкулира цена EUR 7.50).</li><li>Ако е въведена стойност в полето <span class="userinput_or_code">%</span>, цената се изчислява спрямо цената на покупката (напр. Ако е въведено <span class="userinput_or_code">2</span>, се изчисляват 2% от цената на покупката).</li></ul>',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => '',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Стойността на кошницата се използва за основа при калкулирането на надценка или отстъпка. Укажете сумите, при които ще се калкулира стойността на кошницата.',
 
-'HELP_SELECTLIST_MAIN_TITLEIDENT'             => '',
+'HELP_SELECTLIST_MAIN_TITLEIDENT'             => 'В <span class="navipath_or_inputname">Работно заглавие</span> въведете допълнително име, което не е видимо за потребителите на магазина. Работното заглавие може да се ползва, за да се различават отделни списъци (напр. Размери на панталони и Размери на ризи).',
 
-'HELP_SELECTLIST_MAIN_FIELDS'                 => '',
+'HELP_SELECTLIST_MAIN_FIELDS'                 => 'Всички възможни опции са видими в списъка <span class="navipath_or_inputname">Полета</span>. Използвайте полетата в дясно, за да зададете нови опции.',
 
-'HELP_USER_MAIN_HASPASSWORD'                  => '',
+'HELP_USER_MAIN_HASPASSWORD'                  => 'Тук става ясно дали потребителят се е регистрирал при поръчка:<ul><li>Ако е вкарана парола, потребителят е регистриран.</li><li>Ако липсва парола, тогава потребителят е поръчал без регистрация.</li></ul>',
 
-'HELP_USER_PAYMENT_METHODS'                   => '',
+'HELP_USER_PAYMENT_METHODS'                   => 'Тук:<ul><li>Разглеждате и управлявате съществуващи методи на плащане на потребителите.<li>Създавате нови методи на плащане и задавате дефолтни стойности, напр. директен дебит.</li></ul>',
 
-'HELP_USER_EXTEND_NEWSLETTER'                 => '',
+'HELP_USER_EXTEND_NEWSLETTER'                 => 'Настройката показва дали потребителят се е абонирал за нюзлетър.',
 
-'HELP_USER_EXTEND_EMAILFAILED'                => '',
+'HELP_USER_EXTEND_EMAILFAILED'                => 'Ако до имейл адреса на този потребител не може да бъде изпратен имейл, проверете тази настройка. Тогава до същия потребител няма да се изпращат повече нюзлетъри. Друг вид имейли ще продължат да бъдат пращани.',
 
-'HELP_USER_EXTEND_BONI'                       => '',
+'HELP_USER_EXTEND_BONI'                       => 'Тук въведете числова стойност съответстваща на кредитния рейтинг на потребителя. С помощта на кредитния рейтинг указвате кои методи на плащане да са валидни за този потребител.',
 
 'HELP_MANUFACTURER_MAIN_ICON'                 => '',
 
