@@ -366,25 +366,25 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => 'Тук въведете числова стойност съответстваща на кредитния рейтинг на потребителя. С помощта на кредитния рейтинг указвате кои методи на плащане да са валидни за този потребител.',
 
-'HELP_MANUFACTURER_MAIN_ICON'                 => '',
+'HELP_MANUFACTURER_MAIN_ICON'                 => 'Със <span class="navipath_or_inputname">Икона</span> и <span class="navipath_or_inputname">Добави Икона</span> можете да поставите картинка за този производител (напр. лого). Изберете картинка в <span class="navipath_or_inputname">Добавете икона</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, картинката се качва. След качване, името на файла се вижда в <span class="navipath_or_inputname">Икона</span>.',
 
-'HELP_MANUFACTURER_SEO_FIXED'                 => '',
+'HELP_MANUFACTURER_SEO_FIXED'                 => 'Презаписване на SEO URL-и. Ако името на производителя бъде променено, страница ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_MANUFACTURER_SEO_KEYWORDS'              => '',
+'HELP_MANUFACTURER_SEO_KEYWORDS'              => 'Тези ключови думи са интегрирани в HTML кода на страницата на производителя ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за производителя могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_MANUFACTURER_SEO_DESCRIPTION'           => '',
+'HELP_MANUFACTURER_SEO_DESCRIPTION'           => 'Това описание е интегрирано в HTML кода на страницата на производителя ( Meta описание) и се използва от интернет търсачките. Подходящо описание може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => '',
+'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Тази настройка позволява в браузъра да се види думичката след името на производителя, когато страницата се отвори. Каква да е думичката след името на производителя, може да изберете в <span class="navipath_or_inputname">Основни настройки -> Централни настройки-> SEO -> Дума след името</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'В <span class="navipath_or_inputname">Discount</span>, се уточнява размера на намалението. От дропдаун менюто може да се избере дали отстъпката да е абсолютно число, или процент от цената:<ul><li><span class="userinput_or_code">abs</span>: Отстъпката е абсолютно число, напр. EUR 5.</li><li><span class="userinput_or_code">%</span>: Отстъпката е в проценти, напр. 10% от стойността на покупката.</li></ul>',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Уточнете дали потребителите могат да използват няколко ваучера от една и съща поредица в една поръчка.',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => 'Уточнете дали потребителите могат да използват заедно ваучери от различни поредици в една поръчка.',
 
-'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => '',
+'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => 'Уточнете дали потребителите могат да използват ваучери от тази поредица в различни поръчки.',
 
-'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => '',
+'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => 'Ако настройката е активирана, за всеки ваучер се генерира произволен номер.',
 
 'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => '',
 
