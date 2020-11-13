@@ -346,11 +346,11 @@ $aLang =  [
 
 'HELP_PAYMENT_MAIN_SELECTED'                  => 'Използвайте <span class="navipath_or_inputname">Избрани</span> за да укажете кой от методите на плащане е избран дефолтно, ако потребителят може да избира между няколко метода на плащане.',
 
-'HELP_PAYMENT_MAIN_AMOUNT'                    => '',
+'HELP_PAYMENT_MAIN_AMOUNT'                    => 'Използвайте <span class="navipath_or_inputname">Цена на покупка</span> за да укажете, че един метод на плащане е валиден само за избраната цена на покупка. Дадените полета <span class="navipath_or_inputname">от</span> и <span class="navipath_or_inputname">до</span> позволяват да се посочи ценови диапазон.<br>Ако методът на плащане ще бъде валиден за всички цени на покупки, трябва да се посочи условие, което да е винаги изпълнено: Въведете <span class="userinput_or_code">0</span> в <span class="navipath_or_inputname">от</span>  и <span class="userinput_or_code">99999999</span> в <span class="navipath_or_inputname">до</span> полетата.',
 
-'HELP_PAYMENT_MAIN_ADDPRICE'                  => '',
+'HELP_PAYMENT_MAIN_ADDPRICE'                  => 'В полето <span class="navipath_or_inputname">Надценка/Отстъпка</span> въведете цената за съответния метод на плащане. Цената може да бъде изчислена по два начина:<ul><li>С <span class="userinput_or_code">абс</span>, цената ще бъде абсолютна стойност (напр. ако е въведена стойност <span class="userinput_or_code">7.50</span>, се калкулира цена EUR 7.50).</li><li>Ако е въведена стойност в полето <span class="userinput_or_code">%</span>, цената се изчислява спрямо цената на покупката (напр. Ако е въведено <span class="userinput_or_code">2</span>, се изчисляват 2% от цената на покупката).</li></ul>',
 
-'HELP_PAYMENT_MAIN_ADDSUMRULES'               => '',
+'HELP_PAYMENT_MAIN_ADDSUMRULES'               => 'Стойността на кошницата се използва за основа при калкулирането на надценка или отстъпка. Укажете сумите, при които ще се калкулира стойността на кошницата.',
 
 'HELP_SELECTLIST_MAIN_TITLEIDENT'             => '',
 
