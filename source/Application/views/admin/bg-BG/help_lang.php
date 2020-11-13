@@ -386,33 +386,33 @@ $aLang =  [
 
 'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => 'Ако настройката е активирана, за всеки ваучер се генерира произволен номер.',
 
-'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => '',
+'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => 'Въведете номер на ваучер. Този номер е нужен при създаването на нови ваучери. Ако полето <span class="navipath_or_inputname">Произволни Номера</span> е деактивирано, всички ваучери получават един и същ номер.',
 
-'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => '',
+'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'Ако един ваучер е валиден за продукти или категории, деактивирайте тази опция, за да се прилага ваучера за всеки продукт в кошницата. Активирайте, ако ваучерът ще е валиден само веднъж за цялата кошница.',
 
-'HELP_WRAPPING_MAIN_PICTURE'                  => '',
+'HELP_WRAPPING_MAIN_PICTURE'                  => 'Със <span class="navipath_or_inputname">Снимка</span> и <span class="navipath_or_inputname">Добави Снимка</span> можете да поставите снимка за опаковане на подарък. Изберете снимка в <span class="navipath_or_inputname">Добавете снимка</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, снимката се качва. След качване, името на файла на снимката се вижда в <span class="navipath_or_inputname">Снимка</span>.',
 
-'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => '',
+'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Добавете снимка за банера и въведете url, който ще ползва при клик върху банера. Ако към банера има прикачен продукт, и не е въведен url, клик върху банера, ще води до прикачения продукт.',
 
-'HELP_SHOP_PERF_SEO_CACHE'                    => '',
+'HELP_SHOP_PERF_SEO_CACHE'                    => 'Активираният SEO кеш подобрява работата на магазина, но изисква пространство на диска в директория /temp.',
 
-'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => '',
+'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'Въведете алтернативен url към външен сървър за снимки в конфигурационния файл config.inc.php <i>sAltImageUrl</i> and <i>sSSLAltImageUrl</i>.<br> Така всички снимки на продуктите ще бъдат добавяни от алтернативен сървър, а не от локалния. Всички добавени файлове се съхраняват локално и при това положение синхронизирането с външния сървър ще трябва да се прави ръчно или посредством специализиран скрипт.',
 
-'HELP_SHOP_RDFA_CONTENT_OFFERER'              => '',
+'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Изберете, на коя от страниците със съдържание в магазина ще се вижда, напр."Кои сме ние".',
 
-'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => '',
+'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Изберете на коя от страниците със съдържание да не се показва информация за RDF плащане, напр. "Условия за ползване". За да добавите методи за плащане към RDF методите на плащане като цяло, посете: Настройки на магазина -> Методи на плащане -> RDFa.',
 
-'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => '',
+'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Изберете на коя от страниците със съдържание да не се показва информация за RDF доставка, напр. "Доставка и цени на доставка". За да добавите методи на доставка към RDF методите на плащане като цяло, посете: Настройки на магазина -> Методи на плащане -> RDFa.',
 
-'HELP_SHOP_RDFA_VAT'                          => '',
+'HELP_SHOP_RDFA_VAT'                          => 'Тази опция определя дали данък (ДДС) е включен в цената и в доставката или не.',
 
-'HELP_SHOP_RDFA_DURATION_PRICES'              => '',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'В полето укажете времето на валидност на цената на продукта, метода на плащане и доставката (напр. 1 ден, 1 седмица).',
 
-'HELP_SHOP_RDFA_LOGO_URL'                     => '',
+'HELP_SHOP_RDFA_LOGO_URL'                     => 'Уеб адрес (URL) на лого или снимка.',
 
-'HELP_SHOP_RDFA_GEO_LONGITUDE'                => '',
+'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'Географска дължина на магазина като част гео локацията му. Моля въведете само цифри.',
 
-'HELP_SHOP_RDFA_GEO_LATITUDE'                 => '',
+'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'Географска ширина на магазина като част от гео позицията на магазина. Моля въведете само цифри.',
 
 'HELP_SHOP_RDFA_GLN'                          => '',
 
