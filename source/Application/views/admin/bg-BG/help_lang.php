@@ -366,93 +366,93 @@ $aLang =  [
 
 'HELP_USER_EXTEND_BONI'                       => 'Тук въведете числова стойност съответстваща на кредитния рейтинг на потребителя. С помощта на кредитния рейтинг указвате кои методи на плащане да са валидни за този потребител.',
 
-'HELP_MANUFACTURER_MAIN_ICON'                 => '',
+'HELP_MANUFACTURER_MAIN_ICON'                 => 'Със <span class="navipath_or_inputname">Икона</span> и <span class="navipath_or_inputname">Добави Икона</span> можете да поставите картинка за този производител (напр. лого). Изберете картинка в <span class="navipath_or_inputname">Добавете икона</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, картинката се качва. След качване, името на файла се вижда в <span class="navipath_or_inputname">Икона</span>.',
 
-'HELP_MANUFACTURER_SEO_FIXED'                 => '',
+'HELP_MANUFACTURER_SEO_FIXED'                 => 'Презаписване на SEO URL-и. Ако името на производителя бъде променено, страница ще получи нов URL. Настройката <span class="navipath_or_inputname">Фиксиран URL</span> предотвратява това. Ако е активирана, се запазва старият URL и не се генерира нов.',
 
-'HELP_MANUFACTURER_SEO_KEYWORDS'              => '',
+'HELP_MANUFACTURER_SEO_KEYWORDS'              => 'Тези ключови думи са интегрирани в HTML кода на страницата на производителя ( Meta ключови думи) и се използват от интернет търсачките. Подходящите ключови думи за производителя могат да бъдат въведени тук. Ако полето е празно, ключовите думи се генерират автоматично.',
 
-'HELP_MANUFACTURER_SEO_DESCRIPTION'           => '',
+'HELP_MANUFACTURER_SEO_DESCRIPTION'           => 'Това описание е интегрирано в HTML кода на страницата на производителя ( Meta описание) и се използва от интернет търсачките. Подходящо описание може да бъде въведено тук. Ако полето е празно, описанието се генерира автоматично.',
 
-'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => '',
+'HELP_MANUFACTURER_SEO_SHOWSUFFIX'            => 'Тази настройка позволява в браузъра да се види думичката след името на производителя, когато страницата се отвори. Каква да е думичката след името на производителя, може да изберете в <span class="navipath_or_inputname">Основни настройки -> Централни настройки-> SEO -> Дума след името</span>.',
 
-'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => '',
+'HELP_VOUCHERSERIE_MAIN_DISCOUNT'             => 'В <span class="navipath_or_inputname">Discount</span>, се уточнява размера на намалението. От дропдаун менюто може да се избере дали отстъпката да е абсолютно число, или процент от цената:<ul><li><span class="userinput_or_code">abs</span>: Отстъпката е абсолютно число, напр. EUR 5.</li><li><span class="userinput_or_code">%</span>: Отстъпката е в проценти, напр. 10% от стойността на покупката.</li></ul>',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWSAMESERIES'      => 'Уточнете дали потребителите могат да използват няколко ваучера от една и съща поредица в една поръчка.',
 
-'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => '',
+'HELP_VOUCHERSERIE_MAIN_ALLOWOTHERSERIES'     => 'Уточнете дали потребителите могат да използват заедно ваучери от различни поредици в една поръчка.',
 
-'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => '',
+'HELP_VOUCHERSERIE_MAIN_SAMESEROTHERORDER'    => 'Уточнете дали потребителите могат да използват ваучери от тази поредица в различни поръчки.',
 
-'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => '',
+'HELP_VOUCHERSERIE_MAIN_RANDOMNUM'            => 'Ако настройката е активирана, за всеки ваучер се генерира произволен номер.',
 
-'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => '',
+'HELP_VOUCHERSERIE_MAIN_VOUCHERNUM'           => 'Въведете номер на ваучер. Този номер е нужен при създаването на нови ваучери. Ако полето <span class="navipath_or_inputname">Произволни Номера</span> е деактивирано, всички ваучери получават един и същ номер.',
 
-'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => '',
+'HELP_VOUCHERSERIE_MAIN_CALCULATEONCE'        => 'Ако един ваучер е валиден за продукти или категории, деактивирайте тази опция, за да се прилага ваучера за всеки продукт в кошницата. Активирайте, ако ваучерът ще е валиден само веднъж за цялата кошница.',
 
-'HELP_WRAPPING_MAIN_PICTURE'                  => '',
+'HELP_WRAPPING_MAIN_PICTURE'                  => 'Със <span class="navipath_or_inputname">Снимка</span> и <span class="navipath_or_inputname">Добави Снимка</span> можете да поставите снимка за опаковане на подарък. Изберете снимка в <span class="navipath_or_inputname">Добавете снимка</span>. При клик върху <span class="navipath_or_inputname">Запази</span>, снимката се качва. След качване, името на файла на снимката се вижда в <span class="navipath_or_inputname">Снимка</span>.',
 
-'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => '',
+'HELP_PROMOTIONS_BANNER_PICTUREANDLINK'       => 'Добавете снимка за банера и въведете url, който ще ползва при клик върху банера. Ако към банера има прикачен продукт, и не е въведен url, клик върху банера, ще води до прикачения продукт.',
 
-'HELP_SHOP_PERF_SEO_CACHE'                    => '',
+'HELP_SHOP_PERF_SEO_CACHE'                    => 'Активираният SEO кеш подобрява работата на магазина, но изисква пространство на диска в директория /temp.',
 
-'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => '',
+'HELP_ALTERNATIVE_IMAGE_SERVER_NOTE'          => 'Въведете алтернативен url към външен сървър за снимки в конфигурационния файл config.inc.php <i>sAltImageUrl</i> and <i>sSSLAltImageUrl</i>.<br> Така всички снимки на продуктите ще бъдат добавяни от алтернативен сървър, а не от локалния. Всички добавени файлове се съхраняват локално и при това положение синхронизирането с външния сървър ще трябва да се прави ръчно или посредством специализиран скрипт.',
 
-'HELP_SHOP_RDFA_CONTENT_OFFERER'              => '',
+'HELP_SHOP_RDFA_CONTENT_OFFERER'              => 'Изберете, на коя от страниците със съдържание в магазина ще се вижда, напр."Кои сме ние".',
 
-'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => '',
+'HELP_SHOP_RDFA_CONTENT_PAYMENT'              => 'Изберете на коя от страниците със съдържание да не се показва информация за RDF плащане, напр. "Условия за ползване". За да добавите методи за плащане към RDF методите на плащане като цяло, посете: Настройки на магазина -> Методи на плащане -> RDFa.',
 
-'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => '',
+'HELP_SHOP_RDFA_CONTENT_DELIVERY'             => 'Изберете на коя от страниците със съдържание да не се показва информация за RDF доставка, напр. "Доставка и цени на доставка". За да добавите методи на доставка към RDF методите на плащане като цяло, посете: Настройки на магазина -> Методи на плащане -> RDFa.',
 
-'HELP_SHOP_RDFA_VAT'                          => '',
+'HELP_SHOP_RDFA_VAT'                          => 'Тази опция определя дали данък (ДДС) е включен в цената и в доставката или не.',
 
-'HELP_SHOP_RDFA_DURATION_PRICES'              => '',
+'HELP_SHOP_RDFA_DURATION_PRICES'              => 'В полето укажете времето на валидност на цената на продукта, метода на плащане и доставката (напр. 1 ден, 1 седмица).',
 
-'HELP_SHOP_RDFA_LOGO_URL'                     => '',
+'HELP_SHOP_RDFA_LOGO_URL'                     => 'Уеб адрес (URL) на лого или снимка.',
 
-'HELP_SHOP_RDFA_GEO_LONGITUDE'                => '',
+'HELP_SHOP_RDFA_GEO_LONGITUDE'                => 'Географска дължина на магазина като част гео локацията му. Моля въведете само цифри.',
 
-'HELP_SHOP_RDFA_GEO_LATITUDE'                 => '',
+'HELP_SHOP_RDFA_GEO_LATITUDE'                 => 'Географска ширина на магазина като част от гео позицията на магазина. Моля въведете само цифри.',
 
-'HELP_SHOP_RDFA_GLN'                          => '',
+'HELP_SHOP_RDFA_GLN'                          => 'Световен номер за местоположение (GLN) на компанията. Световен номер за местоположение е тринадесет цифрен код, който се използва за идентифициране на локация.',
 
-'HELP_SHOP_RDFA_NAICS'                        => '',
+'HELP_SHOP_RDFA_NAICS'                        => 'Код за идентификация на вашата компания пред северноамериканската индустриална класификационна система (NAICS).За повече информация вижте http://www.census.gov/eos/www/naics/.',
 
-'HELP_SHOP_RDFA_ISIC'                         => '',
+'HELP_SHOP_RDFA_ISIC'                         => 'Код за идентификация на вашата компания пред Световен стандарт за индустриална класификация на всички икономически дейности (ISIC).За повече информация вижте http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
 
-'HELP_SHOP_RDFA_DUNS'                         => '',
+'HELP_SHOP_RDFA_DUNS'                         => 'Дан и Брадстрийт D-U-N-S е девет цифрено число, използвано за идентификация юридически лица.',
 
-'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => '',
+'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Ако тази опция е активна, видима е реалната наличност на продукта.',
 
-'HELP_SHOP_RDFA_RATING_MIN'                   => '',
+'HELP_SHOP_RDFA_RATING_MIN'                   => 'Възможна минимална стойност се отнася към скалата на рейтингите, използвана в магазина. Тази стойност не е най- ниският съществуващ рейтинг за продукт!',
 
-'HELP_SHOP_RDFA_RATING_MAX'                   => '',
+'HELP_SHOP_RDFA_RATING_MAX'                   => 'Възможна максимална стойност се отнася към скалата на рейтингите, използвана в магазина. Тази стойност не е най- високият съществуващ рейтинг за продукт!',
 
-'HELP_SHOP_RDFA_COND'                         => '',
+'HELP_SHOP_RDFA_COND'                         => 'Избраното тук, описва състоянието на продукта (нов, използван или обновен).',
 
-'HELP_SHOP_RDFA_FNC'                          => '',
+'HELP_SHOP_RDFA_FNC'                          => 'Изберете бизнес функция на продуктите. Напр. дали се предлагат за продажба, на изплащане или за ремонт?',
 
-'HELP_SHOP_RDFA_COSTUMER'                     => '',
+'HELP_SHOP_RDFA_COSTUMER'                     => 'Типът потребител, за който са валидни продуктите в магазина (Краен потребител, Прекупвач, Бизнес и/или Всички).',
 
-'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => '',
+'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Определя времето на валидност на един продукт, напр. 1 ден, 1 седмица или 1 месец.',
 
-'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Стартира проверка за правилна работа на системата и показва съобщения при необходимост, когато администратор достъпи началната страница. При някои специални конфигурации, това може да има ефект върху работата на администраторския панел.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'При изчисляването се използва ДДС на продуктите с най- голяма нетна стойност в кошницата.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Процентът на продукти в кошницата с едно и също ДДС се използва за изчисляване.',
 
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Цените на продуктите на фронтенда на магазина се виждат като нетни цени.',
 
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => '',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'В администраторския панел цените на продуктите трябва да са въведени като нетни.',
 
-'HELP_REVERSE_PROXY_GET_FRONTEND'             => '',
+'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Проверява дали има налично Reverse Proxy за фронтенд. Верифицира се хедъра от началната страница на магазина. <br> Тестът може да не издържи, ако са използвани различни протоколи или домейни (http/https) за администраторския панел и за фронтенда на магазина.',
 
-'HELP_REVERSE_PROXY_GET_BACKEND'              => '',
+'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Администраторския панел се визуализира без Reverse Proxy. Varnish хедър не може да бъде получен.',
 
-'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => '',
+'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'IBAN и BIC могат да бъдат въведени само по време на чекаута. Номер на банкова сметка и банков код могат да бъдат въведени само, ако тази настройка не е активирана.',
 
-'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => '',
+'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Ако опцията е активна, потребителите трябва да потвърдят условията за ползване на продукти без физическа форма и на такива за изтегляне в четвъртата стъпка на чекаут процеса. Моля уверете се, че тази опция е активирана за отделния продукт също!',
 
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Уточнете полетата във формата за контакт, която потребителят се налага да попълни.',
 ];
