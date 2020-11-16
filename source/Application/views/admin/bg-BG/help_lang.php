@@ -432,15 +432,15 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_FNC'                          => 'Изберете бизнес функция на продуктите. Напр. дали се предлагат за продажба, на изплащане или за ремонт?',
 
-'HELP_SHOP_RDFA_COSTUMER'                     => '',
+'HELP_SHOP_RDFA_COSTUMER'                     => 'Типът потребител, за който са валидни продуктите в магазина (Краен потребител, Прекупвач, Бизнес и/или Всички).',
 
-'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => '',
+'HELP_SHOP_RDFA_DURATION_OFFERINGS'           => 'Определя времето на валидност на един продукт, напр. 1 ден, 1 седмица или 1 месец.',
 
-'HELP_SHOP_PERF_SYSREQ_CHECK'                 => '',
+'HELP_SHOP_PERF_SYSREQ_CHECK'                 => 'Стартира проверка за правилна работа на системата и показва съобщения при необходимост, когато администратор достъпи началната страница. При някои специални конфигурации, това може да има ефект върху работата на администраторския панел.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_BIGGEST_NET'  => 'При изчисляването се използва ДДС на продуктите с най- голяма нетна стойност в кошницата.',
 
-'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => '',
+'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Процентът на продукти в кошницата с едно и също ДДС се използва за изчисляване.',
 
 'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
 
