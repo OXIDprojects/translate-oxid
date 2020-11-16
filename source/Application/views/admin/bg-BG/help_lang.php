@@ -442,17 +442,17 @@ $aLang =  [
 
 'HELP_SHOP_CONFIG_ADDITIONAL_SERVICE_VAT_CALCULATION_PROPORTIONAL' => 'Процентът на продукти в кошницата с едно и също ДДС се използва за изчисляване.',
 
-'HELP_SHOP_CONFIG_VIEWNETPRICE'               => '',
+'HELP_SHOP_CONFIG_VIEWNETPRICE'               => 'Цените на продуктите на фронтенда на магазина се виждат като нетни цени.',
 
-'HELP_SHOP_CONFIG_ENTERNETPRICE'              => '',
+'HELP_SHOP_CONFIG_ENTERNETPRICE'              => 'В администраторския панел цените на продуктите трябва да са въведени като нетни.',
 
-'HELP_REVERSE_PROXY_GET_FRONTEND'             => '',
+'HELP_REVERSE_PROXY_GET_FRONTEND'             => 'Проверява дали има налично Reverse Proxy за фронтенд. Верифицира се хедъра от началната страница на магазина. <br> Тестът може да не издържи, ако са използвани различни протоколи или домейни (http/https) за администраторския панел и за фронтенда на магазина.',
 
-'HELP_REVERSE_PROXY_GET_BACKEND'              => '',
+'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Администраторския панел се визуализира без Reverse Proxy. Varnish хедър не може да бъде получен.',
 
-'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => '',
+'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'IBAN и BIC могат да бъдат въведени само по време на чекаута. Номер на банкова сметка и банков код могат да бъдат въведени само, ако тази настройка не е активирана.',
 
-'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => '',
+'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Ако опцията е активна, потребителите трябва да потвърдят условията за ползване на продукти без физическа форма и на такива за изтегляне в четвъртата стъпка на чекаут процеса. Моля уверете се, че тази опция е активирана за отделния продукт също!',
 
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Уточнете полетата във формата за контакт, която потребителят се налага да попълни.',
 ];
