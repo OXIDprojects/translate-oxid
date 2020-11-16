@@ -420,9 +420,9 @@ $aLang =  [
 
 'HELP_SHOP_RDFA_ISIC'                         => 'Код за идентификация на вашата компания пред Световен стандарт за индустриална класификация на всички икономически дейности (ISIC).За повече информация вижте http://unstats.un.org/unsd/cr/registry/isic-4.asp.',
 
-'HELP_SHOP_RDFA_DUNS'                         => '',
+'HELP_SHOP_RDFA_DUNS'                         => 'Дан и Брадстрийт D-U-N-S е девет цифрено число, използвано за идентификация юридически лица.',
 
-'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => '',
+'HELP_SHOP_RDFA_SHOW_PRODUCTSTOCK'            => 'Ако тази опция е активна, видима е реалната наличност на продукта.',
 
 'HELP_SHOP_RDFA_RATING_MIN'                   => '',
 
