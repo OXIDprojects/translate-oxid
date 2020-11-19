@@ -636,8 +636,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Todos los países',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Los países afectados',
     'DISCOUNT_LIST_MENUITEM'                    => 'Configuración de Tienda',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Error: El valor del campo "%s" debe ser un número.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Error: el valor del campo "%s" debe ser único.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Descuentos',
     'DISCOUNT_MAIN_AFROM'                       => '(De)',
     'DISCOUNT_MAIN_ATILL'                       => '(Para)',
@@ -719,7 +719,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Metadatos no válidos en la sección de extensión. Las siguientes clases extendidas de la tienda están mal escritas o no pertenecen al espacio de nombres unificado: <br>%s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Por favor, no olvides actualizar las vistas de base de datos en Servicio -> Herramientas",
     'LANGUAGE_ACTIVE'                                => 'Activo en frontend',
     'LANGUAGE_LIST_MENUITEM'                         => 'Maestro Configuración',
@@ -776,7 +776,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Historia',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "HealthCheck sistema muestra de instalación / configuración del servidor de este eShop OXID puede ser roto. Probablemente este eShop OXID se comporta extraño en algunos casos. Por favor, corrija esto tan pronto como sea posible. Apoyo para la fijación de encontrar en",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "sistema de HealthCheck.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Se ha desactivado la comprobación permanente del estado del sistema. Puede reactivarlo en el Perform. pestaña en Configuración -> Configuración principal. Para comprobarlo de todos modos, haga clic en este enlace:",
     'NAVIGATION_SHOPFRONT'                           => "Pagina de inicio de tienda",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Su boletín ha sido enviado.',
@@ -1044,13 +1044,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'ID de Impuestos',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Productivo modo',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Configuración principal',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Permitir que los usuarios de la tienda eliminen su cuenta',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV Char de Im / exportación de separación',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'CSV-encloser de Im / Exportar',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'Cuando los productos se copian: No coloque copia del producto para activar',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Permitir la recomendación de los productos',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Número de líneas que se exportan por garrapatas en formato CSV Exportar',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'Configuración del IVA para Faktura Lexware (software alemán de Contabilidad)',
@@ -1132,7 +1132,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Búsqueda',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Listmanía (resumen)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Listmanía (productos)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Permitir una conexión a los servidores de OXID eSales para mejorar la calidad de nuestros productos de código abierto.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Buscar actualizaciones con regularidad',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Seleccione los componentes eShop',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Desactivar chequeo online de IVA ID',
@@ -1152,8 +1152,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Usar sólo IBAN/BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'URL de seguimiento del proveedor de envío',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Valor de configuración proporcionado en: % no es válido.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Activar reseñas de usuarios y calificaciones con estrellas',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Incluya un enlace a los comentarios de productos en el correo electrónico del pedido.',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Número de atributos de la igualdad de productos similares (%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Calidad de imagen - de 0 (mala calidad Tamaño pequeño archivo) a 100 (mejor calidad de gran tamaño del archivo)',
@@ -1197,7 +1197,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '- Nuevas -',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Palabras reservadas (son automáticamente el sufijo)',
     'SHOP_SEO_SKIPTAGS'                       => 'Palabras que son ignoradas en la creación automática de Meta-tags.',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'URL de SEO en minúsculas',
     'SHOP_LICENSE_SERIAL'                     => 'Claves de licencia instalada',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Añadir claves de licencia',
     'SHOP_LICENSE_VERSION'                    => 'Versión eShop',
@@ -1737,14 +1737,14 @@ $aLang = [
 
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'La licencia de tu tienda Oxid ha expirado. Por favor, contacta con el soporte técnico.',
-    'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => '',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'La clave de licencia de su eShop OXID está vencida. OXID eShop se desconectará en 24 horas. Introduzca una clave de licencia válida o póngase en contacto con el servicio de asistencia técnica.',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Una nueva comprobación dio como resultado que la clave de licencia de su eShop OXID es ahora válida. Por eso se canceló la cuenta regresiva oculta de siete días.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Se produjo un problema con la clave de licencia de su OXID eShop. Es por eso que se inició una cuenta regresiva oculta de 7 días. Después de este período, OXID eShop se desconectará. ¡Ingrese nuevamente la clave de licencia válida o comuníquese con el soporte técnico!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'La clave de licencia de su OXID eShop expiró. Es por eso que se inició una cuenta regresiva oculta de 7 días. Después de este período, OXID eShop se desconectará. ¡Ingrese una clave de licencia válida o póngase en contacto con el soporte técnico!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Se excedió el número de sub-tiendas con licencia. Es por eso que se inició una cuenta regresiva oculta de 7 días. Después de este período, OXID eShop se desconectará. ¡Ingrese una clave de licencia válida o póngase en contacto con el soporte técnico!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'Información de licencia de OXID eShop',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Este correo electrónico fue enviado desde la tienda%s.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Mundial',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Búsqueda',
@@ -1762,7 +1762,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Invitaciones',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Productos descargables',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Información de cuenta de banco (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Configuraciones de la cuenta',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Asignación de grupos de usuarios',
     'PROMOTION_LIST_ALL'          => 'Todos los',
@@ -1880,7 +1880,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Asunto',
 
     'SHOP_PERF_SEO_CACHE'                        => 'Activar cache SEO',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'Habilitar los mensajes de estado del sistema en la página de inicio',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'El manejo de temas y módulos han sido movidos al nuevo menu "Extensiones"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Tema no debería estar definido en config.inc.php',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Alerta de precio en',
@@ -1997,17 +1997,17 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Error: módulo no activado. <br/> Todas las claves y valores del controlador deben ser únicos en una tienda o sub-tienda. <br/> Las siguientes claves o valores de controlador definidos en metadata.php de este módulo no son únicos: < br/>%s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Campos obligatorios del formulario de contacto',
+    'EMAIL'                          => 'Correo electrónico',
     'FIRST_NAME'                     => 'Nombre',
     'LAST_NAME'                      => 'Apellido',
     'TITLE'                          => 'Título',
     'SUBJECT'                        => 'Asunto',
     'MESSAGE'                        => 'Mensaje',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Error al obtener la información de la versión',
+    'CURL_EXECUTE_ERROR' => 'Error de conexión (%s). Por favor, inténtelo de nuevo más tarde',
 ];
 
 /*
