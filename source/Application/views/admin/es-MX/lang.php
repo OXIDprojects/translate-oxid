@@ -6,6 +6,7 @@
 
 $sLangName = 'Español de América';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -63,7 +64,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXSHOPID'          => 'Identno tienda.',
     'GENERAL_ARTICLE_OXPARENTID'        => 'Identificador Principal del Producto',
     'GENERAL_ARTICLE_OXACTIVE'          => 'Activo',
-    'GENERAL_ARTICLE_OXHIDDEN'          => '',
+    'GENERAL_ARTICLE_OXHIDDEN'          => 'Ocultar',
     'GENERAL_ARTICLE_OXSHORTDESC'       => 'Breve descripción',
     'GENERAL_ARTICLE_OXLONGDESC'        => 'Descripción detallada',
     'GENERAL_ARTICLE_OXPRICE'           => 'Precio',
@@ -127,7 +128,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Umbral de inventario stock',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'oxamitemid',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'oxamtaskid',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Precio máximo de todas las variantes',
     'GENERAL_ARTICLE_OXVENDORID'        => 'ID Vendedor',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'ID de fabricante',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Variante contar',
@@ -314,10 +315,11 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Contador máximo de descargas para usuarios no registrados',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Tiempo de expiración del enlace de descargas',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Tiempo de expiración del enlace de descarga después de la primera descarga',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Solo el administrador del centro comercial puede cambiar las promociones a nivel mundial.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Por favor selecciona en la lista de arriba para realizar cambios',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Todos los productos',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Productos Destacados',
+    'ACTIONS_LIST_MENUITEM'                     => 'Información del cliente',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Promociones',
     'ADMINLINKS_LIST_TITLE'                     => '[Links de Administración OXID]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Información del cliente',
@@ -395,7 +397,7 @@ $aLang = [
     'ARTICLE_MAIN_ACTIVETO'                     => 'Para',
     'ARTICLE_MAIN_ACTIVEFROM'                   => 'Desde',
     'ARTICLE_MAIN_ACTIVE'                       => 'Activo',
-    'ARTICLE_MAIN_HIDDEN'                       => '',
+    'ARTICLE_MAIN_HIDDEN'                       => 'Ocultar',
     'ARTICLE_MAIN_SHORTDESC'                    => 'Descripción corta',
     'ARTICLE_MAIN_PRICEA'                       => 'Precio A:',
     'ARTICLE_MAIN_PRICEB'                       => 'Precio B:',
@@ -416,9 +418,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'Man. EAN',
     'ARTICLE_MAIN_MPN'                          => 'Nº Pieza fabricante (NPM)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Fabricante',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Este precio se hereda de las variantes del producto.' .
+                                                   '<ul><li>Dependiendo de la configuración de la tienda, se ingresa / muestra el precio neto o el precio bruto.</li>' .
+                                                   '<li>El precio bruto siempre se muestra entre paréntesis.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Creación de producto',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Última modificación',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Posición de ventas clasificación',
@@ -636,8 +638,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Todos los países',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Los países afectados',
     'DISCOUNT_LIST_MENUITEM'                    => 'Configuración de tienda',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Error: El valor del campo "%s" debe ser un número.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Error: el valor del campo "%s" debe ser único.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Descuentos',
     'DISCOUNT_MAIN_AFROM'                       => '(De)',
     'DISCOUNT_MAIN_ATILL'                       => '(Para)',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Todos los usuarios',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Asignación de grupos de usuarios',
     'DISCOUNT_USERS_SETUSER'                    => 'Asignación de usuario',
-    'DYN_ECONDA_ACTIVE'                         => 'Activar Control Web Econda?',
-    'DYN_ECONDA_ATTENTION'                      => 'Nota:',
-    'DYN_ECONDA_COPY_FILE'                      => 'Tienes que copiar el archivo "emos2.js" el cuál recibirás desde Econda en el directorio %s',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Activar Control Web Econda?',
+        'DYN_ECONDA_ATTENTION'                      => 'Nota:',
+        'DYN_ECONDA_COPY_FILE'                      => 'Tienes que copiar el archivo "emos2.js" el cuál recibirás desde Econda en el directorio %s',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Añadir parámetro de categoría a la campaña',
     'DYNBASE_DO_SUCCESS'                             => 'Éxito! Tu archivo de exportación puede ser descargado <a href="%s" target="blank">aquí</a>',
     'DYNBASE_DO_LINK'                                => 'El socio también puede recoger este mismo archivo - por favor ten en cuenta los siguientes enlaces:',
-    'DYNSCREEN_TITLE'                                => 'comercialización',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Área de Servicio',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'comercialización',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Área de Servicio',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b> Nota: </b> Si necesitas preservar el salto de líneas (por ejemplo, en emails de texto ascii), por favor usa la pestaña de código HTML en lugar de Diseño.',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b> Nota:</b> Configuración alternativa en el servidor de imágenes detectada, los archivos no se subirán a la ubicación remota. Por favor ten cuidado con la sincronización manual.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Este usuario ya existe!',
@@ -691,7 +700,7 @@ $aLang = [
     'EXCEPTION_SYSTEMCOMPONENT_TEMPLATENOTFOUND'     => 'Plantilla "%s" no encontrada',
     'EXCEPTION_DISABLED_DOWNLOADABLE_PRODUCTS'       => 'Para usar esta característica en el portal de consumidores, tienes que habilitar la opción \'Habilita productos descargables\' en la configuración maestra -> Configuración de núcleo -> Configuración -> Productos descargables.',
     'ERROR_MESSAGE_SYSTEMCOMPONENT_CLASSNOTFOUND'    => 'Clase "%s" no encontrada',
-    'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'        => '',
+    'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'        => 'Clase %s no encontrada',
     'ERROR_MESSAGE_SYSTEMCOMPONENT_FUNCTIONNOTFOUND' => 'Función "%s" no encontrada',
     'THEME_AUTHOR'                                   => 'Autor',
     'THEME_VERSION'                                  => 'Versión',
@@ -719,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Metadatos no válidos en la sección de extensión. Las siguientes clases extendidas de la tienda están mal escritas o no pertenecen al espacio de nombres unificado: <br>%s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Por favor, no olvides actualizar las vistas de la base de datos en Servicio -> Herramientas",
     'LANGUAGE_ACTIVE'                                => 'Activo en frontend (portal de consumidores)',
     'LANGUAGE_LIST_MENUITEM'                         => 'Maestro de Configuración',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Por favor, escribe el nombre del idioma!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '¡Abreviatura de idioma no válida! Los caracteres permitidos son a-z, A-Z, 0-9 y el guion bajo.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Por favor, elimina el directorio de instalación!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Por favor, elimina el directorio: updateApp!',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'Debido a razones de seguridad se ha puesto el archivo config.inc.php modo de sólo lectura!',
     'LOGIN_TITLE'                                    => 'Sesión OXID eSales',
     'LOGIN_ERROR'                                    => '¡Error! Usuario o contraseña incorrectos!',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Desconectarse',
     'NAVIGATION_HOME'                                => 'Inicio',
     'NAVIGATION_PAGE'                                => 'Página',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versión% s está disponible.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Noticias Administración]',
     'NEWS_LIST_SHORTTEXT'                            => 'Título',
+    'NEWS_LIST_MENUITEM'                             => 'Información del cliente',
     'NEWS_LIST_MENUSUBITEM'                          => 'Noticias',
     'NEWS_MAIN_SHORTDESC'                            => 'Título',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible para los grupos',
@@ -776,12 +791,13 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Historia',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Muestra de instalación del sistema HealthCheck / configuración del servidor de este OXID eShop OXID ser rota. Probablemente este OXID eShop se comporta erráticamente en algunos casos. Por favor, corrije esto tan pronto como sea posible. Puedes encontrar apoyo para la instalación en",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "sistema HealthCheck.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Se ha desactivado la comprobación permanente del estado del sistema. Puede reactivarlo en el Perform. pestaña en Configuración -> Configuración principal. Para comprobarlo de todos modos, haga clic en este enlace:",
     'NAVIGATION_SHOPFRONT'                           => "Pagina de inicio de tienda",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Su boletín ha sido enviado.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'ir al boletín',
     'NEWSLETTER_DONE_TITLE'                              => 'Boletín OXID',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Información del cliente',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Boletín',
     'NEWSLETTER_MAIN_MODEL'                              => 'Muestra',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Ejemplo de texto sin formato',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Fecha de envío',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Precio fijado por el cliente',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Reg. Precio',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Información del cliente',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Precio de alerta',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'Precio de alerta OXID eSales',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Hay',
@@ -1044,13 +1061,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'ID de Impuestos',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Productivo modo',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Configuración principal',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Permitir que los usuarios de la tienda eliminen su cuenta',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV char de Im / exportación de separación',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'CSV-encloser de Im / Exportar',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'Cuando los productos se copian: No coloque copia del producto para activar',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Permitir la recomendación de los productos',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Número de líneas que se exportan por garrapatas en formato CSV Exportar',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'Configuración del IVA para Faktura Lexware (software Alemán de contabilidad)',
@@ -1132,7 +1149,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Búsqueda',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Listmanía (resumen)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Listmanía (productos)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Permitir una conexión a los servidores de OXID eSales para mejorar la calidad de nuestros productos de código abierto.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Buscar actualizaciones con regularidad',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Seleccione los componentes eShop',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Desactivar chequeo online de ID IVA',
@@ -1152,8 +1169,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Usar sólo IBAN/BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'URL de seguimiento del proveedor de envío',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Valor de configuración proporcionado en: % no es válido.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Activar reseñas de usuarios y calificaciones con estrellas',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Incluya un enlace a los comentarios de productos en el correo electrónico del pedido.',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Número de atributos de la igualdad de productos similares (%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Calidad de imagen - de 0 (mala calidad Tamaño pequeño archivo) a 100 (mejor calidad de gran tamaño del archivo)',
@@ -1197,7 +1214,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '- Nuevas -',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Palabras reservadas (son automáticamente el sufijo)',
     'SHOP_SEO_SKIPTAGS'                       => 'Palabras que son ignoradas en la creación automática de Meta-tags.',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'URL de SEO en minúsculas',
     'SHOP_LICENSE_SERIAL'                     => 'Clave de licencia instalada',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Añadir claves de licencia',
     'SHOP_LICENSE_VERSION'                    => 'Versión eShop',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Verificación Activo desde / a al cargar los productos',
     'SHOP_PERF_DISBASKETSAVING'               => 'Don  t guardar carros de la compra de los usuarios registrados',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Ocultar columna izquierda',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'Servicios de comercio electrónico',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Algo de información general sobre los servicios de comercio electrónico...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'Servicios de comercio electrónico',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Algo de información general sobre los servicios de comercio electrónico...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Servicio',
     'GENIMPORT_MENUSUBITEM'                   => 'Importación genérica',
     'GENIMPORT_STEP_1_TITLE'                  => 'Subir archivo CSV',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Fabricantes',
     'mxvouchers'               => 'Promocional de la serie',
     'mxwrapping'               => 'Envoltura de regalos',
-    'mxdynscreenlocal'         => 'Servicios de información',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Servicios de información',
+    // END deprecated
+
     'mxoxexchange'             => 'Intercambio OXID',
     'mxnewsletter'             => 'Boletín',
     'mxorderovw'               => 'Resumen del pedido',
@@ -1738,13 +1763,13 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'La licencia de tu tienda OXID ha expirado. Contacta a Soporte Técnico.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'La licencia de tu tienda OXID ha expirado. OXID eShop saldra de linea en 24 horas. Por favor escribe una licencia válida o contacta a soporte técnico!',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Una nueva comprobación dio como resultado que la clave de licencia de su eShop OXID es ahora válida. Por eso se canceló la cuenta regresiva oculta de siete días.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Existe un problema con su clave de licencia OXID. Por eso un contador de 7 días fue activado. Luego de este período, el eShop OXID será desactivado. Por favor, escribe una licencia válida o contacta a soporte técnico!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'La licencia del eShop ha expirado. Por eso un contador de 7 días fue activado. Luego de este período, el eShop OXID será desactivado. Por favor, escribe una licencia válida o contacta a soporte técnico!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Número de sub-tiendas licenciables excedido. Por eso un contador de 7 días fue activado. Luego de este período, el eShop OXID será desactivado. Por favor, escribe una licencia válida o contacta a soporte técnico!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'Información de licencia OXID eShop',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Este correo electrónico fue enviado desde la tienda%s.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Mundial',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Búsqueda',
@@ -1762,7 +1787,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Invitaciones',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Productos descargables',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Información de cuenta de banco (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Configuraciones de la cuenta',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Asignación de grupos de usuarios',
     'PROMOTION_LIST_ALL'          => 'Todos los',
@@ -1880,7 +1905,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Asunto',
 
     'SHOP_PERF_SEO_CACHE'                        => 'Activar cache SEO',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'Habilitar los mensajes de estado del sistema en la página de inicio',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'El manejo de temas y módulos ha sido movido al nuevo menú "Extensiones"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Tema no debería estar definido en config.inc.php',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Alerta de precio en',
@@ -1997,17 +2022,17 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Error: módulo no activado. <br/> Todas las claves y valores del controlador deben ser únicos en una tienda o sub-tienda. <br/> Las siguientes claves o valores de controlador definidos en metadata.php de este módulo no son únicos: < br/>%s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Campos obligatorios del formulario de contacto',
+    'EMAIL'                          => 'Correo electrónico',
     'FIRST_NAME'                     => 'Nombre',
     'LAST_NAME'                      => 'Apellido',
     'TITLE'                          => 'Título',
     'SUBJECT'                        => 'Asunto',
     'MESSAGE'                        => 'Mensaje',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Error al obtener la información de la versión',
+    'CURL_EXECUTE_ERROR' => 'Error de conexión (%s). Por favor, inténtelo de nuevo más tarde',
 ];
 
 /*
