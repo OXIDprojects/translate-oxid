@@ -6,6 +6,7 @@
 
 $sLangName = 'Ελληνικά';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Παρακαλώ επιλέξτε κάποιο στοιχείο από την παραπάνω λίστα για να κάνετε αλλαγές',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Διαθέσιμα προιόντα',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Προωθούμενα προιόντα',
+    'ACTIONS_LIST_MENUITEM'                     => 'Πληροφορίες Πελάτη',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Προώθηση',
     'ADMINLINKS_LIST_TITLE'                     => '',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Πληροφορίες Πελάτη',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Όλοι οι Χρήστες',
     'DISCOUNT_USERS_SETGROUPS'                  => '',
     'DISCOUNT_USERS_SETUSER'                    => '',
-    'DYN_ECONDA_ACTIVE'                         => '',
-    'DYN_ECONDA_ATTENTION'                      => '',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => '',
+        'DYN_ECONDA_ATTENTION'                      => '',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => '',
     'DYNBASE_DO_SUCCESS'                             => '',
     'DYNBASE_DO_LINK'                                => '',
-    'DYNSCREEN_TITLE'                                => '',
-    'DYNSCREEN_LIST_SERVICE'                         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => '',
+        'DYNSCREEN_LIST_SERVICE'                         => '',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b> Σημείωση: </ b>Ανιχνεύτηκε εναλλακτική διαμόρφωση διακομιστή για τις εικόνες, τα αρχεία δεν θα φορτωθούν στην απομακρυσμένη τοποθεσία. Παρακαλούμε να φροντίστε να κάνετε το συγχρονισμό χειροκίνητα.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Αυτός ο χρήστης υπάρχει ήδη!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => '',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => '',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => '',
     'LOGIN_TITLE'                                    => '',
     'LOGIN_ERROR'                                    => '',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Αποσύνδεση',
     'NAVIGATION_HOME'                                => 'Αρχική',
     'NAVIGATION_PAGE'                                => 'Σελίδα',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => '',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Τίτλος',
+    'NEWS_LIST_MENUITEM'                             => 'Πληροφορίες Πελάτη',
     'NEWS_LIST_MENUSUBITEM'                          => 'Ειδήσεις',
     'NEWS_MAIN_SHORTDESC'                            => 'Τίτλος',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Ορατό για την Ομάδα Χρηστών',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => '',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => '',
     'NEWSLETTER_DONE_TITLE'                              => '',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Πληροφορίες Πελάτη',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Ενημερωτικό Δελτίο',
     'NEWSLETTER_MAIN_MODEL'                              => 'Δείγμα',
     'NEWSLETTER_PLAIN_TEXT'                              => '',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => '',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => '',
     'PRICEALARM_LIST_STANDARTPRICE'                      => '',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Πληροφορίες Πελάτη',
     'PRICEALARM_LIST_MENUSUBITEM'                        => '',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => '',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Υπάρχουν',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => '',
     'SHOP_PERF_DISBASKETSAVING'               => '',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => '',
-    'DYNSCREEN_LOCAL_TEXT'                    => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => '',
+        'DYNSCREEN_LOCAL_TEXT'                    => '',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => '',
     'GENIMPORT_MENUSUBITEM'                   => 'Γενική Εισαγωγή',
     'GENIMPORT_STEP_1_TITLE'                  => 'Ανέβασμα αρχείου CSV',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => '',
     'mxvouchers'               => 'Σειρές Κουπονιού',
     'mxwrapping'               => '',
-    'mxdynscreenlocal'         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => '',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Ενημερωτικό Δελτίο',
     'mxorderovw'               => '',
