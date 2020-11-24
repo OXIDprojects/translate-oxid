@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s ist verfügbar!',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Du verwendest Version %s, Version %s ist jetzt verfügbar. Bitte aktualisiere jetzt.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Newsverwaltung]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titel',
