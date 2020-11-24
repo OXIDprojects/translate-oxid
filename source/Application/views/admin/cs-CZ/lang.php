@@ -6,6 +6,7 @@
 
 $sLangName = 'Česky';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Prosím vyberte jednu možnost',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Všechny dostupné produkty',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produkty s parametry',
+    'ACTIONS_LIST_MENUITEM'                     => 'Informace o zákazníkovi',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Spravovat akce',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Administrace odkazů]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Informace o zákazníkovi',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Všichni uživatelé',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Přiřazené skupiny uživatelů',
     'DISCOUNT_USERS_SETUSER'                    => 'Přiřazení uživatelé',
-    'DYN_ECONDA_ACTIVE'                         => 'Aktivace Econda WebControlling?',
-    'DYN_ECONDA_ATTENTION'                      => 'Vezměte prosím na vědomí:',
-    'DYN_ECONDA_COPY_FILE'                      => 'Musíte zkopírovat soubor "emos2.js" , který dostanete z Econda do adresáře %s',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Aktivace Econda WebControlling?',
+        'DYN_ECONDA_ATTENTION'                      => 'Vezměte prosím na vědomí:',
+        'DYN_ECONDA_COPY_FILE'                      => 'Musíte zkopírovat soubor "emos2.js" , který dostanete z Econda do adresáře %s',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Přidat kategorii do parametru kampaně',
     'DYNBASE_DO_SUCCESS'                             => 'OK! Vámi vyexportovaný soubor může být stažen <a href="%s" target="blank">zde</a>',
     'DYNBASE_DO_LINK'                                => 'Váš partner si soubor může stáhnout sám pomocí následujícího odkazu:',
-    'DYNSCREEN_TITLE'                                => 'marketing',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Služby',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'marketing',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Služby',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Poznámka:</b> Pokud ptřebujete vložit konec řádků (např. do plaintextového emailu), prosím použijte záložku "html kód" raději než "Design".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Poznámka:</b> Je nakonfigurován alternativní server s obrázky. Bohužel soubory nebudou nahrány do úložiště. Proveďte prosím manuální synchronizaci.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Tento uživatel již existuje!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Prosím zadejte název jazyka!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => 'Zkratka jazyka je nepřípustná! Povoleny jsou znaky a-z, A-Z, 0-9 a podtržítko.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Prosím odstraňte instalační adresář: setup',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Odstraňte prosím adresář: updateApp!',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'Z bezpečnostních důvodů nastavte soubor config.inc.php pouze pro čtení!',
     'LOGIN_TITLE'                                    => 'Přihlášení',
     'LOGIN_ERROR'                                    => 'Chyba! Špatný email nebo heslo!',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Odhlášení',
     'NAVIGATION_HOME'                                => 'Domů',
     'NAVIGATION_PAGE'                                => 'Strana',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Je dostupná verze %s.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Administrace OXID Novinek]',
     'NEWS_LIST_SHORTTEXT'                            => 'Krátký popis',
+    'NEWS_LIST_MENUITEM'                             => 'Informace o zákazníkovi',
     'NEWS_LIST_MENUSUBITEM'                          => 'Zprávy',
     'NEWS_MAIN_SHORTDESC'                            => 'Přehled',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Viditelné pro uživatelskou skupinu',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Novinky byly odeslány.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'přejít na Novinky',
     'NEWSLETTER_DONE_TITLE'                              => 'OXID Novinky',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Informace o zákazníkovi',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Novinky',
     'NEWSLETTER_MAIN_MODEL'                              => 'Ukázka',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Textová ukázka',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Dtum odeslání',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Zákaznická cena',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Běžná cena',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Informace o zákazníkovi',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Cenový alarm',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'OXID eShop Cenový alarm',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Připraveny',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Používat časově omezenou platnost zboží',
     'SHOP_PERF_DISBASKETSAVING'               => 'Nedovolit uživatelům ukládat jejich nákupní košíky',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Skrýt levý sloupec',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'eCommerce služby',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Obecné informace o službách eCommerce...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'eCommerce služby',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Obecné informace o službách eCommerce...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Služby',
     'GENIMPORT_MENUSUBITEM'                   => 'Obecný import',
     'GENIMPORT_STEP_1_TITLE'                  => 'Načíst CSV soubor',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Výrobci',
     'mxvouchers'               => 'Série poukázek',
     'mxwrapping'               => 'Dárkové balení',
-    'mxdynscreenlocal'         => 'Informace o službách',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Informace o službách',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Novinky emailem',
     'mxorderovw'               => 'Souhrn objednávek',
