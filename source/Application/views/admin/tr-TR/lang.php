@@ -6,6 +6,7 @@
 
 $sLangName = 'Türkçe';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Lütfen değiştirmek istediğiniz şekli seçiniz',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Tüm mevcut Ürünler',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Tanımlanmış Ürün',
+    'ACTIONS_LIST_MENUITEM'                     => 'Müşteri Bilgisi',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Aktionen yönet',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Link yönetimi]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Müşteri Bilgisi',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Tüm Kullanıcı',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Tanımlanmış Kullanıcı Grupları',
     'DISCOUNT_USERS_SETUSER'                    => 'Tanımlanmış Kullanıcı',
-    'DYN_ECONDA_ACTIVE'                         => '',
-    'DYN_ECONDA_ATTENTION'                      => 'Lütfen not düşünüz:',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => '',
+        'DYN_ECONDA_ATTENTION'                      => 'Lütfen not düşünüz:',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Ana Kategori Kampanya parametresine ekle',
     'DYNBASE_DO_SUCCESS'                             => 'Başarı! Dosyanızı dışarıya aktarabilirsiniz <a href="%s" target="blank">here</a>',
     'DYNBASE_DO_LINK'                                => 'Partner bu dosyayı kendiside alabilir - Lütfen bu Linki veriniz:',
-    'DYNSCREEN_TITLE'                                => 'pazarlama',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Servis Bölgesi',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'pazarlama',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Servis Bölgesi',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Uyarı:</b> Paragrafları değiştirilmeden kullanılmasını istiyorsanız (örn. yanlızca Metin Mailleri için), ozaman "Design" yerine "Source" kullanınız.',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Uyarı:</b> Online-Shop harici bir sunucudan ürün resimleri yüklemek için yapılandırıldı.Ama dosyalar kaydedilemedi. Lütfen el ile gercekleştirilen senkronizasyondan emin olun.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Bu kullanıcı zaten var!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Lütfen bu dil için bir İsim giriniz!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Lütfen yükleme dizinini siliniz',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Lütfen updateApp-dizinini siliniz',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'ÖNEMLİ: Güvenlik açısından config.inc.php Dosyasını salt okunur Moduna alınız!',
     'LOGIN_TITLE'                                    => 'E-Mağaza Kullanıcı Girişi',
     'LOGIN_ERROR'                                    => 'Hata! Yanlış Kullanıcı İsmi yada Şifre.',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Çıkış',
     'NAVIGATION_HOME'                                => 'Ana Sayfa',
     'NAVIGATION_PAGE'                                => 'Sayfa',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s mevcut!',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Haber Yönetimi]',
     'NEWS_LIST_SHORTTEXT'                            => 'Başlık',
+    'NEWS_LIST_MENUITEM'                             => 'Müşteri Bilgisi',
     'NEWS_LIST_MENUSUBITEM'                          => 'Mesajlar',
     'NEWS_MAIN_SHORTDESC'                            => 'Başlık',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Kullanıcı Grubuna görünür',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'E-Bülteniniz gönderildi.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'lütfen E-Bültene gidiniz',
     'NEWSLETTER_DONE_TITLE'                              => 'E-Bülten',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Müşteri Bilgisi',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'E-Bülten',
     'NEWSLETTER_MAIN_MODEL'                              => 'Örnek',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Salt-Metin-Örneği',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Gönderi Tarihi',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Müşteri Fiyatı',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Standard Fiyatı',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Müşteri Bilgisi',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Fiyat alarmı',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'OXID eSales Fiyat alarmı',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Şu anda',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Ürünü Yüklerken "Aktif başlangıç/son" a dikkat et',
     'SHOP_PERF_DISBASKETSAVING'               => 'Kayıtlı Müşterilerin Sepetini <strong>kaydetme</strong>',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'eCommerce Servisler',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'E-Commerce Servisler hakkında genel bilgiler ...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'eCommerce Servisler',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'E-Commerce Servisler hakkında genel bilgiler ...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Servis',
     'GENIMPORT_MENUSUBITEM'                   => 'Genel Import',
     'GENIMPORT_STEP_1_TITLE'                  => 'CSV-Dosya yükle',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Üretici',
     'mxvouchers'               => 'Hediye Çeki Serileri',
     'mxwrapping'               => 'Hediye Paketi',
-    'mxdynscreenlocal'         => 'Genel Bilgi',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Genel Bilgi',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'E-Bülten',
     'mxorderovw'               => 'Sipariş Özeti',
