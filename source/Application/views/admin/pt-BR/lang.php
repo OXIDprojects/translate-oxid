@@ -6,6 +6,7 @@
 
 $sLangName = 'Português do Brasil';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Favor selecione uma ação na lista acima para editar',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Todos os produtos disponíveis',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produtos em destaque',
+    'ACTIONS_LIST_MENUITEM'                     => 'Informações do cliente',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'administrar promoçoes',
     'ADMINLINKS_LIST_TITLE'                     => '[Administração dos Links]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Informações do cliente',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => '',
     'DISCOUNT_USERS_SETGROUPS'                  => '',
     'DISCOUNT_USERS_SETUSER'                    => '',
-    'DYN_ECONDA_ACTIVE'                         => '',
-    'DYN_ECONDA_ATTENTION'                      => '',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => '',
+        'DYN_ECONDA_ATTENTION'                      => '',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => '',
     'DYNBASE_DO_SUCCESS'                             => '',
     'DYNBASE_DO_LINK'                                => '',
-    'DYNSCREEN_TITLE'                                => '',
-    'DYNSCREEN_LIST_SERVICE'                         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => '',
+        'DYNSCREEN_LIST_SERVICE'                         => '',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Nota:</b> O Shop está configurado para carregar imagens de produtos de um servidor externo. Os arquivos não são enviados para este local. Por favor, certificar a sincronização manual.',
     'EXCEPTION_USER_USEREXISTS'                      => '',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => '',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => '',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => '',
     'LOGIN_TITLE'                                    => '',
     'LOGIN_ERROR'                                    => '',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => '',
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Página',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => '',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Titúlo',
+    'NEWS_LIST_MENUITEM'                             => 'Informações do cliente',
     'NEWS_LIST_MENUSUBITEM'                          => 'Novidades',
     'NEWS_MAIN_SHORTDESC'                            => 'Titúlo',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => '',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => '',
     'NEWSLETTER_DONE_TITLE'                              => '',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Informações do cliente',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Notícias',
     'NEWSLETTER_MAIN_MODEL'                              => '',
     'NEWSLETTER_PLAIN_TEXT'                              => '',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => '',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => '',
     'PRICEALARM_LIST_STANDARTPRICE'                      => '',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Informações do cliente',
     'PRICEALARM_LIST_MENUSUBITEM'                        => '',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => '',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => '',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => '',
     'SHOP_PERF_DISBASKETSAVING'               => '',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => '',
-    'DYNSCREEN_LOCAL_TEXT'                    => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => '',
+        'DYNSCREEN_LOCAL_TEXT'                    => '',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Serviço',
     'GENIMPORT_MENUSUBITEM'                   => '',
     'GENIMPORT_STEP_1_TITLE'                  => '',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => '',
     'mxvouchers'               => '',
     'mxwrapping'               => 'Embrulho para Presente',
-    'mxdynscreenlocal'         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => '',
+    // END deprecated
+
     'mxoxexchange'             => '',
     'mxnewsletter'             => 'Notícias',
     'mxorderovw'               => '',
