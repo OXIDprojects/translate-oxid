@@ -274,7 +274,7 @@ $aLang = [
 'MESSAGE_COUPON_EXPIRED'                                      => 'Kupona derīguma termiņš ir beidzies.',
 'MESSAGE_COUPON_NOT_APPLIED_FOR_ARTICLES'                     => '',
 'MESSAGE_DENIED_BY_SHOP_RULES'                                => '',
-'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'E-pasta adrese, kuru Jūs norādījāt, jau ir lietošanā.',
+'MESSAGE_EMAIL_ALREADY_IN_USE'                                => '',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
 'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Ievadiet savu adresi un ziņojumu mums.',
 /** end deprecated */
@@ -757,6 +757,8 @@ $aLang = [
 'DISTRIBUTORS'                                                => '',
 'MANUFACTURERS'                                               => '',
 'SERVICES'                                                    => '',
+'FORM_FIELDSET_USER_SHIPPING_ADDITIONALINFO2_TOOLTIP'         => '', // this is specifically for DHL
+'FORM_FIELDSET_USER_BILLING_ADDITIONALINFO_TOOLTIP'           => '', // this is specifically for DHL
 'FORM_SUGGEST_MESSAGE1'                                       => '',
 'FORM_SUGGEST_MESSAGE2'                                       => '',
 'SHOP_SUGGEST_MESSAGE'                                        => '',
