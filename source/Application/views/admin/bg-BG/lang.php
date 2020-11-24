@@ -6,6 +6,7 @@
 
 $sLangName = 'Български';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Моля, изберете една от списъка по-горе, за да направите промени',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Всички налични продукти',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Продукти в промоция',
+    'ACTIONS_LIST_MENUITEM'                     => 'Информация за клиента',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'ПромоциИ',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Връзка към администрацията]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Информация за клиента',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Всички потребители',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Добавени групи от потребители',
     'DISCOUNT_USERS_SETUSER'                    => 'Добавени потребители',
-    'DYN_ECONDA_ACTIVE'                         => 'Да активирам ли Econda уебконтрол?',
-    'DYN_ECONDA_ATTENTION'                      => 'Моля обърнете внимание:',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Да активирам ли Econda уебконтрол?',
+        'DYN_ECONDA_ATTENTION'                      => 'Моля обърнете внимание:',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Добави категория в параметрите на кампанията',
     'DYNBASE_DO_SUCCESS'                             => 'Готово!Вашия файл може да бъде свален от <a href="%s" target="blank">тук</a>',
     'DYNBASE_DO_LINK'                                => '',
-    'DYNSCREEN_TITLE'                                => 'маркетинг',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Зона на обслужване',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'маркетинг',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Зона на обслужване',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => 'Алтернативен сървър',
     'EXCEPTION_USER_USEREXISTS'                      => '',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => '',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => '',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => '',
     'LOGIN_TITLE'                                    => '',
     'LOGIN_ERROR'                                    => '',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => '',
     'NAVIGATION_HOME'                                => 'начало',
     'NAVIGATION_PAGE'                                => 'Страница',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => '',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => 'Име',
+    'NEWS_LIST_MENUITEM'                             => 'Информация за клиента',
     'NEWS_LIST_MENUSUBITEM'                          => 'Новини',
     'NEWS_MAIN_SHORTDESC'                            => 'Име',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => '',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => '',
     'NEWSLETTER_DONE_TITLE'                              => '',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Информация за клиента',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Новини',
     'NEWSLETTER_MAIN_MODEL'                              => '',
     'NEWSLETTER_PLAIN_TEXT'                              => '',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => '',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => '',
     'PRICEALARM_LIST_STANDARTPRICE'                      => '',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Информация за клиента',
     'PRICEALARM_LIST_MENUSUBITEM'                        => '',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => '',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => '',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => '',
     'SHOP_PERF_DISBASKETSAVING'               => '',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'e-commerce услуги',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Обща информация за e-commerce услугите',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'e-commerce услуги',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Обща информация за e-commerce услугите',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => '',
     'GENIMPORT_MENUSUBITEM'                   => '',
     'GENIMPORT_STEP_1_TITLE'                  => '',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => '',
     'mxvouchers'               => '',
     'mxwrapping'               => '',
-    'mxdynscreenlocal'         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => '',
+    // END deprecated
+
     'mxoxexchange'             => '',
     'mxnewsletter'             => 'Новини',
     'mxorderovw'               => '',
