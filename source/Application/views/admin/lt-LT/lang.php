@@ -6,6 +6,7 @@
 
 $sLangName = 'Lietuvių';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Prašome pažymėti vieną iš sąrašo, norint atlikti pakeitimus',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Visos turimos prekės',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Akcijinės prekės',
+    'ACTIONS_LIST_MENUITEM'                     => 'Inform. klientams',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Akcijų valdymas',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Nuorodų valdymas]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Inform. klientams',
@@ -646,21 +648,28 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'DISCOUNT_MAIN_PRICE'                       => 'Pirkimo kainai',
     'DISCOUNT_MAIN_REBATE'                      => 'Nuolaida',
     'DISCOUNT_MAIN_EXTRA'                       => 'Priedas',
-    'DISCOUNT_MAIN_SORT'                        => '',
+    'DISCOUNT_MAIN_SORT'                        => 'Rikiavimas',
     'DISCOUNT_MAIN_MULTIPLY_DISCOUNT_ARTICLES'  => 'Didinti',
     'DISCOUNT_MAIN_MULTIPLY_DISCOUNT_AMOUNT'    => 'Kiekis',
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Visi vartotojai',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Priskirtos grupės',
     'DISCOUNT_USERS_SETUSER'                    => 'Priskirti vartotojai',
-    'DYN_ECONDA_ACTIVE'                         => '',
-    'DYN_ECONDA_ATTENTION'                      => '',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => '',
+        'DYN_ECONDA_ATTENTION'                      => '',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Įtraukti kategorijas į kampanijos parametrus',
     'DYNBASE_DO_SUCCESS'                             => 'Jūsų eksportuoti duomenys sėkmingai perkelti',
     'DYNBASE_DO_LINK'                                => 'Šią bylą gali pristatyti ir partneris - prašome spausti šią nuorodą:',
-    'DYNSCREEN_TITLE'                                => 'rinkodara',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Paslaugos',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'rinkodara',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Paslaugos',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Pastaba:</b> Jei norite išsaugoti teksto eilutės (pvz.: paprastas el. paštas), prašome naudoti (html kodą) vietoj (Dizaino).',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Dėmesio:</b> Sukonfigūruotas atskiras paveikslėlių serveris. Failai į nutolusį serverį nebus keliami. Jūs turite patys pasirūpinti sinchronizacija.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Šis vartotojas jau egzistuoja!',
@@ -742,7 +751,9 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Prašome įvesti kalbos pavadinimą!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Prašome ištrinti katalogą: setup!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Prašome ištrinti katalogą: updateApp!',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'Dėl saugumo įdėkite config.inc.php failą skaitymo rėžimu!',
     'LOGIN_TITLE'                                    => 'OXID eSales prisijungimas',
     'LOGIN_ERROR'                                    => 'Klaida! Neteisingas vartotojo vardas / ar slaptažodis!',
@@ -762,10 +773,14 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'NAVIGATION_LOGOUT'                              => 'Atsijungti',
     'NAVIGATION_HOME'                                => 'Pradžia',
     'NAVIGATION_PAGE'                                => 'Puslapis',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versija %s yra pasiekiama.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Naujienų administravimas]',
     'NEWS_LIST_SHORTTEXT'                            => 'Trumpas aprašymas',
+    'NEWS_LIST_MENUITEM'                             => 'Inform. klientams',
     'NEWS_LIST_MENUSUBITEM'                          => 'Naujienos',
     'NEWS_MAIN_SHORTDESC'                            => 'Antraštė',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Matomos šioms grupėms',
@@ -783,6 +798,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Jūsų naujienlaiškis buvo išsiųstas.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'į naujienlaiškį',
     'NEWSLETTER_DONE_TITLE'                              => 'OXID Naujienlaiškis',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Inform. klientams',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Naujienlaiškis',
     'NEWSLETTER_MAIN_MODEL'                              => 'Pavyzdys',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Paprastas testinis pavyzdys',
@@ -898,6 +914,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'PRICEALARM_LIST_SENDDATE'                           => 'Pristatymo data',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Kliento kaina',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Pard. kaina',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Inform. klientams',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Siūlyk kainą',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'OXID eSales Siūlyk kainą',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Viso el. laiškų paruošta siuntimui',
@@ -929,7 +946,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'ROLES_FEMAIN_ACTIVE'                                => 'Aktyvus',
     'ROLES_BEMAIN_TITLE'                                 => 'Antraštė',
     'ROLES_BEMAIN_UIINFO'                                => '',
-    'ROLES_BEMAIN_ACTIVE'                                => '',
+    'ROLES_BEMAIN_ACTIVE'                                => 'Aktyvus',
     'ROLES_BEMAIN_UIROOTHEADER'                          => '',
     'ROLES_BEMAIN_UIRIGHT_F'                             => '',
     'ROLES_BEMAIN_UIRIGHT_R'                             => '',
@@ -1484,8 +1501,12 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Tikrinti "Aktyvumą" kai keliamos prekės',
     'SHOP_PERF_DISBASKETSAVING'               => 'Nesaugoti prekių krepšelio neregistruotų vartotojų',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Paslėpti kairę koloną',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'E-komercijos paslaugos',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Bendra informacija apie e-komercijos paslaugas',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'E-komercijos paslaugos',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Bendra informacija apie e-komercijos paslaugas',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Paslaugos',
     'GENIMPORT_MENUSUBITEM'                   => 'Generuoti importą',
     'GENIMPORT_STEP_1_TITLE'                  => 'Įkelti CSV bylą',
@@ -1562,7 +1583,11 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'mxmanufacturer'           => 'Gamintojai',
     'mxvouchers'               => 'Kuponai',
     'mxwrapping'               => 'Pakavimo paslaugos',
-    'mxdynscreenlocal'         => 'Paslaugų infor.',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Paslaugų infor.',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID pasikeitimas',
     'mxnewsletter'             => 'Naujienlaiškiai',
     'mxorderovw'               => 'Suvestinė',

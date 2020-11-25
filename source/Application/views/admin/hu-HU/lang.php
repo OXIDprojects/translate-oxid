@@ -6,6 +6,7 @@
 
 $sLangName = 'Magyar';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Kérem válasszon a fenti listából egy akciót a további beállításhoz.',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Összes rendelkezésre álló termék',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Hozzárendelt termékek',
+    'ACTIONS_LIST_MENUITEM'                     => 'Ügyféinformáció',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Akciók kezelése',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Linkkezelés]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Ügyféinformáció',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Összes felhasználó',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Hozzárendelt felhasználócsoportok',
     'DISCOUNT_USERS_SETUSER'                    => 'Hozzárendelt felhasználó',
-    'DYN_ECONDA_ACTIVE'                         => 'ECONDA Webcontrolling aktiválása',
-    'DYN_ECONDA_ATTENTION'                      => 'Kérem figyeljen arra,:',
-    'DYN_ECONDA_COPY_FILE'                      => 'Be kell másolnia a "emos2.js" fájlt, amelyet az ECONDA-tól kap a, %s könyvtárba',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'ECONDA Webcontrolling aktiválása',
+        'DYN_ECONDA_ATTENTION'                      => 'Kérem figyeljen arra,:',
+        'DYN_ECONDA_COPY_FILE'                      => 'Be kell másolnia a "emos2.js" fájlt, amelyet az ECONDA-tól kap a, %s könyvtárba',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Főkategória hozzárendelése a kampányparaméterhez',
     'DYNBASE_DO_SUCCESS'                             => 'Végrehajtva! Az exportfálj letölthető: <a href="%s" target="_blank">itt</a>.',
     'DYNBASE_DO_LINK'                                => 'A partner le tudja tölteni a fájlt - Kérem kövesse a linket:',
-    'DYNSCREEN_TITLE'                                => 'marketing',
-    'DYNSCREEN_LIST_SERVICE'                         => 'kezelőfelület',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'marketing',
+        'DYNSCREEN_LIST_SERVICE'                         => 'kezelőfelület',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Megjegyzés:</b> Ha a sortördelést változtatás nélkül át szeretné venni, (pl.: a text E-Mail-eknél), akkor használja a "Source"-t a "Design" helyett.',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>INFORMÁCIÓ:</b> A shop úgy lett beállítva, hogy a termékképek egy külső szerverről töltődnek be. Az adatok viszont nem ide lesznek feltöltve. Biztosítsa a kézi szinkronizációt.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Ez a felhasználó már regisztrálva van nálunk!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Kérem, adja meg a nyelv nevét!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => 'A nyelv rövidített válzozata nem megengedett! Engedélyezett karakterek a-z, A-Z, 0-9 és az aláhúzás karakter _.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Kérem törölje a telepítő könyvtárat!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Kérem, törölje az updateApp-könyvtárat',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'Fontos: Biztonsági okokból állítsa a config.inc.php fájlt csak olvasás (444)-CHMOD-ra!',
     'LOGIN_TITLE'                                    => 'Belépés',
     'LOGIN_ERROR'                                    => 'Hiba! Hibás Felhasználó név és/vagy Jelszó.',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Kijelentkezés',
     'NAVIGATION_HOME'                                => 'Start',
     'NAVIGATION_PAGE'                                => 'Oldal',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Verzió %s elérhető!',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Hírkezelő]',
     'NEWS_LIST_SHORTTEXT'                            => 'Megnevezés',
+    'NEWS_LIST_MENUITEM'                             => 'Ügyféinformáció',
     'NEWS_LIST_MENUSUBITEM'                          => 'Hírek',
     'NEWS_MAIN_SHORTDESC'                            => 'Megnevezés',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Látható a felhasználói csoport részére',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Az Ön hírlevele elküldve.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'Menjen a Hírlevelekhez',
     'NEWSLETTER_DONE_TITLE'                              => 'oxid Hírlevél',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Ügyféinformáció',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Hírlevél',
     'NEWSLETTER_MAIN_MODEL'                              => 'Minta',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Átlagos-szöveg-Minta',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Küldés dátuma',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Ügyfél ár',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Alapértelmezett ár',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Ügyféinformáció',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Áralku',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'Áralku',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'A következők',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'A termékek betöltésénél figyelembe venni "Aktív -tól/-ig"',
     'SHOP_PERF_DISBASKETSAVING'               => 'Bejelentkezett felhasználó kosarának tartalma <strong>ne</strong> kerüljön mentésre',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'A baloldali oszlop elrejtése',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'E-Commerce Szervíz',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Néhány általános információ az E-commerce szervízhez...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'E-Commerce Szervíz',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Néhány általános információ az E-commerce szervízhez...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Szervíz',
     'GENIMPORT_MENUSUBITEM'                   => 'Gener. Import',
     'GENIMPORT_STEP_1_TITLE'                  => 'CSV-fájl feltöltése',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Gyártók',
     'mxvouchers'               => 'Utalványsorozatok',
     'mxwrapping'               => 'Díszcsomagolás',
-    'mxdynscreenlocal'         => 'Általános információ',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Általános információ',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Hírlevél',
     'mxorderovw'               => 'Megrendelések áttekintése',

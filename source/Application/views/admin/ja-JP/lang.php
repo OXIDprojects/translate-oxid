@@ -6,6 +6,7 @@
 
 $sLangName = '日本語';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => '変更を加えるには上記のリストから一つ選択してください',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'すべての可能な製品',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'プロモーションしている製品',
+    'ACTIONS_LIST_MENUITEM'                     => 'カスタマー情報',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'プロモーション',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID リンク管理]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'カスタマー情報',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'すべてのユーザー',
     'DISCOUNT_USERS_SETGROUPS'                  => '割り当て済みのユーザーグループ',
     'DISCOUNT_USERS_SETUSER'                    => '割り当て済みのユーザー',
-    'DYN_ECONDA_ACTIVE'                         => '',
-    'DYN_ECONDA_ATTENTION'                      => '',
-    'DYN_ECONDA_COPY_FILE'                      => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => '',
+        'DYN_ECONDA_ATTENTION'                      => '',
+        'DYN_ECONDA_COPY_FILE'                      => '',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'キャンペーンのパラメーターにカテゴリーを追加',
     'DYNBASE_DO_SUCCESS'                             => 'エクスポートファイルをダウンロードできました。',
     'DYNBASE_DO_LINK'                                => 'パートナーはこのファイルをピックアップできます - 次のリンクを見てください:',
-    'DYNSCREEN_TITLE'                                => 'マーケティング',
-    'DYNSCREEN_LIST_SERVICE'                         => 'サービスエリア',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'マーケティング',
+        'DYNSCREEN_LIST_SERVICE'                         => 'サービスエリア',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>備考:</b> もしテキスト行でメールのようなテキストを保護する場合、"Design"の代わりに"html CODE"のタブを使用してください。',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>注意:</b> 代わりのイメージサーバー構成が検出されました、ファイルはリモート先へアップロードされません。手動で同期をとりながら注意してください。',
     'EXCEPTION_USER_USEREXISTS'                      => 'このユーザーは既に存在しています',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '言語名を入力してください',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'ディレクトリ: セットアップを削除してください',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'ディレクトリ: アップデートアプリを削除してください',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'セキュリティの理由でconfig.inc.phpファイルをリードオンリーモードに設定してください',
     'LOGIN_TITLE'                                    => 'OXID eSales ログイン',
     'LOGIN_ERROR'                                    => 'エラー 不正なユーザー名およびパスワード',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'ログアウト',
     'NAVIGATION_HOME'                                => 'ホーム',
     'NAVIGATION_PAGE'                                => 'ページ',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'バージョン %s が利用可能です。',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID ニュース管理]',
     'NEWS_LIST_SHORTTEXT'                            => 'タイトル',
+    'NEWS_LIST_MENUITEM'                             => 'カスタマー情報',
     'NEWS_LIST_MENUSUBITEM'                          => 'ニュース',
     'NEWS_MAIN_SHORTDESC'                            => 'タイトル',
     'NEWS_MAIN_SHOWFORGROUP'                         => '公開されているユーザーグループ',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'あなたのニュースレターを送信しました。',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'ニュースレターへ',
     'NEWSLETTER_DONE_TITLE'                              => 'OXID ニュースレター',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'カスタマー情報',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'ニュースレター',
     'NEWSLETTER_MAIN_MODEL'                              => 'サンプル',
     'NEWSLETTER_PLAIN_TEXT'                              => 'プレーンテキスト サンプル',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => '発送日',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'カスタマー価格',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Reg. 価格',
+    'PRICEALARM_LIST_MENUITEM'                           => 'カスタマー情報',
     'PRICEALARM_LIST_MENUSUBITEM'                        => '価格アラート',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'OXID eSales 価格アラート',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => '',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => '製品を読み込んでいる時 "アクティブ いつから/いつまで" をチェックする',
     'SHOP_PERF_DISBASKETSAVING'               => '登録ユーザーのショッピングカートは保存できません',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '左のカラムを非表示',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'eコマース サービス',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'eコマースサービスなどについて 一般的な情報 ...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'eコマース サービス',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'eコマースサービスなどについて 一般的な情報 ...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'サービス',
     'GENIMPORT_MENUSUBITEM'                   => '一般的なインポート',
     'GENIMPORT_STEP_1_TITLE'                  => 'アップロードしたCSVファイル',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'メーカー',
     'mxvouchers'               => 'クーポンのシリーズ',
     'mxwrapping'               => 'ギフトラッピング',
-    'mxdynscreenlocal'         => 'サービス情報',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'サービス情報',
+    // END deprecated
+
     'mxoxexchange'             => '',
     'mxnewsletter'             => 'ニュースレター',
     'mxorderovw'               => '注文の概要',

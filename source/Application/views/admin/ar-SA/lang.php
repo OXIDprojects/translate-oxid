@@ -6,6 +6,7 @@
 
 $sLangName = 'العربية';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'الرجاء اختيار واحد من القائمة لإجراء تغييرات',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'جميع المواد',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'المنتجات المروجة',
+    'ACTIONS_LIST_MENUITEM'                     => 'معلومات العملاء',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'أدارة الإجراءات',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID روابط الإدارة]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'معلومات العملاء',
@@ -653,15 +655,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'كل المستخدمين',
     'DISCOUNT_USERS_SETGROUPS'                  => 'مجموعات المستخدم المحددة',
     'DISCOUNT_USERS_SETUSER'                    => 'المستخدمين المحددين',
-    'DYN_ECONDA_ACTIVE'                         => 'تفعيل  مراقبة Econda الشبكة؟',
-    'DYN_ECONDA_ATTENTION'                      => 'يرجى الملاحظة',
-    'DYN_ECONDA_COPY_FILE'                      => 'يجب عليك نسخ الملف "emos2.js" الذي تستلمه من Econda إلى الموجه',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'تفعيل  مراقبة Econda الشبكة؟',
+        'DYN_ECONDA_ATTENTION'                      => 'يرجى الملاحظة',
+        'DYN_ECONDA_COPY_FILE'                      => 'يجب عليك نسخ الملف "emos2.js" الذي تستلمه من Econda إلى الموجه',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'إضافة فئة الى معيار الحملة الاعلانية',
     'DYNBASE_DO_SUCCESS'                             => 'نجاح! ويمكن تحميل ملف التصدير الخاص بك هنا',
     'DYNBASE_DO_LINK'                                => 'يمكن للشريك أيضًا استلام هذا الملف بنفسه - الرجاء ملاحظة الرابط التالي:',
-    'DYNSCREEN_TITLE'                                => 'تسوق',
-    'DYNSCREEN_LIST_SERVICE'                         => 'منطقة الخدمة',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'تسوق',
+        'DYNSCREEN_LIST_SERVICE'                         => 'منطقة الخدمة',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => 'ملاحظة: إذا كنت بحاجة إلى الحفاظ على فواصل أسطر النص (على سبيل المثال ، البريد الإلكتروني العادي) ، فيرجى استخدام علامة التبويب "html CODE" بدلاً من "تصميم".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => 'ملاحظة: تكون الصورة البديلة ملقم التكوين الكشف عن مكان الملفات التي يتم تحميلها إلى البعيد. الرجاء العناية حول المزامنة يدوياً.',
     'EXCEPTION_USER_USEREXISTS'                      => 'هذا المستخدم موجود!',
@@ -743,7 +752,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => '',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => '',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => '',
     'LOGIN_TITLE'                                    => '',
     'LOGIN_ERROR'                                    => '',
@@ -763,10 +774,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => '',
     'NAVIGATION_HOME'                                => '',
     'NAVIGATION_PAGE'                                => '',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => '',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '',
     'NEWS_LIST_SHORTTEXT'                            => '',
+    'NEWS_LIST_MENUITEM'                             => 'معلومات العملاء',
     'NEWS_LIST_MENUSUBITEM'                          => '',
     'NEWS_MAIN_SHORTDESC'                            => '',
     'NEWS_MAIN_SHOWFORGROUP'                         => '',
@@ -784,6 +799,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => '',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => '',
     'NEWSLETTER_DONE_TITLE'                              => '',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'معلومات العملاء',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => '',
     'NEWSLETTER_MAIN_MODEL'                              => '',
     'NEWSLETTER_PLAIN_TEXT'                              => '',
@@ -899,6 +915,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => '',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => '',
     'PRICEALARM_LIST_STANDARTPRICE'                      => '',
+    'PRICEALARM_LIST_MENUITEM'                           => 'معلومات العملاء',
     'PRICEALARM_LIST_MENUSUBITEM'                        => '',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => '',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => '',
@@ -1485,8 +1502,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => '',
     'SHOP_PERF_DISBASKETSAVING'               => '',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'خدمات التجارة الإلكترونية',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'بعض المعلومات العامة حول خدمات التجارة الإلكترونية',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'خدمات التجارة الإلكترونية',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'بعض المعلومات العامة حول خدمات التجارة الإلكترونية',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'الخدمة',
     'GENIMPORT_MENUSUBITEM'                   => 'استيراد عامة',
     'GENIMPORT_STEP_1_TITLE'                  => 'تحميل ملف CSV',
@@ -1563,7 +1584,11 @@ $aLang = [
     'mxmanufacturer'           => '',
     'mxvouchers'               => '',
     'mxwrapping'               => 'تغليف الهدايا',
-    'mxdynscreenlocal'         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => '',
+    // END deprecated
+
     'mxoxexchange'             => '',
     'mxnewsletter'             => '',
     'mxorderovw'               => '',

@@ -6,6 +6,7 @@
 
 $sLangName = 'Română';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Selectați una din liste pentru a modifica',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Toate produsele disponibile',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produse promovate',
+    'ACTIONS_LIST_MENUITEM'                     => 'Informații client',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Promoții',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Administrare legături]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Informații client',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Toti Utilizatorii',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Grupuri de Utilizatori Alocate',
     'DISCOUNT_USERS_SETUSER'                    => 'Utilizatori Alocati',
-    'DYN_ECONDA_ACTIVE'                         => 'Activeazi Enconda Web control ?',
-    'DYN_ECONDA_ATTENTION'                      => 'Va rugam sa retineti:',
-    'DYN_ECONDA_COPY_FILE'                      => 'Trebuie sa copiezi fisierul "emos2.js" pe care o primesti de la Econda in directorul %s',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Activeazi Enconda Web control ?',
+        'DYN_ECONDA_ATTENTION'                      => 'Va rugam sa retineti:',
+        'DYN_ECONDA_COPY_FILE'                      => 'Trebuie sa copiezi fisierul "emos2.js" pe care o primesti de la Econda in directorul %s',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Adaugati categorie in parametrul campaniei',
     'DYNBASE_DO_SUCCESS'                             => 'Succes! Fisierul dvs. de Export poate fi descarcat',
     'DYNBASE_DO_LINK'                                => 'Partnerul poate lua singur acest fisier  - va rugam notati urmatorul Link:',
-    'DYNSCREEN_TITLE'                                => 'marketing',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Zonă asistență',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'marketing',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Zonă asistență',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Note:</b> Dca doriti pastrarea pauzelor in liniile text (ex. E-mailuri plaintext ), va rugam utililizati tab "html CODE" in loculul "Design".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Notă:</b>
 Am detectat alternative de configurare ale serverului imagine, fișierele nu vor fi încărcate. Vă rugăm să încercați o sincronizare manuală.',
@@ -742,7 +751,9 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => '',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => '',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Va rugam stergeti directorul: setup!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => '',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => '',
     'LOGIN_TITLE'                                    => 'Q4Shop eSales Login',
     'LOGIN_ERROR'                                    => 'Eroare !Nume si/sau Parola Incorecte !',
@@ -762,10 +773,14 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'NAVIGATION_LOGOUT'                              => 'Iesire',
     'NAVIGATION_HOME'                                => 'Acasa',
     'NAVIGATION_PAGE'                                => 'Pagina',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versionea %s este disponibila.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Q4Shop News Administration]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titlu',
+    'NEWS_LIST_MENUITEM'                             => 'Informații client',
     'NEWS_LIST_MENUSUBITEM'                          => 'Mesaje',
     'NEWS_MAIN_SHORTDESC'                            => 'Titlu',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Vizibil pentru Grup Utilizatori',
@@ -783,6 +798,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Newsletter trimis.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'mergi la Newsletter',
     'NEWSLETTER_DONE_TITLE'                              => 'Q4Shop Newsletter',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Informații client',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Buletin informativ',
     'NEWSLETTER_MAIN_MODEL'                              => 'Exemplu',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Exemplu Plain Text',
@@ -898,6 +914,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'PRICEALARM_LIST_SENDDATE'                           => 'data Livrarii',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Pret Client',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Pret Inreg.',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Informații client',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Alerta Pret',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'Alerta Pret Q4Shop',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Sunt',
@@ -1484,8 +1501,12 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Bifeaza "Activ De La/Pana" cand incarci Produse',
     'SHOP_PERF_DISBASKETSAVING'               => 'Nu salva Cosul utilizatorilor inregistrati',
     'SHOP_PERF_HIDELEFTCOLUMN'                => '',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'Servicii e-commerce',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Cateva informatii generale despre serviciile de e-commerce...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'Servicii e-commerce',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Cateva informatii generale despre serviciile de e-commerce...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Servici',
     'GENIMPORT_MENUSUBITEM'                   => '',
     'GENIMPORT_STEP_1_TITLE'                  => 'Incarcare fisier CSV',
@@ -1562,7 +1583,11 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'mxmanufacturer'           => 'Producatori',
     'mxvouchers'               => 'Serii de Cupoane',
     'mxwrapping'               => 'Impachetare Cadou',
-    'mxdynscreenlocal'         => '',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => '',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Buletin informativ',
     'mxorderovw'               => 'Total Comenzi',

@@ -6,6 +6,7 @@
 
 $sLangName = 'Русский';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Выберите позицию из списка выше, чтобы внести изменения',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Все доступные товары',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Продвигаемые товары',
+    'ACTIONS_LIST_MENUITEM'                     => 'Информация для клиентов',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Продвижение',
     'ADMINLINKS_LIST_TITLE'                     => '[Администрирование ссылок]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Информация для клиентов',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Все пользователи',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Заданные группы пользователей',
     'DISCOUNT_USERS_SETUSER'                    => 'Назначенные пользователи',
-    'DYN_ECONDA_ACTIVE'                         => 'Активировать Econda Webcontrolling?',
-    'DYN_ECONDA_ATTENTION'                      => 'Обратите внимание:',
-    'DYN_ECONDA_COPY_FILE'                      => 'Скопируйте файл "emos2.js", полученный от Econda, в директорию %s',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Активировать Econda Webcontrolling?',
+        'DYN_ECONDA_ATTENTION'                      => 'Обратите внимание:',
+        'DYN_ECONDA_COPY_FILE'                      => 'Скопируйте файл "emos2.js", полученный от Econda, в директорию %s',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Добавить категорию к параметрам кампании',
     'DYNBASE_DO_SUCCESS'                             => 'Успех! Пожалуйста, скачите ваш експорт файл <a href="%s" target="_blank">здесь</a>',
     'DYNBASE_DO_LINK'                                => 'Партнер может скачать этот файл самостоятельно - пожалуйста отправьте ему следующую ссылку:',
-    'DYNSCREEN_TITLE'                                => 'Маркетинг',
-    'DYNSCREEN_LIST_SERVICE'                         => 'зона обслуживания',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'Маркетинг',
+        'DYNSCREEN_LIST_SERVICE'                         => 'зона обслуживания',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Примечание:</b> Если вам нужно сохранить текст разрывы строк (например, e.g. plaintext e-mails), пожалуйста, используйте вкладку "HTML код", а не "Дизайн".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Примечание:</b>По конфигурации сервера фалы не могут быть отгружены удаленно. Пожалуйста, позаботьтесь о синхронизации вручную.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Такой пользователь уже существует!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Введите название языка!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => 'Аббревиатура языка некорректна: используйте символы a-z, A-Z, 0-9 и нижнее подчёркивание.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Удалите папку setup!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Удалите директорию: updateApp!',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'В целях безопасности установите права доступа к файлу config.inc.php ТОЛЬКО ЧТЕНИЕ',
     'LOGIN_TITLE'                                    => 'OXID eShop логин',
     'LOGIN_ERROR'                                    => 'Ошибка! Неправильное имя пользователя и/или пароль!',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Выйти',
     'NAVIGATION_HOME'                                => 'Главная',
     'NAVIGATION_PAGE'                                => 'Страница',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Доступна %s версия.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Администрирование новостей]',
     'NEWS_LIST_SHORTTEXT'                            => 'Заглавие',
+    'NEWS_LIST_MENUITEM'                             => 'Информация для клиентов',
     'NEWS_LIST_MENUSUBITEM'                          => 'Новости',
     'NEWS_MAIN_SHORTDESC'                            => 'Заглавие',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Видимый для группы пользователей',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Ваш бюллетень был отправлен.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'Перейти к Новостям',
     'NEWSLETTER_DONE_TITLE'                              => 'Рассылка OXID',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Информация для клиентов',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Новости',
     'NEWSLETTER_MAIN_MODEL'                              => 'Образец',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Обычный Текст Образец',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Дата доставки',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Цена клиента',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Цена магазина',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Информация для клиентов',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Уведомление о скидке',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'Оповещение о цене OXID eSales',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'Имеется',
@@ -1484,8 +1501,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Учитывать время добавления товара при создании списков',
     'SHOP_PERF_DISBASKETSAVING'               => 'Не сохранять корзину для зарегистрированных пользователей',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Скрыть левый блок',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'Службы электронной коммерции',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Информация о службах электронной коммерции...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'Службы электронной коммерции',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Информация о службах электронной коммерции...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Сервис',
     'GENIMPORT_MENUSUBITEM'                   => 'Общий импорт',
     'GENIMPORT_STEP_1_TITLE'                  => 'Загрузить CSV файл',
@@ -1562,7 +1583,11 @@ $aLang = [
     'mxmanufacturer'           => 'Производители',
     'mxvouchers'               => 'Купоны',
     'mxwrapping'               => 'Подарочная упаковка',
-    'mxdynscreenlocal'         => 'Информация об услугах',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Информация об услугах',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Рассылка новостей',
     'mxorderovw'               => 'Список заказов',

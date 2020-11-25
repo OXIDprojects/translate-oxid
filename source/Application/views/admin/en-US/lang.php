@@ -6,6 +6,7 @@
 
 $sLangName = 'English (United States)';
 
+
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
 // -------------------------------
@@ -318,6 +319,7 @@ $aLang = [
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Please select one from above list to make changes',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'All available Products',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Promoted Products',
+    'ACTIONS_LIST_MENUITEM'                     => 'Customer Information',
     'ACTIONS_LIST_MENUSUBITEM'                  => 'Promotions',
     'ADMINLINKS_LIST_TITLE'                     => '[OXID Links Administration]',
     'ADMINLINKS_LIST_MENUITEM'                  => 'Customer Information',
@@ -651,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'All Users',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Assigned User Groups',
     'DISCOUNT_USERS_SETUSER'                    => 'Assigned Users',
-    'DYN_ECONDA_ACTIVE'                         => 'Activate Econda web analysis?',
-    'DYN_ECONDA_ATTENTION'                      => 'Please note:',
-    'DYN_ECONDA_COPY_FILE'                      => 'You have to copy the file "emos2.js" which you receive from Econda into the directory %s',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'Activate Econda web analysis?',
+        'DYN_ECONDA_ATTENTION'                      => 'Please note:',
+        'DYN_ECONDA_COPY_FILE'                      => 'You have to copy the file "emos2.js" which you receive from Econda into the directory %s',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Add category to campaign parameter',
     'DYNBASE_DO_SUCCESS'                             => 'Success! Your export file can be downloaded <a href="%s" target="blank">here</a>',
     'DYNBASE_DO_LINK'                                => 'The Partner can also pick-up this file himself - please note following Link:',
-    'DYNSCREEN_TITLE'                                => 'marketing',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Service Area',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'marketing',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Service Area',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Note:</b> If you need to preserve text line breaks (e.g. plaintext e-mails), please use tab "html CODE" instead of "Design".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Note:</b> Alternative image server configuration detected, files will not be uploaded to remote location. Please take care about synchronization manually.',
     'EXCEPTION_USER_USEREXISTS'                      => 'This user allready exists!',
@@ -741,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Please enter language name!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => 'Language abbreviation invalid! Permitted characters are a-z, A-Z, 0-9 and the underscore.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Please delete directory: setup!',
+    // deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Please delete directory: updateApp!',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'Due to security reasons put your config.inc.php file to read-only mode!',
     'LOGIN_TITLE'                                    => 'OXID eShop Login',
     'LOGIN_ERROR'                                    => 'Error! Incorrect username and/or password!',
@@ -761,10 +772,14 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Logout',
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Page',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s is available.',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'You are using version %s, version %s is now available. Please update now.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID News Administration]',
     'NEWS_LIST_SHORTTEXT'                            => 'Title',
+    'NEWS_LIST_MENUITEM'                             => 'Customer Information',
     'NEWS_LIST_MENUSUBITEM'                          => 'News',
     'NEWS_MAIN_SHORTDESC'                            => 'Title',
     'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible for User Group',
@@ -782,6 +797,7 @@ $aLang = [
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Your Newsletter has been sent.',
     'NEWSLETTER_DONE_GOTONEWSLETTER'                     => 'go to Newsletter',
     'NEWSLETTER_DONE_TITLE'                              => 'OXID Newsletter',
+    'NEWSLETTER_LIST_MENUITEM'                           => 'Customer Information',
     'NEWSLETTER_LIST_MENUSUBITEM'                        => 'Newsletter',
     'NEWSLETTER_MAIN_MODEL'                              => 'Sample',
     'NEWSLETTER_PLAIN_TEXT'                              => 'Plain Text Sample',
@@ -897,6 +913,7 @@ $aLang = [
     'PRICEALARM_LIST_SENDDATE'                           => 'Shipping Date',
     'PRICEALARM_LIST_CUSTOMERSPRICE'                     => 'Cust. Price',
     'PRICEALARM_LIST_STANDARTPRICE'                      => 'Reg. Price',
+    'PRICEALARM_LIST_MENUITEM'                           => 'Customer Information',
     'PRICEALARM_LIST_MENUSUBITEM'                        => 'Price Alert',
     'PRICEALARM_MAIL_OXIDPRICEALARM'                     => 'OXID eSales Price Alert',
     'PRICEALARM_MAIL_OPENEMAILS1'                        => 'There are',
@@ -1483,8 +1500,12 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Check "Active From/To" when loading Products',
     'SHOP_PERF_DISBASKETSAVING'               => 'Don\'t save Shopping Carts of registered Users',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Hide left column',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'e-commerce Services',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Some general info about e-commerce services ...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'e-commerce Services',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Some general info about e-commerce services ...',
+    // END deprecated
+
     'GENIMPORT_MENUITEM'                      => 'Service',
     'GENIMPORT_MENUSUBITEM'                   => 'Generic Import',
     'GENIMPORT_STEP_1_TITLE'                  => 'Uploading CSV file',
@@ -1561,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Brands/Manufacturers',
     'mxvouchers'               => 'Coupon Series',
     'mxwrapping'               => 'Gift Wrapping',
-    'mxdynscreenlocal'         => 'Services info',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'Services info',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Newsletter',
     'mxorderovw'               => 'Order Summary',
