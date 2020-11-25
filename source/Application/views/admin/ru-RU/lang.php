@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Доступна %s версия.',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Вы используете версию %s, версия %s доступна. Пожалуйста, обновите сейчас.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Администрирование новостей]',
     'NEWS_LIST_SHORTTEXT'                            => 'Заглавие',
