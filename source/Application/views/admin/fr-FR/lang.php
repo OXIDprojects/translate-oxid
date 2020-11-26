@@ -638,8 +638,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Tous les Pays',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Pays concernés',
     'DISCOUNT_LIST_MENUITEM'                    => 'Paramètres de la boutique',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Erreur : La valeur du champ "%s" doit être un nombre.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Erreur : La valeur du champ "%s" doit être unique.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Promotions',
     'DISCOUNT_MAIN_AFROM'                       => '(De)',
     'DISCOUNT_MAIN_ATILL'                       => '(à)',
@@ -2025,14 +2025,14 @@ $aLang = [
     'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
 
     'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'EMAIL'                          => 'E-mail',
     'FIRST_NAME'                     => 'Prénom:',
     'LAST_NAME'                      => 'Nom:',
     'TITLE'                          => 'Titre',
     'SUBJECT'                        => 'Sujet:',
     'MESSAGE'                        => 'Message',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Erreur lors de la récupération des informations sur la version',
+    'CURL_EXECUTE_ERROR' => 'Erreur de connexion (%s). Veuillez réessayer ultérieurement',
 ];
 
 /*
