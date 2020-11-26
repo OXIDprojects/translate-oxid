@@ -24,41 +24,41 @@ $sLangName  = 'Lietuvių';
 $aLang = array(
     'charset'                                       => 'UTF-8',
 
-    'SHOP_THEME_GROUP_images'                       => '',
-    'SHOP_THEME_GROUP_features'                     => '',
-    'SHOP_THEME_GROUP_display'                      => '',
-    'SHOP_THEME_GROUP_logo'                         => '',
-    'SHOP_THEME_GROUP_favicons'                     => '',
-    'SHOP_THEME_GROUP_footer'                       => '',
-    'SHOP_THEME_GROUP_header'                       => '',
+    'SHOP_THEME_GROUP_images'                       => 'Vaizdai',
+    'SHOP_THEME_GROUP_features'                     => 'Ypatybės',
+    'SHOP_THEME_GROUP_display'                      => 'Rodymas',
+    'SHOP_THEME_GROUP_logo'                         => 'Logotipas',
+    'SHOP_THEME_GROUP_favicons'                     => 'Puslapio ikonėlės (Favicon)',
+    'SHOP_THEME_GROUP_footer'                       => 'Poraštė',
+    'SHOP_THEME_GROUP_header'                       => 'Antraštė',
     'SHOP_THEME_GROUP_contact'                      => 'Kontaktas',
-    'SHOP_THEME_GROUP_googleanalytics'              => '',
+    'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
     'SHOP_THEME_GROUP_googlets'                     => '',
-    'SHOP_THEME_GROUP_background'                   => '',
+    'SHOP_THEME_GROUP_background'                   => 'Fono vaizdas',
     'SHOP_THEME_GROUP_econda'                       => '',
     'SHOP_THEME_GROUP_emails'                       => 'El. laiškai',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sIconsize'                          => 'Ikonėlės dydis (plotis*aukštis)', //SHOP_CONFIG_ICONSIZE
+    'HELP_SHOP_THEME_sIconsize'                     => 'Ikonėlės yra mažiausi produkto paveikslėliai. Jie yra naudojami: <br>' .
+                                                       '<ul><li>krepšelyje</li>' .
+                                                       '<li>Jei produktai rodomi dešiniajame meniu (pvz. <span class="filename_filepath_or_italic">Parduotuvės perkamiausi</span> ir <span class="filename_filepath_or_italic">Geri pasiūlymai</span>).</li></ul>' .
+                                                       'Kad išvengtume dizaino problemų dėl per didelių ikonų, jų dydis ir pakeičiamas. Įveskite maksimalų ikonų dydį.',
 
-    'SHOP_THEME_sThumbnailsize'                     => '', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sThumbnailsize'                     => 'Mažo paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_THUMBNAILSIZE
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Maži paveikslėliai yra naudojami:<br>' .
+                                                       '<ul><li>produktų sąrašuose.</li>' .
+                                                       '<li>Akcijose roddomose pagrindinio puslapio viduryje, pvz. <span class="filename_filepath_or_italic">Ką tik gavome</span>.</li></ul>' .
+                                                       'Kad išvengtume dizaino problemų dėl per didelių "mažų paveikslėlių", jų dydis ir pakeičiamas. Įveskite maksimalų mažų paveikslėlių dydį.',
 
-    'SHOP_THEME_sZoomImageSize'                     => '', //SHOP_CONFIG_ZOOMIMAGESIZE
-    'SHOP_THEME_sCatThumbnailsize'                  => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'HELP_SHOP_THEME_sCatThumbnailsize'             => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'SHOP_THEME_aDetailImageSizes'                  => '', //SHOP_CONFIG_DETAILIMAGESIZE
+    'SHOP_THEME_sZoomImageSize'                     => 'Didelio paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_ZOOMIMAGESIZE
+    'SHOP_THEME_sCatThumbnailsize'                  => 'Didelio paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'HELP_SHOP_THEME_sCatThumbnailsize'             => 'Kategorijos peržiūroje yra rodomas nurodyto dydžio kategorijos paveikslėlis.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'SHOP_THEME_aDetailImageSizes'                  => 'Produkto paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_DETAILIMAGESIZE
 
-    'SHOP_THEME_sManufacturerIconsize'              => '', // Check if this is really manufacturer or if it is more like "brand"
-    'HELP_SHOP_THEME_sManufacturerIconsize'         => '',
+    'SHOP_THEME_sManufacturerIconsize'              => 'Gamintojo/prekės ženklo logotipo dydis', // Check if this is really manufacturer or if it is more like "brand"
+    'HELP_SHOP_THEME_sManufacturerIconsize'         => 'Gamintojo/prekės ženklo logotipas yra rodomas pagrindiniame puslapyje gamintojų slaideryje.',
 
-    'SHOP_THEME_sCatIconsize'                       => '',
+    'SHOP_THEME_sCatIconsize'                       => 'Subkategorijos paveikslėlio dydis (plotis*aukštis)',
     'HELP_SHOP_THEME_sCatIconsize'                  => '',
 
     'SHOP_THEME_sCatPromotionsize'                  => '',
@@ -68,7 +68,7 @@ $aLang = array(
     'SHOP_THEME_blFooterShowLinks'                  => '',
     'SHOP_THEME_blFooterShowNewsletter'             => '',
     'SHOP_THEME_blFooterShowNewsletterForm'         => '',
-    'SHOP_THEME_blFooterShowNews'                   => '',
+    'SHOP_THEME_blFooterShowNews'                   => 'Naudoti naujienų nuorodą',
     'SHOP_THEME_bl_showGiftWrapping'                => '', //SHOP_CONFIG_SHOWGIFTWRAPPING
     'SHOP_THEME_bl_showVouchers'                    => '', //SHOP_CONFIG_SHOWVOUCHERS
     'SHOP_THEME_bl_showWishlist'                    => '', //SHOP_CONFIG_SHOWWISHLIST
@@ -87,7 +87,7 @@ $aLang = array(
 
     'SHOP_THEME_blShowListDisplayType'              => '',
     'HELP_SHOP_THEME_blShowListDisplayType'         => '',
-    'SHOP_THEME_sDefaultListDisplayType'            => '',
+    'SHOP_THEME_sDefaultListDisplayType'            => 'Numatytas prekių rodymo tipas',
     'SHOP_THEME_sDefaultListDisplayType_grid'       => 'Tinklelis',
     'SHOP_THEME_sDefaultListDisplayType_line'       => '',
     'SHOP_THEME_sDefaultListDisplayType_infogrid'   => 'Dvigubas tinklas',
@@ -199,7 +199,7 @@ $aLang = array(
     'SHOP_THEME_sEcondaWidgetIdList'                => '',
     'SHOP_THEME_blEcondaRecommendationsDetails'     => '',
     'SHOP_THEME_sEcondaWidgetIdDetails'             => '',
-    'SHOP_THEME_blEcondaRecommendationsBasket'      => '',
+    'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Rodyti rekomendacijas krepšelyje',
     'SHOP_THEME_sEcondaWidgetIdBasket'              => '',
 
     'SHOP_THEME_blFullwidthLayout'                      => '',
