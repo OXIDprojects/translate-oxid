@@ -65,7 +65,7 @@ $aLang = array(
     'DD_LINKS_NO_ENTRIES'                                   => 'Lamentablemente, no hay enlaces disponibles.',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => 'Tú puedes encontrar la información solicitada en nuestra página de inicio:',
+    'DD_ERR_404_START_TEXT'                                 => 'Puedes encontrar la información deseada desde nuestra pagina principal:',
     'DD_ERR_404_START_BUTTON'                               => 'Ir a la página de inicio',
     'DD_ERR_404_CONTACT_TEXT'                               => '¿Podemos ayudarte? <br>No dude en llamarnos o escribir un correo electrónico:',
     'DD_ERR_404_CONTACT_BUTTON'                             => 'A la página de contacto',
