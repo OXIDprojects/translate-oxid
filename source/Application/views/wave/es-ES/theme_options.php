@@ -97,7 +97,7 @@ $aLang = array(
     'SHOP_THEME_sStartPageListDisplayType_infogrid' => 'Parrilla doble',
 
     'SHOP_THEME_aNrofCatArticlesInGrid'             => 'Para la galería: cantidad de productos que se pueden mostrar en las listas de producto (páginas de categoría, resultados de búsqueda) <br> <br> Atención: ¡Una gran cantidad de productos por página (más de 100) puede causar pérdida de rendimiento!',
-    'SHOP_THEME_aNrofCatArticles'                   => '',
+    'SHOP_THEME_aNrofCatArticles'                   => 'Número de productos los cuales se pueden mostrar en una lista de productos (paginas de categoria, resultados de busqueda)<br><br>Atención: Un número largo de productos por pagina (arriba de 100) pueden causar perdida de rendimiento!',
 
     'SHOP_THEME_sFacebookUrl'                       => '',
     'HELP_SHOP_THEME_sFacebookUrl'                  => 'P.ej.:  https://www.facebook.com/oxidesales',
