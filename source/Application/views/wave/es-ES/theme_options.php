@@ -27,20 +27,20 @@ $aLang = array(
     'SHOP_THEME_GROUP_images'                       => 'Imagenes',
     'SHOP_THEME_GROUP_features'                     => 'Caracteristicas',
     'SHOP_THEME_GROUP_display'                      => 'Mostrar',
-    'SHOP_THEME_GROUP_logo'                         => '',
+    'SHOP_THEME_GROUP_logo'                         => 'Logotipo',
     'SHOP_THEME_GROUP_favicons'                     => 'Favicons, (iconos de favoritos)',
     'SHOP_THEME_GROUP_footer'                       => 'Pie de página',
     'SHOP_THEME_GROUP_header'                       => 'Encabezamiento',
     'SHOP_THEME_GROUP_contact'                      => 'Contactar',
-    'SHOP_THEME_GROUP_googleanalytics'              => '',
+    'SHOP_THEME_GROUP_googleanalytics'              => 'Google analitico',
     'SHOP_THEME_GROUP_googlets'                     => 'Google Trusted Stores',
-    'SHOP_THEME_GROUP_background'                   => '',
+    'SHOP_THEME_GROUP_background'                   => 'Imagen de fondo',
     'SHOP_THEME_GROUP_econda'                       => 'Control de tienda web econda',
     'SHOP_THEME_GROUP_emails'                       => 'E-mail',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
+    'SHOP_THEME_sIconsize'                          => 'Tamaño del icono (ancho * alto)', //SHOP_CONFIG_ICONSIZE
+    'HELP_SHOP_THEME_sIconsize'                     => 'Los iconos son las imágenes más pequeñas de un producto. Se utilizan: <br>' .
+                                                       '<ul><li>en el carrito de compras.</li>' .
                                                        '' .
                                                        '',
 
