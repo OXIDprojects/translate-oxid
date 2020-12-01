@@ -23,16 +23,16 @@ $sLangName = 'Lietuvių';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'OE GDPR opt-in modulis',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'GDPR nustatymai',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Rodyti sutikimo užklausą mokėtojo adresui',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Rodyti sutikimo užklausą pristatymo adresui',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Rodyti sutikimo užklausą vartotojo registracijai',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Rodyti sutikimo užklausą atsiliepimams apie pruduktus',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Kontaktų formos nustatymai',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Rodyti pranešimą apie duomenų ištrynimą po apdorojimo',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Rodyti sutikimo užklausą duomenų apdorojimui ir naudojimui statistiniais tiksliais',
 ];

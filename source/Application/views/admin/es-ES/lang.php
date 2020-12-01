@@ -297,7 +297,7 @@ $aLang = [
     'GENERAL_SYSTEMERROR'                       => 'error del sistema. Mensaje de error:% s <br>',
     'GENERAL_TELEPHONE'                         => 'Teléfono',
     'GENERAL_TILL'                              => 'Para',
-    'GENERAL_TITLE'                             => 'Título',
+    'GENERAL_TITLE'                             => 'Titulo',
     'GENERAL_TITLEIDENT'                        => 'Título de trabajo',
     'GENERAL_THUMB'                             => 'Miniatura',
     'GENERAL_TYPE'                              => 'Tipo',
@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Versión% s está disponible.',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Está utilizando la versión %s, la versión %s ya está disponible.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Noticias Administración]',
     'NEWS_LIST_SHORTTEXT'                            => 'Título',
@@ -1152,7 +1152,7 @@ $aLang = [
     'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Permitir una conexión a los servidores de OXID eSales para mejorar la calidad de nuestros productos de código abierto.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Buscar actualizaciones con regularidad',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Seleccione los componentes eShop',
-    'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Desactivar chequeo online de IVA ID',
+    'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Desactivar verificación ID VAT',
     'SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL'                  => 'URL alternativa para chequeo de IVA ID online',
     'SHOP_CONFIG_PSLOGIN'                                     => 'Las ventas privadas sesión',
     'SHOP_CONFIG_DISABLE'                                     => 'Desactivar',
@@ -1791,7 +1791,7 @@ $aLang = [
 
     'PROMOTION_USERS_SETGROUPS'   => 'Asignación de grupos de usuarios',
     'PROMOTION_LIST_ALL'          => 'Todos los',
-    'PROMOTION_LIST_ACTIVE'       => 'Activo',
+    'PROMOTION_LIST_ACTIVE'       => 'Activar',
     'PROMOTION_LIST_UPCOMING'     => 'Próximos',
     'PROMOTION_LIST_EXPIRED'      => 'Caducado',
     'PROMOTION_LIST_STARTTIME'    => 'Hora de inicio',

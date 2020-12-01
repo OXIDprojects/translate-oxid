@@ -19,7 +19,7 @@
  * @copyright (C) OXID eSales AG 2003-2016
  */
 
-$sLangName = "Español";
+$sLangName = "Inglés";
 
 $aLang = array(
     'charset'                                               => 'UTF-8',
@@ -49,13 +49,13 @@ $aLang = array(
     'FOOTER_NEWSLETTER_INFO'                                => 'Infórmese sobre los últimos productos y ofertas por correo electrónico.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => '',
-    'START_BARGAIN_HEADER'                                  => '',
-    'START_NEWEST_HEADER'                                   => '',
-    'START_TOP_PRODUCTS_HEADER'                             => '',
-    'START_BARGAIN_SUBHEADER'                               => '',
-    'START_NEWEST_SUBHEADER'                                => '',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => '',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'Presentamos nuestras marcas cuidadosamente seleccionadas, cuyos productos se pueden encontrar en nuestra tienda.',
+    'START_BARGAIN_HEADER'                                  => 'Especial de la semana',
+    'START_NEWEST_HEADER'                                   => 'Acaba de llegar',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Mejor vendido',
+    'START_BARGAIN_SUBHEADER'                               => '¡Ahorre dinero con nuestras ofertas actuales!',
+    'START_NEWEST_SUBHEADER'                                => 'Es tan fresco como puede ser. Un minuto en la caja y ahora ya en tienda.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Solo productos %s, pero lo mejor que podemos ofrecerle.',
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Contacta con nosotros!',
@@ -65,7 +65,7 @@ $aLang = array(
     'DD_LINKS_NO_ENTRIES'                                   => 'Lamentablemente, no hay enlaces disponibles.',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => 'Tú puedes encontrar la información solicitada en nuestra página de inicio:',
+    'DD_ERR_404_START_TEXT'                                 => 'Puedes encontrar la información deseada desde nuestra pagina principal:',
     'DD_ERR_404_START_BUTTON'                               => 'Ir a la página de inicio',
     'DD_ERR_404_CONTACT_TEXT'                               => '¿Podemos ayudarte? <br>No dude en llamarnos o escribir un correo electrónico:',
     'DD_ERR_404_CONTACT_BUTTON'                             => 'A la página de contacto',
@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Estado',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'seleccionar',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'añadir una dirección de entrega',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Eliminar dirección de envío',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtro:',
@@ -89,7 +89,7 @@ $aLang = array(
     // Downloads
     'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'descargar',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Tamaño del archivo:',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'en punto',
     'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Nombre del Documento:',
 
     // Details page
@@ -97,12 +97,12 @@ $aLang = array(
     'OF'                                                    => 'de',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Valoración de los clientes',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Los clientes que compraron este artículo también compraron uno de los siguientes productos.',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Los siguientes productos se adaptan bien a este producto.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Eche un vistazo a nuestros productos similares.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Los clientes que vieron este producto también vieron los siguientes productos.',
     'DETAILS_VPE_MESSAGE_1'                                 => "Este producto solo se puede pedir en unidades de embalaje de",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Elige una variante',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Total',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menú',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Esta acción no se puede anular. Esto eliminará permanentemente sus datos personale',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Eliminar cuenta',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '¿Estás seguro de que quieres eliminar tu cuenta?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Cancelar',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'La cuenta ha sido eliminada',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'No se pudo eliminar la cuenta',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Eliminar reseña y calificación con estrellas',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'No hay revisiones disponibles',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '¿Estás seguro de que deseas eliminar la revisión?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Por favor escoge',

@@ -27,38 +27,38 @@ $aLang = array(
     'SHOP_THEME_GROUP_images'                       => 'Imagenes',
     'SHOP_THEME_GROUP_features'                     => 'Caracteristicas',
     'SHOP_THEME_GROUP_display'                      => 'Mostrar',
-    'SHOP_THEME_GROUP_logo'                         => '',
+    'SHOP_THEME_GROUP_logo'                         => 'Logotipo',
     'SHOP_THEME_GROUP_favicons'                     => 'Favicons, (iconos de favoritos)',
     'SHOP_THEME_GROUP_footer'                       => 'Pie de página',
     'SHOP_THEME_GROUP_header'                       => 'Encabezamiento',
     'SHOP_THEME_GROUP_contact'                      => 'Contactar',
-    'SHOP_THEME_GROUP_googleanalytics'              => '',
+    'SHOP_THEME_GROUP_googleanalytics'              => 'Google analitico',
     'SHOP_THEME_GROUP_googlets'                     => 'Google Trusted Stores',
-    'SHOP_THEME_GROUP_background'                   => '',
+    'SHOP_THEME_GROUP_background'                   => 'Imagen de fondo',
     'SHOP_THEME_GROUP_econda'                       => 'Control de tienda web econda',
     'SHOP_THEME_GROUP_emails'                       => 'E-mail',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sIconsize'                          => 'Tamaño del icono (ancho * alto)', //SHOP_CONFIG_ICONSIZE
+    'HELP_SHOP_THEME_sIconsize'                     => 'Los iconos son las imágenes más pequeñas de un producto. Se utilizan: <br>' .
+                                                       '<ul><li>en el carrito de compras.</li>' .
+                                                       '<li>si los productos se muestran en el menú de la derecha (por ejemplo, en <span class = "filename_filepath_or_italic"> parte superior de la tienda </span> y <span class = "filename_filepath_or_italic">Carga</span>). </li> </ul>' .
+                                                       'Para evitar problemas de diseño causados por iconos demasiado grandes, se cambia el tamaño de los iconos.',
 
-    'SHOP_THEME_sThumbnailsize'                     => '', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sThumbnailsize'                     => 'Tamaño de la miniatura (ancho * alto)', //SHOP_CONFIG_THUMBNAILSIZE
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Las miniaturas son imágenes pequeñas de productos. Se utilizan:<br>' .
+                                                       '<ul><li>en listas de productos.</li>' .
+                                                       '<li>en promociones que se muestran en el medio de la página principal, ejemplo. <span class = "filename_filepath_or_italic">¡Recién llegado! </span>.</li></ul>.' .
+                                                       'Para evitar problemas de diseño causados por miniaturas demasiado grandes, se cambia el tamaño de las miniaturas.',
 
-    'SHOP_THEME_sZoomImageSize'                     => '', //SHOP_CONFIG_ZOOMIMAGESIZE
-    'SHOP_THEME_sCatThumbnailsize'                  => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'SHOP_THEME_sZoomImageSize'                     => 'Tamaño de la imagen ampliada (ancho * alto)', //SHOP_CONFIG_ZOOMIMAGESIZE
+    'SHOP_THEME_sCatThumbnailsize'                  => 'Tamaño de la imagen de la categoría (ancho * alto)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
     'HELP_SHOP_THEME_sCatThumbnailsize'             => 'En la vista de categoría, la imagen de la categoría seleccionada se muestra con el tamaño definido.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
     'SHOP_THEME_aDetailImageSizes'                  => 'Tamaño de la imagen del producto (ancho * alto)', //SHOP_CONFIG_DETAILIMAGESIZE
 
-    'SHOP_THEME_sManufacturerIconsize'              => '', // Check if this is really manufacturer or if it is more like "brand"
+    'SHOP_THEME_sManufacturerIconsize'              => 'Tamaño del logotipo del fabricante/marca', // Check if this is really manufacturer or if it is more like "brand"
     'HELP_SHOP_THEME_sManufacturerIconsize'         => 'El logotipo del fabricante / marca se muestra en la página de inicio en el control deslizante del fabricante.',
 
-    'SHOP_THEME_sCatIconsize'                       => '',
+    'SHOP_THEME_sCatIconsize'                       => 'Tamaño de una imagen de subcategoría (ancho * alto)',
     'HELP_SHOP_THEME_sCatIconsize'                  => 'En la vista de categoría, las imágenes de categoría que se muestran en las subcategorías, se muestran con el tamaño definido.',
 
     'SHOP_THEME_sCatPromotionsize'                  => 'Tamaño de la imagen en categoría para promoción, en la página de inicio (ancho*alto)',
@@ -72,32 +72,32 @@ $aLang = array(
     'SHOP_THEME_bl_showGiftWrapping'                => 'Use envoltura de regalos', //SHOP_CONFIG_SHOWGIFTWRAPPING
     'SHOP_THEME_bl_showVouchers'                    => 'Usa comprobantes', //SHOP_CONFIG_SHOWVOUCHERS
     'SHOP_THEME_bl_showWishlist'                    => 'Usar registro de regalos', //SHOP_CONFIG_SHOWWISHLIST
-    'SHOP_THEME_bl_showCompareList'                 => '', //SHOP_CONFIG_SHOWCOMPARELIST
+    'SHOP_THEME_bl_showCompareList'                 => 'Usar lista de comparación', //SHOP_CONFIG_SHOWCOMPARELIST
     'SHOP_THEME_bl_showListmania'                   => 'Use listmania', //SHOP_CONFIG_SHOWLISTMANIA
-    'SHOP_THEME_blShowBirthdayFields'               => '', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
+    'SHOP_THEME_blShowBirthdayFields'               => 'Mostrar campos de entrada para la fecha de nacimiento cuando los usuarios ingresan sus datos personales', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
 
     'SHOP_THEME_iTopNaviCatCount'                   => 'Cantidad de categorías que se muestra en la parte superior', //SHOP_CONFIG_TOPNAVICATCOUNT
     'SHOP_THEME_blShowFinalStep'                    => 'Mostrar la confirmación del pedido una vez finalizado el pedido (5º paso en el proceso de pago)', //SHOP_SYSTEM_SHOWFINALSTEP
     'SHOP_THEME_iNewBasketItemMessage'              => 'Selecciona una acción cuando el producto se añada al carro de compras', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
-    'HELP_SHOP_THEME_iNewBasketItemMessage'         => '', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'Cuando el cliente añade productos al carrito, OXID eShop puede comportarse de manera diferente.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'Ninguna',
     'SHOP_THEME_iNewBasketItemMessage_1'            => 'Mostrar mensaje',
-    'SHOP_THEME_iNewBasketItemMessage_2'            => '',
+    'SHOP_THEME_iNewBasketItemMessage_2'            => 'Ventana emergente abierta',
     'SHOP_THEME_iNewBasketItemMessage_3'            => 'Cesta de compra abierta',
 
     'SHOP_THEME_blShowListDisplayType'              => 'Mostrar el selector de tipo de lista de productos',
     'HELP_SHOP_THEME_blShowListDisplayType'         => 'Decide si el visitante de su tienda puede seleccionar el tipo de la lista de productos que tú ofreces. Si esta opción no está activada, sus visitantes verán las listas mostradas como usted ajustó en el cuadro desplegable "Tipo de lista de productos predeterminado".',
     'SHOP_THEME_sDefaultListDisplayType'            => 'Tipo de lista de productos predeterminado',
     'SHOP_THEME_sDefaultListDisplayType_grid'       => 'Parrilla',
-    'SHOP_THEME_sDefaultListDisplayType_line'       => '',
+    'SHOP_THEME_sDefaultListDisplayType_line'       => 'Lista',
     'SHOP_THEME_sDefaultListDisplayType_infogrid'   => 'Doble grid',
-    'SHOP_THEME_sStartPageListDisplayType'          => '',
+    'SHOP_THEME_sStartPageListDisplayType'          => 'Tipo de lista de productos en la página de inicio',
     'SHOP_THEME_sStartPageListDisplayType_grid'     => 'Parrilla',
-    'SHOP_THEME_sStartPageListDisplayType_line'     => '',
+    'SHOP_THEME_sStartPageListDisplayType_line'     => 'Lista',
     'SHOP_THEME_sStartPageListDisplayType_infogrid' => 'Parrilla doble',
 
     'SHOP_THEME_aNrofCatArticlesInGrid'             => 'Para la galería: cantidad de productos que se pueden mostrar en las listas de producto (páginas de categoría, resultados de búsqueda) <br> <br> Atención: ¡Una gran cantidad de productos por página (más de 100) puede causar pérdida de rendimiento!',
-    'SHOP_THEME_aNrofCatArticles'                   => '',
+    'SHOP_THEME_aNrofCatArticles'                   => 'Número de productos los cuales se pueden mostrar en una lista de productos (paginas de categoria, resultados de busqueda)<br><br>Atención: Un número largo de productos por pagina (arriba de 100) pueden causar perdida de rendimiento!',
 
     'SHOP_THEME_sFacebookUrl'                       => '',
     'HELP_SHOP_THEME_sFacebookUrl'                  => 'P.ej.:  https://www.facebook.com/oxidesales',
