@@ -750,7 +750,7 @@ Patiktinkite adresus.',
 'BETA_NOTE_FAQ'                                               => '. Skaitykite mūsų %s, jei turite kokių nors klausimų.',
 
 
-'NO_LISTMANIA_LIST'                                           => '',
+'NO_LISTMANIA_LIST'                                           => '"Listmania" sąrašas yra tuščias. Norėdami sukurti naują sąrašą, prašome ',
 'DETAILS_VPE_MESSAGE'                                         => 'Šis produktas gali būti užsakyta %s pakavimo vienetai',
 'DETAILS_CHOOSEVARIANT'                                       => 'Pasirinkite variantą',
 'INVITE_TO_SHOP'                                              => 'Kvietimas iš %s pažiūrėti %s',
