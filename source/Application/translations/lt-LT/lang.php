@@ -769,7 +769,7 @@ Patiktinkite adresus.',
 'COD_CHARGE'                                                  => 'COD mokestis',
 'REGISTERED_YOUR_ORDER'                                       => 'Užregistravome jūsų užsakymą nr. %s',
 'THANK_YOU_FOR_ORDER'                                         => 'Ačiū, kad pirkote',
-'PRICE_ALERT_THANK_YOU_MESSAGE'                               => '',
+'PRICE_ALERT_THANK_YOU_MESSAGE'                               => 'Dėkojame, kad pateikėte pageidaujamą kainą prekei %s %s. Jūs gausite pranešimą el. paštu kai bus pasiekta tokia kaina.',
 'THANK_YOU_MESSAGE'                                           => 'Dėkojame už jūsų žinutę %s.',
 
 
