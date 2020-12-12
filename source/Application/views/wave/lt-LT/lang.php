@@ -25,8 +25,8 @@ $aLang = array(
     'charset'                                               => 'UTF-8',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
+    'DD_SORT_DESC'                                          => 'mažėjančia tvarka',
+    'DD_SORT_ASC'                                           => 'didėjančia tvarka',
     'DD_DEMO_ADMIN_TOOL'                                    => 'Atidarykite administratoriaus sąsaja',
     'DD_DELETE'                                             => 'Ištrinti',
 
@@ -41,21 +41,21 @@ $aLang = array(
     'DD_FORM_VALIDATION_CHECKONE'                           => 'Prašome pasirinkti bent vieną variantą.',
 
     // Header
-    'SEARCH_TITLE'                                          => '',
+    'SEARCH_TITLE'                                          => 'Įvėskite paieškos raktą...',
     'SEARCH_SUBMIT'                                         => 'Paieška',
     'NAV_MORE'                                              => 'daugiau',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => '',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Gaukite pranešimus apie naujausias prekes ir pasiūlymus el. paštu.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => '',
-    'START_BARGAIN_HEADER'                                  => '',
-    'START_NEWEST_HEADER'                                   => '',
-    'START_TOP_PRODUCTS_HEADER'                             => '',
-    'START_BARGAIN_SUBHEADER'                               => '',
-    'START_NEWEST_SUBHEADER'                                => '',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => '',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'Mes pristatome kruopščiai atrinktus prekinius ženklus, kurių prekes galite rasti mūsų el. parduotuvėje.',
+    'START_BARGAIN_HEADER'                                  => 'Savaitės pasiūlymas',
+    'START_NEWEST_HEADER'                                   => 'Naujienos',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Perkamiausi',
+    'START_BARGAIN_SUBHEADER'                               => 'Sutaupykite pasinaudoję mūsų pasiūlymais!',
+    'START_NEWEST_SUBHEADER'                                => 'Šviežiai gautos prekės. Supakuotos ir dabar jau mūsų parduotuvėje.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Tik %s prekės, tačiau tik tiek galime pasiūlyti.',
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Kreipkitės į mus!',
@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Valstybė',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'Pasirinkti',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'pridėti pristatymo adresas',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Ištrinti pristatymo adresą',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtras:',
@@ -89,20 +89,20 @@ $aLang = array(
     // Downloads
     'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'atsisiuntimas',
     'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Failo dydis:',
-    'DD_FILE_ATTRIBUTES_OCLOCK'                             => '',
+    'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'valanda',
     'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Failo pavadinimas:',
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'į apžvalgą',
     'OF'                                                    => 'iš',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Klientų atsiliepimai',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Pirkėjai, kurie pirko šią prekę, taip pat pirko vieną iš šių prekių.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Šios prekės puikiai tinka pasirinktai prekei.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Pažiūrėkite į panašias prekes.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Pirkėjai, kurie žiūrėjo šią prekę, taip pat žiūrėjo šias prekes.',
     'DETAILS_VPE_MESSAGE_1'                                 => "This product can only be ordered in packaging units of",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Pasirinkite variantą',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Viso',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Meniu',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Šis veiksmas negali būti atšauktas. Paspaudus, asmeniniai duomenys bus negrįžtamai pašalinti.',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Ištrinti paskyrą',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Ar tikrai norite ištrinti savo paskyrą?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Atšaukti',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Jūsų paskyra buvo pašalinta',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Paskyros nepavyko pašalinti',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Ištrinti atsiliepimą ir įvertinimą',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Prekė neturi įvertinimų',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Ar tikrai norite pašalinti įvertinimą?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Pasirinkti',
