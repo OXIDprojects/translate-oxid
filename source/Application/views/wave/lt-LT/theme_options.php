@@ -35,7 +35,7 @@ $aLang = array(
     'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
     'SHOP_THEME_GROUP_googlets'                     => '',
     'SHOP_THEME_GROUP_background'                   => 'Fono vaizdas',
-    'SHOP_THEME_GROUP_econda'                       => '',
+    'SHOP_THEME_GROUP_econda'                       => 'econda el. parduotuvės nustatymai',
     'SHOP_THEME_GROUP_emails'                       => 'El. laiškai',
 
     'SHOP_THEME_sIconsize'                          => 'Ikonėlės dydis (plotis*aukštis)', //SHOP_CONFIG_ICONSIZE
@@ -117,9 +117,9 @@ $aLang = array(
 
     'SHOP_THEME_blUseGAPageTracker'                 => 'Naudoti Google Analytics PageTracker',
     'SHOP_THEME_blUseGAEcommerceTracking'           => 'Naudoti Google Analytics Ecommerce Tracking',
-    'HELP_SHOP_THEME_blUseGAEcommerceTracking'      => '',
+    'HELP_SHOP_THEME_blUseGAEcommerceTracking'      => 'Žinokitė, kad ši funkcija turi būti įjungta jūsų \'Google Analytics\' paskyroje taip pat. Aprašymas: <a href="https://support.google.com/analytics/answer/1009612?hl=en&ref_topic=1037061" target="_blank">Nuoroda</a>',
     'SHOP_THEME_sGATrackingId'                      => 'Google Analitikos sekimo ID',
-    'HELP_SHOP_THEME_sGATrackingId'                 => '',
+    'HELP_SHOP_THEME_sGATrackingId'                 => 'Pvz.: UA-XXXXXXXX-1<br><br>El. parduotuvės savininkas yra atsakingas už teisinius apribojimus naudojant šią funkciją. Turite pakoreguoti savo privatumo politikos aprašymą.',
     'SHOP_THEME_blGAAnonymizeIPs'                   => 'Slėpti IP adresus',
 
     'SHOP_THEME_sLogoFile'                          => 'Logotipo failo pavadinimas',
@@ -180,7 +180,7 @@ $aLang = array(
     'HELP_SHOP_THEME_sPageLanguage'                 => 'Lokalės formatas &lt;kalba&gt;_&lt;šalis&gt;<br><br>&lt;Kalba&gt; yra dviejų raidžių kodas apibrėžtas ISO 639-1 standdarte, o &lt;šalis&gt; yra dviejų raidžių šalies kodas apibrėžtas ISO 3166-1 alpha-2 standarte. Paprastai &lt;šalis&gt; rašoma didžiosiomis raidėmis, o &lt;kalba&gt; mažosiomis. Pvz. en_US, en_GB, en_AU, fr_FR, de_DE, or ja_JP.',
     'SHOP_THEME_sShoppingCountry'                   => 'Google Shopping-Feed šalis (neprivaloma)',
     'HELP_SHOP_THEME_sShoppingCountry'              => '',
-    'SHOP_THEME_sShoppingLanguage'                  => '',
+    'SHOP_THEME_sShoppingLanguage'                  => 'Google Shopping-Feed kalba (neprivaloma)',
     'HELP_SHOP_THEME_sShoppingLanguage'             => '',
     'SHOP_THEME_sShippingDaysOnStock'               => '',
     'HELP_SHOP_THEME_sShippingDaysOnStock'          => '',
