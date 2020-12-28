@@ -23,16 +23,16 @@ $sLangName = 'Česky';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'OE GDPR opt-in modul',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Nastavení GDPR',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Zobrazit opt-in pro fakturační adresu',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Zobrazit opt-in pro doručovací adresu',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Zobrazit opt-in pro registraci uživatele',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Zobrazit přihlášení k recenzi produktu',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Nastavení kontaktního formuláře',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Zobrazit poznámku pro odstranění dat po zpracování',
     'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
 ];
