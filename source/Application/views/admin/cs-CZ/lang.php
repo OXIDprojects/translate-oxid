@@ -64,7 +64,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXSHOPID'          => 'Identifikační číslo obchodu.',
     'GENERAL_ARTICLE_OXPARENTID'        => 'Identifikační číslo hlavního produktu',
     'GENERAL_ARTICLE_OXACTIVE'          => 'Aktivní',
-    'GENERAL_ARTICLE_OXHIDDEN'          => '',
+    'GENERAL_ARTICLE_OXHIDDEN'          => 'Skrytá',
     'GENERAL_ARTICLE_OXSHORTDESC'       => 'Stručný popis',
     'GENERAL_ARTICLE_OXLONGDESC'        => 'Detailní popis',
     'GENERAL_ARTICLE_OXPRICE'           => 'Cena',
@@ -128,7 +128,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Hranice nízkého stavu zásob',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'oxamitemid',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'oxamtaskid',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Minimální cena všech variant',
     'GENERAL_ARTICLE_OXVENDORID'        => 'ID dodavatele',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'ID výrobce',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Počet variant',
@@ -397,7 +397,7 @@ $aLang = [
     'ARTICLE_MAIN_ACTIVETO'                     => 'do',
     'ARTICLE_MAIN_ACTIVEFROM'                   => 'Od',
     'ARTICLE_MAIN_ACTIVE'                       => 'Aktivní',
-    'ARTICLE_MAIN_HIDDEN'                       => '',
+    'ARTICLE_MAIN_HIDDEN'                       => 'Skryté',
     'ARTICLE_MAIN_SHORTDESC'                    => 'Krátký popis',
     'ARTICLE_MAIN_PRICEA'                       => 'A:',
     'ARTICLE_MAIN_PRICEB'                       => 'B:',
@@ -418,7 +418,7 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'Hlavní EAN',
     'ARTICLE_MAIN_MPN'                          => 'Kód výrobce (MPN)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Výrobce',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Tato cena je zděděna podle variant produktu.' .
                                                    '' .
                                                    '',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Produkt vytvořen',
@@ -638,8 +638,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Všechny země',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Přiřazené země',
     'DISCOUNT_LIST_MENUITEM'                    => 'Nastavení obchodu',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Chyba: Hodnota pole "%s" musí být číslo.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Chyba: Hodnota pole "%s" musí být unikátní.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Slevy',
     'DISCOUNT_MAIN_AFROM'                       => '(Od)',
     'DISCOUNT_MAIN_ATILL'                       => '(Do)',
@@ -1061,13 +1061,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'DIČ',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Produktivní mód',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Povolit uživatelům obchodu spravovat své recenze',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Povolit uživatelům obchodu smazat svůj účet',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV oddělovač pro Im/Export',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'CSV ohraničení pro Im/Export',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'Jako stav zkopírovaného zboží zvolit <b>ne</b>aktivní',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Povolit doporučené produkty',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Počet řádků za nastavenou dobu pro CSV Export',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'DPH-nastavení pro XML-Export',
@@ -1169,8 +1169,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Používejte pouze IBAN / BIC',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'Adresa pro sledování doručování objednávky',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Zadaná hodnota konfigurace %s je neplatná.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Aktivovat uživatelské recenze a hodnocení hvězdičkami',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Zahrnout odkaz na recenze produktu v e-mailu objednávky',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'procentuální hodnota stejných vlastností určující podobnost produktů(%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Kvalita obrázků - od 0 (nízká kvalita, malý soubor) do 100 (nejvyšší kvalita, největší soubor)',
@@ -1214,7 +1214,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '-- nové --',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Rezervovaná slova (jsou automaticky doplněna příponou)',
     'SHOP_SEO_SKIPTAGS'                       => 'Slova, která jsou vynechána při vytváření Meta-tagů.',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'Malá písmena SEO urls',
     'SHOP_LICENSE_SERIAL'                     => 'Nainstalované licence',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Přidat licenci',
     'SHOP_LICENSE_VERSION'                    => 'Verze obchodu',
@@ -1769,7 +1769,7 @@ $aLang = [
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Počet licencovaných dílčích obchodů překročen. Proto byl zahájen skrytý odpočet 7 dnů. Po uplynutí této doby OXID eShop se přepne do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'OXID eShop license information',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Tento e-mail byl odeslán z obchodu %s.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Země',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Vyhledávání',
@@ -1787,7 +1787,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Pozvánky',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Stahovatelný produkt',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Informace o účtu banky (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Nastavení účtu',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Přiřazení skupiny uživatelů',
     'PROMOTION_LIST_ALL'          => 'Vše',
@@ -1905,7 +1905,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Předmět',
 
     'SHOP_PERF_SEO_CACHE'                        => 'Aktivovat SEO cache',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'Povolit zdravotní zprávy systému na úvodní stránce',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'Nastavení pro témata a moduly najdete v novém menu "Rozšíření"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Témata nesmí být definována v config.inc.php',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Cenový alarm v',
@@ -2024,15 +2024,15 @@ $aLang = [
 
     'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Povinná pole kontaktního formuláře',
+    'EMAIL'                          => 'E-mail',
     'FIRST_NAME'                     => 'Jméno:',
     'LAST_NAME'                      => 'Příjmení',
     'TITLE'                          => 'Oslovení',
     'SUBJECT'                        => 'Předmět',
     'MESSAGE'                        => 'Zpráva',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'Chyba při získávání informací o verzi',
+    'CURL_EXECUTE_ERROR' => 'Chyba připojení (%s). Opakujte akci později',
 ];
 
 /*
