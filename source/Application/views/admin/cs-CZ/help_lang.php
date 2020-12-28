@@ -50,7 +50,7 @@ $aLang =  [
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '',
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'Na titulní straně Vašeho eShopu se v kategorii <i>Právě dorazilo!</i> zobrazují nejnovější produkty. Produkty můžete řadit podle data přidání nebo data poslední změny.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Aktivujte doporučení produktů na stránkách s podrobnostmi o produktu.',
 /** end deprecated */
 'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Uživatel nemůže jeden produkt hodnotit vícekrát. Zde můžete nastavit, po jak dlouhé době uživatel může produkt znovu hodnotit. Pokud nezadáte žádnou hodnotu, produkt může být hodnocen jen jednou.',
