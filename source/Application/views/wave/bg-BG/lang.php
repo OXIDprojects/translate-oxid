@@ -28,7 +28,7 @@ $aLang = array(
     'DD_SORT_DESC'                                          => 'низходящ',
     'DD_SORT_ASC'                                           => 'възходящ',
     'DD_DEMO_ADMIN_TOOL'                                    => '',
-    'DD_DELETE'                                             => '',
+    'DD_DELETE'                                             => 'Изтриване',
 
     // Form validation
     'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Моля въведете валиден имейл',
