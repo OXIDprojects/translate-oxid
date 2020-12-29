@@ -105,7 +105,7 @@ $aLang = array(
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Тотал',
     'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'продължи пазаруването',
 
     // Checkout
