@@ -118,7 +118,7 @@ $aLang = array(
     'DD_INVITE_LINK'                                        => 'Линк',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Вашия абонамент за новини',
     'DD_ORDERSHIPPED_HEADING'                               => 'Потвърждаване на доставката - поръчай',
-    'DD_PRICEALARM_HEADING'                                 => '',
+    'DD_PRICEALARM_HEADING'                                 => 'Желана цена',
     'DD_REGISTER_HEADING'                                   => 'Вашата регистрация',
     'DD_DOWNLOADLINKS_HEADING'                              => 'Вашия линк за сваляне - поръчки',
     'DD_WISHLIST_HEADING'                                   => 'Списък с желания',
@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Моля изберете',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => '',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Нулиране',
 );
 
 /*
