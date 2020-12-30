@@ -74,7 +74,7 @@ $aLang = array(
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
 
     // Billing address
-    'DD_USER_LABEL_STATE'                                    => '',
+    'DD_USER_LABEL_STATE'                                    => 'Щат/Област',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'избери',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'добави адрес за доставка',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
