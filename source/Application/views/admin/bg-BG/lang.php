@@ -1235,12 +1235,12 @@ $aLang = [
     'SHOWLIST_CNT'                            => '',
     'SHOWLIST_NORESULTS'                      => '',
     'SHOWLIST_SUM'                            => 'Общо',
-    'SYSTEMINFO_MENUITEM'                     => '',
+    'SYSTEMINFO_MENUITEM'                     => 'Услуги',
     'SYSTEMINFO_MENUSUBITEM'                  => '',
     'SYSTEMINFO_DEMOMODE'                     => '',
     'SYSTEMINFO_VARIABLE'                     => '',
     'SYSTEMINFO_VALUE'                        => '',
-    'SYSREQ_LIST_MENUITEM'                    => '',
+    'SYSREQ_LIST_MENUITEM'                    => 'Услуги',
     'SYSREQ_LIST_MENUSUBITEM'                 => '',
     'SYSREQ_PHP_EXTENNSIONS'                  => '',
     'SYSREQ_PHP_CONFIG'                       => '',
@@ -1297,7 +1297,7 @@ $aLang = [
     'TOOLS_LIST_AFFECTEDROWS'                 => '',
     'TOOLS_LIST_ERRORMESSAGE'                 => '',
     'TOOLS_LIST_ERRORNUM'                     => '',
-    'TOOLS_LIST_MENUITEM'                     => '',
+    'TOOLS_LIST_MENUITEM'                     => 'Услуги',
     'TOOLS_LIST_MENUSUBITEM'                  => '',
     'TOOLS_MAIN_TITLE'                        => '',
     'TOOLS_MAIN_UPDATESQL'                    => '',
@@ -1506,7 +1506,7 @@ $aLang = [
         'DYNSCREEN_LOCAL_TEXT'                    => 'Обща информация за e-commerce услугите',
     // END deprecated
 
-    'GENIMPORT_MENUITEM'                      => '',
+    'GENIMPORT_MENUITEM'                      => 'Услуги',
     'GENIMPORT_MENUSUBITEM'                   => '',
     'GENIMPORT_STEP_1_TITLE'                  => '',
     'GENIMPORT_STEP_2_TITLE'                  => '',
@@ -1531,7 +1531,7 @@ $aLang = [
     'GENIMPORT_FIELDSTERMINATEDBY'            => '',
     'GENIMPORT_FIELDSENCLOSEDBY'              => '',
 
-    'GENEXPORT_MENUITEM'       => '',
+    'GENEXPORT_MENUITEM'       => 'Услуги',
     'GENEXPORT_MENUSUBITEM'    => '',
 
     /* menu */
@@ -1563,7 +1563,7 @@ $aLang = [
     'mxpricealarm'             => '',
     'mxremlist'                => '',
     'mxsellist'                => '',
-    'mxservice'                => '',
+    'mxservice'                => 'Услуги',
     'mxservicearea'            => 'e-commerce услуги',
     'mxshipping'               => 'Условия за разноски по доставката',
     'mxshippingset'            => 'Начини на доставка',
@@ -1934,7 +1934,7 @@ $aLang = [
     'BUTTON_DOWNLOAD' => 'Свали',
 
     'oxdiag_menu'             => '',
-    'OXDIAG_LIST_MENUITEM'    => '',
+    'OXDIAG_LIST_MENUITEM'    => 'Услуги',
     'OXDIAG_LIST_MENUSUBITEM' => '',
 
     'OXDIAG_MAIN_TITLE'                              => '',
