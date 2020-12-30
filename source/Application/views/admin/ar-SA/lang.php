@@ -1233,7 +1233,7 @@ $aLang = [
     'SHOP_LIST_MENUSUBITEM'                   => '',
     'SHOP_LIST_YOUWANTTODELETE'               => '',
     'SHOWLIST_TITLE'                          => '',
-    'SHOWLIST_SQL'                            => '',
+    'SHOWLIST_SQL'                            => 'قاعدة البيانات',
     'SHOWLIST_CNT'                            => '',
     'SHOWLIST_NORESULTS'                      => '',
     'SHOWLIST_SUM'                            => '',
@@ -1352,7 +1352,7 @@ $aLang = [
     'TOOLTIPS_NEWDELIVERY'                    => '',
     'TOOLTIPS_NEWDELIVERYSET'                 => '',
     // @deprecated 6.5.6 "News" feature will be removed completely
-    'TOOLTIPS_NEWNEWS'                        => '',
+    'TOOLTIPS_NEWNEWS'                        => 'انشاء رسالة جديدة',
     // END deprecated
     'TOOLTIPS_NEWVOUCHER'                     => '',
     'TOOLTIPS_NEWCATTREE'                     => '',
@@ -1701,7 +1701,7 @@ $aLang = [
     'tbclshop_seo'             => '',
     'tbclshop_rdfa'            => '',
     //  Service Tools',
-    'tbcltools_main'           => '',
+    'tbcltools_main'           => 'قاعدة البيانات',
     //  Theme,
     'tbcltheme_main'           => 'نظرة عامة',
     'tbcltheme_config'         => '',
