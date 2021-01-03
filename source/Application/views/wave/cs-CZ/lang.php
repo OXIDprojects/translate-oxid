@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Stát/Kraj',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'vybrat',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'přidat novou adresu',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Odstranit dodací adresu',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtr:',
@@ -102,7 +102,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Zákaznící, kteří si prohlédli tento produkt, se podívali i na následující produkty.',
     'DETAILS_VPE_MESSAGE_1'                                 => "Tento produkt lze objednat jen v balení po",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Zvolte variantu',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Celkový součet',
@@ -126,16 +126,16 @@ $aLang = array(
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Nabídka',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Smazat účet',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Jste si jisti, že chcete smazat váš účet?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Zrušit',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Uživatelský účet byl odstraněn',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Účet nemohl být smazán',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Odstranit recenzi a hodnocení hvězdičkami',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Žádné recenze nejsou k dispozici',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Jste si jist, že chcete smazat vaši recenzi?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Prosím vyberte',

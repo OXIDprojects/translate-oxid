@@ -28,7 +28,7 @@ $aLang = array(
     'DD_SORT_DESC'                                          => 'низходящ',
     'DD_SORT_ASC'                                           => 'възходящ',
     'DD_DEMO_ADMIN_TOOL'                                    => '',
-    'DD_DELETE'                                             => '',
+    'DD_DELETE'                                             => 'Изтриване',
 
     // Form validation
     'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Моля въведете валиден имейл',
@@ -74,7 +74,7 @@ $aLang = array(
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
 
     // Billing address
-    'DD_USER_LABEL_STATE'                                    => '',
+    'DD_USER_LABEL_STATE'                                    => 'Щат/Област',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'избери',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'добави адрес за доставка',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
@@ -105,7 +105,7 @@ $aLang = array(
     'TO_CART_NOVARIANT'                                     => '',
 
     // Modal basket
-    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => '',
+    'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Тотал',
     'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'продължи пазаруването',
 
     // Checkout
@@ -115,10 +115,10 @@ $aLang = array(
     'DD_FOOTER_FOLLOW_US'                                   => 'Последвайте ни:',
     'DD_FORGOT_PASSWORD_HEADING'                            => 'Забравена парола',
     'DD_INVITE_HEADING'                                     => 'Препоръка за артикула',
-    'DD_INVITE_LINK'                                        => '',
+    'DD_INVITE_LINK'                                        => 'Линк',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => 'Вашия абонамент за новини',
     'DD_ORDERSHIPPED_HEADING'                               => 'Потвърждаване на доставката - поръчай',
-    'DD_PRICEALARM_HEADING'                                 => '',
+    'DD_PRICEALARM_HEADING'                                 => 'Желана цена',
     'DD_REGISTER_HEADING'                                   => 'Вашата регистрация',
     'DD_DOWNLOADLINKS_HEADING'                              => 'Вашия линк за сваляне - поръчки',
     'DD_WISHLIST_HEADING'                                   => 'Списък с желания',
@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Моля изберете',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => '',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Нулиране',
 );
 
 /*

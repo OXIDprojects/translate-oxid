@@ -40,13 +40,13 @@ $aLang = array(
 
     'SHOP_THEME_sIconsize'                          => 'Velikost ikony v pixelech(šířka*výška)', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
+                                                       '<ul><li>v nákupním košíku.</li>' .
                                                        '' .
                                                        '',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Velikost náhledů v pixelech (šířka*výška)', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Náhledy jsou malé produktové obrázky. Používá se:<br>' .
+                                                       '<ul><li>v seznamech produktů.</li>' .
                                                        '' .
                                                        '',
 
@@ -167,8 +167,8 @@ $aLang = array(
     'SHOP_THEME_sBackgroundSize_contain'            => 'pokrytí (plná šířka)',
     'SHOP_THEME_sBackgroundSize_normal'             => 'Zachovat původní velikost',
     'SHOP_THEME_blBackgroundAttachment'             => 'Má obrázek v pozadí při scrolování zůstat stát?',
-    'SHOP_THEME_blHomeLink'                         => '',
-    'SHOP_THEME_bl_showPriceAlarm'                  => '',
+    'SHOP_THEME_blHomeLink'                         => 'Zobrazit odkaz "Domů" v hlavní navigaci?',
+    'SHOP_THEME_bl_showPriceAlarm'                  => 'Použít cenový alarm',
 
     'SHOP_THEME_blUseGoogleTS'                      => 'Použít Google Trusted Stores',
     'SHOP_THEME_sGoogleVendorId'                    => 'Google Store-ID (povinné)',
