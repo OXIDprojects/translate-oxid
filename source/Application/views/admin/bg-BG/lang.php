@@ -1064,7 +1064,7 @@ $aLang = [
     'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Позволи на потребителите да управляват отзивите',
     'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Позволи на потребителите да премахват профила си',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV разделител за Импорт/ Експорт',
-    'SHOP_CONFIG_CSVFIELDENCLOSER'                            => '',
+    'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'CSV Включване за Импорт/ Експорт',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => '',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
     'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
