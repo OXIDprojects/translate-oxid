@@ -31,7 +31,7 @@ $aLang = [
     'OEGDPROPTIN_USER_REGISTRATION_OPTIN' => "",
     'OEGDPROPTIN_CONFIRM_USER_REGISTRATION_OPTIN' => 'Souhlaste prosím s uložením vašich dat!',
     'OEGDPROPTIN_REVIEW_FORM_MESSAGE' => "",
-    'OEGDPROPTIN_REVIEW_FORM_ERROR_MESSAGE' => '',
+    'OEGDPROPTIN_REVIEW_FORM_ERROR_MESSAGE' => 'Prosím, souhlaste s tím, že zde bude publikována vaše recenze a jméno!',
     'OEGDPROPTIN_STORE_INVOICE_ADDRESS' => "Souhlasím s tím, že moje fakturační adresa bude trvale uložena.",
     'OEGDPROPTIN_CONFIRM_STORE_INVOICE_ADDRESS' => 'Souhlasím prosím s uložením fakturační adresy!',
 ];
