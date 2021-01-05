@@ -1763,7 +1763,7 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Platnost licenčního klíče vašeho OXID eShopu definitivně vypršela. Prosím, obraťte se na technickou podporu.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Platnost licenčního klíče vašeho OXID eShopu vypršela. OXID eShop bude off-line do 24 hodin. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Výsledkem opětovné kontroly bylo, že licenční klíč vašeho OXID e-shopu je nyní platný. Proto bylo zrušeno skryté odpočítávání sedmi dnů.',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Výsledkem opětovné kontroly bylo, že licenční klíč vašeho OXID eShopu je nyní platný. Proto bylo zrušeno skryté odpočítávání sedmi dnů.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Nastal problém s licenčním klíčem vašeho OXID eShopu. To je důvod, proč bylo zahájeno skryté odpočítávání 7 dní. Po uplynutí této doby OXID eShop přejde do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Licenční klíč vašeho OXID eShopu vypršel. To je důvod, proč bylo zahájeno skryté odpočítávání 7 dní . Po uplynutí této doby OXID eShop přejde do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Počet licencovaných dílčích obchodů překročen. Proto byl zahájen skrytý odpočet 7 dnů. Po uplynutí této doby OXID eShop se přepne do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
