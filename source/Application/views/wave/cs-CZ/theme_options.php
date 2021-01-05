@@ -39,16 +39,16 @@ $aLang = array(
     'SHOP_THEME_GROUP_emails'                       => 'E-maily',
 
     'SHOP_THEME_sIconsize'                          => 'Velikost ikony v pixelech(šířka*výška)', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
+    'HELP_SHOP_THEME_sIconsize'                     => 'Ikony jsou nejmenší obrázky produktu. Používají se: <br>' .
                                                        '<ul><li>v nákupním košíku.</li>' .
                                                        '' .
-                                                       '',
+                                                       'Aby se předešlo problémům s designem způsobeným příliš velkými náhledy, změní se jejich velikost. Zde zadejte maximální velikost náhledů.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Velikost náhledů v pixelech (šířka*výška)', //SHOP_CONFIG_THUMBNAILSIZE
     'HELP_SHOP_THEME_sThumbnailsize'                => 'Náhledy jsou malé produktové obrázky. Používá se:<br>' .
                                                        '<ul><li>v seznamech produktů.</li>' .
-                                                       '' .
-                                                       '',
+                                                       '<li>v propagačních akcích zobrazených uprostřed titulní stránky, např. <span class="filename_filepath_or_italic">Právě dorazil!</span>.</li></ul>' .
+                                                       'Aby se zabránilo problémům s designem způsobeným příliš velkými náhledy, změní se jejich velikost. Zde zadejte maximální velikost náhledů.',
 
     'SHOP_THEME_sZoomImageSize'                     => 'Velikost zoomu obrázku (zoom 1-4) v pixelech (šířka*výška)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'Velikost obrázku kategorie v pixelech (šířka*výška)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
