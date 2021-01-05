@@ -975,7 +975,7 @@ $aLang = [
     'SHOP_CACHE_BACKEND_OXID'                            => 'OXID eShop Disk Storage Cache',
     'SHOP_CACHE_LIFETIME'                                => 'Cache lifetime (TTL)',
     'SHOP_CACHE_CLASSES'                                 => 'Cachable classes',
-    'SHOP_CACHE_AVAILABLE_FOR_NON_PRODUCTIVE'            => 'K dispozici jen v ne-produktivním módu',
+    'SHOP_CACHE_AVAILABLE_FOR_NON_PRODUCTIVE'            => 'K dispozici jen v ne-produkčním módu',
     'SHOP_CACHE_CONTENT_CACHE_FLUSH'                     => 'Vyprázdnit cache',
     'SHOP_CACHE_DEFAULT_BACKEND_ACTIVE'                  => 'Povolit cache',
     'SHOP_CACHE_DEFAULT_BACKEND_TTL'                     => 'Cache lifetime (TTL)',
@@ -1059,7 +1059,7 @@ $aLang = [
     'SHOP_MAIN_IBANNUMBER'                               => 'IBAN banky',
     'SHOP_MAIN_VATNUMBER'                                => 'DIČ',
     'SHOP_MAIN_TAXNUMBER'                                => 'DIČ',
-    'SHOP_MAIN_PRODUCTIVE'                               => 'Produktivní mód',
+    'SHOP_MAIN_PRODUCTIVE'                               => 'Produkční mód',
 
     'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Povolit uživatelům obchodu spravovat své recenze',
     'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Povolit uživatelům obchodu smazat svůj účet',
