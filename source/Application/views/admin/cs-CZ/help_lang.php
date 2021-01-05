@@ -52,7 +52,7 @@ $aLang =  [
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
 'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Aktivujte doporučení produktů na stránkách s podrobnostmi o produktu.',
 /** end deprecated */
-'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
+'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => 'Nebudou předána žádná obchodní relevantní data ani informace o klientech. Shromážděné údaje se vztahují výhradně na technologické informace. Abychom zlepšili kvalitu našich produktů, informace jako je tato budou shromažďovány:<ul>  <li>počet instalací OXID eShop Community Edition po celém světě</li>  <li>průměrný počet nainstalovaných rozšíření na OXID eShop</li>  <li>špičková rozšíření pro OXID eShop</li></ul>',
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Uživatel nemůže jeden produkt hodnotit vícekrát. Zde můžete nastavit, po jak dlouhé době uživatel může produkt znovu hodnotit. Pokud nezadáte žádnou hodnotu, produkt může být hodnocen jen jednou.',
 'HELP_SHOP_CONFIG_DISABLEONLINEVATIDCHECK'    => 'Pokud zadá při objednání zákazník z cizí země v EU DPH, je DPH započítáno k objednávce. Pokud není UstId validní, DPH sazba není k objednávce připočtena.<br>Pokud je volba zakázána, je vždy započítána obecná DPH sazba.',
 'HELP_SHOP_CONFIG_ALTVATIDCHECKINTERFACEWSDL' => 'Zde můžete zadat alternativní URL adresu pro online kontrolu DIČ/UstId.',
@@ -73,9 +73,9 @@ $aLang =  [
 'HELP_SHOP_CONFIG_MAX_DOWNLOADS_COUNT'        => 'Zde můžete nastavit, kolikrát může uživatel stahovat ze stejného odkazu. Toto je výchozí nastavení pro všechny produkty.Tuto hodnotu můžete změnit pro každý soubor produktu v Administraci produktů -> Produkty -> Ke stažení.',
 'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Zde můžete nastavit, kolikrát může uživatel stahovat ze stejného odkazu, pokud uživatel objednal bez registrace. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v  Administrace produktů -> Produkty -> Ke stažení.',
 'HELP_SHOP_CONFIG_LINK_EXPIRATION_TIME'       => 'Zadejte čas v hodinách, udávající po jakou dobu od objednání je odkaz platný. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v Administrace produktů -> Produkty -> Ke stažení.',
-'HELP_SHOP_CONFIG_PARCELSERVICE'              => '',
+'HELP_SHOP_CONFIG_PARCELSERVICE'              => 'Vyplňte prosím sledovací adresu URL poskytovatele dopravy.. <i>##ID##</i> je zástupný symbol a bude nahrazen příslušným sledovacím číslem.',
 'HELP_SHOP_CONFIG_DOWNLOAD_EXPIRATION_TIME'   => 'Zadejte čas v hodinách, udávající po jakou dobu od prvního stažení je odkaz platný. Toto je výchozí nastavení pro všechny produkty. Tuto hodnotu můžete změnit pro každý soubor produktů v Administrace produktů -> Produkty -> Ke stažení.',
-'HELP_SHOP_CONFIG_LOADREVIEWS'                  => '',
+'HELP_SHOP_CONFIG_LOADREVIEWS'                  => 'Uživatelé mohou vaše produkty recenzovat a hodnotit hvězdičkami. Pokud je toto nastavení zaškrtnuto, načtou se stávající recenze / hodnocení hvězdičkami a zobrazí se s produktem. Toto nastavení může snížit výkon obchodu.',
 'HELP_SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 'HELP_SHOP_MALL_MALLMODE'                     => 'Tady můžete nastavit co se zobrazí na přední stránce eShopu:<ul><li><span class="navipath_or_inputname">Show shop selector</span>: A page where the different eShops can be selected is shown.</li><li><span class="navipath_or_inputname">Show main shop front page</span>: The normal front page of this Shop is shown.</li></ul>',
 'HELP_SHOP_MALL_PRICEADDITION'                => 'Můžete zadat příplatek pro všechny ceny produktů v eShopu: Zadejte příplatek a zvolte zda je procentní (<span class="userinput_or_code">%</span>) nebo absolutní (<span class="userinput_or_code">abs</span>).',
@@ -243,5 +243,5 @@ $aLang =  [
 'HELP_REVERSE_PROXY_GET_BACKEND'              => 'Administrativní oblast je zobrazena bez reverzní proxy. Varnish header nemůže být přijat.',
 'HELP_SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED' => 'Jen IBAN a BIC mohou být přístupné během výstupní kontroly. Číslo bankovního účtu a kód banky jsou zpřístupněny pouze pokud není aktivní zaškrtávací pole.',
 'HELP_SHOP_CONFIG_ENABLE_INTANGIBLE_PRODUCTS_AGREEMENT'   => 'Pokud je tato volba aktivní, uživatelé musí potvrdit podmínky pro nehmotný produkt a stažení produktu ve čtvrtém kroku výstupní kontroly. Ujistěte se, že je tato volba povolena také pro konkrétní položku!',
-'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => '',
+'HELP_SHOP_CONFIG_FIELDS_CONTACTFORM'         => 'Zde můžete definovat pole kontaktního formuláře, která musí uživatel nutně vyplnit.',
 ];
