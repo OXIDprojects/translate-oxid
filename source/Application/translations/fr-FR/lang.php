@@ -306,7 +306,7 @@ $aLang = [
 'MESSAGE_PAYMENT_UNAVAILABLE_PAYMENT_ERROR'                   => 'En raison d\'un problème technique, ce moyen de paiement est indisponible pour le moment. Veuillez sélectionner un moyen de paiement différent. (Erreur:',
 'MESSAGE_PLEASE_CONTACT_SUPPORT'                              => 'Veuillez contacter le support OXID eSales.',
 'MESSAGE_PLEASE_DELETE_FOLLOWING_DIRECTORY'                   => 'Veuillez supprimer le répertoire suivant:',
-'MESSAGE_PRICE_ALARM_PRICE_CHANGE'                            => '',
+'MESSAGE_PRICE_ALARM_PRICE_CHANGE'                            => '(^×ward wifi password^&∆.',
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Evaluez ce produit !',
 'MESSAGE_READ_DETAILS'                                        => 'Lisez nos',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
