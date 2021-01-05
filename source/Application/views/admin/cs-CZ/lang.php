@@ -315,7 +315,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Maximální počet stažení pro neregistrované uživatele',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Doba expirace odkazu ke stažení',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Doba expirace odkaz ke stažení po prvním stažení',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Pouze administrátor e-shopu je oprávněn globálně měnit propagační akce.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Prosím vyberte jednu možnost',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Všechny dostupné produkty',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produkty s parametry',
@@ -419,8 +419,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'Kód výrobce (MPN)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Výrobce',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'Tato cena je zděděna podle variant produktu.' .
-                                                   '' .
-                                                   '',
+                                                   '<ul><li>V závislosti na nastavení obchodu se zadává / zobrazuje čistá cena nebo hrubá cena.</li>' .
+                                                   '<li>Hrubá cena je vždy uvedena v závorkách.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Produkt vytvořen',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Poslední úprava',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Pozice podle prodejnosti',
@@ -728,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Neplatná metadata v rozšířené sekci. Následující třídy rozšířeného obchodu jsou buď chybně zadány, nebo nepatří do jednotného jmenného prostoru: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Nezapomeňte prosím aktualizovat databázové pohledy v Služby->Nástroje",
     'LANGUAGE_ACTIVE'                                => 'Povoleno ve frontendu eShopu',
     'LANGUAGE_LIST_MENUITEM'                         => 'Hlavní nastavení',
@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Je dostupná verze %s.',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Používáte verzi %s, verze %s je nyní k dispozici. Prosím, aktualizujte nyní.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Administrace OXID Novinek]',
     'NEWS_LIST_SHORTTEXT'                            => 'Krátký popis',
