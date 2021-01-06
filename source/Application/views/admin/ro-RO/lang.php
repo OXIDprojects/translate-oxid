@@ -2028,7 +2028,7 @@ Am detectat alternative de configurare ale serverului imagine, fișierele nu vor
     'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
     'EMAIL'                          => '',
     'FIRST_NAME'                     => 'Prenume',
-    'LAST_NAME'                      => '',
+    'LAST_NAME'                      => 'Nume de familie',
     'TITLE'                          => '',
     'SUBJECT'                        => '',
     'MESSAGE'                        => '',

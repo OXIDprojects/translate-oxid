@@ -23,15 +23,15 @@ $sLangName = 'Česky';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "",
+    'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "Souhlasím, že moje dodací adresa bude trvale uložena. V sekci „Můj účet“ mohu dodací adresu definitivně odstranit.",
     'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => 'Prosím, souhlaste s tím, že dodací adresa bude uložena!',
     'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "Souhlaste prosím s podmínkami zpracování vašich dat!",
     'OEGDPROPTIN_CONTACT_FORM_MESSAGE_DELETION' => "Vaše kontaktní údaje budou odstraněny po zpracování požadavku.",
-    'OEGDPROPTIN_CONTACT_FORM_MESSAGE_STATISTICAL' => "",
-    'OEGDPROPTIN_USER_REGISTRATION_OPTIN' => "",
+    'OEGDPROPTIN_CONTACT_FORM_MESSAGE_STATISTICAL' => "Souhlasím s použitím mých údajů k zodpovězení tohoto požadavku a ke statistickým účelům.",
+    'OEGDPROPTIN_USER_REGISTRATION_OPTIN' => "Souhlasím, že moje data budou trvale užívána pro zákaznický účet. Odvolání mého souhlasu je možné kdykoli s účinkem do budoucna.",
     'OEGDPROPTIN_CONFIRM_USER_REGISTRATION_OPTIN' => 'Souhlaste prosím s uložením vašich dat!',
-    'OEGDPROPTIN_REVIEW_FORM_MESSAGE' => "",
-    'OEGDPROPTIN_REVIEW_FORM_ERROR_MESSAGE' => '',
+    'OEGDPROPTIN_REVIEW_FORM_MESSAGE' => "Souhlasím, že moje recenze a jméno budou zveřejněny na této stránce. Tento souhlas mohu kdykoli odvolat s účinkem do budoucna.",
+    'OEGDPROPTIN_REVIEW_FORM_ERROR_MESSAGE' => 'Prosím, souhlaste s tím, že zde bude publikována vaše recenze a jméno!',
     'OEGDPROPTIN_STORE_INVOICE_ADDRESS' => "Souhlasím s tím, že moje fakturační adresa bude trvale uložena.",
     'OEGDPROPTIN_CONFIRM_STORE_INVOICE_ADDRESS' => 'Souhlasím prosím s uložením fakturační adresy!',
 ];

@@ -249,7 +249,7 @@ $aLang = [
     'GENERAL_NONORDER'               => 'Po vyprodání zásob, nelze objednat',
     'GENERAL_NOWSEND'                => 'Dodat nyní',
     'GENERAL_OFF'                    => 'neaktivní',
-    'GENERAL_OFFLINE'                => 'Po vyprodání zásob, offline',
+    'GENERAL_OFFLINE'                => 'Pokud není skladem, offline',
     'GENERAL_ORDERNUM'               => 'Číslo objednávky',
     'GENERAL_OXIDESHOP'              => 'OXID eShop',
     'GENERAL_OUTOFBOUNDS'            => 'zakázáno',
@@ -315,7 +315,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Maximální počet stažení pro neregistrované uživatele',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Doba expirace odkazu ke stažení',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Doba expirace odkaz ke stažení po prvním stažení',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Pouze administrátor e-shopu je oprávněn globálně měnit propagační akce.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Prosím vyberte jednu možnost',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Všechny dostupné produkty',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produkty s parametry',
@@ -419,8 +419,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'Kód výrobce (MPN)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Výrobce',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'Tato cena je zděděna podle variant produktu.' .
-                                                   '' .
-                                                   '',
+                                                   '<ul><li>V závislosti na nastavení obchodu se zadává / zobrazuje čistá cena nebo hrubá cena.</li>' .
+                                                   '<li>Hrubá cena je vždy uvedena v závorkách.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Produkt vytvořen',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Poslední úprava',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Pozice podle prodejnosti',
@@ -728,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Neplatná metadata v rozšířené sekci. Následující třídy rozšířeného obchodu jsou buď chybně zadány, nebo nepatří do jednotného jmenného prostoru: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Nezapomeňte prosím aktualizovat databázové pohledy v Služby->Nástroje",
     'LANGUAGE_ACTIVE'                                => 'Povoleno ve frontendu eShopu',
     'LANGUAGE_LIST_MENUITEM'                         => 'Hlavní nastavení',
@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Je dostupná verze %s.',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Používáte verzi %s, verze %s je nyní k dispozici. Prosím, aktualizujte nyní.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Administrace OXID Novinek]',
     'NEWS_LIST_SHORTTEXT'                            => 'Krátký popis',
@@ -791,7 +791,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Historie',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Systém kontroly stavu OXID eShopu pravděpodobně nefunguje. V některých případech se může eShop chovat podivně. Opravte tento stav co nejdříve. Jak zjednat nápravu najdetete v",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "kontrole funkčnosti systému.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Trvalá kontrola stavu systému byla deaktivována. Můžete ji znovu aktivovat v perform. záložce v Hlavním nastavení -> Základní nastavení. Chcete-li ji přesto zkontrolovat, prosím klikněte na tento odkaz: ",
     'NAVIGATION_SHOPFRONT'                           => "Úvodní stránka obchodu",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Novinky byly odeslány.',
@@ -975,7 +975,7 @@ $aLang = [
     'SHOP_CACHE_BACKEND_OXID'                            => 'OXID eShop Disk Storage Cache',
     'SHOP_CACHE_LIFETIME'                                => 'Cache lifetime (TTL)',
     'SHOP_CACHE_CLASSES'                                 => 'Cachable classes',
-    'SHOP_CACHE_AVAILABLE_FOR_NON_PRODUCTIVE'            => 'K dispozici jen v ne-produktivním módu',
+    'SHOP_CACHE_AVAILABLE_FOR_NON_PRODUCTIVE'            => 'K dispozici jen v ne-produkčním módu',
     'SHOP_CACHE_CONTENT_CACHE_FLUSH'                     => 'Vyprázdnit cache',
     'SHOP_CACHE_DEFAULT_BACKEND_ACTIVE'                  => 'Povolit cache',
     'SHOP_CACHE_DEFAULT_BACKEND_TTL'                     => 'Cache lifetime (TTL)',
@@ -1059,7 +1059,7 @@ $aLang = [
     'SHOP_MAIN_IBANNUMBER'                               => 'IBAN banky',
     'SHOP_MAIN_VATNUMBER'                                => 'DIČ',
     'SHOP_MAIN_TAXNUMBER'                                => 'DIČ',
-    'SHOP_MAIN_PRODUCTIVE'                               => 'Produktivní mód',
+    'SHOP_MAIN_PRODUCTIVE'                               => 'Produkční mód',
 
     'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Povolit uživatelům obchodu spravovat své recenze',
     'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Povolit uživatelům obchodu smazat svůj účet',
@@ -1149,7 +1149,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Vyhledávání',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Listmania (přehled)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Listmania (produkty)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Povolte připojení k serverům OXID eSales za účelem zlepšení kvality našich open source produktů.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Pravidelně ověřovat dostupnost nových verzí',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Vyberte komponenty eShopu',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Deaktivovat online kontrolu DIČ/UstId',
@@ -1763,7 +1763,7 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Platnost licenčního klíče vašeho OXID eShopu definitivně vypršela. Prosím, obraťte se na technickou podporu.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Platnost licenčního klíče vašeho OXID eShopu vypršela. OXID eShop bude off-line do 24 hodin. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Výsledkem opětovné kontroly bylo, že licenční klíč vašeho OXID eShopu je nyní platný. Proto bylo zrušeno skryté odpočítávání sedmi dnů.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Nastal problém s licenčním klíčem vašeho OXID eShopu. To je důvod, proč bylo zahájeno skryté odpočítávání 7 dní. Po uplynutí této doby OXID eShop přejde do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Licenční klíč vašeho OXID eShopu vypršel. To je důvod, proč bylo zahájeno skryté odpočítávání 7 dní . Po uplynutí této doby OXID eShop přejde do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Počet licencovaných dílčích obchodů překročen. Proto byl zahájen skrytý odpočet 7 dnů. Po uplynutí této doby OXID eShop se přepne do režimu offline. Zadejte prosím platný licenční klíč, nebo se obraťte na technickou podporu!',
@@ -2022,7 +2022,7 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Chyba: Modul není aktivován.<br />Všechny kontrolní klíče a hodnoty musí být jedinečné v celém obchodě nebo dílčím obchodě.<br />Následující kontrolní klíče nebo hodnoty definované v metadata.php tohoto modulu nejsou jedinečné:<br /> %s',
 
     'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Povinná pole kontaktního formuláře',
     'EMAIL'                          => 'E-mail',

@@ -34,5 +34,5 @@ $aLang = [
     'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Nastavení kontaktního formuláře',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
     'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Zobrazit poznámku pro odstranění dat po zpracování',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Zobrazit přihlášení ke zpracování a statistickému využití dat',
 ];
