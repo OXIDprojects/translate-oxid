@@ -125,7 +125,7 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Nabídka',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Tuto akci nelze vrátit zpět. Tímto trvale smažete vaše osobní údaje.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Smazat účet',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Jste si jisti, že chcete smazat Váš účet?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Zrušit',
