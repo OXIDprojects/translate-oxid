@@ -41,7 +41,7 @@ $aLang = array(
     'SHOP_THEME_sIconsize'                          => 'Velikost ikony v pixelech(šířka*výška)', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => 'Ikony jsou nejmenší obrázky produktu. Používají se: <br>' .
                                                        '<ul><li>v nákupním košíku.</li>' .
-                                                       '' .
+                                                       '<li>pokud jsou produkty zobrazeny v pravém menu (např v <span class="filename_filepath_or_italic">TOP obchodu</span> a <span class="filename_filepath_or_italic">Výhodná koupě</span>).</li></ul>' .
                                                        'Aby se předešlo problémům s designem způsobeným příliš velkými náhledy, změní se jejich velikost. Zde zadejte maximální velikost náhledů.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Velikost náhledů v pixelech (šířka*výška)', //SHOP_CONFIG_THUMBNAILSIZE
