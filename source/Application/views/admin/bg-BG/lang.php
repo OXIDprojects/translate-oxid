@@ -1756,7 +1756,7 @@ $aLang = [
     'editor_language'                             => 'en-us',
     //serials
     'invalid_serial'                              => 'Невалиден Лицензен Ключ',
-    'nonstackable_serial_detected'                => '',
+    'nonstackable_serial_detected'                => 'Не може да добавите ключ за лиценз, който не е от стака. Моля, въведете лицензен ключ от стака.',
     'serial_added'                                => 'Добавен беше ключ за лиценз',
     'serial_updated'                              => 'Ключ за лиценз беше актуализиран',
 
@@ -1785,7 +1785,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_VARIANTS'                  => 'Варианти',
     'SHOP_OPTIONS_GROUP_PRIVATESALES'              => 'Частни продажби',
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Покани',
-    'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => '',
+    'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Продукти за изтегляне',
     'SHOP_OPTIONS_BANK_INFORMATION'                => '',
     'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
 
