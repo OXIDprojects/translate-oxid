@@ -1967,11 +1967,11 @@ $aLang = [
 
 
     'OXDIAG_HOME'                     => 'Диагностика на Магазина',
-    'OXDIAG_ABOUT'                    => '',
-    'OXDIAG_DOWNLOADLOG'              => '',
+    'OXDIAG_ABOUT'                    => 'Този инструмент за диагностика събира технически данни за вашите магазин и сървър. Тази информация може да бъде полезна преди актуализиране, инсталиране на модули или диагностициране.',
+    'OXDIAG_DOWNLOADLOG'              => 'Изтегляне на отчет',
 
     //initial form
-    'OXDIAG_COLLECT_MODULES'          => '',
+    'OXDIAG_COLLECT_MODULES'          => 'Прихващане на модули',
     'OXDIAG_COLLECT_HEALTH'           => '',
     'OXDIAG_COLLECT_PHP'              => '',
     'OXDIAG_COLLECT_SERVER'           => '',
@@ -1980,11 +1980,11 @@ $aLang = [
 
     //index
     'OXDIAG_GOTO'                     => 'Иди на',
-    'OXDIAG_BASICS'                   => '',
+    'OXDIAG_BASICS'                   => 'Основни',
     'OXDIAG_MODULES'                  => 'Модули',
     'OXDIAG_HEALTH'                   => 'Системна проверка',
-    'OXDIAG_PHPINFO'                  => '',
-    'OXDIAG_SERVERINFO'               => '',
+    'OXDIAG_PHPINFO'                  => 'PHP информация',
+    'OXDIAG_SERVERINFO'               => 'Информация за сървъра',
     'OXDIAG_RESTART'                  => '',
 
     'OXDIAG_DISCL'                    => '',
