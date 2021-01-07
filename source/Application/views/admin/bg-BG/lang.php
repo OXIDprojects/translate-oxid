@@ -1972,11 +1972,11 @@ $aLang = [
 
     //initial form
     'OXDIAG_COLLECT_MODULES'          => 'Прихващане на модули',
-    'OXDIAG_COLLECT_HEALTH'           => '',
-    'OXDIAG_COLLECT_PHP'              => '',
-    'OXDIAG_COLLECT_SERVER'           => '',
-    'OXDIAG_STORE_ANALYSIS'           => '',
-    'OXDIAG_COLLECT_START'            => '',
+    'OXDIAG_COLLECT_HEALTH'           => 'Работа на системата за проучване',
+    'OXDIAG_COLLECT_PHP'              => 'PHP конфигурация за проучване (избрани параметри)',
+    'OXDIAG_COLLECT_SERVER'           => 'Информация за система за проучване (ако е възможно)',
+    'OXDIAG_STORE_ANALYSIS'           => 'Резултати за магазина',
+    'OXDIAG_COLLECT_START'            => 'Започни анализ!',
 
     //index
     'OXDIAG_GOTO'                     => 'Иди на',
@@ -1985,17 +1985,17 @@ $aLang = [
     'OXDIAG_HEALTH'                   => 'Системна проверка',
     'OXDIAG_PHPINFO'                  => 'PHP информация',
     'OXDIAG_SERVERINFO'               => 'Информация за сървъра',
-    'OXDIAG_RESTART'                  => '',
+    'OXDIAG_RESTART'                  => 'Започни нов анализ',
 
-    'OXDIAG_DISCL'                    => '',
-    'OXDIAG_HEALTH_OK'                => '',
-    'OXDIAG_HEALTH_MIN'               => '',
-    'OXDIAG_HEALTH_FAIL'              => '',
+    'OXDIAG_DISCL'                    => 'Анализът под линията е запазен във файла за отчет.',
+    'OXDIAG_HEALTH_OK'                => 'ОК',
+    'OXDIAG_HEALTH_MIN'               => 'MIN',
+    'OXDIAG_HEALTH_FAIL'              => 'FAIL',
 
     //modules
     'OXDIAG_MODULES_STATE'            => 'Статус:',
     'OXDIAG_MODULES_NAME'             => 'Име',
-    'OXDIAG_MODULES_ID'               => '',
+    'OXDIAG_MODULES_ID'               => 'ID',
     'OXDIAG_MODULES_VERSION'          => 'Версия',
     'OXDIAG_MODULES_VENDOR'           => 'Продавач',
 
@@ -2003,29 +2003,29 @@ $aLang = [
     'OXDIAG_PHPINFO_EXTENSIONS'       => 'PHP разширения',
     'OXDIAG_PHPINFO_PARAM'            => 'Параметър',
     'OXDIAG_PHPINFO_VALUE'            => 'Стойност',
-    'OXDIAG_PHPINFO_ZENDEX'           => '',
-    'OXDIAG_PHPINFO_OFF'              => '',
+    'OXDIAG_PHPINFO_ZENDEX'           => 'Разширение на Zend',
+    'OXDIAG_PHPINFO_OFF'              => 'Изкл',
 
     //server
-    'OXDIAG_SRVINF_NOTALL'            => '',
-    'OXDIAG_SRVINF_NOTE'              => '',
-    'OXDIAG_SERVERINFO_NOT_DETECTED'  => '',
-    'OXDIAG_SERVERINFO_COMPONENT'     => '',
-    'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => '',
+    'OXDIAG_SRVINF_NOTALL'            => 'Не може да изпълни всички стойности, дължи се на неактивирана <i>exec</i> команда на сървъра.',
+    'OXDIAG_SRVINF_NOTE'              => 'Бележка: Тази информация се събира за настоящия рантайм фронтенд сървър. Ако имате повече от един, работещи сървъра, можете да ги достъпите директно, за да извлечете необходимата информация.',
+    'OXDIAG_SERVERINFO_NOT_DETECTED'  => 'не е засечено',
+    'OXDIAG_SERVERINFO_COMPONENT'     => 'Компонент',
+    'SUBJECT_UNABLE_TO_SEND_VIA_CURL' => 'Информацията не може да бъде изпратена до сървъра на OXID посредством CURL',
 
     //final note
-    'OXDIAG_FINALNOTE'                => '',
+    'OXDIAG_FINALNOTE'                => 'Край на анализа.',
 
-    'OLC_ERROR_SERIAL_NOT_VALID'    => '',
-    'OLC_ERROR_RESPONSE_NOT_VALID'  => '',
-    'OLC_ERROR_RESPONSE_UNEXPECTED' => '',
+    'OLC_ERROR_SERIAL_NOT_VALID'    => 'Неуспешна проверка на ключ за лиценз. Опитайте отново или се свържете с поддръжката, ако това се случва често.',
+    'OLC_ERROR_RESPONSE_NOT_VALID'  => 'Грешка: услугата е временно недостъпна, опитайте по-късно... Ако проблемът продължи, моля, проверете дали магазинът ви може да прави изходящи връзки.',
+    'OLC_ERROR_RESPONSE_UNEXPECTED' => 'Грешка: отговорът от сървъра не може да бъде анализиран, поради неочакван формат. Моля, опитайте отново.',
 
-    'VERSION_UPDATE_LINK' => '',
+    'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Грешка: Модулът не е активен. <br />Всички контролни ключове и стойности трябва да бъдат уникални в целия магазин или подмагазин.<br />Следните контролни ключове или стойности, посочени в metadata.php на този модул, не са уникални:<br /> %s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Задължителни полета в контактната форма',
+    'EMAIL'                          => 'Е-мейл',
     'FIRST_NAME'                     => 'Име:',
     'LAST_NAME'                      => 'Фамилия',
     'TITLE'                          => 'Обръщeние',
