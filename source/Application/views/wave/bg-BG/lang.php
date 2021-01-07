@@ -27,7 +27,7 @@ $aLang = array(
     // Global
     'DD_SORT_DESC'                                          => 'низходящ',
     'DD_SORT_ASC'                                           => 'възходящ',
-    'DD_DEMO_ADMIN_TOOL'                                    => '',
+    'DD_DEMO_ADMIN_TOOL'                                    => 'Отваряне на администраторски интерфейс',
     'DD_DELETE'                                             => 'Изтриване',
 
     // Form validation
