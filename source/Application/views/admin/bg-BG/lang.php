@@ -1962,11 +1962,11 @@ $aLang = [
     'OXDIAG_SHOP_ORIGINAL'                => 'Този OXID ел. магазин не е модифициран и е напълно оригинален',
 
     'OXDIAG_MODIFIEDHINTS1'                       => 'Ел. магазин на OXID има възможност да се разширява, посредством модули, без да променя пренесените файлове. Не се препоръчва, но не е и необходимо да са променят файловете на магазина. Виж също нашето: <a href="http://blog.oxid-esales.com/2009/02/how-extend-oxid-eshop-with-modules-part-1/" target=_blank>обучение</a>.',
-    'OXDIAG_MODIFIEDHINTS2'                       => '',
-    'OXDIAG_VERSIONMISMATCHHINTS'                 => '',
+    'OXDIAG_MODIFIEDHINTS2'                       => 'От версия 4.2.0 на ел. магазин на OXID е възможно да използвате <a href="https://oxidforge.org/en/oxid-eshop-version-4-2-0.html#New_Features" target=_blank>ваши собствени шаблони без да се налага да променяте пренесените</a>.',
+    'OXDIAG_VERSIONMISMATCHHINTS'                 => 'Очевидно една или повече актуализации не се осъществиха. Проверете линка за повече информация, относно подробности за всеки от файловете. Файл, който вече не е част от OXID магазина, също може да <u>евентуална</u> причина за разминаване на версиите. Намерете информация за актуализация в нашия <a href="http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation" target=_blank>Документация и помощ</a>.',
 
 
-    'OXDIAG_HOME'                     => '',
+    'OXDIAG_HOME'                     => 'Диагностика на Магазина',
     'OXDIAG_ABOUT'                    => '',
     'OXDIAG_DOWNLOADLOG'              => '',
 
