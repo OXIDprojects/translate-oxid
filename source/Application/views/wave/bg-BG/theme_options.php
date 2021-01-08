@@ -62,27 +62,27 @@ $aLang = array(
     'HELP_SHOP_THEME_sCatIconsize'                  => 'В изглед Категория, изображенията за подкатегории се виждат в определения размер.',
 
     'SHOP_THEME_sCatPromotionsize'                  => 'Размер на снимка на категория за промоция на начална страница (ширина*височина)',
-    'HELP_SHOP_THEME_sCatPromotionsize'             => '',
+    'HELP_SHOP_THEME_sCatPromotionsize'             => 'Промоциите в категория, които се рекламират на началната страница, изискват специален размер на изображенията в категорията. Определете размер за тези изображения тук.',
 
-    'SHOP_THEME_blFooterShowHelp'                   => '',
-    'SHOP_THEME_blFooterShowLinks'                  => '',
-    'SHOP_THEME_blFooterShowNewsletter'             => '',
-    'SHOP_THEME_blFooterShowNewsletterForm'         => '',
-    'SHOP_THEME_blFooterShowNews'                   => '',
-    'SHOP_THEME_bl_showGiftWrapping'                => '', //SHOP_CONFIG_SHOWGIFTWRAPPING
-    'SHOP_THEME_bl_showVouchers'                    => '', //SHOP_CONFIG_SHOWVOUCHERS
-    'SHOP_THEME_bl_showWishlist'                    => '', //SHOP_CONFIG_SHOWWISHLIST
-    'SHOP_THEME_bl_showCompareList'                 => '', //SHOP_CONFIG_SHOWCOMPARELIST
-    'SHOP_THEME_bl_showListmania'                   => '', //SHOP_CONFIG_SHOWLISTMANIA
-    'SHOP_THEME_blShowBirthdayFields'               => '', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
+    'SHOP_THEME_blFooterShowHelp'                   => 'Използвай помощен линк',
+    'SHOP_THEME_blFooterShowLinks'                  => 'Използвай линк за връзки',
+    'SHOP_THEME_blFooterShowNewsletter'             => 'Използвай линк за бюлетин',
+    'SHOP_THEME_blFooterShowNewsletterForm'         => 'Използвай формуляр за бюлетин',
+    'SHOP_THEME_blFooterShowNews'                   => 'Използвай линк за новини',
+    'SHOP_THEME_bl_showGiftWrapping'                => 'Използвай подаръчна опаковка', //SHOP_CONFIG_SHOWGIFTWRAPPING
+    'SHOP_THEME_bl_showVouchers'                    => 'Използвай ваучери', //SHOP_CONFIG_SHOWVOUCHERS
+    'SHOP_THEME_bl_showWishlist'                    => 'Моята регистрация за подарък', //SHOP_CONFIG_SHOWWISHLIST
+    'SHOP_THEME_bl_showCompareList'                 => 'Използвай списък за сравнявани продукти', //SHOP_CONFIG_SHOWCOMPARELIST
+    'SHOP_THEME_bl_showListmania'                   => 'Използвай Листмания', //SHOP_CONFIG_SHOWLISTMANIA
+    'SHOP_THEME_blShowBirthdayFields'               => 'Използвай полета за въвеждане на дата на раждане, когато потребителите въвеждат лични данни', //SHOP_CONFIG_SHOWBIRTHDAYFIELDS
 
-    'SHOP_THEME_iTopNaviCatCount'                   => '', //SHOP_CONFIG_TOPNAVICATCOUNT
-    'SHOP_THEME_blShowFinalStep'                    => '', //SHOP_SYSTEM_SHOWFINALSTEP
-    'SHOP_THEME_iNewBasketItemMessage'              => '', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
-    'HELP_SHOP_THEME_iNewBasketItemMessage'         => '', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'SHOP_THEME_iTopNaviCatCount'                   => 'Брой категории показвани най- горе', //SHOP_CONFIG_TOPNAVICATCOUNT
+    'SHOP_THEME_blShowFinalStep'                    => 'Покажи потвърждаване на поръчка след приключване на поръчката (5та стъпка от чекаута)', //SHOP_SYSTEM_SHOWFINALSTEP
+    'SHOP_THEME_iNewBasketItemMessage'              => 'Избери действие след добавянето на продукт в кошницата', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
+    'HELP_SHOP_THEME_iNewBasketItemMessage'         => 'Когато клиент добави продукти в кошницата, OXID ел. магазин може да има различно поведение. Настройте според това, каква обратна връзка желаете да достига до клиентите Ви.', //SHOP_SYSTEM_SHOWNEWBASKETITEMMESSAGE
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'Няма',
-    'SHOP_THEME_iNewBasketItemMessage_1'            => '',
-    'SHOP_THEME_iNewBasketItemMessage_2'            => '',
+    'SHOP_THEME_iNewBasketItemMessage_1'            => 'Показване съобщение',
+    'SHOP_THEME_iNewBasketItemMessage_2'            => 'Отваряне в изкачащ прозорец',
     'SHOP_THEME_iNewBasketItemMessage_3'            => '',
 
     'SHOP_THEME_blShowListDisplayType'              => '',
