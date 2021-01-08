@@ -38,30 +38,30 @@ $aLang = array(
     'SHOP_THEME_GROUP_econda'                       => 'econda Web Shop Controlling',
     'SHOP_THEME_GROUP_emails'                       => 'имейли',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sIconsize'                          => 'Размер на иконите (ширина*височина)', //SHOP_CONFIG_ICONSIZE
+    'HELP_SHOP_THEME_sIconsize'                     => 'Иконите са най- малките снимки на продукта. Използват се: <br>' .
+                                                       '<ul><li>в кошницата.</li>' .
+                                                       '<li>ако продуктите са показани на менюто в дясно (напр. в <span class="filename_filepath_or_italic">Най- продавани</span>и<span class="filename_filepath_or_italic">Оферта</span>).</li></ul>' .
+                                                       'За да се избегнат проблеми с дизайна, когато иконите са твърде големи, те ще бъдат автоматично оразмерявани. Въведете допустим максимален размер на иконите тук.',
 
-    'SHOP_THEME_sThumbnailsize'                     => '', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'SHOP_THEME_sThumbnailsize'                     => 'Размер на миниатюри (ширина*височина)', //SHOP_CONFIG_THUMBNAILSIZE
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'Миниатюрите са малки снимки на продукта. Използват се: <br>' .
+                                                       '<ul><li>в списъците с продукти</li>' .
+                                                       '<li>когато има промоции, в средата на началната страница, напр. <span class="filename_filepath_or_italic"> Най- нови!</span>.</li></ul>' .
+                                                       'За да се избегнат проблеми с дизайна, когато миниатюрите са твърде големи, те ще бъдат автоматично оразмерявани. Въведете допустим максимален размер на миниатюри тук.',
 
-    'SHOP_THEME_sZoomImageSize'                     => '', //SHOP_CONFIG_ZOOMIMAGESIZE
-    'SHOP_THEME_sCatThumbnailsize'                  => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'HELP_SHOP_THEME_sCatThumbnailsize'             => '', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'SHOP_THEME_aDetailImageSizes'                  => '', //SHOP_CONFIG_DETAILIMAGESIZE
+    'SHOP_THEME_sZoomImageSize'                     => 'Размер на снимка при зуум (ширина*височина)', //SHOP_CONFIG_ZOOMIMAGESIZE
+    'SHOP_THEME_sCatThumbnailsize'                  => 'Размер на изображение в категория (ширина*височина)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'HELP_SHOP_THEME_sCatThumbnailsize'             => 'В изглед Категория, изображението за избраната категория се вижда в определения размер.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'SHOP_THEME_aDetailImageSizes'                  => 'Размер на изображение на продукт (ширина*височина)', //SHOP_CONFIG_DETAILIMAGESIZE
 
-    'SHOP_THEME_sManufacturerIconsize'              => '', // Check if this is really manufacturer or if it is more like "brand"
-    'HELP_SHOP_THEME_sManufacturerIconsize'         => '',
+    'SHOP_THEME_sManufacturerIconsize'              => 'Размер на лого на Производител/Марка', // Check if this is really manufacturer or if it is more like "brand"
+    'HELP_SHOP_THEME_sManufacturerIconsize'         => 'Лого на Производител/Марка се вижда на началната страница в слайдъра на производител.',
 
-    'SHOP_THEME_sCatIconsize'                       => '',
-    'HELP_SHOP_THEME_sCatIconsize'                  => '',
+    'SHOP_THEME_sCatIconsize'                       => 'Размер на изображение за подкатегория (ширина*височина)',
+    'HELP_SHOP_THEME_sCatIconsize'                  => 'В изглед Категория, изображенията за подкатегории се виждат в определения размер.',
 
-    'SHOP_THEME_sCatPromotionsize'                  => '',
+    'SHOP_THEME_sCatPromotionsize'                  => 'Размер на снимка на категория за промоция на начална страница (ширина*височина)',
     'HELP_SHOP_THEME_sCatPromotionsize'             => '',
 
     'SHOP_THEME_blFooterShowHelp'                   => '',
