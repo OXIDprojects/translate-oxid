@@ -34,28 +34,28 @@ $aLang = array(
     'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Моля въведете валиден имейл',
     'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Паролата не съвпада.',
     'DD_FORM_VALIDATION_NUMBER'                             => 'Моля въведете номер',
-    'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Не са позволени знаци след десетичната запетая.',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Моля, въведете положително цяло число.',
     'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Моля въведете отрицателно число.',
     'DD_FORM_VALIDATION_REQUIRED'                           => 'Моля въведете стойност в задължителното поле',
     'DD_FORM_VALIDATION_CHECKONE'                           => 'Моля изберете поне една опция',
 
     // Header
-    'SEARCH_TITLE'                                          => '',
+    'SEARCH_TITLE'                                          => 'Въведи критерий за търсене...',
     'SEARCH_SUBMIT'                                         => 'Търси',
     'NAV_MORE'                                              => 'Повече',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => '',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Информирайте се за най- новите продукти и оферти посредством е-мейл.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => '',
-    'START_BARGAIN_HEADER'                                  => '',
-    'START_NEWEST_HEADER'                                   => '',
-    'START_TOP_PRODUCTS_HEADER'                             => '',
-    'START_BARGAIN_SUBHEADER'                               => '',
-    'START_NEWEST_SUBHEADER'                                => '',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => '',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'Представяме Ви наши внимателно избрани марки, чиито продукти могат да бъдат открити в магазина ни.',
+    'START_BARGAIN_HEADER'                                  => 'Специална оферта на седмицата',
+    'START_NEWEST_HEADER'                                   => 'Най- нови',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Най-продавани',
+    'START_BARGAIN_SUBHEADER'                               => 'Спести пари с изгодните ни предложения!',
+    'START_NEWEST_SUBHEADER'                                => 'Възможно най- пресен. След една минута в кутията, продуктът вече е в стора.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Само %s продукти, но най- добрите, които можм да предложим.',
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Свържете се с нас!',
