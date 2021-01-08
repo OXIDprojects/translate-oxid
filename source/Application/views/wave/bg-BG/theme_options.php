@@ -83,7 +83,7 @@ $aLang = array(
     'SHOP_THEME_iNewBasketItemMessage_0'            => 'Няма',
     'SHOP_THEME_iNewBasketItemMessage_1'            => 'Показване съобщение',
     'SHOP_THEME_iNewBasketItemMessage_2'            => 'Отваряне в изкачащ прозорец',
-    'SHOP_THEME_iNewBasketItemMessage_3'            => '',
+    'SHOP_THEME_iNewBasketItemMessage_3'            => 'Отвори кошница',
 
     'SHOP_THEME_blShowListDisplayType'              => '',
     'HELP_SHOP_THEME_blShowListDisplayType'         => '',
