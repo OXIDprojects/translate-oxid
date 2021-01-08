@@ -67,17 +67,17 @@ $aLang = array(
     // 404 page
     'DD_ERR_404_START_TEXT'                                 => 'Може да намерите информацията на нашия сайт:',
     'DD_ERR_404_START_BUTTON'                               => 'Към началната страница',
-    'DD_ERR_404_CONTACT_TEXT'                               => '',
+    'DD_ERR_404_CONTACT_TEXT'                               => 'Можем ли да Ви помогнем?<br>Не се двоумете да ни се обадите или да ни изпратите е-мейл:',
     'DD_ERR_404_CONTACT_BUTTON'                             => 'към страницата за контакти',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Създаването на профил в нашия магазин, Ви гарантира по-бързо преминаване през чекаута. А в допълнение ще можете да запазвате няколко адреса за доставка и да проследявате поръчките си.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'Щат/Област',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'избери',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'добави адрес за доставка',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Изтрий адрес за доставка',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Филтър:',
@@ -88,21 +88,21 @@ $aLang = array(
 
     // Downloads
     'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'свали',
-    'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
+    'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Размер на файла:',
     'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'часа',
     'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Име на файла:',
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'към общия преглед',
     'OF'                                                    => 'от',
-    'DD_RATING_CUSTOMERRATINGS'                             => '',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
-    'DETAILS_VPE_MESSAGE_1'                                 => "",
+    'DD_RATING_CUSTOMERRATINGS'                             => 'Отзиви на клиенти',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Клиенти, закупили този продукт, купиха също и някой от следните продукти.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Следните продукти се съчетават добре с този.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Погледнете и други подобни продукти.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Клиенти, разглеждали този продукт, разгледаха също и следните други продукти.',
+    'DETAILS_VPE_MESSAGE_1'                                 => "Този продукт може да бъде поръчан в опаковка от ",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Изберете вариант',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Тотал',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Меню',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Действието не може да бъде отменено. Това би изтрило личните Ви данни завинаги.',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Изтриване на профил',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Сигурни ли сте, че желаете да изтриете своя профил?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Отказвам',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Потребителският Ви профил е изтрит',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Потребителският Ви профил не може да бъде изтрит',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Изтриване на отзив или оставен рейтинг',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Няма налични коментари',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Сигурни ли сте, че искате да изтриете коментара?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Моля изберете',
