@@ -23,9 +23,9 @@ $sLangName = 'Български';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "",
-    'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => '',
-    'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "",
+    'OEGDPROPTIN_STORE_DELIVERY_ADDRESS' => "Съгласен съм адресът ми за доставка да бъде запазен. В раздел \"Моят профил\" мога да премахна окончателно адресът за доставка.",
+    'OEGDPROPTIN_CONFIRM_STORE_DELIVERY_ADDRESS' => 'Моля, съгласете се адресът Ви за доставка да бъде запаметен!',
+    'OEGDPROPTIN_CONTACT_FORM_ERROR_MESSAGE' => "Моля, съгласете се на условията за обработване на Вашите данни!",
     'OEGDPROPTIN_CONTACT_FORM_MESSAGE_DELETION' => "",
     'OEGDPROPTIN_CONTACT_FORM_MESSAGE_STATISTICAL' => "",
     'OEGDPROPTIN_USER_REGISTRATION_OPTIN' => "",
