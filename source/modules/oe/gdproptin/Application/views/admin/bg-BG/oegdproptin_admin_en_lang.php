@@ -23,16 +23,16 @@ $sLangName = 'Български';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'OE GDPR opt-in модул',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Настройки на GDPR',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Покажи opt-in за адрес на фактуриране',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Покажи opt-in за адрес на доставка',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Покажи opt-in за потребителска регистрация',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Покажи opt-in за мнение за продукт',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Настройки на контактна форма',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Покажи съобщение за изтриване на данните след обработка',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Покажи opt-in за обработка и статистическа употреба на данните',
 ];
