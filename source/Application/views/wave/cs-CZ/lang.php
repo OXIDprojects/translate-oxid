@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => 'K přehledu',
-    'OF'                                                    => 'od',
+    'OF'                                                    => 'z',
     'DD_RATING_CUSTOMERRATINGS'                             => 'Názory zákazníků',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Zákazníci, kteří koupili tento produkt, koupili i tyto následující produkty.',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Následující produkty se hodí k tomuto produktu',
