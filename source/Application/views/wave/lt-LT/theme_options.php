@@ -31,7 +31,7 @@ $aLang = array(
     'SHOP_THEME_GROUP_favicons'                     => 'Puslapio ikonėlės (Favicon)',
     'SHOP_THEME_GROUP_footer'                       => 'Poraštė',
     'SHOP_THEME_GROUP_header'                       => 'Antraštė',
-    'SHOP_THEME_GROUP_contact'                      => 'Kontaktas',
+    'SHOP_THEME_GROUP_contact'                      => 'Kontaktai',
     'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
     'SHOP_THEME_GROUP_googlets'                     => '',
     'SHOP_THEME_GROUP_background'                   => 'Fono vaizdas',
@@ -52,7 +52,7 @@ $aLang = array(
 
     'SHOP_THEME_sZoomImageSize'                     => 'Didelio paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'Didelio paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
-    'HELP_SHOP_THEME_sCatThumbnailsize'             => 'Kategorijos peržiūroje yra rodomas nurodyto dydžio kategorijos paveikslėlis.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
+    'HELP_SHOP_THEME_sCatThumbnailsize'             => 'Kategorijos kontekste pasirinkta kategorijos nuotrauka yra atvaizduojama nurodytu dydžiu.', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
     'SHOP_THEME_aDetailImageSizes'                  => 'Produkto paveikslėlio dydis (plotis*aukštis)', //SHOP_CONFIG_DETAILIMAGESIZE
 
     'SHOP_THEME_sManufacturerIconsize'              => 'Gamintojo/prekės ženklo logotipo dydis', // Check if this is really manufacturer or if it is more like "brand"
@@ -203,7 +203,7 @@ $aLang = array(
     'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Rodyti rekomendacijas krepšelyje',
     'SHOP_THEME_sEcondaWidgetIdBasket'              => '',
 
-    'SHOP_THEME_blFullwidthLayout'                      => 'Įjungti išdėstymą per visą plotį',
+    'SHOP_THEME_blFullwidthLayout'                      => 'Įgalinti pilno pločio išdėstymą',
 
     'SHOP_THEME_blEmailsShowProductPictures'        => 'El. laiškuose rodyti produktų paveikslėlius',
 );
