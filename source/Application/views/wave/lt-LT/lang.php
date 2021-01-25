@@ -37,7 +37,7 @@ $aLang = array(
     'DD_FORM_VALIDATION_INTEGER'                            => 'Nėra skaičių po kablelio.',
     'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Įveskite teigiamą skaičių.',
     'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Įveskite neigiamą skaičių.',
-    'DD_FORM_VALIDATION_REQUIRED'                           => 'Nurodykite šio būtino lauko reikšmę.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Prašome pateikti reikšmę šiam privalomui laukui.',
     'DD_FORM_VALIDATION_CHECKONE'                           => 'Prašome pasirinkti bent vieną variantą.',
 
     // Header
@@ -74,7 +74,7 @@ $aLang = array(
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Kurdami paskyrą mūsų parduotuvėje, bus greitesnis procesas. Be to, galite išsaugoti kelis pristatymo adresus ir stebėti užsakymus.',
 
     // Billing address
-    'DD_USER_LABEL_STATE'                                    => 'Valstybė',
+    'DD_USER_LABEL_STATE'                                    => 'Valstija',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'Pasirinkti',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'pridėti pristatymo adresas',
     'DD_DELETE_SHIPPING_ADDRESS'                            => 'Ištrinti pristatymo adresą',
