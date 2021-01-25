@@ -27,7 +27,7 @@ $aLang = [
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => 'GDPR nustatymai',
     'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Rodyti sutikimo užklausą mokėtojo adresui',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Rodyti sutikimo užklausą pristatymo adresui',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Rodyti pasirinkimą pristatymo adresui',
     'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Rodyti sutikimo užklausą vartotojo registracijai',
     'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Rodyti sutikimo užklausą atsiliepimams apie pruduktus',
 
