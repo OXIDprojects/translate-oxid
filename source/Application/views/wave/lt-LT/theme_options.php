@@ -195,13 +195,13 @@ $aLang = array(
     'HELP_SHOP_THEME_blSliderShowImageCaption'      => 'Tekstas rodomas, kai aktyviai skaidrei priskirtas produktas.',
 
     'SHOP_THEME_blEcondaRecommendationsStart'       => 'Rodyti pasiūlymus pradiniame puslapyje',
-    'SHOP_THEME_sEcondaWidgetIdStart'               => '',
+    'SHOP_THEME_sEcondaWidgetIdStart'               => 'Pradinio puslapio rekomendacijų-valdiklio-ID',
     'SHOP_THEME_blEcondaRecommendationsList'        => 'Rodyti pasiūlymus sąrašuose',
-    'SHOP_THEME_sEcondaWidgetIdList'                => '',
+    'SHOP_THEME_sEcondaWidgetIdList'                => 'Pageidavimų puslapio rekomendacijų-valdiklio-ID',
     'SHOP_THEME_blEcondaRecommendationsDetails'     => 'Rodyti pasiūlymus produkto puslapyje',
-    'SHOP_THEME_sEcondaWidgetIdDetails'             => '',
+    'SHOP_THEME_sEcondaWidgetIdDetails'             => 'Prekės kortelės rekomendacijų-valdiklio-ID',
     'SHOP_THEME_blEcondaRecommendationsBasket'      => 'Rodyti rekomendacijas krepšelyje',
-    'SHOP_THEME_sEcondaWidgetIdBasket'              => '',
+    'SHOP_THEME_sEcondaWidgetIdBasket'              => 'Pirkinių krepšelio rekomendacijų-valdiklio-ID',
 
     'SHOP_THEME_blFullwidthLayout'                      => 'Įgalinti pilno pločio išdėstymą',
 
