@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Verzió %s elérhető!',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Ön a %s verziót használja, a %s verzió már rendelkezésre áll. Kérjük, frissítse a rendszerét.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Hírkezelő]',
     'NEWS_LIST_SHORTTEXT'                            => 'Megnevezés',
@@ -791,7 +791,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Történet',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Az Ön rendszere nem felel meg az Alapvető Rendszerkövetelményeknek. További információkat találhat itt",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Alapvető Rendszerkövetelmények Vizsgálata.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Az állandó rendszerállapot vizsgálata ki van kapcsolva. Ezt a Törzsadatok -> Alapbeállítások -> Performance alatt tudja aktiválni. Amennyiben meg szeretné tekinteni a rendszer jelenlegi állapotát, kattintson ide: ",
     'NAVIGATION_SHOPFRONT'                           => "Áruház kezdőlap",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Az Ön hírlevele elküldve.',
@@ -1061,13 +1061,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Adószám',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Produktívmód',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Engedélyezi az ügyfeleknek az értékeléseinek nyilvántartásának a kezelését',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Engedélyezi az ügyfeleknek a fiókjuk törlését',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV-elválasztójel az import-export funkciónál',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Írásjel a CSV-fájlok export/import-jához',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'A termékek másolása esetén: A másolt termékeket <b>ne állítsa be</b> "Aktívként"',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Engedélyezi a termékek ajánlását',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'A sorok száma a CSV fájlban , amelyek Tick-enkét exportálásra kerülnek',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'ÁFA-beállítások Lexware Faktura programhoz',
@@ -1149,7 +1149,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Keresés',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Kedvencek (lista)(Áttekintés)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Kedvenc lista (Termék)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Az OXID eSales Szerverrel történő kapcsolódás engedélyezése, az Open-Source-program minőségének javításának az érdekében.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Frissítések rendszeres ellenőrzése',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'eShop funkciók be/kikapcsolása',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Online Adószám ellenőrzés deaktíválása',
@@ -1169,8 +1169,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Kizárólag IBAN/BIC felhasználása',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'A szállítószolgálat Tracking-URL-je',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'A megadott konfigurációs érték %s érvénytelen',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Értékelések, és a csillagokkal történő osztályzás engedélyezése',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'A termékértékelést lehetővé tevő link küldése a megrendelést visszaigazoló e-mail-ben',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Az azonos termékjellemzők százalékos értéke, amivel a termékek hasonlónak számítanak',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Képminőség - 0-tól (legrosszabb minőség, kis fájlméret) 100ig (legjobb minőség, nagy fájlméret)',
@@ -1214,7 +1214,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '-- Új létrehozás --',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Foglalt szavak (amelyek automatikusan SEO-utótaggal lesznek ellátva)',
     'SHOP_SEO_SKIPTAGS'                       => 'Szavak, amelyeket a keresőmotorok ignorálnak a Metatag-eknél',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'SEO-URL-ek kisbetüssé alakítása',
     'SHOP_LICENSE_SERIAL'                     => 'Telepített sorozatszámok',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Sorozatszám hozzáadása',
     'SHOP_LICENSE_VERSION'                    => 'eShop Verzió',
@@ -1763,13 +1763,13 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Az OXID eShop licenszkulcs érvényessége végérvényesen lejárt. Kérem, vegye fel a kapcsolatot a technikai támogatással.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Az OXID eShop licenszkulcs érvényessége lejárt. Ez az OXID eShop a következő 24 óra során már csak offline üzemel. Kérem, adjon meg egy érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz.',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Az újabb viszgálat azt eredményezte, hogy az OXID eShop licenszkulcsa érvényes. A csendes hét napos visszaszámlálás ezen okokból befejeződött.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Egy hiba lépett fel az OXID eShop licenszkulcsát illetően. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Az OXID eShop licenszkulcs érvényessége lejárt. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Az al-shopok száma túllépte a keretet. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'OXID eShop licenszinformáció',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Ez az e-mail a %s áruházból elküldve.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Országok megjelenítése',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Keresés',
@@ -1787,7 +1787,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Meghívások',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Letölthető termék',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Bankinformációk (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Fiókbeállítások',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Hozzárendelt felhasználói csoportok',
     'PROMOTION_LIST_ALL'          => 'Mind',
@@ -1905,7 +1905,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Tárgy',
 
     'SHOP_PERF_SEO_CACHE'                        => 'SEO puffer (Cache) aktíválása',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'A rendszerállapot vizsgálati eredményeinek megjelenítése az adminisztráció kezdő oldalán',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'A sablonok és a modulok beállítása a "Kiterjesztések" menüben találhatók',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'A Sablon nem határozható meg a config.inc.php fájlban',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Árriasztás',
@@ -2023,17 +2023,17 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren/update-vorbereiten.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Hiba: A modul nincs aktiválva.<br />Egy áruházban, vagy fióküzletben a kulcsok és az értékek a "controllers" számára egyértelműnek kell lenie.<br />A következő kulcsok és az értékek a "controllers" számára, amelyek a metadata.php fájlban definiálva vannak, már léteznek a Shopban<br /> %s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'A kapcsolati űrlap kötelezően megadott adatai',
+    'EMAIL'                          => 'E-Mail',
     'FIRST_NAME'                     => 'Ime',
     'LAST_NAME'                      => 'Prezime:',
     'TITLE'                          => 'Megszólítás',
     'SUBJECT'                        => 'Tárgy',
     'MESSAGE'                        => 'Poruka',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'A verzió információ lekérésénél hiba lépett fel',
+    'CURL_EXECUTE_ERROR' => 'Kapcsolati hiba (%s). Kérjük, kísérelje meg mégegyszer',
 ];
 
 /*
