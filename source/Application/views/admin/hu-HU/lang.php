@@ -128,7 +128,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Alacsony raktárkészlet legkevesebb mennyiség',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'oxamitemid',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'oxamtaskid',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Variáns legmagasabb ár',
     'GENERAL_ARTICLE_OXVENDORID'        => 'Szállító azonosító',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'Gyártó azonosító',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Variánsok száma',
@@ -315,7 +315,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'A letöltések maximális száma a nem regisztrált felhasználóknak',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'A letöltési link érvényességi ideje',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'A letöltési link érvényességi ideje az első letöltés után',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Csak az adminisztrátor jogosult a promóció változtatására',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Kérem válasszon a fenti listából egy akciót a további beállításhoz.',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Összes rendelkezésre álló termék',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Hozzárendelt termékek',
@@ -418,9 +418,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'Gyártó EAN',
     'ARTICLE_MAIN_MPN'                          => 'Gyártó-Termékszám MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Gyártó',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Ezt az árat öröklik a termék változatai, variánsai.' .
+                                                   '<ul><li>A shopbeállításától függően lesz megadva/megjelenítve a Nettó- vagy Bruttóár..</li>' .
+                                                   '<li>A zárójelben mindig a bruttóár jelenik meg.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Term. Létrehozva',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Utolsó változtatás',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Értékesítési rangsor',
@@ -638,8 +638,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Összes ország',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Hozzárendelt országok',
     'DISCOUNT_LIST_MENUITEM'                    => 'Áruház beállításai',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Hiba: A "%s" mező csak számjegyet tartalmazhat.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Hiba: A "%s" mező értékének egyértelműnek kell lennie.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Engedmények',
     'DISCOUNT_MAIN_AFROM'                       => '(-tól)',
     'DISCOUNT_MAIN_ATILL'                       => '(-ig)',
@@ -728,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Érvénytelen métaadatok az extend résznél. A következő shop osztályok hibásan lettek beírva, vagy nem tartoznak a virtuális Namespace-hez: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Kérem, frissítse az adatbázis-Views-t Szervíz -> Eszközök alatt",
     'LANGUAGE_ACTIVE'                                => 'Az áruházban aktív',
     'LANGUAGE_LIST_MENUITEM'                         => 'Törzsadatok',
