@@ -23,7 +23,7 @@ $sLangName = 'Magyar';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'Adatvédelem modul',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
     'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
