@@ -63,22 +63,22 @@ $aLang = [
 
 // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
 'CARD_MASTERCARD'                                             => 'Mastercard',
-'CARD_SECURITY_CODE'                                          => 'CVV2 ou CVC2 código de segurança:',
+'CARD_SECURITY_CODE'                                          => 'Código de segurança CVV2 ou CVC2',
 'CARD_SECURITY_CODE_DESCRIPTION'                              => 'O código de segurança é impresso no lado inverso do seu cartão de crédito no lado direito acima da assinatura.',
 'CARD_VISA'                                                   => 'Visa',
 // END deprecated
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
 'CARD_TO'                                                     => 'Cartão para',
 /** end deprecated */
-'CART'                                                        => 'Carrinho',
+'CART'                                                        => 'Carrinhos de Compras',
 'CATEGORIES'                                                  => 'Categorias',
-'CATEGORY'                                                    => 'Categoria:',
-'CATEGORY_OVERVIEW'                                           => 'Vista geral da categoria',
-'CATEGORY_PRODUCTS_S'                                         => 'categoria/%s',
+'CATEGORY'                                                    => 'Categoria',
+'CATEGORY_OVERVIEW'                                           => 'Resumo da categoria',
+'CATEGORY_PRODUCTS_S'                                         => 'Categoria/%s',
 'CATEGORY_S'                                                  => 'Categoria: %s',
-'CELLUAR_PHONE'                                               => 'Telemóvel:',
-'CHANGE'                                                      => 'Modificar',
-'CHANGE_ACCOUNT_PASSWORD'                                     => 'Modificar Password',
+'CELLUAR_PHONE'                                               => 'Telefone celular',
+'CHANGE'                                                      => 'Alterar',
+'CHANGE_ACCOUNT_PASSWORD'                                     => 'Alterar senha',
 'CHANGE_PASSWORD'                                             => 'Modificar password',
 'CHARGES'                                                     => 'Cobranças',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
