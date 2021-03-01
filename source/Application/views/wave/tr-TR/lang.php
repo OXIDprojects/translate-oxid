@@ -25,23 +25,23 @@ $aLang = array(
     'charset'                                               => 'UTF-8',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
-    'DD_DEMO_ADMIN_TOOL'                                    => '',
+    'DD_SORT_DESC'                                          => 'azalan',
+    'DD_SORT_ASC'                                           => 'artan',
+    'DD_DEMO_ADMIN_TOOL'                                    => 'Yönetici arayüzünü aç',
     'DD_DELETE'                                             => 'Sil',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
-    'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Lütfen geçerli bir eposta adresi girin.',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Parolalar eşleşmiyor.',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Lütfen bir numara giriniz.',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Ondalık basamağa izin verilmez.',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Lütfen pozitif bir değer girin.',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Lütfen negatif bir değer giriniz.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Zorunlu alan için bir değer giriniz.',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Lütfen en az bir seçenek seçin.',
 
     // Header
-    'SEARCH_TITLE'                                          => '',
+    'SEARCH_TITLE'                                          => 'Bir arama terimi giriniz...',
     'SEARCH_SUBMIT'                                         => 'Ara',
     'NAV_MORE'                                              => 'Daha fazla',
 

@@ -77,7 +77,7 @@ $aLang = array(
     'DD_USER_LABEL_STATE'                                    => 'Megye',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'kiválaszt',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'új cím hozzáadása',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Új cím hozzáadása',
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Szűrés:',
@@ -102,7 +102,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Azok az ügyfeleink, akik ezt a terméket megtekintették, megtekintették a következő termékeket is.',
     'DETAILS_VPE_MESSAGE_1'                                 => "Ez a termék csak csomagolási egységben, egységenként",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Válasszon variánst',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Összérték',
@@ -125,17 +125,17 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menü',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
-    'DD_DELETE_MY_ACCOUNT'                                  => '',
-    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Ez a művelet nem vonható vissza. Az ön összes személyes adatai véglegesen törlésre kerülnek.',
+    'DD_DELETE_MY_ACCOUNT'                                  => 'Ügyfélfiók törölve',
+    'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Biztos abban, hogy törölni szeretné az ügyfélfiókját?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Poništi',
-    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => '',
-    'DD_DELETE_MY_ACCOUNT_ERROR'                            => '',
+    'DD_DELETE_MY_ACCOUNT_SUCCESS'                          => 'Az ügyfélfiók törölve',
+    'DD_DELETE_MY_ACCOUNT_ERROR'                            => 'Az ügyfélfiókot nem sikerült törölni',
 
     // Account -> My product reviews
-    'DD_DELETE_REVIEW_AND_RATING'                           => '',
-    'DD_REVIEWS_NOT_AVAILABLE'                              => '',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_AND_RATING'                           => 'Az értékelések és csillag osztályzatok törölve',
+    'DD_REVIEWS_NOT_AVAILABLE'                              => 'Nem létezik értékelés',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Biztos benne, hogy törli az értékeléseket?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Kérem válasszon',

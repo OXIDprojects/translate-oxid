@@ -64,7 +64,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXSHOPID'          => 'Az áruház Azonosítási száma',
     'GENERAL_ARTICLE_OXPARENTID'        => 'Főtermék azonosító szám',
     'GENERAL_ARTICLE_OXACTIVE'          => 'Aktív',
-    'GENERAL_ARTICLE_OXHIDDEN'          => '',
+    'GENERAL_ARTICLE_OXHIDDEN'          => 'Rejtett',
     'GENERAL_ARTICLE_OXSHORTDESC'       => 'Rövid leírás',
     'GENERAL_ARTICLE_OXLONGDESC'        => 'Teljes leírás',
     'GENERAL_ARTICLE_OXPRICE'           => 'Ár',
@@ -128,7 +128,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Alacsony raktárkészlet legkevesebb mennyiség',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'oxamitemid',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'oxamtaskid',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Variáns legmagasabb ár',
     'GENERAL_ARTICLE_OXVENDORID'        => 'Szállító azonosító',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'Gyártó azonosító',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Variánsok száma',
@@ -315,7 +315,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'A letöltések maximális száma a nem regisztrált felhasználóknak',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'A letöltési link érvényességi ideje',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'A letöltési link érvényességi ideje az első letöltés után',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Csak az adminisztrátor jogosult a promóció változtatására',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Kérem válasszon a fenti listából egy akciót a további beállításhoz.',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Összes rendelkezésre álló termék',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Hozzárendelt termékek',
@@ -397,7 +397,7 @@ $aLang = [
     'ARTICLE_MAIN_ACTIVETO'                     => 'ig',
     'ARTICLE_MAIN_ACTIVEFROM'                   => 'tól',
     'ARTICLE_MAIN_ACTIVE'                       => 'Aktív',
-    'ARTICLE_MAIN_HIDDEN'                       => '',
+    'ARTICLE_MAIN_HIDDEN'                       => 'Rejtett',
     'ARTICLE_MAIN_SHORTDESC'                    => 'Rövid leírás.',
     'ARTICLE_MAIN_PRICEA'                       => 'A:',
     'ARTICLE_MAIN_PRICEB'                       => 'B:',
@@ -418,9 +418,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'Gyártó EAN',
     'ARTICLE_MAIN_MPN'                          => 'Gyártó-Termékszám MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Gyártó',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Ezt az árat öröklik a termék változatai, variánsai.' .
+                                                   '<ul><li>A shopbeállításától függően lesz megadva/megjelenítve a Nettó- vagy Bruttóár..</li>' .
+                                                   '<li>A zárójelben mindig a bruttóár jelenik meg.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Term. Létrehozva',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Utolsó változtatás',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Értékesítési rangsor',
@@ -638,8 +638,8 @@ $aLang = [
     'DISCOUNT_COUNTRIES_ALLCOUNTRIES'           => 'Összes ország',
     'DISCOUNT_COUNTRIES_SETCOUNTRIES'           => 'Hozzárendelt országok',
     'DISCOUNT_LIST_MENUITEM'                    => 'Áruház beállításai',
-    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => '',
-    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => '',
+    'DISCOUNT_ERROR_OXSORT_NOT_A_NUMBER'        => 'Hiba: A "%s" mező csak számjegyet tartalmazhat.',
+    'DISCOUNT_ERROR_OXSORT_NOT_UNIQUE'          => 'Hiba: A "%s" mező értékének egyértelműnek kell lennie.',
     'DISCOUNT_LIST_MENUSUBITEM'                 => 'Engedmények',
     'DISCOUNT_MAIN_AFROM'                       => '(-tól)',
     'DISCOUNT_MAIN_ATILL'                       => '(-ig)',
@@ -728,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Érvénytelen métaadatok az extend résznél. A következő shop osztályok hibásan lettek beírva, vagy nem tartoznak a virtuális Namespace-hez: <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "Kérem, frissítse az adatbázis-Views-t Szervíz -> Eszközök alatt",
     'LANGUAGE_ACTIVE'                                => 'Az áruházban aktív',
     'LANGUAGE_LIST_MENUITEM'                         => 'Törzsadatok',
@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Verzió %s elérhető!',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Ön a %s verziót használja, a %s verzió már rendelkezésre áll. Kérjük, frissítse a rendszerét.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[Hírkezelő]',
     'NEWS_LIST_SHORTTEXT'                            => 'Megnevezés',
@@ -791,7 +791,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Történet',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "Az Ön rendszere nem felel meg az Alapvető Rendszerkövetelményeknek. További információkat találhat itt",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Alapvető Rendszerkövetelmények Vizsgálata.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Az állandó rendszerállapot vizsgálata ki van kapcsolva. Ezt a Törzsadatok -> Alapbeállítások -> Performance alatt tudja aktiválni. Amennyiben meg szeretné tekinteni a rendszer jelenlegi állapotát, kattintson ide: ",
     'NAVIGATION_SHOPFRONT'                           => "Áruház kezdőlap",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Az Ön hírlevele elküldve.',
@@ -1061,13 +1061,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Adószám',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Produktívmód',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Engedélyezi az ügyfeleknek az értékeléseinek nyilvántartásának a kezelését',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Engedélyezi az ügyfeleknek a fiókjuk törlését',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'CSV-elválasztójel az import-export funkciónál',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Írásjel a CSV-fájlok export/import-jához',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'A termékek másolása esetén: A másolt termékeket <b>ne állítsa be</b> "Aktívként"',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Engedélyezi a termékek ajánlását',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'A sorok száma a CSV fájlban , amelyek Tick-enkét exportálásra kerülnek',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'ÁFA-beállítások Lexware Faktura programhoz',
@@ -1149,7 +1149,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Keresés',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Kedvencek (lista)(Áttekintés)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Kedvenc lista (Termék)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Az OXID eSales Szerverrel történő kapcsolódás engedélyezése, az Open-Source-program minőségének javításának az érdekében.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Frissítések rendszeres ellenőrzése',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'eShop funkciók be/kikapcsolása',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Online Adószám ellenőrzés deaktíválása',
@@ -1169,8 +1169,8 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Kizárólag IBAN/BIC felhasználása',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'A szállítószolgálat Tracking-URL-je',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'A megadott konfigurációs érték %s érvénytelen',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Értékelések, és a csillagokkal történő osztályzás engedélyezése',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'A termékértékelést lehetővé tevő link küldése a megrendelést visszaigazoló e-mail-ben',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Az azonos termékjellemzők százalékos értéke, amivel a termékek hasonlónak számítanak',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Képminőség - 0-tól (legrosszabb minőség, kis fájlméret) 100ig (legjobb minőség, nagy fájlméret)',
@@ -1214,7 +1214,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '-- Új létrehozás --',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Foglalt szavak (amelyek automatikusan SEO-utótaggal lesznek ellátva)',
     'SHOP_SEO_SKIPTAGS'                       => 'Szavak, amelyeket a keresőmotorok ignorálnak a Metatag-eknél',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'SEO-URL-ek kisbetüssé alakítása',
     'SHOP_LICENSE_SERIAL'                     => 'Telepített sorozatszámok',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Sorozatszám hozzáadása',
     'SHOP_LICENSE_VERSION'                    => 'eShop Verzió',
@@ -1763,13 +1763,13 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'Az OXID eShop licenszkulcs érvényessége végérvényesen lejárt. Kérem, vegye fel a kapcsolatot a technikai támogatással.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'Az OXID eShop licenszkulcs érvényessége lejárt. Ez az OXID eShop a következő 24 óra során már csak offline üzemel. Kérem, adjon meg egy érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz.',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Az újabb viszgálat azt eredményezte, hogy az OXID eShop licenszkulcsa érvényes. A csendes hét napos visszaszámlálás ezen okokból befejeződött.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Egy hiba lépett fel az OXID eShop licenszkulcsát illetően. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'Az OXID eShop licenszkulcs érvényessége lejárt. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Az al-shopok száma túllépte a keretet. Ezért egy 7 napos visszaszámlálás kezdődött. A határidő elteltével az OXID eShop csak offline üzemel. Kérem, adja meg még egyszer az érvényes licenszkulcsot, vagy forduljon a technikai támogatáshoz!',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'OXID eShop licenszinformáció',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Ez az e-mail a %s áruházból elküldve.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Országok megjelenítése',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Keresés',
@@ -1787,7 +1787,7 @@ $aLang = [
     'SHOP_OPTIONS_GROUP_INVITATIONS'               => 'Meghívások',
     'SHOP_OPTIONS_GROUP_SHOP_DOWNLOADABLEARTICLES' => 'Letölthető termék',
     'SHOP_OPTIONS_BANK_INFORMATION'                => 'Bankinformációk (SEPA)',
-    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => '',
+    'SHOP_OPTIONS_GROUP_ACCOUNT_SETTINGS'          => 'Fiókbeállítások',
 
     'PROMOTION_USERS_SETGROUPS'   => 'Hozzárendelt felhasználói csoportok',
     'PROMOTION_LIST_ALL'          => 'Mind',
@@ -1905,7 +1905,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Tárgy',
 
     'SHOP_PERF_SEO_CACHE'                        => 'SEO puffer (Cache) aktíválása',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'A rendszerállapot vizsgálati eredményeinek megjelenítése az adminisztráció kezdő oldalán',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'A sablonok és a modulok beállítása a "Kiterjesztések" menüben találhatók',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'A Sablon nem határozható meg a config.inc.php fájlban',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Árriasztás',
@@ -2023,17 +2023,17 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/de/support-services/dokumentation-und-hilfe/oxid-eshop/installation/oxid-eshop-aktualisieren/update-vorbereiten.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Hiba: A modul nincs aktiválva.<br />Egy áruházban, vagy fióküzletben a kulcsok és az értékek a "controllers" számára egyértelműnek kell lenie.<br />A következő kulcsok és az értékek a "controllers" számára, amelyek a metadata.php fájlban definiálva vannak, már léteznek a Shopban<br /> %s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
-    'EMAIL'                          => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'A kapcsolati űrlap kötelezően megadott adatai',
+    'EMAIL'                          => 'E-Mail',
     'FIRST_NAME'                     => 'Ime',
     'LAST_NAME'                      => 'Prezime:',
     'TITLE'                          => 'Megszólítás',
     'SUBJECT'                        => 'Tárgy',
     'MESSAGE'                        => 'Poruka',
-    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => '',
-    'CURL_EXECUTE_ERROR' => '',
+    'ADMIN_SETTINGS_LICENSE_VERSION_FETCH_INFO_ERROR' => 'A verzió információ lekérésénél hiba lépett fel',
+    'CURL_EXECUTE_ERROR' => 'Kapcsolati hiba (%s). Kérjük, kísérelje meg mégegyszer',
 ];
 
 /*
