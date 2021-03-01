@@ -39,16 +39,16 @@ $aLang = array(
     'SHOP_THEME_GROUP_emails'                       => 'E-Mail-ek',
 
     'SHOP_THEME_sIconsize'                          => 'Az ikonok mérete Pixelben (szélesség*magasság)', //SHOP_CONFIG_ICONSIZE
-    'HELP_SHOP_THEME_sIconsize'                     => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'HELP_SHOP_THEME_sIconsize'                     => 'Az ikonok a termékek legkisebb méretű képei. Ezek a képek jelennek meg pl.:<br>' .
+                                                       '<ul><li>a kosárban</li>' .
+                                                       '<li>vagy ha a termékek az áruház szélén listázva jelennek meg(Pl.: az akcióknál<span class="filename_filepath_or_italic">Legnépszerűbb termékek</span> és <span class="filename_filepath_or_italic">Akciók</span>).</li></ul>' .
+                                                       'Annak érdekében, hogy az áruház összképe ne boruljon fel a túl nagy méretű ikonok miatt, a képek mérete automaitkusan le lesznek kicsinyítve az Ön által megadott méret szerint. A legnagyobb méretet adhatja meg itt.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'A Bélyegképek mérete. (szélesség*magasság)', //SHOP_CONFIG_THUMBNAILSIZE
-    'HELP_SHOP_THEME_sThumbnailsize'                => '' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+    'HELP_SHOP_THEME_sThumbnailsize'                => 'A Bélyegképek a termékeknél megjelenített kis képek. Ezek jelennek meg:<br>' .
+                                                       '<ul><li>pl.: a terméklistákban. (A terméklisták a kategória nézetben jelennek meg, ahol az adott kategória összes terméke megjelenik) a keresési találatoknál.</li>' .
+                                                       '<li> az alkalmi akcióknál, amelyek a kezdőoldalon jelennek meg, valamint a <span class="filename_filepath_or_italic">Népszerű</span> és <span class="filename_filepath_or_italic">Most érkezett!</span> termékek között.</li></ul>' .
+                                                       'Annak érdekében, hogy az áruház összképe ne boruljon fel, a túl nagy képek automatikusan le lesznek kicsinyítve. Itt adhatja meg a képek méretét pixelben.',
 
     'SHOP_THEME_sZoomImageSize'                     => 'A nagyított képek mérete (Nagyítás 1-4) pixelben (szélesség*magasság)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'A kategória képek mérete pixelben (szélesség*magasság)', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
@@ -167,8 +167,8 @@ $aLang = array(
     'SHOP_THEME_sBackgroundSize_contain'            => 'lefedett (teljes szélesség)',
     'SHOP_THEME_sBackgroundSize_normal'             => 'Eredeti méret megtartása',
     'SHOP_THEME_blBackgroundAttachment'             => 'Maradjon a háttérkép a képernyő gördítése esetén egy helyben?',
-    'SHOP_THEME_blHomeLink'                         => '',
-    'SHOP_THEME_bl_showPriceAlarm'                  => '',
+    'SHOP_THEME_blHomeLink'                         => 'A start link megjelenítése a navigációban?',
+    'SHOP_THEME_bl_showPriceAlarm'                  => 'Árriasztás használata',
 
     'SHOP_THEME_blUseGoogleTS'                      => 'Google certifikált kereskedő használata',
     'SHOP_THEME_sGoogleVendorId'                    => 'Google Store-ID (kötelező)',
