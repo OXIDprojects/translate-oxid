@@ -59,7 +59,7 @@ $aLang = array(
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Entre em contato conosco',
-    'DD_CONTACT_FORM_HEADING'                               => 'Contactos',
+    'DD_CONTACT_FORM_HEADING'                               => 'Contato',
 
     // Link list
     'DD_LINKS_NO_ENTRIES'                                   => '',
