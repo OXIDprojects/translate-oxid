@@ -279,10 +279,10 @@ $aLang = [
 'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Introduza o seu endereço a sua mensagem pessoal.',
 /** end deprecated */
 'MESSAGE_FROM'                                                => 'Mensagem de',
-'MESSAGE_GET_BONUS_POINTS'                                    => 'Agora! Obtenha os seus pontos de bónus pela sua compra.',
+'MESSAGE_GET_BONUS_POINTS'                                    => 'Obtenha já os seus pontos bónus pela sua compra!',
 'MESSAGE_INVALID_EMAIL'                                       => 'Endereço de e-mail inválido!',
-'MESSAGE_INVITE_YOUR_FRIENDS'                                 => 'Convide os seus amigos a visitar o nosso site e ganhe pontos por cada convite.',
-'MESSAGE_INVITE_YOUR_FRIENDS_EMAIL'                           => 'Por favor, introduza o endereço de e-mail do seu amigo e, um convite será enviado ao mesmo.',
+'MESSAGE_INVITE_YOUR_FRIENDS'                                 => 'Convide os seus amigos para o nosso site e ganhe pontos por cada novo cadastro!',
+'MESSAGE_INVITE_YOUR_FRIENDS_EMAIL'                           => 'Por favor, insira o endereço de e-mail do seu amigo e um convite será enviado ao mesmo.',
 'MESSAGE_INVITE_YOUR_FRIENDS_INVITATION_SENT'                 => 'E-mail de convite foi enviado aos seus amigos. Obrigado por nos recomendar.',
 'MESSAGE_LOGIN_TO_RATE'                                       => 'Tem que estar ligado à sua conta, para avaliar !',
 'MESSAGE_LOGIN_TO_WRITE_REVIEW'                               => 'Tem que estar ligado à sua conta, para escrever um comentário.',
