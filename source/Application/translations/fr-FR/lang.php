@@ -761,10 +761,10 @@ Si vous commandez avec votre compte client, Les liens de téléchargement appara
 'SERVICES'                                                    => 'Service',
 'FORM_FIELDSET_USER_SHIPPING_ADDITIONALINFO2_TOOLTIP'         => '', // this is specifically for DHL
 'FORM_FIELDSET_USER_BILLING_ADDITIONALINFO_TOOLTIP'           => '', // this is specifically for DHL
-'FORM_SUGGEST_MESSAGE1'                                       => '',
-'FORM_SUGGEST_MESSAGE2'                                       => '',
+'FORM_SUGGEST_MESSAGE1'                                       => 'Bonjour, je regardais à',
+'FORM_SUGGEST_MESSAGE2'                                       => 'aujourd\'hui et j\'ai trouvé quelque chose qui pourrait vous intéresser. Cliquez sur le lien ci-dessous et vous serez dirigé sur la boutique.',
 'SHOP_SUGGEST_MESSAGE'                                        => 'Bonjour, Je regardais sur %s aujourd\'hui et j\'ai trouvé quelque chose qui pourrait vous intéresser. Cliquez seulement sur le lien ci-dessous et vous serez dirigé sur la boutique.',
-'SHOP_SUGGEST_BUY_FOR_ME'                                     => '',
+'SHOP_SUGGEST_BUY_FOR_ME'                                     => 'Bonjour, j\'ai créé une liste de cadeaux chez %s . Merci pour votre achat de cadeaux!',
 'GIFT_REGISTRY_SENT_SUCCESSFULLY'                             => 'Votre liste de cadeaux a été envoyée avec succès à : %s',
 'INCLUDE_VAT'                                                 => 'TVA incluse',
 'COD_CHARGE'                                                  => 'Frais payables comptant à la livraison',
