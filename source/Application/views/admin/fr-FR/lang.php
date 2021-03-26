@@ -128,7 +128,7 @@ $aLang = [
     'GENERAL_ARTICLE_OXREMINDAMOUNT'    => 'Seuil d\'alerte stock bas',
     'GENERAL_ARTICLE_OXAMITEMID'        => 'Identifiant article',
     'GENERAL_ARTICLE_OXAMTASKID'        => 'Identifiant tâche',
-    'GENERAL_ARTICLE_OXVARMAXPRICE'     => '',
+    'GENERAL_ARTICLE_OXVARMAXPRICE'     => 'Prix maximum de toutes les variantes',
     'GENERAL_ARTICLE_OXVENDORID'        => 'Identifiant vendeur',
     'GENERAL_ARTICLE_OXMANUFACTURERID'  => 'Identifiant fabricant',
     'GENERAL_ARTICLE_OXVARCOUNT'        => 'Nombre de variantes',
@@ -315,7 +315,7 @@ $aLang = [
     'GENERAL_LINK_EXPIRATION_TIME_UNREGISTERED' => 'Nombre maximal de téléchargements pour les utilisateurs non enregistrés',
     'GENERAL_LINK_EXPIRATION_TIME'              => 'Délai d\'expiration du lien de téléchargement',
     'GENERAL_DOWNLOAD_EXPIRATION_TIME'          => 'Délai d\'expiration du lien de téléchargement après le premier téléchargement',
-    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => '',
+    'ACCESS_TO_EDIT_ACTION_FOR_MALL_ADMIN_ONLY' => 'Seul l\'administrateur de la boutique est autorisé à changer les promotions globalement.',
     'ACTIONS_MAIN_NOTSELECTED'                  => 'Faites un choix dans la liste ci-dessus pour effectuer un changement',
     'ACTIONS_MAIN_ALLARTICLES'                  => 'Ensemble des produits disponibles',
     'ACTIONS_MAIN_ALLARTICLESWITHATTR'          => 'Produits mis en avant',
@@ -418,9 +418,9 @@ $aLang = [
     'ARTICLE_MAIN_DISTEAN'                      => 'EAN Fabricant',
     'ARTICLE_MAIN_MPN'                          => 'MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Fabricant',
-    'HELP_ARTICLE_MAIN_PRICE'                   => '' .
-                                                   '' .
-                                                   '',
+    'HELP_ARTICLE_MAIN_PRICE'                   => 'Ce prix est répercuté sur les variantes du produit.' .
+                                                   '<ul><li>En fonction des paramètres de la boutique le prix net ou le prix brut est entré/affiché.</li>' .
+                                                   '<li>Le prix brut est toujours affiché entre parenthèses.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Produit créé le',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Dernière modification le',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Position dans les ventes',
@@ -728,7 +728,7 @@ $aLang = [
     // In MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND ad links to offical equivalents of
     // http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/metadata/version20.html
     // and http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/modules/using_namespaces_in_modules.html
-    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => '',
+    'MODULE_METADATA_PROBLEMATIC_DATA_IN_EXTEND'     => 'Métadonnées non valides dans la section d\'extension. Les classes étendues suivantes sont soit mal écrites, soit elles n\'appartiennent pas à l\'espace de noms unifié : <br> %s',
     'LANGUAGE_ERRORGENERATEVIEWS'                    => "N'oubliez-pas de mettre à jour les DB Views dans le menu (Services->Outils)",
     'LANGUAGE_ACTIVE'                                => 'Activée sur la boutique',
     'LANGUAGE_LIST_MENUITEM'                         => 'Système',
@@ -775,7 +775,7 @@ $aLang = [
     // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s disponible.',
     // END deprecated
-    'NAVIGATION_NEW_VERSION_AVAILABLE'               => '',
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Vous utilisez la version %s, la version %s est maintenant disponible. Veuillez mettre à jour maintenant.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Gestion des news]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titre',
