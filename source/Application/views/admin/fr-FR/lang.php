@@ -1061,13 +1061,13 @@ $aLang = [
     'SHOP_MAIN_TAXNUMBER'                                => 'Numéro d\'identification fiscale',
     'SHOP_MAIN_PRODUCTIVE'                               => 'Mode Production',
 
-    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => '',
-    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => '',
+    'SHOP_CONFIG_ALLOW_USERS_MANAGE_REVIEWS'                  => 'Autoriser les utilisateurs à gérer leurs avis',
+    'SHOP_CONFIG_ALLOW_USERS_TO_DELETE_THEIR_ACCOUNT'         => 'Autoriser les utilisateurs à supprimer leur compte',
     'SHOP_CONFIG_CSVSEPARATOR'                                => 'Séparateurs de champs des fichiers CSV pour les Imports/Exports',
     'SHOP_CONFIG_CSVFIELDENCLOSER'                            => 'Encapsulation CSV pour les Imports/Exports',
     'SHOP_CONFIG_DISABLEARTDUBLICATES'                        => 'Lorsqu\'un produit est copié : ne pas le rendre actif',
     /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => '',
+    'SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'                       => 'Autoriser la recommandation de produits',
     /** end deprecated */
     'SHOP_CONFIG_EXPORTNUMBEROFLINES'                         => 'Nombre de lignes à exporter par cycle dans les exports CSV.',
     'SHOP_CONFIG_MWSTSETTING'                                 => 'Paramètres de TVA pour Lexware Faktura',
@@ -1149,7 +1149,7 @@ $aLang = [
     'SHOP_CONFIG_RSSSEARCH'                                   => 'Recherche',
     'SHOP_CONFIG_RSSARTRECOMMLISTS'                           => 'Listes de recommandation (vue d\'ensemble)',
     'SHOP_CONFIG_RSSRECOMMLISTARTS'                           => 'Listes de recommandation (produits)',
-    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => '',
+    'SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID'          => 'Autoriser une connexion aux serveurs OXID eSales pour améliorer la qualité de nos produits open source.',
     'SHOP_CONFIG_CHECK_UPDATES'                               => 'Vérifier la présence de mises à jour régulièrement',
     'SHOP_CONFIG_SELECTSHOPCOMPONENTS'                        => 'Sélectionnez les composantes de la boutique',
     'SHOP_CONFIG_DISABLEONLINEVATIDCHECK'                     => 'Désactiver la vérification des N° de TVA',
