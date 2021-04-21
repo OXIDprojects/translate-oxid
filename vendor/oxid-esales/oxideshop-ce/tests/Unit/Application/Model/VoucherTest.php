@@ -27,7 +27,7 @@ class VoucherTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $myConfig = $this->getConfig();
@@ -71,7 +71,7 @@ class VoucherTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         if ($this->_sTestUserId) {
             $oUser = oxNew('oxuser');
@@ -1298,9 +1298,9 @@ class VoucherTest extends \OxidTestCase
         $oVoucher = oxNew('oxvoucher');
         $oVoucher->markAsUsed('xxx', 'yyy', '');
 
-        $this->assertNull($oVoucher->oxvouchers__oxorderid->value);
-        $this->assertNull($oVoucher->oxvouchers__oxuserid->value);
-        $this->assertNull($oVoucher->oxvouchers__oxdateused->value);
+        $this->assertFalse($oVoucher->oxvouchers__oxorderid);
+        $this->assertFalse($oVoucher->oxvouchers__oxuserid);
+        $this->assertFalse($oVoucher->oxvouchers__oxdateused);
     }
 
     // barking existing voucher

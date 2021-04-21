@@ -34,6 +34,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalRegularCheckoutPayment()
     {
@@ -73,8 +74,8 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
         $this->assertEquals("0,99 €", $this->getText("basketGrandTotal"), "Grand total price changed or didn't displayed");
         $this->assertEquals("Zahlungsart Ändern PayPal", $this->clearString($this->getText("orderPayment")));
         $this->assertEquals("Versandart Ändern Test S&H set", $this->clearString($this->getText("orderShipping")));
-        $this->assertContains("testing_account@oxid-esales.dev", $this->clearString($this->getText("orderAddress")));
-        $this->assertContains("SeleniumTestCase Äß'ü Testing acc for Selenium Herr Testing user acc Äß'ü PayPal Äß'ü Musterstr. Äß'ü 1 79098 Musterstadt Äß'ü Deutschland", $this->clearString($this->getText("orderAddress")));
+        $this->doAssertStringContainsString("testing_account@oxid-esales.dev", $this->clearString($this->getText("orderAddress")));
+        $this->doAssertStringContainsString("SeleniumTestCase Äß'ü Testing acc for Selenium Herr Testing user acc Äß'ü PayPal Äß'ü Musterstr. Äß'ü 1 79098 Musterstadt Äß'ü Deutschland", $this->clearString($this->getText("orderAddress")));
         $this->clickAndWait("//button[text()='Zahlungspflichtig bestellen']", 90);
         $this->assertTextPresent("Vielen Dank für Ihre Bestellung im OXID eShop", "Order is not finished successful");
 
@@ -166,6 +167,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalRegularCheckoutAndChangeQuantityAfterwardsViaAdmin()
     {
@@ -234,6 +236,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalDiscountsCategory()
     {
@@ -323,6 +326,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalDiscountsFromTill()
     {
@@ -477,6 +481,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalVouchers()
     {
@@ -569,6 +574,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalVAT()
     {
@@ -688,6 +694,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalProportional()
     {
@@ -970,6 +977,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalStandardNettoMode()
     {
@@ -1059,6 +1067,7 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
      * @group paypal_standalone
      * @group paypal_external
      * @group paypal_buyerlogin
+     * @group paypal_standard
      */
     public function testPayPalStandard()
     {
@@ -1109,5 +1118,33 @@ class AcceptanceNewGuiTest extends BaseAcceptanceTestCase
         }
 
         return $buttonSource;
+    }
+
+    /**
+     * @param string $needle
+     * @param string $haystack
+     * @param string $message
+     */
+    protected function doAssertStringContainsString($needle, $haystack, $message = '')
+    {
+        if (method_exists($this, 'assertStringContainsString')) {
+            parent::assertStringContainsString($needle, $haystack, $message);
+        } else {
+            parent::assertContains($needle, $haystack, $message);
+        }
+    }
+
+    /**
+     * @param string $needle
+     * @param string $haystack
+     * @param string $message
+     */
+    protected function doAssertStringNotContainsString($needle, $haystack, $message = '')
+    {
+        if (method_exists($this, 'assertStringNotContainsString')) {
+            parent::assertStringNotContainsString($needle, $haystack, $message);
+        } else {
+            parent::assertNotContains($needle, $haystack, $message);
+        }
     }
 }

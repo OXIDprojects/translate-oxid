@@ -653,15 +653,22 @@ $aLang = [
     'DISCOUNT_USERS_ALLUSERSINGROUP'            => 'Alle Benutzer',
     'DISCOUNT_USERS_SETGROUPS'                  => 'Zugeordnete Benutzergruppen',
     'DISCOUNT_USERS_SETUSER'                    => 'Zugeordnete Benutzer',
-    'DYN_ECONDA_ACTIVE'                         => 'ECONDA Webcontrolling aktivieren',
-    'DYN_ECONDA_ATTENTION'                      => 'Bitte beachten Sie: ',
-    'DYN_ECONDA_COPY_FILE'                      => 'Sie müssen dazu die Datei "emos2.js", die Sie von ECONDA erhalten, in das Verzeichnis %s kopieren',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYN_ECONDA_ACTIVE'                         => 'ECONDA Webcontrolling aktivieren',
+        'DYN_ECONDA_ATTENTION'                      => 'Bitte beachten Sie: ',
+        'DYN_ECONDA_COPY_FILE'                      => 'Sie müssen dazu die Datei "emos2.js", die Sie von ECONDA erhalten, in das Verzeichnis %s kopieren',
+    // END deprecated
 
     'DYNBASE_ADDCATTOCAMPAIGN'                       => 'Hauptkategorie zum Kampagnenparameter hinzufügen',
     'DYNBASE_DO_SUCCESS'                             => 'Erfolg! Sie können Ihre Exportdatei <a href="%s" target="_blank">hier</a> herunterladen.',
     'DYNBASE_DO_LINK'                                => 'Der Partner kann diese Datei auch selbst abholen - bitte teilen Sie folgenden Link mit: ',
-    'DYNSCREEN_TITLE'                                => 'marketing',
-    'DYNSCREEN_LIST_SERVICE'                         => 'Servicebereich',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_TITLE'                                => 'marketing',
+        'DYNSCREEN_LIST_SERVICE'                         => 'Servicebereich',
+    // END deprecated
+
     'EDITOR_PLAINTEXT_HINT'                          => '<b>Anmerkung:</b> Wenn Sie Zeilenumbrüche unverändert übernehmen möchten (z. B. für plaintext E-Mail), dann benutzen Sie "Source" anstatt "Design".',
     'ALTERNATIVE_IMAGE_SERVER_NOTE'                  => '<b>Hinweis:</b> Der Shop ist konfiguriert, Artikelbilder von einem externen Server zu laden. Dateien werden aber nicht zu diesem Speicherort hochgeladen. Stellen Sie bitte die manuelle Synchronisation sicher.',
     'EXCEPTION_USER_USEREXISTS'                      => 'Dieser Benutzer existiert bereits!',
@@ -743,7 +750,9 @@ $aLang = [
     'LANGUAGE_EMPTYLANGUAGENAME_ERROR'               => 'Bitte geben Sie den Namen der Sprache ein!',
     'LANGUAGE_ABBREVIATION_INVALID_ERROR'            => 'Sprachkürzel nicht zulässig! Erlaubte Zeichen sind a-z, A-Z, 0-9 und der Unterstrich.',
     'SETUP_DIRNOTDELETED_WARNING'                    => 'Bitte löschen Sie das Setup-Verzeichnis',
+    // @deprecated 6.6.0
     'UPDATEAPP_DIRNOTDELETED_WARNING'                => 'Bitte löschen Sie das updateApp-Verzeichnis',
+    // END deprecated
     'SETUP_CONFIGPERMISSIONS_WARNING'                => 'WICHTIG: Aus Sicherheitsgründen setzen Sie Ihre config.inc.php Datei auf read-only-Modus!',
     'LOGIN_TITLE'                                    => 'OXID eShop Login',
     'LOGIN_ERROR'                                    => 'Fehler! Falscher Benutzername und/oder Passwort.',
@@ -763,7 +772,10 @@ $aLang = [
     'NAVIGATION_LOGOUT'                              => 'Abmelden',
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Seite',
+    // @deprecated
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s ist verfügbar!',
+    // END deprecated
+    'NAVIGATION_NEW_VERSION_AVAILABLE'               => 'Sie verwenden Version %s, Version %s ist jetzt verfügbar. Bitte aktualisieren Sie jetzt.',
     // @deprecated 6.5.6 "News" feature will be removed completely
     'NEWS_LIST_TITLE'                                => '[OXID Newsverwaltung]',
     'NEWS_LIST_SHORTTEXT'                            => 'Titel',
@@ -1238,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen oder fsockopen auf Port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Kompatibilitätsmodus muss ausgeschaltet sein',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'PHP Version 7.1 and 7.4',
+    'SYSREQ_PHP_VERSION'                      => 'PHP Version 7.3 and 8.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI vorhanden',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1488,8 +1500,11 @@ $aLang = [
     'SHOP_PERF_USETIMECHECKINARTLOAD'         => 'Beim Laden von Artikeln "Aktiv von/bis" berücksichtigen',
     'SHOP_PERF_DISBASKETSAVING'               => 'Warenkörbe von angemeldeten Benutzern <strong>nicht</strong> speichern',
     'SHOP_PERF_HIDELEFTCOLUMN'                => 'Linke Spalte verstecken',
-    'DYNSCREEN_LOCAL_TITLE'                   => 'E-Commerce Services',
-    'DYNSCREEN_LOCAL_TEXT'                    => 'Some general info about e-commerce services ...',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'DYNSCREEN_LOCAL_TITLE'                   => 'E-Commerce Services',
+        'DYNSCREEN_LOCAL_TEXT'                    => 'Some general info about e-commerce services ...',
+    // END deprecated
 
     'GENIMPORT_MENUITEM'             => 'Service',
     'GENIMPORT_MENUSUBITEM'          => 'Gener. Import',
@@ -1567,7 +1582,11 @@ $aLang = [
     'mxmanufacturer'           => 'Hersteller',
     'mxvouchers'               => 'Gutscheinserien',
     'mxwrapping'               => 'Geschenkverpackung',
-    'mxdynscreenlocal'         => 'General information',
+
+    // @deprecated 6.6.0 dynpages will be removed on the next major
+        'mxdynscreenlocal'         => 'General information',
+    // END deprecated
+
     'mxoxexchange'             => 'OXID eXchange',
     'mxnewsletter'             => 'Newsletter',
     'mxorderovw'               => 'Bestellübersicht',

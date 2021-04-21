@@ -48,7 +48,7 @@ class UtfTest extends \OxidTestCase
     /**
      * Sets up test
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -59,7 +59,7 @@ class UtfTest extends \OxidTestCase
     /**
      * Cleans up database.
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->getConfig()->setConfigParam('sTheme', $this->_sOrigTheme);
 
@@ -1577,7 +1577,7 @@ class UtfTest extends \OxidTestCase
         $oVoucher = oxNew('oxvoucher');
         $oVoucher->load('_testVoucher');
 
-        $this->assertTrue(strcmp($oVoucher->oxvouchers__oxvouchernr->value, $sValue) === 0, "$sFieldName (" . $oVoucher->oxvouchers__oxvouchernr->value . ")");
+        $this->assertTrue(strcmp($oVoucher->oxvouchers__oxvouchernr->value, $sValue) === 0);
     }
 
     public function testOxVoucherSerieSaveAndLoad()
@@ -1593,8 +1593,8 @@ class UtfTest extends \OxidTestCase
         $oVoucherSerie = oxNew('oxvoucherserie');
         $oVoucherSerie->load('_testVoucherSerie');
 
-        $this->assertTrue(strcmp($oVoucherSerie->oxvoucherseries__oxserienr->value, $sValue) === 0, "$sFieldName (" . $oVoucherSerie->oxvoucherseries__oxserienr->value . ")");
-        $this->assertTrue(strcmp($oVoucherSerie->oxvoucherseries__oxseriedescription->value, $sValue) === 0, "$sFieldName (" . $oVoucherSerie->oxvoucherseries__oxseriedescription->value . ")");
+        $this->assertTrue(strcmp($oVoucherSerie->oxvoucherseries__oxserienr->value, $sValue) === 0);
+        $this->assertTrue(strcmp($oVoucherSerie->oxvoucherseries__oxseriedescription->value, $sValue) === 0);
     }
 
     public function testOxWrappingSaveAndLoad()
@@ -1611,9 +1611,9 @@ class UtfTest extends \OxidTestCase
         $oWrap = oxNew('oxwrapping');
         $oWrap->load('_testWrapping');
 
-        $this->assertTrue(strcmp($oWrap->oxwrapping__oxtype->value, $sValue) === 0, "$sFieldName (" . $oWrap->oxwrapping__oxtype->value . ")");
-        $this->assertTrue(strcmp($oWrap->oxwrapping__oxname->value, $sValue) === 0, "$sFieldName (" . $oWrap->oxwrapping__oxname->value . ")");
-        $this->assertTrue(strcmp($oWrap->oxwrapping__oxpic->value, $sValue) === 0, "$sFieldName (" . $oWrap->oxwrapping__oxpic->value . ")");
+        $this->assertTrue(strcmp($oWrap->oxwrapping__oxtype->value, $sValue) === 0);
+        $this->assertTrue(strcmp($oWrap->oxwrapping__oxname->value, $sValue) === 0);
+        $this->assertTrue(strcmp($oWrap->oxwrapping__oxpic->value, $sValue) === 0);
     }
 
     public function testaListGetCatPathString()
@@ -1732,7 +1732,6 @@ class UtfTest extends \OxidTestCase
         $oArt->setArticleLongDesc($sValue);
         $oArt->oxarticles__oxsearchkeys = new oxField($sValue, oxField::T_RAW);
 
-        $sMetaKeywParam = ($oArt->oxarticles__oxsearchkeys->value) ? $oArt->oxarticles__oxsearchkeys->value . " " . $sMetaKeywParam : $sMetaKeywParam;
         $oView = $this->getMock(\OxidEsales\Eshop\Application\Controller\ArticleDetailsController::class, array('getProduct'));
         $oView->expects($this->any())->method('getProduct')->will($this->returnValue($oArt));
 
@@ -1787,14 +1786,14 @@ class UtfTest extends \OxidTestCase
         $utilsObjectInstanceMock = $this->getMock(\OxidEsales\Eshop\Core\UtilsObject::class, array('generateUID'));
         $utilsObjectInstanceMock->expects($this->any())->method('generateUID')->will($this->returnValue('xxx'));
 
-        $sBodyToReturn = "agentūлитовfür <img src=\"__imagedir__/stars.jpg\" alt=\"agentūлитовfür\">";
+        $sBodyToReturn = "agentūлитовfür <img src=\"" . __DIR__ . "/Fixtures/stars.jpg\" alt=\"agentūлитовfür\">";
         $sBodyToSet = "agentūлитовfür <img src=\"cid:xxx\" alt=\"agentūлитовfür\">";
 
         $oEmail = $this->getMock(\OxidEsales\Eshop\Core\Email::class, array('getBody', 'setBody', 'getUtilsObjectInstance'));
         $oEmail->expects($this->once())->method('getBody')->will($this->returnValue($sBodyToReturn));
         $oEmail->expects($this->once())->method('setBody')->with($this->equalTo($sBodyToSet));
         $oEmail->expects($this->once())->method('getUtilsObjectInstance')->will($this->returnValue($utilsObjectInstanceMock));
-        $oEmail->UNITincludeImages("__imagedir__", null, null, $this->getConfig()->getImageDir());
+        $oEmail->UNITincludeImages(__DIR__ . "/Fixtures", null, null, $this->getConfig()->getImageDir());
     }
 
     public function testOxEmailSetBody()

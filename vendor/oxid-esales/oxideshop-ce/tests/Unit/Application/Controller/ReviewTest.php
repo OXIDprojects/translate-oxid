@@ -20,10 +20,9 @@ class ReviewTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
-        oxTestModules::addFunction("oxutilsserver", "getServerVar", "{ \$aArgs = func_get_args(); if ( \$aArgs[0] === 'HTTP_HOST' ) { return '" . $this->getConfig()->getShopUrl() . "'; } elseif ( \$aArgs[0] === 'SCRIPT_NAME' ) { return ''; } else { return \$_SERVER[\$aArgs[0]]; } }");
         $myDB = oxDb::getDB();
         $sShopId = $this->getConfig()->getShopId();
         // adding article to recommendlist
@@ -38,7 +37,7 @@ class ReviewTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $myDB = oxDb::getDB();
         $sDelete = 'delete from oxrecommlists where oxid like "test%" ';
@@ -210,7 +209,6 @@ class ReviewTest extends \OxidTestCase
 
     public function testInit()
     {
-        oxTestModules::addFunction("oxutilsserver", "getServerVar", "{ \$aArgs = func_get_args(); if ( \$aArgs[0] === 'HTTP_HOST' ) { return '" . $this->getConfig()->getShopUrl() . "'; } elseif ( \$aArgs[0] === 'SCRIPT_NAME' ) { return ''; } else { return \$_SERVER[\$aArgs[0]]; } }");
         $this->setRequestParameter('recommid', 'testRecommId');
         $this->setRequestParameter('anid', '1126');
 

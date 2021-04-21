@@ -1,8 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
 /**
  * Copyright © OXID eSales AG. All rights reserved.
  * See LICENSE file for license details.
  */
+
+declare(strict_types=1);
 
 namespace OxidEsales\EshopCommunity\Tests\Integration\Internal\Container\Dao;
 
@@ -13,11 +16,12 @@ use OxidEsales\EshopCommunity\Internal\Framework\DIContainer\Dao\ProjectYamlDaoI
 use OxidEsales\EshopCommunity\Internal\Framework\DIContainer\DataObject\DIConfigWrapper;
 use OxidEsales\EshopCommunity\Internal\Transition\Utility\BasicContext;
 use OxidEsales\EshopCommunity\Internal\Transition\Utility\BasicContextInterface;
+use OxidEsales\EshopCommunity\Tests\Integration\Internal\Container\Fixtures\CE\DummyExecutor;
 use OxidEsales\EshopCommunity\Tests\Integration\Internal\ContainerTrait;
 use PHPUnit\Framework\TestCase;
 use Webmozart\PathUtil\Path;
 
-class ProjectYamlDaoTest extends TestCase
+final class ProjectYamlDaoTest extends TestCase
 {
     use ContainerTrait;
 
@@ -26,7 +30,7 @@ class ProjectYamlDaoTest extends TestCase
      */
     private $dao;
 
-    public function setUp()
+    public function setup(): void
     {
         $contextStub = $this->getMockBuilder(BasicContext::class)
             ->disableOriginalConstructor()
@@ -41,7 +45,7 @@ class ProjectYamlDaoTest extends TestCase
         );
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         $projectFilePath = $this->getTestGeneratedServicesFilePath();
@@ -98,8 +102,15 @@ EOT;
     public function testWriting()
     {
         $projectYaml = new DIConfigWrapper(
-            ['imports'  => [['resource' => 'some/path']],
-                'services' => ['somekey' => ['factory' => ['some/factory', 'someMethod']]]]
+            [
+                'imports'  => [['resource' => 'some/path']],
+                'services' => [
+                    'somekey' => [
+                        'class' => DummyExecutor::class,
+                        'factory' => ['some/factory', 'someMethod']
+                    ]
+                ]
+            ]
         );
         $this->dao->saveProjectConfigFile($projectYaml);
 
@@ -129,6 +140,7 @@ EOT;
 
         $this->assertFileNotExists($context->getContainerCacheFilePath());
 
+        ContainerFactory::resetContainer();
         ContainerFactory::getInstance()->getContainer();
         // Verify container has been rebuild be checking that a cachefile exists
         $this->assertFileExists($context->getContainerCacheFilePath());

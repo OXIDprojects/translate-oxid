@@ -9,8 +9,6 @@
     [{oxscript add='$(".klarna-express-button").KlarnaProceedAction( {sAction: "actionKlarnaExpressCheckoutFromDetailsPage"} );'}]
 [{/if}]
 
-[{include file="tcklarna_instant_shopping_button.tpl"}]
-
 [{assign var="aKlPromotion" value=$oViewConf->getOnSitePromotionInfo('sKlarnaCreditPromotionProduct', $oDetailsProduct)}]
 [{assign var="sKlarnaMessagingScript" value=$oViewConf->getOnSitePromotionInfo('sKlarnaMessagingScript')}]
 [{if $aKlPromotion and $sKlarnaMessagingScript|trim}]
@@ -25,9 +23,6 @@
         margin-bottom: 5px;
     }
 
-    .instant-shopping-button {
-        max-height: 50px;
-    }
     body.cl-details .tobasket .tobasketFunction{
         display:inline-block;
     }

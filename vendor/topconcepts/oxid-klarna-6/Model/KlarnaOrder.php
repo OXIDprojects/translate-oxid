@@ -69,10 +69,6 @@ class KlarnaOrder extends KlarnaOrder_parent
                 $session = Registry::getSession();
                 $oConfig = Registry::getConfig();
 
-                if ($this->isKIS()) {
-                    $klarna_id = $oConfig->getConfigParam('kis_order_id');
-                }
-
                 if ($this->isKP()) {
                     $klarna_id = $oConfig->getConfigParam('kp_order_id');
                 }
@@ -132,11 +128,6 @@ class KlarnaOrder extends KlarnaOrder_parent
     public function isKCO()
     {
         return $this->oxorder__oxpaymenttype->value === KlarnaPayment::KLARNA_PAYMENT_CHECKOUT_ID;
-    }
-
-    public function isKIS()
-    {
-        return $this->oxorder__oxpaymenttype->value === KlarnaPayment::KLARNA_INSTANT_SHOPPING;
     }
 
     /**
@@ -293,5 +284,18 @@ class KlarnaOrder extends KlarnaOrder_parent
         $this->_isLoaded = $this->assignRecord($query);
 
         return $this->_isLoaded;
+    }
+    
+    protected function _sendOrderByEmail($oUser = null, $oBasket = null, $oPayment = null) {
+
+        if (is_object($oPayment) && in_array($oPayment->oxpayments__oxid->value, KlarnaPayment::getKlarnaPaymentsIds())) {
+            $oPayment->assign(
+                [
+                    'oxdesc' => str_replace('Klarna ', '', $oPayment->getFieldData('oxdesc'))
+                ]
+            );
+        }
+
+        return parent::_sendOrderByEmail($oUser, $oBasket, $oPayment);
     }
 }

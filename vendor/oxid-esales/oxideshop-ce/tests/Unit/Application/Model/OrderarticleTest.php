@@ -30,7 +30,7 @@ class OrderarticleTest extends \OxidTestCase
     /**
      * Initialize the fixture.
      */
-    protected function setup()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -57,7 +57,7 @@ class OrderarticleTest extends \OxidTestCase
     /**
      * Tear down the fixture.
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->cleanUpTable('oxorderarticles');
         $this->cleanUpTable('oxobject2selectlist');

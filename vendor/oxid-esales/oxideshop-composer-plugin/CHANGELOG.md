@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.2.0] - 2021-04-12
+
+### Changed
+- Support PHP 8.0
+
+## [5.1.1] - 2021-04-12
+
+### Deprecated
+- Module blacklist-filter functionality
+- `OxidEsales\ComposerPlugin\Installer\Package\ModulePackageInstaller::MODULES_DIRECTORY`
+
+## [5.1.0] - 2020-11-04
+
+### Added
+- Support for composer v2
+
 ## [5.0.1] - 2020-07-03
 
 ### Fixed
@@ -74,6 +90,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - [Add robot exclusion files filter](https://bugs.oxid-esales.com/view.php?id=6703)
 
+[5.2.0]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v5.1.1...v5.2.0
+[5.1.1]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v5.1.0...v5.1.1
+[5.1.0]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v5.0.1...v5.1.0
 [5.0.1]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v5.0.0...v5.0.1
 [5.0.0]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v4.1.1...v5.0.0
 [4.1.1]: https://github.com/OXID-eSales/oxideshop_composer_plugin/compare/v4.1.0...v4.1.1

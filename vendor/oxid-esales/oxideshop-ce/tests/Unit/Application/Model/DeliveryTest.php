@@ -68,7 +68,7 @@ class DeliveryTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         oxAddClassModule(\OxidEsales\EshopCommunity\Tests\Unit\Application\Model\modOxDelivery::class, 'oxDelivery');
@@ -139,7 +139,7 @@ class DeliveryTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         oxRemClassModule(\OxidEsales\EshopCommunity\Tests\Unit\Application\Model\modOxDelivery::class);
 
@@ -792,6 +792,7 @@ class DeliveryTest extends \OxidTestCase
         // test for delivery by amount
         $oDelivery = oxNew('oxDelivery');
         $oDelivery->oxdelivery__oxdeltype = new oxField('p', oxField::T_RAW);
+        $oDelivery->oxdelivery__oxfixed = new oxField('p', oxField::T_RAW);
 
         $aBasketContents[0] = $this->_oBasketItem;
         $aBasketContents[1] = $this->_oBasketItem;
@@ -953,9 +954,9 @@ class DeliveryTest extends \OxidTestCase
         $oPrice = $oDelivery->getDeliveryPrice(20);
 
         $this->assertEquals(50 * 1.2, $oPrice->getBruttoPrice());
-        $this->assertEquals(50, $oPrice->getNettoPrice(), '', 0.0001);
-        $this->assertEquals(50 * 1.2 - 50, $oPrice->getVatValue(), '', 0.0001);
-        $this->assertEquals(20, $oPrice->getVat(), '', 0.0001);
+        $this->assertEqualsWithDelta(50, $oPrice->getNettoPrice(), 0.0001);
+        $this->assertEqualsWithDelta(50 * 1.2 - 50, $oPrice->getVatValue(), 0.0001);
+        $this->assertEqualsWithDelta(20, $oPrice->getVat(), 0.0001);
     }
 
     /*

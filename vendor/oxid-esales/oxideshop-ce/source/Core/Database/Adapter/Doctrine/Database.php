@@ -19,6 +19,7 @@ use OxidEsales\Eshop\Core\Database\Adapter\DatabaseInterface;
 use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
 use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
 use OxidEsales\Eshop\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\EshopCommunity\Internal\Framework\Database\Logger\DatabaseLoggerFactoryInterface;
 use OxidEsales\EshopCommunity\Internal\Container\ContainerFactory;
 use PDO;
@@ -596,13 +597,17 @@ class Database implements DatabaseInterface
 
         $result = null;
 
+        $this->checkIfSqlIsReadOnly($query);
         try {
             /**
              * Be aware that Connection::executeQuery is a method specifically for READ operations only.
              * This is especially important in master-slave Connection
              */
             /** @var \Doctrine\DBAL\Driver\Statement $statement Statement is prepared and executed by executeQuery() */
-            $statement = $this->getConnection()->executeQuery($query, $parameters);
+            $statement = $this->getConnection()->executeQuery(
+                $this->checkForMultipleQueries($query, $parameters),
+                $parameters
+            );
 
             $result = new \OxidEsales\Eshop\Core\Database\Adapter\Doctrine\ResultSet($statement);
         } catch (DBALException $exception) {
@@ -616,6 +621,29 @@ class Database implements DatabaseInterface
         return $result;
     }
 
+    /**
+     * @throws InvalidArgumentException
+     */
+    private function checkIfSqlIsReadOnly($query): void
+    {
+        $check = ltrim($query, " \t\n\r\0\x0B(");
+        if (!(stripos($check, 'select') === 0 || stripos($check, 'show') === 0)) {
+            throw new \InvalidArgumentException("Function is only for read operations select or show");
+        }
+    }
+
+    private function checkForMultipleQueries($query, $parameters): string
+    {
+        if ($parameters !== [] || strrpos($query, ';', -1) === false) {
+            return $query;
+        }
+        $queries = preg_split('~(\"[^\\\\"]*\"|' . "\'[^\\\\']*\'|\'.+\'|`[^\\`]*`)(*SKIP)(*F)|(?<=;)(?![ ]*$)~", $query);
+        if (count($queries) > 1) {
+            Registry::getLogger()->error('More than one query within one statement', [$query]);
+        }
+
+        return $queries[0];
+    }
 
     /**
      * Return the results of a given sql SELECT or SHOW statement limited by a LIMIT clause as a ResultSet.
@@ -659,7 +687,7 @@ class Database implements DatabaseInterface
         if (!is_numeric($rowCount) || !is_numeric($offset)) {
             trigger_error(
                 'Parameters rowCount and offset have to be numeric in DatabaseInterface::selectLimit(). ' .
-                'Please fix your code as this error may trigger an exception in future versions of OXID eShop.',
+                    'Please fix your code as this error may trigger an exception in future versions of OXID eShop.',
                 E_USER_DEPRECATED
             );
         }
@@ -708,6 +736,7 @@ class Database implements DatabaseInterface
         $parameters = $this->assureParameterIsAnArray($parameters);
         // END deprecated
 
+        $this->checkIfSqlIsReadOnly($query);
         $result = [];
 
         try {
@@ -1297,13 +1326,11 @@ class Database implements DatabaseInterface
 
         $assignedType = strtoupper($assignedType);
         if (
-            (
-            in_array($assignedType, $integerTypes) ||
+            (in_array($assignedType, $integerTypes) ||
                 in_array($assignedType, $fixedPointTypes) ||
                 in_array($assignedType, $floatingPointTypes) ||
                 in_array($assignedType, $textTypes) ||
-                in_array($assignedType, $dateTypes)
-            ) && -1 == $maxLength
+                in_array($assignedType, $dateTypes)) && -1 == $maxLength
         ) {
             /**
              * @todo: If the assigned type is one of the following and maxLength is -1, then, if applicable the default max length ot that type should be assigned.

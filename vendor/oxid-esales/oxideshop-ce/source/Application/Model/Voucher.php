@@ -78,7 +78,7 @@ class Voucher extends \OxidEsales\Eshop\Core\Model\BaseModel
             //voucher timeout for 3 hours
             if ($blCheckavalability) {
                 $iTime = time() - $this->_getVoucherTimeout();
-                $sQ .= " and {$sViewName}.oxreserved < '{$iTime}' ";
+                $sQ .= " and {$sViewName}.oxreserved < '{$iTime}' order by {$sViewName}.oxreserved asc ";
             }
 
             $sQ .= " limit 1 FOR UPDATE";
@@ -184,6 +184,7 @@ class Voucher extends \OxidEsales\Eshop\Core\Model\BaseModel
         $this->_isValidDate();
         $this->_isAvailablePrice($dPrice);
         $this->_isNotReserved();
+        $this->isAvailable();
 
         // returning true - no exception was thrown
         return true;
@@ -206,9 +207,22 @@ class Voucher extends \OxidEsales\Eshop\Core\Model\BaseModel
         $this->_isAvailableWithOtherSeries($aVouchers);
         $this->_isValidDate();
         $this->_isAvailablePrice($dPrice);
+        $this->isAvailable();
 
         // returning true - no exception was thrown
         return true;
+    }
+
+    protected function isAvailable()
+    {
+        if (empty($this->oxvouchers__oxorderid->value)) {
+            return true;
+        }
+
+        $exception = oxNew(\OxidEsales\Eshop\Core\Exception\VoucherException::class);
+        $exception->setMessage('ERROR_MESSAGE_VOUCHER_NOVOUCHER');
+        $exception->setVoucherNr($this->oxvouchers__oxvouchernr->value);
+        throw $exception;
     }
 
     /**

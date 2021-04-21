@@ -9,7 +9,7 @@ modules:
             browser: firefox
             port: '%SELENIUM_SERVER_PORT%'
             host: '%SELENIUM_SERVER_HOST%'
-            window_size: 1920x1080
+            window_size: 1600x1000
             clear_cookies: true
         - Db:
             dsn: 'mysql:host=%DB_HOST%;dbname=%DB_NAME%;charset=utf8'
@@ -18,14 +18,18 @@ modules:
             port: '%DB_PORT%'
             dump: '%DUMP_PATH%'
             mysql_config: '%MYSQL_CONFIG_PATH%'
-            populate: true # run populator before all tests
-            cleanup: false # run populator before each test
+            populate: true # whether the the dump should be loaded before the test suite is started
+            cleanup: true # whether the dump should be reloaded before each test
+            initial_queries:
+                - 'SET @@SESSION.sql_mode=""'
             populator: '%PHP_BIN% %VENDOR_PATH%/bin/reset-shop && mysql --defaults-file=$mysql_config --default-character-set=utf8 $dbname < $dump'
         - \OxidEsales\Codeception\Module\Oxideshop:
             screen_shot_url: '%SCREEN_SHOT_URL%'
             depends:
               - WebDriver
               - Db
+        - \OxidEsales\Codeception\Module\OxideshopModules:
+             screen_shot_url: '%SCREEN_SHOT_URL%'
         - \OxidEsales\Codeception\Module\OxideshopAdmin:
              screen_shot_url: '%SCREEN_SHOT_URL%'
              depends:
@@ -37,3 +41,7 @@ modules:
         - \OxidEsales\Codeception\Module\Translation\TranslationsModule:
             shop_path: '%SHOP_SOURCE_PATH%'
             paths: 'Application/views/admin'
+        - \OxidEsales\Codeception\Module\OxideshopModules:
+step_decorators:
+    - \Codeception\Step\Retry
+

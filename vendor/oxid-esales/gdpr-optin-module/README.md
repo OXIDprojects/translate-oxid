@@ -5,12 +5,11 @@ Module adds opt-in functionality which is required for GDPR law.
 
 ### Installation
 
-System requirements and installation instructions are described in the module documentation: https://docs.oxid-esales.com/modules/gdpr-optin/de/2.1/installation.html.
+System requirements and installation instructions are described in the module documentation: https://docs.oxid-esales.com/modules/gdpr-optin/de/2.3/installation.html.
 
-### Compatability
+### Compatibility
 
-* master branch of the module is for shop master branch
-* b-2.x branch for shop compilation: 6.1 and up (requires php 7.1+)
+* master branch for shop compilation: 6.1 and up (requires php 7.1+)
 * b-2.2.x branch for shop compilation: 6.0.2 and up to 6.1.x
 * v1.x branch for shop compilation: 5.3.7/4.10.7 or above
 
@@ -34,4 +33,4 @@ If you experience any bugs or issues, please report them in the section **Module
 
 ### Documentation 
 
-The module documentation can be found on our documentation platform: https://docs.oxid-esales.com/modules/gdpr-optin/de/2.1/index.html.
+The module documentation can be found on our documentation platform: https://docs.oxid-esales.com/modules/gdpr-optin/de/2.3/index.html.

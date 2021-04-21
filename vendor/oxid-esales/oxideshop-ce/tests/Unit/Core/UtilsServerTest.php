@@ -1,23 +1,22 @@
 <?php
+
 /**
  * Copyright © OXID eSales AG. All rights reserved.
  * See LICENSE file for license details.
  */
+
 namespace OxidEsales\EshopCommunity\Tests\Unit\Core;
 
-use OxidEsales\Eshop\Application\Model\User;
 use \oxRegistry;
-use \oxTestModules;
 
 class UtilsServerTest extends \OxidTestCase
 {
-
     /**
      * Tear down the fixture.
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->getConfig()->setConfigParam("aTrustedIPs", array());
         parent::tearDown();
@@ -142,7 +141,7 @@ class UtilsServerTest extends \OxidTestCase
         $this->assertTrue($oUtilsServer->isTrustedClientIp());
     }
 
-    public function testGetCookiePathWhenACookiePathsIsSetUp()
+    public function testGetCookiePathWhenACookiePathsIssetup(): void
     {
         $sShopId = $this->getConfig()->getShopId();
         $this->getConfig()->setConfigParam("aCookiePaths", array($sShopId => 'somepath'));
@@ -151,7 +150,7 @@ class UtilsServerTest extends \OxidTestCase
         $this->assertEquals('somepath', $oUtilsServer->UNITgetCookiePath(""));
     }
 
-    public function testGetCookieDomainWhenACookieDomainsIsSetUp()
+    public function testGetCookieDomainWhenACookieDomainsIssetup(): void
     {
         $sShopId = $this->getConfig()->getShopId();
         $this->getConfig()->setConfigParam("aCookieDomains", array($sShopId => 'somedomain'));
@@ -244,25 +243,6 @@ class UtilsServerTest extends \OxidTestCase
         ;
         $this->assertEquals($sValue, \OxidEsales\Eshop\Core\Registry::getUtilsServer()->getServerVar($sName));
         $this->assertEquals($_SERVER, \OxidEsales\Eshop\Core\Registry::getUtilsServer()->getServerVar());
-    }
-
-    /**
-     * Testing user cookie setter, getter and deletion functionality
-     */
-    public function testGetSetAndDeleteUserCookie()
-    {
-        $this->setTime(0);
-        $sCryptedVal = 'admin@@@' . crypt('admin', User::USER_COOKIE_SALT);
-        $oUtils = oxNew('oxutilsserver');
-
-        $this->assertNull($oUtils->getUserCookie());
-
-        $oUtils->setUserCookie('admin', 'admin', null, 31536000, User::USER_COOKIE_SALT);
-        $this->assertEquals($sCryptedVal, $oUtils->getUserCookie());
-
-
-        $oUtils->deleteUserCookie();
-        $this->assertNull($oUtils->getUserCookie());
     }
 
     /**

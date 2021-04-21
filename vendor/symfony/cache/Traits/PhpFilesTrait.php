@@ -41,7 +41,7 @@ trait PhpFilesTrait
     {
         self::$startTime = self::$startTime ?? $_SERVER['REQUEST_TIME'] ?? time();
 
-        return \function_exists('opcache_invalidate') && filter_var(ini_get('opcache.enable'), FILTER_VALIDATE_BOOLEAN) && (!\in_array(\PHP_SAPI, ['cli', 'phpdbg'], true) || filter_var(ini_get('opcache.enable_cli'), FILTER_VALIDATE_BOOLEAN));
+        return \function_exists('opcache_invalidate') && filter_var(ini_get('opcache.enable'), \FILTER_VALIDATE_BOOLEAN) && (!\in_array(\PHP_SAPI, ['cli', 'phpdbg'], true) || filter_var(ini_get('opcache.enable_cli'), \FILTER_VALIDATE_BOOLEAN));
     }
 
     /**
@@ -288,7 +288,7 @@ trait PhpFilesTrait
 
     private function getFileKey(string $file): string
     {
-        if (!$h = @fopen($file, 'rb')) {
+        if (!$h = @fopen($file, 'r')) {
             return '';
         }
 

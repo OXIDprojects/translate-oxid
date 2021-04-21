@@ -272,6 +272,8 @@ class Facts
 
     /**
      * @return array
+     *
+     * @deprecated this method will be remove in next major version and it will moved to doctrine-migration-wrapper component
      */
     public function getMigrationPaths()
     {
@@ -292,7 +294,7 @@ class Facts
         }
 
         $migrationPaths['pr'] = $this->getConfigReader()->getVar(ConfigFile::PARAMETER_SOURCE_PATH)
-                                    . '/migration/project_migrations.yml';
+                                . '/migration/project_migrations.yml';
 
         return $migrationPaths;
     }

@@ -47,9 +47,14 @@ class KlarnaPaymentHelper
      *
      * @var string
      */
-    const KLARNA_SOFORT = 'klarna_sofort';
+    const KLARNA_CARD = 'klarna_card';
 
-    const KLARNA_INSTANT_SHOPPING = 'klarna_instant_shopping';
+    /**
+     * Oxid value of Klarna Pay Now payment
+     *
+     * @var string
+     */
+    const KLARNA_SOFORT = 'klarna_sofort';
 
     /**
      * Get list of Klarna payments ids
@@ -61,12 +66,12 @@ class KlarnaPaymentHelper
     {
         if (!$filter) {
             return array(
-                self::KLARNA_INSTANT_SHOPPING,
                 self::KLARNA_PAYMENT_CHECKOUT_ID,
                 self::KLARNA_PAYMENT_SLICE_IT_ID,
                 self::KLARNA_PAYMENT_PAY_LATER_ID,
                 self::KLARNA_PAYMENT_PAY_NOW,
                 self::KLARNA_DIRECTDEBIT,
+                self::KLARNA_CARD,
                 self::KLARNA_SOFORT,
             );
         }
@@ -76,6 +81,7 @@ class KlarnaPaymentHelper
                 self::KLARNA_PAYMENT_PAY_LATER_ID,
                 self::KLARNA_PAYMENT_PAY_NOW,
                 self::KLARNA_DIRECTDEBIT,
+                self::KLARNA_CARD,
                 self::KLARNA_SOFORT,
             );
         }

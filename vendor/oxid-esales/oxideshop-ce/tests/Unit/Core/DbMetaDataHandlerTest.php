@@ -14,7 +14,7 @@ class DbMetaDataHandlerTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
     }
@@ -24,7 +24,7 @@ class DbMetaDataHandlerTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->cleanUpTable('oxactions');
 
@@ -240,12 +240,12 @@ class DbMetaDataHandlerTest extends \OxidTestCase
      */
     public function testGetCreateTableSetSql()
     {
-        $sTestSql = "CREATE TABLE `oxcountry_set1` (`OXID` char(32) NOT NULL, PRIMARY KEY (`OXID`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Countries list'";
+        $sTestSql = "CREATE TABLE `oxcountry_set1` (`OXID` char(32) NOT NULL, PRIMARY KEY (`OXID`)) DEFAULT CHARACTER SET latin1 COLLATE latin1_general_ci ENGINE= InnoDB COMMENT='Countries list'";
 
         $oDbMeta = $this->getProxyClass("oxDbMetaDataHandler");
 
         //comparing in case insensitive form
-        $this->assertEquals($sTestSql, $oDbMeta->UNITgetCreateTableSetSql("oxcountry", 8), '', 0, 10, false, true);
+        $this->assertEqualsIgnoringCase($sTestSql, $oDbMeta->UNITgetCreateTableSetSql("oxcountry", 8));
     }
 
     /**
@@ -258,7 +258,7 @@ class DbMetaDataHandlerTest extends \OxidTestCase
         $oDbMeta = $this->getProxyClass("oxDbMetaDataHandler");
 
         //comparing in case insensitive form
-        $this->assertEquals($sTestSql, $oDbMeta->getAddFieldSql("oxcountry", "OXTITLE", "OXTITLE_4", "OXTITLE_3"), '', 0, 10, false, true);
+        $this->assertEqualsIgnoringCase($sTestSql, $oDbMeta->getAddFieldSql("oxcountry", "OXTITLE", "OXTITLE_4", "OXTITLE_3"), '', 0, 10, false, true);
     }
 
     /**
@@ -363,9 +363,9 @@ class DbMetaDataHandlerTest extends \OxidTestCase
      */
     public function testAddNewMultilangFieldAlterTable()
     {
-        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXTITLE_4` varchar(128) NOT NULL default ''  AFTER `OXTITLE_3`";
-        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXSHORTDESC_4` varchar(255) NOT NULL default ''  AFTER `OXSHORTDESC_3`";
-        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXLONGDESC_4` varchar(255) NOT NULL default ''  AFTER `OXLONGDESC_3`";
+        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXTITLE_4` varchar(128) NOT NULL DEFAULT ''  AFTER `OXTITLE_3`";
+        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXSHORTDESC_4` varchar(255) NOT NULL DEFAULT ''  AFTER `OXSHORTDESC_3`";
+        $aTestSql[] = "ALTER TABLE `oxcountry` ADD `OXLONGDESC_4` varchar(255) NOT NULL DEFAULT ''  AFTER `OXLONGDESC_3`";
 
         /** @var oxDbMetaDataHandler|PHPUnit\Framework\MockObject\MockObject $oDbMeta */
         $oDbMeta = $this->getMock(\OxidEsales\Eshop\Core\DbMetaDataHandler::class, array('executeSql'));
@@ -380,7 +380,7 @@ class DbMetaDataHandlerTest extends \OxidTestCase
      */
     public function testAddNewMultilangFieldCreateTable()
     {
-        $aTestSql[] = "CREATE TABLE `oxcountry_set1` (`OXID` char(32) NOT NULL, PRIMARY KEY (`OXID`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Countries list'";
+        $aTestSql[] = "CREATE TABLE `oxcountry_set1` (`OXID` char(32) NOT NULL, PRIMARY KEY (`OXID`)) DEFAULT CHARACTER SET latin1 COLLATE latin1_general_ci ENGINE= InnoDB COMMENT='Countries list'";
         $aTestSql[] = "ALTER TABLE `oxcountry_set1` ADD `OXTITLE_8` varchar(128) NOT NULL DEFAULT '' ";
         $aTestSql[] = "ALTER TABLE `oxcountry_set1` ADD `OXSHORTDESC_8` varchar(255) NOT NULL DEFAULT '' ";
         $aTestSql[] = "ALTER TABLE `oxcountry_set1` ADD `OXLONGDESC_8` varchar(255) NOT NULL DEFAULT '' ";

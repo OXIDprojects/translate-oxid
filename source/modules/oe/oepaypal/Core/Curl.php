@@ -447,7 +447,8 @@ class Curl
         if ($charset !== $this->getConnectionCharset()) {
             $string = iconv($this->getConnectionCharset(), $charset, $string);
         }
-        if (get_magic_quotes_gpc()) {
+
+        if (function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) {
             $string = stripslashes($string);
         }
 

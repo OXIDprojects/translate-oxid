@@ -59,6 +59,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated Will be removed in next major
+     *
      * @return string
      */
     public function getPackageSourcePath(): string
@@ -69,6 +71,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated 6.6.0
+     *
      * @return array
      */
     public function getBlackListFilters(): array
@@ -77,6 +81,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated 6.6.0
+     *
      * @param array $filters
      */
     public function setBlackListFilters(array $filters)
@@ -85,6 +91,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated Will be removed in next major
+     *
      * @return string
      */
     public function getTargetDirectory(): string
@@ -93,6 +101,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated Will be removed in next major
+     *
      * @param string $path
      */
     public function setTargetDirectory(string $path)
@@ -101,6 +111,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated Will be removed in next major
+     *
      * @return string
      */
     public function getSourceDirectory(): string
@@ -109,6 +121,8 @@ class OxidEshopPackage
     }
 
     /**
+     * @deprecated Will be removed in next major
+     *
      * @param string $sourceDirectory
      */
     public function setSourceDirectory(string $sourceDirectory)

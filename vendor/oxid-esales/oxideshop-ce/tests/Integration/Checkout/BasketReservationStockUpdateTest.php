@@ -31,7 +31,7 @@ class BasketReservationStockUpdateTest extends \OxidTestCase
     /**
      * Fixture setUp.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -49,7 +49,7 @@ class BasketReservationStockUpdateTest extends \OxidTestCase
     /*
     * Fixture tearDown.
     */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $_POST = [];
 
@@ -658,7 +658,7 @@ class BasketReservationStockUpdateTest extends \OxidTestCase
         $basketContents = $basket->getContents();
         $basketItemId = $basket->getItemKey($this->testArticleId);
 
-        if (is_a($basketContents[$basketItemId], \OxidEsales\Eshop\Application\Model\BasketItem::class)) {
+        if (isset($basketContents[$basketItemId]) && is_a($basketContents[$basketItemId], \OxidEsales\Eshop\Application\Model\BasketItem::class)) {
             $return = $basketContents[$basketItemId]->getAmount();
         }
         return $return;

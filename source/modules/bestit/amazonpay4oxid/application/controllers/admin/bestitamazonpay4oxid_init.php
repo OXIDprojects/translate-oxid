@@ -20,7 +20,11 @@
  * @version   GIT: $Id$
  * @link      http://www.bestit-online.de
  */
+$sVendorAutoloader = realpath(dirname(__FILE__).'/../../../').'/vendor/autoload.php';
 
+if (file_exists($sVendorAutoloader) === true) {
+    include_once realpath(dirname(__FILE__).'/../../../').'/vendor/autoload.php';
+}
 /**
  * Class bestitAmazonPay4Oxid_init
  */
@@ -321,6 +325,21 @@ class bestitAmazonPay4Oxid_init
             );
         }
 
+        //generate secret key used for the cron calls
+        $sAmazonCronSecretKey = $oConfig->getConfigParam('sAmazonCronSecretKey');
+        if (empty($sAmazonCronSecretKey)) {
+            $sAmazonCronSecretKey = self::_generatePassword();
+
+            $oConfig->setConfigParam('sAmazonCronSecretKey', $sAmazonCronSecretKey);
+            $oConfig->saveShopConfVar(
+                'str',
+                'sAmazonCronSecretKey',
+                $sAmazonCronSecretKey,
+                $oConfig->getShopId(),
+                'module:bestitamazonpay4oxid'
+            );
+        }
+
         self::clearTmp();
     }
 
@@ -336,6 +355,18 @@ class bestitAmazonPay4Oxid_init
 
         //Make payment inactive
         self::_getDatabase()->execute($sSql);
+    }
+
+    /**
+     * Generates a strong password using random_bytes
+     *
+     * @return string
+     */
+    protected static function _generatePassword()
+    {
+        $bytes = random_bytes(32);
+
+        return bin2hex($bytes);
     }
 
     /**

@@ -1540,6 +1540,8 @@ class Config extends \OxidEsales\Eshop\Core\Base
     /**
      * Get module template calculator object
      *
+     * @deprecated v6.6.0 ModuleTemplatePathCalculator will be completely removed in the next major.
+     *
      * @return ModuleTemplatePathCalculator
      */
     protected function getModuleTemplatePathCalculator()
@@ -1604,6 +1606,8 @@ class Config extends \OxidEsales\Eshop\Core\Base
      * Returns path to modules dir
      *
      * @param bool $absolute mode - absolute/relative path
+     *
+     * @deprecated 6.7.0 Module files won't be stored in the source directory
      *
      * @return string
      */
@@ -1952,7 +1956,7 @@ class Config extends \OxidEsales\Eshop\Core\Base
         switch ($type) {
             case 'arr':
             case 'aarr':
-                $value = unserialize($mOrigValue);
+                $value = unserialize($mOrigValue, ['allowed_classes' => false]);
                 break;
             case 'bool':
                 $value = ($mOrigValue == 'true' || $mOrigValue == '1');

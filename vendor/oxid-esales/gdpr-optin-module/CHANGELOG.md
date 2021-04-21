@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v2.3.3] - 2021-04-09
+
+### Fixed
+- Fix tests for 6.3 compilation testing library
+
+## [v2.3.2] - 2021-03-12
+
+### Fixed
+- Remove deprecated getSession method usage
+- Renamed language files to be coherent with other modules naming [PR-9](https://github.com/OXID-eSales/gdpr-optin-module/pull/9)
+
 ## [v2.3.1] - 2020-07-08
 
 ### Changed
@@ -13,6 +24,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Dropped support for PHP 7.0.
+
+## [v2.2.2] - 2020-11-27
+
+### Changed
+- Documentation was removed from repository. Check readme file for the new documentation location.
+
+### Fixed
+- Fixed compatibility section in readme
 
 ## [v2.2.1] - 2019-10-21
 
@@ -66,8 +85,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - The GDPR Opt-In Module was fully ported as described in
   [modules porting guide](https://docs.oxid-esales.com/developer/en/6.0/update/eshop_from_53_to_6/modules.html).
 
+[v2.3.3]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.3.2...v2.3.3
+[v2.3.2]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.3.1...v2.3.2
 [v2.3.1]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.3.0...v2.3.1
 [v2.3.0]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.2.1...v2.3.0
+[v2.2.2]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.2.1...v2.2.2
 [v2.2.1]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.2.0...v2.2.1
 [v2.2.0]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.1.2...v2.2.0
 [v2.1.2]: https://github.com/OXID-eSales/gdpr-optin-module/compare/v2.1.1...v2.1.2

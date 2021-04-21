@@ -6,7 +6,7 @@ use Codeception\Example;
 use Exception;
 use OxidEsales\Codeception\Step\Basket;
 use TopConcepts\Klarna\Core\KlarnaConsts;
-
+use OxidEsales\Codeception\Module\Translation\Translator;
 
 class ANavigationFrontendKpCest
 {
@@ -32,10 +32,9 @@ class ANavigationFrontendKpCest
         $I->click(".nextStep");
         $I->wait(2);
         $I->switchToIFrame('klarna-pay-now-fullscreen');
-        $this->fillFieldSpecial('//*[@id="purchase-approval-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
-        $this->fillFieldSpecial('//*[@id="purchase-approval-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
-
-        $I->click('//*[@id="purchase-approval-continue"]');
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+        $I->click('//*[@id="purchase-approval-form-continue-button"]');
         $I->wait(2);
 
         try {
@@ -47,12 +46,10 @@ class ANavigationFrontendKpCest
             $I->waitForElementClickable('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
             $I->click('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
         } catch (Exception $e) {
-            $I->waitForElementClickable('//*[@id="direct-debit-mandate-review__bottom"]');
-            $I->click('//*[@id="direct-debit-mandate-review__bottom"]/span/button');
-            $I->waitForElementClickable('//*[@id="direct-debit-confirmation__bottom"]');
-            $I->click('//*[@id="direct-debit-confirmation__bottom"]/span/button');
+            $I->click('//*[@id="mandate-review__confirmation-button"]');
         }
 
+        $I->wait(5);
         $I->switchToIFrame();
         $I->wait(2);
         $I->click(".nextStep");
@@ -115,20 +112,45 @@ class ANavigationFrontendKpCest
                         $number = "";
                 }
 
-                $this->fillFieldSpecial('//*[@id="purchase-approval-national-identification-number"]',$number, $I);
-                $this->fillFieldSpecial('//*[@id="purchase-approval-phone-number"]',$phone, $I);
+                $this->fillFieldSpecial('//*[@id="purchase-approval-form-national-identification-number"]',$number, $I);
+                $this->fillFieldSpecial('//*[@id="purchase-approval-form-phone-number"]',$phone, $I);
+                $I->click('//*[@id="purchase-approval-form-continue-button"]');
             } else {
                 $bday = null;
                 if($data['country'] == 'AT') {
                     $bday = '14041988';
                 }
-                $this->fillFieldSpecial('//*[@id="purchase-approval-date-of-birth"]',$bday != null?$bday:$I->getKlarnaDataByName('sKlarnaBDate'), $I);
-                $this->fillFieldSpecial('//*[@id="purchase-approval-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+                $I->wait(2);
+                if($data['country'] == 'NL') {
+                    $I->wait(2);
+                    $I->switchToIFrame();
+                    $I->wait(1);
+                    $I->switchToIFrame($data['iframe']);
+                    $this->fillFieldSpecial('//*[@id="invoice_kp-purchase-approval-form-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
+                    $this->fillFieldSpecial('//*[@id="invoice_kp-purchase-approval-form-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+                    $I->click('//*[@id="invoice_kp-purchase-approval-form-continue-button"]');
+                } else {
+                    $this->fillFieldSpecial('//*[@id="purchase-approval-form-date-of-birth"]',$bday != null?$bday:$I->getKlarnaDataByName('sKlarnaBDate'), $I);
+                    $this->fillFieldSpecial('//*[@id="purchase-approval-form-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+                    $I->click('//*[@id="purchase-approval-form-continue-button"]');
+                }
             }
-            $I->click('//*[@id="purchase-approval-continue"]');
+        }
+
+        if($data['country'] == 'GB') {
+            $I->wait(1);
+            $I->switchToIFrame();
+            $I->wait(1);
+            $I->switchToIFrame($data['iframe']);
+            $I->click('//*[@id="btn-continue"]');
+            $I->wait(2);
+            $this->fillFieldSpecial('//*[@id="otp_field"]','123456', $I);
+            $I->wait(2);
+            $I->click('Confirm');
         }
 
         if($data['iframe'] == 'klarna-pay-now-fullscreen') {
+            $I->wait(2);
             try {
                 //Check if IBAN needs to be filled
                 $I->seeElement('//*[@id="iban"]');
@@ -138,10 +160,7 @@ class ANavigationFrontendKpCest
                 $I->waitForElementClickable('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
                 $I->click('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
             } catch (Exception $e) {
-                $I->waitForElementClickable('//*[@id="direct-debit-mandate-review__bottom"]');
-                $I->click('//*[@id="direct-debit-mandate-review__bottom"]');
-                $I->waitForElementClickable('//*[@id="direct-debit-confirmation__bottom"]');
-                $I->click('//*[@id="direct-debit-confirmation__bottom"]');
+                $I->click('//*[@id="mandate-review__confirmation-button"]');
             }
         }
 
@@ -161,7 +180,7 @@ class ANavigationFrontendKpCest
     {
 
         return [
-            [ 'radio' => 'klarna_pay_later', 'iframe' => 'klarna-pay-later-fullscreen', 'country' => null],
+            ['radio' => 'klarna_pay_later', 'iframe' => 'klarna-pay-later-fullscreen', 'country' => null],
             ['radio' => 'klarna_pay_later', 'iframe' => 'klarna-pay-later-fullscreen','country' => 'AT'],
             ['radio' => 'klarna_pay_later','iframe' => 'klarna-pay-later-fullscreen','country' => 'DK'],
             ['radio' => 'klarna_pay_later','iframe' => 'klarna-pay-later-fullscreen','country' => 'FI'],
@@ -182,7 +201,7 @@ class ANavigationFrontendKpCest
     public function testB2BOrder(AcceptanceTester $I)
     {
         $I->clearShopCache();
-        $I->loadKlarnaAdminConfig('KP', 'B2BOTH');
+        $I->loadKlarnaAdminConfig('KP', 'B2B_B2C');
 
         //Navigate untill step 3
         $this->navigateToPay($I, 'DE', true);
@@ -193,12 +212,12 @@ class ANavigationFrontendKpCest
         $I->waitForElementVisible('//*[@id="klarna-pay-later-fullscreen"]');
         $I->switchToIFrame("klarna-pay-later-fullscreen");
         $I->wait(2);
-        $I->click('//*[@id="organizationalData-dataCollection__entityType__container"]');
-        $I->click('//*[@id="organizationalData-entityType__limited_company"]');
-        $I->click('//*[@id="organizationalData-dataCollection__organizationNumber"]');
-        $this->fillFieldSpecial('//*[@id="organizationalData-dataCollection__organizationNumber"]', "HRB12345", $I);
-        $this->fillFieldSpecial('//*[@id="organizationalData-dataCollection__vatId"]', "DE999999999", $I);
-        $I->click('//*[@id="organizationalData-dataCollection__submit"]');
+        $I->click('//*[@id="mismatch-dialog-confirm-button"]');
+        $I->wait(3);
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+        $I->click('//*[@id="purchase-approval-form-continue-button"]');
+        $I->wait(8);
         $I->switchToIFrame();
         $I->wait(2);
         $I->click(".nextStep");
@@ -224,19 +243,64 @@ class ANavigationFrontendKpCest
         $I->click(".nextStep");
         $I->wait(2);
         $I->switchToIFrame('klarna-direct-debit-fullscreen');
-        $this->fillFieldSpecial('//*[@id="purchase-approval-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
-        $this->fillFieldSpecial('//*[@id="purchase-approval-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-date-of-birth"]',$I->getKlarnaDataByName('sKlarnaBDate'), $I);
+        $this->fillFieldSpecial('//*[@id="purchase-approval-form-phone-number"]',$I->getKlarnaDataByName('sKlarnaPhoneNumber'), $I);
 
-        $I->click('//*[@id="purchase-approval-continue"]');
+        $I->click('//*[@id="purchase-approval-form-continue-button"]');
         $I->wait(2);
-
-        $I->waitForElementClickable('//*[@id="direct-debit-mandate-review__bottom"]');
-        $I->click('//*[@id="direct-debit-mandate-review__bottom"]/span/button');
-        $I->waitForElementClickable('//*[@id="direct-debit-confirmation__bottom"]');
-        $I->click('//*[@id="direct-debit-confirmation__bottom"]/span/button');
+        try {
+            //Check if IBAN needs to be filled
+            $I->seeElement('//*[@id="iban"]');
+            $I->waitForElementClickable('//*[@id="iban"]');
+            $this->fillFieldSpecial('//*[@id="iban"]', $I->getKlarnaDataByName('sKlarnaPayNowIbanDE'), $I);
+            $I->click('//*[@id="mandate-signup-sepa-iban__footer-button-wrapper"]');
+            $I->waitForElementClickable('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
+            $I->click('//*[@id="mandate-signup-sepa-details-confirmation__footer-button-wrapper"]');
+        } catch (Exception $e) {
+            $I->click('//*[@id="mandate-review__confirmation-button"]');
+        }
+        $I->wait(7);
 
         $I->switchToIFrame();
         $I->click(".nextStep");
+        $I->waitForPageLoad();
+        $I->wait(4);
+        $I->seeInCurrentUrl('thankyou');
+    }
+
+    /**
+     * @group KP_frontend
+     * @param AcceptanceTester $I
+     * @throws Exception
+     */
+    public function testKpCardOrder(AcceptanceTester $I)
+    {
+        $I->clearShopCache();
+        $I->loadKlarnaAdminConfig('KPSPLIT');
+        //Navigate untill step 3
+        $this->navigateToPay($I);
+        //Wait for Klarna page to load
+        $I->wait(6);
+        $I->waitForPageLoad();
+        $I->click('#payment input[value=klarna_card]');
+        $I->wait(3);
+        //Fill card info
+        $I->switchToIFrame('klarna-card-main');
+        $I->wait(2);
+        $I->switchToIFrame('payment-gateway-frame');
+        $I->wait(2);
+        $I->fillField('cardNumber', "4111111111111111");
+        $I->wait(2);
+        $I->fillField("securityCode", "111");
+        $I->wait(2);
+        $I->fillField("expire", "01/24");
+        $I->switchToIFrame();
+        $I->wait(3);
+        $I->click(".nextStep");
+        $I->wait(2);
+        $I->waitForPageLoad();
+        $I->click(Translator::translate('SUBMIT_ORDER'));
+        $I->waitForElement('#thankyouPage');
         $I->waitForPageLoad();
         $I->wait(4);
         $I->seeInCurrentUrl('thankyou');

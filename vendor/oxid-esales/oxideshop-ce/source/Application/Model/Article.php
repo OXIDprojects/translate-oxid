@@ -1947,7 +1947,7 @@ class Article extends \OxidEsales\Eshop\Core\Model\MultiLanguageModel implements
     /**
      * Returns T price
      *
-     * @return \OxidEsales\Eshop\Core\Price
+     * @return \OxidEsales\Eshop\Core\Price|null
      */
     public function getTPrice()
     {
@@ -2282,6 +2282,8 @@ class Article extends \OxidEsales\Eshop\Core\Model\MultiLanguageModel implements
                 ':oxid' => $this->oxarticles__oxid->value,
                 ':amount' => $dAmount
             ]);
+
+            return (bool) $rs;
         } elseif ($this->oxarticles__oxparentid->value) {
             // article is variant - should be updated this article parent amount
             $oUpdateArticle = $this->getParentArticle();

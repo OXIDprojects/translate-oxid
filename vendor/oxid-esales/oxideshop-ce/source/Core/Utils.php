@@ -769,6 +769,8 @@ class Utils extends \OxidEsales\Eshop\Core\Base
      * @param string $sRemote the file
      * @param string $sLocal  the address of the remote source
      *
+     * @deprecated 6.6.0 dynpages will be removed on the next major
+     *
      * @return mixed
      */
     public function getRemoteCachePath($sRemote, $sLocal)
@@ -1271,7 +1273,7 @@ class Utils extends \OxidEsales\Eshop\Core\Base
      */
     protected function _getArticleUser() // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
     {
-        if ($this->_oUser) {
+        if (isset($this->_oUser) && $this->_oUser) {
             return $this->_oUser;
         }
 

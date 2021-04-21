@@ -31,7 +31,7 @@ class CallbackFromPayPalTest extends BaseAcceptanceTestCase
     /**
      * Set up fixture.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -234,6 +234,7 @@ class CallbackFromPayPalTest extends BaseAcceptanceTestCase
      *
      * @group paypal_standalone
      * @group paypal_external
+     * @group paypal_nobuyerlogin
      *
      * @dataProvider providerCallBackTests
      */

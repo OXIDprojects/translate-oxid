@@ -20,7 +20,7 @@ class RecommlistTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $myDB = oxDb::getDB();
@@ -31,10 +31,9 @@ class RecommlistTest extends \OxidTestCase
         $sQ = 'insert into oxrecommlists ( oxid, oxuserid, oxtitle, oxdesc, oxshopid ) values ( "testlist2", "oxdefaultadmin", "oxtest2", "oxtest2", "' . $sShopId . '" ) ';
         $myDB->Execute($sQ);
         $this->_sArticleID = '1651';
-        $sQ = 'insert into oxobject2list ( oxid, oxobjectid, oxlistid, oxdesc ) values ( "testlist", "' . $this->sArticleID . '", "testlist", "test" ) ';
+        $sQ = 'insert into oxobject2list ( oxid, oxobjectid, oxlistid, oxdesc ) values ( "testlist", "", "testlist", "test" ) ';
         $myDB->Execute($sQ);
 
-        oxTestModules::addFunction("oxutilsserver", "getServerVar", "{ \$aArgs = func_get_args(); if ( \$aArgs[0] === 'HTTP_HOST' ) { return '" . $this->getConfig()->getShopUrl() . "'; } elseif ( \$aArgs[0] === 'SCRIPT_NAME' ) { return ''; } else { return \$_SERVER[\$aArgs[0]]; } }");
     }
 
     /**
@@ -42,7 +41,7 @@ class RecommlistTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $myDB = oxDb::getDB();
         $sDelete = 'delete from oxrecommlists where oxid like "testlist%" ';
@@ -435,7 +434,6 @@ class RecommlistTest extends \OxidTestCase
 
     public function testGetLinkActiveRecommListUnAvailable()
     {
-        oxTestModules::addFunction('oxUtilsServer', 'getServerVar', '{ if ( $aA[0] == "HTTP_HOST") { return "shop.com/"; } else { return "test.php";} }');
         $this->setRequestParameter('searchrecomm', 'aaa');
 
         $oRecomm = $this->getMock(\OxidEsales\Eshop\Application\Controller\RecommListController::class, array("getActiveRecommList"));

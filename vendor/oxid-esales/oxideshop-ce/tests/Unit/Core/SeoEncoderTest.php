@@ -73,7 +73,7 @@ class SeoEncoderTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         oxDb::getDb()->execute('delete from oxseo where oxtype != "static"');
         oxDb::getDb()->execute('delete from oxobject2seodata');
@@ -92,7 +92,7 @@ class SeoEncoderTest extends \OxidTestCase
      *
      * @return null
      */
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // deleting seo entries
         oxDb::getDb()->execute('delete from oxseo where oxtype != "static"');
@@ -227,6 +227,7 @@ class SeoEncoderTest extends \OxidTestCase
 
         $oContent = oxNew('oxContent');
         $oContent->setId("_testContent");
+        $oContent->setCategoryId('someId');
 
         $this->assertEquals($this->getConfig()->getShopUrl($iLang) . "_/", $oContent->getLink($iLang));
     }
@@ -381,7 +382,6 @@ class SeoEncoderTest extends \OxidTestCase
 
     public function testLanguagePrefixForSeoUrlForDe()
     {
-        oxTestModules::addFunction("oxutilsserver", "getServerVar", "{ \$aArgs = func_get_args(); if ( \$aArgs[0] === 'HTTP_HOST' ) { return '" . $this->getConfig()->getShopUrl() . "'; } elseif ( \$aArgs[0] === 'SCRIPT_NAME' ) { return ''; } else { return \$_SERVER[\$aArgs[0]]; } }");
         $oConfig = $this->getConfig();
 
         // inserting price category for test

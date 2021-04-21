@@ -1,5 +1,9 @@
 <?php
+$sVendorAutoloader = realpath(dirname(__FILE__).'/../').'/vendor/autoload.php';
 
+if (file_exists($sVendorAutoloader) === true) {
+    include_once realpath(dirname(__FILE__).'/../').'/vendor/autoload.php';
+}
 /**
  * Extension for OXID module_config controller
  *
@@ -37,7 +41,7 @@ class bestitAmazonPay4Oxid_module_config extends bestitAmazonPay4Oxid_module_con
 
     /**
      * Extends the save config variable function to store the amazon config vars
-     * from the provided config json object.
+     * from the provided config json object or generate a new cron secret key
      * @throws oxSystemComponentException
      */
     public function saveConfVars()
@@ -63,11 +67,28 @@ class bestitAmazonPay4Oxid_module_config extends bestitAmazonPay4Oxid_module_con
                         $_POST[$sMainKey][$sSubKey] = $aQuickConfig[$sAmazonKey];
                     }
                 }
+
+                if ((bool) $_POST['confbools']['blGenerateNewAmazonCronSecretKey'] === true) {
+                    $_POST['confbools']['blGenerateNewAmazonCronSecretKey'] = false;
+                    $_POST['confstrs']['sAmazonCronSecretKey'] = self::_generatePassword();
+                }
             } catch (\Exception $oException) {
                 //Do nothing
             }
         }
 
         $this->_parentSaveConfVars();
+    }
+
+    /**
+     * Generates a strong password using random_bytes
+     *
+     * @return string
+     */
+    protected static function _generatePassword()
+    {
+        $bytes = random_bytes(32);
+
+        return bin2hex($bytes);
     }
 }

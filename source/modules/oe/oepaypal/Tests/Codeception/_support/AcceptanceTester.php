@@ -75,13 +75,13 @@ class AcceptanceTester extends \Codeception\Actor
     public function setPayPalSettingsData()
     {
         $I = $this;
-        $I->updateConfigInDatabase('blPayPalLoggerEnabled', true);
-        $I->updateConfigInDatabase('blOEPayPalSandboxMode', true);
-        $I->updateConfigInDatabase('sOEPayPalSandboxUserEmail', Fixtures::get('sOEPayPalSandboxUsername'));
-        $I->updateConfigInDatabase('sOEPayPalSandboxUsername', Fixtures::get('sOEPayPalSandboxUsername'));
-        $I->updateConfigInDatabase('sOEPayPalSandboxPassword', Fixtures::get('sOEPayPalSandboxPassword'));
-        $I->updateConfigInDatabase('sOEPayPalSandboxSignature', Fixtures::get('sOEPayPalSandboxSignature'));
-        $I->updateConfigInDatabase('oePayPalClientId', Fixtures::get('OEPayPalClientId'));
+        $I->updateConfigInDatabase('blPayPalLoggerEnabled', true, 'bool');
+        $I->updateConfigInDatabase('blOEPayPalSandboxMode', true, 'bool');
+        $I->updateConfigInDatabase('sOEPayPalSandboxUserEmail', Fixtures::get('sOEPayPalSandboxUsername'), 'str');
+        $I->updateConfigInDatabase('sOEPayPalSandboxUsername', Fixtures::get('sOEPayPalSandboxUsername'), 'str');
+        $I->updateConfigInDatabase('sOEPayPalSandboxPassword', Fixtures::get('sOEPayPalSandboxPassword'), 'str');
+        $I->updateConfigInDatabase('sOEPayPalSandboxSignature', Fixtures::get('sOEPayPalSandboxSignature'), 'str');
+        $I->updateConfigInDatabase('oePayPalClientId', Fixtures::get('OEPayPalClientId'), 'str');
     }
 
     /**
@@ -92,7 +92,7 @@ class AcceptanceTester extends \Codeception\Actor
     {
         $I = $this;
 
-        $I->waitForElement("//div[contains(@id, 'paypal-installment-banner-container')]");
+        $I->waitForElement("//div[contains(@id, 'paypal-installment-banner-container')]//iframe");
         $I->switchToIFrame("//div[contains(@id, 'paypal-installment-banner-container')]//iframe");
         $I->waitForElementVisible("//body[node()]");
 
@@ -106,11 +106,11 @@ class AcceptanceTester extends \Codeception\Actor
         $I = $this;
 
         //prepare testing with flow theme
-        $I->updateConfigInDatabase('sTheme', 'flow');
-        $I->updateConfigInDatabase('oePayPalBannersStartPageSelector', '#wrapper .row');
-        $I->updateConfigInDatabase('oePayPalBannersSearchResultsPageSelector', '#content .page-header .clearfix');
-        $I->updateConfigInDatabase('oePayPalBannersProductDetailsPageSelector', '.detailsParams');
-        $I->updateConfigInDatabase('oePayPalBannersPaymentPageSelector', '.checkoutSteps ~ .spacer');
+        $I->updateConfigInDatabase('sTheme', 'flow', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersStartPageSelector', '#wrapper .row', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersSearchResultsPageSelector', '#content .page-header .clearfix', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersProductDetailsPageSelector', '.detailsParams', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersPaymentPageSelector', '.checkoutSteps ~ .spacer', 'str');
     }
 
     public function activateWaveTheme()
@@ -118,11 +118,11 @@ class AcceptanceTester extends \Codeception\Actor
         $I = $this;
 
         //prepare testing with wave theme
-        $I->updateConfigInDatabase('sTheme', 'wave');
-        $I->updateConfigInDatabase('oePayPalBannersStartPageSelector', '#wrapper .container');
-        $I->updateConfigInDatabase('oePayPalBannersSearchResultsPageSelector', '.page-header');
-        $I->updateConfigInDatabase('oePayPalBannersProductDetailsPageSelector', '#detailsItemsPager');
-        $I->updateConfigInDatabase('oePayPalBannersPaymentPageSelector', '.checkout-steps');
+        $I->updateConfigInDatabase('sTheme', 'wave', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersStartPageSelector', '#wrapper .container', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersSearchResultsPageSelector', '.page-header', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersProductDetailsPageSelector', '#detailsItemsPager', 'str');
+        $I->updateConfigInDatabase('oePayPalBannersPaymentPageSelector', '.checkout-steps', 'str');
     }
 
     /**

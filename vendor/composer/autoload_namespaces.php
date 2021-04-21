@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Requests' => array($vendorDir . '/rmccue/requests/library'),
-    'ProxyManager\\' => array($vendorDir . '/ocramius/proxy-manager/src'),
+    'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
 );
