@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => '',
     'SYSREQ_PHP4_COMPAT'                      => '',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHP-version från 7.3 till 8.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => '',
     'SYSREQ_LIB_XML2'                         => '',
