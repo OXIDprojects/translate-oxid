@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen or fsockopen do portu 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Tryb zgodności z Zend musi być wyłączony',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'Wersja PHP co najmniej 5.2.10',
+    'SYSREQ_PHP_VERSION'                      => '',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'Ustaw REQUEST_URI',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
