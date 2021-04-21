@@ -1251,7 +1251,7 @@ Attention: Diferencijuojama kaina turi būti mažesnė nei normali kaina.',
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen ar fsockopen to port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend suderinamumas(PHP4) rėžimas turi būti išjungtas',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'PHP versija nuo 5.2.0',
+    'SYSREQ_PHP_VERSION'                      => '',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI rėžimas',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
