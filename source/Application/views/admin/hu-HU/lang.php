@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen vagy fsockopen a 80-as porton',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend Kompatibilitás módot ki kell kapcsolni',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'PHP 7.3-tól PHP 8.0-ig',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'Létező REQUEST_URI',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
