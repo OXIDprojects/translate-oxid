@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'Allow_url_fopen или fsock открыт для порта 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend сумісність повинна бути виключена',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'Версія PHP віл 5.3.25',
+    'SYSREQ_PHP_VERSION'                      => '',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI установлено',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',

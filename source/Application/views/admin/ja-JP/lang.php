@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen または fsockopen to port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zendの互換モードをオフにする必要があります',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => 'PHPバージョン 5.2.0以上',
+    'SYSREQ_PHP_VERSION'                      => '',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => '',
     'SYSREQ_LIB_XML2'                         => '',

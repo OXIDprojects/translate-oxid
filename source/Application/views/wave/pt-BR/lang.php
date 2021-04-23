@@ -42,7 +42,7 @@ $aLang = array(
 
     // Header
     'SEARCH_TITLE'                                          => '',
-    'SEARCH_SUBMIT'                                         => 'Procurar',
+    'SEARCH_SUBMIT'                                         => 'Pesquisar',
     'NAV_MORE'                                              => 'Mais',
 
     // Footer
@@ -94,7 +94,7 @@ $aLang = array(
 
     // Details page
     'BACK_TO_OVERVIEW'                                      => '',
-    'OF'                                                    => 'DE',
+    'OF'                                                    => 'de',
     'DD_RATING_CUSTOMERRATINGS'                             => '',
     'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
     'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
@@ -138,7 +138,7 @@ $aLang = array(
     'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
 
     // Contact page
-    'DD_SELECT_SALUTATION'                                  => 'Por favor, selecione',
+    'DD_SELECT_SALUTATION'                                  => 'Favor selecionar',
 
     'DD_CATEGORY_RESET_BUTTON'                              => '',
 );
