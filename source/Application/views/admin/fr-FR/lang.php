@@ -1170,7 +1170,7 @@ $aLang = [
     'SHOP_CONFIG_PARCELSERVICE'                               => 'Adresse URL de suivi du transporteur',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Valeur de configuration fournie:%s n\'est pas valide.',
     'SHOP_CONFIG_LOADREVIEWS'                                 => 'Activer les avis des utilisateurs et les notes en étoiles',
-    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
+    'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => 'Inclure un lien vers les avis de produits dans l\'e-mail de commande',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Proportion d\'attributs équivalents pour les produits similaires(%)',
     'SHOP_SYSTEM_DEFAULTIMAGEQUALITY'                    => 'Qualité des images - De 0 (Qualité faible, fichier de petite taille) à 100 (Meilleure qualité, fichier de grande taille)',
@@ -1214,7 +1214,7 @@ $aLang = [
     'SHOP_SEO_NEWSTATICURL'                   => '-- nouveau --',
     'SHOP_SEO_RESERVEDWORDS'                  => 'Mots réservés (sont automatiquement suffixés)',
     'SHOP_SEO_SKIPTAGS'                       => 'Mots ignorés lors de la génération automatique des Meta-tags.',
-    'SHOP_SEO_LOWERCASEURLS'                  => '',
+    'SHOP_SEO_LOWERCASEURLS'                  => 'Urls SEO en minuscules',
     'SHOP_LICENSE_SERIAL'                     => 'Clés de licence installées',
     'SHOP_LICENSE_NEWSERIAL'                  => 'Ajouter une clé de licence',
     'SHOP_LICENSE_VERSION'                    => 'Version eShop',
@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen ou fsockopen utilisent le port 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Zend compatibility mode doit être off',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Version PHP de 7.3 à 8.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI activé',
     'SYSREQ_LIB_XML2'                         => 'LIB XML2',
@@ -1769,7 +1769,7 @@ $aLang = [
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Le nombre de sous-boutique avec licence a été excédé. Pour cette raison, un compte a rebours caché de 7 jours a commencé. A la fin de cette période, votre boutique OXID eShop sera hors ligne. Veuillez entrer une clé de licence valide ou contacter le support technique.',
     'SHOP_LICENSE_ERROR_INFORMATION'              => 'Information de la licence OXID eShop',
 
-    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => '',
+    'SHOP_EMAIL_ORIGIN_MESSAGE'                   => 'Cet e-mail a été envoyé depuis la boutique %s.',
 
     'SHOP_OPTIONS_GROUP_GLOBAL'                    => 'Global',
     'SHOP_OPTIONS_GROUP_SEARCH'                    => 'Recherche',
