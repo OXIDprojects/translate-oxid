@@ -1169,7 +1169,7 @@ $aLang = [
     'SHOP_CONFIG_DEBIT_OLD_BANK_INFORMATION_NOT_ALLOWED'      => 'Utilisez IBAN / BIC seulement',
     'SHOP_CONFIG_PARCELSERVICE'                               => 'Adresse URL de suivi du transporteur',
     'SHOP_CONFIG_ERROR_INVALID_VALUE'                         => 'Valeur de configuration fournie:%s n\'est pas valide.',
-    'SHOP_CONFIG_LOADREVIEWS'                                 => '',
+    'SHOP_CONFIG_LOADREVIEWS'                                 => 'Activer les avis des utilisateurs et les notes en étoiles',
     'SHOP_CONFIG_INCLUDE_PRODUCT_REVIEW_LINKS_IN_ORDER_EMAIL' => '',
 
     'SHOP_SYSTEM_ATTRIBUTESPERCENT'                      => 'Proportion d\'attributs équivalents pour les produits similaires(%)',
