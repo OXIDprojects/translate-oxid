@@ -739,13 +739,13 @@ $aLang = [
 'PAGE_TITLE_INVITE'                                           => 'Convide seus amigos',
 'PAGE_TITLE_REVIEW'                                           => 'Avaliar',
 
-'WISHLIST_PRODUCTS'                                           => 'Este artigo desejou %s Se você quer fazer um favor para ele/ela, comprar um ou mais desses artigos.',
+'WISHLIST_PRODUCTS'                                           => 'Estes produtos estão na lista de desejos de %s. Se você quiser por favor, compre um ou mais destes produtos.',
 
 
 'BETA_NOTE'                                                   => 'Bem-vindo a ',
 'BETA_NOTE_RELEASE_BETA'                                      => 'Beta',
 'BETA_NOTE_RELEASE_RC'                                        => 'Candidato ao lançamento',
-'BETA_NOTE_MIDDLE'                                            => ' de OSXI eShop ',
+'BETA_NOTE_MIDDLE'                                            => ' de OXID eShop ',
 'BETA_NOTE_FAQ'                                               => '. Por favor contacte nosso %s se tiver alguma dúvida.',
 
 
