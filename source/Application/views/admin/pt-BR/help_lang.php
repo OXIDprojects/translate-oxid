@@ -22,8 +22,8 @@
 
 $aLang =  [
 'charset'                                     => 'UTF-8',
-'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => '',
-'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => '',
+'HELP_SHOP_SYSTEM_OTHERCOUNTRYORDER'          => 'Aqui você pode definir se compras podem ser feitas em países para os quais não há custos de transporte definidos:<ul><li>Se a configuração é marcada, os usuários podem comprar: Os usuários são notificados de que estão cientes da adição posterior dos custos de envio.</li><li>Se a configuração estiver desmarcada, os usuários de países para os quais não há valores de entrega definidos não poderão realizar uma compra.</li></ul>',
+'HELP_SHOP_SYSTEM_DISABLENAVBARS'             => 'Se essa configuração estiver marcada, a maioria dos elementos de navegação (da página) não serão mostrados durante o checkout. Dessa maneira os usuários não ficarão distraídos desnecessariamente durante o checkout.',
 'HELP_SHOP_SYSTEM_DEFAULTIMAGEQUALITY'        => '',
 'HELP_SHOP_SYSTEM_LDAP'                       => '',
 'HELP_SHOP_SYSTEM_SHOWVARIANTREVIEWS'         => '',
