@@ -40,7 +40,7 @@ $aLang =  [
 'HELP_SHOP_CACHE_LAYOUT_CACHE_AGE'            => 'Define a duração do layout da página em segundos. Isto será enviado através de cabeçalhos HTTP, especificando o valor do cabeçalho "Age" (idade).',
 'HELP_SHOP_CONFIG_ORDEROPTINEMAIL'            => 'Se o duplo opt-in estiver ativo, os usuários recebem um e-mail com um link de confirmação quando se registram no boletim informativo. Somente se esse link de confirmação for utilizado, o usuário será registrado no boletim informativo (newsletter).<br>O duplo opt-in protege os usuários contra registros indesejados. Sem dupla opção, qualquer endereço de e-mail pode ser registrado no boletim informativo. Com dupla opção marcada, o proprietário do endereço de e-mail deve confirmar o registro.',
 'HELP_SHOP_CONFIG_BIDIRECTCROSS'              => 'Com a venda cruzada, você pode oferecer mais produtos que correspondem a um produto: por exemplo, a um carro, pneus serão atribuídos como produto de venda cruzada, os pneus serão mostrados com o carro.<br>Se a venda cruzada bidirecional estiver ativada, ela funciona em ambas as direções: O carro também é mostrado com os pneus.',
-'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => '',
+'HELP_SHOP_CONFIG_STOCKONDEFAULTMESSAGE'      => 'Para cada produto você pode configurar uma mensagem para quando o produto está em estoque.<br>Com essa configuração ativa uma mensagem padrão será exibida, caso nenhuma mensagem específica para um produto for inserida. A mensagem padrão <span class="filename_filepath_or_italic">Pronta para envio</span> é exibida.',
 'HELP_SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'     => '',
 'HELP_SHOP_CONFIG_OVERRIDEZEROABCPRICES'      => '',
 'HELP_SHOP_CONFIG_SEARCHFIELDS'               => '',
