@@ -700,7 +700,7 @@ $aLang = [
     'EXCEPTION_SYSTEMCOMPONENT_TEMPLATENOTFOUND'     => 'Plantilla "%s" no encontrada',
     'EXCEPTION_DISABLED_DOWNLOADABLE_PRODUCTS'       => 'Para usar esta característica en el portal de consumidores, tienes que habilitar la opción \'Habilita productos descargables\' en la configuración maestra -> Configuración de núcleo -> Configuración -> Productos descargables.',
     'ERROR_MESSAGE_SYSTEMCOMPONENT_CLASSNOTFOUND'    => 'Clase "%s" no encontrada',
-    'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'        => 'Clase %s no encontrada',
+    'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'        => '¡Clase %s no encontrada!',
     'ERROR_MESSAGE_SYSTEMCOMPONENT_FUNCTIONNOTFOUND' => 'Función "%s" no encontrada',
     'THEME_AUTHOR'                                   => 'Autor',
     'THEME_VERSION'                                  => 'Versión',
@@ -1250,7 +1250,7 @@ $aLang = [
     'SYSREQ_ALLOW_URL_FOPEN'                  => 'allow_url_fopen o fsockopen al puerto 80',
     'SYSREQ_PHP4_COMPAT'                      => 'Modo de compatibilidad Zend debe estar apagado',
     // @deprecated since v.6.5.1 (2020-02-12);
-    'SYSREQ_PHP_VERSION'                      => '',
+    'SYSREQ_PHP_VERSION'                      => 'Cambiar Versión PHP de 7.3 a 8.0',
     // END deprecated
     'SYSREQ_REQUEST_URI'                      => 'REQUEST_URI conjunto',
     'SYSREQ_LIB_XML2'                         => 'LIB xml2',
