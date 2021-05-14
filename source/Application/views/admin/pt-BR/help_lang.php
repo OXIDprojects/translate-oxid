@@ -177,7 +177,7 @@ $aLang =  [
 'HELP_GENERAL_SEO_FIXED'                      => 'A Loja recria automaticamente as URLs de SEO. Por exemplo, uma página do produto obtém um novo URL SEO se o título do produto foi alterado. A configuração <span class="navipath_or_inputname">URL Fixa</span> impede o recriação: Se estiver ativo, a antiga URL de SEO é mantida e nenhuma nova URL SEO é gerada.',
 'HELP_GENERAL_SEO_SHOWSUFFIX'                 => 'Com essa configuração você pode especificar se o sufixo do título é mostrado no título da janela do navegador quando a página de acordo é aberta. O sufixo do título pode ser definido em <span class="navipath_or_inputname">Configurações Master -> Configurações Core -> SEO -> Sufixo para Título</span>.',
 'HELP_GENERAL_SEO_OXKEYWORDS'                 => 'Estas palavras-chave são integradas no código fonte HTML da página do produto (palavras-chave META). Esta informação é usada pelos motores de busca. Palavras-chave adequadas para o produto podem ser inseridas aqui. Se for deixado em branco, as palavras-chave são geradas automaticamente.',
-'HELP_GENERAL_SEO_OXDESCRIPTION'              => '',
+'HELP_GENERAL_SEO_OXDESCRIPTION'              => 'Esta descrição é integrada no código-fonte HTML da página CMS (descrição META). Este texto é frequentemente exibido nas páginas finais dos mecanismos de busca. Uma descrição adequada pode ser inserida aqui. Se deixada em branco, a descrição é gerada automaticamente.',
 'HELP_GENIMPORT_FIRSTCOLHEADER'               => '',
 'HELP_GENIMPORT_REPEATIMPORT'                 => '',
 'HELP_LANGUAGE_DEFAULT'                       => '',
