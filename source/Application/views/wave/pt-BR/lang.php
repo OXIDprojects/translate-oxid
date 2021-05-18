@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Favor selecionar',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => '',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Redefinir',
 );
 
 /*
