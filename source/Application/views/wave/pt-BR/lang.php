@@ -74,7 +74,7 @@ $aLang = array(
     'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
 
     // Billing address
-    'DD_USER_LABEL_STATE'                                    => '',
+    'DD_USER_LABEL_STATE'                                    => 'Estado',
     'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
     'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
     'DD_DELETE_SHIPPING_ADDRESS'                            => '',
@@ -115,10 +115,10 @@ $aLang = array(
     'DD_FOOTER_FOLLOW_US'                                   => '',
     'DD_FORGOT_PASSWORD_HEADING'                            => '',
     'DD_INVITE_HEADING'                                     => '',
-    'DD_INVITE_LINK'                                        => '',
+    'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
     'DD_ORDERSHIPPED_HEADING'                               => '',
-    'DD_PRICEALARM_HEADING'                                 => '',
+    'DD_PRICEALARM_HEADING'                                 => 'Alerta de preço',
     'DD_REGISTER_HEADING'                                   => '',
     'DD_DOWNLOADLINKS_HEADING'                              => '',
     'DD_WISHLIST_HEADING'                                   => '',
@@ -140,7 +140,7 @@ $aLang = array(
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Favor selecionar',
 
-    'DD_CATEGORY_RESET_BUTTON'                              => '',
+    'DD_CATEGORY_RESET_BUTTON'                              => 'Redefinir',
 );
 
 /*
