@@ -655,8 +655,8 @@ $aLang = [
     'DISCOUNT_USERS_SETUSER'                    => 'Usuários assinalados',
 
     // @deprecated 6.6.0 dynpages will be removed on the next major
-        'DYN_ECONDA_ACTIVE'                         => '',
-        'DYN_ECONDA_ATTENTION'                      => '',
+        'DYN_ECONDA_ACTIVE'                         => 'Ativar Econda Webcontrolling?',
+        'DYN_ECONDA_ATTENTION'                      => 'Atenção: ',
         'DYN_ECONDA_COPY_FILE'                      => '',
     // END deprecated
 
