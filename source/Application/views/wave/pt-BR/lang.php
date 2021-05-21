@@ -123,7 +123,7 @@ $aLang = array(
     'DD_DOWNLOADLINKS_HEADING'                              => '',
     'DD_WISHLIST_HEADING'                                   => '',
 
-    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => '',
+    'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menu',
 
     'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
     'DD_DELETE_MY_ACCOUNT'                                  => '',
