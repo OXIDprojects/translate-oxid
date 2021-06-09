@@ -25,18 +25,18 @@ $aLang = array(
     'charset'                                               => 'UTF-8',
 
     // Global
-    'DD_SORT_DESC'                                          => '',
-    'DD_SORT_ASC'                                           => '',
-    'DD_DEMO_ADMIN_TOOL'                                    => '',
+    'DD_SORT_DESC'                                          => 'decrescente',
+    'DD_SORT_ASC'                                           => 'crescente',
+    'DD_DEMO_ADMIN_TOOL'                                    => 'Abrir interface de administrador',
     'DD_DELETE'                                             => 'Eliminar',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => '',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => '',
-    'DD_FORM_VALIDATION_NUMBER'                             => '',
-    'DD_FORM_VALIDATION_INTEGER'                            => '',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => '',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => '',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Por favor, insira um endereço de email válido.',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'As senhas não conferem.',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Por favor, insira um número.',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Não há casas decimais permitidas.',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Por favor, insira um número positivo.',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Por favor, insira um número negativo.',
     'DD_FORM_VALIDATION_REQUIRED'                           => '',
     'DD_FORM_VALIDATION_CHECKONE'                           => '',
 
