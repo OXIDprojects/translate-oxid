@@ -37,50 +37,50 @@ $aLang = array(
     'DD_FORM_VALIDATION_INTEGER'                            => 'Não há casas decimais permitidas.',
     'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Por favor, insira um número positivo.',
     'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Por favor, insira um número negativo.',
-    'DD_FORM_VALIDATION_REQUIRED'                           => '',
-    'DD_FORM_VALIDATION_CHECKONE'                           => '',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Por favor, indique um nome para esse grupo de usuários.',
+    'DD_FORM_VALIDATION_CHECKONE'                           => 'Por favor, selecione pelo menos uma opção.',
 
     // Header
-    'SEARCH_TITLE'                                          => '',
+    'SEARCH_TITLE'                                          => 'Digite um termo de busca...',
     'SEARCH_SUBMIT'                                         => 'Pesquisar',
     'NAV_MORE'                                              => 'Mais',
 
     // Footer
-    'FOOTER_NEWSLETTER_INFO'                                => '',
+    'FOOTER_NEWSLETTER_INFO'                                => 'Conheça as últimas ofertas e produtos por e-mail.',
 
     // Home page
-    'MANUFACTURERSLIDER_SUBHEAD'                            => '',
-    'START_BARGAIN_HEADER'                                  => '',
-    'START_NEWEST_HEADER'                                   => '',
-    'START_TOP_PRODUCTS_HEADER'                             => '',
-    'START_BARGAIN_SUBHEADER'                               => '',
-    'START_NEWEST_SUBHEADER'                                => '',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => '',
+    'MANUFACTURERSLIDER_SUBHEAD'                            => 'Apresentamos as nossas marcas cuidadosamente selecionadas, cujos produtos podem ser encontrados em nossa loja.',
+    'START_BARGAIN_HEADER'                                  => 'Especial da semana',
+    'START_NEWEST_HEADER'                                   => 'Acabou de chegar',
+    'START_TOP_PRODUCTS_HEADER'                             => 'Mais vendidos',
+    'START_BARGAIN_SUBHEADER'                               => 'Economize dinheiro com as nossas promoções atuais!',
+    'START_NEWEST_SUBHEADER'                                => 'Mais recente impossível. Há pouco estava sendo transportado e agora já está na loja.',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Apenas %s produtos, mas o melhor que podemos oferecer a você.',
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Entre em contato conosco',
     'DD_CONTACT_FORM_HEADING'                               => 'Contato',
 
     // Link list
-    'DD_LINKS_NO_ENTRIES'                                   => '',
+    'DD_LINKS_NO_ENTRIES'                                   => 'Infelizmente, não há links disponíveis.',
 
     // 404 page
-    'DD_ERR_404_START_TEXT'                                 => '',
-    'DD_ERR_404_START_BUTTON'                               => '',
-    'DD_ERR_404_CONTACT_TEXT'                               => '',
-    'DD_ERR_404_CONTACT_BUTTON'                             => '',
+    'DD_ERR_404_START_TEXT'                                 => 'Você pode encontrar a informação que deseja em nossa página inicial:',
+    'DD_ERR_404_START_BUTTON'                               => 'Ir para a página inicial',
+    'DD_ERR_404_CONTACT_TEXT'                               => 'Podemos ajudá-lo?<br>Sinta-se à vontade para nos ligar ou escrever um e-mail:',
+    'DD_ERR_404_CONTACT_BUTTON'                             => 'para a página de contato',
 
     // Login
-    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => '',
+    'DD_LOGIN_ACCOUNT_PANEL_CREATE_BODY'                    => 'Criando uma conta com a nossa loja, você será guiado pelo processo de pagamento mais rápido. Além disso, você pode armazenar vários endereços de envio e acompanhar pedidos em sua conta.',
 
     // Billing address
     'DD_USER_LABEL_STATE'                                    => 'Estado',
-    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => '',
-    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => '',
-    'DD_DELETE_SHIPPING_ADDRESS'                            => '',
+    'DD_USER_SHIPPING_SELECT_ADDRESS'                       => 'selecione',
+    'DD_USER_SHIPPING_ADD_DELIVERY_ADDRESS'                 => 'adicionar endereço de entrega',
+    'DD_DELETE_SHIPPING_ADDRESS'                            => 'Excluir endereço de entrega',
 
     // List views
-    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => '',
+    'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtro',
     'DD_LIST_SHOW_MORE'                                     => '',
 
     // Recommendation list
