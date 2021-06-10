@@ -81,40 +81,40 @@ $aLang = array(
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filtro',
-    'DD_LIST_SHOW_MORE'                                     => '',
+    'DD_LIST_SHOW_MORE'                                     => 'Visualizar produtos',
 
     // Recommendation list
-    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => '',
+    'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'voltar para a visão geral',
 
     // Downloads
     'DD_DOWNLOADS_DOWNLOAD_TOOLTIP'                         => 'baixar',
-    'DD_FILE_ATTRIBUTES_FILESIZE'                           => '',
+    'DD_FILE_ATTRIBUTES_FILESIZE'                           => 'Tamanho do arquivo:',
     'DD_FILE_ATTRIBUTES_OCLOCK'                             => 'ora',
-    'DD_FILE_ATTRIBUTES_FILENAME'                           => '',
+    'DD_FILE_ATTRIBUTES_FILENAME'                           => 'Nome do arquivo:',
 
     // Details page
-    'BACK_TO_OVERVIEW'                                      => '',
+    'BACK_TO_OVERVIEW'                                      => 'para visão geral',
     'OF'                                                    => 'de',
-    'DD_RATING_CUSTOMERRATINGS'                             => '',
-    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => '',
-    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => '',
-    'DETAILS_VPE_MESSAGE_1'                                 => "",
+    'DD_RATING_CUSTOMERRATINGS'                             => 'Avaliações de clientes',
+    'PAGE_DETAILS_CUSTOMERS_ALSO_BOUGHT_SUBHEADER'          => 'Clientes que compraram este produto também compraram um dos seguintes produtos.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_ACCESSORIES_SUBHEADER' => 'Os seguintes produtos combinam bem com este produto.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_SIMILAR_SUBHEADER'     => 'Dê uma olhada em nossos produtos semelhantes.',
+    'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Clientes que visualizaram este produto também viram os seguintes produtos.',
+    'DETAILS_VPE_MESSAGE_1'                                 => "Este produto só pode ser comprado em unidades de embalagem de ",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Escolher Variante',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Total',
-    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => '',
+    'DD_MINIBASKET_CONTINUE_SHOPPING'                       => 'continuar comprando',
 
     // Checkout
-    'DD_BASKET_BACK_TO_SHOP'                                => '',
+    'DD_BASKET_BACK_TO_SHOP'                                => 'voltar à loja',
 
     // E-Mails
-    'DD_FOOTER_FOLLOW_US'                                   => '',
-    'DD_FORGOT_PASSWORD_HEADING'                            => '',
-    'DD_INVITE_HEADING'                                     => '',
+    'DD_FOOTER_FOLLOW_US'                                   => 'Siga a gente:',
+    'DD_FORGOT_PASSWORD_HEADING'                            => 'Esqueceu a senha',
+    'DD_INVITE_HEADING'                                     => 'Recomendação do produto',
     'DD_INVITE_LINK'                                        => 'Link',
     'DD_NEWSLETTER_OPTIN_HEADING'                           => '',
     'DD_ORDERSHIPPED_HEADING'                               => '',
