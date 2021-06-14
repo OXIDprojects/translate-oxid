@@ -24,21 +24,21 @@ $sLangName  = 'Português do Brasil';
 $aLang = array(
     'charset'                                       => 'UTF-8',
 
-    'SHOP_THEME_GROUP_images'                       => '',
-    'SHOP_THEME_GROUP_features'                     => '',
-    'SHOP_THEME_GROUP_display'                      => '',
-    'SHOP_THEME_GROUP_logo'                         => '',
-    'SHOP_THEME_GROUP_favicons'                     => '',
-    'SHOP_THEME_GROUP_footer'                       => '',
-    'SHOP_THEME_GROUP_header'                       => '',
+    'SHOP_THEME_GROUP_images'                       => 'Imagens',
+    'SHOP_THEME_GROUP_features'                     => 'Funcionalidades',
+    'SHOP_THEME_GROUP_display'                      => 'Tela',
+    'SHOP_THEME_GROUP_logo'                         => 'Logo',
+    'SHOP_THEME_GROUP_favicons'                     => 'Favicons',
+    'SHOP_THEME_GROUP_footer'                       => 'Footer',
+    'SHOP_THEME_GROUP_header'                       => 'Header',
     'SHOP_THEME_GROUP_contact'                      => 'Contato',
-    'SHOP_THEME_GROUP_googleanalytics'              => '',
-    'SHOP_THEME_GROUP_googlets'                     => '',
-    'SHOP_THEME_GROUP_background'                   => '',
-    'SHOP_THEME_GROUP_econda'                       => '',
+    'SHOP_THEME_GROUP_googleanalytics'              => 'Google Analytics',
+    'SHOP_THEME_GROUP_googlets'                     => 'Lojas confiáveis do Google',
+    'SHOP_THEME_GROUP_background'                   => 'Imagem de fundo',
+    'SHOP_THEME_GROUP_econda'                       => 'Controles da Loja Web econda',
     'SHOP_THEME_GROUP_emails'                       => 'E-Mails',
 
-    'SHOP_THEME_sIconsize'                          => '', //SHOP_CONFIG_ICONSIZE
+    'SHOP_THEME_sIconsize'                          => 'Tamanho do ícone (largura*altura)', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => '' .
                                                        '' .
                                                        '' .
