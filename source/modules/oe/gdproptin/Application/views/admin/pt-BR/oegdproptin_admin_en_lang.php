@@ -23,16 +23,16 @@ $sLangName = 'Português do Brasil';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'Módulo de opt-in do GDPR para OxidE-Sales',
 
-    'SHOP_MODULE_GROUP_oegdproptin_settings' => '',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Configurações GDPR',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Mostrar opt-in para o endereço da fatura',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Mostrar opt-in para o endereço de envio',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Mostrar opt-in para registro de usuários',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Mostrar opt-in para avaliações de produtos',
 
-    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => '',
+    'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Configurações do formulário de contato',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Mostrar uma nota para exclusão dos dados após o processamento',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Mostrar uma opt-in para processamento e uso estatístico dos dados',
 ];
