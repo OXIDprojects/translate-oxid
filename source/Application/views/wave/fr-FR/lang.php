@@ -102,7 +102,7 @@ $aLang = array(
     'WIDGET_PRODUCT_RELATED_PRODUCTS_CROSSSELING_SUBHEADER' => 'Les clients ayant consulté ce produit ont également consulté les produits suivants.',
     'DETAILS_VPE_MESSAGE_1'                                 => "Ce produit ne peut être commandé que dans des unités ou en emballage",
     'DETAILS_VPE_MESSAGE_2'                                 => "",
-    'TO_CART_NOVARIANT'                                     => '',
+    'TO_CART_NOVARIANT'                                     => 'Choisissez une variante',
 
     // Modal basket
     'DD_MINIBASKET_MODAL_TABLE_PRICE'                       => 'Total',
@@ -125,7 +125,7 @@ $aLang = array(
 
     'DD_ROLES_BEMAIN_UIROOTHEADER'                          => 'Menu',
 
-    'DD_DELETE_MY_ACCOUNT_WARNING'                          => '',
+    'DD_DELETE_MY_ACCOUNT_WARNING'                          => 'Cette action ne peut être annulée. Elle supprimera définitivement vos données personnelles.',
     'DD_DELETE_MY_ACCOUNT'                                  => 'Supprimer mon compte',
     'DD_DELETE_MY_ACCOUNT_CONFIRMATION_QUESTION'            => 'Êtes-vous sûr de vouloir supprimer votre compte?',
     'DD_DELETE_MY_ACCOUNT_CANCEL'                           => 'Annuler',
@@ -135,7 +135,7 @@ $aLang = array(
     // Account -> My product reviews
     'DD_DELETE_REVIEW_AND_RATING'                           => 'Supprimer votre évaluation',
     'DD_REVIEWS_NOT_AVAILABLE'                              => 'Aucun avis disponible',
-    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => '',
+    'DD_DELETE_REVIEW_CONFIRMATION_QUESTION'                => 'Êtes-vous sûr de vouloir supprimer la critique ?',
 
     // Contact page
     'DD_SELECT_SALUTATION'                                  => 'Choisissez',
