@@ -791,7 +791,7 @@ $aLang = [
     'NAVIGATION_HISTORY'                             => 'Historique',
     'NAVIGATION_SYSREQ_MESSAGE'                      => "La vérification système indique un problème dans l'installation de OXID eShop.<br> Vous devriez corriger ces problèmes rapidement. Aide disponible avec la",
     'NAVIGATION_SYSREQ_MESSAGE2'                     => "Vérification système.",
-    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "",
+    'NAVIGATION_SYSREQ_MESSAGE_INACTIVE'             => "Le contrôle permanent de l'état du système a été désactivé. Vous pouvez le réactiver dans l'onglet Performance. Configuration générale -> Système. Pour le vérifier, veuillez cliquer sur ce lien : ",
     'NAVIGATION_SHOPFRONT'                           => "Page d'accueil de la boutique",
 
     'NEWSLETTER_DONE_NEWSSEND'                           => 'Votre Newsletter a été envoyée.',
@@ -1763,7 +1763,7 @@ $aLang = [
     // Shop licensing problems
     'SHOP_LICENSE_ERROR_GRACE_EXPIRED'            => 'La clé de licence de votre boutique OXID eShop a finalement expiré. Veuillez contacter le support technique.',
     'SHOP_LICENSE_ERROR_GRACE_WILL_EXPIRE'        => 'La clé de licence de votre boutique OXID eShop a expiré. Votre boutique OXID eShop sera hors ligne pendant 24 heures. Veuillez entrer une clé de licence valide ou contacter le support technique.',
-    'SHOP_LICENSE_ERROR_GRACE_RESET'              => '',
+    'SHOP_LICENSE_ERROR_GRACE_RESET'              => 'Une nouvelle vérification a montré que la clé de licence de votre boutique en ligne OXID est maintenant valide. C\'est pourquoi le compteur caché de sept jours a été annulé.',
     'SHOP_LICENSE_ERROR_shop_unlicensed'          => 'Un probleme est survenu avec la clé de licence de votre boutique OXID eShop. Pour cette raison, un compte a rebours caché de 7 jours a commencé. A la fin de cette période, la boutique OXID eShop sera hors ligne. Veuillez entrer la clé de licence valide a nouveau ou contacter le support technique.',
     'SHOP_LICENSE_ERROR_serial_expired'           => 'La clé de licence de votre boutique OXID eShop est expiré. Pour cette raison, un compte a rebours caché de 7 jours a commencé. A la finde cette période la boutique OXID eShop sera hors ligne. Veuillez entrer une clé de licence valide ou contacter le support technique.',
     'SHOP_LICENSE_ERROR_incorrect_mandate_amount' => 'Le nombre de sous-boutique avec licence a été excédé. Pour cette raison, un compte a rebours caché de 7 jours a commencé. A la fin de cette période, votre boutique OXID eShop sera hors ligne. Veuillez entrer une clé de licence valide ou contacter le support technique.',
@@ -1905,7 +1905,7 @@ $aLang = [
     'NEWSLETTER_SUBJECT'                       => 'Sujet',
 
     'SHOP_PERF_SEO_CACHE'                        => 'Activer le cache SEO',
-    'SHOP_PERF_SYSREQ_CHECK'                     => '',
+    'SHOP_PERF_SYSREQ_CHECK'                     => 'Activer les messages de vérification système sur la page de démarrage',
     'INFO_MODULES_MOVED_TO_EXTENSIONS'           => 'La gestion des thèmes et des modules a été déplacée dans le nouveau menu "Extensions"',
     'EXCEPTION_THEME_SHOULD_BE_ONLY_IN_DATABASE' => 'Le thème ne doit pas être défini dans le fichier config.inc.php',
     'EMAIL_PRICEALARM_CUSTOMER_PRICEALARMIN'     => 'Il y a une alerte prix.',
@@ -2022,9 +2022,9 @@ $aLang = [
 
     'VERSION_UPDATE_LINK' => 'http://www.oxid-esales.com/en/support-services/documentation-and-help/oxid-eshop/installation/oxid-eshop-update-installation/preparing-update.html',
 
-    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => '',
+    'ERROR_METADATA_CONTROLLERS_NOT_UNIQUE' => 'Erreur: Le Module non activé.<br />Toutes les clés et les valeurs du contrôleur doivent être uniques dans un magasin ou un sous-magasin.<br />Les clés ou valeurs de contrôleur suivantes définies dans metadata.php de ce module ne sont pas uniques:<br /> %s',
 
-    'SHOP_CONFIG_FIELDS_CONTACTFORM' => '',
+    'SHOP_CONFIG_FIELDS_CONTACTFORM' => 'Champs obligatoires du formulaire de contact',
     'EMAIL'                          => 'E-mail',
     'FIRST_NAME'                     => 'Prénom:',
     'LAST_NAME'                      => 'Nom:',

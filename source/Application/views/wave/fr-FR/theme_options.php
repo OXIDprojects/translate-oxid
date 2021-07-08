@@ -40,15 +40,15 @@ $aLang = array(
 
     'SHOP_THEME_sIconsize'                          => 'Taille de l\'icône (largeur*hauteur)', //SHOP_CONFIG_ICONSIZE
     'HELP_SHOP_THEME_sIconsize'                     => 'Les icônes sont les plus petites images d\'un produit. Elles sont utilisées : <br>' .
-                                                       '' .
-                                                       '' .
-                                                       '',
+                                                       '<ul><li>dans le panier d\'achat.</li>' .
+                                                       '<li>si les produits sont affichés dans le bon menu (par exemple dans <span class="filename_filepath_or_italic">HAUT de la boutique</span> et <span class="filename_filepath_or_italic">Affaire</span>).</li></ul>' .
+                                                       'Pour éviter les problèmes de conception causés par des icônes trop grandes, les icônes sont redimensionnées. Saisissez ici la taille maximale des icônes.',
 
     'SHOP_THEME_sThumbnailsize'                     => 'Taille de la vignette (largeur*hauteur)', //SHOP_CONFIG_THUMBNAILSIZE
     'HELP_SHOP_THEME_sThumbnailsize'                => 'Les vignettes sont de images du produit en taille réduite. Elles sont utilisées :<br>' .
                                                        '<ul><li>dans les listes de produits.</li>' .
-                                                       '' .
-                                                       '',
+                                                       '<li>dans les promotions affichées au milieu de la première page, par exemple <span class="filename_filepath_or_italic">Vient d\'arriver!</span>.</li></ul>' .
+                                                       'Pour éviter les problèmes de conception causés par des vignettes trop grandes, les vignettes sont redimensionnées. Entrez ici la taille maximale des vignettes.',
 
     'SHOP_THEME_sZoomImageSize'                     => 'Zoomer la taille de l\'image (largeur * hauteur)', //SHOP_CONFIG_ZOOMIMAGESIZE
     'SHOP_THEME_sCatThumbnailsize'                  => 'Taille de l\'image de la catégorie pour la promotion sur la page d\'accueil', //SHOP_CONFIG_CATEGORYTHUMBNAILSIZE
@@ -168,8 +168,8 @@ $aLang = array(
     'SHOP_THEME_sBackgroundSize_contain'            => 'couverture (pleine largeur)',
     'SHOP_THEME_sBackgroundSize_normal'             => 'Garder la taille d\'origine',
     'SHOP_THEME_blBackgroundAttachment'             => 'Corrige l\'arrière-plan pendant le défilement?',
-    'SHOP_THEME_blHomeLink'                         => '',
-    'SHOP_THEME_bl_showPriceAlarm'                  => '',
+    'SHOP_THEME_blHomeLink'                         => 'Afficher le lien "Accueil" dans a navigation principale?',
+    'SHOP_THEME_bl_showPriceAlarm'                  => 'Utiliser le prix souhaité',
 
     'SHOP_THEME_blUseGoogleTS'                      => 'Utiliser les magasins de confiance Google',
     'SHOP_THEME_sGoogleVendorId'                    => 'Google Store-ID',
