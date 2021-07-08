@@ -50,7 +50,7 @@ $aLang =  [
 'HELP_SHOP_CONFIG_SETORDELETECURRENCY'        => '<br /><ul><li></li><li><li></ul>',
 'HELP_SHOP_CONFIG_NEWARTBYINSERT'             => 'Sur la page d\'accueil de la boutique, les derniers produits proposés à la vente sont affichés dans <span class="filename_filepath_or_italic">Derniers arrivages</span>.  Ce paramètre permet de choisir comment les nouveaux produits sont définis : par date de rcéation our par date de dernière modification.',
 /** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => '',
+'HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE'      => 'Activez la recommandation de produits sur les pages de détail des produits.',
 /** end deprecated */
 'HELP_SHOP_CONFIG_SEND_TECHNICAL_INFORMATION_TO_OXID' => '',
 'HELP_SHOP_CONFIG_DELETERATINGLOGS'           => 'Si un utilisateur note un  produit, il ne peut plus le noter une seconde fois. Vous pouvez définir ici un délai entre deux notations produit pour un utilisateur. Laisser vide pour désactiver - Une seule notation produit par utilisateur sera alors possible.',
