@@ -23,16 +23,16 @@ $sLangName = 'Français';
 
 $aLang = [
     'charset' => 'UTF-8',
-    'oegdproptin' => '',
+    'oegdproptin' => 'Module option d\'adhésion OE GDPR',
 
     'SHOP_MODULE_GROUP_oegdproptin_settings' => 'Paramètres RGPD',
-    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => '',
-    'SHOP_MODULE_blOeGdprOptinUserRegistration' => '',
-    'SHOP_MODULE_blOeGdprOptinProductReviews' => '',
+    'SHOP_MODULE_blOeGdprOptinInvoiceAddress' => 'Afficher l\'option d\'adhésion pour l\'adresse de facturation',
+    'SHOP_MODULE_blOeGdprOptinDeliveryAddress' => 'Afficher l\'option d\'adhésion pour l\'adresse de livraison',
+    'SHOP_MODULE_blOeGdprOptinUserRegistration' => 'Afficher l\'option d\'adhésion pour l\'enregistrement des utilisateurs',
+    'SHOP_MODULE_blOeGdprOptinProductReviews' => 'Afficher l\'option d\'adhésion pour les évaluations de produits',
 
     'SHOP_MODULE_GROUP_oegdproptin_contact_form' => 'Paramètres du formulaire de contact',
     'SHOP_MODULE_OeGdprOptinContactFormMethod' => '', // right side of the inputs, if some notes will be needed
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => '',
-    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => '',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_deletion' => 'Afficher une note pour la suppression des données après traitement',
+    'SHOP_MODULE_OeGdprOptinContactFormMethod_statistical' => 'Présenter une option d\'adhésion pour le traitement et l\'utilisation statistique des données',
 ];
