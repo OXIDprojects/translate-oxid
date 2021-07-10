@@ -31,13 +31,13 @@ $aLang = array(
     'DD_DELETE'                                             => 'Delete',
 
     // Form validation
-    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Please enter a valid e-mail address',
-    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Passwords don\'t match',
-    'DD_FORM_VALIDATION_NUMBER'                             => 'Please enter a valid number',
-    'DD_FORM_VALIDATION_INTEGER'                            => 'Decimal places are not allowed',
-    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Please enter a positive number',
-    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Please enter a negative number',
-    'DD_FORM_VALIDATION_REQUIRED'                           => 'Please specify a value for this field',
+    'DD_FORM_VALIDATION_VALIDEMAIL'                         => 'Please enter a valid e-mail address.',
+    'DD_FORM_VALIDATION_PASSWORDAGAIN'                      => 'Passwords don\'t match.',
+    'DD_FORM_VALIDATION_NUMBER'                             => 'Please enter a valid number.',
+    'DD_FORM_VALIDATION_INTEGER'                            => 'Decimal places are not allowed.',
+    'DD_FORM_VALIDATION_POSITIVENUMBER'                     => 'Please enter a positive number.',
+    'DD_FORM_VALIDATION_NEGATIVENUMBER'                     => 'Please enter a negative number.',
+    'DD_FORM_VALIDATION_REQUIRED'                           => 'Please specify a value for this field.',
     'DD_FORM_VALIDATION_CHECKONE'                           => 'Please select at least one option.',
 
     // Header
