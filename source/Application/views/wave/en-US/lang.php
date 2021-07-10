@@ -55,14 +55,14 @@ $aLang = array(
     'START_TOP_PRODUCTS_HEADER'                             => 'Top sellers',
     'START_BARGAIN_SUBHEADER'                               => 'Save money with our current deals!',
     'START_NEWEST_SUBHEADER'                                => 'Can\'t get it more fresh! Just arrived.',
-    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Just two products - the best we\'d like to offer!',
+    'START_TOP_PRODUCTS_SUBHEADER'                          => 'Just %s products - the best we\'d like to offer.',
 
     // Contact form
     'DD_CONTACT_PAGE_HEADING'                               => 'Contact us!',
     'DD_CONTACT_FORM_HEADING'                               => 'Contact',
 
     // Link list
-    'DD_LINKS_NO_ENTRIES'                                   => 'Unfortunately, there are no links available',
+    'DD_LINKS_NO_ENTRIES'                                   => 'Unfortunately, there are no links available.',
 
     // 404 page
     'DD_ERR_404_START_TEXT'                                 => 'You may find the requested information from our home page:',
@@ -81,7 +81,7 @@ $aLang = array(
 
     // List views
     'DD_LISTLOCATOR_FILTER_ATTRIBUTES'                      => 'Filter:',
-    'DD_LIST_SHOW_MORE'                                     => 'View products...',
+    'DD_LIST_SHOW_MORE'                                     => 'View products ...',
 
     // Recommendation list
     'DD_RECOMMENDATION_EDIT_BACK_TO_LIST'                   => 'back to overview',
