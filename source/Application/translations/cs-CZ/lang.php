@@ -5,7 +5,7 @@
  * See LICENSE file for license details.
  */
 
-$sLangName  = "Česky";
+$sLangName  = "English";
 
 // -------------------------------
 // RESOURCE IDENTIFIER = STRING
@@ -38,7 +38,7 @@ $aLang = [
 'ALL'                                                         => 'Vše',
 'ALL_LISTMANIA'                                               => 'všechny Listmania',
 'ALREADY_CUSTOMER'                                            => 'Již jsem zákazníkem',
-'APPLY'                                                       => 'Použít',
+'APPLY'                                                       => 'Apply',
 'ARTNUM'                                                      => 'Produktové číslo',
 'ATENTION_GREETING_CARD'                                      => 'POZOR Blahopřání:',
 'AUTHOR'                                                      => 'Autor',
@@ -60,16 +60,6 @@ $aLang = [
 'BIRTHDATE'                                                   => 'Datum narození:',
 'BLOCK_PRICE'                                                 => 'Cena dle množství',
 'CANCEL'                                                      => 'Zrušit',
-
-// @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CARD_MASTERCARD'                                             => 'Mastercard',
-'CARD_SECURITY_CODE'                                          => 'Bezpečnostní kód CVV2 nebo CVC2:',
-'CARD_SECURITY_CODE_DESCRIPTION'                              => 'CVV2/CVC2 je trojmístný kód vytištěný obrácenou kurzívou na rubu kreditní karty pod podpisem majitele.',
-'CARD_VISA'                                                   => 'Visa',
-// END deprecated
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CARD_TO'                                                     => 'Karta na:',
-/** end deprecated */
 'CART'                                                        => 'Košík',
 'CATEGORIES'                                                  => 'Kategorie',
 'CATEGORY'                                                    => 'Kategorie:',
@@ -81,9 +71,6 @@ $aLang = [
 'CHANGE_ACCOUNT_PASSWORD'                                     => 'Změnit heslo účtu',
 'CHANGE_PASSWORD'                                             => 'Změnit heslo',
 'CHARGES'                                                     => 'Poplatky',
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'CHECK'                                                       => 'Kontrola',
-/** end deprecated */
 'CHECKOUT'                                                    => 'K pokladně',
 'CHECK_YOUR_ORDER_HISTORY'                                    => 'Kontrola Vaší historie objednávek',
 'CHOOSE'                                                      => 'Vyberte',
@@ -102,9 +89,6 @@ $aLang = [
 'COUPON'                                                      => 'Poukázka',
 'COUPON_NOT_ACCEPTED'                                         => 'Váš kupon "%s" nemůže být přijat.',
 'CREATE_PASSWORD'                                             => 'Vytvořit heslo',
-// @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
-'CREDITCARD'                                                  => 'Kreditní karta:',
-// END deprecated
 'CURRENT_PRODUCT'                                             => 'Aktuální produkt',
 'CUSTOMERS_ALSO_BOUGHT'                                       => 'Zákazníci, kteří koupili tento produkt, také koupili:',
 'DATE'                                                        => 'Datum',
@@ -165,11 +149,11 @@ $aLang = [
 'ERROR_MESSAGE_PASSWORD_EMAIL_INVALID'                        => 'Zadaná emailová adresa není správná. Prosím zadejte správnou emailovou adresu.',
 'ERROR_MESSAGE_PASSWORD_LINK_EXPIRED'                         => 'Platnost stránky s aktualizací hesla vypršela. Prosím použijte funkci zapomenutého hesla znovu.',
 'ERROR_MESSAGE_PASSWORD_TOO_SHORT'                            => 'Chyba: Vaše heslo je příliš krátké.',
-'ERROR_REVIEW_AND_RATING_NOT_DELETED'                         => 'Recenze a hodnocení hvězdičky nelze odstranit',
+'ERROR_REVIEW_AND_RATING_NOT_DELETED'                         => 'The review and the star rating could not be deleted',
 'ERROR_MESSAGE_CURRENT_PASSWORD_INVALID'                      => 'Chyba: Vaše současné heslo je nesprávné.',
 'ERROR_MESSAGE_RECOMMLIST_NOTITLE'                            => 'Pole "Název" je prázdné',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_CLASSNOTFOUND'                 => 'Třída "%s" nebyla nalezena',
-'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => 'Třída "%s" nebyla nalezena!',
+'EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND'                     => 'Class "%s" not found!',
 'ERROR_MESSAGE_SYSTEMCOMPONENT_FUNCTIONNOTFOUND'              => 'Funkce "%s" nebyla nalezena',
 'EXCEPTION_SYSTEMCOMPONENT_TEMPLATENOTFOUND'                  => 'Šablona "%s" nenalezena',
 'ERROR_MESSAGE_UNKNOWN_ERROR'                                 => 'Neznámá chyba',
@@ -177,13 +161,13 @@ $aLang = [
 'ERROR_MESSAGE_USER_NOVALIDLOGIN'                             => 'Chybný email nebo heslo!',
 'ERROR_MESSAGE_USER_NOVALUES'                                 => 'Email a heslo musí být vyplněny!',
 'ERROR_MESSAGE_USER_USERCREATIONFAILED'                       => 'Chyba v průběhu tvorby účtu!',
-'ERROR_MESSAGE_USER_UPDATE_FAILED'                            => 'Chyba při aktualizaci uživatelských dat!',
+'ERROR_MESSAGE_USER_UPDATE_FAILED'                            => 'Error while updating the user data!',
 'ERROR_MESSAGE_USER_USEREXISTS'                               => 'Nelze zaregistrovat %s. Je možné, že tento uživatel již existuje?',
 'ERROR_MESSAGE_VERSION_EXPIRED1'                              => 'Vaše verze OXID eShop je zastaralá, kontaktujte prosím',
 'ERROR_MESSAGE_VOUCHER_INCORRECTPRICE'                        => 'Nákupní hodnota je příliš nízká pro použití této poukázky!',
 'ERROR_MESSAGE_VOUCHER_ISRESERVED'                            => 'Poukázka je rezervovaná!',
-'ERROR_MESSAGE_VOUCHER_NOTALLOWEDOTHERSERIES'                 => 'Kumulace s kupóny z jiných sérií není povolena!',
-'ERROR_MESSAGE_VOUCHER_NOTALLOWEDSAMESERIES'                  => 'Kupón ze stejné série nelze použít pro tento nákup!',
+'ERROR_MESSAGE_VOUCHER_NOTALLOWEDOTHERSERIES'                 => 'Nelze sčítat poukázky různých sérií!',
+'ERROR_MESSAGE_VOUCHER_NOTALLOWEDSAMESERIES'                  => 'Poukázka této série nemůže být uplatněna v tomto nákupu!',
 'ERROR_MESSAGE_VOUCHER_NOTVALIDUSERGROUP'                     => 'Poukázku nelze použít v rámci Vaší uživatelské skupiny!',
 'ERROR_MESSAGE_VOUCHER_NOVOUCHER'                             => 'Neplatná poukázka!',
 'ERROR_MESSAGE_COMPLETE_FIELDS_CORRECTLY'                     => 'Vyplňte, prosím, všechna pole správně!',
@@ -193,8 +177,8 @@ $aLang = [
 'ERROR_MESSAGE_INCORRECT_DATE'                                => 'Nesprávné datum',
 'EXCEPTION_NOT_VALID_CURL_CONSTANT'                           => 'Neplatí cURL konstantní název: %s',
 'EXCEPTION_CURL_ERROR'                                        => 'cURL chyba: %s',
-'EXCEPTION_NON_MATCHING_CSRF_TOKEN'                           => 'CSRF token se neshoduje!',
-'ERROR_MESSAGE_NON_MATCHING_CSRF_TOKEN'                       => 'Akce se nepodařilo dokončit. Zkuste to prosím znovu!',
+'EXCEPTION_NON_MATCHING_CSRF_TOKEN'                           => 'CSRF token does not match!',
+'ERROR_MESSAGE_NON_MATCHING_CSRF_TOKEN'                       => 'The action could not be completed. Please try again!',
 'EXPIRES_IN'                                                  => 'Vyprší do:',
 'FAX'                                                         => 'Fax',
 'FIRST_LAST_NAME'                                             => 'Jméno/Příjmení:',
@@ -224,7 +208,7 @@ $aLang = [
 'HERE_YOU_SET_UP_NEW_PASSWORD'                                => 'Zde můžete nastavit nové heslo.',
 'HITS_FOR'                                                    => 'Výsledků pro',
 'HOME'                                                        => 'Domů',
-'IBAN'                                                        => 'IBAN (číslo bankovního účtu v mezinárodním formátu)',
+'IBAN'                                                        => 'IBAN:',
 'IF_DIFFERENT_FROM_BILLING_ADDRESS'                           => 'Pokud se liší od fakturační adresy.',
 'IMPRESSUM'                                                   => 'O nás',
 'INCL_TAX_AND_PLUS_SHIPPING'                                  => '* všechny ceny včetně DPH a dopravy',
@@ -238,10 +222,6 @@ $aLang = [
 'LABEL'                                                       => 'Popis:',
 'LAST_NAME'                                                   => 'Příjmení',
 'LAST_SEEN_PRODUCTS'                                          => 'Naposledy zobrazené zboží',
-// @deprecated 6.5.6 "News" feature will be removed completely
-'LATEST_NEWS_AND_UPDATES_AT' => 'Poslední novinky a aktuality na',
-'LATEST_NEWS_NOACTIVENEWS'   => 'V současné době nejsou žádné novinky',
-// END deprecated
 'LINKS'                                                       => 'Odkazy',
 'LISTMANIA'                                                   => 'Listmania',
 'LISTMANIA_2'                                                 => 'Listmania/%s',
@@ -270,14 +250,11 @@ $aLang = [
 'MESSAGE_BASKET_EXCLUDE_INFO'                                 => 'Můžete přejít k platbě a dokončit objednávku.<br>Nebo můžete pokračovat v nákupu, ale košík bude vyprázdněn.',
 'MESSAGE_CONFIRMATION_NOT_SUCCEED'                            => 'Je nám líto, ale potvrzení objednávky emailem bylo neúspěšné.',
 'MESSAGE_CONFIRMING_REGISTRATION'                             => 'Zaslali jsme Vám email s potvrzením registrace.',
-'MESSAGE_COUPON_ACCUMULATION_SAME_SERIE'                      => 'Není dovoleno kombinování dalších kupónů s jinými kupóny téže série.',
+'MESSAGE_COUPON_ACCUMULATION_SAME_SERIE'                      => 'Sčítání poukázek stejné série není dovoleno.',
 'MESSAGE_COUPON_EXPIRED'                                      => 'Platnost poukázky vypršela.',
 'MESSAGE_COUPON_NOT_APPLIED_FOR_ARTICLES'                     => 'Na toto zboží nelze uplatnit slevovou poukázku.',
-'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Zamítnuto pravidly obchodu.',
-'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Email, který jste zadali, je již používán.',
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_ENTER_YOUR_ADDRESS_AND_MESSAGE'                      => 'Zadejte Vaši adresu a zprávu.',
-/** end deprecated */
+'MESSAGE_DENIED_BY_SHOP_RULES'                                => 'Neodpovídá pravidlům eShopu.',
+'MESSAGE_EMAIL_ALREADY_IN_USE'                                => 'Vámi zadaný email již byl použit.',
 'MESSAGE_FROM'                                                => 'Zpráva od',
 'MESSAGE_GET_BONUS_POINTS'                                    => 'Získejte bonusové body za Váš nákup právě teď!',
 'MESSAGE_INVALID_EMAIL'                                       => 'Neplatná emailová adresa!',
@@ -287,9 +264,9 @@ $aLang = [
 'MESSAGE_LOGIN_TO_RATE'                                       => 'Pro hodnocení musíte být přihlášen(a)!',
 'MESSAGE_LOGIN_TO_WRITE_REVIEW'                               => 'Pro napsání recenze musíte být přihlášen(a).',
 'MESSAGE_MAKE_GIFT_REGISTRY_PUBLISH'                          => 'Kdokoli může vyhledávat v mém seznamu dárků:',
-'MESSAGE_NEGATIVE_TOTAL'                                      => 'Záporná částka není dovolena.',
+'MESSAGE_NEGATIVE_TOTAL'                                      => 'Záporná cena není dovolena.',
 'MESSAGE_NEWSLETTER_CONGRATULATIONS'                          => 'Gratulujeme!',
-'MESSAGE_NEWSLETTER_FOR_SUBSCRIPTION_BONUS'                   => 'Právě teď! Získejte bonusové body za odběr novinek!',
+'MESSAGE_NEWSLETTER_FOR_SUBSCRIPTION_BONUS'                   => 'Za odběr novinek získáváte bonusové body!',
 'MESSAGE_NEWSLETTER_SUBSCRIPTION'                             => 'Zrušit odběr novinek je možné provést kdykoliv.',
 'MESSAGE_NEWSLETTER_SUBSCRIPTION_ACTIVATED'                   => 'Odběr novinek byl úspěšně aktivován.',
 'MESSAGE_NEWSLETTER_SUBSCRIPTION_CANCELED'                    => 'Vaše přihlášení k odběru novinek bylo zrušeno.',
@@ -306,12 +283,9 @@ $aLang = [
 'MESSAGE_PAYMENT_UNAVAILABLE_PAYMENT_ERROR'                   => 'Omlouváme se, ale tento způsob platby je kvůli technickým problémům nedostupný. Prosím vyberte jiný způsob. (Chyba:',
 'MESSAGE_PLEASE_CONTACT_SUPPORT'                              => 'Kontaktujte prosím technickou podporu OXID eSales.',
 'MESSAGE_PLEASE_DELETE_FOLLOWING_DIRECTORY'                   => 'Odstraňte prosím následující adresář:',
-'MESSAGE_PRICE_ALARM_PRICE_CHANGE'                            => 'Budeme Vás informovat, pokud se cena tohoto produktu změní podle Vámi požadované ceny.',
+'MESSAGE_PRICE_ALARM_PRICE_CHANGE'                            => 'Rádi vás budeme informovat o změně ceny tohoto produktu, respektive když se dostane na cenu, za kterou jste ochotni produkt koupit.',
 'MESSAGE_RATE_THIS_ARTICLE'                                   => 'Ohodnoťte tento produkt!',
 'MESSAGE_READ_DETAILS'                                        => 'Přečtěte si',
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'MESSAGE_RECOMMEND_CLICK_ON_SEND'                             => 'Klikněte "Odeslat doporučení" pro odeslání doporučení na vámi zvolený email.',
-/** end deprecated */
 'MESSAGE_SELECT_AT_LEAST_ONE_PRODUCT'                         => 'Vyberte prosím alespoň jeden výrobek!',
 'MESSAGE_SELECT_MORE_PRODUCTS'                                => 'Prosím, vyberte produkty k porovnání!',
 'MESSAGE_SEND_GIFT_REGISTRY'                                  => 'Pro odeslání vašeho seznamu dárků přátelům, klikněte sem.',
@@ -345,9 +319,6 @@ $aLang = [
 'MY_WISH_LIST'                                                => 'Můj seznam poznámek',
 'NEWEST_SHOP_PRODUCTS'                                        => 'Nové v eShopu',
 'NEWLIST'                                                     => 'Nový Listmania seznam',
-// @deprecated 6.5.6 "News" feature will be removed completely
-'NEWS' => 'Novinky',
-// END deprecated
 'NEWSLETTER'                                                  => 'Novinky emailem',
 'NEWSLETTER_SETTINGS'                                         => 'Nastavení novinek emailem',
 'NEWSLETTER_SUBSCRIBE_CANCEL'                                 => 'Přihlásit/zrušit odběr novinek',
@@ -371,7 +342,7 @@ $aLang = [
 'NO_REVIEW_AVAILABLE'                                         => 'Nikdo ještě nenapsal recenzi tohoto zboží.',
 'NUMBER'                                                      => 'Číslo:',
 'NUMBER_2'                                                    => 'Č.',
-'OF'                                                          => 'z',
+'OF'                                                          => 'Od',
 'OLD_PASSWORD'                                                => 'Původní heslo:',
 'ONLY_IN_PACKING_UNITS_OF'                                    => 'V balení pouze po',
 'OPEN_ACCOUNT'                                                => 'Otevřít účet',
@@ -382,7 +353,7 @@ $aLang = [
 'ORDER_DATE'                                                  => 'Datum objednání:',
 'ORDER_EMPTY_HISTORY'                                         => 'Historie neobsahuje žádné objednávky',
 'ORDER_HISTORY'                                               => 'Historie objednávek',
-'ORDER_IS_CANCELED'                                           => 'Objednávka byla zrušena.',
+'ORDER_IS_CANCELED'                                           => 'Objednávka byla stornována.',
 'ORDER_NUMBER'                                                => 'Č.objednávky.',
 'BRAND'                                                       => 'Značka',
 'OUR_BRANDS'                                                  => 'Naše<br>značky',
@@ -403,7 +374,7 @@ $aLang = [
 'PLEASE_CHOOSE'                                               => 'Prosím vyberte',
 'PLEASE_SELECT_STATE'                                         => 'Vyberte prosím stav',
 'PLUS'                                                        => 'plus',
-'PLUS_SHIPPING'                                               => 's DPH, plus ',
+'PLUS_SHIPPING'                                               => 's DPH, plus',
 'PLUS_SHIPPING2'                                              => 'dopravné',
 'PLUS_SHIPPING3'                                              => '* plus doprava',
 'POSTAL_CODE_AND_CITY'                                        => 'PSČ, Město',
@@ -426,14 +397,11 @@ $aLang = [
 'PRODUCT_DETAILS'                                             => 'Detaily produktu',
 'PRODUCT_IMAGES'                                              => 'Obrázky produktu',
 'PRODUCT_NO'                                                  => 'Prod.č.',
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'PRODUCT_POST_CARD_FROM'                                      => 'Pohlednice produktu od',
-/** end deprecated */
 'PRODUCT_REVIEW'                                              => 'Recenze produktu',
 'PUBLIC_GIFT_REGISTRIES'                                      => 'Seznam veřejných dárků',
 'PUBLISH'                                                     => 'Publikovat',
 'PURCHASE_WITHOUT_REGISTRATION'                               => 'Objednat bez registrace',
-'QNT'                                                         => 'ks',
+'QNT'                                                         => 'mn.',
 'QUANTITY'                                                    => 'Množství',
 'QUESTIONS_ABOUT_THIS_PRODUCT'                                => 'Otázky k produktu?',
 'QUESTIONS_ABOUT_THIS_PRODUCT_2'                              => '[?] Otázky k tomuto produktu?',
@@ -447,9 +415,6 @@ $aLang = [
 'RECIPIENT_EMAIL'                                             => 'Email příjemce:',
 'RECIPIENT_NAME'                                              => 'Jméno příjemce:',
 'RECOMMEND'                                                   => 'doporučit',
-/** @deprecated since v6.5.4 (2020-04-06); Suggest feature will be removed completely */
-'RECOMMENDED_PRODUCTS'                                        => 'Mé doporučené produkty:',
-/** end deprecated */
 'RECOMMEND_PRODUCT'                                           => 'Doporučit produkt',
 'REDEEM_COUPON'                                               => 'Použít poukázku',
 'REDUCED_FROM'                                                => 'Zlevněno z',
@@ -545,7 +510,7 @@ $aLang = [
 'VAT'                                                         => 'DPH',
 'VAT_ID_NUMBER'                                               => 'DIČ',
 'VAT_MESSAGE_ID_NOT_VALID'                                    => 'Neplatné DIČ',
-'VAT_MESSAGE_COMPANY_MISSING'                                 => 'Prosím, zadejte název Vaší společnosti spolu s Vaším DIČ!',
+'VAT_MESSAGE_COMPANY_MISSING'                                 => 'Please enter your company name along with your VAT ID!',
 'VENDOR'                                                      => 'Dodavatel',
 'VENDOR_S'                                                    => 'Dodavatel: %s',
 'VERIFICATION_CODE'                                           => 'Ověřovací kód',
@@ -682,7 +647,7 @@ $aLang = [
 'DOWNLOADS_PAYMENT_PENDING'                                   => 'Platba za objednávku zatím nebyla uskutečněná.',
 'MY_DOWNLOADS'                                                => 'Moje soubory ke stažení',
 'MY_DOWNLOADS_DESC'                                           => 'Zde si můžete stáhnout Vaše objednané soubory.',
-'MESSAGE_MY_DOWNLOADS_LINK_EXPIRED'                           => 'Odkaz na stažení byl neplatný, zkuste to prosím nyní znovu.',
+'MESSAGE_MY_DOWNLOADS_LINK_EXPIRED'                           => 'Odkaz na stažení byl neplatný, zkuste prosím nyní znovu.',
 'LINK_VALID_UNTIL'                                            => 'Odkaz na stažení je platný do',
 'LEFT_DOWNLOADS'                                              => 'Zbývající počet stažení',
 'START_DOWNLOADING_UNTIL'                                     => 'Prosím spusťte stahování do',
@@ -706,11 +671,11 @@ $aLang = [
 'BASKET_TOTAL_PLUS_PROPORTIONAL_VAT'                          => '+ DPH (úměrně vypočítané)',
 'PROPORTIONALLY_CALCULATED'                                   => 'Úměrně vypočtené',
 'PRICE_FROM'                                                  => 'od',
-'PAGE_DETAILS_THANKYOUMESSAGE1'                               => 'Děkujeme Vám.',
-'PAGE_DETAILS_THANKYOUMESSAGE2'                               => ' oceňuje vaše komentáře.',
-'PAGE_DETAILS_THANKYOUMESSAGE3'                               => 'Budeme Vás informovat, jakmile cena klesne níže',
+'PAGE_DETAILS_THANKYOUMESSAGE1'                               => 'Thank you.',
+'PAGE_DETAILS_THANKYOUMESSAGE2'                               => ' appreciates your comments.',
+'PAGE_DETAILS_THANKYOUMESSAGE3'                               => 'We will inform you as soon as the price falls below',
 'PAGE_DETAILS_THANKYOUMESSAGE4'                               => '.',
-'PAGE_TITLE_START'                                            => 'Domovská stránka',
+'PAGE_TITLE_START'                                            => 'Home page',
 'PAGE_TITLE_BASKET'                                           => 'Košík',
 'PAGE_TITLE_USER'                                             => 'Dodací adresa',
 'PAGE_TITLE_PAYMENT'                                          => 'Platební metody',
@@ -732,9 +697,6 @@ $aLang = [
 'PAGE_TITLE_LINKS'                                            => 'Odkazy',
 'PAGE_TITLE_SEARCH'                                           => 'Hledat',
 'PAGE_TITLE_CLEARCOOKIES'                                     => 'Informace o cookies',
-// @deprecated 6.5.6 "News" feature will be removed completely
-'PAGE_TITLE_NEWS' => 'Novinky',
-// END deprecated
 'PAGE_TITLE_SUGGEST'                                          => 'Doporučit produkt',
 'PAGE_TITLE_INVITE'                                           => 'Pozvěte Vaše přátele',
 'PAGE_TITLE_REVIEW'                                           => 'hodnocení',
@@ -753,16 +715,16 @@ $aLang = [
 'DETAILS_VPE_MESSAGE'                                         => 'Tento produkt je možné objednat pouze v baleních %s',
 'DETAILS_CHOOSEVARIANT'                                       => 'Prosím vybrat variant',
 'INVITE_TO_SHOP'                                              => 'Pozvánka od %s na návštěvu %s',
-'PAYMENT_INFO_OFF'                                            => 'PLATEBNÍ INFORMACE JSOU VYPNUTY - pro jejich zapnutí prosím upravte Application/views/[theme]/tpl/email/html/order_owner.tpl and plain/order_owner.tpl.',
+'PAYMENT_INFO_OFF'                                            => 'PAYMENT INFORMATION SWITCHED OFF - to switch it on please edit Application/views/[theme]/tpl/email/html/order_owner.tpl and plain/order_owner.tpl.',
 'DISTRIBUTORS'                                                => 'Prodejci',
 'MANUFACTURERS'                                               => 'Značky',
 'SERVICES'                                                    => 'Service',
 'FORM_FIELDSET_USER_SHIPPING_ADDITIONALINFO2_TOOLTIP'         => '', // this is specifically for DHL
 'FORM_FIELDSET_USER_BILLING_ADDITIONALINFO_TOOLTIP'           => '', // this is specifically for DHL
-'FORM_SUGGEST_MESSAGE1'                                       => 'Dobrý den, podíval jsem se na',
-'FORM_SUGGEST_MESSAGE2'                                       => 'dnes a našel jsem něco, co by pro Vás mohlo být zajímavé. Stačí kliknout na odkaz níže a budete přesměrováni do obchodu.',
+'FORM_SUGGEST_MESSAGE1'                                       => 'Hello, I was looking at',
+'FORM_SUGGEST_MESSAGE2'                                       => 'today and found something that might be interesting for you. Just click on the link below and you will be directed to the shop.',
 'SHOP_SUGGEST_MESSAGE'                                        => 'Dobrý den, hledal jsem na %s dnes a našel něco, co by mohlo být zajímavé pro vás. Stačí kliknout na níže uvedený odkaz a budete přesměrováni na prodejnu.',
-'SHOP_SUGGEST_BUY_FOR_ME'                                     => 'Ahoj, vytvořil jsem registr dárků na adrese %s . Děkujeme za nákup zvoleného dárku!',
+'SHOP_SUGGEST_BUY_FOR_ME'                                     => 'Ahoj, vytvořil jsem dárek na %s. Skvělé, kdyby ste mohli koupit něco pro mě.',
 'GIFT_REGISTRY_SENT_SUCCESSFULLY'                             => 'Váš dárek byl úspěšně odeslán na adresu: %s',
 'INCLUDE_VAT'                                                 => 'vč. DPH',
 'COD_CHARGE'                                                  => 'COD Charge',
@@ -785,5 +747,5 @@ $aLang = [
 'INFO_ABOUT_COOKIES'                                          => 'Informace o cookies',
 'PARTNERS'                                                    => 'Partneři',
 
-'MY_REVIEWS'                                                  => 'Moje recenze',
+'MY_REVIEWS'                                                  => 'My reviews',
 ];
