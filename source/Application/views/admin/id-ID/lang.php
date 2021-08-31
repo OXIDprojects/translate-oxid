@@ -1125,7 +1125,7 @@ $aLang = [
     'SHOP_CONFIG_SETORDELETELANGUAGESSLURL'                   => "",
     'SHOP_CONFIG_SHIPPINGCOUNTRYVAT'                          => '',
     'SHOP_CONFIG_STOCKWARNINGLIMIT'                           => '',
-    'SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'                      => '',
+    'SHOP_CONFIG_STOCKOFFDEFAULTMESSAGE'                      => 'Tidak Tersedia',
     'SHOP_CONFIG_STOCKONDEFAULTMESSAGE'                       => '',
 
     // @deprecated since v6.5.1 (2019-02-07); credit card payment method will be no longer supported
